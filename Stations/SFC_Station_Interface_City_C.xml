@@ -1,0 +1,72 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/StationModules_SFC/SM_SFC_Station_Interface_City_C_Lod0" >
+			<LOD Level="1" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Interface_City_C_Lod1" />
+			<LOD Level="2" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Interface_City_C_Lod2" />
+			<LOD Level="3" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Interface_City_C_Lod3" />
+			<LOD Level="4" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Interface_City_C_Lod4" />
+			<LODPower>1.0</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+
+			<PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/420f7e25.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+
+			<Light Type="PointLight" >
+				<Name>Omni005</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>500000000</Lumens>
+				<position x="0" y="0.15500001609325408936" z="-0.094999991357326507568" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni004</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>500000000</Lumens>
+				<position x="0.13000001013278961182" y="0.050000000745058059692" z="0.010000000707805156708" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni003</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>500000000</Lumens>
+				<position x="-0.13000001013278961182" y="0.050000000745058059692" z="0.010000000707805156708" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni002</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>500000000</Lumens>
+				<position x="-0.13000001013278961182" y="-0.1950000077486038208" z="-0.11500003188848495483" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni001</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>500000000</Lumens>
+				<position x="-0.0070000002160668373108" y="0" z="0.19000001251697540283" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Module>
+		        <Class>Unknown</Class>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/420f7e25.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>Unknown</Class>
+			</Module>
+		</TransformNode>
+	</Condition>
+</Filter>

@@ -1,0 +1,828 @@
+<Effects>
+
+	<!-- Kinetic impacts -->
+
+	<Effect>
+		<Name>ImpactMetalSmallKinetic</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Kinetic_vs_Metal_Small</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="1.0" Y="0.4" Z="0.0" />
+		<LightIntensity>100000000.0</LightIntensity>
+		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>HitEnemy</Name>
+			<DuplicateRange>0.001</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactMetalSmallSelfKinetic</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Kinetic_vs_Metal_Small</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="1.0" Y="0.4" Z="0.0" />
+		<LightIntensity>100000000.0</LightIntensity>
+		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>HitSelfKinetic</Name>
+			<DuplicateRange>0.001</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactMetalMediumKinetic</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Kinetic_vs_Metal_Medium</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="1.0" Y="0.4" Z="0.0" />
+		<LightIntensity>400000000.0</LightIntensity>
+		<LightCutoff>100.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>HitEnemy</Name>
+			<DuplicateRange>0.001</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactMetalMediumSelfKinetic</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Kinetic_vs_Metal_Medium</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="1.0" Y="0.4" Z="0.0" />
+		<LightIntensity>400000000.0</LightIntensity>
+		<LightCutoff>100.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>HitSelfKinetic</Name>
+			<DuplicateRange>0.001</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactMetalLargeKinetic</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Kinetic_vs_Metal_Large</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="1.0" Y="0.4" Z="0.0" />
+		<LightIntensity>1000000000.0</LightIntensity>
+		<LightCutoff>120.0</LightCutoff>
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>HitEnemy</Name>
+			<DuplicateRange>0.005</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.05</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactMetalLargeSelfKinetic</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Kinetic_vs_Metal_Large</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="1.0" Y="0.4" Z="0.0" />
+		<LightIntensity>1000000000.0</LightIntensity>
+		<LightCutoff>120.0</LightCutoff>
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>HitSelfKinetic</Name>
+			<DuplicateRange>0.005</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.05</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactShieldSmallKinetic</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Shield</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="0.2" Y="0.3" Z="1.0" />
+		<LightIntensity>100000000.0</LightIntensity>
+		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>ImpactShieldSmall</Name>
+			<DuplicateRange>0.001</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactShieldSmallSelfKinetic</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Shield</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="0.2" Y="0.3" Z="1.0" />
+		<LightIntensity>100000000.0</LightIntensity>
+		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>ImpactShieldSmall</Name>
+			<DuplicateRange>0.001</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactShieldLargeKinetic</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Shield</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="0.2" Y="0.3" Z="1.0" />
+		<LightIntensity>1000000000.0</LightIntensity>
+		<LightCutoff>120.0</LightCutoff>
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>ImpactShieldBig</Name>
+			<DuplicateRange>0.005</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.05</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactShieldLargeSelfKinetic</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Shield</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="0.2" Y="0.3" Z="1.0" />
+		<LightIntensity>1000000000.0</LightIntensity>
+		<LightCutoff>120.0</LightCutoff>
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>ImpactShieldBig</Name>
+			<DuplicateRange>0.005</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.05</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<!-- Energy impacts -->
+
+	<Effect>
+		<Name>ImpactMetalSmallEnergy</Name>
+		<ParticleSystem>Particles/Weapons/IBSProto/Effects/100_Explosion_Burst_small</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="1.0" Y="0.3" Z="0.2" />
+		<LightIntensity>100000000.0</LightIntensity>
+		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>HitEnemy</Name>
+			<DuplicateRange>0.001</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactMetalSmallSelfEnergy</Name>
+		<ParticleSystem>Particles/Weapons/IBSProto/Effects/100_Explosion_Burst_small</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="1.0" Y="0.3" Z="0.2" />
+		<LightIntensity>100000000.0</LightIntensity>
+		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>HitSelfKinetic</Name>
+			<DuplicateRange>0.001</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactMetalLargeEnergy</Name>
+		<ParticleSystem>Particles/Weapons/IBSProto/Effects/100_Explosion_Burst_small</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="1.0" Y="0.3" Z="0.2" />
+		<LightIntensity>1000000000.0</LightIntensity>
+		<LightCutoff>120.0</LightCutoff>
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>HitEnemy</Name>
+			<DuplicateRange>0.005</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.05</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactMetalLargeSelfEnergy</Name>
+		<ParticleSystem>Particles/Weapons/IBSProto/Effects/100_Explosion_Burst_small</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="1.0" Y="0.3" Z="0.2" />
+		<LightIntensity>1000000000.0</LightIntensity>
+		<LightCutoff>120.0</LightCutoff>
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>HitSelfKinetic</Name>
+			<DuplicateRange>0.005</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.05</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactShieldSmallEnergy</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Shield</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="0.0" Y="0.4" Z="1.0" />
+		<LightIntensity>100000000.0</LightIntensity>
+		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>ImpactShieldSmall</Name>
+			<DuplicateRange>0.001</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactShieldSmallSelfEnergy</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Shield</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="0.0" Y="0.4" Z="1.0" />
+		<LightIntensity>100000000.0</LightIntensity>
+		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>ImpactShieldSmall</Name>
+			<DuplicateRange>0.001</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactShieldLargeEnergy</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Shield</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="0.0" Y="0.4" Z="1.0" />
+		<LightIntensity>1000000000.0</LightIntensity>
+		<LightCutoff>120.0</LightCutoff>
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>ImpactShieldBig</Name>
+			<DuplicateRange>0.005</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.05</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactShieldLargeSelfEnergy</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Shield</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="0.0" Y="0.4" Z="1.0" />
+		<LightIntensity>1000000000.0</LightIntensity>
+		<LightCutoff>120.0</LightCutoff>
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>ImpactShieldBig</Name>
+			<DuplicateRange>0.005</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.05</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<!-- Explosions -->
+
+	<Effect>
+		<Name>DyingExplosion</Name>
+		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Houdini_Explosion1Small</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="1.0" Y="0.4" Z="0.1" />
+		<LightIntensity>6000000000.0</LightIntensity>
+		<LightMLQ>8192.0</LightMLQ>
+		<LightDuration>2.50</LightDuration>
+		<Sound>
+			<Name>ExplosionSmallTest</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+			<DuplicateRange>0.01</DuplicateRange>
+			<DuplicateLength>0.25</DuplicateLength>
+			<Gain>0.5</Gain>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.1</Amplitude>
+			<Size>0.25</Size>
+			<Duration>0.6</Duration>
+		</Vibrations>
+		<Smog>true</Smog>
+	</Effect>
+
+	<Effect>
+		<Name>SmallShipExplosion</Name>
+		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Houdini_Explosion1</ParticleSystem>
+		<Scale>0.75</Scale>
+		<LightColor X="1.0" Y="0.4" Z="0.1" />
+		<LightIntensity>160000000000.0</LightIntensity>
+		<LightMLQ>8192.0</LightMLQ>
+<!-- 		<LightIntensity>16000000000.0</LightIntensity>
+		<LightMLQ>4096.0</LightMLQ> -->
+		<LightDuration>4.0</LightDuration>
+		<Sound>
+			<Name>ExplosionSmallTest</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
+			<DistRangeScale>2.0</DistRangeScale>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.25</Amplitude>
+			<Size>0.2</Size>
+			<Duration>0.5</Duration>
+		</Vibrations>
+		<Smog>true</Smog>
+	</Effect>
+
+	<Effect>
+		<Name>CapShipExplosion</Name>
+		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Capship2</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="0.1" Y="0.5" Z="1.0" />
+		<LightIntensity>2000000000.0</LightIntensity>
+		<LightMLQ>8192.0</LightMLQ>
+		<LightDuration>4.0</LightDuration>
+		<Sound>
+			<Name>ExplosionCapship</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+			<DuplicateRange>0.5</DuplicateRange>
+			<DuplicateLength>1.0</DuplicateLength>
+		</Sound>
+		<Vibrations>
+			<Amplitude>1.0</Amplitude>
+			<Size>0.2</Size>
+			<Duration>1.0</Duration>
+		</Vibrations>
+		<Smog>true</Smog>
+	</Effect>
+
+	<Effect>
+		<Name>CapShipExplosionCore</Name>
+		<ParticleSystem>Particles/Tests/P_CapshipHideTest</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="1.0" Y="0.4" Z="0.1" />
+		<LightIntensity>50000000000.0</LightIntensity>
+		<LightMLQ>8192.0</LightMLQ>
+<!-- 		<LightIntensity>5000000000.0</LightIntensity>
+		<LightMLQ>4096.0</LightMLQ> -->
+		<LightDuration>4.0</LightDuration>
+		<Sound>
+			<Name>ExplosionSmallTest</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
+			<DistRangeScale>2.0</DistRangeScale>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.25</Amplitude>
+			<Size>0.2</Size>
+			<Duration>0.5</Duration>
+		</Vibrations>
+		<Smog>true</Smog>
+	</Effect>
+
+	<Effect>
+		<Name>BlueShockwave</Name>
+		<ParticleSystem>Particles/Shockwaves/P_CapShipShockwaveBlueOptimized</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="0.1" Y="0.3" Z="1.0" />
+		<LightIntensity>50000000000.0</LightIntensity>
+		<LightMLQ>8192.0</LightMLQ>
+<!-- 		<LightIntensity>5000000000.0</LightIntensity>
+		<LightMLQ>4096.0</LightMLQ> -->
+		<LightDuration>8.0</LightDuration>
+		<LightShadows>512</LightShadows>
+		<Sound>
+			<Name>ExplosionCapship</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+			<DuplicateRange>0.5</DuplicateRange>
+			<DuplicateLength>1.0</DuplicateLength>
+		</Sound>
+		<Vibrations>
+			<Amplitude>1.0</Amplitude>
+			<Size>0.03</Size>
+			<Rough>0.7</Rough>
+			<Duration>0.7</Duration>
+		</Vibrations>
+		<Smog>true</Smog>
+	</Effect>
+
+	<Effect>
+		<Name>MissileExplosion</Name>
+		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Missile2</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="1.0" Y="0.6" Z="0.2" />
+		<LightIntensity>2500000000000.0</LightIntensity>
+		<LightMLQ>8192.0</LightMLQ>
+<!-- 		<LightIntensity>250000000000.0</LightIntensity>
+		<LightMLQ>4096.0</LightMLQ> -->
+		<LightDuration>2.0</LightDuration>
+		<Sound>
+			<Name>FarExplosion</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.25</Amplitude>
+			<Size>0.15</Size>
+			<Duration>0.75</Duration>
+		</Vibrations>
+		<Smog>true</Smog>
+	</Effect>
+
+	<Effect>
+		<Name>TorpedoExplosion</Name>
+		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Torpedo4_NoImpact</ParticleSystem>
+<!-- 		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Torpedo3a</ParticleSystem> -->
+<!-- 		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Torpedo2b</ParticleSystem> -->
+		<Scale>1.0</Scale>
+<!-- 		<LightColor X="1.0" Y="0.3" Z="0.5" /> -->
+		<LightColor X="0.3" Y="0.05" Z="1.0" />
+		<LightIntensity>200000000000.0</LightIntensity>
+		<LightMLQ>8192.0</LightMLQ>
+<!-- 		<LightIntensity>800000000000.0</LightIntensity>
+		<LightMLQ>4096.0</LightMLQ> -->
+<!-- 		<LightDuration>5.0</LightDuration> -->
+		<LightDuration>2.5</LightDuration>
+		<Sound>
+			<Name>ExplosionCapship</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+			<DuplicateRange>0.5</DuplicateRange>
+			<DuplicateLength>1.0</DuplicateLength>
+		</Sound>
+		<Vibrations>
+			<Amplitude>1.0</Amplitude>
+			<Size>0.03</Size>
+			<Duration>0.7</Duration>
+		</Vibrations>
+		<Smog>true</Smog>
+	</Effect>
+
+	<Effect>
+		<Name>TorpedoImpact</Name>
+		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Torpedo4_Impact</ParticleSystem>
+		<Scale>1.0</Scale>
+<!-- 		<LightColor X="1.0" Y="0.3" Z="0.5" /> -->
+		<LightColor X="0.3" Y="0.05" Z="1.0" />
+		<LightIntensity>200000000000.0</LightIntensity>
+		<LightMLQ>8192.0</LightMLQ>
+		<LightDuration>2.5</LightDuration>
+		<Sound>
+			<Name>ExplosionCapship</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+			<DuplicateRange>0.5</DuplicateRange>
+			<DuplicateLength>1.0</DuplicateLength>
+		</Sound>
+		<Vibrations>
+			<Amplitude>1.0</Amplitude>
+			<Size>0.03</Size>
+			<Duration>0.7</Duration>
+		</Vibrations>
+		<Smog>true</Smog>
+	</Effect>
+
+	<Effect>
+		<Name>MineExplosion</Name>
+<!-- 		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Mine</ParticleSystem> -->
+		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Mine3</ParticleSystem>
+		<Scale>1.0</Scale>
+<!-- 		<LightColor X="0.1" Y="0.3" Z="1.0" /> -->
+		<LightColor X="1.0" Y="0.3" Z="0.2" />
+		<LightIntensity>100000000000.0</LightIntensity>
+		<LightMLQ>8192.0</LightMLQ>
+<!-- 		<LightIntensity>5000000000.0</LightIntensity>
+		<LightMLQ>4096.0</LightMLQ> -->
+		<LightDuration>6.0</LightDuration>
+		<LightShadows>512</LightShadows>
+		<Sound>
+			<Name>ExplosionCapship</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+			<DuplicateRange>0.5</DuplicateRange>
+			<DuplicateLength>1.0</DuplicateLength>
+		</Sound>
+		<Vibrations>
+			<Amplitude>1.0</Amplitude>
+			<Size>0.03</Size>
+			<Rough>0.7</Rough>
+			<Duration>0.7</Duration>
+		</Vibrations>
+		<Smog>true</Smog>
+	</Effect>
+
+	<Effect>
+		<Name>FlakExplosion</Name>
+		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Flak</ParticleSystem>
+		<Scale>0.4</Scale>
+		<LightColor X="1.0" Y="0.5" Z="0.1" />
+		<LightIntensity>1000000000.0</LightIntensity>
+		<LightMLQ>8192.0</LightMLQ>
+		<LightDuration>0.50</LightDuration>
+		<Sound>
+			<Name>ExplosionSmallTest</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+			<DuplicateRange>0.01</DuplicateRange>
+			<DuplicateLength>0.25</DuplicateLength>
+			<Gain>0.5</Gain>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.2</Amplitude>
+			<Size>0.2</Size>
+			<Duration>1.0</Duration>
+		</Vibrations>
+		<Smog>false</Smog>
+	</Effect>
+
+	<Effect>
+		<Name>HullDamageFireSmall</Name>
+		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Internal_small</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="1.0" Y="0.4" Z="0.1" />
+		<LightIntensity>10000000000.0</LightIntensity>
+		<LightCutoff>150.0</LightCutoff>
+		<LightDuration>4.5</LightDuration>
+		<LightOffset>0.03</LightOffset>
+		<Sound>
+			<Name>FarExplosion</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.25</DuplicateLength>
+			<Gain>0.4</Gain>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.1</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>HullDamageFireBig</Name>
+		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Internal_big</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="1.0" Y="0.4" Z="0.1" />
+		<LightIntensity>10000000000.0</LightIntensity>
+		<LightCutoff>150.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+		<LightDuration>7.0</LightDuration>
+		<LightOffset>0.03</LightOffset>
+		<Sound>
+			<Name>FarExplosion</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
+			<Gain>0.7</Gain>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.25</Amplitude>
+			<Size>0.5</Size>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ModuleExplosion</Name>
+		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Fiery4_long</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="1.0" Y="0.4" Z="0.1" />
+		<LightIntensity>20000000000.0</LightIntensity>
+		<LightCutoff>200.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+		<LightDuration>8.0</LightDuration>
+		<LightOffset>0.03</LightOffset>
+		<Sound>
+			<Name>FarExplosion</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.25</DuplicateLength>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.2</Amplitude>
+			<Size>0.25</Size>
+		</Vibrations>
+	</Effect>
+
+	<!-- Misc -->
+
+	<Effect>
+		<Name>CollisionMetal</Name>
+		<Sound>
+			<Name>CollisionMetal</Name>
+			<DuplicateRange>0.01</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.1</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>Contrail</Name>
+		<ParticleSystem>Particles/Atmospheres/Effects/101-Contrail</ParticleSystem>
+		<Instance>true</Instance>
+	</Effect>
+
+	<Effect>
+		<Name>SmokeTrail</Name>
+		<ParticleSystem>Particles/Smoke/Effects/P_Smoke_Trail</ParticleSystem>
+		<Instance>true</Instance>
+	</Effect>
+
+	<Effect>
+		<Name>WindDust</Name>
+		<ParticleSystem>Particles/Atmospheres/Effects/101_Wind-Dust</ParticleSystem>
+		<Instance>true</Instance>
+	</Effect>
+
+	<Effect>
+		<Name>WeaponDamageSmoke</Name>
+		<ParticleSystem>Particles/Smoke/Effects/P_Weapon_Damaged</ParticleSystem>
+		<Instance>true</Instance>
+	</Effect>
+
+	<Effect>
+		<Name>WarpEnter</Name>
+<!-- 		<ParticleSystem>Particles/Warp/P_EnterWarp</ParticleSystem> -->
+		<LightColor X="0.0" Y="0.4" Z="1.0" />
+		<LightIntensity>200000000.0</LightIntensity>
+		<LightCutoff>100.0</LightCutoff>
+		<LightDuration>0.5</LightDuration>
+		<Vibrations>
+			<Amplitude>0.1</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>WarpExit</Name>
+<!-- 		<ParticleSystem>Particles/Warp/P_ExitWarp</ParticleSystem> -->
+		<LightColor X="0.0" Y="0.4" Z="1.0" />
+		<LightIntensity>200000000.0</LightIntensity>
+		<LightCutoff>100.0</LightCutoff>
+		<LightDuration>0.5</LightDuration>
+		<Vibrations>
+			<Amplitude>0.1</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ExplosionPlasma</Name>
+		<ParticleSystem>Particles/Explosions/Effects/P_Explosion_Plasma_med</ParticleSystem>
+	</Effect>
+
+	<Effect>
+		<Name>GlowFlash</Name>
+		<ParticleSystem>Particles/Weapons/Impacts/Effect/100_Impact_155mm</ParticleSystem>
+	</Effect>
+
+	<Effect>
+		<Name>ChaffLaunch</Name>
+		<Sound>
+			<Name>ChaffLaunch</Name>
+			<DuplicateRange>0.01</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>Chaff</Name>
+		<ParticleSystem>Particles/CounterMeasures/Effects/P_CounterMeasureTrailsFiery</ParticleSystem>
+		<Scale>0.25</Scale>
+		<LightColor X="0.8" Y="0.9" Z="1.0" />
+		<LightIntensity>100000000.0</LightIntensity>
+		<LightCutoff>50.0</LightCutoff>
+		<LightDuration>1.0</LightDuration>
+		<Sound>
+			<Name>ChaffTravel</Name>
+			<DuplicateRange>0.01</DuplicateRange>
+		</Sound>
+	</Effect>
+
+	<Effect>
+		<Name>CratePickup</Name>
+		<LightColor X="1.0" Y="0.9" Z="0.8" />
+		<LightIntensity>100000000.0</LightIntensity>
+		<LightCutoff>50.0</LightCutoff>
+		<LightDuration>0.25</LightDuration>
+		<Sound>
+			<Name>CratePickup</Name>
+			<DuplicateRange>0.01</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.01</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>WarpJam</Name>
+		<ParticleSystem>Particles/WarpInterdiction/Effect/P_WarpInterdictionTest3</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="0.0" Y="0.9" Z="1.0" />
+		<LightIntensity>10000000000.0</LightIntensity>
+		<LightCutoff>25000.0</LightCutoff>
+		<LightDuration>5.0</LightDuration>
+		<Sound>
+			<Name>WarpJam</Name>
+			<DuplicateRange>0.5</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.05</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactMetalSparkles</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_JustSparks</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="1.0" Y="0.4" Z="0.0" />
+		<LightIntensity>100000000.0</LightIntensity>
+		<LightCutoff>60.0</LightCutoff>
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>HitEnemy</Name>
+			<DuplicateRange>0.001</DuplicateRange>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>CockpitSparkles</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Cockpit_Sparkles</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="1.0" Y="0.4" Z="0.0" />
+		<LightIntensity>1000000000.0</LightIntensity>
+		<LightCutoff>20.0</LightCutoff>
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>ElectricityFizzle</Name>
+			<DuplicateRange>1000000.0</DuplicateRange>
+			<MaxDupedCount>1</MaxDupedCount>
+		</Sound>
+	</Effect>
+
+	<Effect>
+		<Name>Debris</Name>
+		<ParticleSystem>Particles/Debris/Effects/P_Space_Debris</ParticleSystem>
+		<Instance>true</Instance>
+		<Scale>1.0</Scale>
+	</Effect>
+
+	<Effect>
+		<Name>ShrapnelSmall</Name>
+		<ParticleSystem>Particles/Shrapnel/P_ShrapnelTest</ParticleSystem>
+		<Scale>1.0</Scale>
+	</Effect>
+
+	<Effect>
+		<Name>ShrapnelBig</Name>
+		<ParticleSystem>Particles/Shrapnel/P_ShrapnelTestBig</ParticleSystem>
+		<Scale>1.0</Scale>
+	</Effect>
+
+	<Effect>
+		<Name>BattleSmog</Name>
+		<ParticleSystem>Particles/Smoke/Effects/P_LitSmoke</ParticleSystem>
+		<Instance>true</Instance>
+	</Effect>
+
+	<!-- CACHED EFFECTS, not used for gameplay, just to optimize spawning actors -->
+
+	<Effect>
+		<Name>RepairAura</Name>
+		<ParticleSystem>Particles/Weapons/RepairAura/P_RepairAura3</ParticleSystem>
+	</Effect>
+	<Effect>
+		<Name>RepairFireflies</Name>
+		<ParticleSystem>Particles/Weapons/RepairAura/P_RepairAuraFireflies_med</ParticleSystem>
+	</Effect>
+	<Effect>
+		<Name>SmallThrusters</Name>
+		<ParticleSystem>Particles/Thrusters/Main_Drive/Effect/P_Small_Thruster</ParticleSystem>
+	</Effect>
+	<Effect>
+		<Name>MJetThrusters</Name>
+		<ParticleSystem>Particles/Thrusters/M_Jet/Effect/P_Mjet</ParticleSystem>
+	</Effect>
+
+</Effects>

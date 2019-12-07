@@ -1,0 +1,88 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/SFC-Military/SM_SFC_Military_Pipe_500m_boxy_Lod0" >
+			<LOD Level="1" Mesh="Structures/SFC-Military/SM_SFC_Military_Pipe_500m_boxy_Lod1" />
+			<LOD Level="2" Mesh="Structures/SFC-Military/SM_SFC_Military_Pipe_500m_boxy_Lod2" />
+			<LOD Level="3" Mesh="Structures/SFC-Military/SM_SFC_Military_Pipe_500m_boxy_Lod3" />
+			<LOD Level="4" Mesh="Structures/SFC-Military/SM_SFC_Military_Pipe_500m_boxy_Lod4" />
+			<LOD Level="5" Mesh="Structures/SFC-Military/SM_SFC_Military_Pipe_500m_boxy_Lod5" />
+			<LOD Level="6" Mesh="Structures/SFC-Military/SM_SFC_Military_Pipe_500m_boxy_Lod6" />
+			<LODPower>1.0</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+		
+			<PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Military/616a3ba3.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			
+			<Light Type="SpotLight" >
+				<Name>Spot004</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>15.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="-0.054591134190559387207" y="-0.060000002384185791016" z="0.04534254223108291626" Type="3dsMax"/>
+				<rotation x="0.45605537295341491699" y="0.14520905911922454834" z="-0.54038280248641967773" w="0.6920363306999206543" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>Spot003</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>15.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="0.054583664983510971069" y="-0.060000002384185791016" z="0.045354459434747695923" Type="3dsMax"/>
+				<rotation x="0.091690942645072937012" y="-0.49618005752563476563" z="0.70113682746887207031" w="0.50379091501235961914" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>Spot001</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>15.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="0.054583664983510971069" y="0.060000002384185791016" z="0.045354459434747695923" Type="3dsMax"/>
+				<rotation x="0.091690942645072937012" y="-0.49618005752563476563" z="0.70113682746887207031" w="0.50379091501235961914" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>Spot002</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>15.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="-0.054591134190559387207" y="0.060000002384185791016" z="0.04534254223108291626" Type="3dsMax"/>
+				<rotation x="0.45605537295341491699" y="0.14520905911922454834" z="-0.54038280248641967773" w="0.6920363306999206543" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+			<Light Type="PointLight" >
+				<Name>Omni001</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>50000000.0</Lumens>
+				<position x="0" y="0.20248110592365264893" z="0.13863453269004821777" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+			</Light>
+			
+			<Module>
+		        <Class>Unknown</Class>
+				<MapToPlanet>true</MapToPlanet>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Military/616a3ba3.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>Unknown</Class>
+				<MapToPlanet>true</MapToPlanet>
+			</Module>
+		</TransformNode>
+	</Condition>
+</Filter>

@@ -1,0 +1,102 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/SFC-Military/SM_SFC_Military_GunTower2_Lod0" >
+			<LOD Level="1" Mesh="Structures/SFC-Military/SM_SFC_Military_GunTower2_Lod1" />
+			<LOD Level="2" Mesh="Structures/SFC-Military/SM_SFC_Military_GunTower2_Lod2" />
+			<LOD Level="3" Mesh="Structures/SFC-Military/SM_SFC_Military_GunTower2_Lod3" />
+			<LOD Level="4" Mesh="Structures/SFC-Military/SM_SFC_Military_GunTower2_Lod4" />
+			<LOD Level="5" Mesh="Structures/SFC-Military/SM_SFC_Military_GunTower2_Lod5" />
+			<LOD Level="6" Mesh="Structures/SFC-Military/SM_SFC_Military_GunTower2_Lod6" />
+			<LODPower>1.0</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+		
+			<PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Military/d65295f8.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			
+			<Light Type="SpotLight" >
+				<Name>Spot004</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>100000000</Lumens>
+				<Innercone>20.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="0.070000000298023223877" y="0" z="0.14000000059604644775" Type="3dsMax"/>
+				<rotation x="0.47158476710319519043" y="-0.47158455848693847656" z="0.52688497304916381836" w="0.52688521146774291992" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot003</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>100000000</Lumens>
+				<Innercone>20.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="-0.070000000298023223877" y="0" z="0.14000000059604644775" Type="3dsMax"/>
+				<rotation x="0.47158476710319519043" y="0.47158455848693847656" z="-0.52688497304916381836" w="0.52688521146774291992" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot002</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>100000000</Lumens>
+				<Innercone>20.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="0" y="0.070000000298023223877" z="0.14000000059604644775" Type="3dsMax"/>
+				<rotation x="0.66692143678665161133" y="0" z="0" w="0.74512803554534912109" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot001</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>100000000</Lumens>
+				<Innercone>20.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="0" y="-0.070000000298023223877" z="0.14000000059604644775" Type="3dsMax"/>
+				<rotation x="0" y="-0.66692143678665161133" z="0.74512803554534912109" w="0" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Module>
+		        <Class>DefenseTowerA</Class>
+				<HitPoints>1500</HitPoints>
+				<Score>20</Score>
+				<MapToPlanet>true</MapToPlanet>
+			    <Sockets>
+					<FileName>$Dev/Structures/SFC-Military/d65295f8.insm</FileName>
+			        <Socket Name="s_turret" Type="Hardpoint" Class="MK3" />
+			    </Sockets>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Military/d65295f8.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>DefenseTowerA</Class>
+				<HitPoints>1500</HitPoints>
+				<Score>20</Score>
+				<MapToPlanet>true</MapToPlanet>
+			    <Sockets>
+					<FileName>$Dev/Structures/SFC-Military/d65295f8.insm</FileName>
+			        <Socket Name="s_turret" Type="Hardpoint" Class="MK3" />
+			    </Sockets>
+			</Module>
+			<ServerModule>
+				<CreditsReward>20</CreditsReward>
+				<OnDestroyedPopupTitle>Server_Destroyed_Module_DefenseTower_Title_Self</OnDestroyedPopupTitle>
+				<OnDestroyedPopupText>Server_Destroyed_Module_DefenseTower_Text_Self</OnDestroyedPopupText>
+				<OnDestroyedPopupFooter>Server_Destroyed_Module_DefenseTower_Footer_Self</OnDestroyedPopupFooter>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

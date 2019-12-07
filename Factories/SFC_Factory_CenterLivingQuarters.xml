@@ -1,0 +1,107 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLivingQuarters_Lod0" >
+		    <LOD Level="1" Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLivingQuarters_Lod1" />
+		    <LOD Level="2" Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLivingQuarters_Lod2" />
+		    <LOD Level="3" Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLivingQuarters_Lod3" />
+		    <LOD Level="4" Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLivingQuarters_Lod4" />
+		    <LOD Level="5" Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLivingQuarters_Lod5" />
+		    <LOD Level="6" Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLivingQuarters_Lod6" />
+		    <LODPower>0.5</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+		
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Factory/407f2079.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+
+			<Light Type="SpotLight" >
+				<Name>Spot002</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>6000000</Lumens>
+				<Innercone>43.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.53462487459182739258" y="-0.038566742092370986938" z="0.22951731085777282715" Type="3dsMax"/>
+				<rotation x="0.10734856873750686646" y="0.10734853893518447876" z="-0.69891071319580078125" w="0.69891083240509033203" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot001</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>6000000</Lumens>
+				<Innercone>43.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.53462487459182739258" y="-0.0031846640631556510925" z="0.22951731085777282715" Type="3dsMax"/>
+				<rotation x="0.10734857618808746338" y="0.10734852403402328491" z="-0.69891077280044555664" w="0.69891077280044555664" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni005</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>100000000</Lumens>
+				<position x="-0.52146196365356445313" y="-0.076474964618682861328" z="0.22912696003913879395" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni004</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>100000000</Lumens>
+				<position x="-0.46015137434005737305" y="-0.076474964618682861328" z="0.22912696003913879395" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni003</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>100000000</Lumens>
+				<position x="-0.52146196365356445313" y="0.07648614048957824707" z="0.22912696003913879395" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni002</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>100000000</Lumens>
+				<position x="-0.46015137434005737305" y="0.07648614048957824707" z="0.22912696003913879395" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni001</Name>
+				<Color X="1.0" Y="0.0" Z="0.0" />
+				<Lumens>100000000</Lumens>
+				<position x="-0.72368425130844116211" y="0.02798718772828578949" z="0.20525076985359191895" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Module>
+		        <Class>Unknown</Class>
+				<HitPoints>2000</HitPoints>
+				<Score>25</Score>
+				<MapToPlanet>true</MapToPlanet>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Factory/407f2079.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>Unknown</Class>
+				<HitPoints>2000</HitPoints>
+				<Score>25</Score>
+				<MapToPlanet>true</MapToPlanet>
+			</Module>
+			<ServerModule>
+				<CreditsReward>10</CreditsReward>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

@@ -1,0 +1,31 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/StationModules_SFC/SM_SFC_Station_Interface_Flat_A_Lod0" >
+			<LOD Level="1" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Interface_Flat_A_Lod1" />
+			<LOD Level="2" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Interface_Flat_A_Lod2" />
+			<LOD Level="3" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Interface_Flat_A_Lod3" />
+			<LOD Level="4" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Interface_Flat_A_Lod4" />
+			<LODPower>1.0</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+		
+			<PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/5b174733.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>Unknown</Class>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/5b174733.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>Unknown</Class>
+			</Module>
+		</TransformNode>
+	</Condition>
+</Filter>

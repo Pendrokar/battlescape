@@ -1,0 +1,99 @@
+<MusicDirector>
+	<Volume>0.30</Volume> <!-- default volume level, overrided by user settings -->
+	<FadeFactor>0.15</FadeFactor> <!-- how quickly it transitions between tracks in 0-1 -->
+
+	<Asset>$Dev/Sounds/Musics.bank</Asset>
+
+	<Track>
+		<Type>Menu</Type>
+		<Path>event:/Mod/Music/Infinity_TQFE_MainTheme_8bit</Path>
+		<Volume>1.0</Volume>
+	</Track>
+
+	<!-- <Track>
+		<Type>Menu</Type>
+		<Path>event:/Musics/Menu/Infinity_MainTheme_Mix_V2_loop</Path>
+		<Volume>1.0</Volume>
+	</Track> -->
+
+	<Track>
+		<Type>Space_Ambient</Type>
+		<Path>event:/Musics/Ambient/Infinity_Ambient_SP_01_Demo_loop_V1</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Space_Ambient</Type>
+		<Path>event:/Musics/Ambient/Infinity_Ambient_SP_02_Demo_loop_V1</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Space_Ambient</Type>
+		<Path>event:/Musics/Ambient/Infinity_Ambient_SP_03_Demo_loop_V2</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Space_Ambient</Type>
+		<Path>event:/Musics/Ambient/Infinity_Ambient_SP_04_Demo_loop_V1</Path>
+		<Volume>1.0</Volume>
+	</Track>
+
+	<Track>
+		<Type>Planet_Ambient</Type>
+		<Path>event:/Musics/Ambient/Infinity_Ambient_PL_01_Demo_loop_V1</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Planet_Ambient</Type>
+		<Path>event:/Musics/Ambient/Infinity_Ambient_PL_05_Demo_loop_V1</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Planet_Ambient</Type>
+		<Path>event:/Musics/Ambient/Infinity_Ambient_PL_06_Demo_loop_V1</Path>
+		<Volume>1.0</Volume>
+	</Track>
+
+	<Track>
+		<Type>GasGiant_Ambient</Type>
+		<Path>event:/Musics/Planet_GasGiant/GasGiantLoop</Path>
+		<Volume>1.0</Volume>
+	</Track>
+
+	<Track>
+		<Type>Space_Exploration</Type>
+		<Path>event:/Musics/Exploration/Infinity_Exploration_01_loop_V1</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Space_Exploration</Type>
+		<Path>event:/Musics/Exploration/Infinity_Exploration_02_loop_V2</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Space_Exploration</Type>
+		<Path>event:/Musics/Exploration/Infinity_Exploration_03_Demo_loop_V1</Path>
+		<Volume>1.0</Volume>
+	</Track>
+
+	<Track>
+		<Type>Battle</Type>
+		<Path>event:/Musics/Battle/Infinity_Battle_01_Demo_loop_V1</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Battle</Type>
+		<Path>event:/Musics/Battle/Infinity_Battle_02_Demo_loop_V2</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Battle</Type>
+		<Path>event:/Musics/Battle/Infinity_Battle_03_Demo_loop_V1</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Battle</Type>
+		<Path>event:/Musics/Battle/Infinity_Battle_04_Demo_loop_V1</Path>
+		<Volume>1.0</Volume>
+	</Track>
+
+</MusicDirector>

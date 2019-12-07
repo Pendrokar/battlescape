@@ -1,0 +1,60 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/StationModules_SFC/SM_SFC_Station_CapShipDock_A_Lod0" >
+			<LOD Level="1" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CapShipDock_A_Lod1" />
+			<LOD Level="2" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CapShipDock_A_Lod2" />
+			<LOD Level="3" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CapShipDock_A_Lod3" />
+			<LOD Level="4" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CapShipDock_A_Lod4" />
+			<LOD Level="5" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CapShipDock_A_Lod5" />
+			<LODPower>0.35</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+
+			<PhysicsBody Type="Mesh" >
+<!-- 		        <CollisionFile>$Dev/Structures/SFC-Stations/1f8a900b.insm</CollisionFile> -->
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/0127231b.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+
+			<Module>
+				<Class>DockingSpawn</Class>
+				<HitPoints>30000</HitPoints>
+				<Score>70</Score>
+			    <Spawn>
+					<Type>Capship</Type>
+			        <Size X="0.600" Y="1.500" Z="0.200" Type="3dsMax" />
+			        <Position X="0" Y="-0.525" Z="0.024" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="1" W="0" Type="3dsMax" />
+			        <Offset X="0" Y="0" Z="0" />
+			    </Spawn>
+			</Module>
+
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+<!-- 		        <CollisionFile>$Dev/Structures/SFC-Stations/1f8a900b.insm</CollisionFile> -->
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/0127231b.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+				<Class>DockingSpawn</Class>
+				<HitPoints>30000</HitPoints>
+				<Score>70</Score>
+			    <Spawn>
+					<Type>Capship</Type>
+			        <Size X="0.600" Y="1.500" Z="0.200" Type="3dsMax" />
+			        <Position X="0" Y="-0.525" Z="0.024" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="1" W="0" Type="3dsMax" />
+			        <Offset X="0" Y="0" Z="0" />
+			    </Spawn>
+			</Module>
+			<ServerModule>
+				<CreditsReward>200</CreditsReward>
+				<OnDestroyedPopupTitle>Server_Destroyed_Module_CapShipSpawn_Title_Self</OnDestroyedPopupTitle>
+				<OnDestroyedPopupText>Server_Destroyed_Module_CapShipSpawn_Text_Self</OnDestroyedPopupText>
+				<OnDestroyedPopupFooter>Server_Destroyed_Module_CapShipSpawn_Footer_Self</OnDestroyedPopupFooter>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

@@ -1,0 +1,15 @@
+<ThrustModel>
+
+    <MLQ>1024.0</MLQ>
+
+    <Group ID="0" DeltaIntensity="5.0" AngAccFactor="1.0" >
+        <Light Intensity="87000.0" Offset="0.00015" >
+            <Color X="0.76" Y="0.87" Z="0.70" />
+            <FadingSize Min="0.1" Max="0.2" />
+        </Light>
+        <Particles Name="Particles/Thrusters/Main_Drive/Effect/P_Small_Thruster" SizeScale="0.25" />
+    </Group>
+
+    <Thruster ID="0" Name="s_exhaust" GroupID="0" />
+
+</ThrustModel>

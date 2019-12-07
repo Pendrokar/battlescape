@@ -1,0 +1,46 @@
+<ThrustModel>
+
+    <MLQ>4096.0</MLQ>
+
+    <Group ID="0" DeltaIntensity="5.0" AngAccFactor="1.0" >
+		<Range>1.5</Range>
+        <Light Intensity="200000.0" Offset="0.00060" >
+            <Color X="0.05" Y="0.3" Z="1.0" />
+<!--             <Color X="0.76" Y="0.87" Z="0.70" /> -->
+            <FadingSize Min="0.1" Max="0.2" />
+        </Light>
+<!--         <Particles Name="Particles/Thrusters/Main_Drive/Effect/P_Small_Thruster" SizeScale="0.25" /> -->
+        <Particles Name="Particles/Thrusters/Main_Drive/P_SmallShipThruster" SizeScale="1.0" UseMeshParticles="true" Intensity="150000.0" Offset="-0.0012" />
+    </Group>
+
+    <Group ID="1" DeltaIntensity="5.0" AngAccFactor="1.0" >
+		<Range>0.8</Range>
+        <Light Intensity="50000.0" Offset="0.00100" >
+            <Color X="0.77" Y="0.91" Z="1" />
+            <FadingSize Min="0.1" Max="0.2" />
+        </Light>
+        <Particles Name="Particles/Thrusters/M_Jet/Effect/P_Mjet" SizeScale="0.02" />
+    </Group>
+
+    <Thruster ID="0" Name="s_main_top_left" GroupID="0" />
+    <Thruster ID="1" Name="s_main_top_right" GroupID="0" />
+    <Thruster ID="2" Name="s_main_bottom_left" GroupID="0" />
+    <Thruster ID="3" Name="s_main_bottom_right" GroupID="0" />
+
+    <Thruster ID="4" Name="s_mjet_aft_left_top" GroupID="1" />
+    <Thruster ID="5" Name="s_mjet_aft_right_top" GroupID="1" />
+    <Thruster ID="6" Name="s_mjet_fwd_left_top" GroupID="1" />
+    <Thruster ID="7" Name="s_mjet_fwd_right_top" GroupID="1" />
+    <Thruster ID="8" Name="s_mjet_aft_left_bottom" GroupID="1" />
+    <Thruster ID="9" Name="s_mjet_aft_right_bottom" GroupID="1" />
+    <Thruster ID="10" Name="s_mjet_fwd_left_bottom" GroupID="1" />
+    <Thruster ID="11" Name="s_mjet_fwd_right_bottom" GroupID="1" />
+    <Thruster ID="12" Name="s_mjet_fwd_right_side" GroupID="1" />
+    <Thruster ID="13" Name="s_mjet_fwd_left_side" GroupID="1" />
+    <Thruster ID="14" Name="s_mjet_aft_left_side" GroupID="1" />
+    <Thruster ID="15" Name="s_mjet_aft_right_side" GroupID="1" />
+
+	<Thruster ID="16" Name="s_retro_left" GroupID="1" />
+    <Thruster ID="17" Name="s_retro_right" GroupID="1" />
+
+</ThrustModel>

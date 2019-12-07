@@ -1,0 +1,7 @@
+{
+  "type" : "pointlight",
+  "color" : [0.48,0.96,0.38],
+  "lumens" : 10000000,
+  "cutoff" : 5
+
+}

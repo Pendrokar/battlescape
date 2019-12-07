@@ -1,0 +1,50 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_B_Lod0" >
+            <LOD Level="1" Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_B_Lod1" />
+            <LOD Level="2" Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_B_Lod2" />
+            <LOD Level="3" Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_B_Lod3" />
+            <LOD Level="4" Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_B_Lod4" />
+			<LODPower>1.0</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+			<PhysicsBody Type="Mesh" >
+  		        <CollisionFile>$Dev/Structures/SFC_StaticDefense/05a68cf9.insm</CollisionFile>
+  		        <Collisions>true</Collisions>
+  		    </PhysicsBody>
+			<Module>
+		        <Class>DefenseTowerB</Class>
+				<HitPoints>750</HitPoints>
+				<Score>5</Score>
+			    <Sockets>
+					<FileName>$Dev/Structures/SFC_StaticDefense/05a68cf9.insm</FileName>
+			        <Socket Name="s_left_turret" Type="Hardpoint" Class="MK2" />
+			        <Socket Name="s_right_turret" Type="Hardpoint" Class="MK2" />
+			    </Sockets>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC_StaticDefense/05a68cf9.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>DefenseTowerB</Class>
+				<HitPoints>750</HitPoints>
+				<Score>5</Score>
+			    <Sockets>
+					<FileName>$Dev/Structures/SFC_StaticDefense/05a68cf9.insm</FileName>
+			        <Socket Name="s_left_turret" Type="Hardpoint" Class="MK2" />
+			        <Socket Name="s_right_turret" Type="Hardpoint" Class="MK2" />
+			    </Sockets>
+			</Module>
+			<ServerModule>
+				<CreditsReward>20</CreditsReward>
+				<OnDestroyedPopupTitle>Server_Destroyed_Module_DefenseTower_Title_Self</OnDestroyedPopupTitle>
+				<OnDestroyedPopupText>Server_Destroyed_Module_DefenseTower_Text_Self</OnDestroyedPopupText>
+				<OnDestroyedPopupFooter>Server_Destroyed_Module_DefenseTower_Footer_Self</OnDestroyedPopupFooter>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

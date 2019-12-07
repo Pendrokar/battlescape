@@ -1,0 +1,8 @@
+<spotlight>
+    <color X="1" Y="1" Z="1"/>
+    <cutoff>30</cutoff>
+    <innercone>35</innercone>
+    <lumens>2000000</lumens>
+    <nodes/>
+    <outercone>90</outercone>
+</spotlight>

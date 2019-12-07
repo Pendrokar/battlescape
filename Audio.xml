@@ -1,0 +1,844 @@
+<AudioManager>
+	<SoundSpeed>1000000.0</SoundSpeed>
+
+	<Asset>$Dev/Sounds/Master Bank.bank</Asset>
+	<Asset>$Dev/Sounds/Master Bank.strings.bank</Asset>
+	<Asset>$Dev/Sounds/Master Bank.assets.bank</Asset>
+	<Asset>$Dev/Sounds/Ambient.bank</Asset>
+	<Asset>$Dev/Sounds/Damage.bank</Asset>
+	<Asset>$Dev/Sounds/General.bank</Asset>
+	<Asset>$Dev/Sounds/Hits.bank</Asset>
+	<Asset>$Dev/Sounds/Interface.bank</Asset>
+	<Asset>$Dev/Sounds/Weapons.bank</Asset>
+	<Asset>$Dev/Sounds/Voice.bank</Asset>
+
+	<Asset>$Dev/Sounds/NewMusic.bank</Asset>
+	<Asset>$Dev/Sounds/NewMusic.assets.bank</Asset>
+	<Asset>$Dev/Sounds/Mod.bank</Asset>
+
+	<!--
+	EngineIdleHeavy: ibs_engine_rumble -> heavy rumble ambient idle sound for a large ship ? with power on or off
+	EngineIdleLight: ibs_engine_fast_idle -> light electronic ambient sound to play for a fast ship with power on or off
+	
+	ibs_engine_speed_fast_R.0.24 -> ambient ship sound to play when going at high velocities with power on
+	ibs_engine_speed_slow_R.0.24 -> ambient ship sound to play when going at low velocities with power on
+
+	ibs_atmosphere_entering -> ambient ship sound to play with high atmosphere friction, power on or off
+
+	ibs_engine_side_thruster_LP -> side thruster sound for light ship
+	ibs_engine_thruster_full_rumble_LP -> heavy rumble main/back thruster sound for capship
+	ibs_engine_thruster_R.3.3_LP_v4 -> electronic main/back thruster sound for light ship
+	-->
+
+	<!-- Test sounds -->
+	<SoundEffect3D>
+		<Name>Generic3DSound</Name>
+		<Path>event:/Interface/Generic3DSound</Path>
+		<Volume>1.0</Volume>
+		<DistRange X="0.1" Y="20.0" />
+		<Pitch>1.0</Pitch>
+		<VolumeRange X="0" Y="1" />
+		<Looping>false</Looping>
+	</SoundEffect3D>
+
+	<!-- UI sounds -->
+	<SoundEffect2D>
+		<Name>GenericAction</Name>
+		<Path>event:/Interface/Generic2DSound</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>GenericFailure</Name>
+		<Path>event:/Interface/GenericFailure</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>MenuClick</Name>
+		<Path>event:/Interface/MenuClick</Path>
+		<Volume>0.30</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>MenuBleep</Name>
+		<Path>event:/Mod/Interface/MenuBleep</Path>
+		<Volume>0.5</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>WarpFailure</Name>
+		<Path>event:/General/WarpFailure</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>HitFeedbackHull</Name>
+		<Path>event:/Hits/HitFeedbackHull</Path>
+		<Volume>0.4</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>HitFeedbackShield</Name>
+		<Path>event:/Hits/HitFeedbackShield</Path>
+		<Volume>0.8</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>HitFeedbackWeapon</Name>
+		<Path>event:/Hits/HitFeedbackWeapon</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>WhooshIn</Name>
+		<Path>event:/Interface/WhooshIn</Path>
+		<Volume>0.5</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>WhooshOut</Name>
+		<Path>event:/Interface/WhooshOut</Path>
+		<Volume>0.5</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>Scan</Name>
+		<Path>event:/Interface/Scan</Path>
+		<Volume>0.5</Volume>
+		<Looping>true</Looping>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>VictoryPopup</Name>
+		<Path>event:/General/VictoryPopup</Path>
+		<Volume>0.5</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>DefeatPopup</Name>
+		<Path>event:/General/DefeatPopup</Path>
+		<Volume>0.5</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>VictoryMatch</Name>
+		<Path>event:/General/VictoryMatch</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>DefeatMatch</Name>
+		<Path>event:/General/DefeatMatch</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>RadarEcho</Name>
+		<Path>event:/Interface/RadarEcho</Path>
+		<Volume>0.1</Volume>
+	</SoundEffect2D>
+
+	<!-- HUD sounds -->
+	<SoundEffect2D>
+		<Name>DetectedIn</Name>
+		<Path>event:/Interface/DetectedIn</Path>
+		<Volume>0.05</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>DetectedOut</Name>
+		<Path>event:/Interface/DetectedOut</Path>
+		<Volume>0.05</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>Selected</Name>
+		<Path>event:/Interface/Selected</Path>
+		<Volume>0.25</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>MissileAlert</Name>
+		<Path>event:/Interface/MissileAlert</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>Weapons_Locking</Name>
+		<Path>event:/Interface/WeaponsLocking</Path>
+		<Looping>true</Looping>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>Weapons_Locked</Name>
+		<Path>event:/Interface/WeaponsLocked</Path>
+		<Looping>true</Looping>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>Weapons_Lock_Acquired</Name>
+		<Path>event:/Interface/WeaponsLockAcquired</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>Weapons_Lock_Lost</Name>
+		<Path>event:/Interface/WeaponsLockLost</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+
+	<!-- Environment generic sounds -->
+	<SoundEffect3D>
+		<Name>AmbientBigHangar</Name>
+		<Path>event:/Ambient/BigHangar</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="0.2" Y="2.0" />
+		<Looping>true</Looping>
+		<RandomOffset>29.0</RandomOffset>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Whale</Name>
+		<Path>event:/Ambient/Whale</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="5" Y="500.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+
+	<!-- Planet-specific sounds -->
+	<SoundEffect2D>
+		<Name>AmbientWind</Name>
+		<Path>event:/Ambient/AmbientWind</Path>
+		<Volume>0.0</Volume>
+		<Looping>true</Looping>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>AmbientLava</Name>
+		<Path>event:/Ambient/AmbientLava</Path>
+		<Volume>0.0</Volume>
+		<Looping>true</Looping>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>AmbientOcean</Name>
+		<Path>event:/Ambient/AmbientOcean</Path>
+		<Volume>0.0</Volume>
+		<Looping>true</Looping>
+	</SoundEffect2D>
+
+	<!-- Ship generic sounds -->
+	<SoundEffect3D>
+		<Name>EngineIdleLight1</Name>
+		<Path>event:/General/EngineIdleLight1</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="2.0" Y="25.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>EngineIdleLight2</Name>
+		<Path>event:/General/EngineIdleLight2</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="2.0" Y="25.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>EngineIdleLight3</Name>
+		<Path>event:/General/EngineIdleLight3</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="2.0" Y="25.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+  	<SoundEffect3D>
+		<Name>EngineFastLight1</Name>
+		<Path>event:/General/EngineFastLight1</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="1.0" Y="10.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>EngineFastLight2</Name>
+		<Path>event:/General/EngineFastLight2</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="1.0" Y="10.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>EngineIdleHeavy1</Name>
+		<Path>event:/General/EngineIdleHeavy1</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="1.0" Y="15.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>EngineIdleHeavy2</Name>
+		<Path>event:/General/EngineIdleHeavy2</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="1.0" Y="15.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>EngineFastHeavy1</Name>
+		<Path>event:/General/EngineFastHeavy1</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="1.0" Y="15.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>EngineFastHeavy2</Name>
+		<Path>event:/General/EngineFastHeavy2</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="1.0" Y="15.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>EngineTurbo</Name>
+		<Path>event:/General/EngineTurbo</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="2.0" Y="50.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>SideThrusterSmall</Name>
+		<Path>event:/General/SideThrusterSmall</Path>
+		<VolumeRange X="0" Y="0.20" />
+		<DistRange X="0.05" Y="10.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MainThrusterSmall1</Name>
+		<Path>event:/General/MainThrusterSmall1</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.25" Y="75.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MainThrusterSmall2</Name>
+		<Path>event:/General/MainThrusterSmall2</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.25" Y="75.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MainThrusterSmall3</Name>
+		<Path>event:/General/MainThrusterSmall3</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.25" Y="75.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MainThrusterSmall4</Name>
+		<Path>event:/General/MainThrusterSmall4</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.25" Y="75.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MainThrusterSmall5</Name>
+		<Path>event:/General/MainThrusterSmall5</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="0.25" Y="75.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MainThrusterHeavy1</Name>
+		<Path>event:/General/MainThrusterHeavy1</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="0.1" Y="10.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MainThrusterHeavy2</Name>
+		<Path>event:/General/MainThrusterHeavy2</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="0.1" Y="10.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>SideThrusterBig</Name>
+		<Path>event:/General/SideThrusterBig</Path>
+		<VolumeRange X="0" Y="0.20" />
+		<DistRange X="0.05" Y="10.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+
+	<SoundEffect3D>
+		<Name>FrontLightOn</Name>
+		<Path>event:/Interface/SmallFrontLightOn</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.05" Y="5.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>FrontLightOff</Name>
+		<Path>event:/Interface/SmallFrontLightOff</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.05" Y="5.0" />
+	</SoundEffect3D>
+
+	<SoundEffect2D>
+		<Name>ProximityAlert</Name>
+		<Path>event:/Interface/ProximityAlert</Path>
+		<Volume>0.5</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>DamageAlert</Name>
+		<Path>event:/Interface/DamageAlert</Path>
+		<Volume>1.0</Volume>
+		<Looping>true</Looping>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>CockpitWind1</Name>
+		<Path>event:/Ambient/CockpitWind1</Path>
+		<Volume>1.0</Volume>
+		<Looping>true</Looping>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>CockpitWind2</Name>
+		<Path>event:/Ambient/CockpitWind2</Path>
+		<Volume>1.0</Volume>
+		<Looping>true</Looping>
+	</SoundEffect2D>
+
+	<!-- Ship player 2D sounds -->
+	<SoundEffect2D>
+		<Name>AtmoFriction</Name>
+		<Path>event:/Ambient/AtmoFriction</Path>
+		<Volume>1.0</Volume>
+		<Looping>true</Looping>
+	</SoundEffect2D>
+
+	<!-- Ship-specific sounds -->
+	<SoundEffect3D>
+		<Name>DamagePowerSmall</Name>
+		<Path>event:/Damage/DamagePowerSmall</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="1.0" Y="25.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>DamagePowerMedium</Name>
+		<Path>event:/Damage/DamagePowerMedium</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="1.0" Y="25.0" />
+		<Looping>true</Looping>
+		<Variations>2</Variations>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>DamagePowerBig</Name>
+		<Path>event:/Damage/DamagePowerBig</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="1.0" Y="25.0" />
+		<Looping>true</Looping>
+		<Variations>2</Variations>
+	</SoundEffect3D>
+
+	<SoundEffect3D>
+		<Name>DamageEngineSmall</Name>
+		<Path>event:/Damage/DamageEngineSmall</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="1.0" Y="25.0" />
+		<Looping>true</Looping>
+		<FadeLength>0.5</FadeLength>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>DamageEngineMedium</Name>
+		<Path>event:/Damage/DamageEngineMedium</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="1.0" Y="25.0" />
+		<Looping>true</Looping>
+		<FadeLength>0.5</FadeLength>
+		<Variations>2</Variations>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>DamageEngineBig</Name>
+		<Path>event:/Damage/DamageEngineBig</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="1.0" Y="25.0" />
+		<Looping>true</Looping>
+		<FadeLength>0.5</FadeLength>
+		<Variations>2</Variations>
+	</SoundEffect3D>
+
+	<!-- Ships events sounds -->
+	<SoundEffect3D>
+		<Name>PowerOn</Name>
+		<Path>event:/General/PowerOn</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.05" Y="5.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>PowerOff</Name>
+		<Path>event:/General/PowerOff</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.05" Y="5.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>WarpCharging</Name>
+		<Path>event:/General/WarpCharging</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>WarpExit</Name>
+		<Path>event:/General/WarpExit</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.1" Y="20.0" />
+		<DopplerLimit>0.25</DopplerLimit>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>WarpLaunch</Name>
+		<Path>event:/General/WarpLaunch</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.1" Y="20.0" />
+		<DopplerLimit>0.25</DopplerLimit>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>WarpAmbient</Name>
+		<Path>event:/General/WarpAmbient</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="1.0" Y="10.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>WarpJam</Name>
+		<Path>event:/General/WarpJam</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="5.0" Y="100.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>BoostStart</Name>
+		<Path>event:/General/BoostStart</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="0.1" Y="2.5" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ElectricityFizzle</Name>
+		<Path>event:/Damage/ElectricityFizzle</Path>
+		<VolumeRange X="0" Y="0.25" />
+		<DistRange X="0.05" Y="1.0" />
+	</SoundEffect3D>
+
+	<SoundEffect3D>
+		<Name>DamageShieldSmall</Name>
+		<Path>event:/Damage/DamageShieldSmall</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.1" Y="2.5" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>DamageShieldMedium</Name>
+		<Path>event:/Damage/DamageShieldMedium</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.25" Y="5.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>DamageShieldBig</Name>
+		<Path>event:/Damage/DamageShieldBig</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.5" Y="10.0" />
+	</SoundEffect3D>
+
+	<!-- Weapons sounds -->
+	<SoundEffect3D>
+		<Name>MgSmall1</Name>
+		<Path>event:/Weapons/MgSmall1</Path>
+		<VolumeRange X="0" Y="0.25" />
+		<DistRange X="0.05" Y="3.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MgSmall2</Name>
+		<Path>event:/Weapons/MgSmall2</Path>
+		<VolumeRange X="0" Y="0.25" />
+		<DistRange X="0.05" Y="3.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Shotgun</Name>
+		<Path>event:/Weapons/Shotgun</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="0.05" Y="3.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>BlasterSmall1</Name>
+		<Path>event:/Weapons/Blasters/BlasterSmall1</Path>
+		<VolumeRange X="0" Y="0.30" />
+		<DistRange X="0.05" Y="3.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>BlasterSmall2</Name>
+		<Path>event:/Weapons/Blasters/BlasterSmall2</Path>
+		<VolumeRange X="0" Y="0.30" />
+		<DistRange X="0.05" Y="3.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ZeclonMK1</Name>
+		<Path>event:/Weapons/Blasters/ZeclonMK1</Path>
+		<VolumeRange X="0" Y="0.30" />
+		<DistRange X="0.05" Y="3.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Mg48</Name>
+		<Path>event:/Weapons/Mg48</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="0.12" Y="8.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Plasma</Name>
+		<Path>event:/Weapons/Plasma</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="0.12" Y="8.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>BlasterMedium</Name>
+		<Path>event:/Weapons/Blasters/BlasterMedium</Path>
+		<VolumeRange X="0" Y="0.75" />
+		<DistRange X="0.1" Y="6.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>BlasterLarge</Name>
+		<Path>event:/Weapons/Blasters/BlasterLarge</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.12" Y="8.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>HeavyGun</Name>
+		<Path>event:/Weapons/HeavyGun</Path>
+		<VolumeRange X="0" Y="0.75" />
+		<DistRange X="0.15" Y="10.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>KineticTurretMK5</Name>
+		<Path>event:/Weapons/KineticTurrets/KineticTurretMK5</Path>
+		<VolumeRange X="0" Y="0.35" />
+		<DistRange X="0.15" Y="10.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>KineticTurretMK6</Name>
+		<Path>event:/Weapons/KineticTurrets/KineticTurretMK6</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="0.15" Y="10.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>KineticTurretMK7</Name>
+		<Path>event:/Weapons/KineticTurrets/KineticTurretMK7</Path>
+		<VolumeRange X="0" Y="0.75" />
+		<DistRange X="0.15" Y="10.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>TorpedoLaunch</Name>
+		<Path>event:/Weapons/TorpedoLaunch</Path>
+		<VolumeRange X="0" Y="0.35" />
+		<DistRange X="0.15" Y="10.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MissileLaunch</Name>
+		<Path>event:/Weapons/MissileLaunch</Path>
+		<VolumeRange X="0" Y="0.35" />
+		<DistRange X="0.1" Y="6.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ChaffLaunch</Name>
+		<Path>event:/Weapons/ChaffLaunch</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="6.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ChaffTravel</Name>
+		<Path>event:/Weapons/ChaffTravel</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="8.0" />
+		<Looping>true</Looping>
+		<Variations>4</Variations>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>PlasmaTravel</Name>
+		<Path>event:/Weapons/PlasmaTravel</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.05" Y="4.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MineLaunch</Name>
+		<Path>event:/Weapons/MineLaunch</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="10.0" />
+	</SoundEffect3D>
+
+	<!-- Battle/damage sounds/hits -->
+	<SoundEffect3D>
+		<Name>HitSelfKinetic</Name>
+		<Path>event:/Hits/HitSelfKinetic</Path>
+		<VolumeRange X="0" Y="0.25" />
+		<DistRange X="0.06" Y="3.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>HitEnemy</Name>
+		<Path>event:/Hits/HitEnemyKinetic</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.06" Y="3.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>FarExplosion</Name>
+		<Path>event:/Hits/FarExplosion</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.05" Y="10.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>SelfExplosion</Name>
+		<Path>event:/Hits/SelfExplosion</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ExplosionSmallship</Name>
+		<Path>event:/Hits/ExplosionSmallShip</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ExplosionCapship</Name>
+		<Path>event:/Hits/ExplosionCapShip</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="1.0" Y="60.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ExplosionSmallTest</Name>
+		<Path>event:/Hits/ExplosionSmallTest</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+
+	<!-- Collisions and impacts sounds -->
+	<SoundEffect3D>
+		<Name>CollisionMetal</Name>
+		<Path>event:/General/CollisionMetal</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="0.1" Y="10.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ImpactShieldSmall</Name>
+		<Path>event:/Hits/ImpactShieldSmall</Path>
+		<VolumeRange X="0" Y="0.2" />
+		<DistRange X="0.06" Y="3.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ImpactShieldMedium</Name>
+		<Path>event:/Hits/ImpactShieldMedium</Path>
+		<VolumeRange X="0" Y="0.3" />
+		<DistRange X="0.12" Y="6.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ImpactShieldBig</Name>
+		<Path>event:/Hits/ImpactShieldBig</Path>
+		<VolumeRange X="0" Y="0.4" />
+		<DistRange X="0.2" Y="10.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>CollisionShrapnel</Name>
+		<Path>event:/General/CollisionMetal</Path> <!-- Note: reusing CollisionMetal atm ! We need a variation ! -->
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="0.1" Y="10.0" />
+	</SoundEffect3D>
+
+	<!-- Misc sounds -->
+	<SoundEffect3D>
+		<Name>CratePickup</Name>
+		<Path>event:/General/CratePickup</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="10.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>SpawnMarker</Name>
+		<Path>event:/General/SpawnMarker</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="10.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Ping</Name>
+		<Path>event:/Interface/Ping</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="10.0" />
+	</SoundEffect3D>
+
+	<!-- Voice sounds -->
+	<SoundEffect3D>
+		<Name>Voice321Go</Name>
+		<Path>event:/Voice/en/Voice321Go</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>VoiceOhYeah</Name>
+		<Path>event:/Voice/en/VoiceOhYeah</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>VoiceEvilLaugh</Name>
+		<Path>event:/Voice/en/VoiceEvilLaugh</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Voice-FollowMe</Name>
+		<Path>event:/Voice/en/Voice-FollowMe</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Voice-EngagingTarget</Name>
+		<Path>event:/Voice/en/Voice-EngagingTarget</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Voice-Regroup</Name>
+		<Path>event:/Voice/en/Voice-Regroup</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Voice-Greetings</Name>
+		<Path>event:/Voice/en/Voice-Greetings</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Voice-Ready</Name>
+		<Path>event:/Voice/en/Voice-Ready</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Voice-LetsDoThis</Name>
+		<Path>event:/Voice/en/Voice-LetsDoThis</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Voice-ConcentrateFire</Name>
+		<Path>event:/Voice/en/Voice-ConcentrateFire</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Voice-ReturnFire</Name>
+		<Path>event:/Voice/en/Voice-ReturnFire</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Voice-NeedSupport</Name>
+		<Path>event:/Voice/en/Voice-NeedSupport</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Voice-PreparingTravel</Name>
+		<Path>event:/Voice/en/Voice-PreparingTravel</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Voice-IncomingThreat</Name>
+		<Path>event:/Voice/en/Voice-IncomingThreat</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Voice-ProtectTarget</Name>
+		<Path>event:/Voice/en/Voice-ProtectTarget</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Voice-Affirmative</Name>
+		<Path>event:/Voice/en/Voice-Affirmative</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Voice-Negative</Name>
+		<Path>event:/Voice/en/Voice-Negative</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+
+</AudioManager>
+

@@ -1,0 +1,214 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_Lod0" >
+			<LOD Level="1" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_Lod1" />
+			<LOD Level="2" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_Lod2" />
+			<LOD Level="3" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_Lod3" />
+			<LOD Level="4" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_Lod4" />
+			<LOD Level="5" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_Lod5" />
+			<LOD Level="6" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_Lod6" />
+			<LODPower>0.5</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+		
+			<PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Military/40ce5d30.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			
+			<Light Type="PointLight" >
+				<Name>Omni012</Name>
+				<Color X="1.0" Y="0.0" Z="0.0" />
+				<Lumens>100000000</Lumens>
+				<position x="0.13000001013278961182" y="-0.15000003576278686523" z="0.73000001907348632813" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni011</Name>
+				<Color X="1.0" Y="0.0" Z="0.0" />
+				<Lumens>100000000</Lumens>
+				<position x="-0.13000001013278961182" y="-0.15000003576278686523" z="0.73000001907348632813" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni010</Name>
+				<Color X="1.0" Y="0.0" Z="0.0" />
+				<Lumens>100000000</Lumens>
+				<position x="0.13000001013278961182" y="-0.35000005364418029785" z="0.73000001907348632813" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni009</Name>
+				<Color X="1.0" Y="0.0" Z="0.0" />
+				<Lumens>100000000</Lumens>
+				<position x="-0.13000001013278961182" y="-0.35000005364418029785" z="0.73000001907348632813" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni008</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>100000000</Lumens>
+				<position x="0.064180552959442138672" y="-0.62689065933227539063" z="0.11594128608703613281" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni007</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>100000000</Lumens>
+				<position x="-0.062608093023300170898" y="-0.62689065933227539063" z="0.11594128608703613281" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni006</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>100000000</Lumens>
+				<position x="0.064180552959442138672" y="-0.47686880826950073242" z="0.43241405487060546875" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni005</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>100000000</Lumens>
+				<position x="-0.062608093023300170898" y="-0.47686880826950073242" z="0.43241405487060546875" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot006</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<Innercone>10.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.22000002861022949219" y="-0.1401770859956741333" z="0.28999999165534973145" Type="3dsMax"/>
+				<rotation x="0.5" y="0.5" z="-0.5" w="0.5" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot005</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<Innercone>10.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.21999999880790710449" y="-0.1401770859956741333" z="0.28999999165534973145" Type="3dsMax"/>
+				<rotation x="0.5" y="0.5" z="-0.5" w="0.5" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot004</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<Innercone>10.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.21999999880790710449" y="0.39793556928634643555" z="0.29000002145767211914" Type="3dsMax"/>
+				<rotation x="0.5" y="0.5" z="-0.5" w="0.5" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot003</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<Innercone>10.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.22000002861022949219" y="0.39793556928634643555" z="0.29000002145767211914" Type="3dsMax"/>
+				<rotation x="0.5" y="0.5" z="-0.5" w="0.5" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot002</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<Innercone>10.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.22000001370906829834" y="0.074717655777931213379" z="0.29000002145767211914" Type="3dsMax"/>
+				<rotation x="0.70710676908493041992" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot001</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<Innercone>10.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.22000001370906829834" y="0.074717648327350616455" z="0.29000002145767211914" Type="3dsMax"/>
+				<rotation x="0.70710670948028564453" y="0" z="0" w="0.70710682868957519531" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni004</Name>
+				<Color X="1.0" Y="0.0" Z="0.0" />
+				<Lumens>100000000</Lumens>
+				<position x="0.16229498386383056641" y="0.056973297148942947388" z="0.34560537338256835938" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni003</Name>
+				<Color X="1.0" Y="0.0" Z="0.0" />
+				<Lumens>100000000</Lumens>
+				<position x="0.1164330020546913147" y="0.33020481467247009277" z="0.38381421566009521484" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni002</Name>
+				<Color X="1.0" Y="0.0" Z="0.0" />
+				<Lumens>100000000</Lumens>
+				<position x="-0.11643269658088684082" y="0.33020481467247009277" z="0.38381421566009521484" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni001</Name>
+				<Color X="1.0" Y="0.0" Z="0.0" />
+				<Lumens>100000000</Lumens>
+				<position x="-0.16229456663131713867" y="0.056973297148942947388" z="0.34560537338256835938" Type="3dsMax"/>
+				<Cutoff>1024.0</Cutoff>
+			</Light>
+			
+			<Module>
+		        <Class>DefenseStation</Class>
+				<HitPoints>7500</HitPoints>
+				<Score>100</Score>
+				<MapToPlanet>true</MapToPlanet>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Military/40ce5d30.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>DefenseStation</Class>
+				<HitPoints>7500</HitPoints>
+				<Score>100</Score>
+				<MapToPlanet>true</MapToPlanet>
+			</Module>
+			<ServerModule>
+				<CreditsReward>200</CreditsReward>
+				<OnDestroyedPopupTitle>Server_Destroyed_Module_DefenseStation_Title_Self</OnDestroyedPopupTitle>
+				<OnDestroyedPopupText>Server_Destroyed_Module_DefenseStation_Text_Self</OnDestroyedPopupText>
+				<OnDestroyedPopupFooter>Server_Destroyed_Module_DefenseStation_Footer_Self</OnDestroyedPopupFooter>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

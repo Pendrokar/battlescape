@@ -1,0 +1,86 @@
+<ActorConfig>
+	<CNodeComponent>
+		<TransformNode>
+		</TransformNode>
+	</CNodeComponent>
+	<CServerActorComponent>
+		<Name>Gallia</Name>
+		<NetworkRange>0.0005</NetworkRange>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>10000000.0</EmissionsRange>
+		<SensorPower>0.0</SensorPower>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>Planet</Indicator>
+		<SurfaceType>Rock</SurfaceType>
+	</CActorComponent>
+	<CBodyComponent>
+	</CBodyComponent>
+	<CPlanetComponent>
+		<Type>Asteroid</Type>
+		<Radius>215.0</Radius>
+		<RotationSpeed Value="0.0" />
+        <GravityMass>1.3e18</GravityMass>
+	    <Ground State="true" >
+	        <Patch TexRes="512" />
+	        <SeaLevel Value="0.0" />
+	        <Slope Power="0.8" />
+	        <Fractal Altitude="0.1" Slope="0.7" />
+	        <Elevation Min="0" Max="420" />
+			<MaxDepthLevel>13</MaxDepthLevel>
+	    </Ground>
+	</CPlanetComponent>
+	<CClientPlanetComponent>
+	    <Ground State="true" >
+	        <Patch TexRes="512" />
+	        <SeaLevel Value="0.0" />
+	        <Slope Power="0.8" />
+	        <Fractal Altitude="0.1" Slope="0.7" />
+	        <Elevation Min="0" Max="420" />
+			<MaxDepthLevel>14</MaxDepthLevel>
+	    </Ground>
+	    <Ocean State="false" />
+	    <Cloud State="false" />
+	    <Material>
+	        <Noise Value="DblEmu" />
+	        <Wireframe Value="0" />
+	        <Culling Value="Back" />
+	        <BlendedNoise Freq1="5.0" Freq2="12.0" Freq3="25.0" Weight1="0.6" Weight2="0.5" Weight3="0.4" />
+			<UVLevel0>3</UVLevel0>
+			<FractalLevel>3</FractalLevel>
+	    </Material>
+	    <Layers>
+	    	<Layer ID="0" DiffuseTexPack="Celestial/Planets/Textures/Selenian/T_Planet_Selenian_TexPackD:0" NormalTexPack="Celestial/Planets/Textures/Selenian/T_Planet_Selenian_TexPackN:0" RoughnessInAlpha="true">
+				<DiffuseColor X="0.5" Y="0.45" Z="0.4" W="1" />
+	        </Layer>
+	    	<Layer ID="1" DiffuseTexPack="Celestial/Planets/Textures/Selenian/T_Planet_Selenian_TexPackD:1" NormalTexPack="Celestial/Planets/Textures/Selenian/T_Planet_Selenian_TexPackN:1" RoughnessInAlpha="true">
+				<DiffuseColor X="0.8" Y="0.7" Z="0.6" W="1" />
+	        </Layer>
+	    	<Layer ID="2" DiffuseTexPack="Celestial/Planets/Textures/Selenian/T_Planet_Selenian_TexPackD:2" NormalTexPack="Celestial/Planets/Textures/Selenian/T_Planet_Selenian_TexPackN:2" RoughnessInAlpha="true">
+				<DiffuseColor X="0.5" Y="0.5" Z="0.5" W="1" />
+	        </Layer>
+	    	<Layer ID="3" DiffuseTexPack="Celestial/Planets/Textures/Selenian/T_Planet_Selenian_TexPackD:4" NormalTexPack="Celestial/Planets/Textures/Selenian/T_Planet_Selenian_TexPackN:4" RoughnessInAlpha="true">
+				<DiffuseColor X="0.25" Y="0.23" Z="0.27" W="1" />
+	        </Layer>
+	    	<Layer ID="4" DiffuseTexPack="Celestial/Planets/Textures/Selenian/T_Planet_Selenian_TexPackD:5" NormalTexPack="Celestial/Planets/Textures/Selenian/T_Planet_Selenian_TexPackN:5" RoughnessInAlpha="true">
+				<DiffuseColor X="0.1" Y="0.11" Z="0.13" W="1" />
+	        </Layer>
+	    	<Layer ID="5" DiffuseTexPack="Celestial/Planets/Textures/Selenian/T_Planet_Selenian_TexPackD:6" NormalTexPack="Celestial/Planets/Textures/Selenian/T_Planet_Selenian_TexPackN:6" RoughnessInAlpha="true">
+				<DiffuseColor X="0.4" Y="0.4" Z="0.35" W="1" />
+	        </Layer>
+	    	<Layer ID="6" DiffuseTexPack="Celestial/Planets/Textures/Selenian/T_Planet_Selenian_TexPackD:3" NormalTexPack="Celestial/Planets/Textures/Selenian/T_Planet_Selenian_TexPackN:3" RoughnessInAlpha="true">
+				<DiffuseColor X="0.1" Y="0.1" Z="0.1" W="1" />
+	        </Layer>
+	    </Layers>
+	    <Rules>
+	        <Biome ID="0">
+	        	<Rule ID="0" ParentID="-1" Layer1="0" Layer2="0" AltMin="0.0" AltMax="1.0" SlopeMin="0" SlopeMax="1" />
+	        	<Rule ID="1" ParentID="0" Layer1="3" Layer2="5" AltMin="0.35" AltMax="0.6" SlopeMin="0.3" SlopeMax="1" />
+	        	<Rule ID="2" ParentID="0" Layer1="6" Layer2="0" AltMin="0.6" AltMax="1.0" SlopeMin="0.3" SlopeMax="1" />
+	        	<Rule ID="3" ParentID="0" Layer1="2" Layer2="4" AltMin="0.0" AltMax="1.0" SlopeMin="0" SlopeMax="0.5" />
+	        	<Rule ID="4" ParentID="0" Layer1="1" Layer2="1" AltMin="0.0" AltMax="0.2" SlopeMin="0.45" SlopeMax="1" />
+	        </Biome>
+	    </Rules>
+	</CClientPlanetComponent>
+</ActorConfig>

@@ -1,0 +1,150 @@
+<ActorConfig>
+	<CNodeComponent>
+		<TransformNode>
+			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" >
+				<position x="0" y="-0.25000008940696716309" z="-1.8700001239776611328" Type="3dsMax"/>
+				<rotation x="3.9167161958175711334e-06" y="-0.99998587369918823242" z="0.0053165578283369541168" w="5.4067109886091202497e-05" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" >
+				<position x="0" y="-0.25000008940696716309" z="1.8700001239776611328" Type="3dsMax"/>
+				<rotation x="-0.0053165587596595287323" y="5.4097901738714426756e-05" z="-4.4917896957485936582e-06" w="0.99998587369918823242" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_Tower_A.xml" >
+				<position x="0" y="-0.13999994099140167236" z="-1.0800000429153442383" Type="3dsMax"/>
+				<rotation x="-0.70710676908493041992" y="-0.70710676908493041992" z="0" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_Tower_A.xml" >
+				<position x="0" y="-0.1400000452995300293" z="1.0800000429153442383" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Thin_Cap.xml" >
+				<position x="0" y="-0.4216092228889465332" z="0.38338929414749145508" Type="3dsMax"/>
+				<rotation x="0" y="-0.70710682868957519531" z="0.70710670948028564453" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_HexTower_A.xml" >
+				<position x="0" y="-4.8303587618647725321e-07" z="-0.12000000476837158203" Type="3dsMax"/>
+				<rotation x="-1" y="0" z="-4.76837158203125e-07" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_Cap.xml" >
+				<position x="0" y="2.0999996662139892578" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_5u.xml" >
+				<position x="0" y="1.2999994754791259766" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_2-5u.xml" >
+				<position x="0" y="0.54999941587448120117" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_1u.xml" >
+				<position x="0" y="1.8999996185302734375" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Thin_Cap.xml" >
+				<position x="0" y="-0.4216092228889465332" z="-0.4166107475757598877" Type="3dsMax"/>
+				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Thin_A.xml" >
+				<position x="0" y="-0.4216092228889465332" z="-0.024110740050673484802" Type="3dsMax"/>
+				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_HexTower_A.xml" >
+				<position x="0" y="-4.9352667019775253721e-07" z="0.12000000476837158203" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_FighterBay.xml" >
+				<position x="0" y="0.51999956369400024414" z="-0.11999999731779098511" Type="3dsMax"/>
+				<rotation x="0" y="-1" z="-3.1391647326017846353e-07" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_CorvetteBay.xml" >
+				<position x="0" y="0.54999953508377075195" z="0.12999999523162841797" Type="3dsMax"/>
+				<rotation x="3.2584136988589307293e-07" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+		</TransformNode>
+	</CNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+	</CClientHullComponent>
+	<CServerActorComponent>
+        <Name>Tauris Stn</Name>
+		<StratScore>200</StratScore>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>500.0</EmissionsRange>
+		<SensorPower>2.0</SensorPower>
+		<Scoutable>true</Scoutable>
+		<ScoutDist>4.0</ScoutDist>
+		<ScoutDuration>30.0</ScoutDuration>
+		<ScoutReward>70</ScoutReward>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>Structure</Indicator>
+	</CActorComponent>
+	<CClientActorComponent>
+		<MapIcon>SpaceStation</MapIcon>
+	</CClientActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Static" >
+            <Collisions>true</Collisions>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+        </PhysicsBody>
+	</CBodyComponent>
+	<CHullComponent>
+		<HitPoints>100000000</HitPoints>
+	</CHullComponent>
+	<CEngineComponent>
+		<EnergyPoints>10000</EnergyPoints>
+		<HeatPoints>10000</HeatPoints>
+	</CEngineComponent>
+    <CHardpointComponent>
+		<Group ID="0" >
+			<GroupType>Primary</GroupType>
+			<AllowFreeAim>true</AllowFreeAim>
+		</Group>
+		<Group ID="1" >
+			<GroupType>Secondary</GroupType>
+			<AllowFreeAim>true</AllowFreeAim>
+		</Group>
+		<Group ID="2" >
+			<GroupType>Primary</GroupType>
+			<AllowFreeAim>true</AllowFreeAim>
+		</Group>
+		<Group ID="3" >
+			<GroupType>Secondary</GroupType>
+			<AllowFreeAim>true</AllowFreeAim>
+		</Group>
+		<Ammo>
+			<Type>Mg56mm</Type>
+			<Amount>20000</Amount>
+		</Ammo>
+		<Ammo>
+			<Type>Mg96mm</Type>
+			<Amount>10000</Amount>
+		</Ammo>
+	</CHardpointComponent>
+	<CServerHardpointComponent>
+	</CServerHardpointComponent>
+	<CServerDefenseComponent>
+	</CServerDefenseComponent>
+	<CModulesComponent>
+		<MapToPlanet>false</MapToPlanet>
+		<Weapons>
+			<Target Class="DefenseTowerA" Socket="s_top_turret" Weapon="DefenseTurretGunMK5" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
+			<Target Class="DefenseTowerA" Socket="s_left_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
+			<Target Class="DefenseTowerA" Socket="s_right_turret" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
+
+			<Target Class="DefenseTowerB" Socket="s_left_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="1.0" />
+			<Target Class="DefenseTowerB" Socket="s_right_turret" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.0" ProbaRangeMax="1.0" />
+
+			<Target Class="DefenseStation" Socket="s_top_turret" Weapon="DefenseTurretGunMK6" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
+			<Target Class="DefenseStation" Socket="s_bottom_turret" Weapon="DefenseTurretGunMK6" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
+			<Target Class="DefenseStation" Socket="s_side_left_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
+			<Target Class="DefenseStation" Socket="s_side_right_turret" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
+		</Weapons>
+	</CModulesComponent>
+	<CServerModulesComponent>
+		<MineField>true</MineField>
+	</CServerModulesComponent>
+</ActorConfig>

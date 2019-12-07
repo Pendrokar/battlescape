@@ -1,0 +1,116 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/SFC-Factory/SM_SFC_Factory_RefineryTower2_Lod0" >
+		    <LOD Level="1" Mesh="Structures/SFC-Factory/SM_SFC_Factory_RefineryTower2_Lod1" />
+		    <LOD Level="2" Mesh="Structures/SFC-Factory/SM_SFC_Factory_RefineryTower2_Lod2" />
+		    <LOD Level="3" Mesh="Structures/SFC-Factory/SM_SFC_Factory_RefineryTower2_Lod3" />
+		    <LOD Level="4" Mesh="Structures/SFC-Factory/SM_SFC_Factory_RefineryTower2_Lod4" />
+		    <LOD Level="5" Mesh="Structures/SFC-Factory/SM_SFC_Factory_RefineryTower2_Lod5" />
+		    <LOD Level="6" Mesh="Structures/SFC-Factory/SM_SFC_Factory_RefineryTower2_Lod6" />
+		    <LODPower>1.0</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+		
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Factory/3176f3f8.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+
+			<Light Type="PointLight" >
+				<Name>Omni007</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>100000000</Lumens>
+				<position x="0" y="-0.051364652812480926514" z="0.28919675946235656738" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni006</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>6000000</Lumens>
+				<position x="-0.014210478402674198151" y="-0.077126145362854003906" z="0.22254335880279541016" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni005</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>6000000</Lumens>
+				<position x="0.014575766399502754211" y="-0.077126145362854003906" z="0.22254335880279541016" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni004</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>100000000</Lumens>
+				<position x="0" y="0.039999991655349731445" z="0.24000000953674316406" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni003</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>100000000</Lumens>
+				<position x="0" y="0.069999992847442626953" z="0.17000000178813934326" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni002</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>100000000</Lumens>
+				<position x="0" y="0.099999994039535522461" z="0.10000000894069671631" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni001</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>100000000</Lumens>
+				<position x="0" y="0.13000001013278961182" z="0.030000006780028343201" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot002</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>20.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.030110809952020645142" y="-0.047502387315034866333" z="0.17280498147010803223" Type="3dsMax"/>
+				<rotation x="0.70710676908493041992" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot001</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>20.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.029969839379191398621" y="-0.047502387315034866333" z="0.17280498147010803223" Type="3dsMax"/>
+				<rotation x="0.70710676908493041992" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Module>
+		        <Class>Unknown</Class>
+				<MapToPlanet>true</MapToPlanet>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Factory/3176f3f8.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>Unknown</Class>
+				<MapToPlanet>true</MapToPlanet>
+			</Module>
+		</TransformNode>
+	</Condition>
+</Filter>

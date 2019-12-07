@@ -1,0 +1,118 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLiquidSilos_Lod0" >
+		    <LOD Level="1" Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLiquidSilos_Lod1" />
+		    <LOD Level="2" Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLiquidSilos_Lod2" />
+		    <LOD Level="3" Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLiquidSilos_Lod3" />
+		    <LOD Level="4" Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLiquidSilos_Lod4" />
+		    <LOD Level="5" Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLiquidSilos_Lod5" />
+		    <LOD Level="6" Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLiquidSilos_Lod6" />
+		    <LODPower>0.5</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+		
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Factory/7f7538bc.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			
+			<Light Type="SpotLight" >
+				<Name>Spot002</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>20.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="0.054709170013666152954" y="-0.41913104057312011719" z="0.14271235466003417969" Type="3dsMax"/>
+				<rotation x="0.6642589569091796875" y="0" z="0" w="0.74750250577926635742" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot001</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>20.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="-0.054685238748788833618" y="-0.41913104057312011719" z="0.14271235466003417969" Type="3dsMax"/>
+				<rotation x="0.6642589569091796875" y="0" z="0" w="0.74750250577926635742" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni008</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>100000000</Lumens>
+				<position x="0.099653460085391998291" y="-0.39037975668907165527" z="0.24821592867374420166" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni007</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>100000000</Lumens>
+				<position x="0.009918232448399066925" y="-0.39037975668907165527" z="0.24821592867374420166" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni005</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>100000000</Lumens>
+				<position x="0.054785847663879394531" y="-0.43524736166000366211" z="0.24821592867374420166" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni004</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>100000000</Lumens>
+				<position x="-0.0099182287231087684631" y="-0.39037975668907165527" z="0.24821592867374420166" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni003</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>100000000</Lumens>
+				<position x="-0.099653460085391998291" y="-0.39037975668907165527" z="0.24821592867374420166" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni001</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>100000000</Lumens>
+				<position x="-0.054785843938589096069" y="-0.43524736166000366211" z="0.24821592867374420166" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Module>
+		        <Class>StorageTank</Class>
+				<HitPoints>2500</HitPoints>
+				<Score>20</Score>
+				<MapToPlanet>true</MapToPlanet>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Factory/7f7538bc.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>StorageTank</Class>
+				<HitPoints>2500</HitPoints>
+				<Score>20</Score>
+				<MapToPlanet>true</MapToPlanet>
+			</Module>
+			<ServerModule>
+				<CreditsReward>15</CreditsReward>
+				<OnDestroyedPopupTitle>Server_Destroyed_Module_StorageTank_Title_Self</OnDestroyedPopupTitle>
+				<OnDestroyedPopupText>Server_Destroyed_Module_StorageTank_Text_Self</OnDestroyedPopupText>
+				<OnDestroyedPopupFooter>Server_Destroyed_Module_StorageTank_Footer_Self</OnDestroyedPopupFooter>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

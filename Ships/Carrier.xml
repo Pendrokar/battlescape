@@ -1,0 +1,1082 @@
+<ActorConfig>
+	<CClientNodeComponent>
+        <Object Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod0" >
+            <LOD Level="1" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod1" />
+            <LOD Level="2" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod2" />
+            <LOD Level="3" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod3" />
+            <LOD Level="4" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod4" />
+            <LOD Level="5" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod5" />
+            <LOD Level="6" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod6" />
+<!--             <LODPower>0.5</LODPower> -->
+            <LODPower>0.30</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+            <Material Override="true" />
+            <ThrusterModel ConfigFile="$Dev/config/thrusters/CarrierThrusters.xml" >
+                <LightsInheritVisibility>false</LightsInheritVisibility>
+                <ParticlesInheritVisibility>true</ParticlesInheritVisibility>
+                <ActivateDistance>14.0</ActivateDistance>
+            </ThrusterModel>
+
+			<Light Type="SpotLight" >
+				<Name>Spot024</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.098879732191562652588" y="0.30004444718360900879" z="0.079559050500392913818" Type="3dsMax"/>
+				<rotation x="0.12767057120800018311" y="-0.13600550591945648193" z="0.69944465160369873047" w="0.68991303443908691406" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot023</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.071121498942375183105" y="0.36057358980178833008" z="0.084714047610759735107" Type="3dsMax"/>
+				<rotation x="0.12685541808605194092" y="-0.13621896505355834961" z="0.69945853948593139648" w="0.69000715017318725586" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot022</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.069632716476917266846" y="0.42115983366966247559" z="0.078651033341884613037" Type="3dsMax"/>
+				<rotation x="0.11857177317142486572" y="-0.12815876305103302002" z="0.70102441310882568359" w="0.69143396615982055664" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot021</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.070244006812572479248" y="0.48085457086563110352" z="0.07443904876708984375" Type="3dsMax"/>
+				<rotation x="0.11852228641510009766" y="-0.12820769846439361572" z="0.70103245973587036133" w="0.69142514467239379883" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot020</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.34452810883522033691" y="0.00012662951485253870487" z="0.1329450756311416626" Type="3dsMax"/>
+				<rotation x="0.27673202753067016602" y="-0.2767321169376373291" z="0.65070694684982299805" w="0.65070670843124389648" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot019</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.34752795100212097168" y="-0.08245458453893661499" z="0.13591103255748748779" Type="3dsMax"/>
+				<rotation x="0.2668857574462890625" y="-0.26688587665557861328" z="0.65480691194534301758" w="0.65480673313140869141" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot018</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.34452825784683227539" y="0.00012665275426115840673" z="-0.13294455409049987793" Type="3dsMax"/>
+				<rotation x="-0.27673140168190002441" y="0.27673143148422241211" z="0.65070730447769165039" w="0.65070694684982299805" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot017</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.34752807021141052246" y="-0.082454554736614227295" z="-0.13591064512729644775" Type="3dsMax"/>
+				<rotation x="-0.26688519120216369629" y="0.26688522100448608398" z="0.65480726957321166992" w="0.65480691194534301758" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot016</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.098879761993885040283" y="0.30004444718360900879" z="-0.079558908939361572266" Type="3dsMax"/>
+				<rotation x="-0.13447885215282440186" y="0.12927453219890594482" z="0.69816726446151733398" w="0.69120615720748901367" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot015</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.071121528744697570801" y="0.36057358980178833008" z="-0.084713920950889587402" Type="3dsMax"/>
+				<rotation x="-0.13475660979747772217" y="0.12840923666954040527" z="0.69797915220260620117" w="0.69150334596633911133" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot014</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.069632746279239654541" y="0.42115983366966247559" z="-0.078650534152984619141" Type="3dsMax"/>
+				<rotation x="-0.12675975263118743896" y="0.12006048858165740967" z="0.69958984851837158203" w="0.69288629293441772461" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot013</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.070244006812572479248" y="0.48085457086563110352" z="-0.074438638985157012939" Type="3dsMax"/>
+				<rotation x="-0.12680909037590026855" y="0.12001142650842666626" z="0.69958102703094482422" w="0.69289475679397583008" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni044</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.25318428874015808105" y="-1.0165836811065673828" z="0.06745494157075881958" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni043</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.074211940169334411621" y="0.27612707018852233887" z="0.096098028123378753662" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni042</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.24499537050724029541" y="0.76876175403594970703" z="0.072688095271587371826" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni041</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.24499531090259552002" y="0.55163633823394775391" z="0.072688095271587371826" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni040</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.27812483906745910645" y="0.21523320674896240234" z="0.078844055533409118652" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni039</Name>
+				<Color X="1.0" Y="0.176471" Z="0.176471" />
+				<Lumens>50000000</Lumens>
+				<position x="0.35582253336906433105" y="0.91555738449096679688" z="1.337682675739415572e-07" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni038</Name>
+				<Color X="1.0" Y="0.176471" Z="0.176471" />
+				<Lumens>50000000</Lumens>
+				<position x="0.35676056146621704102" y="0.81434148550033569336" z="1.2506133373335615033e-07" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni037</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.44383308291435241699" y="0.071547336876392364502" z="0.053985077887773513794" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni036</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.44383308291435241699" y="0.071547336876392364502" z="-0.053984820842742919922" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni035</Name>
+				<Color X="1.0" Y="0.176471" Z="0.176471" />
+				<Lumens>50000000</Lumens>
+				<position x="0.38278448581695556641" y="-0.44914919137954711914" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni034</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>50000000</Lumens>
+				<position x="0.31811869144439697266" y="-0.63641005754470825195" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni033</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.25318428874015808105" y="-1.0165836811065673828" z="-0.067454911768436431885" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni030</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.24499537050724029541" y="0.76876175403594970703" z="-0.072688326239585876465" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni029</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.24499537050724029541" y="0.55163633823394775391" z="-0.072688326239585876465" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni028</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.27812483906745910645" y="0.21523323655128479004" z="-0.078844152390956878662" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni027</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.074211969971656799316" y="0.27612707018852233887" z="-0.096098303794860839844" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot012</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.098879702389240264893" y="0.30004444718360900879" z="-0.079558998346328735352" Type="3dsMax"/>
+				<rotation x="-0.13107714056968688965" y="-0.132642403244972229" z="-0.69881397485733032227" w="0.69056773185729980469" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot011</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.071121454238891601563" y="0.36057358980178833008" z="-0.084714002907276153564" Type="3dsMax"/>
+				<rotation x="-0.13080777227878570557" y="-0.13231581449508666992" z="-0.6987298130989074707" w="0.69076651334762573242" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot010</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.069632656872272491455" y="0.42115983366966247559" z="-0.078651003539562225342" Type="3dsMax"/>
+				<rotation x="-0.12266946583986282349" y="-0.12411317974328994751" z="-0.70031869411468505859" w="0.69217187166213989258" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot009</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.070243917405605316162" y="0.48085457086563110352" z="-0.074439004063606262207" Type="3dsMax"/>
+				<rotation x="-0.12266944348812103271" y="-0.12411320209503173828" z="-0.70031869411468505859" w="0.69217187166213989258" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni026</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.20412205159664154053" y="-0.0049551394768059253693" z="-0.15451401472091674805" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni024</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.084941409528255462646" y="-0.5348065495491027832" z="-0.12350300699472427368" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni023</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.084537647664546966553" y="-0.5348065495491027832" z="-0.12350300699472427368" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni022</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.25318446755409240723" y="-1.0165836811065673828" z="-0.067455008625984191895" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni021</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.074211910367012023926" y="0.27612707018852233887" z="-0.096097998321056365967" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni020</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.24499525129795074463" y="0.76876175403594970703" z="-0.07268800586462020874" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni019</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.24499525129795074463" y="0.55163633823394775391" z="-0.07268800586462020874" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni018</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.27812477946281433105" y="0.21523326635360717773" z="-0.078843995928764343262" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni017</Name>
+				<Color X="0.721569" Y="0.870588" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<position x="0" y="-0.40000000596046447754" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni016</Name>
+				<Color X="0.721569" Y="0.870588" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<position x="0" y="0.59999996423721313477" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni015</Name>
+				<Color X="1.0" Y="0.176471" Z="0.176471" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.35582235455513000488" y="0.91555750370025634766" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni014</Name>
+				<Color X="1.0" Y="0.176471" Z="0.176471" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.35676044225692749023" y="0.81434160470962524414" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot008</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.3445281982421875" y="0.00012670135765802115202" z="-0.13294501602649688721" Type="3dsMax"/>
+				<rotation x="-0.27673208713531494141" y="-0.27673220634460449219" z="-0.65070676803588867188" w="0.65070670843124389648" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot007</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.34752801060676574707" y="-0.082454510033130645752" z="-0.1359110027551651001" Type="3dsMax"/>
+				<rotation x="-0.26688593626022338867" y="-0.26688593626022338867" z="-0.6548067927360534668" w="0.65480673313140869141" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni013</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.44383308291435241699" y="0.07154741138219833374" z="-0.053985003381967544556" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni012</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.44383308291435241699" y="0.07154741138219833374" z="0.05398489534854888916" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot006</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.3445281982421875" y="0.00012670135765802115202" z="0.13294461369514465332" Type="3dsMax"/>
+				<rotation x="0.27673125267028808594" y="0.27673131227493286133" z="-0.650707244873046875" w="0.65070706605911254883" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot005</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.34752801060676574707" y="-0.082454510033130645752" z="0.13591070473194122314" Type="3dsMax"/>
+				<rotation x="0.26688501238822937012" y="0.2668851315975189209" z="-0.65480720996856689453" w="0.65480703115463256836" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni011</Name>
+				<Color X="1.0" Y="0.176471" Z="0.176471" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.3827845454216003418" y="-0.44914913177490234375" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni010</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.31811881065368652344" y="-0.63641005754470825195" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni009</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.25318446755409240723" y="-1.0165836811065673828" z="0.067454852163791656494" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni008</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.084941409528255462646" y="-0.5348065495491027832" z="0.12350282073020935059" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni007</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.084537647664546966553" y="-0.5348065495491027832" z="0.12350282073020935059" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni006</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.2185344994068145752" y="-0.28455716371536254883" z="0.13567563891410827637" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni005</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.2185344994068145752" y="-0.46565866470336914063" z="0.13769705593585968018" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot004</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.098879702389240264893" y="0.30004444718360900879" z="0.079558953642845153809" Type="3dsMax"/>
+				<rotation x="0.13107560575008392334" y="0.13264076411724090576" z="-0.69881427288055419922" w="0.69056808948516845703" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot003</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.071121454238891601563" y="0.36057358980178833008" z="0.19097763299942016602" Type="3dsMax"/>
+				<rotation x="0.34729728102684020996" y="0.35130104422569274902" z="-0.61831915378570556641" w="0.6112721562385559082" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot002</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.069632656872272491455" y="0.42115983366966247559" z="0.078650563955307006836" Type="3dsMax"/>
+				<rotation x="0.12266638875007629395" y="0.12411013245582580566" z="-0.70031917095184326172" w="0.69217240810394287109" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot001</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.070243917405605316162" y="0.48085457086563110352" z="0.074438683688640594482" Type="3dsMax"/>
+				<rotation x="0.12266635894775390625" y="0.12411016225814819336" z="-0.70031923055648803711" w="0.6921723484992980957" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni004</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.24499525129795074463" y="0.76876175403594970703" z="0.072688415646553039551" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni003</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.24499525129795074463" y="0.55163633823394775391" z="0.072688415646553039551" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni002</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.27812477946281433105" y="0.21523326635360717773" z="0.078844211995601654053" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni001</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.074211910367012023926" y="0.27612707018852233887" z="0.096098333597183227539" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Module>
+		        <Class>CarrierSpawn</Class>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="-0.06" Y="0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="0.06" Y="0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="-0.06" Y="-0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="0.06" Y="-0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Corvette</Type>
+			        <Size X="0.069" Y="0.057" Z="0.102" />
+			        <Position X="0.2" Y="0.0" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Corvette</Type>
+			        <Size X="0.069" Y="0.057" Z="0.102" />
+			        <Position X="-0.2" Y="0.0" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			</Module>
+        </Object>
+	</CClientNodeComponent>
+	<CServerNodeComponent>
+		<TransformNode>
+			<Module>
+		        <Class>CarrierSpawn</Class>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="-0.06" Y="0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="0.06" Y="0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="-0.06" Y="-0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="0.06" Y="-0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Corvette</Type>
+			        <Size X="0.069" Y="0.057" Z="0.102" />
+			        <Position X="0.2" Y="0.0" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Corvette</Type>
+			        <Size X="0.069" Y="0.057" Z="0.102" />
+			        <Position X="-0.2" Y="0.0" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			</Module>
+		</TransformNode>
+	</CServerNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+		<ThrustersEmissiveScale>5.0</ThrustersEmissiveScale>
+		<DyingExplosions>100</DyingExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DyingEffectScale>1.50</DyingEffectScale>
+		<DeathExplosions>25</DeathExplosions>
+		<DeathCoreEffect>BlueShockwave</DeathCoreEffect>
+		<DeathCoreEffectScale>60.0</DeathCoreEffectScale>
+		<DeathEffect>CapShipExplosionCore</DeathEffect>
+		<DeathEffectScale>6.0</DeathEffectScale>
+		<DeathEffectRange>400.0</DeathEffectRange>
+		<ShrapnelEffect>ShrapnelBig</ShrapnelEffect>
+		<ShrapnelEffectScale>10.0</ShrapnelEffectScale>
+		<ContrailEffectSize>0.25</ContrailEffectSize>
+		<DamageEffectSize>0.30</DamageEffectSize>
+		<Skin>
+			<Name>CarrierScoria</Name>
+			<ColorMap>Ships/SFC-Carrier/Skins/T_Carrier_Scoria</ColorMap>
+		</Skin>
+		<Skin>
+			<Name>CarrierHavoc</Name>
+			<ColorMap>Ships/SFC-Carrier/Skins/T_Carrier_Havoc</ColorMap>
+		</Skin>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+    <CClientCameraViewComponent>
+		<LinAccSmoothing>0.02</LinAccSmoothing>
+		<AngVelSmoothing>0.2</AngVelSmoothing>
+		<ViewRangeExt X="0.75" Y="1.5" />
+		<DefaultViewRangeExt>1.0</DefaultViewRangeExt>
+        <Camera Type="Capship">
+            <ViewPosition X="0" Y="-0.4638" Z="-1.8165" />
+			<ViewAngle X="0" Y="0" />
+			<ViewOffset>0.45</ViewOffset>
+        </Camera>
+        <Camera Type="External">
+            <!-- chase camera behind ship -->
+            <ViewPosition X="0" Y="0.252" Z="-1.451" />
+			<ViewAngle X="0.130" Y="0" />
+        </Camera>
+        <Camera Type="Internal" >
+            <!-- bridge -->
+            <ViewPosition X="0" Y="0.236" Z="-0.3581" />
+        </Camera>
+    </CClientCameraViewComponent>
+	<CClientAudioComponent>
+		<SideThruster Target="SideThrusterBig" DistRangeScale="0.25" FadeLength="0.5" />
+		<MainThruster Target="MainThrusterHeavy2" DistRangeScale="0.4" FadeLength="2.0" />
+		<EngineIdle Target="EngineIdleHeavy1" FadeLength="2.0" />
+		<EngineFast Target="EngineFastHeavy2" FadeLength="2.0" />
+		<WarpAmbient Target="WarpAmbient" FadeLength="2.0" />
+		<AtmoFriction Target="AtmoFriction" FadeLength="2.0" />
+		<DamageShield Target="DamageShieldBig" />
+		<DamagePower Target="DamagePowerBig" />
+		<DamageEngine Target="DamageEngineBig" />
+	</CClientAudioComponent>
+	<CClientActorComponent>
+		<ControlScheme>CapShip</ControlScheme>
+	</CClientActorComponent>
+	<CServerActorComponent>
+		<StratScore>50</StratScore>
+		<DefaultSkins>
+			<Skin TeamID="0">CarrierHavoc</Skin>
+			<Skin TeamID="1">CarrierScoria</Skin>
+			<Skin TeamID="2">CarrierHavoc</Skin>
+		</DefaultSkins>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>400.0</EmissionsRange>
+		<SensorPower>2.0</SensorPower>
+		<IsScannable>true</IsScannable>
+		<MaxScanRange>100000.0</MaxScanRange>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>LargeShip</Indicator>
+		<SurfaceType>Metal</SurfaceType>
+		<ClassAbbrev>CAR</ClassAbbrev>
+		<ClassName>CARRIER</ClassName>
+	</CActorComponent>
+	<CBodyComponent>
+    	<PhysicsBody Type="Mesh" >
+			<CollisionFile>$Dev/Ships/SFC-Carrier/Collision/79bf60f0.insm</CollisionFile>
+			<Dynamic>true</Dynamic>
+            <Mass>100000.0</Mass>
+            <Collisions>true</Collisions>
+        </PhysicsBody>
+<!--     	<PhysicsBody Type="Box" >
+        	<SidesSize X="1.16533" Y="0.36359" Z="2.16519" />
+            <Offset X="0" Y="0" Z="-0.05475" />
+            <Mass>100000.0</Mass>
+            <Collisions>true</Collisions>
+        </PhysicsBody> -->
+<!-- 		<CollisionBody>
+			<CollisionFile>$Dev/Ships/SFC-Carrier/Collision/79bf60f0.insm</CollisionFile>
+		</CollisionBody> -->
+		<HitMesh>
+			<CollisionFile>$Dev/Ships/SFC-Carrier/Collision/79bf60f0.insm</CollisionFile>
+			<SplitCost>0.05</SplitCost>
+		</HitMesh>
+	</CBodyComponent>
+    <CPropulsionComponent>
+        <RampUpFactor>10.0</RampUpFactor>
+        <LinearThrust X="650.0" Y="450.0" Z="1500.0" />
+        <RotationThrust X="900.0" Y="800.0" Z="600.0" />
+        <RotationStabilizer X="22.0" Y="22.0" Z="15.0" />
+		<MaxRotationSpeed X="0.15" Y="0.10" Z="0.30" />
+		<AtmoDecay>0.04</AtmoDecay>
+		<RotWarpLimiter>0.5</RotWarpLimiter>
+		<DriftLimiter>5.0</DriftLimiter>
+		<CapSpeed>0.175</CapSpeed>
+    </CPropulsionComponent>
+	<CEngineComponent>
+		<EnergyPoints>3000</EnergyPoints>
+		<HeatPoints>2000</HeatPoints>
+		<DechargeHeatPoints>150</DechargeHeatPoints>
+	</CEngineComponent>
+	<CHullComponent>
+		<HitPoints>60000</HitPoints>
+		<DyingDuration>10.0</DyingDuration>
+		<DeathTiming>3.0</DeathTiming>
+		<DeathDuration>4.0</DeathDuration>
+		<DeathCredits>150</DeathCredits>
+		<Drag>0.00003</Drag>
+		<ArmorPoints>4</ArmorPoints>
+	</CHullComponent>
+	<CShieldComponent>
+		<ShieldPoints>40000</ShieldPoints>
+		<RechargeRate>20</RechargeRate>
+	</CShieldComponent>
+	<CWarpComponent>
+		<MinWarpSpeed>0.100</MinWarpSpeed>
+	</CWarpComponent>
+	<CClientWarpComponent>
+		<WarpMesh>Particles/Warp/SM_WarpTunnelRound</WarpMesh>
+		<WarpMeshScale>720.0</WarpMeshScale>
+		<LightsDist>0.015</LightsDist>
+	</CClientWarpComponent>
+	<CShipComponent>
+		<SpawnType>Capship</SpawnType>
+	</CShipComponent>
+	<CHardpointComponent>
+		<Mesh>$Dev/Ships/SFC-Carrier/ea3ab0ff.insm</Mesh>
+
+		<Group ID="0" >
+			<GroupType>Primary</GroupType>
+			<Weapon>AutoTurretGunMK4</Weapon>
+			<AutoAim>true</AutoAim>
+			<AutoFire>true</AutoFire>
+		</Group>
+		<Group ID="1" >
+			<GroupType>Secondary</GroupType>
+			<Weapon>AutoTurretBlasterMK4</Weapon>
+			<AutoAim>true</AutoAim>
+			<AutoFire>true</AutoFire>
+		</Group>
+		<Group ID="2" >
+			<GroupType>Primary</GroupType>
+			<Weapon>TurretGunMK5</Weapon>
+		</Group>
+		<Group ID="3" >
+			<GroupType>Secondary</GroupType>
+			<Weapon>TurretBlasterMK5</Weapon>
+		</Group>
+		<Group ID="4" >
+			<GroupType>Primary</GroupType>
+			<Weapon>TurretGunMK6</Weapon>
+		</Group>
+		<Group ID="5" >
+			<GroupType>Primary</GroupType>
+			<Weapon>TurretFlakMK5</Weapon>
+		</Group>
+		<Group ID="6" >
+			<GroupType>Missile</GroupType>
+			<Weapon>MissileLauncherMK3</Weapon>
+		</Group>
+		<Group ID="7" >
+			<GroupType>Missile</GroupType>
+			<Weapon>TorpedoLauncherMK3</Weapon>
+		</Group>
+
+ 		<Hardpoint ID="0" >
+			<Socket>s_mk4_front_bot_left_1</Socket>
+			<GroupID>0</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="1" >
+			<Socket>s_mk4_front_bot_left_2</Socket>
+			<GroupID>1</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="2" >
+			<Socket>s_mk4_front_bot_right_1</Socket>
+			<GroupID>0</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="3" >
+			<Socket>s_mk4_front_bot_right_2</Socket>
+			<GroupID>1</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="4" >
+			<Socket>s_mk4_front_top_left_1</Socket>
+			<GroupID>0</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="5" >
+			<Socket>s_mk4_front_top_left_2</Socket>
+			<GroupID>1</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="6" >
+			<Socket>s_mk4_front_top_right_1</Socket>
+			<GroupID>0</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="7" >
+			<Socket>s_mk4_front_top_right_2</Socket>
+			<GroupID>1</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="8" >
+			<Socket>s_mk4_mid_bot_left</Socket>
+			<GroupID>0</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="9" >
+			<Socket>s_mk4_mid_bot_right</Socket>
+			<GroupID>0</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="10" >
+			<Socket>s_mk4_mid_top_left</Socket>
+			<GroupID>0</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="11" >
+			<Socket>s_mk4_mid_top_right</Socket>
+			<GroupID>0</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="12" >
+			<Socket>s_mk4_rear_bot_left</Socket>
+			<GroupID>1</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="13" >
+			<Socket>s_mk4_rear_bot_right</Socket>
+			<GroupID>1</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="14" >
+			<Socket>s_mk4_rear_top_left</Socket>
+			<GroupID>1</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="15" >
+			<Socket>s_mk4_rear_top_right</Socket>
+			<GroupID>1</GroupID>
+		</Hardpoint>
+
+		<Hardpoint ID="16" >
+			<Socket>s_mk5_bot_left_1</Socket>
+			<GroupID>2</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="17" >
+			<Socket>s_mk5_bot_left_2</Socket>
+			<GroupID>5</GroupID>
+		</Hardpoint>
+ 		<Hardpoint ID="18" >
+			<Socket>s_mk5_bot_right_1</Socket>
+			<GroupID>2</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="19" >
+			<Socket>s_mk5_bot_right_2</Socket>
+			<GroupID>5</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="20" >
+			<Socket>s_mk5_top_left_1</Socket>
+			<GroupID>2</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="21" >
+			<Socket>s_mk5_top_left_2</Socket>
+			<GroupID>5</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="22" >
+			<Socket>s_mk5_top_right_1</Socket>
+			<GroupID>2</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="23" >
+			<Socket>s_mk5_top_right_2</Socket>
+			<GroupID>5</GroupID>
+		</Hardpoint>
+
+		<Hardpoint ID="24" >
+			<Socket>s_mk6_bot_left</Socket>
+			<GroupID>4</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="25" >
+			<Socket>s_mk6_bot_right</Socket>
+			<GroupID>4</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="26" >
+			<Socket>s_mk6_top_left</Socket>
+			<GroupID>4</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="27" >
+			<Socket>s_mk6_top_right</Socket>
+			<GroupID>4</GroupID>
+		</Hardpoint>
+
+<!-- 		<Hardpoint ID="28" >
+			<Socket>s_mk7_bot</Socket>
+			<GroupID>5</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="29" >
+			<Socket>s_mk7_top</Socket>
+			<GroupID>5</GroupID>
+		</Hardpoint> -->
+
+		<Hardpoint ID="30" >
+			<Socket>s_mko_missile_bot_left</Socket>
+			<GroupID>6</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="31" >
+			<Socket>s_mko_missile_bot_right</Socket>
+			<GroupID>6</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="32" >
+			<Socket>s_mko_missile_top_left</Socket>
+			<GroupID>6</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="33" >
+			<Socket>s_mko_missile_top_right</Socket>
+			<GroupID>6</GroupID>
+		</Hardpoint>
+
+		<Ammo>
+			<Type>Mg56mm</Type>
+			<Amount>30000</Amount>
+		</Ammo>
+		<Ammo>
+			<Type>Mg96mm</Type>
+			<Amount>7500</Amount>
+		</Ammo>
+		<Ammo>
+			<Type>LightMissile</Type>
+			<Amount>256</Amount>
+		</Ammo>
+<!-- 		<Ammo>
+			<Type>Torpedo</Type>
+			<Amount>8</Amount>
+		</Ammo> -->
+
+	</CHardpointComponent>
+	<CServerHardpointComponent>
+	</CServerHardpointComponent>
+	<CServerModulesComponent>
+		<DamageModel>Global</DamageModel>
+	</CServerModulesComponent>
+	<CCarrierComponent>
+	</CCarrierComponent>
+	<CServerMissionComponent>
+		<BountyReward>250</BountyReward>
+	</CServerMissionComponent>
+</ActorConfig>

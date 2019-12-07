@@ -1,0 +1,400 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/StationModules_SFC/SM_SFC_Station_FighterBay_Lod0" >
+			<LOD Level="1" Mesh="Structures/StationModules_SFC/SM_SFC_Station_FighterBay_Lod1" />
+			<LOD Level="2" Mesh="Structures/StationModules_SFC/SM_SFC_Station_FighterBay_Lod2" />
+			<LOD Level="3" Mesh="Structures/StationModules_SFC/SM_SFC_Station_FighterBay_Lod3" />
+			<LOD Level="4" Mesh="Structures/StationModules_SFC/SM_SFC_Station_FighterBay_Lod4" />
+			<LOD Level="5" Mesh="Structures/StationModules_SFC/SM_SFC_Station_FighterBay_Lod5" />
+			<LODPower>0.5</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+
+			<PhysicsBody Type="Mesh" >
+<!-- 		        <CollisionFile>$Dev/Structures/SFC-Stations/ad7d0467.insm</CollisionFile> -->
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/c805b9db.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+
+			<Sound>
+				<Name>AmbientBigHangar</Name>
+			</Sound>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="0.097" y="-0.029" z="0.009" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="0.097" y="-0.029" z="0.1" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="0.097" y="0.022" z="0.009" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="0.097" y="0.022" z="0.1" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="0.0" y="-0.029" z="0.009" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="0.0" y="-0.029" z="0.1" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="0.0" y="0.022" z="0.009" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="0.0" y="0.022" z="0.1" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="-0.097" y="-0.029" z="0.009" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="-0.097" y="-0.029" z="0.1" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="-0.097" y="0.022" z="0.009" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="-0.097" y="0.022" z="0.1" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="0.8" Z="0.5" />
+				<Lumens>100000000.0</Lumens>
+				<position x="-0.032" y="-0.029" z="0.009" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="0.8" Z="0.5" />
+				<Lumens>100000000.0</Lumens>
+				<position x="-0.032" y="-0.029" z="0.1" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="0.8" Z="0.5" />
+				<Lumens>100000000.0</Lumens>
+				<position x="-0.032" y="0.022" z="0.009" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="0.8" Z="0.5" />
+				<Lumens>100000000.0</Lumens>
+				<position x="-0.032" y="0.022" z="0.1" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="0.8" Z="0.5" />
+				<Lumens>100000000.0</Lumens>
+				<position x="0.032" y="-0.029" z="0.009" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="0.8" Z="0.5" />
+				<Lumens>100000000.0</Lumens>
+				<position x="0.032" y="-0.029" z="0.1" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="0.8" Z="0.5" />
+				<Lumens>100000000.0</Lumens>
+				<position x="0.032" y="0.022" z="0.009" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill01</Name>
+				<Color X="1.0" Y="0.8" Z="0.5" />
+				<Lumens>100000000.0</Lumens>
+				<position x="0.032" y="0.022" z="0.1" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+
+
+
+
+			<Light Type="PointLight" >
+				<Name>GarageFill01</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="-0.060" y="0.0135451" z="-0.069" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>GarageSpot01</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>40000000.0</Lumens>
+				<Innercone>60.0</Innercone>
+				<Outercone>70.0</Outercone>
+				<position x="-0.060" y="0.0270277" z="-0.069" />
+				<rotation x="0.70710676908493042" y="0" z="0" w="0.70710676908493042" Type="3dsMax"/>
+				<Cutoff>4096.0</Cutoff>
+				<ShadowMap State="true" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>GarageFill02</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="0.0" y="0.0135451" z="-0.069" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>GarageSpot02</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>40000000.0</Lumens>
+				<Innercone>60.0</Innercone>
+				<Outercone>70.0</Outercone>
+				<position x="0.0" y="0.0270277" z="-0.069" />
+				<rotation x="0.70710676908493042" y="0" z="0" w="0.70710676908493042" Type="3dsMax"/>
+				<Cutoff>4096.0</Cutoff>
+				<ShadowMap State="true" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>GarageFill03</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="0.060" y="0.0135451" z="-0.069" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>GarageSpot03</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>40000000.0</Lumens>
+				<Innercone>60.0</Innercone>
+				<Outercone>70.0</Outercone>
+				<position x="0.060" y="0.0270277" z="-0.069" />
+				<rotation x="0.70710676908493042" y="0" z="0" w="0.70710676908493042" Type="3dsMax"/>
+				<Cutoff>4096.0</Cutoff>
+				<ShadowMap State="true" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>GarageFill04</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="-0.060" y="-0.022" z="-0.069" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>GarageSpot04</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>40000000.0</Lumens>
+				<Innercone>60.0</Innercone>
+				<Outercone>70.0</Outercone>
+				<position x="-0.060" y="-0.012" z="-0.069" />
+				<rotation x="0.70710676908493042" y="0" z="0" w="0.70710676908493042" Type="3dsMax"/>
+				<Cutoff>4096.0</Cutoff>
+				<ShadowMap State="true" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>GarageFill05</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="0.0" y="-0.022" z="-0.069" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>GarageSpot05</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>40000000.0</Lumens>
+				<Innercone>60.0</Innercone>
+				<Outercone>70.0</Outercone>
+				<position x="0.0" y="-0.012" z="-0.069" />
+				<rotation x="0.70710676908493042" y="0" z="0" w="0.70710676908493042" Type="3dsMax"/>
+				<Cutoff>4096.0</Cutoff>
+				<ShadowMap State="true" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>GarageFill06</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>200000000.0</Lumens>
+				<position x="0.060" y="-0.022" z="-0.069" />
+				<Cutoff>4096.0</Cutoff>
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>GarageSpot06</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>40000000.0</Lumens>
+				<Innercone>60.0</Innercone>
+				<Outercone>70.0</Outercone>
+				<position x="0.060" y="-0.012" z="-0.069" />
+				<rotation x="0.70710676908493042" y="0" z="0" w="0.70710676908493042" Type="3dsMax"/>
+				<Cutoff>4096.0</Cutoff>
+				<ShadowMap State="true" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+
+			<Module>
+		        <Class>HangarSpawn</Class>
+				<HitPoints>6000</HitPoints>
+				<Score>25</Score>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
+			        <Position X="0.060" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
+			        <Position X="0.060" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
+			        <Position X="0.0" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
+			        <Position X="0.0" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
+			        <Position X="-0.060" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
+			        <Position X="-0.060" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			    </Spawn>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+<!-- 		        <CollisionFile>$Dev/Structures/SFC-Stations/ad7d0467.insm</CollisionFile> -->
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/c805b9db.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>HangarSpawn</Class>
+				<HitPoints>6000</HitPoints>
+				<Score>25</Score>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
+			        <Position X="0.060" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
+			        <Position X="0.060" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
+			        <Position X="0.0" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
+			        <Position X="0.0" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
+			        <Position X="-0.060" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
+			        <Position X="-0.060" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			    </Spawn>
+			</Module>
+			<ServerModule>
+				<CreditsReward>60</CreditsReward>
+				<OnDestroyedPopupTitle>Server_Destroyed_Module_FighterSpawn_Title_Self</OnDestroyedPopupTitle>
+				<OnDestroyedPopupText>Server_Destroyed_Module_FighterSpawn_Text_Self</OnDestroyedPopupText>
+				<OnDestroyedPopupFooter>Server_Destroyed_Module_FighterSpawn_Footer_Self</OnDestroyedPopupFooter>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

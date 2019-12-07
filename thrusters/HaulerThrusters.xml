@@ -1,0 +1,75 @@
+<ThrustModel>
+
+    <MLQ>4096.0</MLQ>
+
+    <Group ID="0" DeltaIntensity="5.0" AngAccFactor="1.0" >
+		<Range>5.5</Range>
+        <Light Intensity="10000000.0" Offset="0.00200" >
+<!--             <Color X="0.76" Y="0.87" Z="0.70" /> -->
+            <Color X="0.05" Y="0.3" Z="1.0" />
+            <FadingSize Min="0.1" Max="0.2" />
+        </Light>
+<!--         <Particles Name="Particles/Thrusters/Main_Drive/Effect/P_Small_Thruster" SizeScale="1.4" /> -->
+        <Particles Name="Particles/Thrusters/Main_Drive/P_DestroyerThruster" SizeScale="0.4" UseMeshParticles="true" Intensity="150000.0" Offset="-0.005" Length="1.2" />
+    </Group>
+
+    <Group ID="1" DeltaIntensity="5.0" AngAccFactor="1.0" >
+		<Range>4.0</Range>
+        <Light Intensity="3200000.0" Offset="0.0032" >
+            <Color X="0.76" Y="0.87" Z="0.70" />
+            <FadingSize Min="0.1" Max="0.2" />
+        </Light>
+        <Particles Name="Particles/Thrusters/M_Jet/Effect/P_Mjet" SizeScale="0.2" />
+    </Group>
+
+    <Group ID="2" DeltaIntensity="5.0" AngAccFactor="1.0" >
+		<Range>5.5</Range>
+        <Light Intensity="10000000.0" Offset="0.00200" >
+<!--             <Color X="0.76" Y="0.87" Z="0.70" /> -->
+            <Color X="0.05" Y="0.3" Z="1.0" />
+            <FadingSize Min="0.1" Max="0.2" />
+        </Light>
+<!--         <Particles Name="Particles/Thrusters/Main_Drive/Effect/P_Small_Thruster" SizeScale="1.4" /> -->
+        <Particles Name="Particles/Thrusters/Main_Drive/P_DestroyerThruster" SizeScale="0.3" UseMeshParticles="true" Intensity="150000.0" Offset="-0.005" Length="1.2" />
+    </Group>
+
+    <Thruster ID="0" Name="s_engine_main_left_1" GroupID="0" />
+    <Thruster ID="1" Name="s_engine_main_left_2" GroupID="0" />
+    <Thruster ID="2" Name="s_engine_main_left_3" GroupID="0" />
+    <Thruster ID="3" Name="s_engine_main_right_1" GroupID="0" />
+    <Thruster ID="4" Name="s_engine_main_right_2" GroupID="0" />
+    <Thruster ID="5" Name="s_engine_main_right_3" GroupID="0" />
+    <Thruster ID="6" Name="s_engine_main_left_4" GroupID="0" />
+    <Thruster ID="7" Name="s_engine_main_right_4" GroupID="0" />
+
+    <Thruster ID="8" Name="s_retro_left" GroupID="2" />
+    <Thruster ID="9" Name="s_retro_right" GroupID="2" />
+
+    <Thruster ID="10" Name="s_mjet_rear_left_top" GroupID="1" />
+    <Thruster ID="11" Name="s_mjet_mid_left_top" GroupID="1" />
+    <Thruster ID="12" Name="s_mjet_forward_left_top" GroupID="1" />
+    <Thruster ID="13" Name="s_mjet_forward_right_top" GroupID="1" />
+    <Thruster ID="14" Name="s_mjet_forward_left" GroupID="1" />
+    <Thruster ID="15" Name="s_mjet_forward_right" GroupID="1" />
+    <Thruster ID="16" Name="s_mjet_rear_right_top" GroupID="1" />
+    <Thruster ID="17" Name="s_mjet_mid_right_top" GroupID="1" />
+    <Thruster ID="18" Name="s_mjet_rear_left" GroupID="1" />
+    <Thruster ID="19" Name="s_mjet_rear_right" GroupID="1" />
+    <Thruster ID="20" Name="s_mjet_rear_right_bottom_3" GroupID="1" />
+    <Thruster ID="21" Name="s_mjet_rear_right_bottom_2" GroupID="1" />
+    <Thruster ID="22" Name="s_mjet_rear_right_bottom_1" GroupID="1" />
+    <Thruster ID="23" Name="s_mjet_forward_right_bottom_1" GroupID="1" />
+    <Thruster ID="24" Name="s_mjet_forward_right_bottom_3" GroupID="1" />
+    <Thruster ID="25" Name="s_mjet_forward_right_bottom_2" GroupID="1" />
+    <Thruster ID="26" Name="s_mjet_mid_right_bottom_1" GroupID="1" />
+    <Thruster ID="27" Name="s_mjet_mid_right_bottom_2" GroupID="1" />
+    <Thruster ID="28" Name="s_mjet_rear_left_bottom_1" GroupID="1" />
+    <Thruster ID="29" Name="s_mjet_rear_left_bottom_2" GroupID="1" />
+    <Thruster ID="30" Name="s_mjet_rear_left_bottom_3" GroupID="1" />
+    <Thruster ID="31" Name="s_mjet_forward_left_bottom_1" GroupID="1" />
+    <Thruster ID="32" Name="s_mjet_forward_left_bottom_2" GroupID="1" />
+    <Thruster ID="33" Name="s_mjet_forward_left_bottom_3" GroupID="1" />
+    <Thruster ID="34" Name="s_mjet_mid_left_bottom_1" GroupID="1" />
+    <Thruster ID="35" Name="s_mjet_mid_left_bottom_2" GroupID="1" />
+
+</ThrustModel>

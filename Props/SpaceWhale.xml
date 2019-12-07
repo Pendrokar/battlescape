@@ -1,0 +1,60 @@
+<ActorConfig>
+	<CClientNodeComponent>
+        <Object Mesh="Cockpits/Bobbleheads/Spacewhaledan/SM_Bobblehead_spacewhaledan_withoutbase" >
+			<RejectionSize>0.00001</RejectionSize>
+            <PhysicsBody Type="Mesh" >
+                <CollisionFile>$Dev/Cockpits/Bobbleheads/Spacewhaledan/7decbdeb.insm</CollisionFile>
+				<CollisionScale>10000</CollisionScale>
+                <Collisions>true</Collisions>
+                <Bounce>0.25</Bounce>
+                <Friction>0.01</Friction>
+            </PhysicsBody>
+			<Scale X="10000" Y="10000" Z="10000" />
+			<Sound>
+				<Name>Whale</Name>
+			</Sound>
+        </Object>
+ 	</CClientNodeComponent>
+	<CServerNodeComponent>
+        <TransformNode>
+            <PhysicsBody Type="Mesh" >
+                <CollisionFile>$Dev/Cockpits/Bobbleheads/Spacewhaledan/7decbdeb.insm</CollisionFile>
+				<CollisionScale>10000</CollisionScale>
+                <Collisions>true</Collisions>
+                <Bounce>0.25</Bounce>
+                <Friction>0.01</Friction>
+            </PhysicsBody>
+			<Scale X="10000" Y="10000" Z="10000" />
+        </TransformNode>
+	</CServerNodeComponent>
+	<CServerActorComponent>
+        <Name>Unknown</Name>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>1000.0</EmissionsRange>
+		<NetworkSize>15.0</NetworkSize>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>Structure</Indicator>
+	</CActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Static" >
+            <Collisions>true</Collisions>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+        </PhysicsBody>
+	</CBodyComponent>
+	<CHullComponent>
+		<HitPoints>100000000</HitPoints>
+	</CHullComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>10000.0</EmissiveIntensity>
+		<DeathExplosions>1</DeathExplosions>
+		<DyingEffect>LargeExplosion</DyingEffect>
+		<DeathEffect>SmallShipExplosion</DeathEffect>
+		<DyingEffectScale>0.01</DyingEffectScale>
+		<DeathEffectScale>0.05</DeathEffectScale>
+		<ContrailEffectSize>0.002</ContrailEffectSize>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+</ActorConfig>

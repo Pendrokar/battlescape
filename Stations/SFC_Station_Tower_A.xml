@@ -1,0 +1,113 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/SFC-Stations/SM_SFC_Station_Tower_A_Lod0" >
+			<LOD Level="1" Mesh="Structures/SFC-Stations/SM_SFC_Station_Tower_A_Lod1" />
+			<LOD Level="2" Mesh="Structures/SFC-Stations/SM_SFC_Station_Tower_A_Lod2" />
+			<LOD Level="3" Mesh="Structures/SFC-Stations/SM_SFC_Station_Tower_A_Lod3" />
+			<LOD Level="4" Mesh="Structures/SFC-Stations/SM_SFC_Station_Tower_A_Lod4" />
+			<LOD Level="5" Mesh="Structures/SFC-Stations/SM_SFC_Station_Tower_A_Lod5" />
+			<LOD Level="6" Mesh="Structures/SFC-Stations/SM_SFC_Station_Tower_A_Lod6" />
+			<LODPower>1.0</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+
+			<PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Stations/b26ad073.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+
+			<Light Type="PointLight" >
+				<Name>Omni009</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>1000000000</Lumens>
+				<position x="0.085000000894069671631" y="0" z="-0.035000000149011611938" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni008</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>1000000000</Lumens>
+				<position x="0.090000003576278686523" y="0" z="-0.47000002861022949219" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni007</Name>
+				<Color X="0.996079" Y="0.764706" Z="0.686275" />
+				<Lumens>1000000000</Lumens>
+				<position x="0.07500000298023223877" y="0" z="-0.71500003337860107422" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni006</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>1000000000</Lumens>
+				<position x="-0.16000001132488250732" y="0" z="-0.59000003337860107422" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni005</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>1000000000</Lumens>
+				<position x="-0.16000001132488250732" y="0" z="-0.46000000834465026855" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni004</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>1000000000</Lumens>
+				<position x="-0.15000000596046447754" y="0" z="0.090000003576278686523" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni003</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>1000000000</Lumens>
+				<position x="-0.16000001132488250732" y="0" z="0.22000001370906829834" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni002</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>1000000000</Lumens>
+				<position x="-0.17000000178813934326" y="0" z="0.48000001907348632813" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni001</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>1000000000</Lumens>
+				<position x="-0.17000000178813934326" y="0" z="0.70000004768371582031" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Module>
+		        <Class>Unknown</Class>
+				<HitPoints>2000</HitPoints>
+				<Score>25</Score>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Stations/b26ad073.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>Unknown</Class>
+				<HitPoints>2000</HitPoints>
+				<Score>25</Score>
+			</Module>
+			<ServerModule>
+				<CreditsReward>10</CreditsReward>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

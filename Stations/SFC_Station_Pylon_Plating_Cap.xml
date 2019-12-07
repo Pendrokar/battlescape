@@ -1,0 +1,113 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Plating_Cap_Lod0" >
+			<LOD Level="1" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Plating_Cap_Lod1" />
+			<LOD Level="2" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Plating_Cap_Lod2" />
+			<LOD Level="3" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Plating_Cap_Lod3" />
+			<LOD Level="4" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Plating_Cap_Lod4" />
+			<LOD Level="5" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Plating_Cap_Lod5" />
+			<LOD Level="6" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Plating_Cap_Lod6" />
+			<LODPower>1.0</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+
+			<PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Stations/d206da3c.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+
+			<Light Type="PointLight" >
+				<Name>Omni035</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>500000000</Lumens>
+				<position x="0.13500002026557922363" y="0.21499998867511749268" z="-0.10300000011920928955" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni034</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>500000000</Lumens>
+				<position x="0.13500000536441802979" y="0.025000004097819328308" z="-0.10300000756978988647" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni033</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>500000000</Lumens>
+				<position x="-0.13500000536441802979" y="0.025000004097819328308" z="-0.10300000756978988647" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni032</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>500000000</Lumens>
+				<position x="0" y="-0.25" z="0.13000001013278961182" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni031</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>500000000</Lumens>
+				<position x="0" y="0.050000000745058059692" z="0.020000003278255462646" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni030</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>500000000</Lumens>
+				<position x="0.14000000059604644775" y="0.049999989569187164307" z="0.19000001251697540283" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni029</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>500000000</Lumens>
+				<position x="-0.14000000059604644775" y="0.049999989569187164307" z="0.19000001251697540283" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni028</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>500000000</Lumens>
+				<position x="0" y="-0.15000002086162567139" z="0.19000001251697540283" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni027</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>500000000</Lumens>
+				<position x="-0.13499999046325683594" y="0.21499998867511749268" z="-0.10300000011920928955" Type="3dsMax"/>
+				<Cutoff>2048</Cutoff>
+			</Light>
+
+			<Module>
+		        <Class>Unknown</Class>
+				<HitPoints>2000</HitPoints>
+				<Score>25</Score>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Stations/d206da3c.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>Unknown</Class>
+				<HitPoints>2000</HitPoints>
+				<Score>25</Score>
+			</Module>
+			<ServerModule>
+				<CreditsReward>10</CreditsReward>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

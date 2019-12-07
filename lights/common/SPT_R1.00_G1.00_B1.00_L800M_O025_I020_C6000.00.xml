@@ -1,0 +1,9 @@
+<spotlight>
+    <color X="1" Y="1" Z="0.8"/>
+    <cutoff>6000</cutoff>
+    <innercone>20</innercone>
+    <lumens>800000000</lumens>
+    <nodes/>
+    <outercone>25</outercone>
+    <ShadowMap State="true" Size="512" MinRate="1.0" MaxRate="0.03" MinQuality="2" />
+</spotlight>

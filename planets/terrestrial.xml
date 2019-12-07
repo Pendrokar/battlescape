@@ -1,0 +1,211 @@
+<Planet>
+    <Global>
+        <Radius Value="6360.0" />
+        <RotationSpeed Value="0.0" />
+        <Position X="0" Y="0" Z="0" />
+    </Global>
+    <Atmosphere State="true" >
+        <Thickness Value="80.0" />
+        <BetaR Red="0.010" Green="0.010" Blue="0.035" />
+        <HR Value="8.0" />
+        <BetaMSca Red="0.001" Green="0.0100" Blue="0.004" />
+        <BetaMEx Red="0.0100" Green="0.0210" Blue="0.0130" />
+        <HM Value="4.0" />
+        <G Value="0.7" />
+    </Atmosphere>
+    <Ground State="true" >
+        <Patch TexRes="512" />
+<!--         <SeaLevel Value="0.3" /> -->
+        <SeaLevel Value="0.0" />
+        <Slope Power="1.0" />
+        <Fractal Altitude="0.25" Slope="0.3" />
+        <Biome TexRes="2048" />
+        <Elevation Min="0" Max="12" />
+    </Ground>
+    <Ocean State="false" >
+        <DeepColor Red="0.00175" Green="0.0035" Blue="0.0105" />
+        <ShallowColor Red="0.0075" Green="0.030" Blue="0.0112" />
+        <Spectrum TimeScale="0.5" Amplitude="1.0" Wind="600.0" />
+        <Foam State="true" ParamX="-1.0" ParamY="0.99" ParamZ="30.0" ParamW="0.01" Intensity="0.3" Texture="$Textures/Foam.png" />
+    </Ocean>
+    <Cloud State="false" >
+        <Altitude Value="15.0" />
+    </Cloud>
+    <Ring State="true" >
+        <Seed Value="1235" />
+        <Radius Min="10000" Max="12000" />
+        <Thickness Value="10.0" />
+        <BaseColor>
+            <Color R="250" G="250" B="250" Proba="100"/>
+            <Color R="125" G="125" B="125" Proba="60"/>
+            <Color R="119" G="97" B="28" Proba="40"/>
+            <Color R="115" G="43" B="32" Proba="40"/>
+        </BaseColor>
+        <Fade Factor="0.00025" />
+        <DiffuseColor Red="1.0" Green="1.0" Blue="1.0" />
+        <AmbientColor Red="0.16" Green="0.16" Blue="0.16" />
+        <AsteroidField ImpostorFactor="2.5" >
+            <Meshes>
+                <Mesh ID="0" Name="Celestial/Asteroids/BigA01/SM_BigA01" CollName="" CollFile="$Dev/Celestial/Asteroids/BigA01/e4fc0bb4.insm" />
+                <Mesh ID="1" Name="Celestial/Asteroids/BigA02/SM_BigA02" CollName="" CollFile="$Dev/Celestial/Asteroids/BigA02/a03fe774.insm" />
+                <Mesh ID="2" Name="Celestial/Asteroids/MedA01/SM_MedA01" CollName="" CollFile="$Dev/Celestial/Asteroids/MedA01/aba3af76.insm" />
+                <Mesh ID="3" Name="Celestial/Asteroids/MedA02/SM_MedA02" CollName="" CollFile="$Dev/Celestial/Asteroids/MedA02/342737d7.insm" />
+                <Mesh ID="4" Name="Celestial/Asteroids/SmallA01/SM_SmallA01" CollName="" CollFile="$Dev/Celestial/Asteroids/SmallA01/57a625d0.insm" />
+                <Mesh ID="5" Name="Celestial/Asteroids/SmallA02/SM_SmallA02" CollName="" CollFile="$Dev/Celestial/Asteroids/SmallA02/e1bea016.insm" />
+            </Meshes>
+
+            <Level Depth="5" Count="800" >
+                <Mesh ID="0" Proba="0.5" MinSize="16.0" MaxSize="16.0" />
+                <Mesh ID="1" Proba="0.5" MinSize="16.0" MaxSize="16.0" />
+            </Level>
+            <Level Depth="6" Count="500" >
+                <Mesh ID="0" Proba="0.5" MinSize="8.0" MaxSize="8.0" />
+                <Mesh ID="1" Proba="0.5" MinSize="8.0" MaxSize="8.0" />
+            </Level>
+            <Level Depth="7" Count="300" >
+                <Mesh ID="0" Proba="0.5" MinSize="4.0" MaxSize="4.0" />
+                <Mesh ID="1" Proba="0.5" MinSize="4.0" MaxSize="4.0" />
+            </Level>
+            <Level Depth="8" Count="200" >
+                <Mesh ID="2" Proba="0.5" MinSize="2.0" MaxSize="2.0" />
+                <Mesh ID="3" Proba="0.5" MinSize="2.0" MaxSize="2.0" />
+            </Level>
+            <Level Depth="9" Count="125" >
+                <Mesh ID="2" Proba="0.5" MinSize="1.1" MaxSize="1.1" />
+                <Mesh ID="3" Proba="0.5" MinSize="1.1" MaxSize="1.1" />
+            </Level>
+            <Level Depth="10" Count="75" >
+                <Mesh ID="2" Proba="0.5" MinSize="0.6" MaxSize="0.6" />
+                <Mesh ID="3" Proba="0.5" MinSize="0.6" MaxSize="0.6" />
+            </Level>
+            <Level Depth="11" Count="35" >
+                <Mesh ID="4" Proba="0.5" MinSize="0.3" MaxSize="0.3" />
+                <Mesh ID="5" Proba="0.5" MinSize="0.3" MaxSize="0.3" />
+            </Level>
+            <Level Depth="12" Count="20" >
+                <Mesh ID="4" Proba="0.5" MinSize="0.15" MaxSize="0.15" />
+                <Mesh ID="5" Proba="0.5" MinSize="0.15" MaxSize="0.15" />
+            </Level>
+            <Level Depth="13" Count="15" >
+                <Mesh ID="4" Proba="0.5" MinSize="0.1" MaxSize="0.1" />
+                <Mesh ID="5" Proba="0.5" MinSize="0.1" MaxSize="0.1" />
+            </Level>
+
+            <Level Depth="15" Count="0" >
+            </Level>
+
+        </AsteroidField>
+        <Dust Intensity="200" NearFadeFactor="0.01" />
+    </Ring>
+    <Material>
+        <Noise Value="DblEmu" />
+        <Wireframe Value="0" />
+        <Culling Value="Back" />
+        <BlendedNoise Freq1="10.0" Freq2="25.0" Freq3="48.0" Weight1="0.6" Weight2="0.5" Weight3="0.4" />
+    </Material>
+
+    <Layers EmissiveIntensity="1000.0" >
+    	<Layer ID="0" Diffuse="$Textures/Gaian/GravelRock02D.tga" Normal="$Textures/Gaian/GravelRock02N.png" Emissive="" Specular="" Roughness="" RoughnessInAlpha="true" />
+    	<Layer ID="1" Diffuse="$Textures/Gaian/GravelRock01D.tga" Normal="$Textures/Gaian/GravelRock01N.png" Emissive="" Specular="" Roughness="" RoughnessInAlpha="true" />
+    	<Layer ID="2" Diffuse="$Textures/Gaian/MeadowDry01D.tga" Normal="$Textures/Gaian/MeadowDry01N.png" Emissive="" Specular="" Roughness="" RoughnessInAlpha="true" />
+        <Layer ID="3" Diffuse="$Textures/Gaian/Meadow03D.tga" Normal="$Textures/Gaian/Meadow01N.png" Emissive="" Specular="" Roughness="" RoughnessInAlpha="true" />
+    	<Layer ID="4" Diffuse="$Textures/Gaian/CliffGrass01D.tga" Normal="$Textures/Gaian/CliffGrass01N.png" Emissive="" Specular="" Roughness="" RoughnessInAlpha="true" />
+        <Layer ID="5" Diffuse="$Textures/Gaian/DesertCliff01D.tga" Normal="$Textures/Gaian/DesertCliff01N.png" Emissive="" Specular="" Roughness="" RoughnessInAlpha="true" />
+    	<Layer ID="8" Diffuse="$Textures/Gaian/Cliff01D.tga" Normal="$Textures/Gaian/Cliff01N.png" Emissive="" Specular="" Roughness="" RoughnessInAlpha="true" />
+        <Layer ID="10" Diffuse="$Textures/Gaian/Snow01D.tga" Normal="$Textures/Gaian/Snow01N.png" Emissive="" Specular="" Roughness="" RoughnessInAlpha="true" />
+    	<Layer ID="11" Diffuse="$Textures/Gaian/Meadow01D.tga" Normal="$Textures/Gaian/Meadow01N.png" Emissive="" Specular="" Roughness="" RoughnessInAlpha="true" />
+		<Layer ID="6" Diffuse="$Textures/Gaian/Beach02D.tga" Normal="$Textures/Gaian/Beach02N.png" Emissive="" Specular="" Roughness="" RoughnessInAlpha="true" />
+        <Layer ID="7" Diffuse="$Textures/Gaian/Beach01D.tga" Normal="$Textures/Gaian/Beach01N.png" Emissive="" Specular="" Roughness="" RoughnessInAlpha="true" />
+		<Layer ID="9" Diffuse="$Textures/Gaian/IcyCliff01D.tga" Normal="$Textures/Gaian/IcyCliff01N.png" Emissive="" Specular="" Roughness="" RoughnessInAlpha="true" />
+    </Layers>
+    <Rules>
+        <Biome ID="0">
+        	<Rule ID="0" ParentID="-1" Layer1="0" Layer2="1" AltMin="0.0" AltMax="1.0" SlopeMin="0" SlopeMax="1" />
+        	<Rule ID="1" ParentID="0" Layer1="2" Layer2="3" AltMin="0.13" AltMax="0.34" SlopeMin="0.5" SlopeMax="1.0" SlopeMinDelta="0.01" SlopeMaxDelta="0.0" AltMinDelta="0.05" AltMaxDelta="0.07" />
+        	<Rule ID="2" ParentID="0" Layer1="4" Layer2="4" AltMin="0.2" AltMax="0.75" SlopeMin="0.14" SlopeMax="0.62" SlopeMinDelta="0.03" SlopeMaxDelta="0.03" AltMinDelta="0.03" AltMaxDelta="0.03" />
+        	<Rule ID="3" ParentID="0" Layer1="8" Layer2="8" AltMin="0.04" AltMax="1.0" SlopeMin="0.0" SlopeMax="0.5" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" AltMinDelta="0.03" AltMaxDelta="0.03" />
+			<Rule ID="4" ParentID="0" Layer1="9" Layer2="9" AltMin="0.87" AltMax="0.97" SlopeMin="0.33" SlopeMax="1.0" SlopeMinDelta="0.04" SlopeMaxDelta="0.05" AltMinDelta="0.03" AltMaxDelta="0.05" />
+        	<Rule ID="5" ParentID="0" Layer1="10" Layer2="10" AltMin="0.91" AltMax="1.00" SlopeMin="0.34" SlopeMax="1.0" SlopeMinDelta="0.04" SlopeMaxDelta="0.05" AltMinDelta="0.03" AltMaxDelta="" />
+        	<Rule ID="6" ParentID="0" Layer1="11" Layer2="11" AltMin="0.27" AltMax="0.75" SlopeMin="0.74" SlopeMax="1.0" SlopeMinDelta="0.00" SlopeMaxDelta="0.00" AltMinDelta="0.04" AltMaxDelta="0.05" />
+			<Rule ID="7" ParentID="0" Layer1="6" Layer2="7" AltMin="0.0" AltMax="0.13" SlopeMin="0.86" SlopeMax="1.0" SlopeMinDelta="0.03" SlopeMaxDelta="0.0" AltMinDelta="0.0" AltMaxDelta="0.04" />
+			<Rule ID="8" ParentID="0" Layer1="5" Layer2="5" AltMin="0.0" AltMax="0.19" SlopeMin="0.0" SlopeMax="0.63" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" AltMinDelta="0.00" AltMaxDelta="0.03" />
+		</Biome>
+<!--         <Biome ID="0">
+        	<Rule ID="0" ParentID="-1" Layer1="0" Layer2="1" AltMin="0.0" AltMax="1.0" SlopeMin="0" SlopeMax="1" />
+        	<Rule ID="1" ParentID="0" Layer1="6" Layer2="6" AltMin="0.04" AltMax="0.08" SlopeMin="0.92" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.0" AltMaxDelta="0.0" />
+        	<Rule ID="2" ParentID="0" Layer1="7" Layer2="7" AltMin="0.08" AltMax="0.15" SlopeMin="0.91" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.0" AltMaxDelta="0.0" />
+        	<Rule ID="3" ParentID="0" Layer1="2" Layer2="2" AltMin="0.15" AltMax="0.21" SlopeMin="0.88" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.0" AltMaxDelta="0.025" />
+        	<Rule ID="4" ParentID="0" Layer1="3" Layer2="3" AltMin="0.20" AltMax="0.31" SlopeMin="0.82" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.0" AltMaxDelta="0.025" />
+        	<Rule ID="5" ParentID="0" Layer1="11" Layer2="11" AltMin="0.30" AltMax="0.55" SlopeMin="0.85" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.025" AltMaxDelta="0.025" />
+        	<Rule ID="6" ParentID="0" Layer1="4" Layer2="4" AltMin="0.50" AltMax="0.70" SlopeMin="0.89" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.025" AltMaxDelta="0.025" />
+        	<Rule ID="7" ParentID="0" Layer1="5" Layer2="5" AltMin="0.68" AltMax="0.85" SlopeMin="0.92" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.025" AltMaxDelta="0.025" />
+
+        	<Rule ID="8" ParentID="0" Layer1="2" Layer2="2" AltMin="0.30" AltMax="0.60" SlopeMin="0.70" SlopeMax="0.9" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" AltMinDelta="0.025" AltMaxDelta="0.025" />
+        	<Rule ID="9" ParentID="0" Layer1="8" Layer2="8" AltMin="0.0" AltMax="0.3" SlopeMin="0" SlopeMax="0.65" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+        	<Rule ID="10" ParentID="0" Layer1="9" Layer2="9" AltMin="0.3" AltMax="1.0" SlopeMin="0" SlopeMax="0.65" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+        	<Rule ID="11" ParentID="0" Layer1="0" Layer2="0" AltMin="0.0" AltMax="0.4" SlopeMin="0.6" SlopeMax="0.82" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+        	<Rule ID="12" ParentID="0" Layer1="1" Layer2="1" AltMin="0.4" AltMax="1.0" SlopeMin="0.6" SlopeMax="0.83" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+
+        	<Rule ID="13" ParentID="0" Layer1="10" Layer2="10" AltMin="0.80" AltMax="0.99" SlopeMin="0.70" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.025" AltMaxDelta="0.025" />
+            <Rule ID="14" ParentID="0" Layer1="10" Layer2="10" AltMin="0.99" AltMax="1.0" SlopeMin="0.30" SlopeMax="1.0" />
+        </Biome> -->
+
+<!--         <Biome ID="0">
+        	<Rule ID="0" ParentID="-1" Layer1="0" Layer2="1" AltMin="0.0" AltMax="1.0" SlopeMin="0" SlopeMax="1" />
+        	<Rule ID="1" ParentID="0" Layer1="7" Layer2="7" AltMin="0.0" AltMax="0.03" SlopeMin="0.9" SlopeMax="1" AltMinDelta="0.0" AltMaxDelta="0.01" />
+        	<Rule ID="2" ParentID="0" Layer1="6" Layer2="6" AltMin="0.02" AltMax="0.05" SlopeMin="0.9" SlopeMax="1" AltMinDelta="0.01" AltMaxDelta="0.0" />
+         	<Rule ID="3" ParentID="0" Layer1="2" Layer2="2" AltMin="0.05" AltMax="0.14" SlopeMin="0.9" SlopeMax="1.0" AltMinDelta="0.0" AltMaxDelta="0.01" />
+        	<Rule ID="4" ParentID="0" Layer1="3" Layer2="3" AltMin="0.13" AltMax="0.30" SlopeMin="0.9" SlopeMax="1.0" AltMinDelta="0.01" AltMaxDelta="0.02" />
+        	<Rule ID="5" ParentID="0" Layer1="11" Layer2="11" AltMin="0.29" AltMax="0.42" SlopeMin="0.9" SlopeMax="1.0" AltMinDelta="0.02" AltMaxDelta="0.0" />
+        	<Rule ID="6" ParentID="0" Layer1="5" Layer2="5" AltMin="0.42" AltMax="0.60" SlopeMin="0.9" SlopeMax="1.0" AltMinDelta="0.0" AltMaxDelta="0.0" />
+        	<Rule ID="7" ParentID="0" Layer1="4" Layer2="4" AltMin="0.60" AltMax="0.72" SlopeMin="0.9" SlopeMax="1.0" AltMinDelta="0.0" AltMaxDelta="0.02" />
+        	<Rule ID="8" ParentID="0" Layer1="8" Layer2="8" AltMin="0.0" AltMax="0.7" SlopeMin="0" SlopeMax="0.65" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+        	<Rule ID="9" ParentID="0" Layer1="9" Layer2="9" AltMin="0.7" AltMax="1.0" SlopeMin="0" SlopeMax="0.65" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+        	<Rule ID="10" ParentID="0" Layer1="0" Layer2="0" AltMin="0.0" AltMax="0.7" SlopeMin="0.65" SlopeMax="0.9" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+        	<Rule ID="11" ParentID="0" Layer1="1" Layer2="1" AltMin="0.7" AltMax="1.0" SlopeMin="0.65" SlopeMax="0.9" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+        	<Rule ID="12" ParentID="0" Layer1="10" Layer2="10" AltMin="0.70" AltMax="0.9" SlopeMin="0.7" SlopeMax="1.0" AltMinDelta="0.02" AltMaxDelta="0.0" />
+        	<Rule ID="13" ParentID="0" Layer1="10" Layer2="10" AltMin="0.9" AltMax="1.0" SlopeMin="0.3" SlopeMax="1.0" AltMinDelta="0.0" AltMaxDelta="0.0" />
+        </Biome> -->
+
+<!--         <Biome ID="0">
+        	<Rule ID="0" ParentID="-1" Layer1="0" Layer2="1" AltMin="0.0" AltMax="1.0" SlopeMin="0" SlopeMax="1" />
+        	<Rule ID="1" ParentID="0" Layer1="6" Layer2="7" AltMin="0.27" AltMax="0.305" SlopeMin="0.9" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.0" AltMaxDelta="0.0" />
+        	<Rule ID="2" ParentID="0" Layer1="2" Layer2="3" AltMin="0.305" AltMax="0.45" SlopeMin="0.9" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.0" AltMaxDelta="0.025" />
+        	<Rule ID="3" ParentID="0" Layer1="11" Layer2="11" AltMin="0.40" AltMax="0.55" SlopeMin="0.9" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.025" AltMaxDelta="0.025" />
+        	<Rule ID="4" ParentID="0" Layer1="3" Layer2="2" AltMin="0.50" AltMax="0.65" SlopeMin="0.9" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.025" AltMaxDelta="0.025" />
+        	<Rule ID="5" ParentID="0" Layer1="11" Layer2="11" AltMin="0.60" AltMax="0.75" SlopeMin="0.9" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.025" AltMaxDelta="0.025" />
+        	<Rule ID="6" ParentID="0" Layer1="2" Layer2="3" AltMin="0.70" AltMax="0.85" SlopeMin="0.9" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.025" AltMaxDelta="0.025" />
+        	<Rule ID="7" ParentID="0" Layer1="11" Layer2="11" AltMin="0.80" AltMax="0.95" SlopeMin="0.9" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.025" AltMaxDelta="0.025" />
+        	<Rule ID="8" ParentID="0" Layer1="8" Layer2="9" AltMin="0.3" AltMax="1.0" SlopeMin="0" SlopeMax="0.65" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+        	<Rule ID="9" ParentID="0" Layer1="0" Layer2="1" AltMin="0.3" AltMax="1.0" SlopeMin="0.6" SlopeMax="0.9" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+        	<Rule ID="10" ParentID="0" Layer1="4" Layer2="5" AltMin="0.3" AltMax="0.5" SlopeMin="0.8" SlopeMax="0.9" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.0" AltMaxDelta="0.0" />
+            <Rule ID="11" ParentID="0" Layer1="10" Layer2="10" AltMin="0.99" AltMax="1.0" SlopeMin="0.7" SlopeMax="1.0" />
+        </Biome> -->
+<!--
+        <Biome ID="1">
+        	<Rule ID="0" ParentID="-1" Layer1="0" Layer2="1" AltMin="0.0" AltMax="1.0" SlopeMin="0" SlopeMax="1" />
+        	<Rule ID="1" ParentID="0" Layer1="6" Layer2="7" AltMin="0.27" AltMax="0.45" SlopeMin="0.8" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.0" AltMaxDelta="0.025" />
+        	<Rule ID="2" ParentID="0" Layer1="5" Layer2="4" AltMin="0.4" AltMax="0.55" SlopeMin="0.8" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.025" AltMaxDelta="0.025" />
+        	<Rule ID="3" ParentID="0" Layer1="6" Layer2="7" AltMin="0.5" AltMax="0.65" SlopeMin="0.8" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.025" AltMaxDelta="0.025" />
+        	<Rule ID="4" ParentID="0" Layer1="4" Layer2="5" AltMin="0.6" AltMax="0.75" SlopeMin="0.8" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.025" AltMaxDelta="0.025" />
+        	<Rule ID="5" ParentID="0" Layer1="6" Layer2="7" AltMin="0.7" AltMax="0.95" SlopeMin="0.8" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.025" AltMaxDelta="0.025" />
+        	<Rule ID="6" ParentID="0" Layer1="4" Layer2="3" AltMin="0.9" AltMax="1.0" SlopeMin="0.8" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.025" AltMaxDelta="0.025" />
+
+        	<Rule ID="8" ParentID="0" Layer1="8" Layer2="9" AltMin="0.3" AltMax="1.0" SlopeMin="0" SlopeMax="0.65" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+        	<Rule ID="9" ParentID="0" Layer1="0" Layer2="1" AltMin="0.3" AltMax="1.0" SlopeMin="0.6" SlopeMax="0.8" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+        	<Rule ID="10" ParentID="0" Layer1="4" Layer2="5" AltMin="0.3" AltMax="0.5" SlopeMin="0.7" SlopeMax="0.8" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.0" AltMaxDelta="0.0" />
+        </Biome>
+
+        <Biome ID="2">
+        	<Rule ID="0" ParentID="-1" Layer1="0" Layer2="1" AltMin="0.0" AltMax="1.0" SlopeMin="0" SlopeMax="1" />
+
+        	<Rule ID="1" ParentID="0" Layer1="8" Layer2="9" AltMin="0.0" AltMax="1.0" SlopeMin="0" SlopeMax="0.65" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+        	<Rule ID="2" ParentID="0" Layer1="0" Layer2="1" AltMin="0.0" AltMax="1.0" SlopeMin="0.6" SlopeMax="0.9" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+
+            <Rule ID="3" ParentID="0" Layer1="10" Layer2="10" AltMin="0.0" AltMax="1.0" SlopeMin="0.8" SlopeMax="1.0" />
+            <Rule ID="4" ParentID="0" Layer1="10" Layer2="10" AltMin="0.6" AltMax="0.9" SlopeMin="0.6" SlopeMax="1.0" />
+            <Rule ID="5" ParentID="0" Layer1="10" Layer2="10" AltMin="0.9" AltMax="1.0" SlopeMin="0.4" SlopeMax="1.0" />
+        </Biome> -->
+    </Rules>
+
+</Planet>

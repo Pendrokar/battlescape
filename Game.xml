@@ -1,0 +1,23 @@
+<Battlescape>
+	<Teams>
+		<Team ID="0" >
+			<Name>Havoc Exc</Name>
+			<Indicator>HVK</Indicator>
+			<PrimaryPaintColor X="0.55" Y="0.005" Z="0.001" W="1" />
+			<SecondaryPaintColor X="0.55" Y="0.075" Z="0.005" W="1" />
+		</Team>
+		<Team ID="1" >
+			<Name>Scoria Inc</Name>
+			<Indicator>SCR</Indicator>
+			<PrimaryPaintColor X="0.005" Y="0.55" Z="0.001" W="1" />
+			<SecondaryPaintColor X="0.075" Y="0.55" Z="0.005" W="1" />
+		</Team>
+		<Team ID="2" >
+			<Name>CPL Tech</Name>
+			<Indicator>CPL</Indicator>
+			<PrimaryPaintColor X="0.001" Y="0.005" Z="0.55" W="1" />
+			<SecondaryPaintColor X="0.005" Y="0.075" Z="0.55" W="1" />
+		</Team>
+		<NbActive>2</NbActive>
+	</Teams>
+</Battlescape>

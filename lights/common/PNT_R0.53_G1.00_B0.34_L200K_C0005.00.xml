@@ -1,0 +1,6 @@
+<pointlight>
+    <color X="0.53" Y="1" Z="0.34"/>
+    <cutoff>5</cutoff>
+    <lumens>200000</lumens>
+    <nodes/>
+</pointlight>

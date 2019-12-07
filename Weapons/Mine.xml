@@ -1,0 +1,87 @@
+<ActorConfig>
+	<CClientNodeComponent>
+        <Object Mesh="Props/ResupplyCrate/SM_ResupplyCrate_Lod0" >
+            <LOD Level="1" Mesh="Props/ResupplyCrate/SM_ResupplyCrate_Lod1" />
+            <LOD Level="2" Mesh="Props/ResupplyCrate/SM_ResupplyCrate_Lod2" />
+            <LODPower>4.0</LODPower>
+			<RejectionSize>0.002</RejectionSize>
+			<Scale X="2.0" Y="2.0" Z="2.0" />
+         </Object>
+	</CClientNodeComponent>
+	<CServerNodeComponent>
+		<TransformNode />
+	</CServerNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+		<ThrustersEmissiveScale>5.0</ThrustersEmissiveScale>
+		<DyingExplosions>0</DyingExplosions>
+		<DeathExplosions>1</DeathExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DeathEffect>MineExplosion</DeathEffect>
+		<DyingEffectScale>0.05</DyingEffectScale>
+		<DeathEffectScale>10.0</DeathEffectScale>
+		<DeathEffectRange>100.0</DeathEffectRange>
+		<ContrailEffectSize>0.010</ContrailEffectSize>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+    <CClientCameraViewComponent>
+        <Camera Type="External">
+            <ViewPosition X="0" Y="0.002" Z="-0.008" />
+			<ViewAngle X="0" Y="0" />
+        </Camera>
+    </CClientCameraViewComponent>
+	<CServerActorComponent>
+		<NetworkSize>0.002</NetworkSize>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>15.0</EmissionsRange>
+		<SensorPower>2.0</SensorPower>
+		<IsScannable>true</IsScannable>
+		<MaxScanRange>500.0</MaxScanRange>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>Mine</Indicator>
+		<SurfaceType>Metal</SurfaceType>
+		<ClassName>PROX.MINE</ClassName>
+	</CActorComponent>
+	<CClientActorComponent>
+	</CClientActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Box" >
+        	<SidesSize X="0.008" Y="0.0060" Z="0.0104" />
+            <Offset X="0" Y="0" Z="0" />
+            <Mass>1000.0</Mass>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+			<AutoDisable>true</AutoDisable>
+        </PhysicsBody>
+	</CBodyComponent>
+    <CPropulsionComponent>
+        <RampUpFactor>4.0</RampUpFactor>
+        <LinearThrust X="10.0" Y="10.0" Z="10.0" />
+        <RotationThrust X="0.0" Y="0.0" Z="0.0" />
+        <RotationStabilizer X="0.0" Y="0.0" Z="0.0" />
+		<MaxRotationSpeed X="1.0" Y="1.0" Z="1.0" />
+		<AtmoDecay>0.03</AtmoDecay>
+		<CapSpeed>0.1</CapSpeed>
+    </CPropulsionComponent>
+	<CEngineComponent>
+		<EnergyPoints>0</EnergyPoints>
+		<RechargeRate>0</RechargeRate>
+	</CEngineComponent>
+	<CHullComponent>
+		<HitPoints>150</HitPoints>
+		<DyingDuration>0.0</DyingDuration>
+		<DeathDuration>1.5</DeathDuration>
+		<DeathCredits>20</DeathCredits>
+	</CHullComponent>
+	<CServerMissileComponent>
+		<Mode>Mine</Mode>
+		<ActivationTimer>10.0</ActivationTimer>
+		<InterceptSpeed>0.25</InterceptSpeed>
+		<TrackingRange>40.0</TrackingRange>
+		<DetonationRange>0.05</DetonationRange>
+		<MinTargetMass>999.0</MinTargetMass>
+		<MinStackRange>25.0</MinStackRange>
+	</CServerMissileComponent>
+</ActorConfig>

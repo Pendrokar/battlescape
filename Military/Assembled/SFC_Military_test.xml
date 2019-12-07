@@ -1,0 +1,33 @@
+<ActorConfig>
+	<CNodeComponent>
+		<TransformNode>
+ 			<Link Target="$Dev/Config/Military/SFC_Military_LifeSupport.xml" >
+				<position x="0" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+		</TransformNode>
+	</CNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+	</CClientHullComponent>
+	<CServerActorComponent>
+        <Name>Factory 1</Name>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>50000.0</EmissionsRange>
+		<SensorPower>4.0</SensorPower>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>Structure</Indicator>
+	</CActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Static" >
+            <Collisions>true</Collisions>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+        </PhysicsBody>
+	</CBodyComponent>
+	<CHullComponent>
+		<HitPoints>100000000</HitPoints>
+	</CHullComponent>
+</ActorConfig>

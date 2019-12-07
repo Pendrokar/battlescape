@@ -1,0 +1,11 @@
+<Equipments>
+	<Equipment ID="0" Name="WarpJam1" Component="CWarpJamComponent" Private="false" >
+		<Radius>20.0</Radius>
+	</Equipment>
+	<Equipment ID="1" Name="Scanner1" Component="CScannerComponent" Private="true" >
+		<Power>5.0</Power>
+	</Equipment>
+	<Equipment ID="2" Name="MineLauncher" Private="true" >
+		<Cooldown>20.0</Cooldown>
+	</Equipment>
+</Equipments>

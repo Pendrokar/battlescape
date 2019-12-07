@@ -1,0 +1,653 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/StationModules_SFC/SM_SFC_Station_CorvetteBay_Lod0" >
+			<LOD Level="1" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CorvetteBay_Lod1" />
+			<LOD Level="2" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CorvetteBay_Lod2" />
+			<LOD Level="3" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CorvetteBay_Lod3" />
+			<LOD Level="4" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CorvetteBay_Lod4" />
+			<LODPower>0.5</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+
+			<PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/3a2c74d1.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+
+			<Sound>
+				<Name>AmbientBigHangar</Name>
+			</Sound>
+
+  		 	<Light Type="PointLight" >
+				<Name>CentralLight1</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>256000000.0</Lumens>
+				<position x="-0.055" y="0" z="0" />
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		 	<Light Type="PointLight" >
+				<Name>CentralLight2</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>256000000.0</Lumens>
+				<position x="0.055" y="0" z="0" />
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+		 	<Light Type="PointLight" >
+				<Name>ObserverLights041</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="-0.054800000041723251" y="0.069000005722045898" z="0.037000004202127457" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights040</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="-0.054800000041723251" y="0.020400000736117363" z="0.037000004202127457" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights039</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="-0.054800007492303848" y="-0.029599998146295547" z="0.037000000476837158" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights038</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="-0.054800000041723251" y="0.11700000613927841" z="0.037000004202127457" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>ObserverLights037</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0.054800000041723251" y="0.020400000736117363" z="0.037000004202127457" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>ObserverLights036</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0.054799996316432953" y="-0.029599998146295547" z="0.037000000476837158" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights035</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0.054800000041723251" y="0.11700000613927841" z="0.037000004202127457" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights034</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0.054800000041723251" y="0.069000005722045898" z="0.037000004202127457" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights033</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0" y="0.079000003635883331" z="0.012000000104308128" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights032</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0" y="0.030399998649954796" z="0.012000000104308128" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights031</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0" y="-0.019600000232458115" z="0.01199999637901783" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>ObserverLights030</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="-0.054800000041723251" y="0.020400002598762512" z="-0.043999999761581421" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights029</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="-0.054800007492303848" y="-0.029599996283650398" z="-0.044000003486871719" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights028</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="-0.054800000041723251" y="0.11700000613927841" z="-0.043999999761581421" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>ObserverLights027</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="-0.054800000041723251" y="0.069000005722045898" z="-0.043999999761581421" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights026</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0.054799996316432953" y="-0.029599996283650398" z="-0.044000003486871719" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotDown013</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="0.118" y="-0.029999995604157448" z="-0.020000003278255463" Type="3dsMax"/>
+				<rotation x="0.24713911116123199" y="0.24713914096355438" z="-0.66251206398010254" w="0.66251206398010254" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotUp013</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="-0.118" y="-0.029999997466802597" z="-0.020000003278255463" Type="3dsMax"/>
+				<rotation x="-0.4047166109085083" y="0.40471670031547546" z="0.57983130216598511" w="0.57983130216598511" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotUp012</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="0.118" y="-0.029999997466802597" z="-0.020000003278255463" Type="3dsMax"/>
+				<rotation x="-0.4047166109085083" y="-0.40471670031547546" z="-0.57983130216598511" w="0.57983130216598511" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="PointLight" >
+				<Name>ObserverLights024</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0" y="-0.019599998369812965" z="-0.018000001087784767" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+ 			<Light Type="SpotLight" >
+				<Name>SideWallSpotDown012</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="-0.118" y="-0.029999995604157448" z="-0.020000003278255463" Type="3dsMax"/>
+				<rotation x="0.24713911116123199" y="-0.24713914096355438" z="0.66251206398010254" w="0.66251206398010254" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="PointLight" >
+				<Name>HangarRearLight013</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="-0.040000010281801224" y="-0.19200000166893005" z="-0.026000015437602997" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarRearLight012</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="-0.070000007748603821" y="-0.19200000166893005" z="-0.026000015437602997" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill017</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="-0.030000016093254089" y="-0.15150000154972076" z="-0.022000005468726158" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarFill016</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="-0.080000020563602448" y="-0.15150000154972076" z="-0.022000005468726158" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>HangarSpot030</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>20000000.0</Lumens>
+				<Innercone>30.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="-0.080000020563602448" y="-0.15150000154972076" z="0.022999998182058334" Type="3dsMax"/>
+				<rotation x="0.70710676908493042" y="0" z="0" w="0.70710676908493042" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="true" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>HangarSpot029</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>20000000.0</Lumens>
+				<Innercone>30.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="-0.030000016093254089" y="-0.15150000154972076" z="0.022999998182058334" Type="3dsMax"/>
+				<rotation x="0.70710676908493042" y="0" z="0" w="0.70710676908493042" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="true" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="PointLight" >
+				<Name>HangarFill015</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="-0.080000020563602448" y="-0.10149999707937241" z="-0.022000005468726158" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>HangarSpot028</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>20000000.0</Lumens>
+				<Innercone>30.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="-0.080000020563602448" y="-0.101500004529953" z="0.022999998182058334" Type="3dsMax"/>
+				<rotation x="0.70710670948028564" y="0" z="0" w="0.7071068286895752" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="true" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>HangarSpot027</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>20000000.0</Lumens>
+				<Innercone>30.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="-0.030000016093254089" y="-0.101500004529953" z="0.022999998182058334" Type="3dsMax"/>
+				<rotation x="0.70710670948028564" y="0" z="0" w="0.7071068286895752" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="true" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="PointLight" >
+				<Name>HangarFill014</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="-0.030000016093254089" y="-0.10149999707937241" z="-0.022000005468726158" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>HangarFill013</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0.07999999076128006" y="-0.15150000154972076" z="-0.022000005468726158" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>HangarFill012</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0.029999986290931702" y="-0.15150000154972076" z="-0.022000005468726158" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="SpotLight" >
+				<Name>HangarSpot026</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>20000000.0</Lumens>
+				<Innercone>30.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="0.029999986290931702" y="-0.15150000154972076" z="0.022999998182058334" Type="3dsMax"/>
+				<rotation x="0.70710676908493042" y="0" z="0" w="0.70710676908493042" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="true" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>HangarSpot025</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>20000000.0</Lumens>
+				<Innercone>30.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="0.07999999076128006" y="-0.15150000154972076" z="0.022999998182058334" Type="3dsMax"/>
+				<rotation x="0.70710676908493042" y="0" z="0" w="0.70710676908493042" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="true" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="PointLight" >
+				<Name>HangarFill011</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0.029999986290931702" y="-0.10149999707937241" z="-0.022000005468726158" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>HangarSpot024</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>20000000.0</Lumens>
+				<Innercone>30.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="0.029999986290931702" y="-0.101500004529953" z="0.022999998182058334" Type="3dsMax"/>
+				<rotation x="0.70710670948028564" y="0" z="0" w="0.7071068286895752" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="true" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="PointLight" >
+				<Name>HangarRearLight011</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0.03999999538064003" y="-0.19200000166893005" z="-0.026000015437602997" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotUp011</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="0.118" y="0.12000000476837158" z="-0.019999997690320015" Type="3dsMax"/>
+				<rotation x="-0.40471673011779785" y="-0.40471673011779785" z="-0.57983130216598511" w="0.57983136177062988" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotDown011</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="0.118" y="0.12000000476837158" z="-0.019999997690320015" Type="3dsMax"/>
+				<rotation x="0.24713911116123199" y="0.24713914096355438" z="-0.66251206398010254" w="0.66251206398010254" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotUp010</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="0.118" y="0.070000000298023224" z="-0.019999999552965164" Type="3dsMax"/>
+				<rotation x="-0.40471673011779785" y="-0.40471673011779785" z="-0.57983130216598511" w="0.57983136177062988" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotDown010</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="0.118" y="0.070000000298023224" z="-0.019999999552965164" Type="3dsMax"/>
+				<rotation x="0.24713911116123199" y="0.24713914096355438" z="-0.66251206398010254" w="0.66251206398010254" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotDown009</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="0.118" y="0.020000003278255463" z="-0.020000001415610313" Type="3dsMax"/>
+				<rotation x="0.24713911116123199" y="0.24713906645774841" z="-0.66251200437545776" w="0.66251212358474731" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotUp009</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="0.118" y="0.020000001415610313" z="-0.020000001415610313" Type="3dsMax"/>
+				<rotation x="-0.4047166109085083" y="-0.40471670031547546" z="-0.57983130216598511" w="0.57983130216598511" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotUp008</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="-0.118" y="0.12000000476837158" z="-0.019999997690320015" Type="3dsMax"/>
+				<rotation x="-0.40471673011779785" y="0.40471673011779785" z="0.57983130216598511" w="0.57983136177062988" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotDown008</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="-0.118" y="0.12000000476837158" z="-0.019999997690320015" Type="3dsMax"/>
+				<rotation x="0.24713911116123199" y="-0.24713914096355438" z="0.66251206398010254" w="0.66251206398010254" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotUp007</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="-0.118" y="0.070000000298023224" z="-0.019999999552965164" Type="3dsMax"/>
+				<rotation x="-0.40471673011779785" y="0.40471673011779785" z="0.57983130216598511" w="0.57983136177062988" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotDown007</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="-0.118" y="0.070000000298023224" z="-0.019999999552965164" Type="3dsMax"/>
+				<rotation x="0.24713911116123199" y="-0.24713914096355438" z="0.66251206398010254" w="0.66251206398010254" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotDown006</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="-0.118" y="0.020000003278255463" z="-0.020000001415610313" Type="3dsMax"/>
+				<rotation x="0.24713911116123199" y="-0.24713906645774841" z="0.66251200437545776" w="0.66251212358474731" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="SpotLight" >
+				<Name>SideWallSpotUp006</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>10000000.0</Lumens>
+				<Innercone>50.0</Innercone>
+				<Outercone>80.0</Outercone>
+				<position x="-0.118" y="0.020000001415610313" z="-0.020000001415610313" Type="3dsMax"/>
+				<rotation x="-0.4047166109085083" y="0.40471670031547546" z="0.57983130216598511" w="0.57983130216598511" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="PointLight" >
+				<Name>CeilingLights003</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0" y="0.093000002205371857" z="0.036000009626150131" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>CeilingLights002</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0" y="0.044000003486871719" z="0.036000005900859833" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>CeilingLights001</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0" y="-0.0040000001899898052" z="0.036000005900859833" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights016</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0.054800000041723251" y="0.11700000613927841" z="-0.043999999761581421" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights014</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0.054800000041723251" y="0.069000005722045898" z="-0.043999999761581421" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights013</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0" y="0.079000003635883331" z="-0.017999997362494469" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>ObserverLights012</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0" y="0.030400000512599945" z="-0.017999997362494469" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>ObserverLights011</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0.054800000041723251" y="0.020400002598762512" z="-0.043999999761581421" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>HangarRearLight010</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0.069999992847442627" y="-0.19200000166893005" z="-0.026000015437602997" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>HangarSpot020</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>20000000.0</Lumens>
+				<Innercone>30.0</Innercone>
+				<Outercone>50.0</Outercone>
+				<position x="0.07999999076128006" y="-0.101500004529953" z="0.022999998182058334" Type="3dsMax"/>
+				<rotation x="0.70710670948028564" y="0" z="0" w="0.7071068286895752" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+				<ShadowMap State="true" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" Power="2.0" />
+			</Light>
+			<Light Type="PointLight" >
+				<Name>HangarFill010</Name>
+				<Color X="1.0" Y="1.0" Z="1.0" />
+				<Lumens>32000000.0</Lumens>
+				<position x="0.07999999076128006" y="-0.10149999707937241" z="-0.022000005468726158" Type="3dsMax"/>
+				<Cutoff>2048.0</Cutoff>
+			</Light>
+
+			<Module>
+		        <Class>HangarSpawn</Class>
+				<HitPoints>12000</HitPoints>
+				<Score>40</Score>
+			    <Spawn>
+					<!-- In 3ds max, length and width are flipped; units are meters instead of Km so values are x1000
+					For example for this spawn, this means a box at position (55, -127, -35) and size (102, 69, 57) -->
+					<Type>Corvette</Type>
+			        <Size X="0.069" Y="0.102" Z="0.057" Type="3dsMax" />
+			        <Position X="0.050" Y="-0.094" Z="-0.0315" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			        <Offset X="0" Y="0.001" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Corvette</Type>
+			        <Size X="0.069" Y="0.102" Z="0.057" Type="3dsMax" />
+			        <Position X="-0.050" Y="-0.094" Z="-0.0315" Type="3dsMax" />
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			        <Offset X="0" Y="0.001" Z="0" />
+			    </Spawn>
+			</Module>
+
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/3a2c74d1.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>HangarSpawn</Class>
+				<HitPoints>12000</HitPoints>
+				<Score>40</Score>
+			    <Spawn>
+					<!-- In 3ds max, length and width are flipped; units are meters instead of Km so values are x1000
+					For example for this spawn, this means a box at position (55, -127, -35) and size (102, 69, 57) -->
+					<Type>Corvette</Type>
+			        <Size X="0.069" Y="0.102" Z="0.057" Type="3dsMax" />
+			        <Position X="0.050" Y="-0.094" Z="-0.0315" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			        <Offset X="0" Y="0.001" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Corvette</Type>
+			        <Size X="0.069" Y="0.102" Z="0.057" Type="3dsMax" />
+			        <Position X="-0.050" Y="-0.094" Z="-0.0315" Type="3dsMax" />
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			        <Offset X="0" Y="0.001" Z="0" />
+			    </Spawn>
+			</Module>
+			<ServerModule>
+				<CreditsReward>100</CreditsReward>
+				<OnDestroyedPopupTitle>Server_Destroyed_Module_CorvetteSpawn_Title_Self</OnDestroyedPopupTitle>
+				<OnDestroyedPopupText>Server_Destroyed_Module_CorvetteSpawn_Text_Self</OnDestroyedPopupText>
+				<OnDestroyedPopupFooter>Server_Destroyed_Module_CorvetteSpawn_Footer_Self</OnDestroyedPopupFooter>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

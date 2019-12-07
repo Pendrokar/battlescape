@@ -1,0 +1,34 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/Asteroid_Glimmerfall/SM_Glimmerfall_Lod0" >
+			<LOD Level="1" Mesh="Structures/Asteroid_Glimmerfall/SM_Glimmerfall_Lod1" />
+			<LOD Level="2" Mesh="Structures/Asteroid_Glimmerfall/SM_Glimmerfall_Lod2" />
+			<LOD Level="3" Mesh="Structures/Asteroid_Glimmerfall/SM_Glimmerfall_Lod3" />
+			<LOD Level="4" Mesh="Structures/Asteroid_Glimmerfall/SM_Glimmerfall_Lod4" />
+			<LOD Level="5" Mesh="Structures/Asteroid_Glimmerfall/SM_Glimmerfall_Lod5" />
+			<LODPower>0.5</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+			<PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/Asteroid_Glimmerfall/ce131da2.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+				<Class>Indestructible</Class>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/Asteroid_Glimmerfall/ce131da2.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+				<Class>Indestructible</Class>
+			</Module>
+			<ServerModule>
+				<CreditsReward>2500</CreditsReward>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

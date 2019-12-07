@@ -1,0 +1,615 @@
+<ActorConfig>
+	<CNodeComponent>
+		<TransformNode>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" >
+				<position x="-2.2400000095367431641" y="0.77000004053115844727" z="1.2207000565922498936e-07" Type="3dsMax"/>
+				<rotation x="1.2644045455090235919e-07" y="-2.1073434197660390055e-07" z="-0.70710694789886474609" w="0.70710659027099609375" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" >
+				<position x="-2.2400000095367431641" y="-0.77000004053115844727" z="0" Type="3dsMax"/>
+				<rotation x="-2.0019764690459851408e-07" y="0" z="0.70710664987564086914" w="0.7071068882942199707" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" >
+				<position x="3.2900002002716064453" y="-0.98000001907348632813" z="0" Type="3dsMax"/>
+				<rotation x="-2.0019764690459851408e-07" y="0" z="0.70710664987564086914" w="0.7071068882942199707" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" >
+				<position x="3.2900002002716064453" y="0.98000001907348632813" z="0" Type="3dsMax"/>
+				<rotation x="0" y="-1.4751407206858857535e-07" z="-0.70710700750350952148" w="0.70710653066635131836" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" >
+				<position x="0.28000000119209289551" y="2.2400000095367431641" z="0" Type="3dsMax"/>
+				<rotation x="0" y="-1.490116261493312777e-07" z="-2.6822095833267667331e-07" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" >
+				<position x="0.28000000119209289551" y="-2.6600000858306884766" z="0" Type="3dsMax"/>
+				<rotation x="0" y="-1.490115977276218473e-07" z="-2.682209014892578125e-07" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-4.0600004196166992188" y="0.28000000119209289551" z="-1.2207000565922498936e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-4.0600004196166992188" y="-0.28000000119209289551" z="-1.2207000565922498936e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-0.84000003337860107422" y="2.1000001430511474609" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-0.42000001668930053711" y="2.1000001430511474609" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-0.42000001668930053711" y="1.8200000524520874023" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-0.84000003337860107422" y="1.8200000524520874023" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-0.63000005483627319336" y="1.9600000381469726563" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-3.7800002098083496094" y="-0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-3.5000002384185791016" y="-0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-3.2200002670288085938" y="-0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-2.9400000572204589844" y="-0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-2.6600000858306884766" y="-0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-2.6600000858306884766" y="0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-2.9400000572204589844" y="0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-3.2200002670288085938" y="0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-3.5000002384185791016" y="0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-3.7800002098083496094" y="0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-3.5000002384185791016" y="0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-3.2200002670288085938" y="0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-2.9400000572204589844" y="0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-2.6600000858306884766" y="0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-3.5000002384185791016" y="-0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-3.2200002670288085938" y="-0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-2.6600000858306884766" y="-0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-2.9400000572204589844" y="-0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="1.1900000572204589844" y="1.9600000381469726563" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="0.98000001907348632813" y="2.1000001430511474609" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="1.4000000953674316406" y="2.1000001430511474609" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="1.4000000953674316406" y="1.8200000524520874023" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="2.4500000476837158203" y="-0.14000000059604644775" z="-1.2207000565922498936e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="2.4500000476837158203" y="0.14000000059604644775" z="-1.2207000565922498936e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="2.2400000095367431641" y="-0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="2.4500000476837158203" y="-0.42000001668930053711" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="2.6600000858306884766" y="-0.56000000238418579102" z="1.8882799679431627737e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="2.2400000095367431641" y="0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="2.4500000476837158203" y="0.42000001668930053711" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="2.8700001239776611328" y="0.70000004768371582031" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="2.2400000095367431641" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="2.8700001239776611328" y="-0.70000004768371582031" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="2.6600000858306884766" y="0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="1.4000000953674316406" y="1.5400000810623168945" z="0" Type="3dsMax"/>
+				<rotation x="-2.1073431355489447014e-07" y="-1.2644044034004764399e-07" z="0.70710700750350952148" w="0.70710653066635131836" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="0.98000001907348632813" y="1.8200000524520874023" z="0" Type="3dsMax"/>
+				<rotation x="1.5805056818862794898e-07" y="-2.4234446982518420555e-07" z="-0.70710664987564086914" w="0.7071068882942199707" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="0.98000001907348632813" y="1.5400000810623168945" z="0" Type="3dsMax"/>
+				<rotation x="-2.1073431355489447014e-07" y="-1.2644044034004764399e-07" z="0.70710700750350952148" w="0.70710653066635131836" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-1.5400000810623168945" y="0.21000000834465026855" z="0" Type="3dsMax"/>
+				<rotation x="1.5805056818862794898e-07" y="-2.4234446982518420555e-07" z="-0.70710664987564086914" w="0.7071068882942199707" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-1.5400000810623168945" y="-0.21000000834465026855" z="0" Type="3dsMax"/>
+				<rotation x="-2.1073432776574918535e-07" y="-1.2644044034004764399e-07" z="0.70710700750350952148" w="0.70710653066635131836" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" >
+				<position x="-1.6800000667572021484" y="0" z="0" Type="3dsMax"/>
+				<rotation x="3.4074244581461243797e-07" y="0" z="-1" w="1.9470718370939721353e-07" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Smelter.xml" >
+				<position x="-0.63000005483627319336" y="2.4500000476837158203" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Smelter.xml" >
+				<position x="1.1900000572204589844" y="2.4500000476837158203" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_RefineryTower2.xml" >
+				<position x="-2.2400000095367431641" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_RefineryTower2.xml" >
+				<position x="1.4700000286102294922" y="0.63000005483627319336" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_RefineryTower1.xml" >
+				<position x="1.6100001335144042969" y="1.5400000810623168945" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_RefineryTower2.xml" >
+				<position x="0.91000002622604370117" y="0.63000005483627319336" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes1.xml" >
+				<position x="0.91000002622604370117" y="0.98000001907348632813" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes2.xml" >
+				<position x="1.4700000286102294922" y="0.98000001907348632813" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes3.xml" >
+				<position x="1.4000000953674316406" y="1.2600001096725463867" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes3.xml" >
+				<position x="0.98000001907348632813" y="1.2600001096725463867" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes2.xml" >
+				<position x="-2.0300002098083496094" y="-0.14000000059604644775" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes1.xml" >
+				<position x="-2.0300002098083496094" y="0.14000000059604644775" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes1.xml" >
+				<position x="2.7300000190734863281" y="0.070000000298023223877" z="-2.3233901913499721559e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes3.xml" >
+				<position x="0.28000000119209289551" y="2.5200002193450927734" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes2.xml" >
+				<position x="2.7300000190734863281" y="-0.07000020146369934082" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" >
+				<position x="2.590000152587890625" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="2.7300000190734863281" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="0.91000002622604370117" y="1.120000004768371582" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="1.4700000286102294922" y="1.120000004768371582" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="1.2600001096725463867" y="1.2600001096725463867" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="1.120000004768371582" y="1.2600001096725463867" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" >
+				<position x="1.1900000572204589844" y="1.2600001096725463867" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="1.1903001070022583008" y="2.22303009033203125" z="-1.5686999859099159949e-06" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" >
+				<position x="1.1908500194549560547" y="2.1159501075744628906" z="-0.00033346601412631571293" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" >
+				<position x="0.27889901399612426758" y="2.3955702781677246094" z="-0.00056542700622230768204" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-0.63020700216293334961" y="2.2194800376892089844" z="0.00077756005339324474335" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" >
+				<position x="-0.63061302900314331055" y="2.117340087890625" z="-0.00019640602113213390112" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-3.5000002384185791016" y="1.2207000565922498936e-07" z="2.4414100607828004286e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" >
+				<position x="-1.5400000810623168945" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-1.9292701482772827148" y="-0.00013638001109939068556" z="-0.00088217202574014663696" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" >
+				<position x="-2.0300002098083496094" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-3.3600001335144042969" y="0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-3.0800001621246337891" y="0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-2.8000001907348632813" y="0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-2.8000001907348632813" y="0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710694789886474609" w="0.70710664987564086914" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-3.0800001621246337891" y="0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-3.3600001335144042969" y="0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-3.6400001049041748047" y="0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-3.9200000762939453125" y="0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-2.8000001907348632813" y="-0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-3.0800001621246337891" y="-0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-3.3600001335144042969" y="-0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-3.6400001049041748047" y="-0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-3.9200000762939453125" y="-0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-2.8000001907348632813" y="-0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-3.0800001621246337891" y="-0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" >
+				<position x="-3.3600001335144042969" y="-0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" >
+				<position x="-2.9400000572204589844" y="0.42000001668930053711" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" >
+				<position x="-2.9400000572204589844" y="-0.42000001668930053711" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Reactor.xml" >
+				<position x="0.28000000119209289551" y="-2.0300002098083496094" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_HangarTower.xml" >
+				<position x="0.28000000119209289551" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CommsMast.xml" >
+				<position x="1.1900000572204589844" y="0.63000005483627319336" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Center.xml" >
+				<position x="1.1900000572204589844" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterTriangularTower.xml" >
+				<position x="1.1900000572204589844" y="0" z="0" Type="3dsMax"/>
+				<rotation x="-2.660811730947898468e-07" y="0" z="-0.86602556705474853516" w="0.49999973177909851074" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterTriangularTower.xml" >
+				<position x="1.1900000572204589844" y="0" z="0" Type="3dsMax"/>
+				<rotation x="-2.224475821321902913e-07" y="1.4687182670058973599e-07" z="-0.50000041723251342773" w="0.86602514982223510742" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterTriangularTower.xml" >
+				<position x="-0.63000005483627319336" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="2.3627890755051339511e-07" z="0.49999994039535522461" w="0.86602544784545898438" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterTriangularTower.xml" >
+				<position x="-0.63000005483627319336" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.86602544784545898438" w="0.5" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterShieldGenerator.xml" >
+				<position x="-0.63000005483627319336" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.5" w="0.86602538824081420898" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterLivingQuarters.xml" >
+				<position x="1.1900000572204589844" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterLivingQuarters.xml" >
+				<position x="-0.63000005483627319336" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterHangarWing.xml" >
+				<position x="1.1900000572204589844" y="1.2207000565922498936e-07" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterHangarWing.xml" >
+				<position x="-0.63000005483627319336" y="-1.2207000565922498936e-07" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterControlTower.xml" >
+				<position x="-0.63000005483627319336" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterLiquidSilos.xml" >
+				<position x="-0.63000005483627319336" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.86602538824081420898" w="0.50000005960464477539" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Center.xml" >
+				<position x="-0.63000005483627319336" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_6CylindersSmall.xml" >
+				<position x="2.0300002098083496094" y="0" z="0" Type="3dsMax"/>
+				<rotation x="-2.2267408894549589604e-07" y="-1.3838015888723020907e-07" z="0.70710700750350952148" w="0.70710653066635131836" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_6CylindersSmall.xml" >
+				<position x="0.91000002622604370117" y="0.84000003337860107422" z="0" Type="3dsMax"/>
+				<rotation x="2.9802316703353426419e-07" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_6CylindersSmall.xml" >
+				<position x="1.4700000286102294922" y="0.84000003337860107422" z="0" Type="3dsMax"/>
+				<rotation x="2.9802316703353426419e-07" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_6CylindersSmall.xml" >
+				<position x="1.1900000572204589844" y="1.7500001192092895508" z="0" Type="3dsMax"/>
+				<rotation x="0" y="-1.4702740713801176753e-07" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_6CylindersSmall.xml" >
+				<position x="-0.62961202859878540039" y="1.7714201211929321289" z="-4.82156028738245368e-05" Type="3dsMax"/>
+				<rotation x="0" y="-1.4702740713801176753e-07" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_6CylindersSmall.xml" >
+				<position x="-2.4500000476837158203" y="0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="-1.4611097753913782071e-07" z="-0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_6CylindersSmall.xml" >
+				<position x="-2.4500000476837158203" y="-0.28000000119209289551" z="0" Type="3dsMax"/>
+				<rotation x="0" y="-1.4611097753913782071e-07" z="-0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_6CylindersSmall.xml" >
+				<position x="-3.7100002765655517578" y="0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="-1.4611096332828310551e-07" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_6CylindersSmall.xml" >
+				<position x="-3.7100002765655517578" y="-0.56000000238418579102" z="1.2207000565922498936e-07" Type="3dsMax"/>
+				<rotation x="-1.4611096332828310551e-07" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_6CylindersSmall.xml" >
+				<position x="-4.2699999809265136719" y="0.28000000119209289551" z="1.2207000565922498936e-07" Type="3dsMax"/>
+				<rotation x="-1.4611096332828310551e-07" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_6CylindersSmall.xml" >
+				<position x="-4.2699999809265136719" y="-0.28000000119209289551" z="1.2207000565922498936e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710682868957519531" w="0.70710670948028564453" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" >
+				<position x="-2.1000001430511474609" y="0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.38268336653709411621" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" >
+				<position x="-2.1000001430511474609" y="-0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.38268369436264038086" w="0.92387944459915161133" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" >
+				<position x="-2.3800001144409179688" y="-0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" >
+				<position x="1.1900000572204589844" y="2.7300000190734863281" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" >
+				<position x="-2.3800001144409179688" y="0.56000000238418579102" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.38268333673477172852" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+		</TransformNode>
+	</CNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+	<CServerActorComponent>
+        <Name>Palmys Fac</Name>
+		<StratScore>500</StratScore>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>1200.0</EmissionsRange>
+		<SensorPower>4.0</SensorPower>
+		<Scoutable>true</Scoutable>
+		<ScoutDist>8.0</ScoutDist>
+		<ScoutDuration>80.0</ScoutDuration>
+		<ScoutReward>40</ScoutReward>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>Structure</Indicator>
+	</CActorComponent>
+	<CClientActorComponent>
+		<MapIcon>Factory</MapIcon>
+	</CClientActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Static" >
+            <Collisions>true</Collisions>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+        </PhysicsBody>
+	</CBodyComponent>
+	<CHullComponent>
+		<HitPoints>100000000</HitPoints>
+	</CHullComponent>
+	<CEngineComponent>
+		<EnergyPoints>10000</EnergyPoints>
+	</CEngineComponent>
+    <CHardpointComponent>
+		<Group ID="0" >
+			<GroupType>Primary</GroupType>
+			<AllowFreeAim>true</AllowFreeAim>
+		</Group>
+		<Group ID="1" >
+			<GroupType>Secondary</GroupType>
+			<AllowFreeAim>true</AllowFreeAim>
+		</Group>
+		<Group ID="2" >
+			<GroupType>Primary</GroupType>
+			<AllowFreeAim>true</AllowFreeAim>
+		</Group>
+		<Group ID="3" >
+			<GroupType>Secondary</GroupType>
+			<AllowFreeAim>true</AllowFreeAim>
+		</Group>
+		<Ammo>
+			<Type>Mg56mm</Type>
+			<Amount>20000</Amount>
+		</Ammo>
+		<Ammo>
+			<Type>Mg96mm</Type>
+			<Amount>10000</Amount>
+		</Ammo>
+	</CHardpointComponent>
+	<CServerHardpointComponent>
+	</CServerHardpointComponent>
+	<CServerDefenseComponent>
+	</CServerDefenseComponent>
+	<CModulesComponent>
+		<MapToPlanet>true</MapToPlanet>
+		<Weapons>
+			<Target Class="DefenseTowerA" Socket="s_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="1.0" />
+		</Weapons>
+	</CModulesComponent>
+	<CServerModulesComponent>
+		<Resources>
+			<Frequency>300.0</Frequency>
+			<Amount>2400</Amount>
+		</Resources>
+	</CServerModulesComponent>
+</ActorConfig>

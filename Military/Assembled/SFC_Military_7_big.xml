@@ -1,0 +1,605 @@
+<ActorConfig>
+	<CNodeComponent>
+		<TransformNode>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" >
+				<position x="-3.8750002384185791016" y="1" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" >
+				<position x="-3.8750002384185791016" y="-1" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" >
+				<position x="-7.25" y="0" z="1.230220476600152324e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" >
+				<position x="0" y="-3.7500002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" >
+				<position x="10.750000953674316406" y="2.1448732923090574332e-07" z="1.4073806653414067114e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" >
+				<position x="-5.8750004768371582031" y="-1.6250001192092895508" z="-1.3655515829213982215e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" >
+				<position x="-5.8750004768371582031" y="1.6250003576278686523" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" >
+				<position x="9.125" y="-1.6250005960464477539" z="2.9562235681623860728e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710682868957519531" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" >
+				<position x="9.125" y="1.6250005960464477539" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_1.xml" >
+				<position x="2.7500009536743164063" y="1.220703182980287238e-07" z="-1.2303082996822922723e-07" Type="3dsMax"/>
+				<rotation x="1.2363447865482157795e-07" y="0" z="-0.70710676908493041992" w="0.70710682868957519531" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_gun.xml" >
+				<position x="2.5" y="0" z="1.220703182980287238e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" >
+				<position x="2.25" y="-1.220703182980287238e-07" z="1.220703182980287238e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" >
+				<position x="1.8750001192092895508" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_cross1.xml" >
+				<position x="2.7500002384185791016" y="0.25000011920928955078" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_cross1.xml" >
+				<position x="2.7500002384185791016" y="-0.25" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" >
+				<position x="7.875" y="0.25" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" >
+				<position x="7.8750004768371582031" y="0.24999998509883880615" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" >
+				<position x="7.8750004768371582031" y="-0.25" z="2.2888184503244701773e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" >
+				<position x="7.8750004768371582031" y="-0.24999983608722686768" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" >
+				<position x="-5" y="0.24999989569187164307" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_cross1.xml" >
+				<position x="-4.9999995231628417969" y="-0.25000029802322387695" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" >
+				<position x="-5.2500004768371582031" y="-0.25000014901161193848" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="-1.1250001192092895508" y="1.8750001192092895508" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end1.xml" >
+				<position x="-1.125" y="1.8749998807907104492" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="-1.7500002384185791016" y="1.7500001192092895508" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" >
+				<position x="-1.25" y="1.7500001192092895508" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="-1.8750004768371582031" y="1.1249997615814208984" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" >
+				<position x="-1.875001072883605957" y="1.6250008344650268555" z="-3.7765505567222135141e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_turn1_left.xml" >
+				<position x="-1.7500001192092895508" y="1.7500002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" >
+				<position x="-1.8750001192092895508" y="1.125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="-0.87500005960464477539" y="-1.2499997615814208984" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_cross1.xml" >
+				<position x="-0.87500041723251342773" y="-0.99999994039535522461" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end1.xml" >
+				<position x="-0.87500005960464477539" y="-1.125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" >
+				<position x="-0.87500005960464477539" y="-1" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="-2.4842350399012502749e-07" y="-0.12499976158142089844" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="-2.441406365960574476e-07" y="-0.37499976158142089844" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_cross1.xml" >
+				<position x="2.441406365960574476e-07" y="-0.3750000298023223877" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_turn1_left.xml" >
+				<position x="0" y="-0.37499976158142089844" z="2.7465821972327830736e-07" Type="3dsMax"/>
+				<rotation x="0" y="1.6292067073209182126e-07" z="-1" w="2.384185506798530696e-07" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_turn1_left.xml" >
+				<position x="2.441406365960574476e-07" y="-0.12500025331974029541" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_turn1_right.xml" >
+				<position x="0.20359775424003601074" y="-0.81113922595977783203" z="-0.50458723306655883789" Type="3dsMax"/>
+				<rotation x="0" y="1.6292067073209182126e-07" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" >
+				<position x="0.12499999254941940308" y="-0.5" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" >
+				<position x="-0.125" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Personnel.xml" >
+				<position x="-1.25" y="-2" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_cross1.xml" >
+				<position x="2.5" y="-0.24999998509883880615" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_cross1.xml" >
+				<position x="2.7500002384185791016" y="0.25000026822090148926" z="-1.4781952017983712722e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" >
+				<position x="2.7489194869995117188" y="-0.24999938905239105225" z="-0.0071939472109079360962" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.7071068882942199707" w="0.70710664987564086914" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="4.1239194869995117188" y="-0.24999988079071044922" z="-0.0071940617635846138" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710653066635131836" w="0.70710700750350952148" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="5.1239194869995117188" y="-0.25000029802322387695" z="-0.0071940920315682888031" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710653066635131836" w="0.70710700750350952148" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="6.8739199638366699219" y="-0.25000059604644775391" z="-0.0071939700283110141754" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710653066635131836" w="0.70710700750350952148" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" >
+				<position x="6.3739199638366699219" y="-0.25000026822090148926" z="-0.0071939700283110141754" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710653066635131836" w="0.70710700750350952148" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="3.6239206790924072266" y="-0.2499996572732925415" z="-0.0071940310299396514893" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="5.875" y="-0.25000047683715820313" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" >
+				<position x="7.3739199638366699219" y="-0.25000092387199401855" z="-0.0071938480250537395477" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710653066635131836" w="0.70710700750350952148" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" >
+				<position x="4.6239194869995117188" y="-0.25000020861625671387" z="-0.0071939700283110141754" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710653066635131836" w="0.70710700750350952148" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" >
+				<position x="3.6239194869995117188" y="-0.2499996572732925415" z="-0.0071939853951334953308" Type="3dsMax"/>
+				<rotation x="1.4611094911742839031e-07" y="0" z="-0.70710664987564086914" w="0.7071068882942199707" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" >
+				<position x="5.6239194869995117188" y="-0.25000011920928955078" z="-0.0071939853951334953308" Type="3dsMax"/>
+				<rotation x="1.4611094911742839031e-07" y="0" z="-0.70710664987564086914" w="0.7071068882942199707" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_gun.xml" >
+				<position x="5.8739194869995117188" y="-0.25000029802322387695" z="-0.0071940007619559764862" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710653066635131836" w="0.70710700750350952148" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" >
+				<position x="-1.05551910400390625" y="3.8055193424224853516" z="-0.0028116151224821805954" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="-0.38268357515335083008" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" >
+				<position x="2.4969794750213623047" y="0.25302135944366455078" z="-0.0054089054465293884277" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.38268330693244934082" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="1.524706721305847168" y="1.2252931594848632813" z="-0.0054090274497866630554" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="-0.38268357515335083008" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="0.81760036945343017578" y="1.9324002265930175781" z="-0.0054091494530439376831" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="-0.38268357515335083008" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="-0.41983693838119506836" y="3.1698369979858398438" z="-0.0054090274497866630554" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="-0.38268357515335083008" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" >
+				<position x="-0.066283695399761199951" y="2.8162839412689208984" z="-0.0054090274497866630554" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="-0.38268357515335083008" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="1.8782596588134765625" y="0.87174016237258911133" z="-0.0054090274497866630554" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.38268369436264038086" w="0.92387944459915161133" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="0.28727003931999206543" y="2.4627301692962646484" z="-0.075014986097812652588" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.38268369436264038086" w="0.92387944459915161133" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" >
+				<position x="-0.77339017391204833984" y="3.5233907699584960938" z="-0.0054089054465293884277" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="-0.38268357515335083008" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" >
+				<position x="1.171154022216796875" y="1.5788469314575195313" z="-0.0054090274497866630554" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="-0.38268357515335083008" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" >
+				<position x="1.8782606124877929688" y="0.87174016237258911133" z="-0.0054090274497866630554" Type="3dsMax"/>
+				<rotation x="0" y="1.6724672491363890003e-07" z="-0.92387968301773071289" w="-0.38268306851387023926" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" >
+				<position x="0.46404641866683959961" y="2.2859532833099365234" z="-0.0054090274497866630554" Type="3dsMax"/>
+				<rotation x="0" y="1.6724672491363890003e-07" z="-0.92387968301773071289" w="-0.38268306851387023926" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_gun.xml" >
+				<position x="0.28727003931999206543" y="2.4627301692962646484" z="-0.0054090274497866630554" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="-0.38268357515335083008" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" >
+				<position x="-1.0555188655853271484" y="-3.8055193424224853516" z="0.0017443009419366717339" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" >
+				<position x="2.496978759765625" y="-0.25302088260650634766" z="-0.00085298926569521427155" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="0.38268351554870605469" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="1.5247070789337158203" y="-1.2252933979034423828" z="-0.0008531113271601498127" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="0.81759995222091674805" y="-1.932399749755859375" z="-0.00085323338862508535385" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="-0.41983675956726074219" y="-3.1698369979858398438" z="-0.0008531113271601498127" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" >
+				<position x="-0.066283509135246276855" y="-2.8162839412689208984" z="-0.0008531113271601498127" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="1.8782601356506347656" y="-0.87174063920974731445" z="-0.0008531113271601498127" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.38268330693244934082" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="0.2872702181339263916" y="-2.4627301692962646484" z="-0.070459082722663879395" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.38268330693244934082" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" >
+				<position x="-0.7733904719352722168" y="-3.5233902931213378906" z="-0.00085298926569521427155" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" >
+				<position x="1.1711534261703491211" y="-1.5788460969924926758" z="-0.0008531113271601498127" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" >
+				<position x="1.8782601356506347656" y="-0.8717396855354309082" z="-0.0008531113271601498127" Type="3dsMax"/>
+				<rotation x="1.3379143126712733647e-07" y="0" z="0.38268372416496276855" w="0.92387944459915161133" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" >
+				<position x="0.46404707431793212891" y="-2.2859537601470947266" z="-0.0008531113271601498127" Type="3dsMax"/>
+				<rotation x="1.3379143126712733647e-07" y="0" z="0.38268372416496276855" w="0.92387944459915161133" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_gun.xml" >
+				<position x="0.2872702181339263916" y="-2.4627301692962646484" z="-0.0008531113271601498127" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" >
+				<position x="-1.4444810152053833008" y="-3.8055186271667480469" z="-0.0032076188363134860992" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" >
+				<position x="-4.9969797134399414063" y="-0.25302112102508544922" z="-0.0058049089275300502777" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834261417388916" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="-4.0247068405151367188" y="-1.2252926826477050781" z="-0.0058050309307873249054" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="-3.3176004886627197266" y="-1.9323998689651489258" z="-0.0058051533997058868408" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="-2.0801634788513183594" y="-3.1698365211486816406" z="-0.0058050309307873249054" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" >
+				<position x="-2.4337167739868164063" y="-2.8162832260131835938" z="-0.0058050309307873249054" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="-4.3782601356506347656" y="-0.87173992395401000977" z="-0.0058050309307873249054" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="0.38268351554870605469" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="-2.7872700691223144531" y="-2.4627296924591064453" z="-0.075410984456539154053" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="0.38268351554870605469" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" >
+				<position x="-1.7266101837158203125" y="-3.5233902931213378906" z="-0.0058049089275300502777" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" >
+				<position x="-3.671154022216796875" y="-1.5788463354110717773" z="-0.0058050309307873249054" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" >
+				<position x="-4.3782610893249511719" y="-0.87173992395401000977" z="-0.0058050309307873249054" Type="3dsMax"/>
+				<rotation x="1.6724671070278418483e-07" y="0" z="-0.38268324732780456543" w="0.9238796234130859375" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" >
+				<position x="-2.9640467166900634766" y="-2.2859528064727783203" z="-0.0058050309307873249054" Type="3dsMax"/>
+				<rotation x="1.6724671070278418483e-07" y="0" z="-0.38268324732780456543" w="0.9238796234130859375" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_gun.xml" >
+				<position x="-2.7872700691223144531" y="-2.4627296924591064453" z="-0.0058050309307873249054" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" >
+				<position x="-1.4444814920425415039" y="3.8055188655853271484" z="-0.00079998781438916921616" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.38268336653709411621" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" >
+				<position x="-4.9969792366027832031" y="0.25302076339721679688" z="-0.0033972780220210552216" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="-4.0247073173522949219" y="1.2252930402755737305" z="-0.0033974000252783298492" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.38268336653709411621" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="-3.317600250244140625" y="1.9323996305465698242" z="-0.0033975220285356044769" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.38268336653709411621" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="-2.0801634788513183594" y="3.1698367595672607422" z="-0.0033974000252783298492" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.38268336653709411621" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" >
+				<position x="-2.4337170124053955078" y="2.8162834644317626953" z="-0.0033974000252783298492" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.38268336653709411621" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="-4.3782606124877929688" y="0.87174004316329956055" z="-0.0033974000252783298492" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834261417388916" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="-2.7872703075408935547" y="2.4627299308776855469" z="-0.073003359138965606689" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834261417388916" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" >
+				<position x="-1.7266099452972412109" y="3.5233900547027587891" z="-0.0033972780220210552216" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.38268336653709411621" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" >
+				<position x="-3.6711537837982177734" y="1.5788462162017822266" z="-0.0033974000252783298492" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.38268336653709411621" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" >
+				<position x="-4.3782606124877929688" y="0.8717396855354309082" z="-0.0033974000252783298492" Type="3dsMax"/>
+				<rotation x="0" y="1.3379143126712733647e-07" z="-0.92387944459915161133" w="0.38268369436264038086" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" >
+				<position x="-2.9640471935272216797" y="2.285953521728515625" z="-0.0033974000252783298492" Type="3dsMax"/>
+				<rotation x="0" y="1.3379143126712733647e-07" z="-0.92387944459915161133" w="0.38268369436264038086" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_gun.xml" >
+				<position x="-2.7872703075408935547" y="2.4627299308776855469" z="-0.0033974000252783298492" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.38268336653709411621" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="-3.5654704570770263672" y="-2.9345300197601318359" z="-0.075879938900470733643" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" >
+				<position x="2.7497458457946777344" y="0.25000071525573730469" z="-0.00634585600346326828" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.7071068882942199707" w="0.70710664987564086914" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="3.6247467994689941406" y="0.25000044703483581543" z="-0.0063459398224949836731" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" >
+				<position x="3.6247458457946777344" y="0.25000044703483581543" z="-0.0063458941876888275146" Type="3dsMax"/>
+				<rotation x="1.4611094911742839031e-07" y="0" z="-0.70710664987564086914" w="0.7071068882942199707" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="4.1247458457946777344" y="0.25000023841857910156" z="-0.0063459705561399459839" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710653066635131836" w="0.70710700750350952148" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="5.1247458457946777344" y="0.24999983608722686768" z="-0.0063460008241236209869" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710653066635131836" w="0.70710700750350952148" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" >
+				<position x="5.6247458457946777344" y="0.25" z="-0.0063458941876888275146" Type="3dsMax"/>
+				<rotation x="1.4611094911742839031e-07" y="0" z="-0.70710664987564086914" w="0.7071068882942199707" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_gun.xml" >
+				<position x="5.8747458457946777344" y="0.24999980628490447998" z="-0.00634590955451130867" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710653066635131836" w="0.70710700750350952148" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" >
+				<position x="5.8750009536743164063" y="0.25000023841857910156" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" >
+				<position x="6.3747458457946777344" y="0.24999986588954925537" z="-0.0063458788208663463593" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710653066635131836" w="0.70710700750350952148" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" >
+				<position x="6.8747458457946777344" y="0.24999952316284179688" z="-0.0063458788208663463593" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710653066635131836" w="0.70710700750350952148" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" >
+				<position x="7.3747458457946777344" y="0.24999921023845672607" z="-0.0063457568176090717316" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710653066635131836" w="0.70710700750350952148" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_ServiceTower.xml" >
+				<position x="-1.25" y="-4.2500004768371582031" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="1.6292068494294653647e-07" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" >
+				<position x="4.6247458457946777344" y="0.24999992549419403076" z="-0.0063458788208663463593" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710653066635131836" w="0.70710700750350952148" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_turn1_left.xml" >
+				<position x="-1.2499995231628417969" y="1.7499996423721313477" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_ServiceTower.xml" >
+				<position x="3.8750002384185791016" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" >
+				<position x="0" y="3.7500002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Reactor.xml" >
+				<position x="8.625" y="1.220703182980287238e-07" z="-1.831054703416157281e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_OrbitalDefense.xml" >
+				<position x="-1.2500002384185791016" y="4.375" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Center.xml" >
+				<position x="-1.75" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_LifeSupport.xml" >
+				<position x="1" y="0" z="0.19767396152019500732" Type="3dsMax"/>
+				<rotation x="0.012416228652000427246" y="-0.01237588096410036087" z="0.71720784902572631836" w="0.6966387629508972168" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Hangar.xml" >
+				<position x="-5.6250004768371582031" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Dish.xml" >
+				<position x="-1.4838342666625976563" y="2.3749995231628417969" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>		</TransformNode>
+	</CNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+	</CClientHullComponent>
+	<CServerActorComponent>
+        <Name>Solus Base</Name>
+		<StratScore>400</StratScore>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>800.0</EmissionsRange>
+		<SensorPower>8.0</SensorPower>
+		<Scoutable>true</Scoutable>
+		<ScoutDist>6.0</ScoutDist>
+		<ScoutDuration>50.0</ScoutDuration>
+		<ScoutReward>50</ScoutReward>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>Structure</Indicator>
+	</CActorComponent>
+	<CClientActorComponent>
+		<MapIcon>MilitaryBase</MapIcon>
+	</CClientActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Static" >
+            <Collisions>true</Collisions>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+        </PhysicsBody>
+	</CBodyComponent>
+	<CHullComponent>
+		<HitPoints>100000000</HitPoints>
+	</CHullComponent>
+	<CEngineComponent>
+		<EnergyPoints>10000</EnergyPoints>
+	</CEngineComponent>
+    <CHardpointComponent>
+		<Group ID="0" >
+			<GroupType>Primary</GroupType>
+			<AllowFreeAim>true</AllowFreeAim>
+		</Group>
+		<Group ID="1" >
+			<GroupType>Secondary</GroupType>
+			<AllowFreeAim>true</AllowFreeAim>
+		</Group>
+		<Group ID="2" >
+			<GroupType>Primary</GroupType>
+			<AllowFreeAim>true</AllowFreeAim>
+		</Group>
+		<Group ID="3" >
+			<GroupType>Secondary</GroupType>
+			<AllowFreeAim>true</AllowFreeAim>
+		</Group>
+		<Ammo>
+			<Type>Mg56mm</Type>
+			<Amount>20000</Amount>
+		</Ammo>
+		<Ammo>
+			<Type>Mg96mm</Type>
+			<Amount>10000</Amount>
+		</Ammo>
+	</CHardpointComponent>
+	<CServerHardpointComponent>
+	</CServerHardpointComponent>
+	<CServerDefenseComponent>
+	</CServerDefenseComponent>
+	<CModulesComponent>
+		<MapToPlanet>true</MapToPlanet>
+		<Weapons>
+			<Target Class="DefenseTowerA" Socket="s_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="1.0" />
+		</Weapons>
+	</CModulesComponent>
+	<CServerModulesComponent>
+	</CServerModulesComponent>
+</ActorConfig>

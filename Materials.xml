@@ -1,0 +1,58 @@
+<Materials>
+	<Damage From="Structures/SFC_StaticDefense/M_SFC_Crate" To="Structures/SFC_StaticDefense/M_SFC_Crate_destroyed" />
+	<Damage From="Structures/SFC_StaticDefense/M_SFC_IndustrialPlating" To="Structures/SFC_StaticDefense/M_SFC_IndustrialPlating_destroyed" />
+	<Damage From="Structures/SFC_StaticDefense/M_SFC_MegaPlating" To="Structures/SFC_StaticDefense/M_SFC_MegaPlating_destroyed" />
+	<Damage From="Structures/SFC_StaticDefense/M_SFC_Stripes" To="Structures/SFC_StaticDefense/M_SFC_Stripes_destroyed" />
+	<Damage From="Structures/SFC_StaticDefense/M_SFC_Trim" To="Structures/SFC_StaticDefense/M_SFC_Trim_destroyed" />
+	<Damage From="Structures/SFC-Factory/MI_SFC_Factory_industrial_painted" To="Structures/SFC-Factory/MI_SFC_Factory_industrial_painted_destroyed" />
+	<Damage From="Structures/SFC-Factory/MI_SFC_Factory_industrial_painted_2" To="Structures/SFC-Factory/MI_SFC_Factory_industrial_painted_2_destroyed" />
+	<Damage From="Structures/SFC-Factory/MI_SFC_Factory_industrial_unpainted" To="Structures/SFC-Factory/MI_SFC_Factory_industrial_unpainted_destroyed" />
+	<Damage From="Structures/SFC-Factory/MI_SFC_Factory_stripes_painted" To="Structures/SFC-Factory/MI_SFC_Factory_stripes_painted_destroyed" />
+	<Damage From="Structures/SFC-Factory/MI_SFC_Factory_stripes_unpainted" To="Structures/SFC-Factory/MI_SFC_Factory_stripes_unpainted_destroyed" />
+	<Damage From="Structures/SFC-Factory/MI_SFC_Factory_windows" To="Structures/SFC-Factory/MI_SFC_Factory_windows_destroyed" />
+	<Damage From="Structures/SFC-Military/MI_SFC_Military_industrial_painted" To="Structures/SFC-Military/MI_SFC_Military_industrial_painted_destroyed" />
+	<Damage From="Structures/SFC-Military/MI_SFC_Military_industrial_painted_2" To="Structures/SFC-Military/MI_SFC_Military_industrial_painted_2_destroyed" />
+	<Damage From="Structures/SFC-Military/MI_SFC_Military_industrial_unpainted" To="Structures/SFC-Military/MI_SFC_Military_industrial_unpainted_destroyed" />
+	<Damage From="Structures/SFC-Military/MI_SFC_Military_industrial_unpainted_hangar" To="Structures/SFC-Military/MI_SFC_Military_industrial_unpainted_hangar_destroyed" />
+	<Damage From="Structures/SFC-Military/MI_SFC_Military_megaplating_unpainted" To="Structures/SFC-Military/MI_SFC_Military_megaplating_unpainted_destroyed" />
+	<Damage From="Structures/SFC-Military/MI_SFC_Military_stripes_painted" To="Structures/SFC-Military/MI_SFC_Military_stripes_painted_destroyed" />
+	<Damage From="Structures/SFC-Military/MI_SFC_Military_stripes_unpainted" To="Structures/SFC-Military/MI_SFC_Military_stripes_unpainted_destroyed" />
+	<Damage From="Structures/SFC-Military/MI_SFC_Military_windows" To="Structures/SFC-Military/MI_SFC_Military_windows_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_Crate_main" To="Structures/SFC-Stations/MI_SFC_Stations_Crate_main_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_Industrial_main" To="Structures/SFC-Stations/MI_SFC_Stations_Industrial_main_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_landingpad" To="Structures/SFC-Stations/MI_SFC_Stations_landingpad_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_landingpad_CORVETTE" To="Structures/SFC-Stations/MI_SFC_Stations_landingpad_CORVETTE_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_Machinery_main" To="Structures/SFC-Stations/MI_SFC_Stations_Machinery_main_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_MegaPlating_main" To="Structures/SFC-Stations/MI_SFC_Stations_MegaPlating_main_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_plating" To="Structures/SFC-Stations/MI_SFC_Stations_plating_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_plating_CORVETTE" To="Structures/SFC-Stations/MI_SFC_Stations_plating_CORVETTE_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_simple_plating" To="Structures/SFC-Stations/MI_SFC_Stations_simple_plating_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_simple_plating_CORVETTE" To="Structures/SFC-Stations/MI_SFC_Stations_simple_plating_CORVETTE_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_simple_plating_dark" To="Structures/SFC-Stations/MI_SFC_Stations_simple_plating_dark_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_simple_plating_dark_CORVETTE" To="Structures/SFC-Stations/MI_SFC_Stations_simple_plating_dark_CORVETTE_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_simple_plating_light" To="Structures/SFC-Stations/MI_SFC_Stations_simple_plating_light_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_simple_plating_light_CORVETTE" To="Structures/SFC-Stations/MI_SFC_Stations_simple_plating_light_CORVETTE_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_stripe" To="Structures/SFC-Stations/MI_SFC_Stations_stripe_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_stripe_CORVETTE" To="Structures/SFC-Stations/MI_SFC_Stations_stripe_CORVETTE_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_Stripes_main" To="Structures/SFC-Stations/MI_SFC_Stations_Stripes_main_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_Strips_main" To="Structures/SFC-Stations/MI_SFC_Stations_Strips_main_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_Trim_beige" To="Structures/SFC-Stations/MI_SFC_Stations_Trim_beige_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_Trim_darkgrey" To="Structures/SFC-Stations/MI_SFC_Stations_Trim_darkgrey_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_Trim_lightgrey" To="Structures/SFC-Stations/MI_SFC_Stations_Trim_lightgrey_destroyed" />
+	<Damage From="Structures/SFC-Stations/MI_SFC_Stations_Truss_main" To="Structures/SFC-Stations/MI_SFC_Stations_Truss_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/MI_SFC_Hangar_Decals" To="Structures/StationModules_SFC/MI_SFC_Hangar_Decals_destroyed" />
+	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Crate_main" To="Structures/StationModules_SFC/MI_SFC_Stations_Crate_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Deckplating" To="Structures/StationModules_SFC/MI_SFC_Stations_Deckplating_destroyed" />
+	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Industrial_main" To="Structures/StationModules_SFC/MI_SFC_Stations_Industrial_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Lights_main" To="Structures/StationModules_SFC/MI_SFC_Stations_Lights_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_MegaPlating_main" To="Structures/StationModules_SFC/MI_SFC_Stations_MegaPlating_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Pipes" To="Structures/StationModules_SFC/MI_SFC_Stations_Pipes_destroyed" />
+	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Stripes_main" To="Structures/StationModules_SFC/MI_SFC_Stations_Stripes_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Strips_main" To="Structures/StationModules_SFC/MI_SFC_Stations_Strips_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Truss_main" To="Structures/StationModules_SFC/MI_SFC_Stations_Truss_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Windows" To="Structures/StationModules_SFC/MI_SFC_Stations_Windows_destroyed" />
+</Materials>
+
+
+
+

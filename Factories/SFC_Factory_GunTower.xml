@@ -1,0 +1,53 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/SFC-Factory/SM_SFC_Factory_GunTower_Lod0" >
+		    <LOD Level="1" Mesh="Structures/SFC-Factory/SM_SFC_Factory_GunTower_Lod1" />
+		    <LOD Level="2" Mesh="Structures/SFC-Factory/SM_SFC_Factory_GunTower_Lod2" />
+		    <LOD Level="3" Mesh="Structures/SFC-Factory/SM_SFC_Factory_GunTower_Lod3" />
+		    <LOD Level="4" Mesh="Structures/SFC-Factory/SM_SFC_Factory_GunTower_Lod4" />
+		    <LOD Level="5" Mesh="Structures/SFC-Factory/SM_SFC_Factory_GunTower_Lod5" />
+		    <LOD Level="6" Mesh="Structures/SFC-Factory/SM_SFC_Factory_GunTower_Lod6" />
+		    <LODPower>0.5</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+		
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Factory/7fd661b8.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>DefenseTowerA</Class>
+				<HitPoints>1500</HitPoints>
+				<Score>20</Score>
+				<MapToPlanet>true</MapToPlanet>
+			    <Sockets>
+					<FileName>$Dev/Structures/SFC-Factory/7fd661b8.insm</FileName>
+			        <Socket Name="s_turret" Type="Hardpoint" Class="MK3" />
+			    </Sockets>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/SFC-Factory/7fd661b8.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>DefenseTowerA</Class>
+				<HitPoints>1500</HitPoints>
+				<Score>20</Score>
+				<MapToPlanet>true</MapToPlanet>
+			    <Sockets>
+					<FileName>$Dev/Structures/SFC-Factory/7fd661b8.insm</FileName>
+			        <Socket Name="s_turret" Type="Hardpoint" Class="MK3" />
+			    </Sockets>
+			</Module>
+			<ServerModule>
+				<CreditsReward>20</CreditsReward>
+				<OnDestroyedPopupTitle>Server_Destroyed_Module_DefenseTower_Title_Self</OnDestroyedPopupTitle>
+				<OnDestroyedPopupText>Server_Destroyed_Module_DefenseTower_Text_Self</OnDestroyedPopupText>
+				<OnDestroyedPopupFooter>Server_Destroyed_Module_DefenseTower_Footer_Self</OnDestroyedPopupFooter>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

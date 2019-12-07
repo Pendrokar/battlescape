@@ -1,0 +1,506 @@
+<ActorConfig>
+	<CClientNodeComponent>
+        <Object Mesh="Ships/SFC-Destroyer/SM_SFC_Destroyer_Lod0" >
+            <LOD Level="1" Mesh="Ships/SFC-Destroyer/SM_SFC_Destroyer_Lod1" />
+            <LOD Level="2" Mesh="Ships/SFC-Destroyer/SM_SFC_Destroyer_Lod2" />
+            <LOD Level="3" Mesh="Ships/SFC-Destroyer/SM_SFC_Destroyer_Lod3" />
+            <LOD Level="4" Mesh="Ships/SFC-Destroyer/SM_SFC_Destroyer_Lod4" />
+            <LOD Level="5" Mesh="Ships/SFC-Destroyer/SM_SFC_Destroyer_Lod5" />
+            <LOD Level="6" Mesh="Ships/SFC-Destroyer/SM_SFC_Destroyer_Lod6" />
+<!--             <LODPower>3.0</LODPower> -->
+            <LODPower>0.5</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+            <Material Override="true" />
+            <ThrusterModel ConfigFile="$Dev/config/thrusters/DestroyerThrusters.xml" >
+                <LightsInheritVisibility>false</LightsInheritVisibility>
+                <ParticlesInheritVisibility>true</ParticlesInheritVisibility>
+                <ActivateDistance>8.0</ActivateDistance>
+            </ThrusterModel>
+
+			<Light Type="PointLight" >
+				<Name>Omni017</Name>
+				<Color X="1.0" Y="0.176471" Z="0.176471" />
+				<Lumens>50000000</Lumens>
+				<position x="0.097991995513439178467" y="-0.077300138771533966064" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni016</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.12845301628112792969" y="-0.034305185079574584961" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni015</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.12845301628112792969" y="0.031724996864795684814" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni014</Name>
+				<Color X="0.721569" Y="0.870588" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<position x="0.081526011228561401367" y="0.072024859488010406494" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni013</Name>
+				<Color X="0.721569" Y="0.870588" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<position x="0.025999994948506355286" y="-0.15143822133541107178" z="-0.02808008342981338501" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni012</Name>
+				<Color X="0.721569" Y="0.870588" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.025999996811151504517" y="-0.15143822133541107178" z="-0.02808008342981338501" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni011</Name>
+				<Color X="0.721569" Y="0.870588" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<position x="0.025999994948506355286" y="-0.15143822133541107178" z="0.025992807000875473022" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni010</Name>
+				<Color X="0.721569" Y="0.870588" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.025999996811151504517" y="-0.15143822133541107178" z="0.025992807000875473022" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot004</Name>
+				<Color X="0.721569" Y="0.870588" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.0079999975860118865967" y="-0.031648583710193634033" z="-0.027247458696365356445" Type="3dsMax"/>
+				<rotation x="-0.042352680116891860962" y="-0.0083552934229373931885" z="-0.19336842000484466553" w="0.98017609119415283203" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot003</Name>
+				<Color X="0.721569" Y="0.870588" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.0080000013113021850586" y="-0.031648583710193634033" z="-0.027248000726103782654" Type="3dsMax"/>
+				<rotation x="-0.042360357940196990967" y="0.0083568207919597625732" z="0.19336834549903869629" w="0.98017573356628417969" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni009</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.013999998569488525391" y="0.12831094861030578613" z="-0.016865361481904983521" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni008</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.013999998569488525391" y="0.12831094861030578613" z="-0.016865361481904983521" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni007</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="0.013999998569488525391" y="0.12831094861030578613" z="0.016992805525660514832" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni006</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.013999998569488525391" y="0.12831094861030578613" z="0.016992805525660514832" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni005</Name>
+				<Color X="1.0" Y="0.176471" Z="0.176471" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.097991995513439178467" y="-0.077300138771533966064" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni004</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.12845294177532196045" y="-0.034305185079574584961" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni003</Name>
+				<Color X="0.996079" Y="0.941177" Z="0.72549" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.12845294177532196045" y="0.031724996864795684814" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni002</Name>
+				<Color X="0.721569" Y="0.870588" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<position x="-0.081525661051273345947" y="0.072024859488010406494" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>Omni001</Name>
+				<Color X="0.721569" Y="0.870588" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<position x="0" y="0.14347606897354125977" z="0" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot002</Name>
+				<Color X="0.721569" Y="0.870588" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="-0.0079999975860118865967" y="-0.031648583710193634033" z="0.02724801190197467804" Type="3dsMax"/>
+				<rotation x="0.11831208318471908569" y="0.0092831486836075782776" z="-0.077670007944107055664" w="0.98989063501358032227" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+			<Light Type="SpotLight" >
+				<Name>Spot001</Name>
+				<Color X="0.721569" Y="0.870588" Z="1.0" />
+				<Lumens>50000000</Lumens>
+				<Innercone>25.0</Innercone>
+				<Outercone>45.0</Outercone>
+				<position x="0.0080000013113021850586" y="-0.031648583710193634033" z="0.02724801190197467804" Type="3dsMax"/>
+				<rotation x="0.11831208318471908569" y="-0.0092831449583172798157" z="0.077669993042945861816" w="0.98989063501358032227" Type="3dsMax"/>
+				<Cutoff>1024</Cutoff>
+				<ShadowMap State="false" Size="512" MinRate="0.1" MaxRate="0.0" MinQuality="2" />
+			</Light>
+
+        </Object>
+	</CClientNodeComponent>
+	<CServerNodeComponent>
+		<TransformNode />
+	</CServerNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+		<ThrustersEmissiveScale>5.0</ThrustersEmissiveScale>
+		<DyingExplosions>40</DyingExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DyingEffectScale>0.45</DyingEffectScale>
+		<DeathExplosions>12</DeathExplosions>
+		<DeathCoreEffect>BlueShockwave</DeathCoreEffect>
+		<DeathCoreEffectScale>20.0</DeathCoreEffectScale>
+		<DeathEffect>CapShipExplosionCore</DeathEffect>
+		<DeathEffectScale>2.0</DeathEffectScale>
+		<DeathEffectRange>200.0</DeathEffectRange>
+		<ShrapnelEffect>ShrapnelBig</ShrapnelEffect>
+		<ShrapnelEffectScale>2.5</ShrapnelEffectScale>
+		<ContrailEffectSize>0.15</ContrailEffectSize>
+		<DamageEffectSize>0.12</DamageEffectSize>
+		<Skin>
+			<Name>DestroyerScoria</Name>
+			<ColorMap>Ships/SFC-Destroyer/Skins/T_Destroyer_Scoria</ColorMap>
+		</Skin>
+		<Skin>
+			<Name>DestroyerHavoc</Name>
+			<ColorMap>Ships/SFC-Destroyer/Skins/T_Destroyer_Havoc</ColorMap>
+		</Skin>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+    <CClientCameraViewComponent>
+		<LinAccSmoothing>0.1</LinAccSmoothing>
+		<AngVelSmoothing>0.5</AngVelSmoothing>
+		<ViewRangeExt X="1.0" Y="2.0" />
+		<DefaultViewRangeExt>1.5</DefaultViewRangeExt>
+        <Camera Type="Capship" >
+            <ViewPosition X="0" Y="0.0" Z="-0.348" />
+			<ViewAngle X="0" Y="0" />
+			<ViewOffset>0.35</ViewOffset>
+        </Camera>
+        <Camera Type="External" >
+            <!-- chase camera behind ship -->
+            <ViewPosition X="0" Y="0.052" Z="-0.334" />
+			<ViewAngle X="0.153" Y="0" />
+        </Camera>
+        <Camera Type="Internal" >
+            <!-- bridge -->
+            <ViewPosition X="0.0" Y="0.059" Z="-0.150" />
+        </Camera>
+    </CClientCameraViewComponent>
+	<CClientAudioComponent>
+		<SideThruster Target="SideThrusterBig" DistRangeScale="0.5" FadeLength="0.5" />
+		<MainThruster Target="MainThrusterHeavy1" DistRangeScale="0.75" FadeLength="2.0" />
+		<EngineIdle Target="EngineIdleHeavy2" FadeLength="2.0" />
+		<EngineFast Target="EngineFastHeavy1" FadeLength="2.0" />
+		<WarpAmbient Target="WarpAmbient" FadeLength="2.0" />
+		<AtmoFriction Target="AtmoFriction" FadeLength="2.0" />
+		<DamageShield Target="DamageShieldMedium" />
+		<DamagePower Target="DamagePowerMedium" />
+		<DamageEngine Target="DamageEngineMedium" />
+	</CClientAudioComponent>
+	<CClientActorComponent>
+		<ControlScheme>CapShip</ControlScheme>
+	</CClientActorComponent>
+	<CServerActorComponent>
+		<StratScore>0</StratScore>
+		<DefaultSkins>
+			<Skin TeamID="0">DestroyerHavoc</Skin>
+			<Skin TeamID="1">DestroyerScoria</Skin>
+			<Skin TeamID="2">DestroyerHavoc</Skin>
+		</DefaultSkins>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>100.0</EmissionsRange>
+		<SensorPower>1.25</SensorPower>
+		<IsScannable>true</IsScannable>
+		<MaxScanRange>5000.0</MaxScanRange>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>MediumShip</Indicator>
+		<SurfaceType>Metal</SurfaceType>
+		<ClassAbbrev>DST</ClassAbbrev>
+		<ClassName>DESTROYER</ClassName>
+	</CActorComponent>
+	<CBodyComponent>
+    	<PhysicsBody Type="Mesh" >
+			<CollisionFile>$Dev/Ships/SFC-Destroyer/Collision/f2816f6c.insm</CollisionFile>
+			<Dynamic>true</Dynamic>
+            <Mass>18000.0</Mass>
+            <Collisions>true</Collisions>
+        </PhysicsBody>
+<!--     	<PhysicsBody Type="Box" >
+        	<SidesSize X ="0.28667" Y="0.06373" Z="0.3563" />
+            <Offset X="0" Y="0.0002928" Z="-0.008" />
+            <Mass>18000.0</Mass>
+            <Collisions>true</Collisions>
+        </PhysicsBody> -->
+<!-- 		<CollisionBody>
+			<CollisionFile>$Dev/Ships/SFC-Destroyer/Collision/f2816f6c.insm</CollisionFile>
+		</CollisionBody> -->
+		<HitMesh>
+			<CollisionFile>$Dev/Ships/SFC-Destroyer/Collision/f2816f6c.insm</CollisionFile>
+			<SplitCost>0.001</SplitCost>
+		</HitMesh>
+	</CBodyComponent>
+    <CPropulsionComponent>
+        <RampUpFactor>10.0</RampUpFactor>
+        <LinearThrust X="260.0" Y="230.0" Z="396.0" />
+        <RotationThrust X="36.0" Y="36.0" Z="25.0" />
+        <RotationStabilizer X="2.0" Y="2.0" Z="2.0" />
+		<MaxRotationSpeed X="0.4" Y="0.3" Z="0.8" />
+		<AtmoDecay>0.008</AtmoDecay>
+		<RotWarpLimiter>0.5</RotWarpLimiter>
+		<DriftLimiter>2.0</DriftLimiter>
+		<CapSpeed>0.225</CapSpeed>
+    </CPropulsionComponent>
+	<CEngineComponent>
+		<EnergyPoints>1000</EnergyPoints>
+		<HeatPoints>1250</HeatPoints>
+		<DechargeHeatPoints>150</DechargeHeatPoints>
+	</CEngineComponent>
+	<CHullComponent>
+		<HitPoints>20000</HitPoints>
+		<DyingDuration>8.0</DyingDuration>
+		<DeathTiming>3.0</DeathTiming>
+		<DeathDuration>3.0</DeathDuration>
+		<DeathCredits>60</DeathCredits>
+		<Drag>0.0005</Drag>
+		<ArmorPoints>3</ArmorPoints>
+	</CHullComponent>
+	<CShieldComponent>
+		<ShieldPoints>20000</ShieldPoints>
+		<RechargeRate>25</RechargeRate>
+	</CShieldComponent>
+	<CWarpComponent>
+		<MinWarpSpeed>0.140</MinWarpSpeed>
+	</CWarpComponent>
+	<CClientWarpComponent>
+		<WarpMesh>Particles/Warp/SM_WarpTunnelRound</WarpMesh>
+		<WarpMeshScale>118.0</WarpMeshScale>
+		<LightsDist>0.015</LightsDist>
+	</CClientWarpComponent>
+	<CShipComponent>
+		<SpawnType>Capship</SpawnType>
+		<Equipment>WarpJam1</Equipment>
+		<Equipment>MineLauncher</Equipment>
+	</CShipComponent>
+	<CHardpointComponent>
+		<Mesh>$Dev/Ships/SFC-Destroyer/b4fc6271.insm</Mesh>
+
+		<Group ID="0" >
+			<GroupType>Primary</GroupType>
+			<Weapon>AutoTurretGunMK4</Weapon>
+			<AutoAim>true</AutoAim>
+			<AutoFire>true</AutoFire>
+		</Group>
+		<Group ID="1" >
+			<GroupType>Secondary</GroupType>
+			<Weapon>AutoTurretBlasterMK4</Weapon>
+			<AutoAim>true</AutoAim>
+			<AutoFire>true</AutoFire>
+		</Group>
+		<Group ID="2" >
+			<GroupType>Primary</GroupType>
+			<Weapon>TurretGunMK5</Weapon>
+		</Group>
+		<Group ID="3" >
+			<GroupType>Secondary</GroupType>
+			<Weapon>TurretBlasterMK5</Weapon>
+		</Group>
+		<Group ID="4" >
+			<GroupType>Primary</GroupType>
+			<Weapon>TurretGunMK6</Weapon>
+		</Group>
+		<Group ID="5" >
+			<GroupType>Missile</GroupType>
+			<Weapon>MissileLauncherMK3</Weapon>
+		</Group>
+		<Group ID="6" >
+			<GroupType>Missile</GroupType>
+			<Weapon>MissileLauncherMK3</Weapon>
+		</Group>
+		<Group ID="7" >
+			<GroupType>Primary</GroupType>
+			<Weapon>TurretFlakMK5</Weapon>
+		</Group>
+
+  		<Hardpoint ID="0" >
+			<Socket>s_mk4_bot_left_center</Socket>
+			<GroupID>1</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="1" >
+			<Socket>s_mk4_bot_left_forward</Socket>
+			<GroupID>0</GroupID>
+		</Hardpoint>
+  		<Hardpoint ID="2" >
+			<Socket>s_mk4_bot_right_center</Socket>
+			<GroupID>1</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="3" >
+			<Socket>s_mk4_bot_right_forward</Socket>
+			<GroupID>7</GroupID>
+		</Hardpoint>
+ 		<Hardpoint ID="4" >
+			<Socket>s_mk4_top_left_center</Socket>
+			<GroupID>0</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="5" >
+			<Socket>s_mk4_top_left_forward</Socket>
+			<GroupID>1</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="6" >
+			<Socket>s_mk4_top_right_center</Socket>
+			<GroupID>0</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="7" >
+			<Socket>s_mk4_top_right_forward</Socket>
+			<GroupID>1</GroupID>
+		</Hardpoint>
+
+		<Hardpoint ID="8" >
+			<Socket>s_mk5_bot_left</Socket>
+			<GroupID>7</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="9" >
+			<Socket>s_mk5_bot_right</Socket>
+			<GroupID>3</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="10" >
+			<Socket>s_mk5_center_top</Socket>
+			<GroupID>7</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="11" >
+			<Socket>s_mk5_top_left</Socket>
+			<GroupID>3</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="12" >
+			<Socket>s_mk5_top_right</Socket>
+			<GroupID>7</GroupID>
+		</Hardpoint>
+
+		<Hardpoint ID="13" >
+			<Socket>s_mk6_bot</Socket>
+			<GroupID>4</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="14" >
+			<Socket>s_mk6_left</Socket>
+			<GroupID>4</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="15" >
+			<Socket>s_mk6_right</Socket>
+			<GroupID>4</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="16" >
+			<Socket>s_mk6_top</Socket>
+			<GroupID>4</GroupID>
+		</Hardpoint>
+
+		<Hardpoint ID="17" >
+			<Socket>s_mko_missile</Socket>
+			<GroupID>5</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="18" >
+			<Socket>s_mko_missile2</Socket>
+			<GroupID>5</GroupID>
+		</Hardpoint>
+		<Hardpoint ID="19" >
+			<Socket>s_mko_torpedo</Socket>
+			<GroupID>-1</GroupID>
+		</Hardpoint>
+
+		<Ammo>
+			<Type>Mg56mm</Type>
+			<Amount>10000</Amount>
+		</Ammo>
+		<Ammo>
+			<Type>Mg96mm</Type>
+			<Amount>5000</Amount>
+		</Ammo>
+		<Ammo>
+			<Type>LightMissile</Type>
+			<Amount>64</Amount>
+		</Ammo>
+		<Ammo>
+			<Type>Torpedo</Type>
+			<Amount>12</Amount>
+		</Ammo>
+		<Ammo>
+			<Type>Chaff</Type>
+			<Amount>32</Amount>
+		</Ammo>
+		<Ammo>
+			<Type>ProximityMine</Type>
+			<Amount>6</Amount>
+		</Ammo>
+	</CHardpointComponent>
+	<CServerHardpointComponent>
+	</CServerHardpointComponent>
+	<CServerMissionComponent>
+		<BountyReward>75</BountyReward>
+	</CServerMissionComponent>
+</ActorConfig>

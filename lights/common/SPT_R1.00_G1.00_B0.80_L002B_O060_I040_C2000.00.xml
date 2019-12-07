@@ -1,0 +1,9 @@
+<spotlight>
+    <color X="1" Y="1" Z="0.8"/>
+    <cutoff>2000</cutoff>
+    <innercone>40</innercone>
+    <lumens>2000000000</lumens>
+    <nodes/>
+    <outercone>60</outercone>
+    <shadow>true</shadow>
+</spotlight>
