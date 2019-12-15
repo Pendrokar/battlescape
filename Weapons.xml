@@ -64,6 +64,16 @@
 			<Heat>1.0</Heat>
 		</Shot>
 		<Impact>
+			<Rock>
+				<Effect>ImpactAsteroidSmall</Effect>
+				<EffectSelf>ImpactAsteroidSmall</EffectSelf>
+				<Offset>0.004</Offset>
+			</Rock>
+			<Surface>
+				<Effect>ImpactDirtSmall</Effect>
+				<EffectSelf>ImpactDirtSmall</EffectSelf>
+				<Offset>0.004</Offset>
+			</Surface>
 			<Metal>
                 <Effect>ImpactMetalSmallKinetic</Effect>
 				<EffectSelf>ImpactMetalSmallSelfKinetic</EffectSelf>
@@ -151,6 +161,17 @@
 			<Heat>1.2</Heat>
 		</Shot>
 		<Impact>
+
+			<Rock>
+				<Effect>ImpactAsteroidSmall</Effect>
+				<EffectSelf>ImpactAsteroidSmall</EffectSelf>
+				<Offset>0.004</Offset>
+			</Rock>
+			<Surface>
+				<Effect>ImpactDirtSmall</Effect>
+				<EffectSelf>ImpactDirtSmall</EffectSelf>
+				<Offset>0.004</Offset>
+			</Surface>
 			<Metal>
                 <Effect>ImpactMetalSmallKinetic</Effect>
 				<EffectSelf>ImpactMetalSmallSelfKinetic</EffectSelf>
@@ -234,6 +255,16 @@
 			<Speed>1.25</Speed> <!-- Initial speed the shot gets fired at -->
 		</Shot>
 		<Impact>
+			<Rock>
+				<Effect>ImpactAsteroidSmallEnergy</Effect>
+				<EffectSelf>ImpactAsteroidSmallEnergy</EffectSelf>
+				<Offset>0.004</Offset>
+			</Rock>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
+				<Offset>0.004</Offset>
+			</Surface>
 			<Metal>
 				<Effect>ImpactMetalSmallEnergy</Effect>
 				<EffectSelf>ImpactMetalSmallSelfEnergy</EffectSelf>
@@ -313,6 +344,17 @@
 			<Heat>1.0</Heat>
 		</Shot>
 		<Impact>
+
+			<Rock>
+				<Effect>ImpactAsteroidSmall</Effect>
+				<EffectSelf>ImpactAsteroidSmall</EffectSelf>
+				<Offset>0.004</Offset>
+			</Rock>
+			<Surface>
+				<Effect>ImpactDirtSmall</Effect>
+				<EffectSelf>ImpactDirtSmall</EffectSelf>
+				<Offset>0.004</Offset>
+			</Surface>
 			<Metal>
                 <Effect>ImpactMetalSmallKinetic</Effect>
 				<EffectSelf>ImpactMetalSmallSelfKinetic</EffectSelf>
@@ -509,6 +551,17 @@
 			<Speed>1.3</Speed> <!-- Initial speed the shot gets fired at -->
 		</Shot>
 		<Impact>
+
+			<Rock>
+				<Effect>ImpactAsteroidSmallEnergy</Effect>
+				<EffectSelf>ImpactAsteroidSmallEnergy</EffectSelf>
+				<Offset>0.004</Offset>
+			</Rock>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
+				<Offset>0.004</Offset>
+			</Surface>
 			<Metal>
 				<Effect>ImpactMetalSmallEnergy</Effect>
 				<EffectSelf>ImpactMetalSmallSelfEnergy</EffectSelf>
@@ -708,6 +761,17 @@
 			<Speed>1.4</Speed> <!-- Initial speed the shot gets fired at -->
 		</Shot>
 		<Impact>
+
+			<Rock>
+				<Effect>ImpactAsteroidSmallEnergy</Effect>
+				<EffectSelf>ImpactAsteroidSmallEnergy</EffectSelf>
+				<Offset>0.004</Offset>
+			</Rock>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
+				<Offset>0.004</Offset>
+			</Surface>
 			<Metal>
 				<Effect>ImpactMetalSmallEnergy</Effect>
 				<EffectSelf>ImpactMetalSmallSelfEnergy</EffectSelf>
@@ -906,6 +970,16 @@
 			<Speed>1.5</Speed> <!-- Initial speed the shot gets fired at -->
 		</Shot>
 		<Impact>
+			<Rock>
+				<Effect>ImpactAsteroidSmallEnergy</Effect>
+				<EffectSelf>ImpactAsteroidSmallEnergy</EffectSelf>
+				<Offset>0.004</Offset>
+			</Rock>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
+				<Offset>0.004</Offset>
+			</Surface>
 			<Metal>
 				<Effect>ImpactMetalLargeEnergy</Effect>
 				<EffectSelf>ImpactMetalLargeSelfEnergy</EffectSelf>
@@ -1473,6 +1547,17 @@
 			<Speed>1.4</Speed> <!-- Initial speed the shot gets fired at -->
 		</Shot>
 		<Impact>
+
+			<Rock>
+				<Effect>ImpactAsteroidSmallEnergy</Effect>
+				<EffectSelf>ImpactAsteroidSmallEnergy</EffectSelf>
+				<Offset>0.004</Offset>
+			</Rock>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
+				<Offset>0.004</Offset>
+			</Surface>
 			<Metal>
 				<Effect>ImpactMetalSmallEnergy</Effect>
 				<EffectSelf>ImpactMetalSmallSelfEnergy</EffectSelf>
@@ -1671,6 +1756,16 @@
 			<Speed>1.5</Speed> <!-- Initial speed the shot gets fired at -->
 		</Shot>
 		<Impact>
+			<Rock>
+				<Effect>ImpactAsteroidSmallEnergy</Effect>
+				<EffectSelf>ImpactAsteroidSmallEnergy</EffectSelf>
+				<Offset>0.004</Offset>
+			</Rock>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
+				<Offset>0.004</Offset>
+			</Surface>
 			<Metal>
 				<Effect>ImpactMetalLargeEnergy</Effect>
 				<EffectSelf>ImpactMetalLargeSelfEnergy</EffectSelf>
@@ -1851,6 +1946,17 @@
 			<Heat>10.0</Heat>
 		</Shot>
 		<Impact>
+
+			<Rock>
+				<Effect>ImpactAsteroidSmall</Effect>
+				<EffectSelf>ImpactAsteroidSmall</EffectSelf>
+				<Offset>0.004</Offset>
+			</Rock>
+			<Surface>
+				<Effect>ImpactDirtSmall</Effect>
+				<EffectSelf>ImpactDirtSmall</EffectSelf>
+				<Offset>0.004</Offset>
+			</Surface>
 			<Metal>
 				<Effect>ImpactMetalSmallKinetic</Effect>
 				<EffectSelf>ImpactMetalSmallSelfKinetic</EffectSelf>

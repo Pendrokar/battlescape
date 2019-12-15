@@ -133,6 +133,12 @@
 				<Falloff>0.5</Falloff>
 				<Wind>10.0</Wind>
 			</Sound>
+			<Sound>
+				<Name>AmbientIce</Name>
+				<Volume>1.0</Volume>
+				<Altitude X="0.0" Y="0.0" />
+				<Falloff>1.0</Falloff>
+			</Sound>
 		</Sounds>
 	</CClientPlanetComponent>
 </ActorConfig>

@@ -1,9 +1,10 @@
 <AudioManager>
+	<!-- Obsolete -->
 	<SoundSpeed>1000000.0</SoundSpeed>
 
-	<Asset>$Dev/Sounds/Master Bank.bank</Asset>
-	<Asset>$Dev/Sounds/Master Bank.strings.bank</Asset>
-	<Asset>$Dev/Sounds/Master Bank.assets.bank</Asset>
+	<Asset>$Dev/Sounds/Mod/Master Bank.bank</Asset>
+	<Asset>$Dev/Sounds/Mod/Master Bank.strings.bank</Asset>
+	<Asset>$Dev/Sounds/Mod/Master Bank.assets.bank</Asset>
 	<Asset>$Dev/Sounds/Ambient.bank</Asset>
 	<Asset>$Dev/Sounds/Damage.bank</Asset>
 	<Asset>$Dev/Sounds/General.bank</Asset>
@@ -12,14 +13,17 @@
 	<Asset>$Dev/Sounds/Weapons.bank</Asset>
 	<Asset>$Dev/Sounds/Voice.bank</Asset>
 
-	<Asset>$Dev/Sounds/NewMusic.bank</Asset>
-	<Asset>$Dev/Sounds/NewMusic.assets.bank</Asset>
-	<Asset>$Dev/Sounds/Mod.bank</Asset>
+	<Asset>$Dev/Sounds/Mod/AudioMod.bank</Asset>
+	<Asset>$Dev/Sounds/Mod/NewAudioMod.bank</Asset>
+	<Asset>$Dev/Sounds/Mod/NewAudioMod.assets.bank</Asset>
+
+	<!-- <Asset>$Dev/Sounds/NewMusic.bank</Asset>
+	<Asset>$Dev/Sounds/NewMusic.assets.bank</Asset> -->
 
 	<!--
 	EngineIdleHeavy: ibs_engine_rumble -> heavy rumble ambient idle sound for a large ship ? with power on or off
 	EngineIdleLight: ibs_engine_fast_idle -> light electronic ambient sound to play for a fast ship with power on or off
-	
+
 	ibs_engine_speed_fast_R.0.24 -> ambient ship sound to play when going at high velocities with power on
 	ibs_engine_speed_slow_R.0.24 -> ambient ship sound to play when going at low velocities with power on
 
@@ -171,7 +175,7 @@
 	<!-- Environment generic sounds -->
 	<SoundEffect3D>
 		<Name>AmbientBigHangar</Name>
-		<Path>event:/Ambient/BigHangar</Path>
+		<Path>event:/Mod/Ambient/BigHangar</Path>
 		<VolumeRange X="0" Y="0.5" />
 		<DistRange X="0.2" Y="2.0" />
 		<Looping>true</Looping>
@@ -184,6 +188,65 @@
 		<DistRange X="5" Y="500.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
+
+	<!-- Structures -->
+	<SoundEffect3D>
+		<Name>ReactorStructure</Name>
+		<Path>event:/Mod/Structures/Reactor</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="3.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ReactorStructureBass</Name>
+		<Path>event:/Mod/Structures/ReactorBass</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="7.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>250mPipeStructure</Name>
+		<Path>event:/Mod/Structures/Pipes</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="0.7" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>500mPipeStructure</Name>
+		<Path>event:/Mod/Structures/Pipes</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="1" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>SphericalTankStructure</Name>
+		<Path>event:/Mod/Structures/SphericalTank</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="0.7" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>CommsMastStructure</Name>
+		<Path>event:/Mod/Structures/CommsMast</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="3" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>PersonnelStructure</Name>
+		<Path>event:/Mod/Structures/Personnel</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="1" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+
+	<!-- <SoundEffect3D>
+		<Name>RepairAura</Name>
+		<Path>event:/Mod/General/RepairAura</Path>
+		<VolumeRange X="0.9" Y="1.0" />
+		<DistRange X="0.1" Y="2" />
+		<Looping>true</Looping>
+	</SoundEffect3D> -->
 
 	<!-- Planet-specific sounds -->
 	<SoundEffect2D>
@@ -201,6 +264,13 @@
 	<SoundEffect2D>
 		<Name>AmbientOcean</Name>
 		<Path>event:/Ambient/AmbientOcean</Path>
+		<Volume>0.0</Volume>
+		<Looping>true</Looping>
+	</SoundEffect2D>
+
+	<SoundEffect2D>
+		<Name>AmbientIce</Name>
+		<Path>event:/Mod/Ambient/AmbientIce</Path>
 		<Volume>0.0</Volume>
 		<Looping>true</Looping>
 	</SoundEffect2D>
@@ -278,7 +348,7 @@
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>SideThrusterSmall</Name>
-		<Path>event:/General/SideThrusterSmall</Path>
+		<Path>event:/Mod/General/SideThrusterSmall</Path>
 		<VolumeRange X="0" Y="0.20" />
 		<DistRange X="0.05" Y="10.0" />
 		<Looping>true</Looping>
@@ -292,7 +362,7 @@
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>MainThrusterSmall2</Name>
-		<Path>event:/General/MainThrusterSmall2</Path>
+		<Path>event:/Mod/General/MainThrusterSmall2</Path>
 		<VolumeRange X="0" Y="1.0" />
 		<DistRange X="0.25" Y="75.0" />
 		<Looping>true</Looping>
@@ -334,7 +404,7 @@
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>SideThrusterBig</Name>
-		<Path>event:/General/SideThrusterBig</Path>
+		<Path>event:/Mod/General/SideThrusterBig</Path>
 		<VolumeRange X="0" Y="0.20" />
 		<DistRange X="0.05" Y="10.0" />
 		<Looping>true</Looping>
@@ -403,7 +473,7 @@
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>DamagePowerBig</Name>
-		<Path>event:/Damage/DamagePowerBig</Path>
+		<Path>event:/Mod/Damage/DamagePowerBig</Path>
 		<VolumeRange X="0" Y="1" />
 		<DistRange X="1.0" Y="25.0" />
 		<Looping>true</Looping>
@@ -485,7 +555,7 @@
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>BoostStart</Name>
-		<Path>event:/General/BoostStart</Path>
+		<Path>event:/Mod/General/BoostStart</Path>
 		<VolumeRange X="0" Y="0.5" />
 		<DistRange X="0.1" Y="2.5" />
 	</SoundEffect3D>
@@ -530,7 +600,7 @@
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>Shotgun</Name>
-		<Path>event:/Weapons/Shotgun</Path>
+		<Path>event:/Mod/Weapons/Shotgun</Path>
 		<VolumeRange X="0" Y="0.5" />
 		<DistRange X="0.05" Y="3.0" />
 	</SoundEffect3D>
@@ -590,25 +660,25 @@
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>KineticTurretMK6</Name>
-		<Path>event:/Weapons/KineticTurrets/KineticTurretMK6</Path>
-		<VolumeRange X="0" Y="0.5" />
-		<DistRange X="0.15" Y="10.0" />
+		<Path>event:/Mod/Weapons/KineticTurrets/KineticTurretMK6</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.15" Y="44.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>KineticTurretMK7</Name>
-		<Path>event:/Weapons/KineticTurrets/KineticTurretMK7</Path>
-		<VolumeRange X="0" Y="0.75" />
-		<DistRange X="0.15" Y="10.0" />
+		<Path>event:/Mod/Weapons/KineticTurrets/KineticTurretMK7</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.15" Y="70.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>TorpedoLaunch</Name>
-		<Path>event:/Weapons/TorpedoLaunch</Path>
+		<Path>event:/Mod/Weapons/TorpedoLaunch</Path>
 		<VolumeRange X="0" Y="0.35" />
 		<DistRange X="0.15" Y="10.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>MissileLaunch</Name>
-		<Path>event:/Weapons/MissileLaunch</Path>
+		<Path>event:/Mod/Weapons/MissileLaunch</Path>
 		<VolumeRange X="0" Y="0.35" />
 		<DistRange X="0.1" Y="6.0" />
 	</SoundEffect3D>
@@ -628,19 +698,48 @@
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>PlasmaTravel</Name>
-		<Path>event:/Weapons/PlasmaTravel</Path>
+		<Path>event:/Mod/Weapons/PlasmaTravel</Path>
 		<VolumeRange X="0" Y="1.0" />
 		<DistRange X="0.05" Y="4.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>MineLaunch</Name>
-		<Path>event:/Weapons/MineLaunch</Path>
+		<Path>event:/Mod/Weapons/MineLaunch</Path>
 		<VolumeRange X="0" Y="1.0" />
 		<DistRange X="0.1" Y="10.0" />
 	</SoundEffect3D>
 
 	<!-- Battle/damage sounds/hits -->
+
+	<!-- Dirt -->
+	<!-- Kinetic -->
+	<!-- Small -->
+	<SoundEffect3D>
+		<Name>HitDirtSmall</Name>
+		<Path>event:/Mod/Hits/HitDirtSmall</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="0.05" Y="5.0" />
+	</SoundEffect3D>
+
+	<!-- Kinetic -->
+	<!-- Large -->
+	<SoundEffect3D>
+		<Name>HitDirtLarge</Name>
+		<Path>event:/Mod/Hits/HitDirtLarge</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="0.05" Y="5.0" />
+	</SoundEffect3D>
+
+	<!-- Energy -->
+	<!-- Small -->
+	<SoundEffect3D>
+		<Name>HitDirtSmallEnergy</Name>
+		<Path>event:/Mod/Hits/HitDirtSmallEnergy</Path>
+		<VolumeRange X="0" Y="0.5" />
+		<DistRange X="0.05" Y="5.0" />
+	</SoundEffect3D>
+
 	<SoundEffect3D>
 		<Name>HitSelfKinetic</Name>
 		<Path>event:/Hits/HitSelfKinetic</Path>
@@ -653,9 +752,11 @@
 		<VolumeRange X="0" Y="1" />
 		<DistRange X="0.06" Y="3.0" />
 	</SoundEffect3D>
+
+	<!-- Explosions -->
 	<SoundEffect3D>
 		<Name>FarExplosion</Name>
-		<Path>event:/Hits/FarExplosion</Path>
+		<Path>event:/Mod/Hits/FarExplosion</Path>
 		<VolumeRange X="0" Y="1" />
 		<DistRange X="0.05" Y="10.0" />
 	</SoundEffect3D>
@@ -667,19 +768,49 @@
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ExplosionSmallship</Name>
-		<Path>event:/Hits/ExplosionSmallShip</Path>
+		<Path>event:/Mod/Hits/ExplosionSmallShip</Path>
 		<VolumeRange X="0" Y="1" />
 		<DistRange X="0.1" Y="20.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ExplosionCapship</Name>
-		<Path>event:/Hits/ExplosionCapShip</Path>
+		<Path>event:/Mod/Hits/ExplosionCapShip</Path>
 		<VolumeRange X="0" Y="1" />
 		<DistRange X="1.0" Y="60.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
+		<Name>ExplosionCapship2</Name>
+		<Path>event:/Mod/Hits/ExplosionCapShip2</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="1.0" Y="60.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ExplosionMine</Name>
+		<Path>event:/Mod/Hits/ExplosionMine</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="1.0" Y="60.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ExplosionFlak</Name>
+		<Path>event:/Mod/Hits/ExplosionFlak</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.1" Y="8.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ModuleExplosion</Name>
+		<Path>event:/Mod/Hits/ModuleExplosion</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.1" Y="2.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ExplosionTorpedo</Name>
+		<Path>event:/Mod/Hits/ExplosionTorpedo</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.1" Y="30.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
 		<Name>ExplosionSmallTest</Name>
-		<Path>event:/Hits/ExplosionSmallTest</Path>
+		<Path>event:/Mod/Hits/ExplosionInternal</Path>
 		<VolumeRange X="0" Y="1" />
 		<DistRange X="0.1" Y="20.0" />
 	</SoundEffect3D>
@@ -687,7 +818,7 @@
 	<!-- Collisions and impacts sounds -->
 	<SoundEffect3D>
 		<Name>CollisionMetal</Name>
-		<Path>event:/General/CollisionMetal</Path>
+		<Path>event:/Mod/General/CollisionMetal</Path>
 		<VolumeRange X="0" Y="0.5" />
 		<DistRange X="0.1" Y="10.0" />
 	</SoundEffect3D>
@@ -710,6 +841,12 @@
 		<DistRange X="0.2" Y="10.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
+		<Name>HitMetalSmallEnergy</Name>
+		<Path>event:/Mod/Hits/HitMetalSmallEnergy</Path>
+		<VolumeRange X="0" Y="0.2" />
+		<DistRange X="0.06" Y="3.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
 		<Name>CollisionShrapnel</Name>
 		<Path>event:/General/CollisionMetal</Path> <!-- Note: reusing CollisionMetal atm ! We need a variation ! -->
 		<VolumeRange X="0" Y="0.5" />
@@ -725,10 +862,22 @@
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>SpawnMarker</Name>
-		<Path>event:/General/SpawnMarker</Path>
+		<Path>event:/Mod/General/SpawnMarker</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.1" Y="10.0" />
+		<DistRange X="0.1" Y="16.0" />
 	</SoundEffect3D>
+	<!-- <SoundEffect3D>
+		<Name>SpawnMarkerCapital</Name>
+		<Path>event:/Mod/General/SpawnMarkerCapital</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>SpawnMarkerHauler</Name>
+		<Path>event:/Mod/General/SpawnMarkerHauler</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.1" Y="20.0" />
+	</SoundEffect3D> -->
 	<SoundEffect3D>
 		<Name>Ping</Name>
 		<Path>event:/Interface/Ping</Path>

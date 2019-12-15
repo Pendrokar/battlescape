@@ -6,15 +6,9 @@
 
 	<Track>
 		<Type>Menu</Type>
-		<Path>event:/Mod/Music/Infinity_TQFE_MainTheme_8bit</Path>
-		<Volume>1.0</Volume>
-	</Track>
-
-	<!-- <Track>
-		<Type>Menu</Type>
 		<Path>event:/Musics/Menu/Infinity_MainTheme_Mix_V2_loop</Path>
 		<Volume>1.0</Volume>
-	</Track> -->
+	</Track>
 
 	<Track>
 		<Type>Space_Ambient</Type>

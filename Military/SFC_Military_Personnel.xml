@@ -23,7 +23,11 @@
 		        <CollisionFile>$Dev/Structures/SFC-Military/35f9f34e.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
-			
+
+			<Sound>
+				<Name>PersonnelStructure</Name>
+			</Sound>
+
 			<Light Type="SpotLight" >
 				<Name>Spot014</Name>
 				<Color X="1.0" Y="1.0" Z="1.0" />

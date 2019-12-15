@@ -712,6 +712,8 @@
 	</CServerSensorComponent>
 	<CActorComponent>
     	<Indicator>Structure</Indicator>
+    	<!-- FIXME: Inherited by components -->
+		<!-- <SurfaceType>Rock</SurfaceType> -->
 	</CActorComponent>
 	<CClientActorComponent>
 		<MapIcon>SpaceStation</MapIcon>

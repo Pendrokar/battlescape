@@ -736,7 +736,7 @@
 		<DyingEffect>DyingExplosion</DyingEffect>
 		<DyingEffectScale>1.50</DyingEffectScale>
 		<DeathExplosions>25</DeathExplosions>
-		<DeathCoreEffect>BlueShockwave</DeathCoreEffect>
+		<DeathCoreEffect>BlueShockwave2</DeathCoreEffect>
 		<DeathCoreEffectScale>60.0</DeathCoreEffectScale>
 		<DeathEffect>CapShipExplosionCore</DeathEffect>
 		<DeathEffectScale>6.0</DeathEffectScale>

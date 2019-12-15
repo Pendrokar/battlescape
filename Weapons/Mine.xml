@@ -30,6 +30,9 @@
 			<ViewAngle X="0" Y="0" />
         </Camera>
     </CClientCameraViewComponent>
+	<!-- <CClientAudioComponent>
+		<EngineIdle Target="MineIdle" DistRangeScale="25.0" />
+	</CClientAudioComponent> -->
 	<CServerActorComponent>
 		<NetworkSize>0.002</NetworkSize>
 	</CServerActorComponent>
