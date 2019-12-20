@@ -398,6 +398,7 @@
 	<SoundEffect3D>
 		<Name>MainThrusterHeavy2</Name>
 		<Path>event:/General/MainThrusterHeavy2</Path>
+		<!-- <Path>event:/Mod/General/MainThrusterHeavy2</Path> -->
 		<VolumeRange X="0" Y="0.5" />
 		<DistRange X="0.1" Y="10.0" />
 		<Looping>true</Looping>
@@ -460,14 +461,14 @@
 		<Name>DamagePowerSmall</Name>
 		<Path>event:/Damage/DamagePowerSmall</Path>
 		<VolumeRange X="0" Y="1" />
-		<DistRange X="1.0" Y="25.0" />
+		<DistRange X="0.1" Y="5.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>DamagePowerMedium</Name>
 		<Path>event:/Damage/DamagePowerMedium</Path>
 		<VolumeRange X="0" Y="1" />
-		<DistRange X="1.0" Y="25.0" />
+		<DistRange X="0.3" Y="8.0" />
 		<Looping>true</Looping>
 		<Variations>2</Variations>
 	</SoundEffect3D>
@@ -484,7 +485,7 @@
 		<Name>DamageEngineSmall</Name>
 		<Path>event:/Damage/DamageEngineSmall</Path>
 		<VolumeRange X="0" Y="1" />
-		<DistRange X="1.0" Y="25.0" />
+		<DistRange X="0.1" Y="5.0" />
 		<Looping>true</Looping>
 		<FadeLength>0.5</FadeLength>
 	</SoundEffect3D>
@@ -492,7 +493,7 @@
 		<Name>DamageEngineMedium</Name>
 		<Path>event:/Damage/DamageEngineMedium</Path>
 		<VolumeRange X="0" Y="1" />
-		<DistRange X="1.0" Y="25.0" />
+		<DistRange X="0.3" Y="8.0" />
 		<Looping>true</Looping>
 		<FadeLength>0.5</FadeLength>
 		<Variations>2</Variations>
@@ -501,7 +502,7 @@
 		<Name>DamageEngineBig</Name>
 		<Path>event:/Damage/DamageEngineBig</Path>
 		<VolumeRange X="0" Y="1" />
-		<DistRange X="1.0" Y="25.0" />
+		<DistRange X="1.0" Y="16.0" />
 		<Looping>true</Looping>
 		<FadeLength>0.5</FadeLength>
 		<Variations>2</Variations>
@@ -655,6 +656,7 @@
 	<SoundEffect3D>
 		<Name>KineticTurretMK5</Name>
 		<Path>event:/Weapons/KineticTurrets/KineticTurretMK5</Path>
+		<!-- <Path>event:/Mod/Weapons/KineticTurrets/KineticTurretMK5</Path> -->
 		<VolumeRange X="0" Y="0.35" />
 		<DistRange X="0.15" Y="10.0" />
 	</SoundEffect3D>
@@ -699,6 +701,13 @@
 	<SoundEffect3D>
 		<Name>PlasmaTravel</Name>
 		<Path>event:/Mod/Weapons/PlasmaTravel</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.05" Y="4.0" />
+		<Looping>true</Looping>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>TorpedoTravel</Name>
+		<Path>event:/Mod/Weapons/TorpedoTravel</Path>
 		<VolumeRange X="0" Y="1.0" />
 		<DistRange X="0.05" Y="4.0" />
 		<Looping>true</Looping>
@@ -776,13 +785,13 @@
 		<Name>ExplosionCapship</Name>
 		<Path>event:/Mod/Hits/ExplosionCapShip</Path>
 		<VolumeRange X="0" Y="1" />
-		<DistRange X="1.0" Y="60.0" />
+		<DistRange X="1.0" Y="50.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ExplosionCapship2</Name>
 		<Path>event:/Mod/Hits/ExplosionCapShip2</Path>
 		<VolumeRange X="0" Y="1" />
-		<DistRange X="1.0" Y="60.0" />
+		<DistRange X="1.0" Y="70.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ExplosionMine</Name>
