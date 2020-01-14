@@ -34,7 +34,7 @@
         </Camera>
     </CClientCameraViewComponent>
 	<CClientAudioComponent>
-		<EngineIdle Target="PlasmaTravel" FadeLength="5.0" DistRangeScale="25.0" />
+		<EngineIdle Target="MissileTravel" FadeLength="5.0" DistRangeScale="25.0" />
 		<MainThruster Target="MainThrusterSmall3" />
 	</CClientAudioComponent>
 	<CServerActorComponent>
