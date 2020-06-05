@@ -1,4 +1,12 @@
 <ActorConfig>
+	<Meta>
+		<SpawnType>Capship</SpawnType>
+		<IsShip>true</IsShip>
+		<IsPlayerSpawnable>true</IsPlayerSpawnable>
+		<ShipClassCost>1000</ShipClassCost>
+		<ShipBattleScore>15</ShipBattleScore>
+		<DisplayName>UI_ShipType_Cruiser</DisplayName>
+	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Cruiser/SM_SFC_Cruiser_Lod0" >
             <LOD Level="1" Mesh="Ships/SFC-Cruiser/SM_SFC_Cruiser_Lod1" />
@@ -7,7 +15,6 @@
             <LOD Level="4" Mesh="Ships/SFC-Cruiser/SM_SFC_Cruiser_Lod4" />
             <LOD Level="5" Mesh="Ships/SFC-Cruiser/SM_SFC_Cruiser_Lod5" />
             <LOD Level="6" Mesh="Ships/SFC-Cruiser/SM_SFC_Cruiser_Lod6" />
-<!--             <LODPower>2.0</LODPower> -->
             <LODPower>0.4</LODPower>
 			<RejectionSize>0.005</RejectionSize>
             <Material Override="true" />
@@ -363,8 +370,8 @@
     <CClientCameraViewComponent>
 		<LinAccSmoothing>0.05</LinAccSmoothing>
 		<AngVelSmoothing>0.3</AngVelSmoothing>
-		<ViewRangeExt X="0.75" Y="1.75" />
-		<DefaultViewRangeExt>0.9</DefaultViewRangeExt>
+		<ViewRangeExt X="0.7" Y="1.75" />
+		<DefaultViewRangeExt>0.75</DefaultViewRangeExt>
         <Camera Type="Capship">
             <ViewPosition X="0" Y="-0.0514" Z="-1.1002" />
 			<ViewAngle X="0" Y="0" />
@@ -472,300 +479,348 @@
 		<LightsDist>0.015</LightsDist>
 	</CClientWarpComponent>
 	<CShipComponent>
-		<SpawnType>Capship</SpawnType>
 	</CShipComponent>
 	<CHardpointComponent>
 		<Mesh>$Dev/Ships/SFC-Cruiser/6bfb2444.insm</Mesh>
-
+		<ExclusiveWeapons>false</ExclusiveWeapons>
 		<Group ID="0" >
-			<GroupType>Primary</GroupType>
 			<Weapon>AutoTurretGunMK4</Weapon>
-			<AutoAim>true</AutoAim>
-			<AutoFire>true</AutoFire>
 		</Group>
 		<Group ID="1" >
-			<GroupType>Secondary</GroupType>
 			<Weapon>AutoTurretBlasterMK4</Weapon>
-			<AutoAim>true</AutoAim>
-			<AutoFire>true</AutoFire>
 		</Group>
 		<Group ID="2" >
-			<GroupType>Primary</GroupType>
 			<Weapon>TurretGunMK5</Weapon>
 		</Group>
 		<Group ID="3" >
-			<GroupType>Secondary</GroupType>
 			<Weapon>TurretBlasterMK5</Weapon>
 		</Group>
 		<Group ID="4" >
-			<GroupType>Primary</GroupType>
 			<Weapon>TurretGunMK6</Weapon>
 		</Group>
 		<Group ID="5" >
-			<GroupType>Primary</GroupType>
 			<Weapon>TurretGunMK7</Weapon>
 		</Group>
 		<Group ID="6" >
-			<GroupType>Missile</GroupType>
 			<Weapon>MissileLauncherMK3</Weapon>
 		</Group>
 		<Group ID="7" >
-			<GroupType>Missile</GroupType>
 			<Weapon>TorpedoLauncherMK3</Weapon>
 		</Group>
-
 		<Hardpoint ID="0" >
 			<Socket>s_mk4_front_bot_left_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="1" >
 			<Socket>s_mk4_front_bot_left_outer</Socket>
 			<GroupID>0</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="2" >
 			<Socket>s_mk4_front_bot_right_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="3" >
 			<Socket>s_mk4_front_bot_right_outer</Socket>
 			<GroupID>1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="4" >
 			<Socket>s_mk4_front_top_left_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="5" >
 			<Socket>s_mk4_front_top_left_outer</Socket>
 			<GroupID>1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="6" >
 			<Socket>s_mk4_front_top_right_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="7" >
 			<Socket>s_mk4_front_top_right_outer</Socket>
 			<GroupID>0</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="8" >
 			<Socket>s_mk4_rear_bot_left_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="9" >
 			<Socket>s_mk4_rear_bot_left_outer</Socket>
 			<GroupID>1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="10" >
 			<Socket>s_mk4_rear_bot_right_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="11" >
 			<Socket>s_mk4_rear_bot_right_outer</Socket>
 			<GroupID>0</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="12" >
 			<Socket>s_mk4_rear_top_left_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="13" >
 			<Socket>s_mk4_rear_top_left_outer</Socket>
 			<GroupID>0</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="14" >
 			<Socket>s_mk4_rear_top_right_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="15" >
 			<Socket>s_mk4_rear_top_right_outer</Socket>
 			<GroupID>1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 
 		<Hardpoint ID="16" >
 			<Socket>s_mk5_bot_side_left</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="17" >
 			<Socket>s_mk5_bot_side_right</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="18" >
 			<Socket>s_mk5_center_bot_left_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="19" >
 			<Socket>s_mk5_center_bot_left_outer</Socket>
 			<GroupID>3</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="20" >
 			<Socket>s_mk5_center_bot_right_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="21" >
 			<Socket>s_mk5_center_bot_right_outer</Socket>
 			<GroupID>3</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="22" >
 			<Socket>s_mk5_center_top_left_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="23" >
 			<Socket>s_mk5_center_top_left_outer</Socket>
 			<GroupID>3</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="24" >
 			<Socket>s_mk5_center_top_right_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="25" >
 			<Socket>s_mk5_center_top_right_outer</Socket>
 			<GroupID>3</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="26" >
 			<Socket>s_mk5_fwd_bot_left</Socket>
 			<GroupID>2</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="27" >
 			<Socket>s_mk5_fwd_bot_right</Socket>
 			<GroupID>2</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="28" >
 			<Socket>s_mk5_fwd_top_left</Socket>
 			<GroupID>2</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="29" >
 			<Socket>s_mk5_fwd_top_right</Socket>
 			<GroupID>2</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="30" >
 			<Socket>s_mk5_rear_bot_left_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="31" >
 			<Socket>s_mk5_rear_bot_left_outer</Socket>
 			<GroupID>3</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="32" >
 			<Socket>s_mk5_rear_bot_right_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="33" >
 			<Socket>s_mk5_rear_bot_right_outer</Socket>
 			<GroupID>3</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="34" >
 			<Socket>s_mk5_rear_top_left_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="35" >
 			<Socket>s_mk5_rear_top_left_outer</Socket>
 			<GroupID>3</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="36" >
 			<Socket>s_mk5_rear_top_right_inner</Socket>
 			<GroupID>-1</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="37" >
 			<Socket>s_mk5_rear_top_right_outer</Socket>
 			<GroupID>3</GroupID>
+			<Class>MK5</Class>
 		</Hardpoint>
 
  		<Hardpoint ID="38" >
 			<Socket>s_mk6_bot</Socket>
 			<GroupID>4</GroupID>
+			<Class>MK6</Class>
 		</Hardpoint>
 		<Hardpoint ID="39" >
 			<Socket>s_mk6_bot_left</Socket>
 			<GroupID>4</GroupID>
+			<Class>MK6</Class>
 		</Hardpoint>
 		<Hardpoint ID="40" >
 			<Socket>s_mk6_bot_right</Socket>
 			<GroupID>4</GroupID>
+			<Class>MK6</Class>
 		</Hardpoint>
 		<Hardpoint ID="41" >
 			<Socket>s_mk6_top</Socket>
 			<GroupID>4</GroupID>
+			<Class>MK6</Class>
 		</Hardpoint>
 		<Hardpoint ID="42" >
 			<Socket>s_mk6_top_left</Socket>
 			<GroupID>4</GroupID>
+			<Class>MK6</Class>
 		</Hardpoint>
 		<Hardpoint ID="43" >
 			<Socket>s_mk6_top_right</Socket>
 			<GroupID>4</GroupID>
+			<Class>MK6</Class>
 		</Hardpoint>
 
 		<Hardpoint ID="44" >
 			<Socket>s_mk7_bot_left</Socket>
 			<GroupID>5</GroupID>
+			<Class>MK7</Class>
 		</Hardpoint>
 		<Hardpoint ID="45" >
 			<Socket>s_mk7_bot_right</Socket>
 			<GroupID>5</GroupID>
+			<Class>MK7</Class>
 		</Hardpoint>
 		<Hardpoint ID="46" >
 			<Socket>s_mk7_top_left</Socket>
 			<GroupID>5</GroupID>
+			<Class>MK7</Class>
 		</Hardpoint>
 		<Hardpoint ID="47" >
 			<Socket>s_mk7_top_right</Socket>
 			<GroupID>5</GroupID>
+			<Class>MK7</Class>
 		</Hardpoint>
 
 		<Hardpoint ID="48" >
 			<Socket>s_mko_missile_bot</Socket>
 			<GroupID>-1</GroupID>
+			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="49" >
 			<Socket>s_mko_missile_fwdX_bot_left</Socket>
 			<GroupID>-1</GroupID>
+			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="50" >
 			<Socket>s_mko_missile_fwdX_bot_right</Socket>
 			<GroupID>-1</GroupID>
+			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="51" >
 			<Socket>s_mko_missile_fwdX_top_left</Socket>
 			<GroupID>-1</GroupID>
+			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="52" >
 			<Socket>s_mko_missile_fwdX_top_right</Socket>
 			<GroupID>-1</GroupID>
+			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="53" >
 			<Socket>s_mko_missile_fwd_left</Socket>
 			<GroupID>-1</GroupID>
+			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="54" >
 			<Socket>s_mko_missile_fwd_right</Socket>
 			<GroupID>-1</GroupID>
+			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="55" >
 			<Socket>s_mko_missile_midX_bot_left</Socket>
 			<GroupID>6</GroupID>
+			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="56" >
 			<Socket>s_mko_missile_midX_bot_right</Socket>
 			<GroupID>6</GroupID>
+			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="57" >
 			<Socket>s_mko_missile_midX_top_left</Socket>
 			<GroupID>6</GroupID>
+			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="58" >
 			<Socket>s_mko_missile_midX_top_right</Socket>
 			<GroupID>6</GroupID>
+			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="59" >
 			<Socket>s_mko_missile_top</Socket>
 			<GroupID>-1</GroupID>
+			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 
 		<Hardpoint ID="60" >
 			<Socket>s_mko_torpedo_bot</Socket>
 			<GroupID>7</GroupID>
+			<Class>TorpedoPod</Class>
 		</Hardpoint>
 		<Hardpoint ID="61" >
 			<Socket>s_mko_torpedo_top</Socket>
 			<GroupID>7</GroupID>
+			<Class>TorpedoPod</Class>
 		</Hardpoint>
 
 		<Ammo>
@@ -774,10 +829,10 @@
 		</Ammo>
 		<Ammo>
 			<Type>Mg96mm</Type>
-			<Amount>10000</Amount>
+			<Amount>20000</Amount>
 		</Ammo>
 		<Ammo>
-			<Type>LightMissile</Type>
+			<Type>HeavyMissile</Type>
 			<Amount>128</Amount>
 		</Ammo>
 		<Ammo>

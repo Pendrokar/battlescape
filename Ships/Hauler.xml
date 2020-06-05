@@ -1,4 +1,12 @@
 <ActorConfig>
+	<Meta>
+		<SpawnType>Hauler</SpawnType>
+		<IsShip>true</IsShip>
+		<IsPlayerSpawnable>false</IsPlayerSpawnable>
+		<ShipClassCost>250</ShipClassCost>
+		<ShipBattleScore>5</ShipBattleScore>
+		<DisplayName>UI_ShipType_Hauler</DisplayName>
+	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Hauler/SM_SFC_Hauler_Lod0" >
             <LOD Level="1" Mesh="Ships/SFC-Hauler/SM_SFC_Hauler_Lod1" />
@@ -6,7 +14,6 @@
             <LOD Level="3" Mesh="Ships/SFC-Hauler/SM_SFC_Hauler_Lod3" />
             <LOD Level="4" Mesh="Ships/SFC-Hauler/SM_SFC_Hauler_Lod4" />
             <LOD Level="5" Mesh="Ships/SFC-Hauler/SM_SFC_Hauler_Lod5" />
-<!--             <LODPower>6.0</LODPower> -->
             <LODPower>0.75</LODPower>
 			<RejectionSize>0.005</RejectionSize>
             <Material Override="true" />
@@ -1441,73 +1448,67 @@
 		<LightsDist>0.015</LightsDist>
 	</CClientWarpComponent>
 	<CShipComponent>
-		<SpawnType>Hauler</SpawnType>
 	</CShipComponent>
 	<CHardpointComponent>
 		<Mesh>$Dev/Ships/SFC-Hauler/081a280b.insm</Mesh>
-
+		<ExclusiveWeapons>false</ExclusiveWeapons>
 		<Group ID="0" >
-			<GroupType>Primary</GroupType>
 			<Weapon>AutoTurretGunMK4</Weapon>
-			<AutoAim>true</AutoAim>
 		</Group>
 		<Group ID="1" >
-			<GroupType>Primary</GroupType>
 			<Weapon></Weapon>
-			<AutoAim>true</AutoAim>
 		</Group>
 		<Group ID="2" >
-			<GroupType>Primary</GroupType>
 			<Weapon>AutoTurretGunMK4</Weapon>
-			<AutoAim>true</AutoAim>
 		</Group>
 		<Group ID="3" >
-			<GroupType>Secondary</GroupType>
 			<Weapon>AutoTurretBlasterMK4</Weapon>
-			<AutoAim>true</AutoAim>
 		</Group>
 		<Group ID="4" >
-			<GroupType>Secondary</GroupType>
 			<Weapon></Weapon>
-			<AutoAim>true</AutoAim>
 		</Group>
 		<Group ID="5" >
-			<GroupType>Secondary</GroupType>
 			<Weapon></Weapon>
-			<AutoAim>true</AutoAim>
 		</Group>
-
 		<Hardpoint ID="0" >
 			<Socket>s_turret_1</Socket>
 			<GroupID>2</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="1" >
 			<Socket>s_turret_2</Socket>
 			<GroupID>2</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="2" >
 			<Socket>s_turret_3</Socket>
 			<GroupID>0</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="3" >
 			<Socket>s_turret_4</Socket>
 			<GroupID>3</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="4" >
 			<Socket>s_turret_5</Socket>
 			<GroupID>0</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="5" >
 			<Socket>s_turret_6</Socket>
 			<GroupID>3</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="6" >
 			<Socket>s_turret_7</Socket>
 			<GroupID>3</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="7" >
 			<Socket>s_turret_8</Socket>
 			<GroupID>3</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 
 		<Ammo>
@@ -1517,10 +1518,6 @@
 		<Ammo>
 			<Type>Mg96mm</Type>
 			<Amount>4000</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>LightMissile</Type>
-			<Amount>32</Amount>
 		</Ammo>
 		<Ammo>
 			<Type>Chaff</Type>

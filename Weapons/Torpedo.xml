@@ -75,7 +75,7 @@
 		<RechargeRate>0</RechargeRate>
 	</CEngineComponent>
 	<CHullComponent>
-		<HitPoints>50</HitPoints>
+		<HitPoints>150</HitPoints>
 		<DeathDuration>0.0</DeathDuration>
 		<DyingDuration>0.0</DyingDuration>
 		<DeathCredits>15</DeathCredits>
@@ -83,6 +83,6 @@
 	</CHullComponent>
 	<CServerMissileComponent>
 		<Mode>Torpedo</Mode>
-		<ActivationTimer>2.5</ActivationTimer>
+		<ActivationTimer>2.0</ActivationTimer>
 	</CServerMissileComponent>
 </ActorConfig>

@@ -1,4 +1,12 @@
 <ActorConfig>
+	<Meta>
+		<SpawnType>Fighter</SpawnType>
+		<IsShip>true</IsShip>
+		<IsPlayerSpawnable>true</IsPlayerSpawnable>
+		<ShipClassCost>30</ShipClassCost>
+		<ShipBattleScore>2</ShipBattleScore>
+		<DisplayName>UI_ShipType_Bomber</DisplayName>
+	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Bomber/SM_SFC_Bomber_ext_no_cockpit_Lod0" >
             <LOD Level="1" Mesh="Ships/SFC-Bomber/SM_SFC_Bomber_ext_no_cockpit_Lod1" />
@@ -7,7 +15,6 @@
             <LOD Level="4" Mesh="Ships/SFC-Bomber/SM_SFC_Bomber_ext_no_cockpit_Lod4" />
             <LOD Level="5" Mesh="Ships/SFC-Bomber/SM_SFC_Bomber_ext_no_cockpit_Lod5" />
             <LOD Level="6" Mesh="Ships/SFC-Bomber/SM_SFC_Bomber_ext_no_cockpit_Lod6" />
-<!--             <LODPower>6.0</LODPower> -->
             <LODPower>2.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
             <Material Override="true" />
@@ -225,7 +232,7 @@
 		<CockpitBody>
 			<CollisionFile>$Dev/Cockpits/SFC-Bomber/03378069.insm</CollisionFile>
 		</CockpitBody>
-        <Object Mesh="Cockpits/SFC-Bomber/SM_SFC_Bomber_Cockpit" >
+        <Object Mesh="Cockpits/SFC-Bomber/SM_SFC_Bomber_Cockpit_Splitmfds" >
 			<Light Type="PointLight" >
 				<Color X="0.0" Y="1.0" Z="0.0" />
 				<Lumens>16000.0</Lumens>
@@ -499,7 +506,7 @@
 				<Range>0.5</Range>
 			</Light>
         </Object>
-        <ViewPosition X="0" Y=" 0.001814" Z="0.010352" />
+        <ViewPosition X="0" Y="0.00175" Z="0.01018" />
         <AlertLight>
              <Light Type="PointLight" >
                 <Color X="1" Y="0.25" Z="0.05" />
@@ -538,6 +545,10 @@
 		<BobbleHead>
 			<Socket>s_bobblehead</Socket>
 		</BobbleHead>
+		<MFD ID="0" SegID="6" ParamName="ScreenTexture" />
+		<MFD ID="1" SegID="9" ParamName="ScreenTexture" />
+		<MFD ID="2" SegID="7" ParamName="ScreenTexture" />
+		<MFD ID="3" SegID="8" ParamName="ScreenTexture" />
     </CClientInternalCockpitComponent>
 	<CClientAudioComponent>
 		<SideThruster Target="SideThrusterSmall" DistRangeScale="0.75" FadeLength="0.5" />
@@ -635,84 +646,92 @@
 		<BoostCooldown>0.75</BoostCooldown>
 	</CTurboBoostComponent>
 	<CShipComponent>
-		<SpawnType>Fighter</SpawnType>
 	</CShipComponent>
 	<CHardpointComponent>
 		<Mesh>$Dev/Ships/SFC-Bomber/8fe8382a.insm</Mesh>
+		<ExclusiveWeapons>true</ExclusiveWeapons>
 		<Group ID="0" >
-			<GroupType>Primary</GroupType>
 			<Weapon>ShotgunMK1</Weapon>
 		</Group>
 		<Group ID="1" >
-			<GroupType>Secondary</GroupType>
 			<Weapon>GimbalBlasterMK1</Weapon>
 		</Group>
 		<Group ID="2" >
-			<GroupType>Missile</GroupType>
 			<Weapon>MissilePod</Weapon>
 		</Group>
 		<Group ID="3" >
-			<GroupType>Missile</GroupType>
 			<Weapon>TorpedoPod</Weapon>
 		</Group>
 		<Group ID="4" >
-			<GroupType>Primary</GroupType>
 			<Weapon>GimbalGunMK1</Weapon>
 		</Group>
 
 		<Hardpoint ID="0" >
 			<Socket>s_gun_A_left</Socket>
 			<GroupID>0</GroupID>
+			<Class>MK1</Class>
 		</Hardpoint>
 		<Hardpoint ID="1" >
 			<Socket>s_gun_A_right</Socket>
 			<GroupID>0</GroupID>
+			<Class>MK1</Class>
 		</Hardpoint>
 		<Hardpoint ID="2" >
 			<Socket>s_gun_E_left</Socket>
 			<GroupID>1</GroupID>
+			<Class>MK1</Class>
 		</Hardpoint>
 		<Hardpoint ID="3" >
 			<Socket>s_gun_E_right</Socket>
 			<GroupID>1</GroupID>
+			<Class>MK1</Class>
 		</Hardpoint>
 		<Hardpoint ID="4" >
 			<Socket>s_gun_G_left</Socket>
 			<GroupID>4</GroupID>
+			<Class>MK1</Class>
 		</Hardpoint>
 		<Hardpoint ID="5" >
 			<Socket>s_gun_G_right</Socket>
 			<GroupID>4</GroupID>
+			<Class>MK1</Class>
 		</Hardpoint>
 
 		<Hardpoint ID="6" >
 			<Socket>s_missile_left_1</Socket>
 			<GroupID>2</GroupID>
+			<Class>LightMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="7" >
 			<Socket>s_missile_left_2</Socket>
 			<GroupID>2</GroupID>
+			<Class>LightMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="8" >
 			<Socket>s_missile_left_3</Socket>
 			<GroupID>2</GroupID>
+			<Class>LightMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="9" >
 			<Socket>s_missile_right_1</Socket>
 			<GroupID>2</GroupID>
+			<Class>LightMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="10" >
 			<Socket>s_missile_right_2</Socket>
 			<GroupID>2</GroupID>
+			<Class>LightMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="11" >
 			<Socket>s_missile_right_3</Socket>
 			<GroupID>2</GroupID>
+			<Class>LightMissilePod</Class>
 		</Hardpoint>
 
 		<Hardpoint ID="12" >
 			<Socket>s_gun_torpedo</Socket>
 			<GroupID>3</GroupID>
+			<Class>TorpedoPod</Class>
 		</Hardpoint>
 
 		<Ammo>

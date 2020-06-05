@@ -141,27 +141,27 @@
 				<position x="-0.95738208293914794922" y="-0.26888060569763183594" z="-2.6269762516021728516" Type="3dsMax"/>
 				<rotation x="0.12278768420219421387" y="0.69636434316635131836" z="-0.12278775125741958618" w="0.69636422395706176758" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="-0.076435305178165435791" y="-2.6170547008514404297" z="-2.5993742942810058594" Type="3dsMax"/>
 				<rotation x="0.13052228093147277832" y="-0.00075736764119938015938" z="-0.0057464162819087505341" w="0.99142849445343017578" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="-0.088027864694595336914" y="-1.6511936187744140625" z="-2.8581721782684326172" Type="3dsMax"/>
 				<rotation x="0.13052228093147277832" y="-0.00075736764119938015938" z="-0.0057464162819087505341" w="0.99142849445343017578" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="-0.070639282464981079102" y="-3.0999855995178222656" z="-2.4699752330780029297" Type="3dsMax"/>
 				<rotation x="0.13052222132682800293" y="-0.00075736030703410506248" z="-0.0057463576085865497589" w="0.99142843484878540039" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="-0.082231357693672180176" y="-2.1341242790222167969" z="-2.7287733554840087891" Type="3dsMax"/>
 				<rotation x="0.13052222132682800293" y="-0.00075736799044534564018" z="-0.0057464167475700378418" w="0.99142843484878540039" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="-0.092664130032062530518" y="-1.2648494243621826172" z="-2.9616916179656982422" Type="3dsMax"/>
 				<rotation x="-0.96868181228637695313" y="-0.0057962695136666297913" z="6.4299492805730551481e-05" w="0.24823768436908721924" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="-0.066003054380416870117" y="-3.4863300323486328125" z="-2.3664557933807373047" Type="3dsMax"/>
 				<rotation x="0.24823740124702453613" y="-6.4164465584326535463e-05" z="-0.0057952799834311008453" w="0.96868193149566650391" Type="3dsMax"/>
 			</Link>
@@ -181,27 +181,27 @@
 				<position x="-0.45263996720314025879" y="-1.2688798904418945313" z="-2.9606108665466308594" Type="3dsMax"/>
 				<rotation x="0.70051008462905883789" y="-0.088230051100254058838" z="-0.7015812993049621582" w="-0.096357434988021850586" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="-1.48358917236328125" y="-2.6170518398284912109" z="-2.5957293510437011719" Type="3dsMax"/>
 				<rotation x="-0.00574762001633644104" y="-0.99142801761627197266" z="0.13052539527416229248" w="0.00075476104393601417542" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="-1.4719949960708618164" y="-1.6511923074722290039" z="-2.854534149169921875" Type="3dsMax"/>
 				<rotation x="-0.00574762001633644104" y="-0.99142801761627197266" z="0.13052539527416229248" w="0.00075476104393601417542" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="-1.4893860816955566406" y="-3.0999820232391357422" z="-2.4663274288177490234" Type="3dsMax"/>
 				<rotation x="-0.0057475613430142402649" y="-0.99142801761627197266" z="0.13052545487880706787" w="0.00075475295307114720345" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="-1.4777922630310058594" y="-2.1341221332550048828" z="-2.7251317501068115234" Type="3dsMax"/>
 				<rotation x="-0.0057476204819977283478" y="-0.99142801761627197266" z="0.13052545487880706787" w="0.00075476075289770960808" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="-1.4673579931259155273" y="-1.2648487091064453125" z="-2.9580554962158203125" Type="3dsMax"/>
 				<rotation x="0.0012736814096570014954" y="-0.039950806647539138794" z="-0.99918478727340698242" w="0.0056558377109467983246" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="-1.4940229654312133789" y="-3.4863252639770507813" z="-2.3628060817718505859" Type="3dsMax"/>
 				<rotation x="-0.0056548626162111759186" y="-0.99918478727340698242" z="0.039950996637344360352" w="0.0012734995689243078232" Type="3dsMax"/>
 			</Link>
@@ -221,27 +221,27 @@
 				<position x="-1.1073821783065795898" y="-1.2688803672790527344" z="-2.9569766521453857422" Type="3dsMax"/>
 				<rotation x="-0.70051187276840209961" y="-0.088230296969413757324" z="-0.70157927274703979492" w="0.096359394490718841553" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="-1.4783301353454589844" y="1.4792941808700561523" z="-2.5993747711181640625" Type="3dsMax"/>
 				<rotation x="0.00075700739398598670959" y="0.13052187860012054443" z="-0.99142849445343017578" w="-0.0057473145425319671631" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="-1.4667359590530395508" y="0.51343238353729248047" z="-2.8581719398498535156" Type="3dsMax"/>
 				<rotation x="0.00075700739398598670959" y="0.13052187860012054443" z="-0.99142849445343017578" w="-0.0057473145425319671631" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="-1.484127044677734375" y="1.9622249603271484375" z="-2.4699757099151611328" Type="3dsMax"/>
 				<rotation x="0.00075700000161305069923" y="0.13052181899547576904" z="-0.99142849445343017578" w="-0.0057472554035484790802" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="-1.4725332260131835938" y="0.99636340141296386719" z="-2.7287733554840087891" Type="3dsMax"/>
 				<rotation x="0.00075700768502429127693" y="0.13052181899547576904" z="-0.99142849445343017578" w="-0.0057473145425319671631" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="-1.4620990753173828125" y="0.12708804011344909668" z="-2.9616909027099609375" Type="3dsMax"/>
 				<rotation x="0.0057927016168832778931" y="-0.97559523582458496094" z="-0.21950009465217590332" w="0.00023507711011916399002" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="-1.4887639284133911133" y="2.3485693931579589844" z="-2.3664567470550537109" Type="3dsMax"/>
 				<rotation x="0.00023497005167882889509" y="0.219499930739402771" z="-0.97559529542922973633" w="-0.0057917139492928981781" Type="3dsMax"/>
 			</Link>
@@ -261,27 +261,27 @@
 				<position x="-1.102123260498046875" y="0.13111926615238189697" z="-2.9606103897094726563" Type="3dsMax"/>
 				<rotation x="-0.088229127228260040283" y="-0.70051038265228271484" z="-0.096357777714729309082" w="0.70158106088638305664" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="-0.071171820163726806641" y="1.479291081428527832" z="-2.5957276821136474609" Type="3dsMax"/>
 				<rotation x="-0.99142795801162719727" y="0.0057484908029437065125" z="0.00075509177986532449722" w="-0.13052588701248168945" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="-0.082767888903617858887" y="0.51343119144439697266" z="-2.8545334339141845703" Type="3dsMax"/>
 				<rotation x="-0.99142795801162719727" y="0.0057484908029437065125" z="0.00075509177986532449722" w="-0.13052588701248168945" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="-0.065373994410037994385" y="1.9622212648391723633" z="-2.4663252830505371094" Type="3dsMax"/>
 				<rotation x="-0.99142795801162719727" y="0.0057484316639602184296" z="0.00075508363079279661179" w="-0.13052594661712646484" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="-0.076969608664512634277" y="0.99636131525039672852" z="-2.7251305580139160156" Type="3dsMax"/>
 				<rotation x="-0.99142795801162719727" y="0.0057484908029437065125" z="0.00075509143061935901642" w="-0.13052594661712646484" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="-0.08740555495023727417" y="0.12708739936351776123" z="-2.9580552577972412109" Type="3dsMax"/>
 				<rotation x="-0.070809721946716308594" y="-0.0010986747220158576965" z="0.0056933462619781494141" w="0.99747300148010253906" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="-0.060736361891031265259" y="2.3485651016235351563" z="-2.3628032207489013672" Type="3dsMax"/>
 				<rotation x="-0.99747294187545776367" y="0.0056923604570329189301" z="0.0010985515546053647995" w="-0.070809938013553619385" Type="3dsMax"/>
 			</Link>
@@ -441,11 +441,11 @@
 				<position x="-0.7800000309944152832" y="0.49999967217445373535" z="2.6000001430511474609" Type="3dsMax"/>
 				<rotation x="-0.12278775870800018311" y="-0.69636416435241699219" z="-0.12278767675161361694" w="0.69636434316635131836" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="-1.2899764776229858398" y="0.89596784114837646484" z="2.9310791492462158203" Type="3dsMax"/>
 				<rotation x="0.0057233409024775028229" y="-0.99493020772933959961" z="0.10040028393268585205" w="-0.0009290861198678612709" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="-1.2946140766143798828" y="1.2823116779327392578" z="2.8275575637817382813" Type="3dsMax"/>
 				<rotation x="-0.00075512507464736700058" y="-0.13052584230899810791" z="-0.99142795801162719727" w="-0.0057483608834445476532" Type="3dsMax"/>
 			</Link>
@@ -453,7 +453,7 @@
 				<position x="-0.95666939020156860352" y="3.1214780807495117188" z="2.3347482681274414063" Type="3dsMax"/>
 				<rotation x="-0.70157933235168457031" y="-0.096360787749290466309" z="-0.70051145553588867188" w="0.088230974972248077393" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="-1.3166450262069702148" y="3.1174459457397460938" z="2.3358273506164550781" Type="3dsMax"/>
 				<rotation x="-0.00092899298761039972305" y="-0.10040047764778137207" z="-0.99493020772933959961" w="-0.0057223527692258358002" Type="3dsMax"/>
 			</Link>
@@ -461,7 +461,7 @@
 				<position x="-0.93753737211227416992" y="1.5278089046478271484" z="2.7617766857147216797" Type="3dsMax"/>
 				<rotation x="-0.70157968997955322266" y="-0.096360392868518829346" z="-0.70051115751266479492" w="0.088231019675731658936" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="-1.3062099218368530273" y="2.2481718063354492188" z="2.5687518119812011719" Type="3dsMax"/>
 				<rotation x="-0.00075512507464736700058" y="-0.13052584230899810791" z="-0.99142795801162719727" w="-0.0057483608834445476532" Type="3dsMax"/>
 			</Link>
@@ -469,11 +469,11 @@
 				<position x="-0.94913297891616821289" y="2.4936690330505371094" z="2.502971649169921875" Type="3dsMax"/>
 				<rotation x="-0.70068985223770141602" y="-0.089552007615566253662" z="-0.70141398906707763672" w="0.09503987431526184082" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="-1.3004121780395507813" y="1.7652418613433837891" z="2.698154449462890625" Type="3dsMax"/>
 				<rotation x="-0.00075512466719374060631" y="-0.13052588701248168945" z="-0.99142795801162719727" w="-0.0057483608834445476532" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="-1.3120075464248657227" y="2.7311022281646728516" z="2.4393491744995117188" Type="3dsMax"/>
 				<rotation x="-0.00075511686736717820168" y="-0.13052588701248168945" z="-0.99142795801162719727" w="-0.0057483017444610595703" Type="3dsMax"/>
 			</Link>
@@ -481,27 +481,27 @@
 				<position x="-0.93000054359436035156" y="0.89999997615814208984" z="2.9300000667572021484" Type="3dsMax"/>
 				<rotation x="0.096360214054584503174" y="-0.70157945156097412109" z="0.088230088353157043457" w="0.70051151514053344727" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="0.10094840079545974731" y="2.2481746673583984375" z="2.5723986625671386719" Type="3dsMax"/>
 				<rotation x="-0.99142849445343017578" y="0.0057473848573863506317" z="-0.00075696600833907723427" w="0.13052184879779815674" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="0.08935400843620300293" y="1.2823126316070556641" z="2.8311955928802490234" Type="3dsMax"/>
 				<rotation x="-0.99142849445343017578" y="0.0057473848573863506317" z="-0.00075696600833907723427" w="0.13052184879779815674" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="0.10674536973237991333" y="2.731105804443359375" z="2.4429996013641357422" Type="3dsMax"/>
 				<rotation x="-0.99142849445343017578" y="0.0057473257184028625488" z="-0.00075695861596614122391" w="0.13052178919315338135" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="0.095151461660861968994" y="1.7652438879013061523" z="2.7017972469329833984" Type="3dsMax"/>
 				<rotation x="-0.99142849445343017578" y="0.0057473848573863506317" z="-0.00075696635758504271507" w="0.13052178919315338135" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="0.084717042744159698486" y="0.89596825838088989258" z="2.9347147941589355469" Type="3dsMax"/>
 				<rotation x="0.18975937366485595703" y="0.00041090990998782217503" z="0.0057829539291560649872" w="0.98181349039077758789" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="0.11138232797384262085" y="3.1174504756927490234" z="2.3394806385040283203" Type="3dsMax"/>
 				<rotation x="-0.98181360960006713867" y="0.0057819704525172710419" z="-0.00041076820343732833862" w="0.18975906074047088623" Type="3dsMax"/>
 			</Link>
@@ -521,27 +521,27 @@
 				<position x="-0.27525880932807922363" y="0.89999949932098388672" z="2.9336345195770263672" Type="3dsMax"/>
 				<rotation x="0.096357814967632293701" y="0.70158100128173828125" z="-0.088229060173034667969" w="0.70051044225692749023" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="0.10620703548192977905" y="-1.8481724262237548828" z="2.5687532424926757813" Type="3dsMax"/>
 				<rotation x="-0.13052539527416229248" y="0.00075491669122129678726" z="-0.0057475641369819641113" w="0.99142801761627197266" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="0.094612829387187957764" y="-0.88231241703033447266" z="2.8275580406188964844" Type="3dsMax"/>
 				<rotation x="-0.13052539527416229248" y="0.00075491669122129678726" z="-0.0057475641369819641113" w="0.99142801761627197266" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="0.11200391501188278198" y="-2.3311030864715576172" z="2.4393510818481445313" Type="3dsMax"/>
 				<rotation x="-0.13052545487880706787" y="0.00075490860035642981529" z="-0.0057475049979984760284" w="0.99142801761627197266" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="0.10041019320487976074" y="-1.3652427196502685547" z="2.6981556415557861328" Type="3dsMax"/>
 				<rotation x="-0.13052545487880706787" y="0.00075491634197533130646" z="-0.0057475646026432514191" w="0.99142801761627197266" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="0.089975923299789428711" y="-0.4959684908390045166" z="2.9310793876647949219" Type="3dsMax"/>
 				<rotation x="-0.99425721168518066406" y="-0.0057284538634121417999" z="-0.00089172529987990856171" w="-0.10685973614454269409" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="0.11664078384637832642" y="-2.7174465656280517578" z="2.3358297348022460938" Type="3dsMax"/>
 				<rotation x="-0.10685962438583374023" y="0.00089161825599148869514" z="-0.0057273469865322113037" w="0.99425721168518066406" Type="3dsMax"/>
 			</Link>
@@ -561,27 +561,27 @@
 				<position x="-0.27000001072883605957" y="-0.50000005960464477539" z="2.9300005435943603516" Type="3dsMax"/>
 				<rotation x="-0.7015793919563293457" y="-0.096359342336654663086" z="0.70051169395446777344" w="-0.088230334222316741943" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="-1.3009473085403442383" y="-1.8481756448745727539" z="2.5723981857299804688" Type="3dsMax"/>
 				<rotation x="-0.0057464954443275928497" y="-0.99142843484878540039" z="-0.13052231073379516602" w="-0.00075738952727988362312" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_B.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_B.xml" >
 				<position x="-1.2893545627593994141" y="-0.88231348991394042969" z="2.8311960697174072266" Type="3dsMax"/>
 				<rotation x="-0.0057464954443275928497" y="-0.99142843484878540039" z="-0.13052231073379516602" w="-0.00075738952727988362312" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="-1.3067433834075927734" y="-2.3311069011688232422" z="2.4429984092712402344" Type="3dsMax"/>
 				<rotation x="-0.0057464363053441047668" y="-0.99142843484878540039" z="-0.13052225112915039063" w="-0.00075738213490694761276" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_High_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_High_A.xml" >
 				<position x="-1.2951512336730957031" y="-1.365244746208190918" z="2.7017970085144042969" Type="3dsMax"/>
 				<rotation x="-0.0057464954443275928497" y="-0.99142843484878540039" z="-0.13052231073379516602" w="-0.00075738952727988362312" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="-1.2847181558609008789" y="-0.49596899747848510742" z="2.9347155094146728516" Type="3dsMax"/>
 				<rotation x="-0.00075796613236889243126" y="0.13052244484424591064" z="-0.991428375244140625" w="0.0057469382882118225098" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_Trim_Greeble_Corner.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_Greeble_Corner.xml" >
 				<position x="-1.3113796710968017578" y="-2.7174513339996337891" z="2.3394792079925537109" Type="3dsMax"/>
 				<rotation x="-0.0057464954443275928497" y="-0.99142843484878540039" z="-0.13052231073379516602" w="-0.00075738952727988362312" Type="3dsMax"/>
 			</Link>

@@ -73,7 +73,7 @@
 		<RechargeRate>0</RechargeRate>
 	</CEngineComponent>
 	<CHullComponent>
-		<HitPoints>150</HitPoints>
+		<HitPoints>250</HitPoints>
 		<DyingDuration>0.0</DyingDuration>
 		<DeathDuration>1.5</DeathDuration>
 		<DeathCredits>20</DeathCredits>
@@ -83,8 +83,8 @@
 		<ActivationTimer>10.0</ActivationTimer>
 		<InterceptSpeed>0.25</InterceptSpeed>
 		<TrackingRange>40.0</TrackingRange>
-		<DetonationRange>0.05</DetonationRange>
+		<DetonationRange>0.5</DetonationRange>
 		<MinTargetMass>999.0</MinTargetMass>
-		<MinStackRange>25.0</MinStackRange>
+		<MinStackRange>10.0</MinStackRange>
 	</CServerMissileComponent>
 </ActorConfig>

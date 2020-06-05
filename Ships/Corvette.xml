@@ -1,4 +1,12 @@
 <ActorConfig>
+	<Meta>
+		<SpawnType>Corvette</SpawnType>
+		<IsShip>true</IsShip>
+		<IsPlayerSpawnable>true</IsPlayerSpawnable>
+		<ShipClassCost>80</ShipClassCost>
+		<ShipBattleScore>4</ShipBattleScore>
+		<DisplayName>UI_ShipType_Corvette</DisplayName>
+	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_no_cockpit_Lod0" >
             <LOD Level="1" Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_no_cockpit_Lod1" />
@@ -7,7 +15,6 @@
             <LOD Level="4" Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_no_cockpit_Lod4" />
             <LOD Level="5" Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_no_cockpit_Lod5" />
             <LOD Level="6" Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_no_cockpit_Lod6" />
-<!--             <LODPower>4.0</LODPower> -->
             <LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
             <Material Override="true" />
@@ -366,7 +373,7 @@
 				<position x="-0.0028000001329928637" y="0.010500000789761543" z="0.0054000006057322025" Type="3dsMax"/>
 				<Cutoff>256.0</Cutoff>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Name>CockpitNeckOmnis</Name>
 				<Color X="1.0" Y="1.0" Z="1.0" />
@@ -643,7 +650,7 @@
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
-		<LinAccSmoothing>0.5</LinAccSmoothing>
+		<LinAccSmoothing>0.6</LinAccSmoothing>
 		<AngVelSmoothing>0.8</AngVelSmoothing>
 		<ViewRangeExt X="1.0" Y="1.4" />
         <Camera Type="Internal">
@@ -690,7 +697,7 @@
 		<CockpitBody>
 			<CollisionFile>$Dev/Cockpits/SFC-Corvette/3cc2dc20.insm</CollisionFile>
 		</CockpitBody>
-        <Object Mesh="Cockpits/SFC-Corvette/SM_SFC_Corvette_Cockpit" >
+        <Object Mesh="Cockpits/SFC-Corvette/SM_SFC_Corvette_CockpitMfds" >
 
  			<Light Type="PointLight" >
 				<Name>FrameLight075</Name>
@@ -1085,7 +1092,7 @@
 			</Light>
 
         </Object>
-        <ViewPosition X="-0.000440" Y="0.004164" Z="0.029971" />
+        <ViewPosition X="-0.00022" Y="0.00416" Z="0.02978" />
         <AlertLight>
              <Light Type="PointLight" >
                 <Color X="1" Y="0.25" Z="0.05" />
@@ -1124,6 +1131,9 @@
 		<BobbleHead>
 			<Socket>s_bobblehead_left</Socket>
 		</BobbleHead>
+		<MFD ID="0" SegID="26" ParamName="ScreenTexture" />
+		<MFD ID="1" SegID="27" ParamName="ScreenTexture" />
+		<MFD ID="2" SegID="28" ParamName="ScreenTexture" />
     </CClientInternalCockpitComponent>
 	<CClientAudioComponent>
 		<SideThruster Target="SideThrusterSmall" DistRangeScale="0.60" FadeLength="0.5" />
@@ -1221,29 +1231,18 @@
 		<BoostCooldown>1.0</BoostCooldown>
 	</CTurboBoostComponent>
 	<CShipComponent>
-		<SpawnType>Corvette</SpawnType>
 		<Equipment>WarpJam1</Equipment>
 	</CShipComponent>
 	<CHardpointComponent>
 		<Mesh>$Dev/Ships/SFC-Corvette/848a3799.insm</Mesh>
+		<ExclusiveWeapons>true</ExclusiveWeapons>
 		<Group ID="0" >
-			<GroupType>Primary</GroupType>
 			<Weapon>TurretGunMK4</Weapon>
 		</Group>
 		<Group ID="1" >
-			<GroupType>Secondary</GroupType>
 			<Weapon>TurretBlasterMK4</Weapon>
 		</Group>
 		<Group ID="2" >
-			<GroupType>Primary</GroupType>
-			<Weapon>TurretGunMK4</Weapon>
-		</Group>
-		<Group ID="3" >
-			<GroupType>Secondary</GroupType>
-			<Weapon>TurretBlasterMK4</Weapon>
-		</Group>
-		<Group ID="4" >
-			<GroupType>Missile</GroupType>
 			<Weapon>MissilePod</Weapon>
 		</Group>
 
@@ -1251,40 +1250,48 @@
 			<!-- bottom right -->
 			<Socket>s_weapon_1</Socket>
 			<GroupID>1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
  		<Hardpoint ID="1" >
 			<!-- top right -->
 			<Socket>s_weapon_2</Socket>
 			<GroupID>0</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="2" >
 			<!-- top left -->
 			<Socket>s_weapon_3</Socket>
 			<GroupID>0</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="3" >
 			<!-- bottom left -->
 			<Socket>s_weapon_4</Socket>
 			<GroupID>1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="4" >
 			<!-- top rear -->
 			<Socket>s_weapon_5</Socket>
-			<GroupID>3</GroupID>
+			<GroupID>1</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="5" >
 			<!-- bottom rear -->
 			<Socket>s_weapon_6</Socket>
-			<GroupID>2</GroupID>
+			<GroupID>0</GroupID>
+			<Class>MK4</Class>
 		</Hardpoint>
 
 		<Hardpoint ID="6" >
 			<Socket>s_weapon_missile_1</Socket>
-			<GroupID>4</GroupID>
+			<GroupID>2</GroupID>
+			<Class>LightMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="7" >
 			<Socket>s_weapon_missile_2</Socket>
-			<GroupID>4</GroupID>
+			<GroupID>2</GroupID>
+			<Class>LightMissilePod</Class>
 		</Hardpoint>
 
 		<Ammo>

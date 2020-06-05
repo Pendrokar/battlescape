@@ -3,16 +3,25 @@
     <MLQ>1024.0</MLQ>
 
     <Group ID="0" DeltaIntensity="5.0" AngAccFactor="1.0" >
-        <Light Intensity="87000.0" Offset="0.003" >
-            <Color X="0.76" Y="0.87" Z="0.70" />
+		<Range>1.5</Range>
+        <Light Intensity="1000000.0" Offset="0.00060" >
+            <Color X="0.05" Y="0.3" Z="1.0" />
             <FadingSize Min="0.1" Max="0.2" />
         </Light>
-        <Particles Name="Particles/Thrusters/Main_Drive/Effect/P_Small_Thruster" SizeScale="0.4252" />
+        <Particles Name="Particles/Thrusters/Main_Drive/P_SmallShipThruster" SizeScale="2.8" UseMeshParticles="true" Intensity="150000.0" Offset="-0.0012" />
     </Group>
 
-    <Thruster ID="0" Name="s_Front-Main-Star" GroupID="0" />
-    <Thruster ID="1" Name="s_Front-Main-Port" GroupID="0" />
-    <Thruster ID="2" Name="s_Rear-Main-Star" GroupID="0" />
-    <Thruster ID="3" Name="s_Rear-Main-Port" GroupID="0" />
+    <Thruster ID="0" Name="s_Front-Main-Star" GroupID="0" CustomOrientation="true" >
+		<Direction X="0" Y="0" Z="-1" />
+	</Thruster>
+    <Thruster ID="1" Name="s_Front-Main-Port" GroupID="0" CustomOrientation="true" >
+		<Direction X="0" Y="0" Z="-1" />
+	</Thruster>
+    <Thruster ID="2" Name="s_Rear-Main-Star" GroupID="0" CustomOrientation="true" >
+		<Direction X="0" Y="0" Z="-1" />
+	</Thruster>
+    <Thruster ID="3" Name="s_Rear-Main-Port" GroupID="0" CustomOrientation="true" >
+		<Direction X="0" Y="0" Z="-1" />
+	</Thruster>
 
 </ThrustModel>
