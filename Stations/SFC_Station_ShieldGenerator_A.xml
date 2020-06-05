@@ -1,0 +1,33 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/StationModules_SFC/SM_SFC_Station_ShieldGen_A" >
+			<LODPower>1.0</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+			<PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/5716ad74.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>Unknown</Class>
+				<HitPoints>2000</HitPoints>
+				<Score>50</Score>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/5716ad74.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>Unknown</Class>
+				<HitPoints>2000</HitPoints>
+				<Score>50</Score>
+			</Module>
+			<ServerModule>
+				<CreditsReward>25</CreditsReward>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

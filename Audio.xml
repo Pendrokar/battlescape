@@ -97,6 +97,16 @@
 		<Volume>0.5</Volume>
 	</SoundEffect2D>
 	<SoundEffect2D>
+		<Name>SensorOpen</Name>
+		<Path>event:/Interface/SensorOpen</Path>
+		<Volume>0.2</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>SensorClose</Name>
+		<Path>event:/Interface/SensorClose</Path>
+		<Volume>0.2</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
 		<Name>Scan</Name>
 		<Path>event:/Interface/Scan</Path>
 		<Volume>0.5</Volume>
@@ -169,6 +179,16 @@
 	<SoundEffect2D>
 		<Name>Weapons_Lock_Lost</Name>
 		<Path>event:/Interface/WeaponsLockLost</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>Planetary_HUD_In</Name>
+		<Path>event:/Interface/PlanetaryHUDIn</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>Planetary_HUD_Out</Name>
+		<Path>event:/Interface/PlanetaryHUDOut</Path>
 		<Volume>1.0</Volume>
 	</SoundEffect2D>
 

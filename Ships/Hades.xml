@@ -1,0 +1,598 @@
+<ActorConfig>
+	<Meta>
+		<SpawnType>Corvette</SpawnType>
+		<IsShip>true</IsShip>
+		<IsPlayerSpawnable>false</IsPlayerSpawnable>
+		<ShipClassCost>60</ShipClassCost>
+		<ShipBattleScore>5</ShipBattleScore>
+		<DisplayName>UI_ShipType_Hades</DisplayName>
+		<PreloadRelease>false</PreloadRelease>
+	</Meta>
+	<CClientNodeComponent>
+        <Object Mesh="Ships/Hades/SM_Hades" >
+			<RejectionSize>0.005</RejectionSize>
+            <Material Override="true" />
+            <ThrusterModel ConfigFile="$Dev/config/thrusters/HadesThrusters.xml" >
+                <LightsInheritVisibility>false</LightsInheritVisibility>
+                <ParticlesInheritVisibility>true</ParticlesInheritVisibility>
+                <ActivateDistance>5.0</ActivateDistance>
+            </ThrusterModel>
+        </Object>
+	</CClientNodeComponent>
+	<CServerNodeComponent>
+		<TransformNode />
+	</CServerNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>250000.0</EmissiveIntensity>
+		<ThrustersEmissiveScale>5.0</ThrustersEmissiveScale>
+		<Paint>
+		</Paint>
+		<DyingExplosions>15</DyingExplosions>
+		<DeathExplosions>1</DeathExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DeathEffect>SmallShipExplosion</DeathEffect>
+		<DyingEffectScale>0.030</DyingEffectScale>
+		<DeathEffectScale>0.5</DeathEffectScale>
+		<DeathEffectRange>50.0</DeathEffectRange>
+		<ShrapnelEffect>ShrapnelSmall</ShrapnelEffect>
+		<ShrapnelEffectScale>0.5</ShrapnelEffectScale>
+		<ContrailEffectSize>0.04</ContrailEffectSize>
+		<DamageEffectSize>0.015</DamageEffectSize>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+    <CClientCameraViewComponent>
+		<LinAccSmoothing>0.5</LinAccSmoothing>
+		<AngVelSmoothing>0.8</AngVelSmoothing>
+		<ViewRangeExt X="1.0" Y="2.0" />
+        <Camera Type="Internal">
+            <!-- camera at cockpit center, but frame/hull is not rendered -->
+      	  	<ViewPosition X="0" Y="0" Z="0" />
+			<ViewAngle X="0" Y="0" />
+			<RenderHull>false</RenderHull>
+        </Camera>
+        <Camera Type="External">
+            <!-- chase camera behind ship -->
+            <ViewPosition X="0" Y="0.01281" Z="-0.05318" />
+			<ViewAngle X="0" Y="0" />
+        </Camera>
+    </CClientCameraViewComponent>
+    <CClientInternalCockpitComponent>
+		<CockpitBody>
+			<CollisionFile>$Dev/Cockpits/SFC-Corvette/3cc2dc20.insm</CollisionFile>
+		</CockpitBody>
+        <Object Mesh="Cockpits/SFC-Corvette/SM_SFC_Corvette_CockpitMfds" >
+			<Position x="0.0" y="0.002" z="-0.009" />
+
+ 			<Light Type="PointLight" >
+				<Name>FrameLight075</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Candelas>16000.0</Candelas>
+				<position x="-0.00074442615732550621" y="0.030293263494968414" z="0.0035971279721707106" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight074</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>20000.0</Lumens>
+				<position x="-0.0007483186200261116" y="0.030211601406335831" z="0.0035883474629372358" Type="3dsMax"/>
+				<Range>0.2</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight073</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>20000.0</Lumens>
+				<position x="-0.00078395870514214039" y="0.030458603054285049" z="0.0039117676205933094" Type="3dsMax"/>
+				<Range>0.2</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight072</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>20000.0</Lumens>
+				<position x="7.9187702795024961e-005" y="0.030276542529463768" z="0.0036514133680611849" Type="3dsMax"/>
+				<Range>0.2</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight071</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>20000.0</Lumens>
+				<position x="7.9187702795024961e-005" y="0.030301032587885857" z="0.0037106508389115334" Type="3dsMax"/>
+				<Range>0.2</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight070</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>20000.0</Lumens>
+				<position x="-7.8833450970705599e-005" y="0.030301032587885857" z="0.0037106508389115334" Type="3dsMax"/>
+				<Range>0.2</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight069</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>20000.0</Lumens>
+				<position x="-7.8833450970705599e-005" y="0.030276542529463768" z="0.0036514133680611849" Type="3dsMax"/>
+				<Range>0.2</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight068</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="5.0838707466027699e-006" y="0.030062420293688774" z="0.0035379137843847275" Type="3dsMax"/>
+				<Range>0.2</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight067</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>20000.0</Lumens>
+				<position x="-5.1375522161833942e-005" y="0.03019307553768158" z="0.0035909183789044619" Type="3dsMax"/>
+				<Range>0.2</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight066</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>20000.0</Lumens>
+				<position x="-5.1375522161833942e-005" y="0.030139906331896782" z="0.0035654043313115835" Type="3dsMax"/>
+				<Range>0.2</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight065</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>20000.0</Lumens>
+				<position x="0.00019640810205601156" y="0.0300778578966856" z="0.0035475005861371756" Type="3dsMax"/>
+				<Range>0.2</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight064</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00020804798987228423" y="0.030472245067358017" z="0.0039455811493098736" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight063</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00018197148165199906" y="0.030472245067358017" z="0.0039455811493098736" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight062</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00022529553098138422" y="0.030461832880973816" z="0.0039205215871334076" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight061</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.0001652618229854852" y="0.030461812391877174" z="0.0039205215871334076" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight060</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00020804798987228423" y="0.03041607141494751" z="0.0037699602544307709" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight059</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00018197148165199906" y="0.03041607141494751" z="0.0037699602544307709" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight058</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00022529553098138422" y="0.030405659228563309" z="0.0037449009250849485" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight057</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.0001652618229854852" y="0.030405638739466667" z="0.0037449009250849485" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight056</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00067522464087232947" y="0.030435021966695786" z="0.0038259262219071388" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight055</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00069193431409075856" y="0.030445452779531479" z="0.0038509853184223175" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight054</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00071801082231104374" y="0.030445452779531479" z="0.0038509853184223175" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight053</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00073525839252397418" y="0.030435040593147278" z="0.0038259262219071388" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight052</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00083226308925077319" y="0.030188910663127899" z="0.0036142503377050161" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight051</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00081501551903784275" y="0.030214980244636536" z="0.0036142503377050161" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight050</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00078893901081755757" y="0.030214980244636536" z="0.0036142503377050161" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight049</Name>
+				<Color X="0.0235294" Y="1.0" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00077222933759912848" y="0.030188890174031258" z="0.0036142503377050161" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight048</Name>
+				<Color X="1.0" Y="0.258824" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="0.00074499944457784295" y="0.030220000073313713" z="0.0036270017735660076" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+ 			<Light Type="PointLight" >
+				<Name>FrameLight047</Name>
+				<Color X="1.0" Y="0.258824" Z="0.0" />
+				<Lumens>20000.0</Lumens>
+				<position x="0.00078499945811927319" y="0.030290000140666962" z="0.0036270017735660076" Type="3dsMax"/>
+				<Range>0.2</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight046</Name>
+				<Color X="1.0" Y="0.258824" Z="0.0" />
+				<Lumens>20000.0</Lumens>
+				<position x="0.00070499943103641272" y="0.030449999496340752" z="0.003907002042979002" Type="3dsMax"/>
+				<Range>0.2</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight045</Name>
+				<Color X="1.0" Y="0.258824" Z="0.0" />
+				<Lumens>20000.0</Lumens>
+				<position x="0.0001949994039023295" y="0.03042999841272831" z="0.0038470018189400434" Type="3dsMax"/>
+				<Range>0.2</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight044</Name>
+				<Color X="1.0" Y="0.258824" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="-0.00018800061661750078" y="0.030479999259114265" z="0.0039670020341873169" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight043</Name>
+				<Color X="1.0" Y="0.258824" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="-0.00027200064505450428" y="0.030479999259114265" z="0.0039670020341873169" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight042</Name>
+				<Color X="1.0" Y="0.258824" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="-0.00062000070465728641" y="0.030376000329852104" z="0.0036650013644248247" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight041</Name>
+				<Color X="1.0" Y="0.258824" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="-0.00043000068399123847" y="0.030376000329852104" z="0.0036700011696666479" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight040</Name>
+				<Color X="1.0" Y="0.258824" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="-0.00027000068803317845" y="0.030375001952052116" z="0.0036340013612061739" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight039</Name>
+				<Color X="1.0" Y="0.258824" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="-5.4000651289243251e-005" y="0.030100001022219658" z="0.0035600014962255955" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight038</Name>
+				<Color X="1.0" Y="0.258824" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="1.7999354895437136e-005" y="0.030191002413630486" z="0.0035940017551183701" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight037</Name>
+				<Color X="1.0" Y="0.258824" Z="0.0" />
+				<Lumens>20000.0</Lumens>
+				<position x="6.5999360231216997e-005" y="0.030191002413630486" z="0.0035940017551183701" Type="3dsMax"/>
+				<Range>0.2</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight036</Name>
+				<Color X="1.0" Y="0.258824" Z="0.0" />
+				<Lumens>16000.0</Lumens>
+				<position x="6.5999360231216997e-005" y="0.030121002346277237" z="0.0035740016028285027" Type="3dsMax"/>
+				<Range>0.1</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>TopLight</Name>
+				<Color X="1.0" Y="0.905882" Z="0.745098" />
+				<Lumens>60000.0</Lumens>
+				<position x="0" y="0.030075004324316978" z="0.0046000014990568161" Type="3dsMax"/>
+				<Range>1.5</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrameLight033</Name>
+				<Color X="1.0" Y="0.905882" Z="0.745098" />
+				<Lumens>40000.0</Lumens>
+				<position x="0.0010899999178946018" y="0.028935004025697708" z="0.0042250012047588825" Type="3dsMax"/>
+				<Range>1.0</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrameLight002</Name>
+				<Color X="1.0" Y="0.905882" Z="0.745098" />
+				<Lumens>40000.0</Lumens>
+				<position x="-0.0010900008492171764" y="0.028935004025697708" z="0.0042250012047588825" Type="3dsMax"/>
+				<Range>1.0</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrontFrameLight</Name>
+				<Color X="1.0" Y="0.905882" Z="0.745098" />
+				<Lumens>35000.0</Lumens>
+				<position x="0.00091803999384865165" y="0.030832076445221901" z="0.0029970791656523943" Type="3dsMax"/>
+				<Range>1.0</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrontFrameLight</Name>
+				<Color X="1.0" Y="0.905882" Z="0.745098" />
+				<Lumens>35000.0</Lumens>
+				<position x="0.00091275997692719102" y="0.031405754387378693" z="0.004187561571598053" Type="3dsMax"/>
+				<Range>1.0</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrontFrameLight</Name>
+				<Color X="1.0" Y="0.905882" Z="0.745098" />
+				<Lumens>35000.0</Lumens>
+				<position x="0.00051087996689602733" y="0.031410004943609238" z="0.0046412390656769276" Type="3dsMax"/>
+				<Range>1.0</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrontFrameLight</Name>
+				<Color X="1.0" Y="0.905882" Z="0.745098" />
+				<Lumens>35000.0</Lumens>
+				<position x="-0.00091804272960871458" y="0.030832076445221901" z="0.0029970791656523943" Type="3dsMax"/>
+				<Range>1.0</Range>
+			</Light>
+		
+			<Light Type="PointLight" >
+				<Name>FrontFrameLight</Name>
+				<Color X="1.0" Y="0.905882" Z="0.745098" />
+				<Lumens>35000.0</Lumens>
+				<position x="-0.00091276428429409862" y="0.031405754387378693" z="0.004187561571598053" Type="3dsMax"/>
+				<Range>1.0</Range>
+			</Light>
+
+			<Light Type="PointLight" >
+				<Name>FrontFrameLight</Name>
+				<Color X="1.0" Y="0.905882" Z="0.745098" />
+				<Lumens>35000.0</Lumens>
+				<position x="-0.00051087612519040704" y="0.031410004943609238" z="0.0046412390656769276" Type="3dsMax"/>
+				<Range>1.0</Range>
+			</Light>
+
+        </Object>
+        <ViewPosition X="-0.00022" Y="0.00616" Z="0.02078" />
+        <AlertLight>
+             <Light Type="PointLight" >
+                <Color X="1" Y="0.25" Z="0.05" />
+                <Lumens>400000</Lumens>
+                <Position X="0" Y="0.004647" Z="0.029332" />
+                <Rotation X="0" Y="0" Z="0" W="1"/>
+				<Range>2.5</Range>
+                <LightPulse>
+                    <Period>0.480</Period>
+                    <Phase>0.0</Phase>
+                </LightPulse>
+            </Light>
+        </AlertLight>
+        <ProximityLight>
+             <Light Type="PointLight" >
+                <Color X="0.85" Y="0.15" Z="0.10" />
+                <Lumens>200000</Lumens>
+                <Position X="-0.000504" Y="0.003670" Z="0.030381" />
+                <Rotation X="0" Y="0" Z="0" W="1"/>
+				<Range>0.5</Range>
+                <LightPulse>
+                    <Period>0.504</Period>
+                    <Phase>0.0</Phase>
+                </LightPulse>
+            </Light>
+        </ProximityLight>
+        <Head>
+            <Yaw Min="-110" Max="110" />
+            <Pitch Min="-72" Max="51" />
+        </Head>
+		<ProximityAlert Target="ProximityAlert" />
+		<DamageAlert Target="DamageAlert" />
+		<CockpitWind1 Target="CockpitWind1" />
+		<CockpitWind2 Target="CockpitWind2" />
+        <EmissiveIntensity>15000.0</EmissiveIntensity>
+		<BobbleHead>
+			<Socket>s_bobblehead_left</Socket>
+		</BobbleHead>
+		<MFD ID="0" SegID="26" ParamName="ScreenTexture" />
+		<MFD ID="1" SegID="27" ParamName="ScreenTexture" />
+		<MFD ID="2" SegID="28" ParamName="ScreenTexture" />
+    </CClientInternalCockpitComponent>
+	<CClientAudioComponent>
+		<SideThruster Target="SideThrusterSmall" DistRangeScale="0.75" FadeLength="0.5" />
+		<MainThruster Target="MainThrusterSmall2" DistRangeScale="1.0" FadeLength="2.0" />
+		<EngineIdle Target="EngineIdleLight1" FadeLength="2.0" />
+		<EngineFast Target="EngineFastLight1" FadeLength="2.0" />
+		<EngineTurbo Target="EngineTurbo" FadeLength="2.0" />
+		<WarpAmbient Target="WarpAmbient" FadeLength="2.0" />
+		<AtmoFriction Target="AtmoFriction" FadeLength="2.0" />
+		<DamageShield Target="DamageShieldSmall" />
+		<DamagePower Target="DamagePowerSmall" />
+		<DamageEngine Target="DamageEngineSmall" />
+	</CClientAudioComponent>
+	<CClientActorComponent>
+		<ControlScheme>Target</ControlScheme>
+	</CClientActorComponent>
+	<CServerActorComponent>
+		<StratScore>0</StratScore>
+		<DefaultSkins>
+		</DefaultSkins>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>25.0</EmissionsRange>
+		<SensorPower>1.0</SensorPower>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>MediumShip</Indicator>
+		<SurfaceType>Metal</SurfaceType>
+		<ClassAbbrev>HDS</ClassAbbrev>
+		<ClassName>HADES</ClassName>
+	</CActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Box" >
+        	<SidesSize X="0.034411" Y="0.016889" Z="0.037936" />
+            <Offset X="0" Y="0" Z="0" />
+            <Mass>350.0</Mass>
+            <Collisions>true</Collisions>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+        </PhysicsBody>
+	</CBodyComponent>
+    <CPropulsionComponent>
+        <RampUpFactor>4.0</RampUpFactor>
+        <LinearThrust X="5.0" Y="6.0" Z="9.0" />
+        <RotationThrust X="0.04" Y="0.05" Z="0.06" />
+        <RotationStabilizer X="2.5" Y="2.5" Z="0.75" />
+		<MaxRotationSpeed X="0.65" Y="0.65" Z="1.0" />
+		<AtmoDecay>0.004</AtmoDecay>
+		<RotWarpLimiter>0.5</RotWarpLimiter>
+		<DriftLimiter>0.0</DriftLimiter>
+		<CapSpeed>0.25</CapSpeed>
+    </CPropulsionComponent>
+	<CEngineComponent>
+		<EnergyPoints>200</EnergyPoints>
+		<RechargeRate>10</RechargeRate>
+		<HeatPoints>200</HeatPoints>
+		<DechargeHeatPoints>20</DechargeHeatPoints>
+	</CEngineComponent>
+	<CHullComponent>
+		<HitPoints>750</HitPoints>
+		<DyingDuration>5.0</DyingDuration>
+		<DeathDuration>0.5</DeathDuration>
+		<DeathCredits>25</DeathCredits>
+		<Drag>0.003</Drag>
+		<ArmorPoints>0</ArmorPoints>
+	</CHullComponent>
+	<CShieldComponent>
+		<ShieldPoints>600</ShieldPoints>
+		<RechargeRate>2</RechargeRate>
+	</CShieldComponent>
+	<CWarpComponent>
+		<MinWarpSpeed>0.200</MinWarpSpeed>
+	</CWarpComponent>
+	<CClientWarpComponent>
+		<WarpMesh>Particles/Warp/SM_WarpTunnelRoundAlt</WarpMesh>
+		<WarpMeshScale>5.0</WarpMeshScale>
+		<LightsDist>0.015</LightsDist>
+	</CClientWarpComponent>
+	<CTurboBoostComponent>
+		<EnergyTurboCost>20.0</EnergyTurboCost>
+		<TurboThrustRate>1.0</TurboThrustRate>
+		<TurboTimerDecay>3.0</TurboTimerDecay>
+		<TurboInitialBoost>2.0</TurboInitialBoost>
+		<ThrustScale X="1.0" Y="0.9" Z="0.7" />
+		<BoostCooldown>1.0</BoostCooldown>
+	</CTurboBoostComponent>
+	<CShipComponent>
+	</CShipComponent>
+	<CHardpointComponent>
+		<Mesh>$Dev/Ships/Hades/4619553a.insm</Mesh>
+		<ExclusiveWeapons>true</ExclusiveWeapons>
+	</CHardpointComponent>
+	<CServerHardpointComponent>
+	</CServerHardpointComponent>
+	<CServerMissionComponent>
+		<BountyReward>10</BountyReward>
+	</CServerMissionComponent>
+</ActorConfig>

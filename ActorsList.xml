@@ -35,7 +35,7 @@
     <ActorType ClassName="SFC_Military_test" ConfigFile="$Dev/Config/Military/Assembled/SFC_Military_test.xml" />
     <ActorType ClassName="SFC_Factory_2_med" ConfigFile="$Dev/Config/Factories/Assembled/SFC_Factory_2_med.xml" />
     <ActorType ClassName="SFC_Factory_3_big" ConfigFile="$Dev/Config/Factories/Assembled/SFC_Factory_3_big.xml" />
-    <ActorType ClassName="Missile" ConfigFile="$Dev/Config/Weapons/Missile.xml" />
+    <ActorType ClassName="LightMissile" ConfigFile="$Dev/Config/Weapons/LightMissile.xml" />
     <ActorType ClassName="Torpedo" ConfigFile="$Dev/Config/Weapons/Torpedo.xml" />
     <ActorType ClassName="SFC_Station_BigMultiPart" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_BigMultiPart.xml" />
     <ActorType ClassName="SFC_Station_Outpost1" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_Outpost1.xml" />
@@ -55,4 +55,10 @@
     <ActorType ClassName="HeroAsteroid" Class="Actor" ConfigFile="$Dev/Config/Stations/Assembled/HeroAsteroid.xml" />
     <ActorType ClassName="Mine" ConfigFile="$Dev/Config/Weapons/Mine.xml" />
     <ActorType ClassName="SFC_Station_Trailer" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_Trailer.xml" />
+    <ActorType ClassName="HeavyMissile" ConfigFile="$Dev/Config/Weapons/HeavyMissile.xml" />
+<!--     <ActorType ClassName="Skybear" ConfigFile="$Dev/Config/Ships/Skybear.xml" />
+    <ActorType ClassName="Hades" ConfigFile="$Dev/Config/Ships/Hades.xml" />
+    <ActorType ClassName="Armormite" ConfigFile="$Dev/Config/Ships/Armormite.xml" /> -->
+    <ActorType ClassName="BigAsteroid01" ConfigFile="$Dev/Config/Props/BigAsteroid01.xml" />
+    <ActorType ClassName="BigAsteroid02" ConfigFile="$Dev/Config/Props/BigAsteroid02.xml" />
 </ActorsList>

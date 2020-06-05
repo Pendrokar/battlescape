@@ -1,44 +1,37 @@
 <ActorConfig>
 	<CClientNodeComponent>
-        <Object Mesh="Cockpits/Bobbleheads/Spacewhale/SM_Bobblehead_spacewhale_base" >
+        <Object Mesh="Celestial/Asteroids/BigA02/SM_BigA02" >
 			<RejectionSize>0.00001</RejectionSize>
             <PhysicsBody Type="Mesh" >
-                <CollisionFile>$Dev/Cockpits/Bobbleheads/Spacewhale/0c020605.insm</CollisionFile>
-				<CollisionScale>50000</CollisionScale>
+                <CollisionFile>$Dev/Celestial/Asteroids/BigA02/a03fe774.insm</CollisionFile>
+				<CollisionScale>1000</CollisionScale>
                 <Collisions>true</Collisions>
                 <Bounce>0.25</Bounce>
                 <Friction>0.01</Friction>
             </PhysicsBody>
-			<Scale X="50000" Y="50000" Z="50000" />
-			<Sound>
-				<Name>Whale</Name>
-			</Sound>
+			<Scale X="1000" Y="1000" Z="1000" />
         </Object>
  	</CClientNodeComponent>
 	<CServerNodeComponent>
         <TransformNode>
             <PhysicsBody Type="Mesh" >
-                <CollisionFile>$Dev/Cockpits/Bobbleheads/Spacewhale/0c020605.insm</CollisionFile>
-				<CollisionScale>50000</CollisionScale>
+                <CollisionFile>$Dev/Celestial/Asteroids/BigA02/a03fe774.insm</CollisionFile>
+				<CollisionScale>1000</CollisionScale>
                 <Collisions>true</Collisions>
                 <Bounce>0.25</Bounce>
                 <Friction>0.01</Friction>
             </PhysicsBody>
-			<Scale X="50000" Y="50000" Z="50000" />
+			<Scale X="1000" Y="1000" Z="1000" />
         </TransformNode>
 	</CServerNodeComponent>
 	<CServerActorComponent>
-        <Name>Whally</Name>
+        <Name>Asteroid</Name>
 	</CServerActorComponent>
-	<CServerSensorComponent>
-		<EmissionsRange>1000.0</EmissionsRange>
-		<NetworkSize>15.0</NetworkSize>
-	</CServerSensorComponent>
 	<CActorComponent>
     	<Indicator>Structure</Indicator>
-		<SurfaceType>Metal</SurfaceType>
-		<ClassAbbrev>WHL</ClassAbbrev>
-		<ClassName>WHALE</ClassName>
+		<SurfaceType>Rock</SurfaceType>
+		<ClassAbbrev>AST</ClassAbbrev>
+		<ClassName>ASTEROID</ClassName>
 	</CActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Static" >
