@@ -1,8 +1,9 @@
 <Weapons>
 	<Weapon>
 		<ID>GimbalGunMK1</ID>
-		<Name>Auto Gun</Name>
+		<Name>MK1 Guns</Name>
 		<Type>GimbalSingle</Type>
+		<Class>MK1</Class>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/ForwardFacing/SM_Mk1_Single_SideAttached_Kinetic_LOD0" >
 	            <LOD Level="1" Mesh="Ships/Weapons/ForwardFacing/SM_Mk1_Single_SideAttached_Kinetic_LOD1" />
@@ -23,11 +24,9 @@
 		<YawRange X="-3" Y="3" />
 		<FireCone X="0.035" Y="0.035" />
 		<AimType>Gimbaled</AimType>
-		<AutoAim>false</AutoAim>
-		<AutoTrack>true</AutoTrack>
+		<AutoTarget>false</AutoTarget>
 		<Spread>0.0040</Spread> <!-- Spread angle of projectiles, in radians -->
 		<Icon>Weapon_SmallMachineGun</Icon>
-		<GroupExclusive>true</GroupExclusive>
 		<ShowReticle>true</ShowReticle>
 		<LeadReticle>true</LeadReticle>
 		<Sound>

@@ -15,9 +15,9 @@
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 
-			<Sound>
+			<!-- <Sound>
 				<Name>250mPipeStructure</Name>
-			</Sound>
+			</Sound> -->
 
 			<Light Type="PointLight" >
 				<Name>low2</Name>

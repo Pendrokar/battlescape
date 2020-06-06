@@ -214,14 +214,14 @@
 		<Name>ReactorStructure</Name>
 		<Path>event:/Mod/Structures/Reactor</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.1" Y="3.0" />
+		<DistRange X="1.2" Y="5.8" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ReactorStructureBass</Name>
 		<Path>event:/Mod/Structures/ReactorBass</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.1" Y="7.0" />
+		<DistRange X="1" Y="3" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
@@ -242,14 +242,14 @@
 		<Name>SphericalTankStructure</Name>
 		<Path>event:/Mod/Structures/SphericalTank</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.1" Y="0.7" />
+		<DistRange X="0.1" Y="0.5" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>CommsMastStructure</Name>
 		<Path>event:/Mod/Structures/CommsMast</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.1" Y="3" />
+		<DistRange X="0.4" Y="2.4" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
@@ -317,7 +317,7 @@
 		<DistRange X="2.0" Y="25.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
-  	<SoundEffect3D>
+	<SoundEffect3D>
 		<Name>EngineFastLight1</Name>
 		<Path>event:/General/EngineFastLight1</Path>
 		<VolumeRange X="0" Y="1.0" />
@@ -576,9 +576,28 @@
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>BoostStart</Name>
-		<Path>event:/Mod/General/BoostStart</Path>
-		<VolumeRange X="0" Y="0.5" />
+		<Path>event:/Mod/General/BoostStartBomber</Path>
+		<VolumeRange X="0" Y="1" />
 		<DistRange X="0.1" Y="2.5" />
+	</SoundEffect3D>
+	<!-- FIXME: Hardcoded attachment -->
+	<SoundEffect3D>
+		<Name>BoostStartInterceptor</Name>
+		<Path>event:/Mod/General/BoostStartInterceptor</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.1" Y="2.5" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>BoostStartBomber</Name>
+		<Path>event:/Mod/General/BoostStartBomber</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.135" Y="2.5" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>BoostStartCorvette</Name>
+		<Path>event:/Mod/General/BoostStartCorvette</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.2" Y="2.5" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ElectricityFizzle</Name>
@@ -640,7 +659,7 @@
 	<SoundEffect3D>
 		<Name>ZeclonMK1</Name>
 		<Path>event:/Mod/Weapons/Blasters/ZeclonMK1</Path>
-		<VolumeRange X="0" Y="0.30" />
+		<VolumeRange X="0" Y="1" />
 		<DistRange X="0.05" Y="3.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
@@ -677,19 +696,19 @@
 		<Name>KineticTurretMK5</Name>
 		<Path>event:/Mod/Weapons/KineticTurrets/KineticTurretMK5</Path>
 		<VolumeRange X="0" Y="0.35" />
-		<DistRange X="0.15" Y="10.0" />
+		<DistRange X="0.1" Y="2.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>KineticTurretMK6</Name>
 		<Path>event:/Mod/Weapons/KineticTurrets/KineticTurretMK6</Path>
 		<VolumeRange X="0" Y="1" />
-		<DistRange X="0.15" Y="44.0" />
+		<DistRange X="0.1" Y="35.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>KineticTurretMK7</Name>
 		<Path>event:/Mod/Weapons/KineticTurrets/KineticTurretMK7</Path>
 		<VolumeRange X="0" Y="1" />
-		<DistRange X="0.15" Y="70.0" />
+		<DistRange X="0.1" Y="90.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>TorpedoLaunch</Name>
@@ -823,7 +842,7 @@
 		<Name>ExplosionMine</Name>
 		<Path>event:/Mod/Hits/ExplosionMine</Path>
 		<VolumeRange X="0" Y="1" />
-		<DistRange X="1.0" Y="60.0" />
+		<DistRange X="1.0" Y="40.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ExplosionFlak</Name>
@@ -847,7 +866,19 @@
 		<Name>ExplosionSmallTest</Name>
 		<Path>event:/Mod/Hits/ExplosionInternal</Path>
 		<VolumeRange X="0" Y="1" />
-		<DistRange X="0.1" Y="20.0" />
+		<DistRange X="0.5" Y="8.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MediumShockwave</Name>
+		<Path>event:/Mod/Hits/MediumShockwave</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="1" Y="4.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>LargeShockwave</Name>
+		<Path>event:/Mod/Hits/LargeShockwave</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="1.6" Y="7.0" />
 	</SoundEffect3D>
 
 	<!-- Collisions and impacts sounds -->
