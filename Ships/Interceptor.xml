@@ -429,7 +429,7 @@
 		<MFD ID="3" SegID="9" ParamName="ScreenTexture" />
     </CClientInternalCockpitComponent>
 	<CClientAudioComponent>
-		<SideThruster Target="SideThrusterSmall" DistRangeScale="0.75" FadeLength="0.5" />
+		<SideThruster Target="SideThrusterSmall" DistRangeScale="0.75" />
 		<MainThruster Target="MainThrusterSmall2" />
 		<EngineIdle Target="EngineIdleLight1" FadeLength="2.0" />
 		<EngineFast Target="EngineFastLight1" FadeLength="2.0" />
