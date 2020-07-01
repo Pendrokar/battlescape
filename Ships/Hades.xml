@@ -7,6 +7,8 @@
 		<ShipBattleScore>5</ShipBattleScore>
 		<DisplayName>UI_ShipType_Hades</DisplayName>
 		<PreloadRelease>false</PreloadRelease>
+		<ClassAbbrev>HDS</ClassAbbrev>
+		<WorldBoxSize X="0.034411" Y="0.016889" Z="0.037936" />
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/Hades/SM_Hades" >
@@ -526,7 +528,6 @@
 	<CActorComponent>
     	<Indicator>MediumShip</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassAbbrev>HDS</ClassAbbrev>
 		<ClassName>HADES</ClassName>
 	</CActorComponent>
 	<CBodyComponent>

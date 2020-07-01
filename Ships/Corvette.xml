@@ -6,6 +6,8 @@
 		<ShipClassCost>80</ShipClassCost>
 		<ShipBattleScore>4</ShipBattleScore>
 		<DisplayName>UI_ShipType_Corvette</DisplayName>
+		<ClassAbbrev>CRV</ClassAbbrev>
+		<WorldBoxSize X="0.0480000190" Y="0.0223000087" Z="0.0825925916" />
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_no_cockpit_Lod0" >
@@ -1165,7 +1167,6 @@
 	<CActorComponent>
     	<Indicator>MediumShip</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassAbbrev>CRV</ClassAbbrev>
 		<ClassName>CORVETTE</ClassName>
 	</CActorComponent>
 	<CBodyComponent>

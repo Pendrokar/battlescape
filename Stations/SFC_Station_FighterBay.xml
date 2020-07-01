@@ -344,7 +344,6 @@
 	<Condition Target="Server">
 		<TransformNode >
 		     <PhysicsBody Type="Mesh" >
-<!-- 		        <CollisionFile>$Dev/Structures/SFC-Stations/ad7d0467.insm</CollisionFile> -->
 		        <CollisionFile>$Dev/Structures/StationModules_SFC/c805b9db.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>

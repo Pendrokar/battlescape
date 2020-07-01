@@ -6,6 +6,8 @@
 		<ShipClassCost>300</ShipClassCost>
 		<ShipBattleScore>7</ShipBattleScore>
 		<DisplayName>UI_ShipType_Destroyer</DisplayName>
+		<ClassAbbrev>DST</ClassAbbrev>
+		<WorldBoxSize X ="0.28667" Y="0.06373" Z="0.3563" />
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Destroyer/SM_SFC_Destroyer_Lod0" >
@@ -290,7 +292,6 @@
 	<CActorComponent>
     	<Indicator>MediumShip</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassAbbrev>DST</ClassAbbrev>
 		<ClassName>DESTROYER</ClassName>
 	</CActorComponent>
 	<CBodyComponent>

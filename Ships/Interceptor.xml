@@ -6,6 +6,8 @@
 		<ShipClassCost>20</ShipClassCost>
 		<ShipBattleScore>1</ShipBattleScore>
 		<DisplayName>UI_ShipType_Interceptor</DisplayName>
+		<ClassAbbrev>INT</ClassAbbrev>
+        <WorldBoxSize X="0.0121250944" Y="0.00453546643" Z="0.0152096823" />
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Fighter/SM_SFC_Fighter_exterior_no_cockpit_Lod0" >
@@ -242,7 +244,7 @@
 				<position x="0.00022500030172523111" y="0.0064759990200400352" z="-0.00010699966514948756" Type="3dsMax"/>
 				<Range>0.1</Range>
 			</Light>
-
+		
 			<Light Type="PointLight" >
 				<Color X="0.0235294" Y="1.0" Z="0.0" />
 				<Lumens>16000.0</Lumens>
@@ -326,7 +328,7 @@
 				<position x="9.5000286819413304e-005" y="0.006398999597877264" z="-0.00011599964636843652" Type="3dsMax"/>
 				<Range>0.1</Range>
 			</Light>
-
+		              
 			<Light Type="PointLight" >
 				<Color X="1.0" Y="0.905882" Z="0.745098" />
 				<Lumens>60000.0</Lumens>
@@ -348,14 +350,14 @@
 				<position x="-0.00070399959804490209" y="0.0070499996654689312" z="-9.0999696112703532e-005" Type="3dsMax"/>
 				<Range>0.5</Range>
 			</Light>
-
+		
 			<Light Type="PointLight" >
 				<Color X="0.745098" Y="0.968628" Z="1.0" />
 				<Lumens>30000.0</Lumens>
 				<position x="-0.00029999972321093082" y="0.0059499996714293957" z="0.00072000030195340514" Type="3dsMax"/>
 				<Range>0.5</Range>
 			</Light>
-
+		
 			<Light Type="PointLight" >
 				<Color X="0.745098" Y="0.968628" Z="1.0" />
 				<Lumens>30000.0</Lumens>
@@ -458,7 +460,6 @@
 	<CActorComponent>
     	<Indicator>SmallShip</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassAbbrev>INT</ClassAbbrev>
 		<ClassName>INTERCEPTOR</ClassName>
 	</CActorComponent>
 	<CBodyComponent>

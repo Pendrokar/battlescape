@@ -7,6 +7,8 @@
 		<ShipBattleScore>5</ShipBattleScore>
 		<DisplayName>UI_ShipType_Skybear</DisplayName>
 		<PreloadRelease>false</PreloadRelease>
+		<ClassAbbrev>SKB</ClassAbbrev>
+		<WorldBoxSize X="0.007066" Y="0.006968" Z="0.030127" />
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/Skybear/SM_Skybear" >
@@ -527,7 +529,6 @@
 	<CActorComponent>
     	<Indicator>MediumShip</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassAbbrev>SKY</ClassAbbrev>
 		<ClassName>SKYBEAR</ClassName>
 	</CActorComponent>
 	<CBodyComponent>

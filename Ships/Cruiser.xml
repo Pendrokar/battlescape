@@ -6,6 +6,8 @@
 		<ShipClassCost>1000</ShipClassCost>
 		<ShipBattleScore>15</ShipBattleScore>
 		<DisplayName>UI_ShipType_Cruiser</DisplayName>
+		<ClassAbbrev>CRU</ClassAbbrev>
+		<WorldBoxSize X="0.369420" Y="0.158525" Z="0.983128" />
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Cruiser/SM_SFC_Cruiser_Lod0" >
@@ -418,7 +420,6 @@
 	<CActorComponent>
     	<Indicator>LargeShip</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassAbbrev>CRU</ClassAbbrev>
 		<ClassName>CRUISER</ClassName>
 	</CActorComponent>
 	<CBodyComponent>

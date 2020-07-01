@@ -7,6 +7,8 @@
 		<ShipBattleScore>5</ShipBattleScore>
 		<DisplayName>UI_ShipType_Armormite</DisplayName>
 		<PreloadRelease>false</PreloadRelease>
+		<ClassAbbrev>ARM</ClassAbbrev>
+		<WorldBoxSize X="0.031079" Y="0.015409" Z="0.065287" />
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/Armormite/SM_Armormite" >
@@ -526,7 +528,6 @@
 	<CActorComponent>
     	<Indicator>MediumShip</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassAbbrev>ARM</ClassAbbrev>
 		<ClassName>ARMORMITE</ClassName>
 	</CActorComponent>
 	<CBodyComponent>

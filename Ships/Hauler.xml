@@ -6,6 +6,8 @@
 		<ShipClassCost>250</ShipClassCost>
 		<ShipBattleScore>5</ShipBattleScore>
 		<DisplayName>UI_ShipType_Hauler</DisplayName>
+		<ClassAbbrev>HLR</ClassAbbrev>
+		<WorldBoxSize X="0.131799996" Y="0.0591151193" Z="0.478196621" />
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Hauler/SM_SFC_Hauler_Lod0" >
@@ -1395,7 +1397,6 @@
 	<CActorComponent>
     	<Indicator>MediumShip</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassAbbrev>HAUL</ClassAbbrev>
 		<ClassName>HAULER</ClassName>
 	</CActorComponent>
 	<CBodyComponent>

@@ -1,7 +1,7 @@
 <ActorConfig>
 	<CNodeComponent>
 		<TransformNode>
-			<Link Target="$Dev/Config/Stations/SFC_Station_ShieldGenerator_A.xml" >
+ 			<Link Target="$Dev/Config/Stations/SFC_Station_ShieldGenerator_A.xml" >
 				<position x="2.2930002212524414063" y="0" z="0" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>

@@ -6,6 +6,8 @@
 		<ShipClassCost>2000</ShipClassCost>
 		<ShipBattleScore>20</ShipBattleScore>
 		<DisplayName>UI_ShipType_Carrier</DisplayName>
+		<ClassAbbrev>CAR</ClassAbbrev>
+		<WorldBoxSize X="1.16533" Y="0.36359" Z="2.16519" />
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod0" >
@@ -797,7 +799,6 @@
 		<ControlScheme>CapShip</ControlScheme>
 	</CClientActorComponent>
 	<CServerActorComponent>
-		<StratScore>50</StratScore>
 		<DefaultSkins>
 			<Skin TeamID="0">CarrierHavoc</Skin>
 			<Skin TeamID="1">CarrierScoria</Skin>
@@ -813,7 +814,6 @@
 	<CActorComponent>
     	<Indicator>LargeShip</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassAbbrev>CAR</ClassAbbrev>
 		<ClassName>CARRIER</ClassName>
 	</CActorComponent>
 	<CBodyComponent>
