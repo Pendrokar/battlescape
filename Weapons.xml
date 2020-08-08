@@ -28,6 +28,7 @@
 		<Spread>0.0040</Spread> <!-- Spread angle of projectiles, in radians -->
 		<Icon>Weapon_SmallMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>MgSmall1</Name>
@@ -123,6 +124,7 @@
 		<Spread>0.025</Spread> <!-- Spread angle of projectiles, in radians -->
 		<Icon>Weapon_SmallMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>Shotgun</Name>
@@ -218,6 +220,7 @@
 		<Spread>0.0025</Spread> <!-- Spread angle of projectiles, in radians -->
 		<Icon>Weapon_Blaster</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 <!-- 			<Name>BlasterSmall2</Name> -->
@@ -305,6 +308,7 @@
 		<Spread>0.010</Spread> <!-- Spread angle of projectiles, in radians -->
 		<Icon>Weapon_SmallMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>MgSmall1</Name>
@@ -416,6 +420,7 @@
 		<LeadAimAcceleration>0.5</LeadAimAcceleration>
 		<Icon>Weapon_SmallMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>Mg48</Name>
@@ -515,6 +520,7 @@
 		<LeadAimAcceleration>0.5</LeadAimAcceleration>
 		<Icon>Weapon_Blaster</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>Plasma</Name>
@@ -623,6 +629,7 @@
 		<LeadAimAcceleration>0.5</LeadAimAcceleration>
 		<Icon>Weapon_SmallMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>Mg48</Name>
@@ -724,6 +731,7 @@
 		<LeadAimAcceleration>0.5</LeadAimAcceleration>
 		<Icon>Weapon_Blaster</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>Plasma</Name>
@@ -832,6 +840,7 @@
 		<LeadAimAcceleration>0.5</LeadAimAcceleration>
 		<Icon>Weapon_LargeMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK5</Name>
@@ -935,6 +944,7 @@
 		<LeadAimAcceleration>0.5</LeadAimAcceleration>
 		<Icon>Weapon_LargeMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>BlasterLarge</Name>
@@ -1041,6 +1051,7 @@
 		<LeadAimAcceleration>0.5</LeadAimAcceleration>
 		<Icon>Weapon_LargeMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK6</Name>
@@ -1141,6 +1152,7 @@
 		<TargetSizeRange X="0.25" Y="100.0" />
 		<Icon>Weapon_LargeMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK7</Name>
@@ -1228,6 +1240,7 @@
 		<TargetSizeRange X="0.0" Y="0.25" />
 		<Icon>Weapon_Missile</Icon>
 		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
 		<Sound>
 			<Name>MissileLaunch</Name>
@@ -1285,6 +1298,7 @@
 		<TargetSizeRange X="0.25" Y="1000.0" />
 		<Icon>Weapon_Torpedo</Icon>
 		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
 		<Sound>
 			<Name>TorpedoLaunch</Name>
@@ -1342,6 +1356,7 @@
 		<TargetSizeRange X="0.25" Y="1000.0" />
 		<Icon>Weapon_Torpedo</Icon>
 		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
 		<Sound>
 			<Name>TorpedoLaunch</Name>
@@ -1413,6 +1428,7 @@
 		<LeadAimAcceleration>0.5</LeadAimAcceleration>
 		<Icon>Weapon_SmallMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>Mg48</Name>
@@ -1514,6 +1530,7 @@
 		<LeadAimAcceleration>0.5</LeadAimAcceleration>
 		<Icon>Weapon_Blaster</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>Plasma</Name>
@@ -1622,6 +1639,7 @@
 		<LeadAimAcceleration>0.5</LeadAimAcceleration>
 		<Icon>Weapon_LargeMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK5</Name>
@@ -1722,6 +1740,7 @@
 		<LeadAimAcceleration>0.5</LeadAimAcceleration>
 		<Icon>Weapon_LargeMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>BlasterLarge</Name>
@@ -1828,6 +1847,7 @@
 		<TargetSizeRange X="0.25" Y="100.0" />
 		<Icon>Weapon_LargeMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK6</Name>
@@ -1919,6 +1939,7 @@
 		<TargetSizeRange X="0.25" Y="1000.0" />
 		<Icon>Weapon_Missile</Icon>
 		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
 		<Sound>
 			<Name>MissileLaunch</Name>
@@ -2006,6 +2027,7 @@
 		<TargetSizeRange X="0.25" Y="1000.0" />
 		<Icon>Weapon_Torpedo</Icon>
 		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
 		<Sound>
 			<Name>TorpedoLaunch</Name>
@@ -2076,6 +2098,7 @@
 		<LeadAimAcceleration>0.5</LeadAimAcceleration>
 		<Icon>Weapon_LargeMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>Mg48</Name>
@@ -2143,9 +2166,9 @@
 			<Attach>$Dev/Ships/Weapons/ForwardFacing/baa4d62e.insm</Attach>
 		</Sockets>
 		<Scale>1.0</Scale>
-		<FireRate>6.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<FireRate>8.0</FireRate> <!-- Fire rate in number of shots per second -->
 		<BurstCount>3</BurstCount>
-		<BurstCooldown>0.8</BurstCooldown>
+		<BurstCooldown>0.4</BurstCooldown>
 		<TurnSpeed X="3" Y="3" />
 		<PitchRange X="-3" Y="3" />
 		<YawRange X="-3" Y="3" />
@@ -2154,6 +2177,7 @@
 		<AutoTarget>false</AutoTarget>
 		<Icon>Weapon_SmallMachineGun</Icon>
 		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>MgSmall1</Name>
@@ -2250,6 +2274,7 @@
 		<IgnoreDamageType>true</IgnoreDamageType>
 		<Icon>Weapon_Blaster</Icon>
 		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
 		<Sound>
 			<Name>Mg48</Name>

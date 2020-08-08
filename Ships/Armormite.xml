@@ -1,7 +1,7 @@
 <ActorConfig>
 	<Meta>
+		<ActorType>Ship</ActorType>
 		<SpawnType>Corvette</SpawnType>
-		<IsShip>true</IsShip>
 		<IsPlayerSpawnable>false</IsPlayerSpawnable>
 		<ShipClassCost>50</ShipClassCost>
 		<ShipBattleScore>5</ShipBattleScore>
@@ -570,6 +570,8 @@
 		<RechargeRate>2</RechargeRate>
 	</CShieldComponent>
 	<CWarpComponent>
+		<ChargeDuration>5.0</ChargeDuration>
+		<Cooldown>10.0</Cooldown>
 		<MinWarpSpeed>0.230</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>

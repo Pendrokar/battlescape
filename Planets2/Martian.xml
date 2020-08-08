@@ -1,4 +1,7 @@
 <ActorConfig>
+	<Meta>
+		<ActorType>Planet</ActorType>
+	</Meta>
 	<CNodeComponent>
 		<TransformNode>
 		</TransformNode>

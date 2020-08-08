@@ -1,4 +1,7 @@
 <ActorConfig>
+	<Meta>
+		<ActorType>Base</ActorType>
+	</Meta>
 	<CNodeComponent>
 		<TransformNode>
  			<Link Target="$Dev/Config/Military/SFC_Military_LifeSupport.xml" >

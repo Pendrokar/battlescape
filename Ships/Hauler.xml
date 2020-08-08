@@ -1,7 +1,7 @@
 <ActorConfig>
 	<Meta>
+		<ActorType>Ship</ActorType>
 		<SpawnType>Hauler</SpawnType>
-		<IsShip>true</IsShip>
 		<IsPlayerSpawnable>false</IsPlayerSpawnable>
 		<ShipClassCost>250</ShipClassCost>
 		<ShipBattleScore>5</ShipBattleScore>
@@ -1441,6 +1441,8 @@
 		<RechargeRate>6</RechargeRate>
 	</CShieldComponent>
 	<CWarpComponent>
+		<ChargeDuration>8.0</ChargeDuration>
+		<Cooldown>15.0</Cooldown>
 		<MinWarpSpeed>0.150</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>

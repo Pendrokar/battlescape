@@ -1,4 +1,7 @@
 <ActorConfig>
+	<Meta>
+		<ActorType>Weapon</ActorType>
+	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Props/ResupplyCrate/SM_ResupplyCrate_Lod0" >
             <LOD Level="1" Mesh="Props/ResupplyCrate/SM_ResupplyCrate_Lod1" />

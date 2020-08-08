@@ -1,7 +1,7 @@
 <ActorConfig>
 	<Meta>
+		<ActorType>Ship</ActorType>
 		<SpawnType>Fighter</SpawnType>
-		<IsShip>true</IsShip>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>20</ShipClassCost>
 		<ShipBattleScore>1</ShipBattleScore>
@@ -506,6 +506,8 @@
 		<RechargeRate>1.5</RechargeRate>
 	</CShieldComponent>
 	<CWarpComponent>
+		<ChargeDuration>5.0</ChargeDuration>
+		<Cooldown>8.0</Cooldown>
 		<MinWarpSpeed>0.240</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>
@@ -532,6 +534,7 @@
 		<ExclusiveWeapons>true</ExclusiveWeapons>
 		<Group ID="0" >
 			<Weapon>GimbalGunMK1</Weapon>
+<!-- 			<Weapon>PlasmaCutterMK1</Weapon> -->
 		</Group>
 		<Group ID="1" >
 			<Weapon>GimbalBlasterMK1</Weapon>

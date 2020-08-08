@@ -1,7 +1,7 @@
 <ActorConfig>
 	<Meta>
+		<ActorType>Ship</ActorType>
 		<SpawnType>Capship</SpawnType>
-		<IsShip>true</IsShip>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>1000</ShipClassCost>
 		<ShipBattleScore>15</ShipBattleScore>
@@ -472,6 +472,8 @@
 		<RechargeRate>30</RechargeRate>
 	</CShieldComponent>
 	<CWarpComponent>
+		<ChargeDuration>10.0</ChargeDuration>
+		<Cooldown>16.0</Cooldown>
 		<MinWarpSpeed>0.120</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>

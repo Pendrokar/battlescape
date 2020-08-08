@@ -1,4 +1,7 @@
 <ActorConfig>
+	<Meta>
+		<ActorType>Base</ActorType>
+	</Meta>
 	<CNodeComponent>
 		<TransformNode>
   			<Filter>

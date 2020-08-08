@@ -1,7 +1,7 @@
 <ActorConfig>
 	<Meta>
+		<ActorType>Ship</ActorType>
 		<SpawnType>Fighter</SpawnType>
-		<IsShip>true</IsShip>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>30</ShipClassCost>
 		<ShipBattleScore>2</ShipBattleScore>
@@ -628,6 +628,8 @@
 		<RechargeRate>3</RechargeRate>
 	</CShieldComponent>
 	<CWarpComponent>
+		<ChargeDuration>5.0</ChargeDuration>
+		<Cooldown>10.0</Cooldown>
 		<MinWarpSpeed>0.200</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>
