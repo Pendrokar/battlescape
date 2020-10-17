@@ -15,10 +15,6 @@
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 
-			<!-- <Sound>
-				<Name>250mPipeStructure</Name>
-			</Sound> -->
-
 			<Light Type="PointLight" >
 				<Name>Omni009</Name>
 				<Color X="1.0" Y="0.0" Z="0.0" />

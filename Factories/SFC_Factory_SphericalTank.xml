@@ -9,15 +9,11 @@
 		    <LOD Level="6" Mesh="Structures/SFC-Factory/SM_SFC_Factory_SphericalTank_Lod6" />
 		    <LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
-
+		
 		     <PhysicsBody Type="Mesh" >
 		        <CollisionFile>$Dev/Structures/SFC-Factory/545223da.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 			</PhysicsBody>
-
-			<Sound>
-				<Name>SphericalTankStructure</Name>
-			</Sound>
 
 			<Light Type="PointLight" >
 				<Name>Omni014</Name>

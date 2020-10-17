@@ -9,16 +9,12 @@
 			<LOD Level="6" Mesh="Structures/SFC-Military/SM_SFC_Military_Pipe_500m_1_Lod6" />
 			<LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
-
+		
 			<PhysicsBody Type="Mesh" >
 		        <CollisionFile>$Dev/Structures/SFC-Military/5c1eef45.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
-
-			<Sound>
-				<Name>500mPipeStructure</Name>
-			</Sound>
-
+			
 			<Light Type="PointLight" >
 				<Name>low3</Name>
 				<Color X="1.0" Y="0.768628" Z="0.686275" />
@@ -82,7 +78,7 @@
 				<position x="0" y="0.029999990016222000122" z="0.24000000953674316406" Type="3dsMax"/>
 				<Cutoff>1024.0</Cutoff>
 			</Light>
-
+				
 			<Module>
 		        <Class>Unknown</Class>
 				<MapToPlanet>true</MapToPlanet>

@@ -9,15 +9,11 @@
 		    <LOD Level="6" Mesh="Structures/SFC-Factory/SM_SFC_Factory_CenterLivingQuarters_Lod6" />
 		    <LODPower>0.5</LODPower>
 			<RejectionSize>0.005</RejectionSize>
-
+		
 		     <PhysicsBody Type="Mesh" >
 		        <CollisionFile>$Dev/Structures/SFC-Factory/407f2079.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
-
-			<Sound>
-				<Name>PersonnelStructure</Name>
-			</Sound>
 
 			<Light Type="SpotLight" >
 				<Name>Spot002</Name>

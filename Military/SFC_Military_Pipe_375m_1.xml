@@ -14,11 +14,7 @@
 		        <CollisionFile>$Dev/Structures/SFC-Military/1f3fb690.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
-
-			<Sound>
-				<Name>250mPipeStructure</Name>
-			</Sound>
-
+			
 			<Light Type="PointLight" >
 				<Name>low3</Name>
 				<Color X="1.0" Y="0.768628" Z="0.686275" />
@@ -66,7 +62,7 @@
 				<position x="0" y="0" z="0.25203254818916320801" Type="3dsMax"/>
 				<Cutoff>1024.0</Cutoff>
 			</Light>
-
+			
 			<Light Type="PointLight" >
 				<Name>Omni002</Name>
 				<Color X="1.0" Y="1.0" Z="1.0" />
@@ -82,7 +78,7 @@
 				<position x="0" y="0" z="0.25203254818916320801" Type="3dsMax"/>
 				<Cutoff>1024.0</Cutoff>
 			</Light>
-
+			
 			<Module>
 		        <Class>Unknown</Class>
 				<MapToPlanet>true</MapToPlanet>

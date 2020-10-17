@@ -14,11 +14,6 @@
 		        <CollisionFile>$Dev/Structures/SFC-Military/4f9a87ae.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
-
-			<Sound>
-				<Name>250mPipeStructure</Name>
-			</Sound>
-
 			<Module>
 		        <Class>Unknown</Class>
 				<MapToPlanet>true</MapToPlanet>
