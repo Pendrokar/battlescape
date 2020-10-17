@@ -31,10 +31,10 @@
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>MgSmall1</Name>
+			<Name>MgSmall3</Name>
 			<DuplicateRange>0.03</DuplicateRange>
 			<DuplicateLength>0.1</DuplicateLength>
-			<MaxDupedCount>1</MaxDupedCount>
+			<MaxDupedCount>2</MaxDupedCount>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_WavyStreakMuzzleFlash</Effect>
@@ -64,16 +64,6 @@
 			<Heat>1.0</Heat>
 		</Shot>
 		<Impact>
-			<Rock>
-				<Effect>ImpactAsteroidSmall</Effect>
-				<EffectSelf>ImpactAsteroidSmall</EffectSelf>
-				<Offset>0.004</Offset>
-			</Rock>
-			<Surface>
-				<Effect>ImpactDirtSmall</Effect>
-				<EffectSelf>ImpactDirtSmall</EffectSelf>
-				<Offset>0.004</Offset>
-			</Surface>
 			<Metal>
                 <Effect>ImpactMetalSmallKinetic</Effect>
 				<EffectSelf>ImpactMetalSmallSelfKinetic</EffectSelf>
@@ -127,7 +117,7 @@
 		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>Shotgun</Name>
+			<Name>Shotgun2</Name>
 			<MinFireTime>0.5</MinFireTime>
 			<DuplicateRange>0.03</DuplicateRange>
 			<DuplicateLength>0.2</DuplicateLength>
@@ -161,17 +151,6 @@
 			<Heat>2.0</Heat>
 		</Shot>
 		<Impact>
-
-			<Rock>
-				<Effect>ImpactAsteroidSmall</Effect>
-				<EffectSelf>ImpactAsteroidSmall</EffectSelf>
-				<Offset>0.004</Offset>
-			</Rock>
-			<Surface>
-				<Effect>ImpactDirtSmall</Effect>
-				<EffectSelf>ImpactDirtSmall</EffectSelf>
-				<Offset>0.004</Offset>
-			</Surface>
 			<Metal>
                 <Effect>ImpactMetalSmallKinetic</Effect>
 				<EffectSelf>ImpactMetalSmallSelfKinetic</EffectSelf>
@@ -223,11 +202,10 @@
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-<!-- 			<Name>BlasterSmall2</Name> -->
-			<Name>ZeclonMK1</Name>
+			<Name>BlasterSmall3</Name>
 			<DuplicateRange>0.03</DuplicateRange>
 			<DuplicateLength>0.1</DuplicateLength>
-			<MaxDupedCount>1</MaxDupedCount>
+			<MaxDupedCount>2</MaxDupedCount>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_LaserBoltMuzzleFlash</Effect>
@@ -255,16 +233,6 @@
 			<Speed>1.25</Speed> <!-- Initial speed the shot gets fired at -->
 		</Shot>
 		<Impact>
-			<Rock>
-				<Effect>ImpactAsteroidSmallEnergy</Effect>
-				<EffectSelf>ImpactAsteroidSmallEnergy</EffectSelf>
-				<Offset>0.004</Offset>
-			</Rock>
-			<Surface>
-				<Effect>ImpactDirtSmallEnergy</Effect>
-				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
-				<Offset>0.004</Offset>
-			</Surface>
 			<Metal>
 				<Effect>ImpactMetalSmallEnergy</Effect>
 				<EffectSelf>ImpactMetalSmallSelfEnergy</EffectSelf>
@@ -311,7 +279,7 @@
 		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>MgSmall1</Name>
+			<Name>MgSmall3</Name>
 			<DuplicateRange>0.03</DuplicateRange>
 			<DuplicateLength>0.1</DuplicateLength>
 			<MaxDupedCount>1</MaxDupedCount>
@@ -344,17 +312,6 @@
 			<Heat>1.0</Heat>
 		</Shot>
 		<Impact>
-
-			<Rock>
-				<Effect>ImpactAsteroidSmall</Effect>
-				<EffectSelf>ImpactAsteroidSmall</EffectSelf>
-				<Offset>0.004</Offset>
-			</Rock>
-			<Surface>
-				<Effect>ImpactDirtSmall</Effect>
-				<EffectSelf>ImpactDirtSmall</EffectSelf>
-				<Offset>0.004</Offset>
-			</Surface>
 			<Metal>
                 <Effect>ImpactMetalSmallKinetic</Effect>
 				<EffectSelf>ImpactMetalSmallSelfKinetic</EffectSelf>
@@ -423,8 +380,10 @@
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>Mg48</Name>
+			<Name>KineticTurretMK4</Name>
 			<DistRangeScale>0.6</DistRangeScale>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.5</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_WavyStreakMuzzleFlash</Effect>
@@ -447,7 +406,7 @@
 			<LightQuality>4</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.1" />
 			<LightCutoff>25.0</LightCutoff>
-			<Damage>8</Damage> <!-- Amount of damage each shot makes on hit -->
+			<Damage>7</Damage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>Kinetic</DamageType> <!-- Type of damage -->
 			<LifeTime>3.1</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.3</Speed> <!-- Initial speed the shot gets fired at -->
@@ -523,8 +482,10 @@
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>Plasma</Name>
+			<Name>BlasterTurretMK4</Name>
 			<DistRangeScale>0.6</DistRangeScale>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.5</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_LaserBoltMuzzleFlash</Effect>
@@ -546,23 +507,12 @@
 			<LightQuality>4</LightQuality>
 			<LightColor X="0.2" Y="0.6" Z="1.0" />
 			<LightCutoff>25.0</LightCutoff>
-			<Damage>10.0</Damage> <!-- Amount of damage each shot makes on hit -->
+			<Damage>8.0</Damage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>Energy</DamageType> <!-- Type of damage -->
 			<LifeTime>3.1</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.3</Speed> <!-- Initial speed the shot gets fired at -->
 		</Shot>
 		<Impact>
-
-			<Rock>
-				<Effect>ImpactAsteroidSmallEnergy</Effect>
-				<EffectSelf>ImpactAsteroidSmallEnergy</EffectSelf>
-				<Offset>0.004</Offset>
-			</Rock>
-			<Surface>
-				<Effect>ImpactDirtSmallEnergy</Effect>
-				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
-				<Offset>0.004</Offset>
-			</Surface>
 			<Metal>
 				<Effect>ImpactMetalSmallEnergy</Effect>
 				<EffectSelf>ImpactMetalSmallSelfEnergy</EffectSelf>
@@ -614,9 +564,9 @@
 			<Barrel>$Dev/Ships/Weapons/Mk4_Single/5056da57.insm</Barrel>
 		</Sockets>
 		<Scale>1.0</Scale>
-		<FireRate>6.0</FireRate> <!-- Fire rate in number of shots per second -->
-		<BurstCount>5</BurstCount>
-		<BurstCooldown>3.0</BurstCooldown>
+		<FireRate>4.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<BurstCount>4</BurstCount>
+		<BurstCooldown>1.0</BurstCooldown>
 		<TurnSpeed X="30" Y="30" />
 		<PitchRange X="-90" Y="7" />
 		<YawRange X="-180" Y="180" />
@@ -632,8 +582,10 @@
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>Mg48</Name>
+			<Name>KineticTurretMK4</Name>
 			<DistRangeScale>0.6</DistRangeScale>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.5</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_WavyStreakMuzzleFlash</Effect>
@@ -717,9 +669,9 @@
 			<Barrel>$Dev/Ships/Weapons/Mk4_Single/a39f39d2.insm</Barrel>
 		</Sockets>
 		<Scale>1.0</Scale>
-		<FireRate>6.0</FireRate> <!-- Fire rate in number of shots per second -->
-		<BurstCount>5</BurstCount>
-		<BurstCooldown>3.0</BurstCooldown>
+		<FireRate>4.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<BurstCount>4</BurstCount>
+		<BurstCooldown>1.0</BurstCooldown>
 		<TurnSpeed X="30" Y="30" />
 		<PitchRange X="-90" Y="7" />
 		<YawRange X="-180" Y="180" />
@@ -734,8 +686,10 @@
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>Plasma</Name>
+			<Name>BlasterTurretMK4</Name>
 			<DistRangeScale>0.6</DistRangeScale>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.5</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_LaserBoltMuzzleFlash</Effect>
@@ -757,23 +711,12 @@
 			<LightQuality>4</LightQuality>
 			<LightColor X="0.2" Y="0.6" Z="1.0" />
 			<LightCutoff>25.0</LightCutoff>
-			<Damage>9</Damage> <!-- Amount of damage each shot makes on hit -->
+			<Damage>12</Damage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>Energy</DamageType> <!-- Type of damage -->
 			<LifeTime>2.85</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.4</Speed> <!-- Initial speed the shot gets fired at -->
 		</Shot>
 		<Impact>
-
-			<Rock>
-				<Effect>ImpactAsteroidSmallEnergy</Effect>
-				<EffectSelf>ImpactAsteroidSmallEnergy</EffectSelf>
-				<Offset>0.004</Offset>
-			</Rock>
-			<Surface>
-				<Effect>ImpactDirtSmallEnergy</Effect>
-				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
-				<Offset>0.004</Offset>
-			</Surface>
 			<Metal>
 				<Effect>ImpactMetalSmallEnergy</Effect>
 				<EffectSelf>ImpactMetalSmallSelfEnergy</EffectSelf>
@@ -825,9 +768,9 @@
 			<Barrel>$Dev/Ships/Weapons/Mk5_Dual/aa0e8a36.insm</Barrel>
 		</Sockets>
 		<Scale>1.0</Scale>
-		<FireRate>6.0</FireRate> <!-- Fire rate in number of shots per second -->
-		<BurstCount>4</BurstCount>
-		<BurstCooldown>3.0</BurstCooldown>
+		<FireRate>3.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<BurstCount>3</BurstCount>
+		<BurstCooldown>2.0</BurstCooldown>
 		<TurnSpeed X="15" Y="15" />
 		<PitchRange X="-90" Y="4" />
 		<YawRange X="-180" Y="180" />
@@ -847,6 +790,8 @@
 			<DuplicateRange>0.05</DuplicateRange>
 			<DuplicateLength>0.2</DuplicateLength>
 			<MaxDupedCount>1</MaxDupedCount>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.0</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_WavyStreakMuzzleFlash</Effect>
@@ -869,7 +814,7 @@
 			<LightQuality>4</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.1" />
 			<LightCutoff>75.0</LightCutoff>
-			<Damage>20.0</Damage> <!-- Amount of damage each shot makes on hit -->
+			<Damage>30.0</Damage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>Kinetic</DamageType> <!-- Type of damage -->
 			<LifeTime>4.28</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.4</Speed> <!-- Initial speed the shot gets fired at -->
@@ -931,8 +876,8 @@
 		</Sockets>
 		<Scale>1.0</Scale>
 		<FireRate>3.0</FireRate> <!-- Fire rate in number of shots per second -->
-		<BurstCount>4</BurstCount>
-		<BurstCooldown>1.5</BurstCooldown>
+		<BurstCount>3</BurstCount>
+		<BurstCooldown>2.0</BurstCooldown>
 		<TurnSpeed X="15" Y="15" />
 		<PitchRange X="-90" Y="4" />
 		<YawRange X="-180" Y="180" />
@@ -947,7 +892,9 @@
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>BlasterLarge</Name>
+			<Name>BlasterTurretMK5</Name>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.0</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_LaserBoltMuzzleFlash</Effect>
@@ -969,22 +916,12 @@
 			<LightQuality>4</LightQuality>
 			<LightColor X="0.08" Y="0.15" Z="1.0" />
 			<LightCutoff>75.0</LightCutoff>
-			<Damage>16.0</Damage> <!-- Amount of damage each shot makes on hit -->
+			<Damage>32.0</Damage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>Energy</DamageType> <!-- Type of damage -->
 			<LifeTime>4.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.5</Speed> <!-- Initial speed the shot gets fired at -->
 		</Shot>
 		<Impact>
-			<Rock>
-				<Effect>ImpactAsteroidSmallEnergy</Effect>
-				<EffectSelf>ImpactAsteroidSmallEnergy</EffectSelf>
-				<Offset>0.004</Offset>
-			</Rock>
-			<Surface>
-				<Effect>ImpactDirtSmallEnergy</Effect>
-				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
-				<Offset>0.004</Offset>
-			</Surface>
 			<Metal>
 				<Effect>ImpactMetalLargeEnergy</Effect>
 				<EffectSelf>ImpactMetalLargeSelfEnergy</EffectSelf>
@@ -1037,8 +974,8 @@
 		</Sockets>
 		<Scale>1.0</Scale>
 		<FireRate>2.0</FireRate> <!-- Fire rate in number of shots per second -->
-		<BurstCount>3</BurstCount>
-		<BurstCooldown>4.0</BurstCooldown>
+		<BurstCount>2</BurstCount>
+		<BurstCooldown>3.0</BurstCooldown>
 		<TurnSpeed X="10" Y="10" />
 		<PitchRange X="-80" Y="3" />
 		<YawRange X="-180" Y="180" />
@@ -1055,6 +992,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK6</Name>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>0.75</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_BigKineticMuzzleFlash</Effect>
@@ -1077,7 +1016,7 @@
 			<LightQuality>3</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.1" />
 			<LightCutoff>120.0</LightCutoff>
-			<Damage>100.0</Damage> <!-- Amount of damage each shot makes on hit -->
+			<Damage>150.0</Damage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>Kinetic</DamageType> <!-- Type of damage -->
 			<LifeTime>6.3</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.9</Speed> <!-- Initial speed the shot gets fired at -->
@@ -1138,9 +1077,9 @@
 			<Barrel>$Dev/Ships/Weapons/Mk7_Trio/4b511721.insm</Barrel>
 		</Sockets>
 		<Scale>1.0</Scale>
-		<FireRate>1.5</FireRate> <!-- Fire rate in number of shots per second -->
+		<FireRate>1.0</FireRate> <!-- Fire rate in number of shots per second -->
 		<BurstCount>2</BurstCount>
-		<BurstCooldown>6.0</BurstCooldown>
+		<BurstCooldown>5.0</BurstCooldown>
 		<TurnSpeed X="6" Y="6" />
 		<PitchRange X="-75" Y="2" />
 		<YawRange X="-180" Y="180" />
@@ -1157,6 +1096,8 @@
 		<Sound>
 			<Name>KineticTurretMK7</Name>
 			<DistRangeScale>1.25</DistRangeScale>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>0.5</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_BigKineticMuzzleFlash</Effect>
@@ -1414,8 +1355,8 @@
 		</Sockets>
 		<Scale>1.0</Scale>
 		<FireRate>4.0</FireRate> <!-- Fire rate in number of shots per second -->
-		<BurstCount>5</BurstCount>
-		<BurstCooldown>2.0</BurstCooldown>
+		<BurstCount>4</BurstCount>
+		<BurstCooldown>1.0</BurstCooldown>
 		<TurnSpeed X="50" Y="50" />
 		<PitchRange X="-90" Y="7" />
 		<YawRange X="-180" Y="180" />
@@ -1431,8 +1372,10 @@
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>Mg48</Name>
+			<Name>KineticTurretMK4</Name>
 			<DistRangeScale>0.6</DistRangeScale>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.5</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_WavyStreakMuzzleFlash</Effect>
@@ -1517,8 +1460,8 @@
 		</Sockets>
 		<Scale>1.0</Scale>
 		<FireRate>4.0</FireRate> <!-- Fire rate in number of shots per second -->
-		<BurstCount>5</BurstCount>
-		<BurstCooldown>2.0</BurstCooldown>
+		<BurstCount>4</BurstCount>
+		<BurstCooldown>1.0</BurstCooldown>
 		<TurnSpeed X="50" Y="50" />
 		<PitchRange X="-90" Y="7" />
 		<YawRange X="-180" Y="180" />
@@ -1533,8 +1476,10 @@
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>Plasma</Name>
+			<Name>BlasterTurretMK4</Name>
 			<DistRangeScale>0.6</DistRangeScale>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.5</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_LaserBoltMuzzleFlash</Effect>
@@ -1556,23 +1501,12 @@
 			<LightQuality>4</LightQuality>
 			<LightColor X="0.2" Y="0.6" Z="1.0" />
 			<LightCutoff>25.0</LightCutoff>
-			<Damage>9</Damage> <!-- Amount of damage each shot makes on hit -->
+			<Damage>12</Damage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>Energy</DamageType> <!-- Type of damage -->
 			<LifeTime>4.64</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.4</Speed> <!-- Initial speed the shot gets fired at -->
 		</Shot>
 		<Impact>
-
-			<Rock>
-				<Effect>ImpactAsteroidSmallEnergy</Effect>
-				<EffectSelf>ImpactAsteroidSmallEnergy</EffectSelf>
-				<Offset>0.004</Offset>
-			</Rock>
-			<Surface>
-				<Effect>ImpactDirtSmallEnergy</Effect>
-				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
-				<Offset>0.004</Offset>
-			</Surface>
 			<Metal>
 				<Effect>ImpactMetalSmallEnergy</Effect>
 				<EffectSelf>ImpactMetalSmallSelfEnergy</EffectSelf>
@@ -1625,8 +1559,8 @@
 		</Sockets>
 		<Scale>1.0</Scale>
 		<FireRate>3.0</FireRate> <!-- Fire rate in number of shots per second -->
-		<BurstCount>4</BurstCount>
-		<BurstCooldown>3.0</BurstCooldown>
+		<BurstCount>3</BurstCount>
+		<BurstCooldown>2.0</BurstCooldown>
 		<TurnSpeed X="25" Y="25" />
 		<PitchRange X="-90" Y="4" />
 		<YawRange X="-180" Y="180" />
@@ -1643,6 +1577,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK5</Name>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.0</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_WavyStreakMuzzleFlash</Effect>
@@ -1665,7 +1601,7 @@
 			<LightQuality>4</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.1" />
 			<LightCutoff>75.0</LightCutoff>
-			<Damage>20.0</Damage> <!-- Amount of damage each shot makes on hit -->
+			<Damage>30.0</Damage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>Kinetic</DamageType> <!-- Type of damage -->
 			<LifeTime>5.71</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.4</Speed> <!-- Initial speed the shot gets fired at -->
@@ -1727,8 +1663,8 @@
 		</Sockets>
 		<Scale>1.0</Scale>
 		<FireRate>3.0</FireRate> <!-- Fire rate in number of shots per second -->
-		<BurstCount>4</BurstCount>
-		<BurstCooldown>3.0</BurstCooldown>
+		<BurstCount>3</BurstCount>
+		<BurstCooldown>2.0</BurstCooldown>
 		<TurnSpeed X="25" Y="25" />
 		<PitchRange X="-90" Y="4" />
 		<YawRange X="-180" Y="180" />
@@ -1743,7 +1679,9 @@
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>BlasterLarge</Name>
+			<Name>BlasterTurretMK5</Name>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.0</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_LaserBoltMuzzleFlash</Effect>
@@ -1765,22 +1703,12 @@
 			<LightQuality>4</LightQuality>
 			<LightColor X="0.08" Y="0.15" Z="1.0" />
 			<LightCutoff>75.0</LightCutoff>
-			<Damage>25.0</Damage> <!-- Amount of damage each shot makes on hit -->
+			<Damage>32.0</Damage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>Energy</DamageType> <!-- Type of damage -->
 			<LifeTime>5.33</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.5</Speed> <!-- Initial speed the shot gets fired at -->
 		</Shot>
 		<Impact>
-			<Rock>
-				<Effect>ImpactAsteroidSmallEnergy</Effect>
-				<EffectSelf>ImpactAsteroidSmallEnergy</EffectSelf>
-				<Offset>0.004</Offset>
-			</Rock>
-			<Surface>
-				<Effect>ImpactDirtSmallEnergy</Effect>
-				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
-				<Offset>0.004</Offset>
-			</Surface>
 			<Metal>
 				<Effect>ImpactMetalLargeEnergy</Effect>
 				<EffectSelf>ImpactMetalLargeSelfEnergy</EffectSelf>
@@ -1832,9 +1760,9 @@
 			<Barrel>$Dev/Ships/Weapons/Mk6_Dual/c500ddb8.insm</Barrel>
 		</Sockets>
 		<Scale>1.0</Scale>
-		<FireRate>1.0</FireRate> <!-- Fire rate in number of shots per second -->
-		<BurstCount>3</BurstCount>
-		<BurstCooldown>4.0</BurstCooldown>
+		<FireRate>3.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<BurstCount>2</BurstCount>
+		<BurstCooldown>3.0</BurstCooldown>
 		<TurnSpeed X="12" Y="12" />
 		<PitchRange X="-80" Y="3" />
 		<YawRange X="-180" Y="180" />
@@ -1851,6 +1779,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK6</Name>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>0.75</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_BigKineticMuzzleFlash</Effect>
@@ -1873,7 +1803,7 @@
 			<LightQuality>3</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.1" />
 			<LightCutoff>120.0</LightCutoff>
-			<Damage>180.0</Damage> <!-- Amount of damage each shot makes on hit -->
+			<Damage>150.0</Damage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>Kinetic</DamageType> <!-- Type of damage -->
 			<LifeTime>8.5</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.9</Speed> <!-- Initial speed the shot gets fired at -->
@@ -1960,17 +1890,6 @@
 			<Heat>20.0</Heat>
 		</Shot>
 		<Impact>
-
-			<Rock>
-				<Effect>ImpactAsteroidSmall</Effect>
-				<EffectSelf>ImpactAsteroidSmall</EffectSelf>
-				<Offset>0.004</Offset>
-			</Rock>
-			<Surface>
-				<Effect>ImpactDirtSmall</Effect>
-				<EffectSelf>ImpactDirtSmall</EffectSelf>
-				<Offset>0.004</Offset>
-			</Surface>
 			<Metal>
 				<Effect>ImpactMetalSmallKinetic</Effect>
 				<EffectSelf>ImpactMetalSmallSelfKinetic</EffectSelf>
@@ -2102,6 +2021,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>Mg48</Name>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.0</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_WavyStreakMuzzleFlash</Effect>
@@ -2277,12 +2198,16 @@
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
 		<Sound>
-			<Name>Mg48</Name>
+			<Name>AMSFire</Name>
 			<DistRangeScale>0.6</DistRangeScale>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>2.0</RotatingPitch>
+			<AmbientName>AMSAmbient</AmbientName>
+			<AmbientPitch>1.0</AmbientPitch>
 		</Sound>
         <Muzzle>
 			<Effect>Particles/Weapons/Muzzleflashes/P_WavyStreakMuzzleFlash</Effect>
-			<Scale>0.5</Scale>
+			<Scale>1.0</Scale>
 			<Offset>0.0</Offset>
 			<LightColor X="0.5" Y="1.0" Z="0.15" />
 			<LightCutoff>100.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
@@ -2290,7 +2215,7 @@
 		</Muzzle>
 		<Ammo>
 			<Type>Energy</Type>
-			<Cost>10</Cost>
+			<Cost>15</Cost>
 		</Ammo>
 		<Shot>
 			<Type>Laser</Type>
@@ -2306,7 +2231,7 @@
 			<LifeTime>0.30</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>10.0</Speed> <!-- Initial speed the shot gets fired at -->
 			<Range>10.0</Range>
-			<Heat>25.0</Heat>
+			<Heat>20.0</Heat>
 		</Shot>
 		<Impact>
 			<Metal>

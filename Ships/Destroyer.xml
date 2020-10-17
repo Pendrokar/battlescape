@@ -262,8 +262,8 @@
         </Camera>
     </CClientCameraViewComponent>
 	<CClientAudioComponent>
-		<SideThruster Target="SideThrusterBig" DistRangeScale="0.5" FadeLength="0.5" />
-		<MainThruster Target="MainThrusterHeavy1" DistRangeScale="0.75" FadeLength="2.0" />
+		<SideThruster Target="SideThrusterBig" DistRangeScale="0.216" FadeLength="0.5" />
+		<MainThruster Target="MainThrusterHeavy1" DistRangeScale="0.865" FadeLength="2.0" />
 		<EngineIdle Target="EngineIdleHeavy2" FadeLength="2.0" />
 		<EngineFast Target="EngineFastHeavy1" FadeLength="2.0" />
 		<WarpAmbient Target="WarpAmbient" FadeLength="2.0" />

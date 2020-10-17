@@ -553,16 +553,17 @@
 		<MFD ID="3" SegID="8" ParamName="ScreenTexture" />
     </CClientInternalCockpitComponent>
 	<CClientAudioComponent>
-		<SideThruster Target="SideThrusterSmall" DistRangeScale="0.75" FadeLength="0.5" />
-		<MainThruster Target="MainThrusterSmall4" DistRangeScale="0.90" FadeLength="2.0" />
+		<SideThruster Target="SideThrusterSmall" DistRangeScale="0.66" FadeLength="0.5" />
+		<MainThruster Target="MainThrusterSmall4" DistRangeScale="0.80" FadeLength="2.0" />
 		<EngineIdle Target="EngineIdleLight1" FadeLength="2.0" />
 		<EngineFast Target="EngineFastLight2" FadeLength="2.0" />
-		<EngineTurbo Target="EngineTurbo" FadeLength="2.0" />
+		<EngineTurbo Target="EngineTurbo2" FadeLength="2.0" />
 		<WarpAmbient Target="WarpAmbient" FadeLength="2.0" />
 		<AtmoFriction Target="AtmoFriction" FadeLength="2.0" />
 		<DamageShield Target="DamageShieldSmall" />
 		<DamagePower Target="DamagePowerSmall" />
 		<DamageEngine Target="DamageEngineSmall" />
+		<TurboBoost Target="BoostStart" />
 	</CClientAudioComponent>
 	<CClientActorComponent>
 		<ControlScheme>Target</ControlScheme>

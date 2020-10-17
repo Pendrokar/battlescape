@@ -431,16 +431,17 @@
 		<MFD ID="3" SegID="9" ParamName="ScreenTexture" />
     </CClientInternalCockpitComponent>
 	<CClientAudioComponent>
-		<SideThruster Target="SideThrusterSmall" DistRangeScale="0.75" />
-		<MainThruster Target="MainThrusterSmall2" />
-		<EngineIdle Target="EngineIdleLight1" FadeLength="2.0" />
-		<EngineFast Target="EngineFastLight1" FadeLength="2.0" />
-		<EngineTurbo Target="EngineTurbo" FadeLength="2.0" />
+		<SideThruster Target="SideThrusterSmall2" DistRangeScale="0.75" FadeLength="0.5" />
+		<MainThruster Target="InterceptorMainThruster" DistRangeScale="1.0" FadeLength="2.0" />
+		<EngineIdle Target="InterceptorIdle" FadeLength="2.0" />
+		<EngineFast Target="InterceptorFast" FadeLength="2.0" />
+		<EngineTurbo Target="EngineTurbo2" FadeLength="2.0" />
 		<WarpAmbient Target="WarpAmbient" FadeLength="2.0" />
 		<AtmoFriction Target="AtmoFriction" FadeLength="2.0" />
 		<DamageShield Target="DamageShieldSmall" />
 		<DamagePower Target="DamagePowerSmall" />
 		<DamageEngine Target="DamageEngineSmall" />
+		<TurboBoost Target="BoostStart" />
 	</CClientAudioComponent>
 	<CClientActorComponent>
 		<ControlScheme>Target</ControlScheme>
@@ -506,7 +507,7 @@
 		<RechargeRate>1.5</RechargeRate>
 	</CShieldComponent>
 	<CWarpComponent>
-		<ChargeDuration>5.0</ChargeDuration>
+		<ChargeDuration>4.0</ChargeDuration>
 		<Cooldown>8.0</Cooldown>
 		<MinWarpSpeed>0.240</MinWarpSpeed>
 	</CWarpComponent>

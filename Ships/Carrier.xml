@@ -745,7 +745,7 @@
 		<DyingEffect>DyingExplosion</DyingEffect>
 		<DyingEffectScale>1.50</DyingEffectScale>
 		<DeathExplosions>25</DeathExplosions>
-		<DeathCoreEffect>BlueShockwave2</DeathCoreEffect>
+		<DeathCoreEffect>BlueShockwave</DeathCoreEffect>
 		<DeathCoreEffectScale>60.0</DeathCoreEffectScale>
 		<DeathEffect>CapShipExplosionCore</DeathEffect>
 		<DeathEffectScale>6.0</DeathEffectScale>
@@ -785,8 +785,8 @@
         </Camera>
     </CClientCameraViewComponent>
 	<CClientAudioComponent>
-		<SideThruster Target="SideThrusterBig" DistRangeScale="0.25" FadeLength="0.5" />
-		<MainThruster Target="MainThrusterHeavy2" DistRangeScale="0.4" FadeLength="2.0" />
+		<SideThruster Target="SideThrusterBig" DistRangeScale="0.08" FadeLength="0.5" />
+		<MainThruster Target="MainThrusterHeavy2" DistRangeScale="0.47" FadeLength="2.0" />
 		<EngineIdle Target="EngineIdleHeavy1" FadeLength="2.0" />
 		<EngineFast Target="EngineFastHeavy2" FadeLength="2.0" />
 		<WarpAmbient Target="WarpAmbient" FadeLength="2.0" />

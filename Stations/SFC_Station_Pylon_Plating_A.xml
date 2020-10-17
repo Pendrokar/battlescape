@@ -1,17 +1,15 @@
 <Filter>
 	<Condition Target="Client">
-		<Object Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Plating_A_Lod0" >
-			<LOD Level="1" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Plating_A_Lod1" />
-			<LOD Level="2" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Plating_A_Lod2" />
-			<LOD Level="3" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Plating_A_Lod3" />
-			<LOD Level="4" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Plating_A_Lod4" />
-			<LOD Level="5" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Plating_A_Lod5" />
-			<LOD Level="6" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Plating_A_Lod6" />
+		<Object Mesh="Structures/StationModules_SFC/SM_SFC_Station_Pylon_Plating_A_Lod0" >
+			<LOD Level="1" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Pylon_Plating_A_Lod1" />
+			<LOD Level="2" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Pylon_Plating_A_Lod2" />
+			<LOD Level="3" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Pylon_Plating_A_Lod3" />
+			<LOD Level="4" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Pylon_Plating_A_Lod4" />
 			<LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
 
 			<PhysicsBody Type="Mesh" >
-		        <CollisionFile>$Dev/Structures/SFC-Stations/8663b5e2.insm</CollisionFile>
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/9023ad55.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 
@@ -89,7 +87,7 @@
 	<Condition Target="Server">
 		<TransformNode >
 		     <PhysicsBody Type="Mesh" >
-		        <CollisionFile>$Dev/Structures/SFC-Stations/8663b5e2.insm</CollisionFile>
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/9023ad55.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			<Module>
