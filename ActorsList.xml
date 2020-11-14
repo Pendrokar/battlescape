@@ -22,6 +22,7 @@
     <ActorType ClassName="Martian" ConfigFile="$Dev/Config/Planets2/Martian.xml" />
     <ActorType ClassName="Volcanic" ConfigFile="$Dev/Config/Planets2/Volcanic.xml" />
     <ActorType ClassName="Asteroid" ConfigFile="$Dev/Config/Planets2/Asteroid.xml" />
+    <ActorType ClassName="Rygol" ConfigFile="$Dev/Config/Planets2/Rygol.xml" />
     <ActorType ClassName="Icy" ConfigFile="$Dev/Config/Planets2/Icy.xml" />
     <ActorType ClassName="SFC_Factory_1_small" ConfigFile="$Dev/Config/Factories/Assembled/SFC_Factory_1_small.xml" />
     <ActorType ClassName="SFC_Military_1" ConfigFile="$Dev/Config/Military/Assembled/SFC_Military_1.xml" />

@@ -34,12 +34,9 @@
     	<MainColor X="0.911" Y="0.242" Z="0.0065" W="1" />
     	<SecColor X="0.8" Y="0.45" Z="0.0024" W="1" />
         <ShieldColor X="0.0" Y="0.871" Z="1.0" W="1" />
-        <AlertColor X="1.0" Y="0.08" Z="0.0" W="1" />
+        <AlertColor X="1.0" Y="0.8" Z="0.05" W="1" />
         <DangerColor X="1.0" Y="0.0" Z="0.0" W="1" />
     	<NeutralColor X="0.5" Y="0.5" Z="0.5" W="1" />
         <WarpColor X="0.318" Y="0.158" Z="1.0" W="1" />
-    	<MenuBackgroundColor X="0.5" Y="0.1" Z="0.0" W="1" />
-    	<MenuForegroundColor X="0.9" Y="0.3" Z="0.06" W="1" />
-    	<MenuSelectionColor X="1.0" Y="1.0" Z="0.2" W="1" />
 	</ColorTheme>
 </ColorThemes>

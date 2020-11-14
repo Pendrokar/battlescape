@@ -19,6 +19,9 @@
 				<Class>DockingSpawn</Class>
 				<HitPoints>30000</HitPoints>
 				<Score>70</Score>
+				<SpawnNameTag>HUD_Docking</SpawnNameTag>
+				<SpawnNamePos X="0" Y="0.1" Z="-0.5" />
+				<MarkerMesh>Structures/LandingMarkers/SM_Capship_hangar</MarkerMesh>
 			    <Spawn>
 					<Type>Capship</Type>
 			        <Size X="0.600" Y="1.500" Z="0.200" Type="3dsMax" />

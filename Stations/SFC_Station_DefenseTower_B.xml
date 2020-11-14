@@ -2,9 +2,6 @@
 	<Condition Target="Client">
 		<Object Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_B_Lod0" >
             <LOD Level="1" Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_B_Lod1" />
-            <LOD Level="2" Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_B_Lod2" />
-            <LOD Level="3" Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_B_Lod3" />
-            <LOD Level="4" Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_B_Lod4" />
 			<LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
 			<PhysicsBody Type="Mesh" >

@@ -65,7 +65,7 @@
 	        <AsteroidField ImpostorFactor="2.5" >
 				<Cache>
 					<Mode>Time</Mode>
-					<Time>0.5</Time>
+					<Time>10.0</Time>
 				</Cache>
 	            <Meshes>
 	                <Mesh ID="0" Name="Celestial/Asteroids/BigA01/SM_BigA01" CollName="" CollFile="$Dev/Celestial/Asteroids/BigA01/e4fc0bb4.insm" />
@@ -129,31 +129,6 @@
 	        <BetaMEx Red="0.0100" Green="0.0210" Blue="0.0130" />
 			<HM Value="4.0" />
 			<G Value="0.7" />
-
-<!-- 			<Thickness Value="80.0" />
-			<BetaR Red="0.0010" Green="0.0030" Blue="0.0150" />
-			<HR Value="12.0" />
-	        <BetaMSca Red="0.0110" Green="0.0220" Blue="0.0150" />
-	        <BetaMEx Red="0.0100" Green="0.0210" Blue="0.0130" />
-			<HM Value="8.0" />
-			<G Value="0.7" /> -->
-
-<!-- 			<Thickness Value="80.0" />
-			<BetaR Red="0.0010" Green="0.0030" Blue="0.0150" />
-			<HR Value="8.0" />
-	        <BetaMSca Red="0.0440" Green="0.0880" Blue="0.0600" />
-	        <BetaMEx Red="0.0400" Green="0.0840" Blue="0.0520" />
-			<HM Value="4.0" />
-			<G Value="0.5" /> -->
-
-<!-- 			<Thickness Value="80.0" />
-			<BetaR Red="0.0010" Green="0.0030" Blue="0.0150" />
-			<HR Value="8.0" />
-	        <BetaMSca Red="0.0440" Green="0.0880" Blue="0.0600" />
-	        <BetaMEx Red="0.0400" Green="0.0840" Blue="0.0520" />
-			<HM Value="15.0" />
-			<G Value="0.5" /> -->
-
 		</Atmosphere>
 	    <Ground State="true" >
 	        <Patch TexRes="512" />
@@ -242,7 +217,7 @@
 	                <Mesh ID="4" Proba="0.5" MinSize="0.08" MaxSize="0.1" />
 	                <Mesh ID="5" Proba="0.5" MinSize="0.08" MaxSize="0.1" />
 	            </Level>
-	
+
 	            <Level Depth="15" Count="0" >
 	            </Level>
 

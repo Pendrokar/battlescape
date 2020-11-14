@@ -29,7 +29,7 @@
 	</CServerActorComponent>
 	<CActorComponent>
     	<Indicator>Structure</Indicator>
-		<SurfaceType>Rock</SurfaceType>
+		<SurfaceType>Surface</SurfaceType>
 		<ClassAbbrev>AST</ClassAbbrev>
 		<ClassName>ASTEROID</ClassName>
 	</CActorComponent>

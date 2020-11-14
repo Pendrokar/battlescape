@@ -16,7 +16,7 @@
 	</CServerSensorComponent>
 	<CActorComponent>
     	<Indicator>Planet</Indicator>
-		<SurfaceType>Rock</SurfaceType>
+		<SurfaceType>Surface</SurfaceType>
 	</CActorComponent>
 	<CClientActorComponent>
 		<MapIcon>Asteroid</MapIcon>

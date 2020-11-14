@@ -5,12 +5,10 @@
 			<LOD Level="2" Mesh="Structures/StationModules_SFC/SM_SFC_Station_FighterBay_Lod2" />
 			<LOD Level="3" Mesh="Structures/StationModules_SFC/SM_SFC_Station_FighterBay_Lod3" />
 			<LOD Level="4" Mesh="Structures/StationModules_SFC/SM_SFC_Station_FighterBay_Lod4" />
-			<LOD Level="5" Mesh="Structures/StationModules_SFC/SM_SFC_Station_FighterBay_Lod5" />
 			<LODPower>0.5</LODPower>
 			<RejectionSize>0.005</RejectionSize>
 
 			<PhysicsBody Type="Mesh" >
-<!-- 		        <CollisionFile>$Dev/Structures/SFC-Stations/ad7d0467.insm</CollisionFile> -->
 		        <CollisionFile>$Dev/Structures/StationModules_SFC/c805b9db.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
@@ -302,6 +300,9 @@
 		        <Class>HangarSpawn</Class>
 				<HitPoints>6000</HitPoints>
 				<Score>25</Score>
+				<SpawnNameTag>HUD_Hangar</SpawnNameTag>
+				<SpawnNamePos X="0" Y="0" Z="0.3" />
+				<MarkerMesh>Structures/LandingMarkers/SM_FighterHangar_new</MarkerMesh>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />

@@ -92,14 +92,9 @@
 				<HitPoints>6000</HitPoints>
 				<Score>25</Score>
 				<MapToPlanet>true</MapToPlanet>
-<!-- 			    <Spawn>
-					<Type>Fighter</Type>
-			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="-0.0425" Y="0.194" Z="-0.0071" />
-			        <Rotation X="0" Y="0" Z="0" W="1" />
-					<AlignDir X="0.0" Y="1.0" Z="0.0" />
-			        <Offset X="0" Y="0" Z="0" />
-			    </Spawn> -->
+				<SpawnNameTag>HUD_Hangar</SpawnNameTag>
+				<SpawnNamePos X="0" Y="0.21" Z="0.2" />
+				<MarkerMesh>Structures/LandingMarkers/SM_FactoryHangar</MarkerMesh>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
@@ -112,6 +107,14 @@
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
 			        <Position X="0.0632" Y="0.1934" Z="-0.0344" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+					<AlignDir X="0.0" Y="1.0" Z="0.0" />
+			        <Offset X="0" Y="0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Corvette</Type>
+			        <Size X="0.069" Y="0.057" Z="0.102" />
+			        <Position X="-0.046" Y="0.194" Z="0.000" />
 			        <Rotation X="0" Y="0" Z="0" W="1" />
 					<AlignDir X="0.0" Y="1.0" Z="0.0" />
 			        <Offset X="0" Y="0" Z="0" />
@@ -130,14 +133,6 @@
 				<HitPoints>6000</HitPoints>
 				<Score>25</Score>
 				<MapToPlanet>true</MapToPlanet>
-<!-- 			    <Spawn>
-					<Type>Fighter</Type>
-			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="-0.0425" Y="0.194" Z="-0.0071" />
-			        <Rotation X="0" Y="0" Z="0" W="1" />
-					<AlignDir X="0.0" Y="1.0" Z="0.0" />
-			        <Offset X="0" Y="0" Z="0" />
-			    </Spawn> -->
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
@@ -150,6 +145,14 @@
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
 			        <Position X="0.0632" Y="0.1934" Z="-0.0344" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+					<AlignDir X="0.0" Y="1.0" Z="0.0" />
+			        <Offset X="0" Y="0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Corvette</Type>
+			        <Size X="0.069" Y="0.057" Z="0.102" />
+			        <Position X="-0.046" Y="0.194" Z="0.000" />
 			        <Rotation X="0" Y="0" Z="0" W="1" />
 					<AlignDir X="0.0" Y="1.0" Z="0.0" />
 			        <Offset X="0" Y="0" Z="0" />

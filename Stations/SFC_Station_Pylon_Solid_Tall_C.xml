@@ -5,13 +5,6 @@
 			<LOD Level="2" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Pylon_Solid_Tall_C_Lod2" />
 			<LOD Level="3" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Pylon_Solid_Tall_C_Lod3" />
 			<LOD Level="4" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Pylon_Solid_Tall_C_Lod4" />
-<!-- 		<Object Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Solid_Tall_C_Lod0" >
-			<LOD Level="1" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Solid_Tall_C_Lod1" />
-			<LOD Level="2" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Solid_Tall_C_Lod2" />
-			<LOD Level="3" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Solid_Tall_C_Lod3" />
-			<LOD Level="4" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Solid_Tall_C_Lod4" />
-			<LOD Level="5" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Solid_Tall_C_Lod5" />
-			<LOD Level="6" Mesh="Structures/SFC-Stations/SM_SFC_Station_Pylon_Solid_Tall_C_Lod6" /> -->
 			<LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
 

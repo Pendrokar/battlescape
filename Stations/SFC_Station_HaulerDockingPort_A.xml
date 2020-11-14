@@ -13,6 +13,8 @@
 				<Class>DockingSpawn</Class>
 				<HitPoints>35000</HitPoints>
 				<Score>50</Score>
+				<SpawnNameTag>HUD_Docking</SpawnNameTag>
+				<SpawnNamePos X="0" Y="0" Z="0.0" />
 			    <Spawn>
 					<Type>Hauler</Type>
 			        <Size X="0.200" Y="0.500" Z="0.100" Type="3dsMax" />

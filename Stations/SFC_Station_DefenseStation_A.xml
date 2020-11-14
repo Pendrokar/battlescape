@@ -4,7 +4,6 @@
             <LOD Level="1" Mesh="Structures/SFC_StaticDefense/SM_SFC_ExternalDefenseTower_Lod1" />
             <LOD Level="2" Mesh="Structures/SFC_StaticDefense/SM_SFC_ExternalDefenseTower_Lod2" />
             <LOD Level="3" Mesh="Structures/SFC_StaticDefense/SM_SFC_ExternalDefenseTower_Lod3" />
-            <LOD Level="4" Mesh="Structures/SFC_StaticDefense/SM_SFC_ExternalDefenseTower_Lod4" />
 			<LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
 			<PhysicsBody Type="Mesh" >

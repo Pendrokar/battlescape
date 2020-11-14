@@ -13,7 +13,7 @@
 				<Max X="0.002" Y="0.002" Z="0.002" />
 			</HitBox>
 		</Mesh>
-		<HitPoints>20</HitPoints>
+		<HitPoints>30</HitPoints>
 		<Sockets>
 			<Attach>$Dev/Ships/Weapons/ForwardFacing/baa4d62e.insm</Attach>
 		</Sockets>
@@ -79,6 +79,13 @@
 				<EffectSelf>ImpactShieldSmallSelfKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>0.25</Scale>
+				<ScaleSelf>0.25</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.002</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -97,7 +104,7 @@
 				<Max X="0.002" Y="0.002" Z="0.002" />
 			</HitBox>
 		</Mesh>
-		<HitPoints>25</HitPoints>
+		<HitPoints>40</HitPoints>
 		<Sockets>
 			<Attach>$Dev/Ships/Weapons/ForwardFacing/f3774b38.insm</Attach>
 		</Sockets>
@@ -166,6 +173,13 @@
 				<EffectSelf>ImpactShieldSmallSelfKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>0.25</Scale>
+				<ScaleSelf>0.25</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.002</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -184,7 +198,7 @@
 				<Max X="0.002" Y="0.002" Z="0.002" />
 			</HitBox>
 		</Mesh>
-		<HitPoints>20</HitPoints>
+		<HitPoints>30</HitPoints>
 		<Sockets>
 			<Attach>$Dev/Ships/Weapons/ForwardFacing/ab1c2e74.insm</Attach>
 		</Sockets>
@@ -236,13 +250,20 @@
 			<Metal>
 				<Effect>ImpactMetalSmallEnergy</Effect>
 				<EffectSelf>ImpactMetalSmallSelfEnergy</EffectSelf>
-				<Offset>0.004</Offset>
+				<Offset>0.01</Offset>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldSmallEnergy</Effect>
 				<EffectSelf>ImpactShieldSmallSelfEnergy</EffectSelf>
 				<Offset>0.001</Offset>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>0.25</Scale>
+				<ScaleSelf>0.25</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.002</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -261,7 +282,7 @@
 				<Max X="0.002" Y="0.002" Z="0.002" />
 			</HitBox>
 		</Mesh>
-		<HitPoints>20</HitPoints>
+		<HitPoints>30</HitPoints>
 		<Sockets>
 			<Attach>$Dev/Ships/Weapons/ForwardFacing/baa4d62e.insm</Attach>
 		</Sockets>
@@ -327,6 +348,13 @@
 				<EffectSelf>ImpactShieldSmallSelfKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>0.25</Scale>
+				<ScaleSelf>0.25</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.002</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -357,7 +385,7 @@
 				<Max X="0.010" Y="0.010" Z="0.010" />
 			</HitBox>
 		</Mesh>
-		<HitPoints>80</HitPoints>
+		<HitPoints>120</HitPoints>
 		<Sockets>
 			<Attach>$Dev/Ships/Weapons/Mk4_Single/7f1ce4fe.insm</Attach>
 			<Base>$Dev/Ships/Weapons/Mk4_Single/95324bac.insm</Base>
@@ -430,6 +458,13 @@
 				<Scale>1.0</Scale>
 				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>0.5</Scale>
+				<ScaleSelf>0.5</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.005</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -460,7 +495,7 @@
 				<Max X="0.010" Y="0.010" Z="0.010" />
 			</HitBox>
 		</Mesh>
-		<HitPoints>80</HitPoints>
+		<HitPoints>120</HitPoints>
 		<Sockets>
 			<Attach>$Dev/Ships/Weapons/Mk4_Single/7f1ce4fe.insm</Attach>
 			<Base>$Dev/Ships/Weapons/Mk4_Single/95324bac.insm</Base>
@@ -527,6 +562,13 @@
 				<Scale>1.75</Scale>
 				<ScaleSelf>1.75</ScaleSelf>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>0.5</Scale>
+				<ScaleSelf>0.5</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.005</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -557,7 +599,7 @@
 				<Max X="0.010" Y="0.010" Z="0.010" />
 			</HitBox>
 		</Mesh>
-		<HitPoints>125</HitPoints>
+		<HitPoints>150</HitPoints>
 		<Sockets>
 			<Attach>$Dev/Ships/Weapons/Mk4_Single/7f1ce4fe.insm</Attach>
 			<Base>$Dev/Ships/Weapons/Mk4_Single/95324bac.insm</Base>
@@ -632,6 +674,13 @@
 				<Scale>1.0</Scale>
 				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>0.5</Scale>
+				<ScaleSelf>0.5</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.005</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -662,7 +711,7 @@
 				<Max X="0.010" Y="0.010" Z="0.010" />
 			</HitBox>
 		</Mesh>
-		<HitPoints>125</HitPoints>
+		<HitPoints>150</HitPoints>
 		<Sockets>
 			<Attach>$Dev/Ships/Weapons/Mk4_Single/7f1ce4fe.insm</Attach>
 			<Base>$Dev/Ships/Weapons/Mk4_Single/95324bac.insm</Base>
@@ -731,6 +780,13 @@
 				<Scale>1.75</Scale>
 				<ScaleSelf>1.75</ScaleSelf>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>0.5</Scale>
+				<ScaleSelf>0.5</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.005</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -838,6 +894,13 @@
 				<Scale>1.5</Scale>
 				<ScaleSelf>1.5</ScaleSelf>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>1.0</Scale>
+				<ScaleSelf>1.0</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.01</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -936,6 +999,13 @@
 				<Scale>1.0</Scale>
 				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>1.0</Scale>
+				<ScaleSelf>1.0</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.01</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -1040,6 +1110,13 @@
 				<Scale>1.5</Scale>
 				<ScaleSelf>1.5</ScaleSelf>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>2.0</Scale>
+				<ScaleSelf>2.0</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.02</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -1144,6 +1221,13 @@
 				<Scale>2.0</Scale>
 				<ScaleSelf>2.0</ScaleSelf>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>4.0</Scale>
+				<ScaleSelf>4.0</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.04</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -1422,6 +1506,13 @@
 				<Scale>1.0</Scale>
 				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>0.5</Scale>
+				<ScaleSelf>0.5</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.005</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -1521,6 +1612,13 @@
 				<Scale>1.75</Scale>
 				<ScaleSelf>1.75</ScaleSelf>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>0.5</Scale>
+				<ScaleSelf>0.5</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.005</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -1625,6 +1723,13 @@
 				<Scale>1.5</Scale>
 				<ScaleSelf>1.5</ScaleSelf>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>1.0</Scale>
+				<ScaleSelf>1.0</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.01</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -1723,6 +1828,13 @@
 				<Scale>1.0</Scale>
 				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>1.0</Scale>
+				<ScaleSelf>1.0</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.01</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -1827,6 +1939,13 @@
 				<Scale>1.5</Scale>
 				<ScaleSelf>1.5</ScaleSelf>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>2.0</Scale>
+				<ScaleSelf>2.0</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.02</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -2064,6 +2183,13 @@
 				<Offset>0.0025</Offset>
 				<Scale>2.0</Scale>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>2.0</Scale>
+				<ScaleSelf>2.0</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.01</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -2148,6 +2274,13 @@
 				<EffectSelf>ImpactShieldSmallSelfKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>0.25</Scale>
+				<ScaleSelf>0.25</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.002</SmokeDamageScale>
 		</Impact>
 	</Weapon>
@@ -2251,6 +2384,13 @@
 				<Scale>1.0</Scale>
 				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>1.0</Scale>
+				<ScaleSelf>1.0</ScaleSelf>
+			</Surface>
 			<SmokeDamageScale>0.005</SmokeDamageScale>
 		</Impact>
 	</Weapon>

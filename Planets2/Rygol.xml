@@ -1,0 +1,155 @@
+<ActorConfig>
+	<Meta>
+		<ActorType>Planet</ActorType>
+	</Meta>
+	<CNodeComponent>
+		<TransformNode>
+		</TransformNode>
+	</CNodeComponent>
+	<CServerActorComponent>
+		<Name>Rygol</Name>
+		<NetworkRange>0.0005</NetworkRange>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>400000000.0</EmissionsRange>
+		<SensorPower>0.0</SensorPower>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>Planet</Indicator>
+		<SurfaceType>Surface</SurfaceType>
+	</CActorComponent>
+	<CClientActorComponent>
+		<MapIcon>Moon</MapIcon>
+		<MapColor X="0.407" Y="0.675" Z="0.258" W="1" />
+	</CClientActorComponent>
+	<CBodyComponent>
+	</CBodyComponent>
+	<CPlanetComponent>
+		<Type>Rygol</Type>
+		<Radius>4250.0</Radius>
+		<RotationSpeed Value="0.0" />
+        <GravityMass>2.83e20</GravityMass>
+	    <Ground State="true" >
+	        <Patch TexRes="512" />
+	        <SeaLevel Value="0.0" />
+	        <Slope Power="0.8" />
+	        <Fractal Altitude="0.1" Slope="0.7" />
+			<Elevation Min="0.0" Max="24.0" />
+	    </Ground>
+		<Atmosphere>
+			<Density>80.0</Density>
+			<Decay>0.25</Decay>
+		</Atmosphere>
+	</CPlanetComponent>
+	<CClientPlanetComponent>
+	    <Global>
+	        <Radius Value="4250.0" />
+	        <RotationSpeed Value="0.0" />
+	        <Position X="0" Y="0" Z="0" />
+	    </Global>  
+	    <Atmosphere State="true" >
+	        <Thickness Value="120.0" />
+			<BetaR Red="0.0100" Green="0.0340" Blue="0.0210" />
+			<HR Value="8.0" />
+	        <BetaMSca Red="0.010" Green="0.020" Blue="0.10" />
+	        <BetaMEx Red="0.014" Green="0.024" Blue="0.12" />
+			<HM Value="4.0" />
+			<G Value="0.8" />
+	    </Atmosphere>
+	    <Ground State="true" >
+	        <Patch TexRes="512" />
+	        <SeaLevel Value="0.0" />
+	        <Slope Power="0.8" />
+	        <Fractal Altitude="0.1" Slope="0.7" />
+			<Elevation Min="0.0" Max="24.0" />
+	    </Ground>
+	    <Ocean State="false" />
+	    <Cloud State="false" />
+	    <Material>
+	        <Noise Value="DblEmu" />
+	        <Wireframe Value="0" />
+	        <Culling Value="Back" />
+	        <BlendedNoise Freq1="46.0" Freq2="23.0" Freq3="3000.0" Weight1="0.2" Weight2="0.8" Weight3="0" />
+	    </Material>
+	    <Layers>
+	    	<Layer ID="0" DiffuseTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackD:1" NormalTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackN:1" RoughnessInAlpha="true" >
+				<DiffuseColor X="1.0" Y="0.6" Z="0.40" W="1.0" />
+			</Layer>
+	    	<Layer ID="1" DiffuseTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackD:2" NormalTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackN:2" RoughnessInAlpha="true" >
+				<DiffuseColor X="0.9" Y="0.8" Z="0.7" W="1.0" />
+			</Layer>
+	    	<Layer ID="2" DiffuseTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackD:6" NormalTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackN:6" RoughnessInAlpha="true" >
+				<DiffuseColor X="0.7" Y="0.6" Z="0.4" W="1.0" />
+			</Layer>
+	    	<Layer ID="3" DiffuseTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackD:3" NormalTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackN:3" RoughnessInAlpha="true" >
+			</Layer>
+	    	<Layer ID="4" DiffuseTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackD:4" NormalTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackN:4" RoughnessInAlpha="true" >
+				<DiffuseColor X="0.8" Y="0.8" Z="0.7" W="1.0" />
+			</Layer>
+	    	<Layer ID="5" DiffuseTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackD:6" NormalTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackN:6" RoughnessInAlpha="true" >
+				<DiffuseColor X="0.8" Y="0.9" Z="0.6" W="1.0" />
+			</Layer>
+	    	<Layer ID="6" DiffuseTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackD:0" NormalTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackN:0" RoughnessInAlpha="true" >
+				<DiffuseColor X="0.8" Y="1.0" Z="0.7" W="1.0" />
+			</Layer>
+	    	<Layer ID="7" DiffuseTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackD:5" NormalTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackN:5" RoughnessInAlpha="true" >
+				<DiffuseColor X="1.0" Y="0.9" Z="0.8" W="1.0" />
+			</Layer>
+	    	<Layer ID="8" DiffuseTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackD:0" NormalTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackN:0" RoughnessInAlpha="true" >
+				<DiffuseColor X="1.0" Y="0.95" Z="0.9" W="1.0" />
+			</Layer>
+	    	<Layer ID="9" DiffuseTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackD:6" NormalTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackN:6" RoughnessInAlpha="true" >
+				<DiffuseColor X="1.0" Y="0.85" Z="0.6" W="1.0" />
+			</Layer>
+	    </Layers>
+	    <Rules>
+	        <Biome ID="0">
+	        	<Rule ID="0" ParentID="-1" Layer1="8" Layer2="8" AltMin="0.0" AltMax="1.0" SlopeMin="0" SlopeMax="1" />
+	    	    <Rule ID="1" ParentID="0" Layer1="1" Layer2="1" AltMin="0.0" AltMax="0.35" SlopeMin="0.76" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.0" AltMaxDelta="0.1" />
+	    	    <Rule ID="2" ParentID="0" Layer1="2" Layer2="2" AltMin="0.35" AltMax="0.45" SlopeMin="0.78" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.1" AltMaxDelta="0.06" />
+	    	    <Rule ID="3" ParentID="0" Layer1="9" Layer2="9" AltMin="0.45" AltMax="0.55" SlopeMin="0.72" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.06" AltMaxDelta="0.04" />
+	    	    <Rule ID="4" ParentID="0" Layer1="5" Layer2="5" AltMin="0.55" AltMax="0.65" SlopeMin="0.80" SlopeMax="1.0" AltMinDelta="0.04" AltMaxDelta="0.05" />
+	    	    <Rule ID="5" ParentID="0" Layer1="0" Layer2="0" AltMin="0.65" AltMax="0.8" SlopeMin="0.75" SlopeMax="1.0" AltMinDelta="0.05" AltMaxDelta="0.05" />
+	    	    <Rule ID="6" ParentID="0" Layer1="8" Layer2="2" AltMin="0.8" AltMax="0.95" SlopeMin="0.76" SlopeMax="1.0" AltMinDelta="0.05" AltMaxDelta="0.06" />
+	    	    <Rule ID="7" ParentID="0" Layer1="9" Layer2="9" AltMin="0.95" AltMax="1.0" SlopeMin="0.65" SlopeMax="1.0" SlopeMinDelta="" SlopeMaxDelta="" AltMinDelta="0.06" AltMaxDelta="0.0" />
+	         	<Rule ID="8" ParentID="0" Layer1="3" Layer2="3" AltMin="0.02" AltMax="1.0" SlopeMin="0.0" SlopeMax= "0.73" SlopeMinDelta="0" SlopeMaxDelta="0.06" AltMinDelta="0.1" AltMaxDelta="" />
+	    	    <Rule ID="9" ParentID="0" Layer1="4" Layer2="4" AltMin="0.02" AltMax="1.0" SlopeMin="0.0" SlopeMax="0.68" SlopeMinDelta="0" SlopeMaxDelta="0.06" AltMinDelta="0.05" AltMaxDelta="0.05" />
+				<Rule ID="10" ParentID="0" Layer1="7" Layer2="7" AltMin="0.0" AltMax="0.2" SlopeMin="0.0" SlopeMax="0.8" SlopeMinDelta="0." SlopeMaxDelta="0.04" AltMinDelta="" AltMaxDelta="0.15" />
+		    </Biome>
+	    </Rules>
+		<WindGrid>
+			<MinAltitude>1.0</MinAltitude>
+			<MeanAltitude>10.0</MeanAltitude>
+			<GridDimension>13</GridDimension>
+			<GridSize>1.0</GridSize>
+
+			<DustEffect>WindDust</DustEffect>
+			<DustProbaOffset>0.3</DustProbaOffset>
+			<DustProbaScale>1.0</DustProbaScale>
+			<DustColor X="0.1" Y="0.08" Z="0.05" W="1" />
+			<DustAlpha>2.0</DustAlpha>
+			<DustAmbient>0.3</DustAmbient>
+			<DustOctaves>6</DustOctaves>
+			<DustLacunarity>2.0</DustLacunarity>
+			<DustHFactor>0.5</DustHFactor>
+			<DustFrequency>0.05</DustFrequency>
+
+			<WindIntensity>0.3</WindIntensity>
+			<WindOctaves>6</WindOctaves>
+			<WindLacunarity>2.0</WindLacunarity>
+			<WindHFactor>0.5</WindHFactor>
+			<WindIntensityOffset>0.0</WindIntensityOffset>
+			<WindIntensityScale>1.0</WindIntensityScale>
+			<WindFrequency>0.05</WindFrequency>
+		</WindGrid>
+		<Sounds>
+			<Sound>
+				<Name>AmbientWind</Name>
+				<Volume>0.5</Volume>
+				<Altitude X="0.0" Y="1000.0" />
+				<Falloff>0.5</Falloff>
+				<Wind>5.0</Wind>
+			</Sound>
+		</Sounds>
+	</CClientPlanetComponent>
+</ActorConfig>

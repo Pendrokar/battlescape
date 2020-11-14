@@ -547,7 +547,7 @@
 				<position x="0" y="0.079000003635883331" z="-0.017999997362494469" Type="3dsMax"/>
 				<Cutoff>2048.0</Cutoff>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Name>ObserverLights012</Name>
 				<Color X="1.0" Y="1.0" Z="1.0" />
@@ -595,6 +595,9 @@
 		        <Class>HangarSpawn</Class>
 				<HitPoints>12000</HitPoints>
 				<Score>40</Score>
+				<SpawnNameTag>HUD_Hangar</SpawnNameTag>
+				<SpawnNamePos X="0" Y="0" Z="0.3" />
+				<MarkerMesh>Structures/LandingMarkers/SM_FighterHangar</MarkerMesh> <!--  On purpose, there's a dedicated corvette bay marker but it's just flying arrows -->
 			    <Spawn>
 					<!-- In 3ds max, length and width are flipped; units are meters instead of Km so values are x1000
 					For example for this spawn, this means a box at position (55, -127, -35) and size (102, 69, 57) -->

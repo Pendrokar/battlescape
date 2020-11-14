@@ -682,7 +682,7 @@
 			<ViewAngle X="0.039" Y="4.711" />
         </Camera>
     </CClientCameraViewComponent>
-    <CClientExternalCockpitComponent>      
+    <CClientExternalCockpitComponent>
         <Object Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_cockpit_Lod0" >
             <LOD Level="1" Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_cockpit_Lod1" />
             <LOD Level="2" Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_cockpit_Lod2" />
@@ -1094,7 +1094,7 @@
 			</Light>
 
         </Object>
-        <ViewPosition X="-0.00022" Y="0.00416" Z="0.02978" />
+        <ViewPosition X="-0.00037" Y="0.00416" Z="0.02978" />
         <AlertLight>
              <Light Type="PointLight" >
                 <Color X="1" Y="0.25" Z="0.05" />

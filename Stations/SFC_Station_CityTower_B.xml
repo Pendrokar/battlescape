@@ -7,18 +7,10 @@
 			<LOD Level="4" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CityTower_B_Lod4" />
 			<LOD Level="5" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CityTower_B_Lod5" />
 			<LOD Level="6" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CityTower_B_Lod6" />
-<!-- 		<Object Mesh="Structures/SFC-Stations/SM_SFC_Station_CityTower_B_Lod0" >
-			<LOD Level="1" Mesh="Structures/SFC-Stations/SM_SFC_Station_CityTower_B_Lod1" />
-			<LOD Level="2" Mesh="Structures/SFC-Stations/SM_SFC_Station_CityTower_B_Lod2" />
-			<LOD Level="3" Mesh="Structures/SFC-Stations/SM_SFC_Station_CityTower_B_Lod3" />
-			<LOD Level="4" Mesh="Structures/SFC-Stations/SM_SFC_Station_CityTower_B_Lod4" />
-			<LOD Level="5" Mesh="Structures/SFC-Stations/SM_SFC_Station_CityTower_B_Lod5" />
-			<LOD Level="6" Mesh="Structures/SFC-Stations/SM_SFC_Station_CityTower_B_Lod6" /> -->
 			<LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
 
 		    <PhysicsBody Type="Mesh" >
-<!-- 		        <CollisionFile>$Dev/Structures/SFC-Stations/c65cbd45.insm</CollisionFile> -->
 		        <CollisionFile>$Dev/Structures/StationModules_SFC/7d76b0c6.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
@@ -81,7 +73,6 @@
 	<Condition Target="Server">
 		<TransformNode >
 		     <PhysicsBody Type="Mesh" >
-<!-- 		        <CollisionFile>$Dev/Structures/SFC-Stations/c65cbd45.insm</CollisionFile> -->
 		        <CollisionFile>$Dev/Structures/StationModules_SFC/7d76b0c6.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>

@@ -47,10 +47,21 @@
 	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Lights_main" To="Structures/StationModules_SFC/MI_SFC_Stations_Lights_main_destroyed" />
 	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_MegaPlating_main" To="Structures/StationModules_SFC/MI_SFC_Stations_MegaPlating_main_destroyed" />
 	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Pipes" To="Structures/StationModules_SFC/MI_SFC_Stations_Pipes_destroyed" />
+	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Station_tank_03_main" To="Structures/StationModules_SFC/MI_SFC_Stations_Station_tank_03_main_destroyed" />
 	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Stripes_main" To="Structures/StationModules_SFC/MI_SFC_Stations_Stripes_main_destroyed" />
 	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Strips_main" To="Structures/StationModules_SFC/MI_SFC_Stations_Strips_main_destroyed" />
 	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Truss_main" To="Structures/StationModules_SFC/MI_SFC_Stations_Truss_main_destroyed" />
 	<Damage From="Structures/StationModules_SFC/MI_SFC_Stations_Windows" To="Structures/StationModules_SFC/MI_SFC_Stations_Windows_destroyed" />
+	<Damage From="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Crate_main" To="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Crate_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Deckplating" To="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Deckplating_destroyed" />
+	<Damage From="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Industrial_main" To="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Industrial_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Lights_main" To="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Lights_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_MegaPlating_main" To="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_MegaPlating_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Pipes" To="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Pipes_destroyed" />
+	<Damage From="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Stripes_main" To="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Stripes_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Strips_main" To="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Strips_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Truss_main" To="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Truss_main_destroyed" />
+	<Damage From="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Windows" To="Structures/StationModules_SFC/Hubs/MI_SFC_Stations_Windows_destroyed" />
 </Materials>
 
 

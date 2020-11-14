@@ -182,6 +182,24 @@
 		</Vibrations>
 	</Effect>
 
+	<Effect>
+		<Name>ImpactDirtSmallKinetic</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Kinetic_vs_Ground_Medium</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="1.0" Y="0.7" Z="0.5" />
+		<LightIntensity>100000000.0</LightIntensity>
+		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>ImpactGunGround</Name>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.5</DuplicateLength>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
+		</Vibrations>
+	</Effect>
+
 	<!-- Energy impacts -->
 
 	<Effect>
@@ -325,6 +343,24 @@
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.05</Amplitude>
+		</Vibrations>
+	</Effect>
+
+	<Effect>
+		<Name>ImpactDirtSmallEnergy</Name>
+		<ParticleSystem>Particles/Impacts/Effects/P_Impact_Kinetic_vs_Ground_Medium</ParticleSystem>
+		<Scale>0.20</Scale>
+		<LightColor X="0.2" Y="0.3" Z="1.0" />
+		<LightIntensity>100000000.0</LightIntensity>
+		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+		<LightDuration>0.5</LightDuration>
+		<Sound>
+			<Name>ImpactBlasterGround</Name>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.5</DuplicateLength>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
 		</Vibrations>
 	</Effect>
 

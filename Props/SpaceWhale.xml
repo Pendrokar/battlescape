@@ -1,9 +1,9 @@
 <ActorConfig>
 	<CClientNodeComponent>
-        <Object Mesh="Cockpits/Bobbleheads/Spacewhale/SM_Bobblehead_spacewhale_base" >
+        <Object Mesh="Cockpits/Bobbleheads/Spacewhale/SM_Spacewhale" >
 			<RejectionSize>0.00001</RejectionSize>
             <PhysicsBody Type="Mesh" >
-                <CollisionFile>$Dev/Cockpits/Bobbleheads/Spacewhale/0c020605.insm</CollisionFile>
+                <CollisionFile>$Dev/Cockpits/Bobbleheads/Spacewhale/45eef0f2.insm</CollisionFile>
 				<CollisionScale>50000</CollisionScale>
                 <Collisions>true</Collisions>
                 <Bounce>0.25</Bounce>
@@ -18,7 +18,7 @@
 	<CServerNodeComponent>
         <TransformNode>
             <PhysicsBody Type="Mesh" >
-                <CollisionFile>$Dev/Cockpits/Bobbleheads/Spacewhale/0c020605.insm</CollisionFile>
+                <CollisionFile>$Dev/Cockpits/Bobbleheads/Spacewhale/45eef0f2.insm</CollisionFile>
 				<CollisionScale>50000</CollisionScale>
                 <Collisions>true</Collisions>
                 <Bounce>0.25</Bounce>
