@@ -576,97 +576,97 @@
 		<Name>MgSmall1</Name>
 		<Path>event:/Weapons/MgSmall1</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.003" Y="3.0" />
+		<DistRange X="0.002" Y="2.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>MgSmall2</Name>
 		<Path>event:/Weapons/MgSmall2</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.003" Y="3.0" />
+		<DistRange X="0.002" Y="2.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>MgSmall3</Name>
 		<Path>event:/Weapons/Guns/MgSmall3</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.003" Y="3.0" />
+		<DistRange X="0.002" Y="2.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>Shotgun</Name>
 		<Path>event:/Weapons/Shotgun</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.005" Y="4.0" />
+		<DistRange X="0.004" Y="3.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>Shotgun2</Name>
 		<Path>event:/Weapons/Shotgun_02</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.005" Y="4.0" />
+		<DistRange X="0.004" Y="3.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>BlasterSmall1</Name>
 		<Path>event:/Weapons/Blasters/BlasterSmall1</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.003" Y="3.0" />
+		<DistRange X="0.002" Y="2.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>BlasterSmall2</Name>
 		<Path>event:/Weapons/Blasters/BlasterSmall2</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.003" Y="3.0" />
+		<DistRange X="0.002" Y="2.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>BlasterSmall3</Name>
 		<Path>event:/Weapons/Blasters/BlasterSmall3</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.003" Y="3.0" />
+		<DistRange X="0.002" Y="2.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ZeclonMK1</Name>
 		<Path>event:/Weapons/Blasters/ZeclonMK1</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.003" Y="3.0" />
+		<DistRange X="0.002" Y="2.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>Mg48</Name>
 		<Path>event:/Weapons/Mg48</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.12" Y="8.0" />
+		<DistRange X="0.09" Y="6.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>Plasma</Name>
 		<Path>event:/Weapons/Plasma</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.06" Y="4.0" />
+		<DistRange X="0.05" Y="3.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>BlasterMedium</Name>
 		<Path>event:/Weapons/Blasters/BlasterMedium</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.09" Y="6.0" />
+		<DistRange X="0.08" Y="5.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>KineticTurretMK4</Name>
 		<Path>event:/Weapons/KineticTurrets/KineticTurretMK4</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.06" Y="4.0" />
+		<DistRange X="0.05" Y="3.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>KineticTurretMK5</Name>
 		<Path>event:/Weapons/KineticTurrets/KineticTurretMK5</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.09" Y="6.0" />
+		<DistRange X="0.08" Y="5.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>KineticTurretMK6</Name>
 		<Path>event:/Weapons/KineticTurrets/KineticTurretMK6</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.12" Y="8.0" />
+		<DistRange X="0.1" Y="7.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>KineticTurretMK7</Name>
 		<Path>event:/Weapons/KineticTurrets/KineticTurretMK7</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.18" Y="12.0" />
+		<DistRange X="0.15" Y="10.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>BlasterTurretMK4</Name>
@@ -678,20 +678,20 @@
 		<Name>BlasterTurretMK5</Name>
 		<Path>event:/Weapons/Blasters/BlasterLarge</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.09" Y="6.0" />
+		<DistRange X="0.08" Y="5.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>AMSFire</Name>
 		<Path>event:/Weapons/Lasers/AMSFire</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.09" Y="6.0" />
+		<DistRange X="0.08" Y="5.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>AMSAmbient</Name>
 		<Path>event:/Weapons/Lasers/AMSAMbient</Path>
 		<Looping>true</Looping>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.045" Y="3.0" />
+		<DistRange X="0.04" Y="2.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>TorpedoLaunch</Name>
@@ -730,7 +730,7 @@
 		<Name>MineLaunch</Name>
 		<Path>event:/Weapons/MineLaunch</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.12" Y="8.0" />
+		<DistRange X="0.09" Y="6.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>RotatingTurret</Name>
@@ -769,13 +769,13 @@
 		<Name>ExplosionSmallship</Name>
 		<Path>event:/Hits/ExplosionSmallShip</Path>
 		<VolumeRange X="0" Y="1" />
-		<DistRange X="0.1" Y="20.0" />
+		<DistRange X="0.15" Y="10.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ExplosionCapship</Name>
 		<Path>event:/Hits/ExplosionCapShip</Path>
 		<VolumeRange X="0" Y="1" />
-		<DistRange X="1.0" Y="60.0" />
+		<DistRange X="0.6" Y="40.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ExplosionSmallTest</Name>
