@@ -303,40 +303,43 @@
 				<SpawnNameTag>HUD_Hangar</SpawnNameTag>
 				<SpawnNamePos X="0" Y="0" Z="0.3" />
 				<MarkerMesh>Structures/LandingMarkers/SM_FighterHangar_new</MarkerMesh>
+				<MarkerLightOffset X="0" Y="0" Z="0.35" />
+				<Name>UI_Module_SmallHangar</Name>
+
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.060" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Position X="0.060" Y="-0.07" Z="-0.0349" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.060" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Position X="0.060" Y="-0.07" Z="0.0041" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.0" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Position X="0.0" Y="-0.07" Z="-0.0349" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.0" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Position X="0.0" Y="-0.07" Z="0.0041" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="-0.060" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Position X="-0.060" Y="-0.07" Z="-0.0349" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="-0.060" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Position X="-0.060" Y="-0.07" Z="0.0041" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			</Module>
@@ -355,37 +358,37 @@
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.060" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Position X="0.060" Y="-0.07" Z="-0.0349" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			    </Spawn>
+ 			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
+			        <Position X="0.060" Y="-0.07" Z="0.0041" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.060" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Position X="0.0" Y="-0.07" Z="-0.0349" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.0" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Position X="0.0" Y="-0.07" Z="0.0041" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.0" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Position X="-0.060" Y="-0.07" Z="-0.0349" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="-0.060" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
-			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
-			    </Spawn>
-			    <Spawn>
-					<Type>Fighter</Type>
-			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="-0.060" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Position X="-0.060" Y="-0.07" Z="0.0041" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			</Module>

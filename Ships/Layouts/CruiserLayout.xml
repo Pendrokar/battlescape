@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout Name="default layout">
+	<Socket Name="s_mko_missile_midX_bot_left" >
+		<Size>HeavyMissilePod</Size>
+		<Category>Weapons</Category>
+		<position x="-0.029015500098466873169" y="-0.010305609554052352905" z="-0.031679108738899230957" Type="3dsMax"/>
+		<rotation x="-0.92387890815734863281" y="0.00047165236901491880417" z="0.38268288969993591309" w="-0.0011383106466382741928" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mko_missile_midX_bot_right" >
+		<Size>HeavyMissilePod</Size>
+		<Category>Weapons</Category>
+		<position x="0.029015701264142990112" y="-0.010305609554052352905" z="-0.0316790752112865448" Type="3dsMax"/>
+		<rotation x="-0.92387878894805908203" y="-0.00047129305312409996986" z="-0.38268327713012695313" w="-0.0011381615186110138893" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mko_missile_midX_top_right" >
+		<Size>HeavyMissilePod</Size>
+		<Category>Weapons</Category>
+		<position x="0.029015332460403442383" y="-0.010305609554052352905" z="0.031679127365350723267" Type="3dsMax"/>
+		<rotation x="-0.38268294930458068848" y="-0.0011381616350263357162" z="-0.92387890815734863281" w="-0.00047129261656664311886" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mko_missile_midX_top_left" >
+		<Size>HeavyMissilePod</Size>
+		<Category>Weapons</Category>
+		<position x="-0.029015865176916122437" y="-0.010305609554052352905" z="0.031679097563028335571" Type="3dsMax"/>
+		<rotation x="0.3826834261417388916" y="-0.0011383104138076305389" z="-0.92387872934341430664" w="0.00047165303840301930904" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mko_missile_fwdX_bot_left" >
+		<Size>HeavyMissilePod</Size>
+		<Category>Weapons</Category>
+		<position x="-0.027807647362351417542" y="0.27703320980072021484" z="-0.031885579228401184082" Type="3dsMax"/>
+		<rotation x="-0.92387890815734863281" y="0.00047165236901491880417" z="0.38268288969993591309" w="-0.0011383106466382741928" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mko_missile_fwdX_bot_right" >
+		<Size>HeavyMissilePod</Size>
+		<Category>Weapons</Category>
+		<position x="0.027808070182800292969" y="0.27703320980072021484" z="-0.031885545700788497925" Type="3dsMax"/>
+		<rotation x="-0.92387878894805908203" y="-0.00047129305312409996986" z="-0.38268327713012695313" w="-0.0011381615186110138893" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mko_missile_fwdX_top_right" >
+		<Size>HeavyMissilePod</Size>
+		<Category>Weapons</Category>
+		<position x="0.027807705104351043701" y="0.27703320980072021484" z="0.031885597854852676392" Type="3dsMax"/>
+		<rotation x="-0.38268294930458068848" y="-0.0011381616350263357162" z="-0.92387890815734863281" w="-0.00047129261656664311886" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mko_missile_fwdX_top_left" >
+		<Size>HeavyMissilePod</Size>
+		<Category>Weapons</Category>
+		<position x="-0.027808012440800666809" y="0.27703320980072021484" z="0.03188557550311088562" Type="3dsMax"/>
+		<rotation x="0.3826834261417388916" y="-0.0011383104138076305389" z="-0.92387872934341430664" w="0.00047165303840301930904" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mko_missile_fwd_right" >
+		<Size>LightMissilePod</Size>
+		<Category>Weapons</Category>
+		<position x="0.12036800384521484375" y="0.29074689745903015137" z="0" Type="3dsMax"/>
+		<rotation x="-0.7069988250732421875" y="-0.01234345603734254837" z="-0.70699924230575561523" w="-0.012343447655439376831" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mko_missile_fwd_left" >
+		<Size>LightMissilePod</Size>
+		<Category>Weapons</Category>
+		<position x="-0.12036832422018051147" y="0.29074689745903015137" z="0" Type="3dsMax"/>
+		<rotation x="0.70699900388717651367" y="-0.01234304625540971756" z="-0.70699906349182128906" w="0.012343391776084899902" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_front_bot_right_outer" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="0.093526132404804229736" y="0.43993398547172546387" z="-0.01181164570152759552" Type="3dsMax"/>
+		<rotation x="-0.0076978388242423534393" y="-0.99129718542098999023" z="-0.071248963475227355957" w="0.11042778193950653076" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_front_bot_right_inner" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="0.068745143711566925049" y="0.43990999460220336914" z="-0.017465332522988319397" Type="3dsMax"/>
+		<rotation x="-0.0080271204933524131775" y="-0.99132078886032104492" z="-0.071224421262741088867" w="0.11020812392234802246" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_front_bot_left_outer" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="-0.093525752425193786621" y="0.43993437290191650391" z="-0.01181164570152759552" Type="3dsMax"/>
+		<rotation x="0.0077017885632812976837" y="-0.99129706621170043945" z="-0.071248590946197509766" w="-0.11042875796556472778" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_front_bot_left_inner" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="-0.068745143711566925049" y="0.43990981578826904297" z="-0.017465332522988319397" Type="3dsMax"/>
+		<rotation x="0.008023803122341632843" y="-0.99132078886032104492" z="-0.07122481614351272583" w="-0.11020798236131668091" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_front_top_left_outer" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="-0.093525998294353485107" y="0.43993401527404785156" z="0.011811694130301475525" Type="3dsMax"/>
+		<rotation x="0.071248829364776611328" y="0.11042776703834533691" z="-0.0076976292766630649567" w="0.99129718542098999023" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_front_top_left_inner" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="-0.06874500960111618042" y="0.43991002440452575684" z="0.017465388402342796326" Type="3dsMax"/>
+		<rotation x="0.071224525570869445801" y="0.11020804941654205322" z="-0.0080268112942576408386" w="0.99132078886032104492" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_front_top_right_outer" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="0.093525893986225128174" y="0.43993434309959411621" z="0.011811694130301475525" Type="3dsMax"/>
+		<rotation x="0.071248359978199005127" y="-0.11042893677949905396" z="0.0077018020674586296082" w="0.99129706621170043945" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_front_top_right_inner" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="0.068745277822017669678" y="0.43990978598594665527" z="0.017465388402342796326" Type="3dsMax"/>
+		<rotation x="0.071224860846996307373" y="-0.11020817607641220093" z="0.0080237779766321182251" w="0.99132072925567626953" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_rear_bot_right_outer" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="0.10437201708555221558" y="-0.21404914557933807373" z="-0.059178225696086883545" Type="3dsMax"/>
+		<rotation x="0.23021143674850463867" y="-0.23021143674850463867" z="0.66858261823654174805" w="0.66858261823654174805" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_rear_bot_right_inner" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="0.10437201708555221558" y="-0.20246082544326782227" z="-0.059178225696086883545" Type="3dsMax"/>
+		<rotation x="0.23021143674850463867" y="-0.23021143674850463867" z="0.66858261823654174805" w="0.66858261823654174805" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_rear_bot_left_outer" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="-0.10437179356813430786" y="-0.21404914557933807373" z="-0.059178225696086883545" Type="3dsMax"/>
+		<rotation x="0.23021140694618225098" y="0.23021145164966583252" z="-0.66858267784118652344" w="0.66858255863189697266" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_rear_bot_left_inner" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="-0.10437179356813430786" y="-0.20246082544326782227" z="-0.059178225696086883545" Type="3dsMax"/>
+		<rotation x="0.23021140694618225098" y="0.23021145164966583252" z="-0.66858267784118652344" w="0.66858255863189697266" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_rear_top_left_inner" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="-0.0088330022990703582764" y="-0.18785375356674194336" z="0.042469244450330734253" Type="3dsMax"/>
+		<rotation x="0" y="0" z="-0.70710670948028564453" w="0.70710682868957519531" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_rear_top_left_outer" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="-0.0096660023555159568787" y="-0.23779562115669250488" z="0.042469244450330734253" Type="3dsMax"/>
+		<rotation x="0" y="0" z="-0.70710670948028564453" w="0.70710682868957519531" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_rear_top_right_outer" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="0.0096657639369368553162" y="-0.23779562115669250488" z="0.042469244450330734253" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk4_rear_top_right_inner" >
+		<Size>Mk4</Size>
+		<Category>Weapons</Category>
+		<position x="0.0088330563157796859741" y="-0.18785375356674194336" z="0.042469244450330734253" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_rear_bot_right_outer" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="0.16854700446128845215" y="-0.2843417823314666748" z="-0.015582096762955188751" Type="3dsMax"/>
+		<rotation x="-0.0016896204324439167976" y="-0.9944579005241394043" z="0.0057688541710376739502" w="0.10496325045824050903" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_rear_bot_left_outer" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="-0.16854669153690338135" y="-0.28434172272682189941" z="-0.015582093037664890289" Type="3dsMax"/>
+		<rotation x="-0.00049613183364272117615" y="-0.99445950984954833984" z="0.0055381427519023418427" w="-0.10497326403856277466" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_rear_top_left_outer" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="-0.16854700446128845215" y="-0.2843417823314666748" z="0.015582095831632614136" Type="3dsMax"/>
+		<rotation x="-0.005538140423595905304" y="0.10497554391622543335" z="0.00049611856229603290558" w="0.99445927143096923828" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_center_bot_left_outer" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="-0.081593014299869537354" y="0.086215533316135406494" z="-0.024375762790441513062" Type="3dsMax"/>
+		<rotation x="-0.0086658876389265060425" y="-0.98220813274383544922" z="-0.0016550451982766389847" w="-0.18758828938007354736" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_center_bot_left_inner" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="-0.04510400816798210144" y="0.13169021904468536377" z="-0.038585230708122253418" Type="3dsMax"/>
+		<rotation x="-0.0086658876389265060425" y="-0.98220813274383544922" z="-0.0016550451982766389847" w="-0.18758828938007354736" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_center_bot_right_outer" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="0.081592902541160583496" y="0.086215533316135406494" z="-0.024375768378376960754" Type="3dsMax"/>
+		<rotation x="0.00866603851318359375" y="-0.98220741748809814453" z="-0.0016551074804738163948" w="0.18759195506572723389" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_center_bot_right_inner" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="0.045103881508111953735" y="0.13169021904468536377" z="-0.03858523443341255188" Type="3dsMax"/>
+		<rotation x="0.00866603851318359375" y="-0.98220741748809814453" z="-0.0016551074804738163948" w="0.18759195506572723389" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_fwd_bot_right" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="0.0310019664466381073" y="0.3764680027961730957" z="-0.028702976182103157043" Type="3dsMax"/>
+		<rotation x="6.5257768255833070725e-07" y="-0.9240506291389465332" z="-2.5322515284642577171e-07" w="0.38227012753486633301" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_fwd_bot_left" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="-0.031002039089798927307" y="0.37646812200546264648" z="-0.028702575713396072388" Type="3dsMax"/>
+		<rotation x="6.6906045503856148571e-07" y="-0.92370826005935668945" z="2.9420036185001663398e-07" w="-0.3830967247486114502" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_center_top_left_inner" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="-0.032672606408596038818" y="0.080068178474903106689" z="0.031285293400287628174" Type="3dsMax"/>
+		<rotation x="-2.9361663678173499648e-07" y="0.3822701573371887207" z="-6.692873171232349705e-07" w="0.92405056953430175781" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_center_top_right_inner" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="0.032670665532350540161" y="0.080068178474903106689" z="0.031283374875783920288" Type="3dsMax"/>
+		<rotation x="2.5382382773386780173e-07" y="-0.38309663534164428711" z="-6.5231483858951833099e-07" w="0.92370826005935668945" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_fwd_top_left" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="-0.031002003699541091919" y="0.3764680027961730957" z="0.028703004121780395508" Type="3dsMax"/>
+		<rotation x="-2.9361663678173499648e-07" y="0.3822701573371887207" z="-6.692873171232349705e-07" w="0.92405056953430175781" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_fwd_top_right" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="0.031002009287476539612" y="0.37646812200546264648" z="0.028702612966299057007" Type="3dsMax"/>
+		<rotation x="2.5382382773386780173e-07" y="-0.38309663534164428711" z="-6.5231483858951833099e-07" w="0.92370826005935668945" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk6_bot_left" >
+		<Size>Mk6</Size>
+		<Category>Weapons</Category>
+		<position x="-0.066468194127082824707" y="0.32963186502456665039" z="-0.021049439907073974609" Type="3dsMax"/>
+		<rotation x="0.00049407762708142399788" y="-0.99414801597595214844" z="5.373365638661198318e-05" w="-0.10802552849054336548" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk6_bot_right" >
+		<Size>Mk6</Size>
+		<Category>Weapons</Category>
+		<position x="0.066467963159084320068" y="0.32963198423385620117" z="-0.021048951894044876099" Type="3dsMax"/>
+		<rotation x="0.0021612627897411584854" y="-0.99414616823196411133" z="-0.0039022383280098438263" w="0.10795140266418457031" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk7_bot_right" >
+		<Size>Mk7</Size>
+		<Category>Weapons</Category>
+		<position x="0.13436098396778106689" y="-0.14078664779663085938" z="-0.0170678701251745224" Type="3dsMax"/>
+		<rotation x="-0.0040860138833522796631" y="-0.99532282352447509766" z="-0.03538470342755317688" w="0.089798182249069213867" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk7_bot_left" >
+		<Size>Mk7</Size>
+		<Category>Weapons</Category>
+		<position x="-0.13436135649681091309" y="-0.14078664779663085938" z="-0.01706781238317489624" Type="3dsMax"/>
+		<rotation x="-0.0096565485000610351563" y="-0.99528425931930541992" z="-0.034141343086957931519" w="-0.090279258787631988525" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk7_top_left" >
+		<Size>Mk7</Size>
+		<Category>Weapons</Category>
+		<position x="-0.13436101377010345459" y="-0.14078666269779205322" z="0.017067823559045791626" Type="3dsMax"/>
+		<rotation x="0.035384699702262878418" y="0.089798256754875183105" z="-0.0040859696455299854279" w="0.99532282352447509766" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk7_top_right" >
+		<Size>Mk7</Size>
+		<Category>Weapons</Category>
+		<position x="0.13436132669448852539" y="-0.14078666269779205322" z="0.017067827284336090088" Type="3dsMax"/>
+		<rotation x="0.032939914613962173462" y="-0.090724520385265350342" z="0.003556928364560008049" w="0.99532479047775268555" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_rear_bot_left_inner" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="-0.084345012903213500977" y="-0.11294099688529968262" z="-0.02467499859631061554" Type="3dsMax"/>
+		<rotation x="0.001992206089198589325" y="-0.99485927820205688477" z="-0.031072283163666725159" w="-0.096361838281154632568" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_rear_bot_right_inner" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="0.084345005452632904053" y="-0.11294099688529968262" z="-0.024675004184246063232" Type="3dsMax"/>
+		<rotation x="-0.0020753655117005109787" y="-0.99485880136489868164" z="-0.033028133213520050049" w="0.095711745321750640869" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_rear_top_right_inner" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="0.084344506263732910156" y="-0.11294128000736236572" z="0.024674706161022186279" Type="3dsMax"/>
+		<rotation x="0.031072095036506652832" y="-0.096361808478832244873" z="0.00199414021335542202" w="0.99485927820205688477" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_rear_top_right_outer" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="0.16854669153690338135" y="-0.2843417823314666748" z="0.015582095831632614136" Type="3dsMax"/>
+		<rotation x="-0.0057688532397150993347" y="-0.10496091097593307495" z="0.0016896077431738376617" w="0.99445819854736328125" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_rear_top_left_inner" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="-0.084345005452632904053" y="-0.11294100433588027954" z="0.024675004184246063232" Type="3dsMax"/>
+		<rotation x="0.033028379082679748535" y="0.095711730420589447021" z="-0.0020728597883135080338" w="0.99485886096954345703" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_bot_side_left" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="-0.016633000224828720093" y="0.21103166043758392334" z="-0.062873162329196929932" Type="3dsMax"/>
+		<rotation x="0" y="0.74108010530471801758" z="0" w="0.67141664028167724609" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_bot_side_right" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="0.016102436929941177368" y="0.21685951948165893555" z="-0.068238526582717895508" Type="3dsMax"/>
+		<rotation x="0" y="-0.74107921123504638672" z="0" w="0.67141765356063842773" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_center_top_left_outer" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="-0.017406618222594261169" y="0.13408693671226501465" z="0.071189053356647491455" Type="3dsMax"/>
+		<rotation x="0" y="0.67012882232666015625" z="0" w="0.74224478006362915039" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk5_center_top_right_outer" >
+		<Size>Mk5</Size>
+		<Category>Weapons</Category>
+		<position x="0.017406880855560302734" y="0.13408693671226501465" z="0.071189053356647491455" Type="3dsMax"/>
+		<rotation x="0" y="-0.67012935876846313477" z="0" w="0.74224430322647094727" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk6_top_right" >
+		<Size>Mk6</Size>
+		<Category>Weapons</Category>
+		<position x="0.066468149423599243164" y="0.32963189482688903809" z="0.021049464121460914612" Type="3dsMax"/>
+		<rotation x="5.3639523684978485107e-05" y="-0.10802544653415679932" z="-0.00049406726611778140068" w="0.99414801597595214844" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk6_top_left" >
+		<Size>Mk6</Size>
+		<Category>Weapons</Category>
+		<position x="-0.066468007862567901611" y="0.32963201403617858887" z="0.021049000322818756104" Type="3dsMax"/>
+		<rotation x="0.0035203695297241210938" y="0.10796459019184112549" z="-0.0013552149757742881775" w="0.9941475987434387207" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk6_bot" >
+		<Size>Mk6</Size>
+		<Category>Weapons</Category>
+		<position x="0" y="0.13510802388191223145" z="-0.079262495040893554688" Type="3dsMax"/>
+		<rotation x="0" y="-1" z="0" w="0" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mk6_top" >
+		<Size>Mk6</Size>
+		<Category>Weapons</Category>
+		<position x="0" y="0.13510802388191223145" z="0.079262524843215942383" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mko_torpedo_bot" >
+		<Size>TorpedoPod</Size>
+		<Category>Weapons</Category>
+		<position x="0.00031251207110472023487" y="0.38482260704040527344" z="0.022004989907145500183" Type="3dsMax"/>
+		<rotation x="0.50000005960464477539" y="-0.4999999701976776123" z="-0.49999985098838806152" w="0.50000017881393432617" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mko_torpedo_top" >
+		<Size>TorpedoPod</Size>
+		<Category>Weapons</Category>
+		<position x="0" y="0.38499292731285095215" z="-0.023447595536708831787" Type="3dsMax"/>
+		<rotation x="-0.5" y="-0.5" z="-0.50000005960464477539" w="-0.5" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mko_missile_bot" >
+		<Size>LightMissilePod</Size>
+		<Category>Weapons</Category>
+		<position x="0.14006882905960083008" y="-0.044342704117298126221" z="0" Type="3dsMax"/>
+		<rotation x="-0.69897067546844482422" y="-0.10695811361074447632" z="-0.69897061586380004883" w="-0.10695833712816238403" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mko_missile_top" >
+		<Size>LightMissilePod</Size>
+		<Category>Weapons</Category>
+		<position x="-0.14006900787353515625" y="-0.044343002140522003174" z="0" Type="3dsMax"/>
+		<rotation x="0.69897091388702392578" y="-0.10695637017488479614" z="-0.69897091388702392578" w="0.10695671290159225464" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_weaponsmod3" >
+		<Size>Mk5</Size>
+		<Category>WeaponsMod</Category>
+		<position x="0" y="0.20607803761959075928" z="0.072353944182395935059" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_weaponsmod2" >
+		<Size>Mk5</Size>
+		<Category>WeaponsMod</Category>
+		<position x="0" y="0.24363093078136444092" z="0.072353944182395935059" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_weaponsmod1" >
+		<Size>Mk5</Size>
+		<Category>WeaponsMod</Category>
+		<position x="0" y="0.28097179532051086426" z="0.072353944182395935059" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_reactor3" >
+		<Size>Mk5</Size>
+		<Category>Reactor</Category>
+		<position x="0" y="-0.22127488255500793457" z="0" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_storage3" >
+		<Size>Mk5</Size>
+		<Category>Storage</Category>
+		<position x="0" y="-0.33581343293190002441" z="0" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_electronics4" >
+		<Size>Mk5</Size>
+		<Category>Electronics</Category>
+		<position x="0" y="0.33692884445190429688" z="0.063972204923629760742" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_structure3" >
+		<Size>Mk5</Size>
+		<Category>Structural</Category>
+		<position x="0" y="-0.064159728586673736572" z="0" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_shields3" >
+		<Size>Mk5</Size>
+		<Category>Shields</Category>
+		<position x="0" y="0.031987488269805908203" z="0" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_reactor2" >
+		<Size>Mk5</Size>
+		<Category>Reactor</Category>
+		<position x="-0.012450790964066982269" y="-0.22127488255500793457" z="0" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_storage2" >
+		<Size>Mk5</Size>
+		<Category>Storage</Category>
+		<position x="-0.1153929978609085083" y="-0.33581343293190002441" z="0" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_storage1" >
+		<Size>Mk5</Size>
+		<Category>Storage</Category>
+		<position x="0.11539250612258911133" y="-0.33581343293190002441" z="0" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_electronics3" >
+		<Size>Mk5</Size>
+		<Category>Electronics</Category>
+		<position x="0.11092662811279296875" y="-0.20721654593944549561" z="-0.068523019552230834961" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_electronics2" >
+		<Size>Mk5</Size>
+		<Category>Electronics</Category>
+		<position x="-0.11092700809240341187" y="-0.20721654593944549561" z="-0.068523019552230834961" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_electronics1" >
+		<Size>Mk5</Size>
+		<Category>Electronics</Category>
+		<position x="0" y="0.38724538683891296387" z="-0.043225076049566268921" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_structure2" >
+		<Size>Mk5</Size>
+		<Category>Structural</Category>
+		<position x="-0.11107700318098068237" y="-0.064159728586673736572" z="0" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_structure1" >
+		<Size>Mk5</Size>
+		<Category>Structural</Category>
+		<position x="0.11107748746871948242" y="-0.064159728586673736572" z="0" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_shields2" >
+		<Size>Mk5</Size>
+		<Category>Shields</Category>
+		<position x="-0.1177486032247543335" y="0.031987488269805908203" z="0" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_shields1" >
+		<Size>Mk5</Size>
+		<Category>Shields</Category>
+		<position x="0.11279332637786865234" y="0.027028992772102355957" z="0" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_reactor1" >
+		<Size>Mk5</Size>
+		<Category>Reactor</Category>
+		<position x="0.021185196936130523682" y="-0.22146964073181152344" z="0" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_mod_propulsion1" >
+		<Size>Mk5</Size>
+		<Category>Propulsion</Category>
+		<position x="0" y="-0.52743643522262573242" z="0" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+</Layout>

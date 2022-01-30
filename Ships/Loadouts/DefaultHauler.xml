@@ -1,0 +1,16 @@
+<Loadout Version="0.0.0.1" >
+	<Name>DefaultHauler</Name>
+	<DisplayName>DEFAULT</DisplayName>
+	<Actor>Hauler</Actor>
+	<IsMain>true</IsMain>
+	<Mount HardpointName="s_turret_1" Weapon="AutoTurretGunMK4" GroupID="0" />
+	<Mount HardpointName="s_turret_2" Weapon="AutoTurretGunMK4" GroupID="0" />
+	<Mount HardpointName="s_turret_3" Weapon="AutoTurretGunMK4" GroupID="0" />
+	<Mount HardpointName="s_turret_4" Weapon="AutoTurretBlasterMK4" GroupID="1" />
+	<Mount HardpointName="s_turret_5" Weapon="AutoTurretGunMK4" GroupID="0" />
+	<Mount HardpointName="s_turret_6" Weapon="AutoTurretBlasterMK4" GroupID="1" />
+	<Mount HardpointName="s_turret_7" Weapon="AutoTurretBlasterMK4" GroupID="1" />
+	<Mount HardpointName="s_turret_8" Weapon="AutoTurretBlasterMK4" GroupID="1" />
+	<Mount HardpointName="s_mod_electronics1" System="FlightAssist" />
+	<Mount HardpointName="s_mod_electronics2" System="TargettingAssist" />
+</Loadout>

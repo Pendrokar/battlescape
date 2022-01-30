@@ -3,7 +3,7 @@
 		<ActorType>Ship</ActorType>
 		<SpawnType>Fighter</SpawnType>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
-		<ShipClassCost>20</ShipClassCost>
+		<ShipClassCost>25</ShipClassCost>
 		<ShipBattleScore>1</ShipBattleScore>
 		<DisplayName>UI_ShipType_Interceptor</DisplayName>
 		<ClassAbbrev>INT</ClassAbbrev>
@@ -80,15 +80,20 @@
 			<MeshInstance ID="1" Name="Body_MI_Primary">Primary</MeshInstance>
 			<MeshInstance ID="7" Name="Body_MI_Yellow">Secondary</MeshInstance>
 		</Paint>
+
 		<DyingExplosions>15</DyingExplosions>
-		<DeathExplosions>1</DeathExplosions>
 		<DyingEffect>DyingExplosion</DyingEffect>
-		<DeathEffect>SmallShipExplosion</DeathEffect>
 		<DyingEffectScale>0.030</DyingEffectScale>
+
+		<DeathEffectCount>1</DeathEffectCount>
+		<DeathEffectDuration>0.0</DeathEffectDuration>
+		<DeathEffect>SmallShipExplosion</DeathEffect>
 		<DeathEffectScale>0.5</DeathEffectScale>
 		<DeathEffectRange>50.0</DeathEffectRange>
+
 		<ShrapnelEffect>ShrapnelSmall</ShrapnelEffect>
 		<ShrapnelEffectScale>0.5</ShrapnelEffectScale>
+
 		<ContrailEffectSize>0.04</ContrailEffectSize>
 		<DamageEffectSize>0.015</DamageEffectSize>
 		<Skin>
@@ -448,11 +453,6 @@
 	</CClientActorComponent>
 	<CServerActorComponent>
 		<StratScore>0</StratScore>
-		<DefaultSkins>
-			<Skin TeamID="0">InterceptorHavoc</Skin>
-			<Skin TeamID="1">InterceptorScoria</Skin>
-			<Skin TeamID="2">InterceptorHavoc</Skin>
-		</DefaultSkins>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>25.0</EmissionsRange>
@@ -467,7 +467,7 @@
 		<PhysicsBody Type="Box" >
         	<SidesSize X="0.0121250944" Y="0.00453546643" Z="0.0152096823" />
             <Offset X="0" Y="0" Z="0" />
-            <Mass>26.0</Mass>
+            <Mass>20.8</Mass>
             <Collisions>true</Collisions>
             <Bounce>0.0</Bounce>
             <Friction>0.2</Friction>
@@ -478,41 +478,52 @@
 		</HitMesh>
 	</CBodyComponent>
     <CPropulsionComponent>
-        <RampUpFactor>4.0</RampUpFactor>
+        <RampUpSpeed>0.2</RampUpSpeed>
         <LinearThrust X="0.984" Y="0.936" Z="1.13" />
-        <RotationThrust X="0.0015" Y="0.0022" Z="0.0011" />
+        <BaseRotationThrust X="0.0015" Y="0.0022" Z="0.0011" />
+        <FullRotationThrust X="0.0015" Y="0.0022" Z="0.0011" />
         <RotationStabilizer X="2.8" Y="2.8" Z="1.0" />
-		<MaxRotationSpeed X="1.10" Y="1.06" Z="2.8" />
+		<BaseRotationSpeed X="1.375" Y="1.325" Z="3.5" />
+		<FullRotationSpeed X="1.375" Y="1.325" Z="3.5" />
 		<AtmoDecay>0.001</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>0.0</DriftLimiter>
-		<CapSpeed>0.36</CapSpeed>
+		<CapSpeed>0.451</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>175</EnergyPoints>
-		<RechargeRate>12.0</RechargeRate>
+		<RechargeEnergyPoints>12.0</RechargeEnergyPoints>
 		<HeatPoints>150</HeatPoints>
 		<DechargeHeatPoints>25</DechargeHeatPoints>
 	</CEngineComponent>
 	<CHullComponent>
 		<HitPoints>150</HitPoints>
-		<DyingDuration>3.0</DyingDuration>
-		<DeathDuration>0.0</DeathDuration>
-		<DeathCredits>15</DeathCredits>
+		<DeathDuration>3.0</DeathDuration>
+		<DeathTiming>0.0</DeathTiming>
+		<DeathDebrisTiming>0.0</DeathDebrisTiming>
+		<KillCamTiming>2.0</KillCamTiming>
+		<DeathCredits>0</DeathCredits>
+		<GriefCredits>15</GriefCredits>
+		<DeathXP>30</DeathXP>
 		<Drag>1.0</Drag>
 		<ArmorPoints>0</ArmorPoints>
+		<DefaultSkins>
+			<Skin TeamID="0">InterceptorHavoc</Skin>
+			<Skin TeamID="1">InterceptorScoria</Skin>
+			<Skin TeamID="2">InterceptorHavoc</Skin>
+		</DefaultSkins>
 	</CHullComponent>
 	<CShieldComponent>
 		<ShieldPoints>125</ShieldPoints>
-		<RechargeRate>1.5</RechargeRate>
+		<RechargeShieldPoints>1.5</RechargeShieldPoints>
 	</CShieldComponent>
 	<CWarpComponent>
-		<ChargeDuration>4.0</ChargeDuration>
-		<Cooldown>8.0</Cooldown>
-		<MinWarpSpeed>0.240</MinWarpSpeed>
+		<WarpChargeDuration>4.0</WarpChargeDuration>
+		<WarpCooldown>8.0</WarpCooldown>
+		<MinWarpSpeed>0.301</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>
-		<WarpMesh>Particles/Warp/SM_WarpTunnelRoundAlt</WarpMesh>
+		<WarpMesh>FX/Warp/SM_WarpTunnelRound</WarpMesh>
 		<WarpMeshScale>5.0</WarpMeshScale>
 		<LightsDist>0.015</LightsDist>
 	</CClientWarpComponent>
@@ -524,69 +535,78 @@
 		<TurboThrustRate>2.5</TurboThrustRate>
 		<TurboTimerDecay>2.0</TurboTimerDecay>
 		<TurboInitialBoost>3.0</TurboInitialBoost>
-		<ThrustScale X="0.75" Y="0.75" Z="1.0" />
+		<BoostThrustScale X="0.75" Y="0.75" Z="1.0" />
 		<BoostCooldown>0.5</BoostCooldown>
 	</CTurboBoostComponent>
 	<CShipComponent>
-		<Equipment>Scanner1</Equipment>
 	</CShipComponent>
 	<CHardpointComponent>
-		<Mesh>$Dev/Ships/SFC-Fighter/8f41414a.insm</Mesh>
+		<Layout>$Config/Ships/Layouts/InterceptorLayout.xml</Layout>
 		<ExclusiveWeapons>true</ExclusiveWeapons>
-		<Group ID="0" >
-			<Weapon>GimbalGunMK1</Weapon>
-<!-- 			<Weapon>PlasmaCutterMK1</Weapon> -->
-		</Group>
-		<Group ID="1" >
-			<Weapon>GimbalBlasterMK1</Weapon>
-		</Group>
-		<Group ID="2" >
-			<Weapon>MissilePod</Weapon>
-		</Group>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
+		<Group ID="6" />
+		<Group ID="7" />
+		<Group ID="8" />
+		<Group ID="9" />
  		<Hardpoint ID="0" >
 			<Socket>s_gun_left</Socket>
-			<GroupID>0</GroupID>
-			<Class>MK1</Class>
 		</Hardpoint>
 		<Hardpoint ID="1" >
 			<Socket>s_gun_right</Socket>
-			<GroupID>0</GroupID>
-			<Class>MK1</Class>
 		</Hardpoint>
 		<Hardpoint ID="2" >
 			<Socket>s_gun_pod_left</Socket>
-			<GroupID>1</GroupID>
-			<Class>MK1</Class>
 		</Hardpoint>
 		<Hardpoint ID="3" >
 			<Socket>s_gun_pod_right</Socket>
-			<GroupID>1</GroupID>
-			<Class>MK1</Class>
 		</Hardpoint>
 		<Hardpoint ID="4" >
 			<Socket>s_missile_left</Socket>
-			<GroupID>2</GroupID>
-			<Class>LightMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="5" >
 			<Socket>s_missile_right</Socket>
-			<GroupID>2</GroupID>
-			<Class>LightMissilePod</Class>
 		</Hardpoint>
-		<Ammo>
-			<Type>Mg56mm</Type>
-			<Amount>2500</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>LightMissile</Type>
-			<Amount>6</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>Chaff</Type>
-			<Amount>16</Amount>
-		</Ammo>
+		<Hardpoint ID="6" >
+			<Socket>s_mod_electronics1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="7" >
+			<Socket>s_mod_electronics2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="8" >
+			<Socket>s_mod_electronics3</Socket>
+		</Hardpoint>
+		<Hardpoint ID="9" >
+			<Socket>s_mod_shields</Socket>
+		</Hardpoint>
+		<Hardpoint ID="10" >
+			<Socket>s_mod_structure</Socket>
+		</Hardpoint>
+		<Hardpoint ID="11" >
+			<Socket>s_mod_prop</Socket>
+		</Hardpoint>
+		<Hardpoint ID="12" >
+			<Socket>s_mod_weaponmod1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="13" >
+			<Socket>s_mod_weaponmod2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="14" >
+			<Socket>s_mod_reactor</Socket>
+		</Hardpoint>
 	</CHardpointComponent>
 	<CServerHardpointComponent>
+		<Loadout Name="DefaultInterceptor" Proba="60" />
+		<Loadout Name="Hawk" Proba="20" />
+		<Loadout Name="RailgunInterceptor" Proba="20" />
+		<Ammo>
+			<Type>Chaff</Type>
+			<Amount>10</Amount>
+		</Ammo>
 	</CServerHardpointComponent>
 	<CServerMissionComponent>
 		<BountyReward>10</BountyReward>

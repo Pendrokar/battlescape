@@ -1,9 +1,39 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Base</ActorType>
+		<MapIconName>SpaceStation</MapIconName>
+  		<MapIconSize>25</MapIconSize>
 	</Meta>
 	<CNodeComponent>
 		<TransformNode>
+			<Link Target="$Dev/Config/Stations/SFC_Station_HaulerDockingPort_A.xml" >
+				<position x="2.9599986076354980469" y="-5.1268725395202636719" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.25881659984588623047" w="0.9659264683723449707" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_HaulerDockingPort_A.xml" >
+				<position x="2.9600012302398681641" y="5.1268701553344726563" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9659252166748046875" w="0.25882142782211303711" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_HaulerDockingPort_A.xml" >
+				<position x="-5.9200000762939453125" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710825920104980469" w="0.70710533857345581055" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" >
+				<position x="0" y="-1.6500000953674316406" z="1.9100000858306884766" Type="3dsMax"/>
+				<rotation x="0" y="0" z="2.9484453989425674081e-06" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" >
+				<position x="1.6500000953674316406" y="0" z="1.9100000858306884766" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710527896881103516" w="0.70710831880569458008" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" >
+				<position x="0" y="1.6500000953674316406" z="1.9100000858306884766" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="3.5007808492082403973e-06" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" >
+				<position x="-1.6500000953674316406" y="0" z="1.9100000858306884766" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710855722427368164" w="0.7071049809455871582" Type="3dsMax"/>
+			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_ShieldGenerator_A.xml" >
 				<position x="-1.2349997758865356445" y="-2.1390833854675292969" z="-0.35500001907348632813" Type="3dsMax"/>
 				<rotation x="-0.86602538824081420898" y="-0.50000005960464477539" z="0" w="0" Type="3dsMax"/>
@@ -152,22 +182,6 @@
 				<position x="0.30000001192092895508" y="3.5015330013266066089e-07" z="3.1600000858306884766" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_HaulerDockingPort_A.xml" >
-				<position x="0" y="1.3600001335144042969" z="1.9499998092651367188" Type="3dsMax"/>
-				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
-			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" >
-				<position x="1.6500003337860107422" y="0.5300000309944152832" z="1.9100003242492675781" Type="3dsMax"/>
-				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
-			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" >
-				<position x="1.6500003337860107422" y="-0.53000020980834960938" z="1.9100003242492675781" Type="3dsMax"/>
-				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
-			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" >
-				<position x="-1.6499998569488525391" y="0.5300000309944152832" z="1.9100003242492675781" Type="3dsMax"/>
-				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
-			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_Tall_C.xml" >
 				<position x="1.311341719656411442e-07" y="2.441406365960574476e-07" z="1.0600000619888305664" Type="3dsMax"/>
 				<rotation x="0" y="0.70710682868957519531" z="0" w="0.70710676908493041992" Type="3dsMax"/>
@@ -175,14 +189,6 @@
 			<Link Target="$Dev/Config/Stations/SFC_Station_Hub_A.xml" >
 				<position x="0" y="4.0304402659785409924e-07" z="1.9500000476837158203" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
-			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_HaulerDockingPort_A.xml" >
-				<position x="0" y="-1.3599998950958251953" z="1.9499998092651367188" Type="3dsMax"/>
-				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
-			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" >
-				<position x="-1.6499998569488525391" y="-0.53000020980834960938" z="1.9100003242492675781" Type="3dsMax"/>
-				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_FighterBay.xml" >
 				<position x="-0.12999968230724334717" y="-0.22516684234142303467" z="-1.9100000858306884766" Type="3dsMax"/>
@@ -745,7 +751,6 @@
     	<Indicator>Structure</Indicator>
 	</CActorComponent>
 	<CClientActorComponent>
-		<MapIcon>SpaceStation</MapIcon>
 	</CClientActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Static" >
@@ -762,22 +767,12 @@
 		<HeatPoints>10000</HeatPoints>
 	</CEngineComponent>
     <CHardpointComponent>
-		<Group ID="0" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="1" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="2" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="3" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
 		<Ammo>
 			<Type>Mg56mm</Type>
 			<Amount>20000</Amount>
@@ -809,5 +804,7 @@
 	</CModulesComponent>
 	<CServerModulesComponent>
 		<MineField>true</MineField>
+		<CreditsIncome>450</CreditsIncome>
+		<SciencePointsIncome>30</SciencePointsIncome>
 	</CServerModulesComponent>
 </ActorConfig>

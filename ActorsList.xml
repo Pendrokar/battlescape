@@ -57,9 +57,25 @@
     <ActorType ClassName="Mine" ConfigFile="$Dev/Config/Weapons/Mine.xml" />
     <ActorType ClassName="SFC_Station_Trailer" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_Trailer.xml" />
     <ActorType ClassName="HeavyMissile" ConfigFile="$Dev/Config/Weapons/HeavyMissile.xml" />
+    <ActorType ClassName="BigAsteroid01" ConfigFile="$Dev/Config/Props/BigAsteroid01.xml" />
+    <ActorType ClassName="BigAsteroid02" ConfigFile="$Dev/Config/Props/BigAsteroid02.xml" />
+    <ActorType ClassName="ShipDebris1" ConfigFile="$Dev/Config/Props/ShipDebris1.xml" />
+    <ActorType ClassName="ShipDebris2" ConfigFile="$Dev/Config/Props/ShipDebris2.xml" />
+    <ActorType ClassName="ShipDebris3" ConfigFile="$Dev/Config/Props/ShipDebris3.xml" />
+    <ActorType ClassName="ShipDebris4" ConfigFile="$Dev/Config/Props/ShipDebris4.xml" />
+    <ActorType ClassName="ShipDebris5" ConfigFile="$Dev/Config/Props/ShipDebris5.xml" />
+    <ActorType ClassName="ShipDebris6" ConfigFile="$Dev/Config/Props/ShipDebris6.xml" />
+    <ActorType ClassName="ShipDebris7" ConfigFile="$Dev/Config/Props/ShipDebris7.xml" />
+    <ActorType ClassName="ShipDebris8" ConfigFile="$Dev/Config/Props/ShipDebris8.xml" />
+    <ActorType ClassName="SFC_Station_Skycrane" Class="Actor" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_Skycrane.xml" />
+    <ActorType ClassName="SFC_Station_BigStarport" Class="Actor" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_BigStarport.xml" />
+    <ActorType ClassName="SFC_Station_AsteroidProcessing" Class="Actor" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_AsteroidProcessing.xml" />
+    <ActorType ClassName="SFC_Station_Outpost_FuelDepot" Class="Actor" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_Outpost_FuelDepot.xml" />
+    <ActorType ClassName="SFC_Station_Outpost_Sensors1" Class="Actor" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_Outpost_Sensors1.xml" />
+    <ActorType ClassName="SFC_Station_Outpost_Sensors2" Class="Actor" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_Outpost_Sensors2.xml" />
+    <ActorType ClassName="EMPMissile" ConfigFile="$Dev/Config/Weapons/EMPMissile.xml" />
+    <ActorType ClassName="CruiserDebris1" ConfigFile="$Dev/Config/Props/CruiserDebris1.xml" />
 <!--     <ActorType ClassName="Skybear" ConfigFile="$Dev/Config/Ships/Skybear.xml" />
     <ActorType ClassName="Hades" ConfigFile="$Dev/Config/Ships/Hades.xml" />
     <ActorType ClassName="Armormite" ConfigFile="$Dev/Config/Ships/Armormite.xml" /> -->
-    <ActorType ClassName="BigAsteroid01" ConfigFile="$Dev/Config/Props/BigAsteroid01.xml" />
-    <ActorType ClassName="BigAsteroid02" ConfigFile="$Dev/Config/Props/BigAsteroid02.xml" />
 </ActorsList>

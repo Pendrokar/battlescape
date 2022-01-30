@@ -1,6 +1,8 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Base</ActorType>
+		<MapIconName>SpaceStation</MapIconName>
+  		<MapIconSize>25</MapIconSize>
 	</Meta>
 	<CNodeComponent>
 		<TransformNode>
@@ -428,7 +430,7 @@
 				<position x="0.53123253583908081055" y="-3.9330039024353027344" z="0.35488215088844299316" Type="3dsMax"/>
 				<rotation x="0.013842834159731864929" y="0.56279295682907104492" z="-0.82586449384689331055" w="-0.031942196190357208252" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" >
 				<position x="0.5391299128532409668" y="-4.6292233467102050781" z="0.6610126495361328125" Type="3dsMax"/>
 				<rotation x="0.012798093259334564209" y="-0.98192918300628662109" z="0.18601931631565093994" w="0.032374706119298934937" Type="3dsMax"/>
 			</Link>
@@ -464,7 +466,7 @@
 				<position x="1.9340908527374267578" y="-3.7907133102416992188" z="0.64924967288970947266" Type="3dsMax"/>
 				<rotation x="-0.35900223255157470703" y="-0.38362926244735717773" z="0.56579267978668212891" w="0.6354719996452331543" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" >
 				<position x="1.9660656452178955078" y="-4.470462799072265625" z="0.98898261785507202148" Type="3dsMax"/>
 				<rotation x="0.19549377262592315674" y="-0.67134290933609008789" z="0.12880878150463104248" w="0.70319926738739013672" Type="3dsMax"/>
 			</Link>
@@ -552,7 +554,7 @@
 				<position x="0.50670140981674194336" y="-3.7803394794464111328" z="0.78997749090194702148" Type="3dsMax"/>
 				<rotation x="-0.56086152791976928711" y="0.020946335047483444214" z="-0.029900999739766120911" w="0.82710427045822143555" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" >
 				<position x="0.50804740190505981445" y="-4.4974775314331054688" z="1.0433752536773681641" Type="3dsMax"/>
 				<rotation x="0.1882622838020324707" y="0.03595428168773651123" z="-0.0063319136388599872589" w="0.98144000768661499023" Type="3dsMax"/>
 			</Link>
@@ -588,7 +590,7 @@
 				<position x="-0.93246704339981079102" y="-3.7560718059539794922" z="0.54022705554962158203" Type="3dsMax"/>
 				<rotation x="-0.35636165738105773926" y="0.45071205496788024902" z="-0.53771942853927612305" w="0.61702740192413330078" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" >
 				<position x="-1.0343712568283081055" y="-4.463710784912109375" z="0.79977023601531982422" Type="3dsMax"/>
 				<rotation x="0.18431867659091949463" y="0.69892644882202148438" z="-0.06152341887354850769" w="0.68829011917114257813" Type="3dsMax"/>
 			</Link>
@@ -717,7 +719,6 @@
     	<Indicator>Structure</Indicator>
 	</CActorComponent>
 	<CClientActorComponent>
-		<MapIcon>SpaceStation</MapIcon>
 	</CClientActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Static" >
@@ -734,22 +735,12 @@
 		<HeatPoints>10000</HeatPoints>
 	</CEngineComponent>
     <CHardpointComponent>
-		<Group ID="0" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="1" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="2" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="3" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
 		<Ammo>
 			<Type>Mg56mm</Type>
 			<Amount>20000</Amount>
@@ -781,5 +772,7 @@
 	</CModulesComponent>
 	<CServerModulesComponent>
 		<MineField>true</MineField>
+		<CreditsIncome>600</CreditsIncome>
+		<SciencePointsIncome>60</SciencePointsIncome>
 	</CServerModulesComponent>
 </ActorConfig>

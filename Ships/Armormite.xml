@@ -518,8 +518,6 @@
 	</CClientActorComponent>
 	<CServerActorComponent>
 		<StratScore>0</StratScore>
-		<DefaultSkins>
-		</DefaultSkins>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>25.0</EmissionsRange>
@@ -541,11 +539,13 @@
         </PhysicsBody>
 	</CBodyComponent>
     <CPropulsionComponent>
-        <RampUpFactor>4.0</RampUpFactor>
+        <RampUpSpeed>0.2</RampUpSpeed>
         <LinearThrust X="7.0" Y="7.0" Z="10.0" />
-        <RotationThrust X="0.05" Y="0.055" Z="0.07" />
+        <BaseRotationThrust X="0.05" Y="0.055" Z="0.07" />
+        <FullRotationThrust X="0.05" Y="0.055" Z="0.07" />
         <RotationStabilizer X="2.5" Y="2.5" Z="0.75" />
-		<MaxRotationSpeed X="0.75" Y="0.65" Z="1.25" />
+		<BaseRotationSpeed X="0.75" Y="0.65" Z="1.25" />
+		<FullRotationSpeed X="0.75" Y="0.65" Z="1.25" />
 		<AtmoDecay>0.004</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>0.0</DriftLimiter>
@@ -553,7 +553,7 @@
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>200</EnergyPoints>
-		<RechargeRate>10</RechargeRate>
+		<RechargeEnergyPoints>10</RechargeEnergyPoints>
 		<HeatPoints>200</HeatPoints>
 		<DechargeHeatPoints>20</DechargeHeatPoints>
 	</CEngineComponent>
@@ -564,18 +564,20 @@
 		<DeathCredits>25</DeathCredits>
 		<Drag>0.003</Drag>
 		<ArmorPoints>4</ArmorPoints>
-	</CHullComponent>
+    <DefaultSkins>
+    </DefaultSkins>
+  </CHullComponent>
 	<CShieldComponent>
 		<ShieldPoints>200</ShieldPoints>
-		<RechargeRate>2</RechargeRate>
+		<RechargeShieldPoints>2</RechargeShieldPoints>
 	</CShieldComponent>
 	<CWarpComponent>
-		<ChargeDuration>5.0</ChargeDuration>
-		<Cooldown>10.0</Cooldown>
+		<WarpChargeDuration>7.0</WarpChargeDuration>
+		<WarpCooldown>12.0</WarpCooldown>
 		<MinWarpSpeed>0.230</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>
-		<WarpMesh>Particles/Warp/SM_WarpTunnelRoundAlt</WarpMesh>
+		<WarpMesh>FX/Warp/SM_WarpTunnelRound</WarpMesh>
 		<WarpMeshScale>5.0</WarpMeshScale>
 		<LightsDist>0.015</LightsDist>
 	</CClientWarpComponent>
@@ -584,7 +586,7 @@
 		<TurboThrustRate>1.0</TurboThrustRate>
 		<TurboTimerDecay>3.0</TurboTimerDecay>
 		<TurboInitialBoost>2.0</TurboInitialBoost>
-		<ThrustScale X="1.0" Y="0.9" Z="0.7" />
+		<BoostThrustScale X="1.0" Y="0.9" Z="0.7" />
 		<BoostCooldown>1.0</BoostCooldown>
 	</CTurboBoostComponent>
 	<CShipComponent>

@@ -62,11 +62,13 @@
         </PhysicsBody>
 	</CBodyComponent>
     <CPropulsionComponent>
-        <RampUpFactor>4.0</RampUpFactor>
+        <RampUpSpeed>0.0</RampUpSpeed>
         <LinearThrust X="0.08" Y="0.08" Z="0.08" />
-        <RotationThrust X="0.00250" Y="0.00250" Z="0.00250" />
+        <BaseRotationThrust X="0.00250" Y="0.00250" Z="0.00250" />
+        <FullRotationThrust X="0.00250" Y="0.00250" Z="0.00250" />
         <RotationStabilizer X="1.0" Y="1.0" Z="1.0" />
-		<MaxRotationSpeed X="1.40" Y="1.40" Z="1.40" />
+		<BaseRotationSpeed X="1.40" Y="1.40" Z="1.40" />
+		<FullRotationSpeed X="1.40" Y="1.40" Z="1.40" />
 		<CapSpeed>0.6</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>

@@ -10,7 +10,6 @@
 			<RejectionSize>0.005</RejectionSize>
 
 			<PhysicsBody Type="Mesh" >
-<!-- 		        <CollisionFile>$Dev/Structures/SFC-Stations/1f8a900b.insm</CollisionFile> -->
 		        <CollisionFile>$Dev/Structures/StationModules_SFC/0127231b.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
@@ -22,6 +21,7 @@
 				<SpawnNameTag>HUD_Docking</SpawnNameTag>
 				<SpawnNamePos X="0" Y="0.1" Z="-0.5" />
 				<MarkerMesh>Structures/LandingMarkers/SM_Capship_hangar</MarkerMesh>
+				<Name>UI_Module_DockingSpawn</Name>
 			    <Spawn>
 					<Type>Capship</Type>
 			        <Size X="0.600" Y="1.500" Z="0.200" Type="3dsMax" />
@@ -36,7 +36,6 @@
 	<Condition Target="Server">
 		<TransformNode >
 		     <PhysicsBody Type="Mesh" >
-<!-- 		        <CollisionFile>$Dev/Structures/SFC-Stations/1f8a900b.insm</CollisionFile> -->
 		        <CollisionFile>$Dev/Structures/StationModules_SFC/0127231b.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>

@@ -1,6 +1,8 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Base</ActorType>
+		<MapIconName>SpaceStation</MapIconName>
+  		<MapIconSize>25</MapIconSize>
 	</Meta>
 	<CNodeComponent>
 		<TransformNode>
@@ -76,11 +78,11 @@
 				<position x="0.40000000596046447754" y="-0.42999970912933349609" z="-0.48999994993209838867" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710682868957519531" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" >
 				<position x="-1.0500000715255737305" y="0" z="0.69000005722045898438" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.70710670948028564453" w="0.70710682868957519531" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" >
 				<position x="1.0500000715255737305" y="0" z="0.69000005722045898438" Type="3dsMax"/>
 				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
@@ -453,7 +455,6 @@
     	<Indicator>Structure</Indicator>
 	</CActorComponent>
 	<CClientActorComponent>
-		<MapIcon>SpaceStation</MapIcon>
 	</CClientActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Static" >
@@ -470,22 +471,12 @@
 		<HeatPoints>10000</HeatPoints>
 	</CEngineComponent>
     <CHardpointComponent>
-		<Group ID="0" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="1" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="2" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="3" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
 		<Ammo>
 			<Type>Mg56mm</Type>
 			<Amount>20000</Amount>
@@ -517,5 +508,7 @@
 	</CModulesComponent>
 	<CServerModulesComponent>
 		<MineField>true</MineField>
+		<CreditsIncome>150</CreditsIncome>
+		<SciencePointsIncome>5</SciencePointsIncome>
 	</CServerModulesComponent>
 </ActorConfig>

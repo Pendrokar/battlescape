@@ -86,6 +86,7 @@
 			<Module>
 		        <Class>Sensors</Class>
 				<HitPoints>2500</HitPoints>
+				<Name>UI_Module_Sensors</Name>
 				<Score>20</Score>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>

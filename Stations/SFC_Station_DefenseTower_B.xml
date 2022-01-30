@@ -11,6 +11,7 @@
 			<Module>
 		        <Class>DefenseTowerB</Class>
 				<HitPoints>750</HitPoints>
+				<Name>UI_Module_DefenseTower</Name>
 				<Score>5</Score>
 			    <Sockets>
 					<FileName>$Dev/Structures/SFC_StaticDefense/05a68cf9.insm</FileName>

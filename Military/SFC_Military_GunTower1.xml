@@ -44,6 +44,7 @@
 		        <Class>DefenseTowerA</Class>
 				<HitPoints>1500</HitPoints>
 				<Score>20</Score>
+				<Name>UI_Module_DefenseTower</Name>
 				<MapToPlanet>true</MapToPlanet>
 			    <Sockets>
 					<FileName>$Dev/Structures/SFC-Military/0039f204.insm</FileName>

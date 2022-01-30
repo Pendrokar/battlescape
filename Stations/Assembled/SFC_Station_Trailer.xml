@@ -1,6 +1,8 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Base</ActorType>
+		<MapIconName>SpaceStation</MapIconName>
+  		<MapIconSize>25</MapIconSize>
 	</Meta>
 	<CNodeComponent>
 		<TransformNode>
@@ -5787,19 +5789,19 @@
 					</TransformNode>
 				</Condition>
 			</Filter>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" Lights="false" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" Lights="false" >
 				<position x="2" y="-0.83000022172927856445" z="0" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" Lights="false" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" Lights="false" >
 				<position x="-2" y="0.8300005793571472168" z="0" Type="3dsMax"/>
 				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" Lights="false" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" Lights="false" >
 				<position x="2" y="0.8300005793571472168" z="0" Type="3dsMax"/>
 				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" Lights="false" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" Lights="false" >
 				<position x="-2" y="-0.83000022172927856445" z="0" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
 			</Link>
@@ -6218,7 +6220,7 @@
 	</CClientHullComponent>
 	<CServerActorComponent>
         <Name>Odyssey Stn</Name>
-		<StratScore>500</StratScore>
+		<StratScore>600</StratScore>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>1000.0</EmissionsRange>
@@ -6232,7 +6234,6 @@
     	<Indicator>Structure</Indicator>
 	</CActorComponent>
 	<CClientActorComponent>
-		<MapIcon>SpaceStation</MapIcon>
 	</CClientActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Static" >
@@ -6249,22 +6250,12 @@
 		<HeatPoints>10000</HeatPoints>
 	</CEngineComponent>
     <CHardpointComponent>
-		<Group ID="0" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="1" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="2" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="3" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
 		<Ammo>
 			<Type>Mg56mm</Type>
 			<Amount>20000</Amount>
@@ -6296,5 +6287,7 @@
 	</CModulesComponent>
 	<CServerModulesComponent>
 		<MineField>true</MineField>
+		<CreditsIncome>450</CreditsIncome>
+		<SciencePointsIncome>30</SciencePointsIncome>
 	</CServerModulesComponent>
 </ActorConfig>

@@ -94,6 +94,7 @@
 				<MapToPlanet>true</MapToPlanet>
 				<SpawnNameTag>HUD_Hangar</SpawnNameTag>
 				<SpawnNamePos X="0" Y="0.21" Z="0.2" />
+				<Name>UI_Module_LargeHangar</Name>
 				<MarkerMesh>Structures/LandingMarkers/SM_FactoryHangar</MarkerMesh>
 			    <Spawn>
 					<Type>Fighter</Type>

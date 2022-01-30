@@ -247,6 +247,7 @@
 			<Module>
 		        <Class>SupplyBay</Class>
 				<HitPoints>10000</HitPoints>
+				<Name>UI_Module_SupplyBay</Name>
 				<Score>50</Score>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>

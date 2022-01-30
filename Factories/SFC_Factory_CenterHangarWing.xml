@@ -152,6 +152,7 @@
 				<HitPoints>35000</HitPoints>
 				<Score>100</Score>
 				<MapToPlanet>true</MapToPlanet>
+				<Name>UI_Module_LargeHangar</Name>
 			    <Spawn>
 					<Type>Hauler</Type>
 			        <Size X="0.132" Y="0.0592" Z="0.479" />

@@ -5,11 +5,9 @@
     <Group ID="0" DeltaIntensity="5.0" AngAccFactor="1.0" >
 		<Range>10.0</Range>
         <Light Intensity="250000000.0" Offset="0.01500" >
-<!--             <Color X="0.76" Y="0.87" Z="0.70" /> -->
             <Color X="0.05" Y="0.3" Z="1.0" />
         </Light>
-<!--         <Particles Name="Particles/Thrusters/Main_Drive/Effect/P_Small_Thruster" SizeScale="7.0" /> -->
-        <Particles Name="Particles/Thrusters/Main_Drive/P_CarrierThruster" SizeScale="0.54" UseMeshParticles="true" Intensity="150000.0" Offset="-0.015" Length="4.0" />
+        <Particles Name="ParticleEffects/Thrusters/P_CarrierThruster" SizeScale="0.54" UseMeshParticles="true" Intensity="150000.0" Offset="-0.015" Length="4.0" />
     </Group>
 
     <Group ID="1" DeltaIntensity="5.0" AngAccFactor="1.0" >
@@ -17,17 +15,15 @@
         <Light Intensity="100000000.0" Offset="0.0100" >
             <Color X="0.76" Y="0.87" Z="0.70" />
         </Light>
-        <Particles Name="Particles/Thrusters/M_Jet/Effect/P_Mjet" SizeScale="0.6" />
+        <Particles Name="ParticleEffects/Thrusters/P_Mjet" SizeScale="0.6" />
     </Group>
 
     <Group ID="2" DeltaIntensity="5.0" AngAccFactor="1.0" >
 		<Range>14.0</Range>
         <Light Intensity="500000000.0" Offset="0.03000" >
-<!--             <Color X="0.76" Y="0.87" Z="0.70" /> -->
             <Color X="0.05" Y="0.3" Z="1.0" />
         </Light>
-<!--         <Particles Name="Particles/Thrusters/Main_Drive/Effect/P_Small_Thruster" SizeScale="13.0" /> -->
-        <Particles Name="Particles/Thrusters/Main_Drive/P_CarrierThruster" SizeScale="1.0" UseMeshParticles="true" Intensity="150000.0" Offset="-0.015" Length="4.0" />
+        <Particles Name="ParticleEffects/Thrusters/P_CarrierThruster" SizeScale="1.0" UseMeshParticles="true" Intensity="150000.0" Offset="-0.015" Length="4.0" />
     </Group>
 
     <Thruster ID="0" Name="s_main_left" GroupID="2" />

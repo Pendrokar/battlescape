@@ -47,6 +47,7 @@
 
 			<Module>
 		        <Class>Unknown</Class>
+				<Name>UI_Module_Structural</Name>
 				<HitPoints>2000</HitPoints>
 				<Score>25</Score>
 			</Module>

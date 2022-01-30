@@ -1,0 +1,19 @@
+<Loadout Version="0.0.0.1" >
+	<Name>DefaultCorvette</Name>
+	<DisplayName>DEFAULT</DisplayName>
+	<Actor>Corvette</Actor>
+	<IsMain>true</IsMain>
+	<Mount HardpointName="s_weapon_1" Weapon="TurretBlasterMK4" GroupID="1" />
+	<Mount HardpointName="s_weapon_2" Weapon="TurretGunMK4" GroupID="0" />
+	<Mount HardpointName="s_weapon_3" Weapon="TurretGunMK4" GroupID="0" />
+	<Mount HardpointName="s_weapon_4" Weapon="TurretBlasterMK4" GroupID="1" />
+	<Mount HardpointName="s_weapon_5" Weapon="TurretBlasterMK4" GroupID="1" />
+	<Mount HardpointName="s_weapon_6" Weapon="TurretGunMK4" GroupID="0" />
+	<Mount HardpointName="s_weapon_missile_1" Weapon="MissilePod" GroupID="2" />
+	<Mount HardpointName="s_weapon_missile_2" Weapon="MissilePod" GroupID="2" />
+	<Mount HardpointName="s_mod_electronics1" System="FlightAssist" />
+	<Mount HardpointName="s_mod_electronics2" System="TargettingAssist" />
+	<Mount HardpointName="s_mod_electronics3" System="WarpJam1" />
+	<Mount HardpointName="s_mod_structure1" System="LightRepairField" />
+	<Mount HardpointName="s_mod_structure2" System="LightResupplyField" />
+</Loadout>

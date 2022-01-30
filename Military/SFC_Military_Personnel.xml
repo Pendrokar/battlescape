@@ -395,6 +395,7 @@
 			<Module>
 		        <Class>Unknown</Class>
 				<HitPoints>7500</HitPoints>
+				<Name>UI_Module_Structural</Name>
 				<Score>50</Score>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>

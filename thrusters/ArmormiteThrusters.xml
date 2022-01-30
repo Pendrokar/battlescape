@@ -8,7 +8,7 @@
             <Color X="0.05" Y="0.3" Z="1.0" />
             <FadingSize Min="0.1" Max="0.2" />
         </Light>
-        <Particles Name="Particles/Thrusters/Main_Drive/P_SmallShipThruster" SizeScale="3.25" UseMeshParticles="true" Intensity="150000.0" Offset="-0.0012" Length="1.5" />
+        <Particles Name="ParticleEffects/Thrusters/P_SmallShipThruster" SizeScale="3.25" UseMeshParticles="true" Intensity="150000.0" Offset="-0.0012" Length="1.5" />
     </Group>
 
     <Group ID="1" DeltaIntensity="5.0" AngAccFactor="1.0" >
@@ -17,7 +17,7 @@
             <Color X="1" Y="1" Z="1" />
             <FadingSize Min="0.1" Max="0.2" />
         </Light>
-        <Particles Name="Particles/Thrusters/M_Jet/Effect/P_Mjet" SizeScale="0.04" />
+        <Particles Name="ParticleEffects/Thrusters/P_Mjet" SizeScale="0.04" />
     </Group>
 
     <Group ID="2" DeltaIntensity="5.0" AngAccFactor="1.0" >
@@ -26,7 +26,7 @@
             <Color X="1" Y="1" Z="1" />
             <FadingSize Min="0.1" Max="0.2" />
         </Light>
-        <Particles Name="Particles/Thrusters/Main_Drive/P_SmallShipThruster" SizeScale="1.0" UseMeshParticles="true" Intensity="150000.0" Offset="-0.0012" Length="1.5" />
+        <Particles Name="ParticleEffects/Thrusters/P_SmallShipThruster" SizeScale="1.0" UseMeshParticles="true" Intensity="150000.0" Offset="-0.0012" Length="1.5" />
     </Group>
 
     <Thruster ID="0" Name="s_Main-Engine" GroupID="0" CustomOrientation="true" >

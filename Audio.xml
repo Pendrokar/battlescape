@@ -80,12 +80,12 @@
 	<SoundEffect2D>
 		<Name>WhooshIn</Name>
 		<Path>event:/Interface/WhooshIn</Path>
-		<Volume>0.5</Volume>
+		<Volume>1.0</Volume>
 	</SoundEffect2D>
 	<SoundEffect2D>
 		<Name>WhooshOut</Name>
 		<Path>event:/Interface/WhooshOut</Path>
-		<Volume>0.5</Volume>
+		<Volume>1.0</Volume>
 	</SoundEffect2D>
 	<SoundEffect2D>
 		<Name>SensorOpen</Name>
@@ -106,12 +106,12 @@
 	<SoundEffect2D>
 		<Name>VictoryPopup</Name>
 		<Path>event:/General/VictoryPopup</Path>
-		<Volume>0.5</Volume>
+		<Volume>1.0</Volume>
 	</SoundEffect2D>
 	<SoundEffect2D>
 		<Name>DefeatPopup</Name>
 		<Path>event:/General/DefeatPopup</Path>
-		<Volume>0.5</Volume>
+		<Volume>1.0</Volume>
 	</SoundEffect2D>
 	<SoundEffect2D>
 		<Name>VictoryMatch</Name>
@@ -124,9 +124,34 @@
 		<Volume>1.0</Volume>
 	</SoundEffect2D>
 	<SoundEffect2D>
+		<Name>RankUp</Name>
+		<Path>event:/General/RankUp</Path>
+		<Volume>0.20</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
 		<Name>RadarEcho</Name>
 		<Path>event:/Interface/RadarEcho</Path>
 		<Volume>0.1</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>HardpointSelected</Name>
+		<Path>event:/Interface/HardpointSelected</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>HardpointMount</Name>
+		<Path>event:/Interface/HardpointMount</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>HardpointUnmount</Name>
+		<Path>event:/Interface/HardpointUnmount</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>SquadTarget</Name>
+		<Path>event:/Interface/SquadTarget</Path>
+		<Volume>1.0</Volume>
 	</SoundEffect2D>
 
 	<!-- HUD sounds -->
@@ -216,6 +241,12 @@
 	<SoundEffect2D>
 		<Name>AmbientOcean</Name>
 		<Path>event:/Ambient/AmbientOcean</Path>
+		<Volume>0.0</Volume>
+		<Looping>true</Looping>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>AmbientWindCold</Name>
+		<Path>event:/Ambient/AmbientWindCold</Path>
 		<Volume>0.0</Volume>
 		<Looping>true</Looping>
 	</SoundEffect2D>
@@ -573,6 +604,12 @@
 
 	<!-- Weapons sounds -->
 	<SoundEffect3D>
+		<Name>SmallRailgun</Name>
+		<Path>event:/Weapons/Railguns/SmallRailgun</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.003" Y="3.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
 		<Name>MgSmall1</Name>
 		<Path>event:/Weapons/MgSmall1</Path>
 		<VolumeRange X="0" Y="1.0" />
@@ -627,6 +664,12 @@
 		<DistRange X="0.002" Y="2.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
+		<Name>PlasmaCutter</Name>
+		<Path>event:/Weapons/Blasters/PlasmaCutter</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.002" Y="2.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
 		<Name>Mg48</Name>
 		<Path>event:/Weapons/Mg48</Path>
 		<VolumeRange X="0" Y="1.0" />
@@ -653,19 +696,19 @@
 	<SoundEffect3D>
 		<Name>KineticTurretMK5</Name>
 		<Path>event:/Weapons/KineticTurrets/KineticTurretMK5</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.95" />
 		<DistRange X="0.08" Y="5.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>KineticTurretMK6</Name>
 		<Path>event:/Weapons/KineticTurrets/KineticTurretMK6</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.9" />
 		<DistRange X="0.1" Y="7.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>KineticTurretMK7</Name>
 		<Path>event:/Weapons/KineticTurrets/KineticTurretMK7</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.9" />
 		<DistRange X="0.15" Y="10.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
@@ -766,12 +809,6 @@
 		<DistRange X="0.3" Y="20.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
-		<Name>ExplosionSmallship</Name>
-		<Path>event:/Hits/ExplosionSmallShip</Path>
-		<VolumeRange X="0" Y="1" />
-		<DistRange X="0.15" Y="10.0" />
-	</SoundEffect3D>
-	<SoundEffect3D>
 		<Name>ExplosionCapship</Name>
 		<Path>event:/Hits/ExplosionCapShip</Path>
 		<VolumeRange X="0" Y="1" />
@@ -799,7 +836,7 @@
 		<Name>SmallShipExplosion</Name>
 		<Path>event:/Hits/SmallShipExplosion</Path>
 		<VolumeRange X="0" Y="1" />
-		<DistRange X="0.15" Y="10.0" />
+		<DistRange X="0.15" Y="6.0" />
 	</SoundEffect3D>
 
 	<!-- Collisions and impacts sounds -->
@@ -812,7 +849,7 @@
 	<SoundEffect3D>
 		<Name>ImpactGunGround</Name>
 		<Path>event:/Hits/ImpactGunGround</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.5" />
 		<DistRange X="0.01" Y="1.5" />
 	</SoundEffect3D>
 	<SoundEffect3D>
@@ -830,7 +867,7 @@
 	<SoundEffect3D>
 		<Name>ImpactBlasterGround</Name>
 		<Path>event:/Hits/ImpactBlasterGround</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.5" />
 		<DistRange X="0.01" Y="1.5" />
 	</SoundEffect3D>
 	<SoundEffect3D>

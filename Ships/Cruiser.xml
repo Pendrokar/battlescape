@@ -3,7 +3,7 @@
 		<ActorType>Ship</ActorType>
 		<SpawnType>Capship</SpawnType>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
-		<ShipClassCost>1000</ShipClassCost>
+		<ShipClassCost>800</ShipClassCost>
 		<ShipBattleScore>15</ShipBattleScore>
 		<DisplayName>UI_ShipType_Cruiser</DisplayName>
 		<ClassAbbrev>CRU</ClassAbbrev>
@@ -322,17 +322,35 @@
 	<CClientHullComponent>
         <EmissiveIntensity>250000.0</EmissiveIntensity>
 		<ThrustersEmissiveScale>5.0</ThrustersEmissiveScale>
+
 		<DyingExplosions>60</DyingExplosions>
 		<DyingEffect>DyingExplosion</DyingEffect>
-		<DyingEffectScale>1.0</DyingEffectScale>
-		<DeathExplosions>16</DeathExplosions>
+		<DyingEffectScale>0.8</DyingEffectScale>
+		<DyingExplosionsMode>false</DyingExplosionsMode>
+
+		<DeathExplosions>45</DeathExplosions>
+		<DeathExplosionsDuration>6.0</DeathExplosionsDuration>
+		<DeathExplosionsEffect>SmallExplosionSound</DeathExplosionsEffect>
+
 		<DeathCoreEffect>BlueShockwave</DeathCoreEffect>
 		<DeathCoreEffectScale>35.0</DeathCoreEffectScale>
-		<DeathEffect>CapShipExplosionCore</DeathEffect>
-		<DeathEffectScale>4.0</DeathEffectScale>
+		<DeathCoreEffectDelay>6.0</DeathCoreEffectDelay>
+		<DeathCoreEffectOffset X="0.0" Y="0.0" Z="-0.3" />
+
+		<DeathEffectCount>1</DeathEffectCount>
+		<DeathEffect>CruiserExplosion1</DeathEffect>
+		<DeathEffectScale>1.0</DeathEffectScale>
+		<DeathEffectMinScale>1.0</DeathEffectMinScale>
+		<DeathEffectMaxScale>1.0</DeathEffectMaxScale>
 		<DeathEffectRange>300.0</DeathEffectRange>
+		<DeathEffectLocalSpace>true</DeathEffectLocalSpace>
+
+		<ShrapnelCount>16</ShrapnelCount>
 		<ShrapnelEffect>ShrapnelBig</ShrapnelEffect>
-		<ShrapnelEffectScale>5.0</ShrapnelEffectScale>
+		<ShrapnelEffectScale>2.0</ShrapnelEffectScale>
+		<ShrapnelEffectDelay>6.0</ShrapnelEffectDelay>
+		<ShrapnelEffectDuration>1.0</ShrapnelEffectDuration>
+
 		<ContrailEffectSize>0.2</ContrailEffectSize>
 		<DamageEffectSize>0.2</DamageEffectSize>
 		<Skin>
@@ -405,11 +423,6 @@
 	</CClientActorComponent>
 	<CServerActorComponent>
 		<StratScore>0</StratScore>
-		<DefaultSkins>
-			<Skin TeamID="0">CruiserHavoc</Skin>
-			<Skin TeamID="1">CruiserScoria</Skin>
-			<Skin TeamID="2">CruiserBlueCamo</Skin>
-		</DefaultSkins>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>200.0</EmissionsRange>
@@ -426,7 +439,7 @@
     	<PhysicsBody Type="Mesh" >
 			<CollisionFile>$Dev/Ships/SFC-Cruiser/Collision/b9e1ce8b.insm</CollisionFile>
 			<Dynamic>true</Dynamic>
-            <Mass>45000.0</Mass>
+            <Mass>31280.0</Mass>
             <Collisions>true</Collisions>
         </PhysicsBody>
 <!--     	<PhysicsBody Type="Box" >
@@ -434,417 +447,342 @@
             <Mass>45000.0</Mass>
             <Collisions>true</Collisions>
         </PhysicsBody> -->
-<!-- 		<CollisionBody>
-			<CollisionFile>$Dev/Ships/SFC-Cruiser/Collision/b9e1ce8b.insm</CollisionFile>
-		</CollisionBody> -->
 		<HitMesh>
 			<CollisionFile>$Dev/Ships/SFC-Cruiser/Collision/b9e1ce8b.insm</CollisionFile>
 			<SplitCost>0.001</SplitCost>
 		</HitMesh>
 	</CBodyComponent>
     <CPropulsionComponent>
-        <RampUpFactor>10.0</RampUpFactor>
+        <RampUpSpeed>0.2</RampUpSpeed>
         <LinearThrust X="400.0" Y="300.0" Z="810.0" />
-        <RotationThrust X="150.0" Y="150.0" Z="60.0" />
+        <BaseRotationThrust X="150.0" Y="150.0" Z="60.0" />
+        <FullRotationThrust X="150.0" Y="150.0" Z="60.0" />
         <RotationStabilizer X="6.0" Y="6.0" Z="3.0" />
-		<MaxRotationSpeed X="0.25" Y="0.2" Z="0.5" />
+		<BaseRotationSpeed X="0.360" Y="0.288" Z="0.72" />
+		<FullRotationSpeed X="0.360" Y="0.288" Z="0.72" />
 		<AtmoDecay>0.025</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>3.0</DriftLimiter>
-		<CapSpeed>0.200</CapSpeed>
+		<CapSpeed>0.288</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>2000</EnergyPoints>
+		<RechargeEnergyPoints>100</RechargeEnergyPoints>
 		<HeatPoints>4000</HeatPoints>
 		<DechargeHeatPoints>220</DechargeHeatPoints>
 	</CEngineComponent>
 	<CHullComponent>
 		<HitPoints>40000</HitPoints>
-		<DyingDuration>9.0</DyingDuration>
-		<DeathTiming>3.0</DeathTiming>
-		<DeathDuration>4.0</DeathDuration>
-		<DeathCredits>120</DeathCredits>
+		<DeathDuration>18.0</DeathDuration>
+		<DeathTiming>0.0</DeathTiming>
+		<KillCamTiming>4.0</KillCamTiming>
+		<DeathDebrisTiming>6.0</DeathDebrisTiming>
+ 		<DeathDebrisCount>12</DeathDebrisCount>
+		<DeathDebrisScale>10</DeathDebrisScale>
+		<DeathDebris>ShipDebris1</DeathDebris>
+		<DeathDebris>ShipDebris2</DeathDebris>
+		<DeathDebris>ShipDebris3</DeathDebris>
+		<DeathDebris>ShipDebris4</DeathDebris>
+		<DeathDebris>ShipDebris5</DeathDebris>
+		<DeathDebris>ShipDebris6</DeathDebris>
+		<DeathDebris>ShipDebris7</DeathDebris>
+		<DeathDebris>ShipDebris8</DeathDebris>
+		<MainDeathDebris>CruiserDebris1</MainDeathDebris>
+		<DeathCredits>0</DeathCredits>
+		<GriefCredits>120</GriefCredits>
+		<DeathXP>250</DeathXP>
 		<Drag>0.00005</Drag>
 		<ArmorPoints>6</ArmorPoints>
+		<DefaultSkins>
+			<Skin TeamID="0">CruiserHavoc</Skin>
+			<Skin TeamID="1">CruiserScoria</Skin>
+			<Skin TeamID="2">CruiserBlueCamo</Skin>
+		</DefaultSkins>
 	</CHullComponent>
 	<CShieldComponent>
 		<ShieldPoints>50000</ShieldPoints>
-		<RechargeRate>30</RechargeRate>
+		<RechargeShieldPoints>80</RechargeShieldPoints>
 	</CShieldComponent>
 	<CWarpComponent>
-		<ChargeDuration>10.0</ChargeDuration>
-		<Cooldown>16.0</Cooldown>
-		<MinWarpSpeed>0.120</MinWarpSpeed>
+		<WarpChargeDuration>10.0</WarpChargeDuration>
+		<WarpCooldown>16.0</WarpCooldown>
+		<MinWarpSpeed>0.173</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>
-		<WarpMesh>Particles/Warp/SM_WarpTunnelRound</WarpMesh>
+		<WarpMesh>FX/Warp/SM_WarpTunnelRound</WarpMesh>
 		<WarpMeshScale>327.0</WarpMeshScale>
 		<LightsDist>0.015</LightsDist>
 	</CClientWarpComponent>
 	<CShipComponent>
 	</CShipComponent>
 	<CHardpointComponent>
-		<Mesh>$Dev/Ships/SFC-Cruiser/6bfb2444.insm</Mesh>
+		<Layout>$Config/Ships/Layouts/CruiserLayout.xml</Layout>
 		<ExclusiveWeapons>false</ExclusiveWeapons>
-		<Group ID="0" >
-			<Weapon>AutoTurretGunMK4</Weapon>
-		</Group>
-		<Group ID="1" >
-			<Weapon>AutoTurretBlasterMK4</Weapon>
-		</Group>
-		<Group ID="2" >
-			<Weapon>TurretGunMK5</Weapon>
-		</Group>
-		<Group ID="3" >
-			<Weapon>TurretBlasterMK5</Weapon>
-		</Group>
-		<Group ID="4" >
-			<Weapon>TurretGunMK6</Weapon>
-		</Group>
-		<Group ID="5" >
-			<Weapon>TurretGunMK7</Weapon>
-		</Group>
-		<Group ID="6" >
-			<Weapon>MissileLauncherMK3</Weapon>
-		</Group>
-		<Group ID="7" >
-			<Weapon>TorpedoLauncherMK3</Weapon>
-		</Group>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
+		<Group ID="6" />
+		<Group ID="7" />
+		<Group ID="8" />
+		<Group ID="9" />
 		<Hardpoint ID="0" >
 			<Socket>s_mk4_front_bot_left_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="1" >
 			<Socket>s_mk4_front_bot_left_outer</Socket>
-			<GroupID>0</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
-		<Hardpoint ID="2" >
+		<Hardpoint ID="2" Created="false" >
 			<Socket>s_mk4_front_bot_right_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="3" >
 			<Socket>s_mk4_front_bot_right_outer</Socket>
-			<GroupID>1</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
-		<Hardpoint ID="4" >
+		<Hardpoint ID="4" Created="false" >
 			<Socket>s_mk4_front_top_left_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="5" >
 			<Socket>s_mk4_front_top_left_outer</Socket>
-			<GroupID>1</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
-		<Hardpoint ID="6" >
+		<Hardpoint ID="6" Created="false" >
 			<Socket>s_mk4_front_top_right_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="7" >
 			<Socket>s_mk4_front_top_right_outer</Socket>
-			<GroupID>0</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
-		<Hardpoint ID="8" >
+		<Hardpoint ID="8" Created="false" >
 			<Socket>s_mk4_rear_bot_left_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="9" >
 			<Socket>s_mk4_rear_bot_left_outer</Socket>
-			<GroupID>1</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
-		<Hardpoint ID="10" >
+		<Hardpoint ID="10" Created="false" >
 			<Socket>s_mk4_rear_bot_right_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="11" >
 			<Socket>s_mk4_rear_bot_right_outer</Socket>
-			<GroupID>0</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
-		<Hardpoint ID="12" >
+		<Hardpoint ID="12" Created="false" >
 			<Socket>s_mk4_rear_top_left_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="13" >
 			<Socket>s_mk4_rear_top_left_outer</Socket>
-			<GroupID>0</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
-		<Hardpoint ID="14" >
+		<Hardpoint ID="14" Created="false" >
 			<Socket>s_mk4_rear_top_right_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
 		<Hardpoint ID="15" >
 			<Socket>s_mk4_rear_top_right_outer</Socket>
-			<GroupID>1</GroupID>
-			<Class>MK4</Class>
 		</Hardpoint>
-
-		<Hardpoint ID="16" >
+		<Hardpoint ID="16" Created="false" >
 			<Socket>s_mk5_bot_side_left</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
-		<Hardpoint ID="17" >
+		<Hardpoint ID="17" Created="false" >
 			<Socket>s_mk5_bot_side_right</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
-		<Hardpoint ID="18" >
+		<Hardpoint ID="18" Created="false" >
 			<Socket>s_mk5_center_bot_left_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="19" >
 			<Socket>s_mk5_center_bot_left_outer</Socket>
-			<GroupID>3</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
-		<Hardpoint ID="20" >
+		<Hardpoint ID="20" Created="false" >
 			<Socket>s_mk5_center_bot_right_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="21" >
 			<Socket>s_mk5_center_bot_right_outer</Socket>
-			<GroupID>3</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
-		<Hardpoint ID="22" >
+		<Hardpoint ID="22" Created="false" >
 			<Socket>s_mk5_center_top_left_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="23" >
 			<Socket>s_mk5_center_top_left_outer</Socket>
-			<GroupID>3</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
-		<Hardpoint ID="24" >
+		<Hardpoint ID="24" Created="false" >
 			<Socket>s_mk5_center_top_right_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="25" >
 			<Socket>s_mk5_center_top_right_outer</Socket>
-			<GroupID>3</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="26" >
 			<Socket>s_mk5_fwd_bot_left</Socket>
-			<GroupID>2</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="27" >
 			<Socket>s_mk5_fwd_bot_right</Socket>
-			<GroupID>2</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="28" >
 			<Socket>s_mk5_fwd_top_left</Socket>
-			<GroupID>2</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="29" >
 			<Socket>s_mk5_fwd_top_right</Socket>
-			<GroupID>2</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
-		<Hardpoint ID="30" >
+		<Hardpoint ID="30" Created="false" >
 			<Socket>s_mk5_rear_bot_left_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="31" >
 			<Socket>s_mk5_rear_bot_left_outer</Socket>
-			<GroupID>3</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
-		<Hardpoint ID="32" >
+		<Hardpoint ID="32" Created="false" >
 			<Socket>s_mk5_rear_bot_right_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="33" >
 			<Socket>s_mk5_rear_bot_right_outer</Socket>
-			<GroupID>3</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
-		<Hardpoint ID="34" >
+		<Hardpoint ID="34" Created="false" >
 			<Socket>s_mk5_rear_top_left_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="35" >
 			<Socket>s_mk5_rear_top_left_outer</Socket>
-			<GroupID>3</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
-		<Hardpoint ID="36" >
+		<Hardpoint ID="36" Created="false" >
 			<Socket>s_mk5_rear_top_right_inner</Socket>
-			<GroupID>-1</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
 		<Hardpoint ID="37" >
 			<Socket>s_mk5_rear_top_right_outer</Socket>
-			<GroupID>3</GroupID>
-			<Class>MK5</Class>
 		</Hardpoint>
-
  		<Hardpoint ID="38" >
 			<Socket>s_mk6_bot</Socket>
-			<GroupID>4</GroupID>
-			<Class>MK6</Class>
 		</Hardpoint>
 		<Hardpoint ID="39" >
 			<Socket>s_mk6_bot_left</Socket>
-			<GroupID>4</GroupID>
-			<Class>MK6</Class>
 		</Hardpoint>
 		<Hardpoint ID="40" >
 			<Socket>s_mk6_bot_right</Socket>
-			<GroupID>4</GroupID>
-			<Class>MK6</Class>
 		</Hardpoint>
 		<Hardpoint ID="41" >
 			<Socket>s_mk6_top</Socket>
-			<GroupID>4</GroupID>
-			<Class>MK6</Class>
 		</Hardpoint>
 		<Hardpoint ID="42" >
 			<Socket>s_mk6_top_left</Socket>
-			<GroupID>4</GroupID>
-			<Class>MK6</Class>
 		</Hardpoint>
 		<Hardpoint ID="43" >
 			<Socket>s_mk6_top_right</Socket>
-			<GroupID>4</GroupID>
-			<Class>MK6</Class>
 		</Hardpoint>
-
 		<Hardpoint ID="44" >
 			<Socket>s_mk7_bot_left</Socket>
-			<GroupID>5</GroupID>
-			<Class>MK7</Class>
 		</Hardpoint>
 		<Hardpoint ID="45" >
 			<Socket>s_mk7_bot_right</Socket>
-			<GroupID>5</GroupID>
-			<Class>MK7</Class>
 		</Hardpoint>
 		<Hardpoint ID="46" >
 			<Socket>s_mk7_top_left</Socket>
-			<GroupID>5</GroupID>
-			<Class>MK7</Class>
 		</Hardpoint>
 		<Hardpoint ID="47" >
 			<Socket>s_mk7_top_right</Socket>
-			<GroupID>5</GroupID>
-			<Class>MK7</Class>
 		</Hardpoint>
-
-		<Hardpoint ID="48" >
+		<Hardpoint ID="48" Created="false" >
 			<Socket>s_mko_missile_bot</Socket>
-			<GroupID>-1</GroupID>
-			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
-		<Hardpoint ID="49" >
+		<Hardpoint ID="49" Created="false" >
 			<Socket>s_mko_missile_fwdX_bot_left</Socket>
-			<GroupID>-1</GroupID>
-			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
-		<Hardpoint ID="50" >
+		<Hardpoint ID="50" Created="false" >
 			<Socket>s_mko_missile_fwdX_bot_right</Socket>
-			<GroupID>-1</GroupID>
-			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
-		<Hardpoint ID="51" >
+		<Hardpoint ID="51" Created="false" >
 			<Socket>s_mko_missile_fwdX_top_left</Socket>
-			<GroupID>-1</GroupID>
-			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
-		<Hardpoint ID="52" >
+		<Hardpoint ID="52" Created="false" >
 			<Socket>s_mko_missile_fwdX_top_right</Socket>
-			<GroupID>-1</GroupID>
-			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
-		<Hardpoint ID="53" >
+		<Hardpoint ID="53" Created="false" >
 			<Socket>s_mko_missile_fwd_left</Socket>
-			<GroupID>-1</GroupID>
-			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
-		<Hardpoint ID="54" >
+		<Hardpoint ID="54" Created="false" >
 			<Socket>s_mko_missile_fwd_right</Socket>
-			<GroupID>-1</GroupID>
-			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="55" >
 			<Socket>s_mko_missile_midX_bot_left</Socket>
-			<GroupID>6</GroupID>
-			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="56" >
 			<Socket>s_mko_missile_midX_bot_right</Socket>
-			<GroupID>6</GroupID>
-			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="57" >
 			<Socket>s_mko_missile_midX_top_left</Socket>
-			<GroupID>6</GroupID>
-			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="58" >
 			<Socket>s_mko_missile_midX_top_right</Socket>
-			<GroupID>6</GroupID>
-			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
-		<Hardpoint ID="59" >
+		<Hardpoint ID="59" Created="false" >
 			<Socket>s_mko_missile_top</Socket>
-			<GroupID>-1</GroupID>
-			<Class>HeavyMissilePod</Class>
 		</Hardpoint>
-
 		<Hardpoint ID="60" >
 			<Socket>s_mko_torpedo_bot</Socket>
-			<GroupID>7</GroupID>
-			<Class>TorpedoPod</Class>
 		</Hardpoint>
 		<Hardpoint ID="61" >
 			<Socket>s_mko_torpedo_top</Socket>
-			<GroupID>7</GroupID>
-			<Class>TorpedoPod</Class>
 		</Hardpoint>
-
-		<Ammo>
-			<Type>Mg56mm</Type>
-			<Amount>25000</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>Mg96mm</Type>
-			<Amount>20000</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>HeavyMissile</Type>
-			<Amount>128</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>Torpedo</Type>
-			<Amount>32</Amount>
-		</Ammo>
-
+		<Hardpoint ID="62" >
+			<Socket>s_mod_weaponsmod1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="63" >
+			<Socket>s_mod_weaponsmod2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="64" >
+			<Socket>s_mod_weaponsmod3</Socket>
+		</Hardpoint>
+		<Hardpoint ID="65" >
+			<Socket>s_mod_reactor1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="66" >
+			<Socket>s_mod_reactor2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="67" >
+			<Socket>s_mod_reactor3</Socket>
+		</Hardpoint>
+		<Hardpoint ID="68" >
+			<Socket>s_mod_storage1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="69" >
+			<Socket>s_mod_storage2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="70" >
+			<Socket>s_mod_storage3</Socket>
+		</Hardpoint>
+		<Hardpoint ID="71" >
+			<Socket>s_mod_electronics1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="72" >
+			<Socket>s_mod_electronics2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="73" >
+			<Socket>s_mod_electronics3</Socket>
+		</Hardpoint>
+		<Hardpoint ID="74" >
+			<Socket>s_mod_electronics4</Socket>
+		</Hardpoint>
+		<Hardpoint ID="75" >
+			<Socket>s_mod_structure1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="76" >
+			<Socket>s_mod_structure2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="77" >
+			<Socket>s_mod_structure3</Socket>
+		</Hardpoint>
+		<Hardpoint ID="78" >
+			<Socket>s_mod_shields1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="79" >
+			<Socket>s_mod_shields2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="80" >
+			<Socket>s_mod_shields3</Socket>
+		</Hardpoint>
+		<Hardpoint ID="81" >
+			<Socket>s_mod_reactor1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="82" >
+			<Socket>s_mod_reactor2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="83" >
+			<Socket>s_mod_propulsion1</Socket>
+		</Hardpoint>
 	</CHardpointComponent>
 	<CServerHardpointComponent>
+		<Loadout Name="DefaultCruiser" Proba="100" />
 	</CServerHardpointComponent>
 	<CServerMissionComponent>
 		<BountyReward>150</BountyReward>

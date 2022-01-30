@@ -91,6 +91,7 @@
 		        <Class>StorageTank</Class>
 				<HitPoints>2500</HitPoints>
 				<Score>20</Score>
+				<Name>UI_Module_StorageTank</Name>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
 		</Object>

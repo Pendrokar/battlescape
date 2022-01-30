@@ -8,7 +8,7 @@
             <Color X="0.05" Y="0.3" Z="1.0" />
             <FadingSize Min="0.1" Max="0.2" />
         </Light>
-        <Particles Name="Particles/Thrusters/Main_Drive/P_SmallShipThruster" SizeScale="1.0" UseMeshParticles="true" Intensity="150000.0" Offset="-0.0012" />
+        <Particles Name="ParticleEffects/Thrusters/P_SmallShipThruster" SizeScale="1.0" UseMeshParticles="true" Intensity="150000.0" Offset="-0.0012" />
     </Group>
 
     <Group ID="1" DeltaIntensity="5.0" AngAccFactor="1.0" >
@@ -17,7 +17,7 @@
             <Color X="0.77" Y="0.91" Z="1" />
             <FadingSize Min="0.1" Max="0.2" />
         </Light>
-        <Particles Name="Particles/Thrusters/M_Jet/Effect/P_Mjet" SizeScale="0.02" />
+        <Particles Name="ParticleEffects/Thrusters/P_Mjet" SizeScale="0.02" />
     </Group>
 
 </ThrustModel>

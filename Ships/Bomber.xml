@@ -3,7 +3,7 @@
 		<ActorType>Ship</ActorType>
 		<SpawnType>Fighter</SpawnType>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
-		<ShipClassCost>30</ShipClassCost>
+		<ShipClassCost>40</ShipClassCost>
 		<ShipBattleScore>2</ShipBattleScore>
 		<DisplayName>UI_ShipType_Bomber</DisplayName>
 		<ClassAbbrev>BMB</ClassAbbrev>
@@ -165,15 +165,20 @@
 		<Paint>
 			<MeshInstance ID="0" Name="Bomber_Hull001_MI_SFC_Bomber_Hull">Primary</MeshInstance>
 		</Paint>
+
 		<DyingExplosions>20</DyingExplosions>
-		<DeathExplosions>2</DeathExplosions>
 		<DyingEffect>DyingExplosion</DyingEffect>
-		<DeathEffect>SmallShipExplosion</DeathEffect>
 		<DyingEffectScale>0.050</DyingEffectScale>
+
+		<DeathEffectCount>2</DeathEffectCount>
+		<DeathEffectDuration>0.25</DeathEffectDuration>
+		<DeathEffect>SmallShipExplosion</DeathEffect>
 		<DeathEffectScale>0.7</DeathEffectScale>
 		<DeathEffectRange>70.0</DeathEffectRange>
+
 		<ShrapnelEffect>ShrapnelSmall</ShrapnelEffect>
 		<ShrapnelEffectScale>0.7</ShrapnelEffectScale>
+
 		<ContrailEffectSize>0.06</ContrailEffectSize>
 		<DamageEffectSize>0.025</DamageEffectSize>
 		<Skin>
@@ -318,7 +323,7 @@
 				<position x="-0.00019899968174286187" y="0.010781999677419662" z="0.0015100004384294152" Type="3dsMax"/>
 				<Range>0.1</Range>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Color X="1.0" Y="0.258824" Z="0.0" />
 				<Lumens>16000.0</Lumens>
@@ -388,7 +393,7 @@
 				<position x="0.00052500027231872082" y="0.010553999803960323" z="0.0010900003835558891" Type="3dsMax"/>
 				<Range>0.1</Range>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Color X="0.0235294" Y="1.0" Z="0.0" />
 				<Lumens>16000.0</Lumens>
@@ -570,11 +575,6 @@
 	</CClientActorComponent>
 	<CServerActorComponent>
 		<StratScore>0</StratScore>
-		<DefaultSkins>
-			<Skin TeamID="0">BomberHavoc</Skin>
-			<Skin TeamID="1">BomberScoria</Skin>
-			<Skin TeamID="2">BomberHavoc</Skin>
-		</DefaultSkins>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>40.0</EmissionsRange>
@@ -589,7 +589,7 @@
         <PhysicsBody Type="Box" >
         	<SidesSize X="0.019316" Y="0.009618" Z="0.025341" />
             <Offset X="0" Y="0" Z="0" />
-            <Mass>40.0</Mass>
+            <Mass>30.0</Mass>
             <Collisions>true</Collisions>
             <Bounce>0.0</Bounce>
             <Friction>0.2</Friction>
@@ -600,41 +600,52 @@
 		</HitMesh>
 	</CBodyComponent>
     <CPropulsionComponent>
-        <RampUpFactor>4.0</RampUpFactor>
+        <RampUpSpeed>0.2</RampUpSpeed>
         <LinearThrust X="0.81" Y="0.97" Z="1.35" />
-        <RotationThrust X="0.0030" Y="0.0025" Z="0.0020" />
+        <BaseRotationThrust X="0.0030" Y="0.0025" Z="0.0020" />
+        <FullRotationThrust X="0.0030" Y="0.0025" Z="0.0020" />
         <RotationStabilizer X="4.8" Y="4.8" Z="1.25" />
-		<MaxRotationSpeed X="0.85" Y="0.60" Z="2.1" />
+		<BaseRotationSpeed X="1.133" Y="0.80" Z="2.8" />
+		<FullRotationSpeed X="1.133" Y="0.80" Z="2.8" />
 		<AtmoDecay>0.002</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>0.0</DriftLimiter>
-		<CapSpeed>0.32</CapSpeed>
+		<CapSpeed>0.427</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>200</EnergyPoints>
-		<RechargeRate>10</RechargeRate>
+		<RechargeEnergyPoints>10</RechargeEnergyPoints>
 		<HeatPoints>200</HeatPoints>
 		<DechargeHeatPoints>25</DechargeHeatPoints>
 	</CEngineComponent>
 	<CHullComponent>
 		<HitPoints>300</HitPoints>
-		<DyingDuration>4.0</DyingDuration>
-		<DeathDuration>0.25</DeathDuration>
-		<DeathCredits>25</DeathCredits>
+		<DeathDuration>3.0</DeathDuration>
+		<DeathTiming>0.0</DeathTiming>
+		<DeathDebrisTiming>0.0</DeathDebrisTiming>
+		<KillCamTiming>2.0</KillCamTiming>
+		<DeathCredits>0</DeathCredits>
+		<GriefCredits>25</GriefCredits>
+		<DeathXP>50</DeathXP>
 		<Drag>0.5</Drag>
 		<ArmorPoints>1</ArmorPoints>
+		<DefaultSkins>
+			<Skin TeamID="0">BomberHavoc</Skin>
+			<Skin TeamID="1">BomberScoria</Skin>
+			<Skin TeamID="2">BomberHavoc</Skin>
+		</DefaultSkins>
 	</CHullComponent>
 	<CShieldComponent>
 		<ShieldPoints>500</ShieldPoints>
-		<RechargeRate>3</RechargeRate>
+		<RechargeShieldPoints>3</RechargeShieldPoints>
 	</CShieldComponent>
 	<CWarpComponent>
-		<ChargeDuration>5.0</ChargeDuration>
-		<Cooldown>10.0</Cooldown>
-		<MinWarpSpeed>0.200</MinWarpSpeed>
+		<WarpChargeDuration>5.0</WarpChargeDuration>
+		<WarpCooldown>10.0</WarpCooldown>
+		<MinWarpSpeed>0.267</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>
-		<WarpMesh>Particles/Warp/SM_WarpTunnelRound</WarpMesh>
+		<WarpMesh>FX/Warp/SM_WarpTunnelRound</WarpMesh>
 		<WarpMeshScale>8.3</WarpMeshScale>
 		<LightsDist>0.015</LightsDist>
 	</CClientWarpComponent>
@@ -646,116 +657,97 @@
 		<TurboThrustRate>1.5</TurboThrustRate>
 		<TurboTimerDecay>2.5</TurboTimerDecay>
 		<TurboInitialBoost>2.25</TurboInitialBoost>
-		<ThrustScale X="1.0" Y="0.95" Z="0.85" />
+		<BoostThrustScale X="1.0" Y="0.95" Z="0.85" />
 		<BoostCooldown>0.75</BoostCooldown>
 	</CTurboBoostComponent>
 	<CShipComponent>
 	</CShipComponent>
 	<CHardpointComponent>
-		<Mesh>$Dev/Ships/SFC-Bomber/8fe8382a.insm</Mesh>
+		<Layout>$Config/Ships/Layouts/BomberLayout.xml</Layout>
 		<ExclusiveWeapons>true</ExclusiveWeapons>
-		<Group ID="0" >
-			<Weapon>ShotgunMK1</Weapon>
-		</Group>
-		<Group ID="1" >
-			<Weapon>GimbalBlasterMK1</Weapon>
-		</Group>
-		<Group ID="2" >
-			<Weapon>MissilePod</Weapon>
-		</Group>
-		<Group ID="3" >
-			<Weapon>TorpedoPod</Weapon>
-		</Group>
-		<Group ID="4" >
-			<Weapon>GimbalGunMK1</Weapon>
-		</Group>
-
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
+		<Group ID="6" />
+		<Group ID="7" />
+		<Group ID="8" />
+		<Group ID="9" />
 		<Hardpoint ID="0" >
 			<Socket>s_gun_A_left</Socket>
-			<GroupID>0</GroupID>
-			<Class>MK1</Class>
 		</Hardpoint>
 		<Hardpoint ID="1" >
 			<Socket>s_gun_A_right</Socket>
-			<GroupID>0</GroupID>
-			<Class>MK1</Class>
 		</Hardpoint>
 		<Hardpoint ID="2" >
 			<Socket>s_gun_E_left</Socket>
-			<GroupID>1</GroupID>
-			<Class>MK1</Class>
 		</Hardpoint>
 		<Hardpoint ID="3" >
 			<Socket>s_gun_E_right</Socket>
-			<GroupID>1</GroupID>
-			<Class>MK1</Class>
 		</Hardpoint>
 		<Hardpoint ID="4" >
 			<Socket>s_gun_G_left</Socket>
-			<GroupID>4</GroupID>
-			<Class>MK1</Class>
 		</Hardpoint>
 		<Hardpoint ID="5" >
 			<Socket>s_gun_G_right</Socket>
-			<GroupID>4</GroupID>
-			<Class>MK1</Class>
 		</Hardpoint>
-
 		<Hardpoint ID="6" >
 			<Socket>s_missile_left_1</Socket>
-			<GroupID>2</GroupID>
-			<Class>LightMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="7" >
 			<Socket>s_missile_left_2</Socket>
-			<GroupID>2</GroupID>
-			<Class>LightMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="8" >
 			<Socket>s_missile_left_3</Socket>
-			<GroupID>2</GroupID>
-			<Class>LightMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="9" >
 			<Socket>s_missile_right_1</Socket>
-			<GroupID>2</GroupID>
-			<Class>LightMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="10" >
 			<Socket>s_missile_right_2</Socket>
-			<GroupID>2</GroupID>
-			<Class>LightMissilePod</Class>
 		</Hardpoint>
 		<Hardpoint ID="11" >
 			<Socket>s_missile_right_3</Socket>
-			<GroupID>2</GroupID>
-			<Class>LightMissilePod</Class>
 		</Hardpoint>
-
 		<Hardpoint ID="12" >
 			<Socket>s_gun_torpedo</Socket>
-			<GroupID>3</GroupID>
-			<Class>TorpedoPod</Class>
 		</Hardpoint>
-
-		<Ammo>
-			<Type>Mg56mm</Type>
-			<Amount>6000</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>LightMissile</Type>
-			<Amount>18</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>Torpedo</Type>
-			<Amount>8</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>Chaff</Type>
-			<Amount>20</Amount>
-		</Ammo>
+		<Hardpoint ID="13" >
+			<Socket>s_mod_reactor</Socket>
+		</Hardpoint>
+		<Hardpoint ID="14" >
+			<Socket>s_mod_weaponsmod</Socket>
+		</Hardpoint>
+		<Hardpoint ID="15" >
+			<Socket>s_mod_propulsion</Socket>
+		</Hardpoint>
+		<Hardpoint ID="16" >
+			<Socket>s_mod_storage</Socket>
+		</Hardpoint>
+		<Hardpoint ID="17" >
+			<Socket>s_mod_electronics1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="18" >
+			<Socket>s_mod_electronics2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="19" >
+			<Socket>s_mod_structure1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="20" >
+			<Socket>s_mod_structure2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="21" >
+			<Socket>s_mod_shields</Socket>
+		</Hardpoint>
 	</CHardpointComponent>
 	<CServerHardpointComponent>
+		<Loadout Name="DefaultBomber" Proba="100" />
+		<Ammo>
+			<Type>Chaff</Type>
+			<Amount>12</Amount>
+		</Ammo>
 	</CServerHardpointComponent>
 	<CServerMissionComponent>
 		<BountyReward>15</BountyReward>

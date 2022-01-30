@@ -51,7 +51,7 @@
 	</CClientActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Box" >
-        	<SidesSize X="0.008" Y="0.0060" Z="0.0104" />
+        	<SidesSize X="0.008" Y="0.0060" Z="0.010" />
             <Offset X="0" Y="0" Z="0" />
             <Mass>1000.0</Mass>
             <Bounce>0.0</Bounce>
@@ -60,11 +60,13 @@
         </PhysicsBody>
 	</CBodyComponent>
     <CPropulsionComponent>
-        <RampUpFactor>4.0</RampUpFactor>
+        <RampUpSpeed>0.0</RampUpSpeed>
         <LinearThrust X="10.0" Y="10.0" Z="10.0" />
-        <RotationThrust X="0.0" Y="0.0" Z="0.0" />
+        <BaseRotationThrust X="0.0" Y="0.0" Z="0.0" />
+        <FullRotationThrust X="0.0" Y="0.0" Z="0.0" />
         <RotationStabilizer X="0.0" Y="0.0" Z="0.0" />
-		<MaxRotationSpeed X="1.0" Y="1.0" Z="1.0" />
+		<BaseRotationSpeed X="1.0" Y="1.0" Z="1.0" />
+		<FullRotationSpeed X="1.0" Y="1.0" Z="1.0" />
 		<AtmoDecay>0.03</AtmoDecay>
 		<CapSpeed>0.1</CapSpeed>
     </CPropulsionComponent>

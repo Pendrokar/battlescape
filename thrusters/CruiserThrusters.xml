@@ -5,31 +5,25 @@
     <Group ID="0" DeltaIntensity="5.0" AngAccFactor="1.0" >
 		<Range>10.0</Range>
         <Light Intensity="200000000.0" Offset="0.00250" >
-<!--             <Color X="0.76" Y="0.87" Z="0.70" /> -->
             <Color X="0.05" Y="0.3" Z="1.0" />
         </Light>
-<!--         <Particles Name="Particles/Thrusters/Main_Drive/Effect/P_Small_Thruster" SizeScale="6.0" /> -->
-        <Particles Name="Particles/Thrusters/Main_Drive/P_CruiserThruster" SizeScale="1.0" UseMeshParticles="true" Intensity="150000.0" Offset="-0.008" Length="3.0" />
+        <Particles Name="ParticleEffects/Thrusters/P_CruiserThruster" SizeScale="1.0" UseMeshParticles="true" Intensity="150000.0" Offset="-0.008" Length="3.0" />
     </Group>
 
     <Group ID="1" DeltaIntensity="5.0" AngAccFactor="1.0" >
 		<Range>6.5</Range>
         <Light Intensity="100000000.0" Offset="0.00250" >
-<!--             <Color X="0.76" Y="0.87" Z="0.70" /> -->
             <Color X="0.05" Y="0.3" Z="1.0" />
         </Light>
-<!--         <Particles Name="Particles/Thrusters/Main_Drive/Effect/P_Small_Thruster" SizeScale="3.0" /> -->
-        <Particles Name="Particles/Thrusters/Main_Drive/P_CruiserThruster" SizeScale="0.5" UseMeshParticles="true" Intensity="150000.0" Offset="-0.008" Length="3.0" />
+        <Particles Name="ParticleEffects/Thrusters/P_CruiserThruster" SizeScale="0.5" UseMeshParticles="true" Intensity="150000.0" Offset="-0.008" Length="3.0" />
     </Group>
 
     <Group ID="2" DeltaIntensity="5.0" AngAccFactor="1.0" >
 		<Range>5.5</Range>
         <Light Intensity="50000000.0" Offset="0.00250" >
-<!--             <Color X="0.76" Y="0.87" Z="0.70" /> -->
             <Color X="0.05" Y="0.3" Z="1.0" />
         </Light>
-<!--         <Particles Name="Particles/Thrusters/Main_Drive/Effect/P_Small_Thruster" SizeScale="1.5" /> -->
-        <Particles Name="Particles/Thrusters/Main_Drive/P_CruiserThruster" SizeScale="0.25" UseMeshParticles="true" Intensity="150000.0" Offset="-0.008" Length="3.0" />
+        <Particles Name="ParticleEffects/Thrusters/P_CruiserThruster" SizeScale="0.25" UseMeshParticles="true" Intensity="150000.0" Offset="-0.008" Length="3.0" />
     </Group>
 
     <Group ID="3" DeltaIntensity="5.0" AngAccFactor="1.0" >
@@ -37,7 +31,7 @@
         <Light Intensity="15000000.0" Offset="0.0032" >
             <Color X="0.76" Y="0.87" Z="0.70" />
         </Light>
-        <Particles Name="Particles/Thrusters/M_Jet/Effect/P_Mjet" SizeScale="0.3" />
+        <Particles Name="ParticleEffects/Thrusters/P_Mjet" SizeScale="0.3" />
     </Group>
 
     <Thruster ID="0" Name="s_main_left_big" GroupID="0" />

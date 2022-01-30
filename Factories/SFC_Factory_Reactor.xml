@@ -154,6 +154,7 @@
 			<Module>
 		        <Class>Reactor</Class>
 				<HitPoints>40000</HitPoints>
+				<Name>UI_Module_Reactor</Name>
 				<Score>150</Score>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>

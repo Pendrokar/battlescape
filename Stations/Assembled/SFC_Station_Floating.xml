@@ -1,6 +1,8 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Base</ActorType>
+		<MapIconName>SpaceStation</MapIconName>
+  		<MapIconSize>25</MapIconSize>
 	</Meta>
 	<CNodeComponent>
 		<TransformNode>
@@ -232,11 +234,11 @@
 				<position x="0.86999994516372680664" y="0.8700001835823059082" z="0.10000000149011611938" Type="3dsMax"/>
 				<rotation x="-0.65328156948089599609" y="0.27059790492057800293" z="0.27059790492057800293" w="0.6532815098762512207" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" >
 				<position x="1.6399998664855957031" y="1.6400003433227539063" z="0.050000000745058059692" Type="3dsMax"/>
 				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" >
 				<position x="1.6400003433227539063" y="-1.6399998664855957031" z="0.050000000745058059692" Type="3dsMax"/>
 				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
 			</Link>
@@ -256,11 +258,11 @@
 				<position x="-0.76000005006790161133" y="-1.4000000953674316406" z="0" Type="3dsMax"/>
 				<rotation x="0.27059802412986755371" y="0.6532815098762512207" z="0.27059805393218994141" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" >
 				<position x="-1.6400001049041748047" y="-1.6400001049041748047" z="0.050000000745058059692" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_A.xml" >
+			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" >
 				<position x="-1.6400001049041748047" y="1.6400001049041748047" z="0.050000000745058059692" Type="3dsMax"/>
 				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
 			</Link>
@@ -1165,7 +1167,6 @@
     	<Indicator>Structure</Indicator>
 	</CActorComponent>
 	<CClientActorComponent>
-		<MapIcon>SpaceStation</MapIcon>
 	</CClientActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Static" >
@@ -1182,22 +1183,12 @@
 		<HeatPoints>10000</HeatPoints>
 	</CEngineComponent>
     <CHardpointComponent>
-		<Group ID="0" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="1" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="2" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="3" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
 		<Ammo>
 			<Type>Mg56mm</Type>
 			<Amount>20000</Amount>
@@ -1229,5 +1220,7 @@
 	</CModulesComponent>
 	<CServerModulesComponent>
 		<MineField>true</MineField>
+		<CreditsIncome>300</CreditsIncome>
+		<SciencePointsIncome>15</SciencePointsIncome>
 	</CServerModulesComponent>
 </ActorConfig>

@@ -528,6 +528,7 @@
 			<Module>
 		        <Class>Unknown</Class>
 				<HitPoints>7500</HitPoints>
+				<Name>UI_Module_Hub</Name>
 				<Score>50</Score>
 			</Module>
 		</Object>

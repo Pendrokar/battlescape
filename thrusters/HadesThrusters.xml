@@ -8,7 +8,7 @@
             <Color X="0.05" Y="0.3" Z="1.0" />
             <FadingSize Min="0.1" Max="0.2" />
         </Light>
-        <Particles Name="Particles/Thrusters/Main_Drive/P_SmallShipThruster" SizeScale="2.8" UseMeshParticles="true" Intensity="150000.0" Offset="-0.0012" />
+        <Particles Name="ParticleEffects/Thrusters/P_SmallShipThruster" SizeScale="2.8" UseMeshParticles="true" Intensity="150000.0" Offset="-0.0012" />
     </Group>
 
     <Thruster ID="0" Name="s_Front-Main-Star" GroupID="0" CustomOrientation="true" >

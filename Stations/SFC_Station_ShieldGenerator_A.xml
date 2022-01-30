@@ -10,6 +10,7 @@
 			<Module>
 		        <Class>Unknown</Class>
 				<HitPoints>2000</HitPoints>
+				<Name>UI_Module_ShieldGen</Name>
 				<Score>50</Score>
 			</Module>
 		</Object>

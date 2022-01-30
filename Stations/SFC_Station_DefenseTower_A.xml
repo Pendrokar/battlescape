@@ -12,6 +12,7 @@
 		        <Class>DefenseTowerA</Class>
 				<HitPoints>1500</HitPoints>
 				<Score>20</Score>
+				<Name>UI_Module_DefenseTower</Name>
 			    <Sockets>
 					<FileName>$Dev/Structures/SFC_StaticDefense/d1031079.insm</FileName>
 			        <Socket Name="s_top_turret" Type="Hardpoint" Class="MK4" />

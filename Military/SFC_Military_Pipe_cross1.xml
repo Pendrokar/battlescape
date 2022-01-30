@@ -16,6 +16,7 @@
 		    </PhysicsBody>
 			<Module>
 		        <Class>Unknown</Class>
+				<Name>UI_Module_Structural</Name>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
 		</Object>

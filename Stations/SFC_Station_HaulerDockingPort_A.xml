@@ -1,20 +1,23 @@
 <Filter>
 	<Condition Target="Client">
-		<Object Mesh="Structures/SFC-Stations/SM_SFC_HaulerDocking" >
-			<LODPower>1.0</LODPower>
+		<Object Mesh="Structures/StationModules_SFC/SM_SFC_Station_HaulerDock_A_Lod0" >
+			<LOD Level="1" Mesh="Structures/StationModules_SFC/SM_SFC_Station_HaulerDock_A_Lod1" />
+			<LOD Level="2" Mesh="Structures/StationModules_SFC/SM_SFC_Station_HaulerDock_A_Lod2" />
+			<LOD Level="3" Mesh="Structures/StationModules_SFC/SM_SFC_Station_HaulerDock_A_Lod3" />
+			<LOD Level="4" Mesh="Structures/StationModules_SFC/SM_SFC_Station_HaulerDock_A_Lod4" />
+			<LODPower>0.35</LODPower>
 			<RejectionSize>0.005</RejectionSize>
-
 			<PhysicsBody Type="Mesh" >
-		        <CollisionFile>$Dev/Structures/SFC-Stations/a548a00c.insm</CollisionFile>
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/10b5e797.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
-
 			<Module>
 				<Class>DockingSpawn</Class>
 				<HitPoints>35000</HitPoints>
 				<Score>50</Score>
 				<SpawnNameTag>HUD_Docking</SpawnNameTag>
 				<SpawnNamePos X="0" Y="0" Z="0.0" />
+				<Name>UI_Module_DockingSpawn</Name>
 			    <Spawn>
 					<Type>Hauler</Type>
 			        <Size X="0.200" Y="0.500" Z="0.100" Type="3dsMax" />
@@ -24,13 +27,12 @@
 			        <Offset X="0" Y="0" Z="0" />
 			    </Spawn>
 			</Module>
-
 		</Object>
 	</Condition>
 	<Condition Target="Server">
 		<TransformNode >
 		     <PhysicsBody Type="Mesh" >
-		        <CollisionFile>$Dev/Structures/SFC-Stations/a548a00c.insm</CollisionFile>
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/10b5e797.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			<Module>

@@ -1,0 +1,56 @@
+<ActorConfig>
+	<CClientNodeComponent>
+        <Object Mesh="Celestial/Asteroids/SmallA02/SM_SmallA02" >
+			<RejectionSize>0.00001</RejectionSize>
+            <PhysicsBody Type="Mesh" >
+                <CollisionFile>$Dev/Celestial/Asteroids/SmallA02/e1bea016.insm</CollisionFile>
+				<CollisionScale>1000</CollisionScale>
+                <Collisions>true</Collisions>
+                <Bounce>0.25</Bounce>
+                <Friction>0.01</Friction>
+            </PhysicsBody>
+			<Scale X="1000" Y="1000" Z="1000" />
+        </Object>
+ 	</CClientNodeComponent>
+	<CServerNodeComponent>
+        <TransformNode>
+            <PhysicsBody Type="Mesh" >
+                <CollisionFile>$Dev/Celestial/Asteroids/SmallA02/e1bea016.insm</CollisionFile>
+				<CollisionScale>1000</CollisionScale>
+                <Collisions>true</Collisions>
+                <Bounce>0.25</Bounce>
+                <Friction>0.01</Friction>
+            </PhysicsBody>
+			<Scale X="1000" Y="1000" Z="1000" />
+        </TransformNode>
+	</CServerNodeComponent>
+	<CServerActorComponent>
+        <Name>Asteroid</Name>
+	</CServerActorComponent>
+	<CActorComponent>
+    	<Indicator>Structure</Indicator>
+		<SurfaceType>Surface</SurfaceType>
+		<ClassAbbrev>AST</ClassAbbrev>
+		<ClassName>ASTEROID</ClassName>
+	</CActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Static" >
+            <Collisions>true</Collisions>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+        </PhysicsBody>
+	</CBodyComponent>
+	<CHullComponent>
+		<HitPoints>100000000</HitPoints>
+	</CHullComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>10000.0</EmissiveIntensity>
+		<DeathExplosions>1</DeathExplosions>
+		<DyingEffect>LargeExplosion</DyingEffect>
+		<DeathEffect>SmallShipExplosion</DeathEffect>
+		<DyingEffectScale>0.01</DyingEffectScale>
+		<DeathEffectScale>0.05</DeathEffectScale>
+		<ContrailEffectSize>0.002</ContrailEffectSize>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+</ActorConfig>

@@ -143,6 +143,7 @@
 		        <Class>Shields</Class>
 				<HitPoints>7500</HitPoints>
 				<Score>50</Score>
+				<Name>UI_Module_ShieldGen</Name>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
 		</Object>
