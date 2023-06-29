@@ -1,0 +1,40 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/StationModules_SFC/Hubs/SM_SFC_Station_Hub_A_Inner_Lod0" >
+			<LOD Level="1" Mesh="Structures/StationModules_SFC/Hubs/SM_SFC_Station_Hub_A_Inner_Lod1" />
+			<LOD Level="2" Mesh="Structures/StationModules_SFC/Hubs/SM_SFC_Station_Hub_A_Inner_Lod2" />
+			<LOD Level="3" Mesh="Structures/StationModules_SFC/Hubs/SM_SFC_Station_Hub_A_Inner_Lod3" />
+			<LOD Level="4" Mesh="Structures/StationModules_SFC/Hubs/SM_SFC_Station_Hub_A_Inner_Lod4" />
+			<LOD Level="5" Mesh="Structures/StationModules_SFC/Hubs/SM_SFC_Station_Hub_A_Inner_Lod5" />
+			<LODPower>0.5</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+
+			<PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/Hubs/0d6b8722.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+
+			<Module>
+		        <Class>Unknown</Class>
+				<HitPoints>15000</HitPoints>
+				<Name>UI_Module_Hub</Name>
+				<Score>50</Score>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/Hubs/0d6b8722.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>Unknown</Class>
+				<HitPoints>15000</HitPoints>
+				<Score>50</Score>
+			</Module>
+			<ServerModule>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

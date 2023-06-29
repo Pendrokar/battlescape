@@ -1,0 +1,21 @@
+<Loadout Version="0.0.0.1">
+    <Name>HeavyCorvette</Name>
+    <DisplayName>TANK</DisplayName>
+    <Actor>Corvette</Actor>
+	<LayoutFile>$Config/Ships/Layouts/CorvetteHeavyLayout.xml</LayoutFile>
+    <IsMain>false</IsMain>
+    <Mount HardpointName="s_weapon_missile_1" Weapon="MissilePod" GroupID="1"/>
+    <Mount HardpointName="s_weapon_missile_2" Weapon="MissilePod" GroupID="1"/>
+    <Mount HardpointName="s_mod_electronics1" System="FlightAssist"/>
+    <Mount HardpointName="s_weapon_1" Weapon="TurretGunMK4" GroupID="0"/>
+    <Mount HardpointName="s_weapon_4" Weapon="TurretGunMK4" GroupID="0"/>
+    <Mount HardpointName="s_weapon_hvymsl2" Weapon="FixedMissileLauncherMK3" GroupID="3"/>
+    <Mount HardpointName="s_weapon_hvymsl1" Weapon="FixedMissileLauncherMK3" GroupID="3"/>
+    <Mount HardpointName="s_weapon_missile_4" Weapon="EMPMissilePod" GroupID="2"/>
+    <Mount HardpointName="s_mod_shields2" System="ShieldRegen"/>
+    <Mount HardpointName="s_weapon_2" Weapon="TurretGunMK4" GroupID="0"/>
+    <Mount HardpointName="s_weapon_3" Weapon="TurretGunMK4" GroupID="0"/>
+    <Mount HardpointName="s_mod_structure2" System="LightArmorPlating1"/>
+    <Mount HardpointName="s_weapon_missile_3" Weapon="EMPMissilePod" GroupID="2"/>
+    <Mount HardpointName="s_mod_electronics3" System="MissileRetargetting"/>
+</Loadout>

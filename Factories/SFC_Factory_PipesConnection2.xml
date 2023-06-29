@@ -14,13 +14,9 @@
 		        <CollisionFile>$Dev/Structures/SFC-Factory/d532fc41.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
-
-			<Sound>
-				<Name>250mPipeStructure</Name>
-			</Sound>
-
 			<Module>
 		        <Class>Unknown</Class>
+				<Name>UI_Module_Structural</Name>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
 		</Object>

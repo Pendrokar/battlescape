@@ -527,7 +527,8 @@
 
 			<Module>
 		        <Class>Unknown</Class>
-				<HitPoints>7500</HitPoints>
+				<HitPoints>15000</HitPoints>
+				<Name>UI_Module_Hub</Name>
 				<Score>50</Score>
 			</Module>
 		</Object>
@@ -540,11 +541,10 @@
 		    </PhysicsBody>
 			<Module>
 		        <Class>Unknown</Class>
-				<HitPoints>7500</HitPoints>
+				<HitPoints>15000</HitPoints>
 				<Score>50</Score>
 			</Module>
 			<ServerModule>
-				<CreditsReward>20</CreditsReward>
 			</ServerModule>
 		</TransformNode>
 	</Condition>

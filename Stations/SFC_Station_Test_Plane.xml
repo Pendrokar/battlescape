@@ -8,6 +8,7 @@
 		    </PhysicsBody>
 			<Module>
 				<HitPoints>500</HitPoints>
+				<Name>UI_Module_Structural</Name>
 				<Score>25</Score>
 			</Module>
 		</Object>
@@ -19,7 +20,7 @@
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			<Module>
-				<HitPoints>500</HitPoints>
+				<HitPoints>1000</HitPoints>
 				<Score>25</Score>
 			</Module>
 		</TransformNode>

@@ -1,4 +1,10 @@
 <ActorConfig>
+	<Meta>
+		<ActorType>Planet</ActorType>
+		<MapIconName>Moon</MapIconName>
+		<MapIconColor X="0.18525" Y="0.192" Z="0.203" W="1" />
+  		<MapIconSize>1000</MapIconSize>
+	</Meta>
 	<CNodeComponent>
 		<TransformNode>
 		</TransformNode>
@@ -16,8 +22,6 @@
 		<SurfaceType>Surface</SurfaceType>
 	</CActorComponent>
 	<CClientActorComponent>
-		<MapIcon>Planet</MapIcon>
-		<MapColor X="0.18525" Y="0.192" Z="0.203" W="1" />
 	</CClientActorComponent>
 	<CBodyComponent>
 	</CBodyComponent>
@@ -134,5 +138,176 @@
 				<Falloff>1.0</Falloff>
 			</Sound>
 		</Sounds>
+		<Props>
+ 			<Layer ID="0" Comment="Various gases erupting from the mountain sides" >
+				<EffectName>ParticleEffects/Smokes/P_MiningDegassing_optimized</EffectName>
+				<ScaleBase>1.0</ScaleBase>
+				<ScalePower>1.0</ScalePower>
+				<MaxScaleLevel>10</MaxScaleLevel>
+				<ScaleLevel>7</ScaleLevel>
+				<FractalNoise>
+					<Freq>1600.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>1.0</MaxShadowDist>
+				<AltRange X="0.0" Y="0.25" />
+				<SlopeRange X="0.5" Y="0.9" />
+				<NoiseRange X="0.0" Y="0.1" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="0.0" />
+				<RollRange X="0.0" Y="0.0" />
+				<SlopeAlign>0.5</SlopeAlign>
+				<DiffuseColor X="0.4" Y="0.4" Z="0.4" W="1.0" />
+				<Count Level="7" Amount="1" />
+				<Count Level="8" Amount="2" />
+				<Count Level="9" Amount="6" />
+				<Count Level="10" Amount="12" />
+				<Count Level="11" Amount="20" />
+			</Layer>
+
+			<Layer ID="1">
+<!-- 				<MeshName>Props/Planets/Rocks01/Redstone/Models/SM-RedStone01_LOD3</MeshName> -->
+				<MeshName>Props/Planets/Rocks01/Redstone/Models/SM-RedStone01_LOD_200tri_smooth</MeshName>
+				<ScaleBase>60.0</ScaleBase>
+				<ScalePower>1.5</ScalePower>
+				<MaxScaleLevel>10</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>14300.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>1.0</MaxShadowDist>
+				<AltRange X="0.20" Y="1.0" />
+				<SlopeRange X="0.5" Y="0.95" />
+				<NoiseRange X="0.0" Y="10.0" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="6.283" />
+				<RollRange X="0.0" Y="6.283" />
+				<DiffuseColor X="0.05" Y="0.07" Z="0.1" W="1.0" />
+				<SlopeAlign>0.5</SlopeAlign>
+				<Count Level="9" Amount="1" />
+				<Count Level="10" Amount="2" />
+				<Count Level="11" Amount="5" />
+				<Count Level="12" Amount="10" />
+				<Count Level="13" Amount="15" />
+				<Count Level="14" Amount="25" />
+			</Layer>
+
+ 			<Layer ID="2">
+<!-- 				<MeshName>Props/Planets/Rocks01/Redstone/Models/Sm-RedStone05_LOD3</MeshName> -->
+				<MeshName>Props/Planets/Rocks01/Redstone/Models/SM-RedStone05_LOD_200tri_smooth</MeshName>
+				<ScaleBase>150.0</ScaleBase>
+				<ScalePower>1.4</ScalePower>
+				<MaxScaleLevel>6</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>4700.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>5.0</MaxShadowDist>
+				<AltRange X="0.23" Y="1.0" />
+				<SlopeRange X="0.7" Y="0.9" />
+				<NoiseRange X="0.0" Y="10.0" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="6.283" />
+				<RollRange X="0.0" Y="6.283" />
+				<DiffuseColor X="0.03" Y="0.04" Z="0.05" W="1.0" />
+				<SlopeAlign>0.5</SlopeAlign>
+				<Count Level="6" Amount="25" />
+				<Count Level="7" Amount="50" />
+				<Count Level="8" Amount="125" />
+				<Count Level="9" Amount="200" />
+				<Count Level="10" Amount="350" />
+				<Count Level="11" Amount="200" />
+				<Count Level="12" Amount="100" />
+				<Count Level="13" Amount="50" />
+			</Layer>
+
+			<Layer ID="3">
+<!-- 				<MeshName>Props/Planets/Rocks01/Redstone/Models/Sm-RedStone04_LOD3</MeshName> -->
+				<MeshName>Props/Planets/Rocks01/Redstone/Models/SM-RedStone04_LOD_200tri_smooth</MeshName>
+				<ScaleBase>35.0</ScaleBase>
+				<ScalePower>1.3</ScalePower>
+				<MaxScaleLevel>6</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>11600.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>0.5</MaxShadowDist>
+				<AltRange X="0.17" Y="1.0" />
+				<SlopeRange X="0.9" Y="1.0" />
+				<NoiseRange X="-0.25" Y="0.10" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="6.283" />
+				<RollRange X="0.0" Y="6.283" />
+				<DiffuseColor X="0.05" Y="0.07" Z="0.1" W="1.0" />
+				<SlopeAlign>0.5</SlopeAlign>
+				<Count Level="12" Amount="5" />
+				<Count Level="13" Amount="10" />
+				<Count Level="14" Amount="25" />
+				<Count Level="15" Amount="50" />
+			</Layer>
+
+			<Layer ID="4" Comment="Organic mushroom-alien thingies" >
+				<MeshName>Props/Planets/Cactus/Meshes/SM_Cactus7</MeshName>
+				<ScaleBase>15.0</ScaleBase>
+				<ScalePower>1.4</ScalePower>
+				<MaxScaleLevel>10</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>13000.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>0.5</MaxShadowDist>
+				<AltRange X="0.17" Y="0.5" />
+				<SlopeRange X="0.8" Y="0.97" />
+				<NoiseRange X="-0.25" Y="0.5" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="0.0" />
+				<RollRange X="0.0" Y="0.0" />
+				<DiffuseColor X="0.1" Y="0.1" Z="0.1" W="1.0" />
+				<SlopeAlign>1.0</SlopeAlign>
+				<Count Level="13" Amount="5" />
+				<Count Level="14" Amount="15" />
+				<Count Level="15" Amount="60" />
+			</Layer>
+
+			<Layer ID="5" Comment="Purple alien looking fern" >
+				<MeshName>Props/Planets/Cactus/Meshes/SM_Cactus9</MeshName>
+				<ScaleBase>5.0</ScaleBase>
+				<ScalePower>1.2</ScalePower>
+				<MaxScaleLevel>10</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>3500.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>0.5</MaxShadowDist>
+				<AltRange X="0.3" Y="1.0" />
+				<SlopeRange X="0.92" Y="1.0" />
+				<NoiseRange X="0.5" Y="1.0" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="0.0" />
+				<RollRange X="0.0" Y="0.0" />
+				<DiffuseColor X="0.1" Y="0.1" Z="0.2" W="1.0" />
+				<SlopeAlign>1.0</SlopeAlign>
+				<Count Level="13" Amount="5" />
+				<Count Level="14" Amount="16" />
+				<Count Level="15" Amount="70" />
+			</Layer>
+		</Props>
 	</CClientPlanetComponent>
 </ActorConfig>

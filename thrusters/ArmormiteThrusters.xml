@@ -3,44 +3,72 @@
     <MLQ>1024.0</MLQ>
 
     <Group ID="0" DeltaIntensity="5.0" AngAccFactor="1.0" >
-        <Light Intensity="87000.0" Offset="0.0065" >
-            <Color X="0.76" Y="0.87" Z="0.70" />
+		<Range>4.0</Range>
+        <Light Intensity="1000000.0" Offset="0.00060" >
+            <Color X="0.05" Y="0.3" Z="1.0" />
             <FadingSize Min="0.1" Max="0.2" />
         </Light>
-        <Particles Name="Particles/Thrusters/Main_Drive/Effect/P_Small_Thruster" SizeScale="0.85" />
+        <Particles Name="ParticleEffects/Thrusters/P_SmallShipThruster" SizeScale="3.25" UseMeshParticles="true" Intensity="150000.0" Offset="-0.0012" Length="1.5" />
     </Group>
 
     <Group ID="1" DeltaIntensity="5.0" AngAccFactor="1.0" >
-        <Light Intensity="23000.0" Offset="0.00090" >
-            <Color X="0.77" Y="0.91" Z="1" />
+		<Range>1.5</Range>
+        <Light Intensity="200000.0" Offset="0.0004" >
+            <Color X="1" Y="1" Z="1" />
+            <FadingSize Min="0.1" Max="0.2" />
         </Light>
-        <Particles Name="Particles/Thrusters/M_Jet/Effect/P_Mjet" SizeScale="0.084" />
+        <Particles Name="ParticleEffects/Thrusters/P_Mjet" SizeScale="0.04" />
     </Group>
 
     <Group ID="2" DeltaIntensity="5.0" AngAccFactor="1.0" >
-        <Light Intensity="87000.0" Offset="0.00090" >
-            <Color X="0.76" Y="0.87" Z="0.70" />
+		<Range>1.5</Range>
+        <Light Intensity="200000.0" Offset="0.0004" >
+            <Color X="1" Y="1" Z="1" />
+            <FadingSize Min="0.1" Max="0.2" />
         </Light>
-        <Particles Name="Particles/Thrusters/Main_Drive/Effect/P_Small_Thruster" SizeScale="0.189" />
+        <Particles Name="ParticleEffects/Thrusters/P_SmallShipThruster" SizeScale="1.0" UseMeshParticles="true" Intensity="150000.0" Offset="-0.0012" Length="1.5" />
     </Group>
 
-    <Thruster ID="1" Name="s_Main-Engine" GroupID="0" />
+    <Thruster ID="0" Name="s_Main-Engine" GroupID="0" CustomOrientation="true" >
+		<Direction X="0" Y="0" Z="-1" />
+	</Thruster>
 
-    <Thruster ID="2" Name="s_FWD-Top-Star-Mjet" GroupID="1" />
-    <Thruster ID="3" Name="s_FWD-Top-Port-Mjet" GroupID="1" />
-    <Thruster ID="4" Name="s_FWD-Star-Side-Mjet" GroupID="1" />
-    <Thruster ID="5" Name="s_FWD-Port-Side-Mjet" GroupID="1" />
-    <Thruster ID="6" Name="s_FWD-Btm-Star-Mjet" GroupID="1" />
-    <Thruster ID="7" Name="s_FWD-Btm-Port-Mjet" GroupID="1" />
+<!--
+    <Thruster ID="1" Name="s_FWD-Top-Star-Mjet" GroupID="1" CustomOrientation="true" >
+		<Direction X="0" Y="-1" Z="0" />
+	</Thruster>
+    <Thruster ID="2" Name="s_FWD-Top-Port-Mjet" GroupID="1" CustomOrientation="true" >
+		<Direction X="0" Y="-1" Z="0" />
+	</Thruster>
+    <Thruster ID="3" Name="s_FWD-Star-Side-Mjet" GroupID="1" />
+    <Thruster ID="4" Name="s_FWD-Port-Side-Mjet" GroupID="1" />
+    <Thruster ID="5" Name="s_FWD-Btm-Star-Mjet" GroupID="1" CustomOrientation="true" >
+		<Direction X="0" Y="1" Z="0" />
+	</Thruster>
+    <Thruster ID="6" Name="s_FWD-Btm-Port-Mjet" GroupID="1" CustomOrientation="true" >
+		<Direction X="0" Y="1" Z="0" />
+	</Thruster>
 
-    <Thruster ID="8" Name="s_AFT-Top-Star-Mjet" GroupID="1" />
-    <Thruster ID="9" Name="s_AFT-Top-Port-Mjet" GroupID="1" />
-    <Thruster ID="10" Name="s_AFT-Star-Side-Mjet" GroupID="1" />
-    <Thruster ID="11" Name="s_AFT-Port-Side-Mjet" GroupID="1" />
-    <Thruster ID="12" Name="s_AFT-Btm-Star-Mjet" GroupID="1" />
-    <Thruster ID="13" Name="s_AFT-Btm-Port-Mjet" GroupID="1" />
-    
-    <Thruster ID="14" Name="s_Retro-Port" GroupID="2" />
-    <Thruster ID="15" Name="s_Retro-Star" GroupID="2" />
+    <Thruster ID="7" Name="s_AFT-Top-Star-Mjet" GroupID="1" CustomOrientation="true" >
+		<Direction X="0" Y="-1" Z="0" />
+	</Thruster>
+    <Thruster ID="8" Name="s_AFT-Top-Port-Mjet" GroupID="1" CustomOrientation="true" >
+		<Direction X="0" Y="-1" Z="0" />
+	</Thruster>
+    <Thruster ID="9" Name="s_AFT-Star-Side-Mjet" GroupID="1" />
+    <Thruster ID="10" Name="s_AFT-Port-Side-Mjet" GroupID="1" />
+    <Thruster ID="11" Name="s_AFT-Btm-Star-Mjet" GroupID="1" CustomOrientation="true" >
+		<Direction X="0" Y="1" Z="0" />
+	</Thruster>
+    <Thruster ID="12" Name="s_AFT-Btm-Port-Mjet" GroupID="1"CustomOrientation="true" >
+		<Direction X="0" Y="1" Z="0" />
+	</Thruster> -->
+
+    <Thruster ID="13" Name="s_Retro-Port" GroupID="2" CustomOrientation="true" >
+		<Direction X="0" Y="0" Z="1" />
+	</Thruster>
+    <Thruster ID="14" Name="s_Retro-Star" GroupID="2" CustomOrientation="true" >
+		<Direction X="0" Y="0" Z="1" />
+	</Thruster>
 
 </ThrustModel>

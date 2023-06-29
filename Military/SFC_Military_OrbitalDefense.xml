@@ -1,17 +1,17 @@
 <Filter>
 	<Condition Target="Client">
-		<Object Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_Lod0" >
-			<LOD Level="1" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_Lod1" />
-			<LOD Level="2" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_Lod2" />
-			<LOD Level="3" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_Lod3" />
-			<LOD Level="4" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_Lod4" />
-			<LOD Level="5" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_Lod5" />
-			<LOD Level="6" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_Lod6" />
+		<Object Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_no_cannon_Lod0" >
+			<LOD Level="1" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_no_cannon_Lod1" />
+			<LOD Level="2" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_no_cannon_Lod2" />
+			<LOD Level="3" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_no_cannon_Lod3" />
+			<LOD Level="4" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_no_cannon_Lod4" />
+			<LOD Level="5" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_no_cannon_Lod5" />
+			<LOD Level="6" Mesh="Structures/SFC-Military/SM_SFC_Military_OrbitalDefense_no_cannon_Lod6" />
 			<LODPower>0.5</LODPower>
 			<RejectionSize>0.005</RejectionSize>
 		
 			<PhysicsBody Type="Mesh" >
-		        <CollisionFile>$Dev/Structures/SFC-Military/40ce5d30.insm</CollisionFile>
+		        <CollisionFile>$Dev/Structures/SFC-Military/ff036879.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			
@@ -184,30 +184,54 @@
 			</Light>
 			
 			<Module>
-		        <Class>DefenseStation</Class>
-				<HitPoints>7500</HitPoints>
-				<Score>100</Score>
+		        <Class>OrbitalCanon</Class>
+				<HitPoints>40000</HitPoints>
+				<ShipPoints>800</ShipPoints>
+				<Score>200</Score>
+				<AttackPriority>4</AttackPriority>
+				<BattleScore>35</BattleScore>
+				<Name>UI_Module_OrbitalCanon</Name>
+				<IconName>SI_BigGun</IconName>
+				<AimOffset X="0" Y="0.4" Z="0" />
+				<IconOffset X="0" Y="0.4" Z="0" />
+				<IconSize>64.0</IconSize>
 				<MapToPlanet>true</MapToPlanet>
+			    <Sockets>
+					<FileName>$Dev/Structures/SFC-Military/ff036879.insm</FileName>
+			        <Socket Name="s_turret1" Type="Hardpoint" Class="MK4" />
+			        <Socket Name="s_turret2" Type="Hardpoint" Class="MK4" />
+			        <Socket Name="s_turret_orbital" Type="Hardpoint" Class="MK7" />
+			    </Sockets>
 			</Module>
 		</Object>
 	</Condition>
 	<Condition Target="Server">
 		<TransformNode >
 		     <PhysicsBody Type="Mesh" >
-		        <CollisionFile>$Dev/Structures/SFC-Military/40ce5d30.insm</CollisionFile>
+		        <CollisionFile>$Dev/Structures/SFC-Military/ff036879.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			<Module>
-		        <Class>DefenseStation</Class>
-				<HitPoints>7500</HitPoints>
-				<Score>100</Score>
+		        <Class>OrbitalCanon</Class>
+				<HitPoints>40000</HitPoints>
+				<ShipPoints>800</ShipPoints>
+				<Score>200</Score>
+				<AttackPriority>4</AttackPriority>
+				<BattleScore>35</BattleScore>
+				<IconName>SI_BigGun</IconName>
+				<AimOffset X="0" Y="0.4" Z="0" />
+				<IconOffset X="0" Y="0.4" Z="0" />
 				<MapToPlanet>true</MapToPlanet>
+			    <Sockets>
+					<FileName>$Dev/Structures/SFC-Military/ff036879.insm</FileName>
+			        <Socket Name="s_turret1" Type="Hardpoint" Class="MK4" />
+			        <Socket Name="s_turret2" Type="Hardpoint" Class="MK4" />
+			        <Socket Name="s_turret_orbital" Type="Hardpoint" Class="MK7" />
+			    </Sockets>
 			</Module>
 			<ServerModule>
 				<CreditsReward>200</CreditsReward>
-				<OnDestroyedPopupTitle>Server_Destroyed_Module_DefenseStation_Title_Self</OnDestroyedPopupTitle>
-				<OnDestroyedPopupText>Server_Destroyed_Module_DefenseStation_Text_Self</OnDestroyedPopupText>
-				<OnDestroyedPopupFooter>Server_Destroyed_Module_DefenseStation_Footer_Self</OnDestroyedPopupFooter>
+				<OnDestroyedPopupText>Server_Destroyed_Module_OrbitalCanon_Text_Self</OnDestroyedPopupText>
 			</ServerModule>
 		</TransformNode>
 	</Condition>

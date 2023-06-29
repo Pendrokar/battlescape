@@ -1,15 +1,15 @@
 <ActorConfig>
 	<CClientNodeComponent>
-        <Object Mesh="Cockpits/Bobbleheads/Spacewhaledan/SM_Bobblehead_spacewhaledan_withoutbase" >
+        <Object Mesh="Cockpits/Bobbleheads/Spacewhale/SM_Spacewhale" >
 			<RejectionSize>0.00001</RejectionSize>
             <PhysicsBody Type="Mesh" >
-                <CollisionFile>$Dev/Cockpits/Bobbleheads/Spacewhaledan/7decbdeb.insm</CollisionFile>
-				<CollisionScale>10000</CollisionScale>
+                <CollisionFile>$Dev/Cockpits/Bobbleheads/Spacewhale/45eef0f2.insm</CollisionFile>
+				<CollisionScale>50000</CollisionScale>
                 <Collisions>true</Collisions>
                 <Bounce>0.25</Bounce>
                 <Friction>0.01</Friction>
             </PhysicsBody>
-			<Scale X="10000" Y="10000" Z="10000" />
+			<Scale X="50000" Y="50000" Z="50000" />
 			<Sound>
 				<Name>Whale</Name>
 			</Sound>
@@ -18,17 +18,17 @@
 	<CServerNodeComponent>
         <TransformNode>
             <PhysicsBody Type="Mesh" >
-                <CollisionFile>$Dev/Cockpits/Bobbleheads/Spacewhaledan/7decbdeb.insm</CollisionFile>
-				<CollisionScale>10000</CollisionScale>
+                <CollisionFile>$Dev/Cockpits/Bobbleheads/Spacewhale/45eef0f2.insm</CollisionFile>
+				<CollisionScale>50000</CollisionScale>
                 <Collisions>true</Collisions>
                 <Bounce>0.25</Bounce>
                 <Friction>0.01</Friction>
             </PhysicsBody>
-			<Scale X="10000" Y="10000" Z="10000" />
+			<Scale X="50000" Y="50000" Z="50000" />
         </TransformNode>
 	</CServerNodeComponent>
 	<CServerActorComponent>
-        <Name>Unknown</Name>
+        <Name>Whally</Name>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>1000.0</EmissionsRange>
@@ -36,6 +36,9 @@
 	</CServerSensorComponent>
 	<CActorComponent>
     	<Indicator>Structure</Indicator>
+		<SurfaceType>Metal</SurfaceType>
+		<ClassAbbrev>WHL</ClassAbbrev>
+		<ClassName>WHALE</ClassName>
 	</CActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Static" >

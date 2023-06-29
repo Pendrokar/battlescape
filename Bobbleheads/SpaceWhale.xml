@@ -1,0 +1,5 @@
+<BobbleheadConfig>
+	<Name>SpaceWhale</Name>
+	<Mesh>Cockpits/Bobbleheads/Spacewhale/SM_Spacewhale</Mesh>
+	<MeshScale>0.3</MeshScale>
+</BobbleheadConfig>

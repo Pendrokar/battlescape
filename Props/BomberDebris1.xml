@@ -1,0 +1,93 @@
+<ActorConfig>
+	<Meta>
+		<ActorType>Prop</ActorType>
+	</Meta>
+	<CClientNodeComponent>
+        <Object Mesh="Ships/SFC-Bomber/Debris/SM_SFC_Bomber_Debris_Part1_Lod0" >
+            <LOD Level="1" Mesh="Ships/SFC-Bomber/Debris/SM_SFC_Bomber_Debris_Part1_Lod1" />
+            <LOD Level="2" Mesh="Ships/SFC-Bomber/Debris/SM_SFC_Bomber_Debris_Part1_Lod2" />
+            <LOD Level="3" Mesh="Ships/SFC-Bomber/Debris/SM_SFC_Bomber_Debris_Part1_Lod3" />
+            <LOD Level="4" Mesh="Ships/SFC-Bomber/Debris/SM_SFC_Bomber_Debris_Part1_Lod4" />
+            <LOD Level="5" Mesh="Ships/SFC-Bomber/Debris/SM_SFC_Bomber_Debris_Part1_Lod5" />
+            <LOD Level="6" Mesh="Ships/SFC-Bomber/Debris/SM_SFC_Bomber_Debris_Part1_Lod6" />
+            <LODPower>0.4</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+            <Material Override="true" />
+			<Scale X="1" Y="1" Z="1" />
+         </Object>
+	</CClientNodeComponent>
+	<CServerNodeComponent>
+		<TransformNode />
+	</CServerNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+		<ThrustersEmissiveScale>5.0</ThrustersEmissiveScale>
+		<Paint>
+			<MeshInstance ID="0" Name="Bomber_Hull001_MI_SFC_Bomber_Hull">Primary</MeshInstance>
+		</Paint>
+
+		<DyingExplosions>5</DyingExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DyingEffectScale>0.050</DyingEffectScale>
+
+		<DeathEffectCount>1</DeathEffectCount>
+		<DeathEffectDuration>0.25</DeathEffectDuration>
+		<DeathEffect>SmallShipExplosion</DeathEffect>
+		<DeathEffectScale>0.2</DeathEffectScale>
+		<DeathEffectRange>20.0</DeathEffectRange>
+
+		<ShrapnelEffect>ShrapnelSmall</ShrapnelEffect>
+		<ShrapnelEffectScale>0.25</ShrapnelEffectScale>
+
+		<ShowDamageTrail>true</ShowDamageTrail>
+		<ContrailEffectSize>0.006</ContrailEffectSize>
+		<DamageEffectSize>0.025</DamageEffectSize>
+		<Skin>
+			<Name>BomberScoria</Name>
+			<ColorMap>Ships/SFC-Bomber/Skins/T_Skin_Scoria_Dirty</ColorMap>
+		</Skin>
+		<Skin>
+			<Name>BomberHavoc</Name>
+			<ColorMap>Ships/SFC-Bomber/Skins/T_Skin_Havoc_Dirty</ColorMap>
+		</Skin>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+    <CClientCameraViewComponent>
+        <Camera Type="External">
+            <ViewPosition X="0" Y="0.002" Z="-0.008" />
+			<ViewAngle X="0" Y="0" />
+        </Camera>
+    </CClientCameraViewComponent>
+	<CServerActorComponent>
+		<Name>Wreckage</Name>
+	</CServerActorComponent>
+	<CActorComponent>
+    	<Indicator>Structure</Indicator>
+		<SurfaceType>Metal</SurfaceType>
+	</CActorComponent>
+	<CClientActorComponent>
+	</CClientActorComponent>
+	<CBodyComponent>
+        <PhysicsBody Type="Box" >
+        	<SidesSize X="0.019316" Y="0.009618" Z="0.025341" />
+            <Offset X="0" Y="0" Z="0" />
+            <Mass>15.0</Mass>
+            <Collisions>true</Collisions>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+			<BodyGroup>4</BodyGroup>
+    	</PhysicsBody>
+		<HitMesh>
+			<CollisionFile>$Dev/Ships/SFC-Bomber/Debris/e5ec301e.insm</CollisionFile>
+			<SplitCost>0.00005</SplitCost>
+		</HitMesh>
+	</CBodyComponent>
+	<CHullComponent>
+		<HitPoints>35</HitPoints>
+		<DyingDuration>1.0</DyingDuration>
+		<DeathTiming>0.0</DeathTiming>
+		<DeathDuration>1.0</DeathDuration>
+		<MaxLifeTime>60.0</MaxLifeTime>
+		<MaxLifeTimeDeath>true</MaxLifeTimeDeath>
+	</CHullComponent>
+</ActorConfig>

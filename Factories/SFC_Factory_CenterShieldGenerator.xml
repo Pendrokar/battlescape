@@ -140,9 +140,18 @@
 			</Light>
 
 			<Module>
-		        <Class>Shields</Class>
-				<HitPoints>7500</HitPoints>
-				<Score>50</Score>
+		        <Class>ShieldGenerator</Class>
+				<HitPoints>2000</HitPoints>
+				<Name>UI_Module_ShieldGen</Name>
+				<ShipPoints>100</ShipPoints>
+				<Score>25</Score>
+				<DPSScoreFactor>100.0</DPSScoreFactor>
+				<AttackPriority>4</AttackPriority>
+				<BattleScore>6</BattleScore>
+				<IconName>SI_ShieldA</IconName>
+				<AimOffset X="0.0" Y="0.18" Z="-0.4" />
+				<IconOffset X="0.0" Y="0.18" Z="-0.4" />
+				<IconSize>16.0</IconSize>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
 		</Object>
@@ -154,16 +163,24 @@
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			<Module>
-		        <Class>Shields</Class>
-				<HitPoints>7500</HitPoints>
-				<Score>50</Score>
+		        <Class>ShieldGenerator</Class>
+				<HitPoints>2000</HitPoints>
+				<ShipPoints>100</ShipPoints>
+				<Score>25</Score>
+				<DPSScoreFactor>100.0</DPSScoreFactor>
+				<AttackPriority>4</AttackPriority>
+				<BattleScore>6</BattleScore>
+				<AimOffset X="0.0" Y="0.18" Z="-0.4" />
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
 			<ServerModule>
-				<CreditsReward>100</CreditsReward>
-				<OnDestroyedPopupTitle>Server_Destroyed_Module_Shields_Title_Self</OnDestroyedPopupTitle>
+				<CreditsReward>15</CreditsReward>
 				<OnDestroyedPopupText>Server_Destroyed_Module_Shields_Text_Self</OnDestroyedPopupText>
-				<OnDestroyedPopupFooter>Server_Destroyed_Module_Shields_Footer_Self</OnDestroyedPopupFooter>
+				<DeathEffectName>EMPMissileExplosion</DeathEffectName>
+				<DeathEffectScale>1.0</DeathEffectScale>
+				<DeathEffectOffset X="0" Y="0.5" Z="0" />
+				<DeathShockwaveRange>0.25</DeathShockwaveRange>
+				<DeathShockwaveDamage>200.0</DeathShockwaveDamage>
 			</ServerModule>
 		</TransformNode>
 	</Condition>

@@ -15,13 +15,21 @@
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			<Module>
-		        <Class>DefenseTowerA</Class>
-				<HitPoints>1500</HitPoints>
+		        <Class>Defense</Class>
+				<HitPoints>750</HitPoints>
+				<ShipPoints>75</ShipPoints>
 				<Score>20</Score>
+				<AttackPriority>3</AttackPriority>
+				<BattleScore>1</BattleScore>
+				<Name>UI_Module_DefenseTower</Name>
+				<IconName>SI_Dot</IconName>
+				<AimOffset X="0" Y="0.2" Z="0" />
+				<IconOffset X="0" Y="0.3" Z="0" />
+				<IconSize>4.0</IconSize>
 				<MapToPlanet>true</MapToPlanet>
 			    <Sockets>
 					<FileName>$Dev/Structures/SFC-Factory/7fd661b8.insm</FileName>
-			        <Socket Name="s_turret" Type="Hardpoint" Class="MK3" />
+			        <Socket Name="s_turret" Type="Hardpoint" Class="MK4" />
 			    </Sockets>
 			</Module>
 		</Object>
@@ -33,20 +41,22 @@
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			<Module>
-		        <Class>DefenseTowerA</Class>
-				<HitPoints>1500</HitPoints>
+		        <Class>Defense</Class>
+				<HitPoints>750</HitPoints>
+				<ShipPoints>75</ShipPoints>
 				<Score>20</Score>
+				<AttackPriority>3</AttackPriority>
+				<BattleScore>1</BattleScore>
+				<AimOffset X="0" Y="0.2" Z="0" />
 				<MapToPlanet>true</MapToPlanet>
 			    <Sockets>
 					<FileName>$Dev/Structures/SFC-Factory/7fd661b8.insm</FileName>
-			        <Socket Name="s_turret" Type="Hardpoint" Class="MK3" />
+			        <Socket Name="s_turret" Type="Hardpoint" Class="MK4" />
 			    </Sockets>
 			</Module>
 			<ServerModule>
 				<CreditsReward>20</CreditsReward>
-				<OnDestroyedPopupTitle>Server_Destroyed_Module_DefenseTower_Title_Self</OnDestroyedPopupTitle>
 				<OnDestroyedPopupText>Server_Destroyed_Module_DefenseTower_Text_Self</OnDestroyedPopupText>
-				<OnDestroyedPopupFooter>Server_Destroyed_Module_DefenseTower_Footer_Self</OnDestroyedPopupFooter>
 			</ServerModule>
 		</TransformNode>
 	</Condition>

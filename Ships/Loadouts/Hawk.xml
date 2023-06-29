@@ -1,0 +1,17 @@
+<Loadout Version="0.0.0.1">
+    <Name>Hawk</Name>
+    <DisplayName>HAWK</DisplayName>
+    <Actor>Interceptor</Actor>
+	<LayoutFile>$Config/Ships/Layouts/InterceptorLayout.xml</LayoutFile>
+    <IsMain>false</IsMain>
+    <Mount HardpointName="s_gun_pod_left" Weapon="GimbalBlasterMK1" GroupID="1"/>
+    <Mount HardpointName="s_gun_pod_right" Weapon="GimbalBlasterMK1" GroupID="1"/>
+    <Mount HardpointName="s_gun_right" Weapon="GimbalGunMK1" GroupID="0"/>
+    <Mount HardpointName="s_gun_left" Weapon="GimbalGunMK1" GroupID="0"/>
+    <Mount HardpointName="s_missile_right" Weapon="MissilePod" GroupID="2"/>
+    <Mount HardpointName="s_missile_left" Weapon="MissilePod" GroupID="2"/>
+    <Mount HardpointName="s_mod_structure" System="FeatherHull"/>
+    <Mount HardpointName="s_mod_electronics1" System="FlightAssist"/>
+    <Mount HardpointName="s_mod_electronics3" System="TurnSpeed"/>
+    <Mount HardpointName="s_mod_prop" System="TurboEnergy"/>
+</Loadout>

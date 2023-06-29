@@ -1,0 +1,42 @@
+<Loadout Version="0.0.0.1" >
+	<Name>DefaultCarrier</Name>
+	<DisplayName>DEFAULT</DisplayName>
+	<Actor>Carrier</Actor>
+	<LayoutFile>$Config/Ships/Layouts/CarrierLayout.xml</LayoutFile>
+	<IsMain>true</IsMain>
+	<Mount HardpointName="s_mk4_front_bot_left_1" Weapon="LaserAMSMK3" GroupID="0" />
+	<Mount HardpointName="s_mk4_front_bot_left_2" Weapon="AutoTurretBlasterMK4" GroupID="2" />
+	<Mount HardpointName="s_mk4_front_bot_right_1" Weapon="LaserAMSMK3" GroupID="0" />
+	<Mount HardpointName="s_mk4_front_bot_right_2" Weapon="AutoTurretBlasterMK4" GroupID="2" />
+	<Mount HardpointName="s_mk4_front_top_left_1" Weapon="LaserAMSMK3" GroupID="0" />
+	<Mount HardpointName="s_mk4_front_top_left_2" Weapon="AutoTurretBlasterMK4" GroupID="2" />
+	<Mount HardpointName="s_mk4_front_top_right_1" Weapon="LaserAMSMK3" GroupID="0" />
+	<Mount HardpointName="s_mk4_front_top_right_2" Weapon="AutoTurretBlasterMK4" GroupID="2" />
+	<Mount HardpointName="s_mk4_mid_bot_left" Weapon="AutoTurretGunMK4" GroupID="1" />
+	<Mount HardpointName="s_mk4_mid_bot_right" Weapon="AutoTurretGunMK4" GroupID="1" />
+	<Mount HardpointName="s_mk4_mid_top_left" Weapon="AutoTurretGunMK4" GroupID="1" />
+	<Mount HardpointName="s_mk4_mid_top_right" Weapon="AutoTurretGunMK4" GroupID="1" />
+	<Mount HardpointName="s_mk4_rear_bot_left" Weapon="LaserAMSMK3" GroupID="0" />
+	<Mount HardpointName="s_mk4_rear_bot_right" Weapon="LaserAMSMK3" GroupID="0" />
+	<Mount HardpointName="s_mk4_rear_top_left" Weapon="LaserAMSMK3" GroupID="0" />
+	<Mount HardpointName="s_mk4_rear_top_right" Weapon="LaserAMSMK3" GroupID="0" />
+	<Mount HardpointName="s_mk5_bot_left_1" Weapon="TurretGunMK5" GroupID="3" />
+	<Mount HardpointName="s_mk5_bot_left_2" Weapon="TurretGunMK5" GroupID="3" />
+	<Mount HardpointName="s_mk5_bot_right_1" Weapon="TurretGunMK5" GroupID="3" />
+	<Mount HardpointName="s_mk5_bot_right_2" Weapon="TurretGunMK5" GroupID="3" />
+	<Mount HardpointName="s_mk5_top_left_1" Weapon="TurretGunMK5" GroupID="3" />
+	<Mount HardpointName="s_mk5_top_left_2" Weapon="TurretGunMK5" GroupID="3" />
+	<Mount HardpointName="s_mk5_top_right_1" Weapon="TurretGunMK5" GroupID="3" />
+	<Mount HardpointName="s_mk5_top_right_2" Weapon="TurretGunMK5" GroupID="3" />
+	<Mount HardpointName="s_mk6_bot_left" Weapon="TurretGunMK6" GroupID="4" />
+	<Mount HardpointName="s_mk6_bot_right" Weapon="TurretGunMK6" GroupID="4" />
+	<Mount HardpointName="s_mk6_top_left" Weapon="TurretGunMK6" GroupID="4" />
+	<Mount HardpointName="s_mk6_top_right" Weapon="TurretGunMK6" GroupID="4" />
+	<Mount HardpointName="s_mko_missile_bot_left" Weapon="MissileLauncherMK3" GroupID="5" />
+	<Mount HardpointName="s_mko_missile_bot_right" Weapon="MissileLauncherMK3" GroupID="5" />
+	<Mount HardpointName="s_mko_missile_top_left" Weapon="MissileLauncherMK3" GroupID="5" />
+	<Mount HardpointName="s_mko_missile_top_right" Weapon="MissileLauncherMK3" GroupID="5" />
+	<Mount HardpointName="s_mod_electronics1" System="FlightAssist" />
+	<Mount HardpointName="s_mod_structural1" System="HeavyRepairField" />
+	<Mount HardpointName="s_mod_structural2" System="HeavyResupplyField" />
+</Loadout>

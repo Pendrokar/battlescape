@@ -1,0 +1,5 @@
+<BobbleheadConfig>
+	<Name>Splashy</Name>
+	<Mesh>Cockpits/Bobbleheads/Splashy/SM_Splashy</Mesh>
+	<MeshScale>0.3</MeshScale>
+</BobbleheadConfig>

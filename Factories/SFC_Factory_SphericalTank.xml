@@ -9,15 +9,11 @@
 		    <LOD Level="6" Mesh="Structures/SFC-Factory/SM_SFC_Factory_SphericalTank_Lod6" />
 		    <LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
-
+		
 		     <PhysicsBody Type="Mesh" >
 		        <CollisionFile>$Dev/Structures/SFC-Factory/545223da.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 			</PhysicsBody>
-
-			<Sound>
-				<Name>SphericalTankStructure</Name>
-			</Sound>
 
 			<Light Type="PointLight" >
 				<Name>Omni014</Name>
@@ -132,9 +128,9 @@
 			</Light>
 
 			<Module>
-		        <Class>StorageTank</Class>
 				<HitPoints>2500</HitPoints>
-				<Score>20</Score>
+				<Name>UI_Module_StorageTank</Name>
+				<Score>0</Score>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
 		</Object>
@@ -146,17 +142,10 @@
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			<Module>
-		        <Class>StorageTank</Class>
 				<HitPoints>2500</HitPoints>
-				<Score>20</Score>
+				<Score>0</Score>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
-			<ServerModule>
-				<CreditsReward>15</CreditsReward>
-				<OnDestroyedPopupTitle>Server_Destroyed_Module_StorageTank_Title_Self</OnDestroyedPopupTitle>
-				<OnDestroyedPopupText>Server_Destroyed_Module_StorageTank_Text_Self</OnDestroyedPopupText>
-				<OnDestroyedPopupFooter>Server_Destroyed_Module_StorageTank_Footer_Self</OnDestroyedPopupFooter>
-			</ServerModule>
 		</TransformNode>
 	</Condition>
 </Filter>

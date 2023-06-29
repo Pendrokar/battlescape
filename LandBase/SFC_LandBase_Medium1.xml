@@ -1,0 +1,1332 @@
+<ActorConfig>
+	<Meta>
+		<ActorType>LandBase</ActorType>
+		<MapIconName>MilitaryBase</MapIconName>
+  		<MapIconSize>25</MapIconSize>
+	</Meta>
+	<CNodeComponent>
+		<TransformNode>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_ShieldGenerator.xml" Lights="true" >
+				<position x="-2.3552994728088378906" y="3.6897656917572021484" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_ShieldGenerator.xml" Lights="true" >
+				<position x="4.4900608062744140625" y="-2.4597930908203125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_ShieldGenerator.xml" Lights="true" >
+				<position x="-1.6245111227035522461" y="-3.0320265293121337891" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_ShieldGenerator.xml" Lights="true" >
+				<position x="-15.975279808044433594" y="-13.009375572204589844" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_ShieldGenerator.xml" Lights="true" >
+				<position x="-12.033022880554199219" y="-11.289175987243652344" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_ShieldGenerator.xml" Lights="true" >
+				<position x="-12.966322898864746094" y="-16.664981842041015625" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_ShieldGenerator.xml" Lights="true" >
+				<position x="17.95355224609375" y="-2.0148508548736572266" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_ShieldGenerator.xml" Lights="true" >
+				<position x="18.004047393798828125" y="1.8291841745376586914" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_ShieldGenerator.xml" Lights="true" >
+				<position x="23.257476806640625" y="-0.062444582581520080566" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_ShieldGenerator.xml" Lights="true" >
+				<position x="-0.81939846277236938477" y="16.679281234741210938" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_ShieldGenerator.xml" Lights="true" >
+				<position x="-1.078243255615234375" y="20.872249603271484375" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_ShieldGenerator.xml" Lights="true" >
+				<position x="1.759369969367980957" y="18.9417877197265625" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CommsMast.xml" Lights="true" >
+				<position x="0.5" y="-1.7000010013580322266" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="10.0009613037109375" y="-0.5990390777587890625" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710670948028564453" w="0.70710682868957519531" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" Lights="true" >
+				<position x="23.0009613037109375" y="-1.9990391731262207031" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="0.38268351554870605469" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="16.0009613037109375" y="2.0009610652923583984" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="16.0009613037109375" y="-1.9990391731262207031" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710670948028564453" w="0.70710682868957519531" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" Lights="true" >
+				<position x="23.0009613037109375" y="2.0009610652923583984" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Reactor.xml" Lights="true" >
+				<position x="0" y="18.200000762939453125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Reactor.xml" Lights="true" >
+				<position x="18" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Reactor.xml" Lights="true" >
+				<position x="-12.6572113037109375" y="-13.505741119384765625" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterShieldGenerator.xml" Lights="true" >
+				<position x="20" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.50000005960464477539" w="0.86602538824081420898" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterShieldGenerator.xml" Lights="true" >
+				<position x="20" y="0" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.86602538824081420898" w="0.50000005960464477539" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterShieldGenerator.xml" Lights="true" >
+				<position x="-14.849242210388183594" y="-14.849244117736816406" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.99144482612609863281" w="-0.13052633404731750488" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterShieldGenerator.xml" Lights="true" >
+				<position x="-14.849242210388183594" y="-14.849244117736816406" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterControlTower.xml" Lights="true" >
+				<position x="-14.849242210388183594" y="-14.849244117736816406" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterTriangularTower.xml" Lights="true" >
+				<position x="-14.849242210388183594" y="-14.849244117736816406" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.1305262148380279541" w="0.9914448857307434082" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterShieldGenerator.xml" Lights="true" >
+				<position x="-14.849242210388183594" y="-14.849244117736816406" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.6087614893913269043" w="0.79335331916809082031" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterLivingQuarters.xml" Lights="true" >
+				<position x="-14.849242210388183594" y="-14.849244117736816406" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Center.xml" Lights="true" >
+				<position x="-14.849242210388183594" y="-14.849244117736816406" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterShieldGenerator.xml" Lights="true" >
+				<position x="0" y="20" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.86602538824081420898" w="0.50000005960464477539" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterShieldGenerator.xml" Lights="true" >
+				<position x="0" y="20" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.86602538824081420898" w="0.5" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="-4.1379060745239257813" y="-0.33984890580177307129" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end1.xml" Lights="true" >
+				<position x="5.0388035774230957031" y="0.60000002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710670948028564453" w="0.70710682868957519531" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="4.5388035774230957031" y="0.60000002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="-4.6379060745239257813" y="-0.3398488461971282959" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_1.xml" Lights="true" >
+				<position x="-4.8379049301147460938" y="-0.3398488461971282959" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_OrbitalDefense.xml" Lights="true" >
+				<position x="-3.7000002861022949219" y="-4.2000012397766113281" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_OrbitalDefense.xml" Lights="true" >
+				<position x="6.0000004768371582031" y="0.59999907016754150391" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710670948028564453" w="0.70710682868957519531" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="-5" y="2" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_OrbitalDefense.xml" Lights="true" >
+				<position x="-5" y="-9.7656254638422979042e-07" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="-5" y="-2" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="0" y="2" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710682868957519531" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" Lights="true" >
+				<position x="5.9979467391967773438" y="-1.9502481222152709961" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" Lights="true" >
+				<position x="5.9979467391967773438" y="2.0497519969940185547" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" Lights="true" >
+				<position x="-6.0020542144775390625" y="-1.9502481222152709961" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" Lights="true" >
+				<position x="-6.0020542144775390625" y="2.0497519969940185547" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" Lights="true" >
+				<position x="-1.0020536184310913086" y="5.0497522354125976563" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="1.9979463815689086914" y="5.0497527122497558594" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.67559021711349487305" w="0.73727738857269287109" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="-2.0020537376403808594" y="5.0497517585754394531" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710670948028564453" w="0.70710682868957519531" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" Lights="true" >
+				<position x="0.9979464411735534668" y="5.0497522354125976563" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" Lights="true" >
+				<position x="1" y="-5" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="-2" y="-5" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.7372773289680480957" w="0.67559021711349487305" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="2" y="-5" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" Lights="true" >
+				<position x="-1" y="-5" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" Lights="true" >
+				<position x="2" y="21.000001907348632813" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="-2" y="17" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="2" y="17" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" Lights="true" >
+				<position x="-2" y="21.000001907348632813" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" Lights="true" >
+				<position x="0" y="22.000001907348632813" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="0" y="17.800001144409179688" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="0" y="15.450000762939453125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" Lights="true" >
+				<position x="0" y="16.950000762939453125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="0" y="16.450000762939453125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" Lights="true" >
+				<position x="0" y="14.950000762939453125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="0" y="15.950000762939453125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="0" y="15.950000762939453125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_turn1_right.xml" Lights="true" >
+				<position x="-0.4999999701976776123" y="10.620000839233398438" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_turn1_left.xml" Lights="true" >
+				<position x="-0.12499994784593582153" y="10.745000839233398438" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes2.xml" Lights="true" >
+				<position x="0.30000007152557373047" y="9.5" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes1.xml" Lights="true" >
+				<position x="-0.29999995231628417969" y="9.5" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="-0.4999999701976776123" y="9.2300004959106445313" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="-0.4999999701976776123" y="10.130000114440917969" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="-9.1552738012978807092e-07" y="12.070000648498535156" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end1.xml" Lights="true" >
+				<position x="0" y="10.870000839233398438" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" Lights="true" >
+				<position x="0" y="12.570000648498535156" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" Lights="true" >
+				<position x="-0.4999999701976776123" y="8.4499998092651367188" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="-9.1552738012978807092e-07" y="11.570000648498535156" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="-0.4999999701976776123" y="9.6300001144409179688" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="0" y="11.070000648498535156" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="-0.4999999701976776123" y="8.7300004959106445313" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_gun.xml" Lights="true" >
+				<position x="-0.3749999701976776123" y="10.745000839233398438" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710670948028564453" w="0.70710682868957519531" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="0" y="11.570000648498535156" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" Lights="true" >
+				<position x="-9.1552738012978807092e-07" y="9.5" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes3.xml" Lights="true" >
+				<position x="-0.39999994635581970215" y="8.9000005722045898438" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterHangarWing.xml" Lights="true" >
+				<position x="0" y="20" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1.5099580252808664227e-07" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterHangarWing.xml" Lights="true" >
+				<position x="0" y="20" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Center.xml" Lights="true" >
+				<position x="0" y="20" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes2.xml" Lights="true" >
+				<position x="-0.71000003814697265625" y="18.520000457763671875" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes1.xml" Lights="true" >
+				<position x="-0.71000003814697265625" y="17.880001068115234375" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_RefineryTower1.xml" Lights="true" >
+				<position x="-1.2000005245208740234" y="18" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_RefineryTower1.xml" Lights="true" >
+				<position x="-1.2000005245208740234" y="18.40000152587890625" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes3.xml" Lights="true" >
+				<position x="-1" y="18" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes3.xml" Lights="true" >
+				<position x="-1" y="18.40000152587890625" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" Lights="true" >
+				<position x="-0.90000003576278686523" y="18.200000762939453125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" Lights="true" >
+				<position x="-1.1000000238418579102" y="18.200000762939453125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" Lights="true" >
+				<position x="-0.65630865097045898438" y="18.026309967041015625" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" Lights="true" >
+				<position x="-0.65630865097045898438" y="18.376310348510742188" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="-8.62670135498046875" y="-8.3438615798950195313" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="-7.4953312873840332031" y="-7.212490081787109375" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end1.xml" Lights="true" >
+				<position x="-7.1417779922485351563" y="-6.858936309814453125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" Lights="true" >
+				<position x="-8.980255126953125" y="-8.697414398193359375" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_cross1.xml" Lights="true" >
+				<position x="-7.84888458251953125" y="-7.5660433769226074219" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="-8.0185909271240234375" y="-7.7357487678527832031" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="-8.62670135498046875" y="-8.3438615798950195313" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="-7.84888458251953125" y="-7.5660433769226074219" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_turn1_right.xml" Lights="true" >
+				<position x="-10.815198898315429688" y="-10.709134101867675781" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_turn1_left.xml" Lights="true" >
+				<position x="-10.638421058654785156" y="-11.062686920166015625" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="-11.628370285034179688" y="-12.052636146545410156" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="-10.991973876953125" y="-11.416239738464355469" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="-9.9171724319458007813" y="-9.6343326568603515625" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end1.xml" Lights="true" >
+				<position x="-10.815197944641113281" y="-10.532358169555664063" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" Lights="true" >
+				<position x="-9.5636196136474609375" y="-9.2807788848876953125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" Lights="true" >
+				<position x="-12.179913520812988281" y="-12.60417938232421875" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="-10.270727157592773438" y="-9.9878854751586914063" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="-11.34552764892578125" y="-11.769793510437011719" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="-10.62781524658203125" y="-10.344974517822265625" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="-11.981924057006835938" y="-12.406189918518066406" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_gun.xml" Lights="true" >
+				<position x="-10.638421058654785156" y="-10.885910987854003906" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="-10.221228599548339844" y="-9.9383878707885742188" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Smelter.xml" Lights="true" >
+				<position x="-12.269255638122558594" y="-12.682085990905761719" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" Lights="true" >
+				<position x="-15.565766334533691406" y="-16.979982376098632813" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="-12.515789985656738281" y="-12.515791893005371094" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" Lights="true" >
+				<position x="-16.97998046875" y="-15.565770149230957031" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" Lights="true" >
+				<position x="-14.858660697937011719" y="-17.687089920043945313" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" Lights="true" >
+				<position x="-10.606601715087890625" y="-13.435029983520507813" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" Lights="true" >
+				<position x="-11.313707351684570313" y="-16.970563888549804688" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" Lights="true" >
+				<position x="-17.6870880126953125" y="-14.858662605285644531" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" Lights="true" >
+				<position x="-13.435029029846191406" y="-10.606603622436523438" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" Lights="true" >
+				<position x="-16.970561981201171875" y="-11.313710212707519531" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end1.xml" Lights="true" >
+				<position x="-13.364316940307617188" y="-13.364319801330566406" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" Lights="true" >
+				<position x="-13.541094779968261719" y="-13.541096687316894531" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_cross1.xml" Lights="true" >
+				<position x="-13.364316940307617188" y="-13.364319801330566406" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" Lights="true" >
+				<position x="-13.8310089111328125" y="-12.049100875854492188" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" Lights="true" >
+				<position x="-13.328962326049804688" y="-12.31072998046875" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" Lights="true" >
+				<position x="-13.569378852844238281" y="-12.551146507263183594" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="-0.38268354535102844238" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" Lights="true" >
+				<position x="-13.328961372375488281" y="-12.975411415100097656" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" Lights="true" >
+				<position x="-13.116829872131347656" y="-12.763278961181640625" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" Lights="true" >
+				<position x="-12.904697418212890625" y="-12.5511474609375" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_RefineryTower1.xml" Lights="true" >
+				<position x="-13.04611968994140625" y="-13.046121597290039063" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_RefineryTower1.xml" Lights="true" >
+				<position x="-12.833987236022949219" y="-12.833990097045898438" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" Lights="true" >
+				<position x="-13.152185440063476563" y="-13.152188301086425781" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="0.38268351554870605469" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" Lights="true" >
+				<position x="-12.940052986145019531" y="-12.940054893493652344" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.38268324732780456543" w="0.9238796234130859375" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" Lights="true" >
+				<position x="-12.727921485900878906" y="-12.727923393249511719" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="0.38268351554870605469" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="15.700000762939453125" y="0.10000000149011611938" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="7.7000002861022949219" y="-0.60000002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="10.400000572204589844" y="-0.60000002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="16.200000762939453125" y="0.10000000149011611938" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="5.3500003814697265625" y="-0.60000002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" Lights="true" >
+				<position x="14.700000762939453125" y="-0.15000000596046447754" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" Lights="true" >
+				<position x="6.8500003814697265625" y="-0.60000002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="15.200000762939453125" y="-0.15000000596046447754" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="6.3500003814697265625" y="-0.60000002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end1.xml" Lights="true" >
+				<position x="13.700000762939453125" y="-0.15000000596046447754" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end1.xml" Lights="true" >
+				<position x="16.700000762939453125" y="0.10000000149011611938" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end1.xml" Lights="true" >
+				<position x="11.300000190734863281" y="-0.60000002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" Lights="true" >
+				<position x="15.700000762939453125" y="-0.15000000596046447754" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" Lights="true" >
+				<position x="4.8500003814697265625" y="-0.60000002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_cross2.xml" Lights="true" >
+				<position x="15.700000762939453125" y="0.10000000149011611938" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_cross1.xml" Lights="true" >
+				<position x="13.950000762939453125" y="-0.15000000596046447754" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="15.700000762939453125" y="0.10000000149011611938" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="14.200000762939453125" y="-0.15000000596046447754" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="5.8500003814697265625" y="-0.60000002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="11.300000190734863281" y="-0.60000002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="5.8500003814697265625" y="-0.60000002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_gun.xml" Lights="true" >
+				<position x="13.950000762939453125" y="-0.15000000596046447754" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_1.xml" Lights="true" >
+				<position x="10.160000801086425781" y="-0.60000002384185791016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterControlTower.xml" Lights="true" >
+				<position x="20" y="2.4865205432433867827e-06" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" Lights="true" >
+				<position x="19" y="2.0000026226043701172" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710670948028564453" w="0.70710682868957519531" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" Lights="true" >
+				<position x="19" y="-1.9999976158142089844" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" Lights="true" >
+				<position x="22.000001907348632813" y="2.7885121198778506368e-06" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_RefineryTower1.xml" Lights="true" >
+				<position x="21.520000457763671875" y="-1.3199983835220336914" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CenterHangarWing.xml" Lights="true" >
+				<position x="20" y="2.4865205432433867827e-06" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_CommsMast.xml" Lights="true" >
+				<position x="21.000001907348632813" y="2.6375164452474564314e-06" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710670948028564453" w="0.70710682868957519531" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Center.xml" Lights="true" >
+				<position x="20" y="2.4865205432433867827e-06" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" Lights="true" >
+				<position x="20.600000381469726563" y="-1.8999975919723510742" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" Lights="true" >
+				<position x="20.90000152587890625" y="-2.1999971866607666016" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" Lights="true" >
+				<position x="20.800001144409179688" y="-1.6999976634979248047" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" Lights="true" >
+				<position x="21.100000381469726563" y="-1.9999973773956298828" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" Lights="true" >
+				<position x="21.000001907348632813" y="-1.4999973773956298828" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" Lights="true" >
+				<position x="21.300001144409179688" y="-1.7999974489212036133" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" Lights="true" >
+				<position x="21.200000762939453125" y="-1.2999973297119140625" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" Lights="true" >
+				<position x="21.500001907348632813" y="-1.599997401237487793" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_turn1_right.xml" Lights="true" >
+				<position x="-0.50500017404556274414" y="-2.6400020122528076172" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes2.xml" Lights="true" >
+				<position x="-0.4500001370906829834" y="-2.3000011444091796875" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes1.xml" Lights="true" >
+				<position x="-0.2000001370906829834" y="-1.1000009775161743164" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="-0.30000013113021850586" y="-2.3500020503997802734" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="0.99499994516372680664" y="-2.6400020122528076172" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" Lights="true" >
+				<position x="-0.30000013113021850586" y="-1.5000020265579223633" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" Lights="true" >
+				<position x="-0.10000012814998626709" y="-1.300001978874206543" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" Lights="true" >
+				<position x="-0.10000012814998626709" y="-1.5000020265579223633" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_sphere.xml" Lights="true" >
+				<position x="-0.30000013113021850586" y="-1.300001978874206543" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="0.49499991536140441895" y="-2.6400020122528076172" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" Lights="true" >
+				<position x="-0.63000017404556274414" y="-2.5150020122528076172" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="1.495000004768371582" y="-2.6400020122528076172" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="-0.0050001223571598529816" y="-2.6400020122528076172" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="-0.48000013828277587891" y="-2.0600020885467529297" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_RefineryTower2.xml" Lights="true" >
+				<position x="0.49999940395355224609" y="-2.2400012016296386719" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes3.xml" Lights="true" >
+				<position x="0.49999991059303283691" y="-2.4400010108947753906" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" Lights="true" >
+				<position x="-0.2000001370906829834" y="-1.4000000953674316406" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end1.xml" Lights="true" >
+				<position x="-1.125" y="-1.125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_gun.xml" Lights="true" >
+				<position x="-2.1773748397827148438" y="-2.1811716556549072266" z="-0.0086743319407105445862" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="0.38268354535102844238" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" Lights="true" >
+				<position x="-1.8238216638565063477" y="-1.8276182413101196289" z="-0.0086743012070655822754" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="-1.1167141199111938477" y="-1.1205117702484130859" z="-0.0086741792038083076477" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="-1.4702683687210083008" y="-1.4740650653839111328" z="-0.0086743012070655822754" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="-2.7077050209045410156" y="-2.7115020751953125" z="-0.0086744232103228569031" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="-2.3541517257690429688" y="-2.3579485416412353516" z="-0.0086743170395493507385" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="-4.3870835304260253906" y="-4.3908820152282714844" z="-0.0086742714047431945801" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="-3.0612583160400390625" y="-3.06505584716796875" z="-0.0086743012070655822754" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="-3.7683651447296142578" y="-3.7721626758575439453" z="-0.0086743170395493507385" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="-3.4148118495941162109" y="-3.418609619140625" z="-0.0086743934080004692078" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" Lights="true" >
+				<position x="1.5834389925003051758" y="-1.5834394693374633789" z="-0.00756436958909034729" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="2.11376953125" y="-2.1137700080871582031" z="-0.0075643849559128284454" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_gun.xml" Lights="true" >
+				<position x="1.9369922876358032227" y="-1.9369932413101196289" z="-0.0075643998570740222931" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="2.4673228263854980469" y="-2.4673230648040771484" z="-0.0075644915923476219177" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="2.8208765983581542969" y="-2.8208765983581542969" z="-0.00756436958909034729" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="-0.38268354535102844238" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="4.1467022895812988281" y="-4.1467022895812988281" z="-0.0075643388554453849792" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="3.5279836654663085938" y="-3.5279836654663085938" z="-0.0075643849559128284454" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="4.25" y="-4.25" z="1.3923646235980413621e-07" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="3.1744303703308105469" y="-3.1744303703308105469" z="-0.0075644613243639469147" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="1.2298858165740966797" y="-1.2298867702484130859" z="-0.00756436958909034729" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="0.8763325810432434082" y="-0.8763325810432434082" z="-0.0075642475858330726624" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" Lights="true" >
+				<position x="1.5834394693374633789" y="1.5834394693374633789" z="-0.0085568316280841827393" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="0.8763325810432434082" y="0.87633305788040161133" z="-0.0085567096248269081116" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="1.2298867702484130859" y="1.2298862934112548828" z="-0.0085568316280841827393" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_gun.xml" Lights="true" >
+				<position x="1.9369932413101196289" y="1.9369932413101196289" z="-0.00855686236172914505" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="2.1137700080871582031" y="2.11376953125" z="-0.0085568474605679512024" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="4.1467022895812988281" y="4.1467027664184570313" z="-0.0085568008944392204285" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="3.5279836654663085938" y="3.5279836654663085938" z="-0.0085568474605679512024" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="4.2499995231628417969" y="4.2499990463256835938" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="-0.3826834559440612793" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="2.8208765983581542969" y="2.8208765983581542969" z="-0.0085568316280841827393" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="2.4673228263854980469" y="2.4673228263854980469" z="-0.0085569536313414573669" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="3.1744303703308105469" y="3.17443084716796875" z="-0.0085569228976964950562" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end1.xml" Lights="true" >
+				<position x="-1.125" y="1.125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="-1.1263326406478881836" y="1.1263325214385986328" z="-0.0016611939063295722008" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="-1.479886174201965332" y="1.4798867702484130859" z="-0.0016613160260021686554" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="-2.7173230648040771484" y="2.7173228263854980469" z="-0.0016614380292594432831" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="-3.4244303703308105469" y="3.42443084716796875" z="-0.0016614075284451246262" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="-3.7779841423034667969" y="4.6529841423034667969" z="-0.0016612855251878499985" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="-3.7779836654663085938" y="3.7779836654663085938" z="-0.0016613312764093279839" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="-3.0708768367767333984" y="3.0708765983581542969" z="-0.0016613160260021686554" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" Lights="true" >
+				<position x="-1.8334394693374633789" y="1.8334395885467529297" z="-0.0016613160260021686554" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_gun.xml" Lights="true" >
+				<position x="-2.1869928836822509766" y="2.1869933605194091797" z="-0.0016613465268164873123" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="-2.36376953125" y="2.3637702465057373047" z="-0.0016613312764093279839" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834261417388916" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_turn1_left.xml" Lights="true" >
+				<position x="-3.3037228584289550781" y="-0.67000001668930053711" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="-3.1837227344512939453" y="-0.80000001192092895508" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="-2.2837228775024414063" y="-0.80000001192092895508" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end1.xml" Lights="true" >
+				<position x="-1.7837227582931518555" y="-0.80000001192092895508" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="-2.7837228775024414063" y="-0.80000001192092895508" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_turn1_right.xml" Lights="true" >
+				<position x="4.2898879051208496094" y="1.2635718584060668945" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="3.7898879051208496094" y="1.2635718584060668945" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical.xml" Lights="true" >
+				<position x="2.7898879051208496094" y="1.2635718584060668945" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="3.2898879051208496094" y="1.2635718584060668945" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" Lights="true" >
+				<position x="4.4198880195617675781" y="1.1435719728469848633" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="2.2898879051208496094" y="1.2635718584060668945" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Smelter.xml" Lights="true" >
+				<position x="2.1898896694183349609" y="1.3635718822479248047" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_boxy.xml" Lights="true" >
+				<position x="3.0000002384185791016" y="-1.3000010251998901367" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="3.0000002384185791016" y="-1.8000010251998901367" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_250m_1.xml" Lights="true" >
+				<position x="3.0000002384185791016" y="-2" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_GunTower2.xml" Lights="true" >
+				<position x="3.0000002384185791016" y="-2.1500010490417480469" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Hangar.xml" Lights="true" >
+				<position x="0.19999988377094268799" y="-3.1000001430511474609" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Personnel.xml" Lights="true" >
+				<position x="2.9000010490417480469" y="-9.7656254638422979042e-07" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_LifeSupport.xml" Lights="true" >
+				<position x="-3.1357862949371337891" y="0.29481545090675354004" z="0.20939999818801879883" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Hangar.xml" Lights="true" >
+				<position x="-4.1000003814697265625" y="4.6000003814697265625" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Dish.xml" Lights="true" >
+				<position x="4.2000012397766113281" y="0.19999903440475463867" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Center.xml" Lights="true" >
+				<position x="0" y="-9.7656254638422979042e-07" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end1.xml" Lights="true" >
+				<position x="-1.1000000238418579102" y="1.5837227106094360352" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" Lights="true" >
+				<position x="1.1000000238418579102" y="1.6337227821350097656" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_2.xml" Lights="true" >
+				<position x="1.1000000238418579102" y="2.1237227916717529297" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="1.1000000238418579102" y="2.1237227916717529297" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_1.xml" Lights="true" >
+				<position x="-1.1000000238418579102" y="2.5837228298187255859" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_500m_spherical2.xml" Lights="true" >
+				<position x="-1.1000000238418579102" y="2.0837228298187255859" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="-1.1000000238418579102" y="2.983722686767578125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_375m_1.xml" Lights="true" >
+				<position x="1.1000000238418579102" y="2.983722686767578125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_turn1_right.xml" Lights="true" >
+				<position x="0.97000002861022949219" y="3.1037228107452392578" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_turn1_left.xml" Lights="true" >
+				<position x="-0.97000002861022949219" y="3.1037228107452392578" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Military/SFC_Military_Reactor.xml" Lights="true" >
+				<position x="0" y="3.3837227821350097656" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes2.xml" Lights="true" >
+				<position x="21.631374359130859375" y="-1.4313704967498779297" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.38268324732780456543" w="0.9238796234130859375" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes1.xml" Lights="true" >
+				<position x="21.419240951538085938" y="-1.2192386388778686523" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.38268336653709411621" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes2.xml" Lights="true" >
+				<position x="21.136400222778320313" y="-0.93639588356018066406" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387956380844116211" w="0.38268333673477172852" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes1.xml" Lights="true" >
+				<position x="20.924266815185546875" y="-0.72426384687423706055" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.3826834559440612793" w="0.92387956380844116211" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes3.xml" Lights="true" >
+				<position x="20.641422271728515625" y="-0.44142115116119384766" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" Lights="true" >
+				<position x="21.277818679809570313" y="-1.0778172016143798828" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" Lights="true" >
+				<position x="21.030332565307617188" y="-0.83032989501953125" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" Lights="true" >
+				<position x="20.78284454345703125" y="-0.58284246921539306641" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_6CylindersSmall.xml" Lights="true" >
+				<position x="21.772794723510742188" y="-1.5727919340133666992" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" Lights="true" >
+				<position x="20.500003814697265625" y="-0.29999980330467224121" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes2.xml" Lights="true" >
+				<position x="21.1363983154296875" y="0.93639934062957763672" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.92387950420379638672" w="-0.38268360495567321777" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes1.xml" Lights="true" >
+				<position x="20.924266815185546875" y="0.72426724433898925781" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.3826834559440612793" w="0.92387950420379638672" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Smelter.xml" Lights="true" >
+				<position x="21.348529815673828125" y="1.1485314369201660156" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="0.38268324732780456543" w="0.9238796234130859375" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes3.xml" Lights="true" >
+				<position x="20.641422271728515625" y="0.44142439961433410645" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" Lights="true" >
+				<position x="21.030332565307617188" y="0.83033329248428344727" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" Lights="true" >
+				<position x="20.78284454345703125" y="0.58284580707550048828" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" Lights="true" >
+				<position x="20.500003814697265625" y="0.30000296235084533691" z="0" Type="3dsMax"/>
+				<rotation x="0" y="0" z="-0.9238796234130859375" w="0.38268327713012695313" Type="3dsMax"/>
+			</Link>
+		</TransformNode>
+	</CNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+	</CClientHullComponent>
+	<CServerActorComponent>
+        <Name>Trenkus Base</Name>
+	    <StratValue>450</StratValue>
+	    <MatchScore>2</MatchScore>
+  </CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>1000.0</EmissionsRange>
+		<SensorPower>4.0</SensorPower>
+		<Scoutable>true</Scoutable>
+		<ScoutDist>7.5</ScoutDist>
+		<ScoutDuration>45.0</ScoutDuration>
+		<ScoutReward>60</ScoutReward>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>Structure</Indicator>
+	</CActorComponent>
+	<CClientActorComponent>
+	</CClientActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Static" >
+            <Collisions>true</Collisions>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+        </PhysicsBody>
+	</CBodyComponent>
+	<CHullComponent>
+		<HitPoints>100000000</HitPoints>
+	</CHullComponent>
+	<CEngineComponent>
+		<EnergyPoints>100000</EnergyPoints>
+		<HeatPoints>100000</HeatPoints>
+	</CEngineComponent>
+	<CShieldComponent>
+		<!-- SFC_Military_Reactor -->
+		<Type>Spherical</Type>
+		<Radius X="11" Y="11" Z="11" />
+		<Origin X="0" Y="-7.326" Z="0" />
+		<ShieldPoints>250000</ShieldPoints>
+		<RechargeShieldPoints>25</RechargeShieldPoints>
+		<RechargeDelay>0.0</RechargeDelay> <!-- no-damage time before we can start recharging the shields -->
+		<MinHitProbability>1.0</MinHitProbability> <!-- minimum probability that shields can get hit (ex.: 0.1 = 10%) -->
+		<DamageRatioThreshold>0.01</DamageRatioThreshold> <!-- shield ratio below which the shield takes a critical hit and becomes temporarily damaged -->
+		<RepairRatioThreshold>0.25</RepairRatioThreshold> <!-- shield ratio at which the shield comes back up online after being shut down -->
+		<RepairDuration>180.0</RepairDuration> <!-- how long does it take to repair the shields when it's been shut down -->
+		<SubShield>
+			<!-- SFC_Factory_Reactor -->
+			<Radius X="6" Y="6" Z="6" />
+			<Origin x="0" z="19" y="-3.0" />
+			<ShieldPoints>250000</ShieldPoints>
+			<RechargeShieldPoints>25</RechargeShieldPoints>
+			<RechargeDelay>0.0</RechargeDelay> <!-- no-damage time before we can start recharging the shields -->
+			<MinHitProbability>1.0</MinHitProbability> <!-- minimum probability that shields can get hit (ex.: 0.1 = 10%) -->
+			<DamageRatioThreshold>0.01</DamageRatioThreshold> <!-- shield ratio below which the shield takes a critical hit and becomes temporarily damaged -->
+			<RepairRatioThreshold>0.25</RepairRatioThreshold> <!-- shield ratio at which the shield comes back up online after being shut down -->
+			<RepairDuration>180.0</RepairDuration> <!-- how long does it take to repair the shields when it's been shut down -->
+		</SubShield>
+		<SubShield>
+			<!-- SFC_Factory_Reactor -->
+			<Radius X="6" Y="6" Z="6" />
+			<Origin x="19" z="0" y="-3.0" />
+			<ShieldPoints>250000</ShieldPoints>
+			<RechargeShieldPoints>25</RechargeShieldPoints>
+			<RechargeDelay>0.0</RechargeDelay> <!-- no-damage time before we can start recharging the shields -->
+			<MinHitProbability>1.0</MinHitProbability> <!-- minimum probability that shields can get hit (ex.: 0.1 = 10%) -->
+			<DamageRatioThreshold>0.01</DamageRatioThreshold> <!-- shield ratio below which the shield takes a critical hit and becomes temporarily damaged -->
+			<RepairRatioThreshold>0.25</RepairRatioThreshold> <!-- shield ratio at which the shield comes back up online after being shut down -->
+			<RepairDuration>180.0</RepairDuration> <!-- how long does it take to repair the shields when it's been shut down -->
+		</SubShield>
+		<SubShield>
+			<!-- SFC_Factory_Reactor -->
+			<Radius X="7" Y="7" Z="7" />
+			<Origin x="-12.6572113037109375" z="-13.505741119384765625" y="-3.5" />
+			<ShieldPoints>250000</ShieldPoints>
+			<RechargeShieldPoints>25</RechargeShieldPoints>
+			<RechargeDelay>0.0</RechargeDelay> <!-- no-damage time before we can start recharging the shields -->
+			<MinHitProbability>1.0</MinHitProbability> <!-- minimum probability that shields can get hit (ex.: 0.1 = 10%) -->
+			<DamageRatioThreshold>0.01</DamageRatioThreshold> <!-- shield ratio below which the shield takes a critical hit and becomes temporarily damaged -->
+			<RepairRatioThreshold>0.25</RepairRatioThreshold> <!-- shield ratio at which the shield comes back up online after being shut down -->
+			<RepairDuration>180.0</RepairDuration> <!-- how long does it take to repair the shields when it's been shut down -->
+		</SubShield>
+	</CShieldComponent>
+	<CClientShieldComponent>
+		<BubbleMesh>FX/Shields/SM_GroundShield</BubbleMesh>
+		<GridMesh>FX/Shields/SM_spherified_hex_thick</GridMesh>
+	</CClientShieldComponent>
+    <CHardpointComponent>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
+		<Group ID="6" />
+		<Group ID="7" />
+		<Group ID="8" />
+		<Group ID="9" />
+		<Ammo>
+			<Type>Mg56mm</Type>
+			<Amount>50000</Amount>
+		</Ammo>
+		<Ammo>
+			<Type>Mg96mm</Type>
+			<Amount>25000</Amount>
+		</Ammo>
+	</CHardpointComponent>
+	<CServerHardpointComponent>
+	</CServerHardpointComponent>
+	<CServerDefenseComponent>
+	</CServerDefenseComponent>
+	<CModulesComponent>
+		<MapToPlanet>true</MapToPlanet>
+		<Weapons>
+			<Target Name="SFC_Military_GunTower1" Socket="s_turret" Weapon="DefenseTurretGunMK6" ProbaRangeMin="0.0" ProbaRangeMax="0.25"/>
+			<Target Name="SFC_Military_GunTower1" Socket="s_turret" Weapon="LaserAMSMK3" ProbaRangeMin="0.25" ProbaRangeMax="0.5"/>
+			<Target Name="SFC_Military_GunTower1" Socket="s_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.5" ProbaRangeMax="0.75"/>
+			<Target Name="SFC_Military_GunTower1" Socket="s_turret" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.75" ProbaRangeMax="1.0"/>
+			<Target Name="SFC_Military_GunTower1" Socket="s_turret2" Weapon="LaserAMSMK3" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
+
+			<Target Name="SFC_Military_GunTower2" Socket="s_turret" Weapon="DefenseTurretGunMK6" ProbaRangeMin="0.0" ProbaRangeMax="0.25"/>
+			<Target Name="SFC_Military_GunTower2" Socket="s_turret" Weapon="DefenseTurretBlasterMK5" ProbaRangeMin="0.25" ProbaRangeMax="0.5"/>
+			<Target Name="SFC_Military_GunTower2" Socket="s_turret" Weapon="DefenseTurretGunMK5" ProbaRangeMin="0.5" ProbaRangeMax="0.75"/>
+			<Target Name="SFC_Military_GunTower2" Socket="s_turret" Weapon="TurretFlakMK4" ProbaRangeMin="0.75" ProbaRangeMax="1.0"/>
+
+			<Target Name="SFC_Factory_GunTower" Socket="s_turret" Weapon="DefenseTurretGunMK6" ProbaRangeMin="0.0" ProbaRangeMax="0.25"/>
+			<Target Name="SFC_Factory_GunTower" Socket="s_turret" Weapon="LaserAMSMK3" ProbaRangeMin="0.25" ProbaRangeMax="0.5"/>
+			<Target Name="SFC_Factory_GunTower" Socket="s_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.5" ProbaRangeMax="0.8"/>
+			<Target Name="SFC_Factory_GunTower" Socket="s_turret" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.8" ProbaRangeMax="1.0"/>
+
+			<Target Name="SFC_Military_OrbitalDefense" Socket="s_turret_orbital" Weapon="OrbitalCanonMK10" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
+			<Target Name="SFC_Military_OrbitalDefense" Socket="s_turret1" Weapon="LaserAMSMK3" ProbaRangeMin="0.0" ProbaRangeMax="0.5"/>
+			<Target Name="SFC_Military_OrbitalDefense" Socket="s_turret1" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.5" ProbaRangeMax="1.0"/>
+			<Target Name="SFC_Military_OrbitalDefense" Socket="s_turret2" Weapon="LaserAMSMK3" ProbaRangeMin="0.0" ProbaRangeMax="0.5"/>
+			<Target Name="SFC_Military_OrbitalDefense" Socket="s_turret2" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.5" ProbaRangeMax="1.0"/>
+
+			<Target Name="SFC_Military_Pipe_250m_gun" Socket="s_turret" Weapon="TurretFlakMK4" ProbaRangeMin="0.0" ProbaRangeMax="0.25"/>
+			<Target Name="SFC_Military_Pipe_250m_gun" Socket="s_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.25" ProbaRangeMax="0.6"/>
+			<Target Name="SFC_Military_Pipe_250m_gun" Socket="s_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.6" ProbaRangeMax="0.8"/>
+			<Target Name="SFC_Military_Pipe_250m_gun" Socket="s_turret" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.8" ProbaRangeMax="1.0"/>
+		</Weapons>
+	</CModulesComponent>
+	<CServerModulesComponent>
+	</CServerModulesComponent>
+</ActorConfig>

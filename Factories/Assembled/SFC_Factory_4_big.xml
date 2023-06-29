@@ -1,4 +1,9 @@
 <ActorConfig>
+	<Meta>
+		<ActorType>Base</ActorType>
+		<MapIconName>Factory</MapIconName>
+  		<MapIconSize>25</MapIconSize>
+	</Meta>
 	<CNodeComponent>
 		<TransformNode>
 			<Link Target="$Dev/Config/Factories/SFC_Factory_GunTower.xml" >
@@ -493,8 +498,9 @@
 	<CClientInterpolationComponent />
 	<CServerActorComponent>
         <Name>Lyka Fac</Name>
-		<StratScore>500</StratScore>
-	</CServerActorComponent>
+		<StratValue>500</StratValue>
+    <MatchScore>3</MatchScore>
+  </CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>1200.0</EmissionsRange>
 		<SensorPower>4.0</SensorPower>
@@ -507,7 +513,6 @@
     	<Indicator>Structure</Indicator>
 	</CActorComponent>
 	<CClientActorComponent>
-		<MapIcon>Factory</MapIcon>
 	</CClientActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Static" >
@@ -523,22 +528,12 @@
 		<EnergyPoints>10000</EnergyPoints>
 	</CEngineComponent>
     <CHardpointComponent>
-		<Group ID="0" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="1" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="2" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="3" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
 		<Ammo>
 			<Type>Mg56mm</Type>
 			<Amount>20000</Amount>
@@ -555,13 +550,15 @@
 	<CModulesComponent>
 		<MapToPlanet>true</MapToPlanet>
 		<Weapons>
-			<Target Class="DefenseTowerA" Socket="s_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="1.0" />
+			<Target Name="SFC_Station_DefenseTower_A" Socket="s_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="1.0" />
 		</Weapons>
 	</CModulesComponent>
 	<CServerModulesComponent>
 		<Resources>
-			<Frequency>300.0</Frequency>
-			<Amount>2400</Amount>
+			<Frequency>240.0</Frequency>
+			<Amount>6000</Amount>
 		</Resources>
+		<CreditsIncome>500</CreditsIncome>
+		<SciencePointsIncome>0</SciencePointsIncome>
 	</CServerModulesComponent>
 </ActorConfig>

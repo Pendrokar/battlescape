@@ -1,0 +1,50 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/StationModules_SFC/SM_SFC_Station_ShieldGen_A_Lod0" >
+			<LOD Level="1" Mesh="Structures/StationModules_SFC/SM_SFC_Station_ShieldGen_A_Lod1" />
+			<LODPower>1.0</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+			<PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/2ddd1c3f.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>ShieldGenerator</Class>
+				<HitPoints>2000</HitPoints>
+				<Name>UI_Module_ShieldGen</Name>
+				<ShipPoints>250</ShipPoints>
+				<Score>25</Score>
+				<AttackPriority>4</AttackPriority>
+				<BattleScore>6</BattleScore>
+				<IconName>SI_ShieldA</IconName>
+				<AimOffset X="0" Y="0.05" Z="0" />
+				<IconOffset X="0" Y="0.08" Z="0" />
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/2ddd1c3f.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>ShieldGenerator</Class>
+				<HitPoints>2000</HitPoints>
+				<ShipPoints>250</ShipPoints>
+				<Score>25</Score>
+				<AttackPriority>4</AttackPriority>
+				<BattleScore>6</BattleScore>
+				<AimOffset X="0" Y="0.05" Z="0" />
+				<IconOffset X="0" Y="0.08" Z="0" />
+			</Module>
+			<ServerModule>
+				<CreditsReward>25</CreditsReward>
+				<OnDestroyedPopupText>Server_Destroyed_Module_Shields_Text_Self</OnDestroyedPopupText>
+				<DeathEffectName>EMPMissileExplosion</DeathEffectName>
+				<DeathEffectScale>0.25</DeathEffectScale>
+				<DeathEffectOffset X="0" Y="0.07" Z="0" />
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

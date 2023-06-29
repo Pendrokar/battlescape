@@ -9,16 +9,12 @@
 			<LOD Level="6" Mesh="Structures/SFC-Military/SM_SFC_Military_Pipe_sphere_Lod6" />
 			<LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
-
+		
 			<PhysicsBody Type="Mesh" >
 		        <CollisionFile>$Dev/Structures/SFC-Military/2d78de6e.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
-
-			<Sound>
-				<Name>SphericalTankStructure</Name>
-			</Sound>
-
+			
 			<Light Type="SpotLight" >
 				<Name>Spot002</Name>
 				<Color X="1.0" Y="1.0" Z="1.0" />
@@ -45,6 +41,7 @@
 
 			<Module>
 		        <Class>Unknown</Class>
+				<Name>UI_Module_Structural</Name>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
 		</Object>

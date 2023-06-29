@@ -9,15 +9,11 @@
 		    <LOD Level="6" Mesh="Structures/SFC-Factory/SM_SFC_Factory_Pipes2_Lod6" />
 		    <LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
-
+		
 		     <PhysicsBody Type="Mesh" >
 		        <CollisionFile>$Dev/Structures/SFC-Factory/bbb3bb15.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
-
-			<Sound>
-				<Name>250mPipeStructure</Name>
-			</Sound>
 
 			<Light Type="PointLight" >
 				<Name>Omni004</Name>
@@ -53,6 +49,7 @@
 
 			<Module>
 		        <Class>Unknown</Class>
+				<Name>UI_Module_Structural</Name>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
 		</Object>

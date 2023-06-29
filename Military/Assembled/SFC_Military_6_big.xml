@@ -1,4 +1,9 @@
 <ActorConfig>
+	<Meta>
+		<ActorType>Base</ActorType>
+		<MapIconName>MilitaryBase</MapIconName>
+  		<MapIconSize>25</MapIconSize>
+	</Meta>
 	<CNodeComponent>
 		<TransformNode>
 			<Link Target="$Dev/Config/Military/SFC_Military_Pipe_end2.xml" >
@@ -608,8 +613,9 @@
 	</CClientHullComponent>
 	<CServerActorComponent>
         <Name>Zesthia Base</Name>
-		<StratScore>400</StratScore>
-	</CServerActorComponent>
+    <StratValue>400</StratValue>
+    <MatchScore>3</MatchScore>
+  </CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>1600.0</EmissionsRange>
 		<SensorPower>16.0</SensorPower>
@@ -622,7 +628,6 @@
     	<Indicator>Structure</Indicator>
 	</CActorComponent>
 	<CClientActorComponent>
-		<MapIcon>MilitaryBase</MapIcon>
 	</CClientActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Static" >
@@ -638,22 +643,12 @@
 		<EnergyPoints>10000</EnergyPoints>
 	</CEngineComponent>
     <CHardpointComponent>
-		<Group ID="0" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="1" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="2" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="3" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
 		<Ammo>
 			<Type>Mg56mm</Type>
 			<Amount>20000</Amount>
@@ -670,9 +665,11 @@
 	<CModulesComponent>
 		<MapToPlanet>true</MapToPlanet>
 		<Weapons>
-			<Target Class="DefenseTowerA" Socket="s_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="1.0" />
+			<Target Name="SFC_Station_DefenseTower_A" Socket="s_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="1.0" />
 		</Weapons>
 	</CModulesComponent>
 	<CServerModulesComponent>
+		<CreditsIncome>200</CreditsIncome>
+		<SciencePointsIncome>100</SciencePointsIncome>
 	</CServerModulesComponent>
 </ActorConfig>

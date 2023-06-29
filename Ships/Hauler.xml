@@ -1,4 +1,14 @@
 <ActorConfig>
+	<Meta>
+		<ActorType>Ship</ActorType>
+		<SpawnType>Hauler</SpawnType>
+		<IsPlayerSpawnable>false</IsPlayerSpawnable>
+		<ShipClassCost>600</ShipClassCost>
+		<ShipBattleScore>5</ShipBattleScore>
+		<DisplayName>UI_ShipType_Hauler</DisplayName>
+		<ClassAbbrev>HLR</ClassAbbrev>
+		<WorldBoxSize X="0.131799996" Y="0.0591151193" Z="0.478196621" />
+	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Hauler/SM_SFC_Hauler_Lod0" >
             <LOD Level="1" Mesh="Ships/SFC-Hauler/SM_SFC_Hauler_Lod1" />
@@ -6,7 +16,6 @@
             <LOD Level="3" Mesh="Ships/SFC-Hauler/SM_SFC_Hauler_Lod3" />
             <LOD Level="4" Mesh="Ships/SFC-Hauler/SM_SFC_Hauler_Lod4" />
             <LOD Level="5" Mesh="Ships/SFC-Hauler/SM_SFC_Hauler_Lod5" />
-<!--             <LODPower>6.0</LODPower> -->
             <LODPower>0.75</LODPower>
 			<RejectionSize>0.005</RejectionSize>
             <Material Override="true" />
@@ -1332,17 +1341,35 @@
 			<MeshInstance ID="4" Name="Hauler_LOD000_Painted Stripes_HQ">Primary</MeshInstance>
 			<MeshInstance ID="9" Name="Hauler_LOD000_VertexColorMain_HQ">Secondary</MeshInstance>
 		</Paint>
+
 		<DyingExplosions>30</DyingExplosions>
 		<DyingEffect>DyingExplosion</DyingEffect>
 		<DyingEffectScale>0.3</DyingEffectScale>
-		<DeathExplosions>7</DeathExplosions>
+		<DyingExplosionsMode>false</DyingExplosionsMode>
+
+		<DeathExplosions>20</DeathExplosions>
+		<DeathExplosionsDuration>4.0</DeathExplosionsDuration>
+		<DeathExplosionsEffect>SmallExplosionSound</DeathExplosionsEffect>
+
 		<DeathCoreEffect>BlueShockwave</DeathCoreEffect>
-		<DeathCoreEffectScale>16.0</DeathCoreEffectScale>
-		<DeathEffect>CapShipExplosionCore</DeathEffect>
-		<DeathEffectScale>1.5</DeathEffectScale>
+		<DeathCoreEffectScale>14.0</DeathCoreEffectScale>
+		<DeathCoreEffectDelay>4.0</DeathCoreEffectDelay>
+		<DeathCoreEffectOffset X="0.0" Y="0.0" Z="-0.1" />
+
+		<DeathEffectCount>1</DeathEffectCount>
+		<DeathEffect>HaulerExplosion1</DeathEffect>
+		<DeathEffectScale>1.0</DeathEffectScale>
+		<DeathEffectMinScale>1.0</DeathEffectMinScale>
+		<DeathEffectMaxScale>1.0</DeathEffectMaxScale>
 		<DeathEffectRange>150.0</DeathEffectRange>
+		<DeathEffectLocalSpace>true</DeathEffectLocalSpace>
+
+		<ShrapnelCount>8</ShrapnelCount>
 		<ShrapnelEffect>ShrapnelBig</ShrapnelEffect>
-		<ShrapnelEffectScale>2.5</ShrapnelEffectScale>
+		<ShrapnelEffectScale>1.0</ShrapnelEffectScale>
+		<ShrapnelEffectDelay>4.0</ShrapnelEffectDelay>
+		<ShrapnelEffectDuration>1.0</ShrapnelEffectDuration>
+
 		<ContrailEffectSize>0.075</ContrailEffectSize>
 		<DamageEffectSize>0.07</DamageEffectSize>
 	</CClientHullComponent>
@@ -1363,8 +1390,8 @@
         </Camera>
     </CClientCameraViewComponent>
 	<CClientAudioComponent>
-		<SideThruster Target="SideThrusterBig" FadeLength="0.5" />
-		<MainThruster Target="MainThrusterHeavy1" FadeLength="2.0" />
+		<SideThruster Target="SideThrusterBig" DistRangeScale="0.12" FadeLength="0.5" />
+		<MainThruster Target="MainThrusterHeavy1" DistRangeScale="0.6" FadeLength="2.0" />
 		<EngineIdle Target="EngineIdleHeavy2" FadeLength="2.0" />
 		<EngineFast Target="EngineFastHeavy1" FadeLength="2.0" />
 		<WarpAmbient Target="WarpAmbient" FadeLength="2.0" />
@@ -1377,7 +1404,7 @@
 		<ControlScheme>CapShip</ControlScheme>
 	</CClientActorComponent>
 	<CServerActorComponent>
-		<StratScore>10</StratScore>
+    <StratValue>0</StratValue>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>250.0</EmissionsRange>
@@ -1388,14 +1415,13 @@
 	<CActorComponent>
     	<Indicator>MediumShip</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassAbbrev>HAUL</ClassAbbrev>
 		<ClassName>HAULER</ClassName>
 	</CActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Box" >
         	<SidesSize X="0.131799996" Y="0.0591151193" Z="0.478196621" />
             <Offset X="0.0006" Y="0" Z="0" />
-            <Mass>8000.0</Mass>
+            <Mass>7908.0</Mass>
             <Collisions>true</Collisions>
     	</PhysicsBody>
 		<HitMesh>
@@ -1404,130 +1430,133 @@
 		</HitMesh>
 	</CBodyComponent>
     <CPropulsionComponent>
-        <RampUpFactor>10.0</RampUpFactor>
-        <LinearThrust X="130.0" Y="150.0" Z="175.0" />
-        <RotationThrust X="60.0" Y="60.0" Z="8.0" />
+        <RampUpSpeed>0.2</RampUpSpeed>
+        <MinLinearThrust X="-130.0" Y="-150.0" Z="-175.0" />
+        <MaxLinearThrust X="130.0" Y="150.0" Z="175.0" />
+        <BaseRotationThrust X="60.0" Y="60.0" Z="8.0" />
+        <FullRotationThrust X="60.0" Y="60.0" Z="8.0" />
         <RotationStabilizer X="1.0" Y="1.0" Z="1.0" />
-		<MaxRotationSpeed X="0.40" Y="0.30" Z="0.7" />
+		<BaseRotationSpeed X="0.404" Y="0.303" Z="0.708" />
+		<FullRotationSpeed X="0.404" Y="0.303" Z="0.708" />
+		<RotationDampener>0.6</RotationDampener>
 		<AtmoDecay>0.007</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>2.0</DriftLimiter>
-		<CapSpeed>0.225</CapSpeed>
+		<CapSpeed>0.228</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>1000</EnergyPoints>
+		<RechargeEnergyPoints>50</RechargeEnergyPoints>
 		<HeatPoints>600</HeatPoints>
 		<DechargeHeatPoints>90</DechargeHeatPoints>
 	</CEngineComponent>
 	<CHullComponent>
 		<HitPoints>4000</HitPoints>
-		<DyingDuration>6.0</DyingDuration>
-		<DeathTiming>2.5</DeathTiming>
-		<DeathDuration>1.5</DeathDuration>
-		<DeathCredits>80</DeathCredits>
+
+		<DeathDuration>16.0</DeathDuration>
+		<DeathTiming>0.0</DeathTiming>
+		<KillCamTiming>2.0</KillCamTiming>
+		<DeathDebrisTiming>4.0</DeathDebrisTiming>
+		<DeathDebrisCount>4</DeathDebrisCount>
+		<DeathDebrisScale>20</DeathDebrisScale>
+		<DeathDebris>ShipDebris1</DeathDebris>
+		<DeathDebris>ShipDebris2</DeathDebris>
+		<DeathDebris>ShipDebris3</DeathDebris>
+		<DeathDebris>ShipDebris4</DeathDebris>
+		<DeathDebris>ShipDebris5</DeathDebris>
+		<DeathDebris>ShipDebris6</DeathDebris>
+		<DeathDebris>ShipDebris7</DeathDebris>
+		<DeathDebris>ShipDebris8</DeathDebris>
+		<DeathCredits>0</DeathCredits>
+		<GriefCredits>80</GriefCredits>
+		<DeathXP>200</DeathXP>
 		<Drag>0.0004</Drag>
 		<ArmorPoints>2</ArmorPoints>
 	</CHullComponent>
 	<CShieldComponent>
 		<ShieldPoints>5000</ShieldPoints>
-		<RechargeRate>6</RechargeRate>
+		<RechargeShieldPoints>6</RechargeShieldPoints>
 	</CShieldComponent>
 	<CWarpComponent>
-		<MinWarpSpeed>0.150</MinWarpSpeed>
+		<WarpChargeDuration>8.0</WarpChargeDuration>
+		<WarpCooldown>15.0</WarpCooldown>
+		<MinWarpSpeed>0.152</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>
-		<WarpMesh>Particles/Warp/SM_WarpTunnelRound</WarpMesh>
+		<WarpMesh>FX/Warp/SM_WarpTunnelRound</WarpMesh>
 		<WarpMeshScale>159.0</WarpMeshScale>
 		<LightsDist>0.015</LightsDist>
 	</CClientWarpComponent>
 	<CShipComponent>
-		<SpawnType>Hauler</SpawnType>
 	</CShipComponent>
 	<CHardpointComponent>
-		<Mesh>$Dev/Ships/SFC-Hauler/081a280b.insm</Mesh>
-
-		<Group ID="0" >
-			<GroupType>Primary</GroupType>
-			<Weapon>AutoTurretGunMK4</Weapon>
-			<AutoAim>true</AutoAim>
-		</Group>
-		<Group ID="1" >
-			<GroupType>Primary</GroupType>
-			<Weapon></Weapon>
-			<AutoAim>true</AutoAim>
-		</Group>
-		<Group ID="2" >
-			<GroupType>Primary</GroupType>
-			<Weapon>AutoTurretGunMK4</Weapon>
-			<AutoAim>true</AutoAim>
-		</Group>
-		<Group ID="3" >
-			<GroupType>Secondary</GroupType>
-			<Weapon>AutoTurretBlasterMK4</Weapon>
-			<AutoAim>true</AutoAim>
-		</Group>
-		<Group ID="4" >
-			<GroupType>Secondary</GroupType>
-			<Weapon></Weapon>
-			<AutoAim>true</AutoAim>
-		</Group>
-		<Group ID="5" >
-			<GroupType>Secondary</GroupType>
-			<Weapon></Weapon>
-			<AutoAim>true</AutoAim>
-		</Group>
-
+		<Layout>$Config/Ships/Layouts/HaulerLayout.xml</Layout>
+		<ExclusiveWeapons>false</ExclusiveWeapons>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
+		<Group ID="6" />
+		<Group ID="7" />
+		<Group ID="8" />
+		<Group ID="9" />
 		<Hardpoint ID="0" >
 			<Socket>s_turret_1</Socket>
-			<GroupID>2</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="1" >
 			<Socket>s_turret_2</Socket>
-			<GroupID>2</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="2" >
 			<Socket>s_turret_3</Socket>
-			<GroupID>0</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="3" >
 			<Socket>s_turret_4</Socket>
-			<GroupID>3</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="4" >
 			<Socket>s_turret_5</Socket>
-			<GroupID>0</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="5" >
 			<Socket>s_turret_6</Socket>
-			<GroupID>3</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="6" >
 			<Socket>s_turret_7</Socket>
-			<GroupID>3</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="7" >
 			<Socket>s_turret_8</Socket>
-			<GroupID>3</GroupID>
 		</Hardpoint>
-
-		<Ammo>
-			<Type>Mg56mm</Type>
-			<Amount>6000</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>Mg96mm</Type>
-			<Amount>4000</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>LightMissile</Type>
-			<Amount>32</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>Chaff</Type>
-			<Amount>32</Amount>
-		</Ammo>
+		<Hardpoint ID="8" >
+			<Socket>s_mod_reactor</Socket>
+		</Hardpoint>
+		<Hardpoint ID="9" >
+			<Socket>s_mod_weaponsmod</Socket>
+		</Hardpoint>
+		<Hardpoint ID="10" >
+			<Socket>s_mod_propulsion</Socket>
+		</Hardpoint>
+		<Hardpoint ID="11" >
+			<Socket>s_mod_storage1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="12" >
+			<Socket>s_mod_electronics1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="13" >
+			<Socket>s_mod_electronics2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="14" >
+			<Socket>s_mod_structural</Socket>
+		</Hardpoint>
+		<Hardpoint ID="15" >
+			<Socket>s_mod_shields1</Socket>
+		</Hardpoint>
 	</CHardpointComponent>
 	<CServerHardpointComponent>
+		<Loadout Name="DefaultHauler" Proba="100" />
+		<Ammo>
+			<Type>Chaff</Type>
+			<Amount>20</Amount>
+		</Ammo>
 	</CServerHardpointComponent>
 	<CServerHaulerComponent>
 	</CServerHaulerComponent>

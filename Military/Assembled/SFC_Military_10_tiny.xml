@@ -1,7 +1,12 @@
 <ActorConfig>
+	<Meta>
+		<ActorType>Base</ActorType>
+		<MapIconName>MilitaryBase</MapIconName>
+  		<MapIconSize>25</MapIconSize>
+	</Meta>
 	<CNodeComponent>
 		<TransformNode>
-			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" >
+ 			<Link Target="$Dev/Config/Military/SFC_Military_GunTower1.xml" >
 				<position x="-2" y="3.8750002384185791016" z="0" Type="3dsMax"/>
 				<rotation x="0" y="0" z="-1" w="0" Type="3dsMax"/>
 			</Link>
@@ -184,8 +189,9 @@
 	</CClientHullComponent>
 	<CServerActorComponent>
         <Name>Frostia Base</Name>
-		<StratScore>100</StratScore>
-	</CServerActorComponent>
+    <StratValue>100</StratValue>
+    <MatchScore>1</MatchScore>
+  </CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>400.0</EmissionsRange>
 		<SensorPower>4.0</SensorPower>
@@ -198,7 +204,6 @@
     	<Indicator>Structure</Indicator>
 	</CActorComponent>
 	<CClientActorComponent>
-		<MapIcon>MilitaryBase</MapIcon>
 	</CClientActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Static" >
@@ -214,22 +219,12 @@
 		<EnergyPoints>10000</EnergyPoints>
 	</CEngineComponent>
     <CHardpointComponent>
-		<Group ID="0" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="1" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="2" >
-			<GroupType>Primary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
-		<Group ID="3" >
-			<GroupType>Secondary</GroupType>
-			<AllowFreeAim>true</AllowFreeAim>
-		</Group>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
 		<Ammo>
 			<Type>Mg56mm</Type>
 			<Amount>20000</Amount>
@@ -246,9 +241,11 @@
 	<CModulesComponent>
 		<MapToPlanet>true</MapToPlanet>
 		<Weapons>
-			<Target Class="DefenseTowerA" Socket="s_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="1.0" />
+			<Target Name="SFC_Station_DefenseTower_A" Socket="s_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="1.0" />
 		</Weapons>
 	</CModulesComponent>
 	<CServerModulesComponent>
+		<CreditsIncome>50</CreditsIncome>
+		<SciencePointsIncome>20</SciencePointsIncome>
 	</CServerModulesComponent>
 </ActorConfig>

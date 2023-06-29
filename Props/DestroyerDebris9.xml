@@ -1,0 +1,83 @@
+<ActorConfig>
+	<Meta>
+		<ActorType>Prop</ActorType>
+	</Meta>
+	<CClientNodeComponent>
+        <Object Mesh="Ships/SFC-Destroyer/Debris/SM_SFC_Destroyer_Debris_Part9_Lod0" >
+            <LOD Level="1" Mesh="Ships/SFC-Destroyer/Debris/SM_SFC_Destroyer_Debris_Part9_Lod1" />
+            <LOD Level="2" Mesh="Ships/SFC-Destroyer/Debris/SM_SFC_Destroyer_Debris_Part9_Lod2" />
+            <LOD Level="3" Mesh="Ships/SFC-Destroyer/Debris/SM_SFC_Destroyer_Debris_Part9_Lod3" />
+            <LOD Level="4" Mesh="Ships/SFC-Destroyer/Debris/SM_SFC_Destroyer_Debris_Part9_Lod4" />
+            <LODPower>0.4</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+            <Material Override="true" />
+			<Scale X="1" Y="1" Z="1" />
+         </Object>
+	</CClientNodeComponent>
+	<CServerNodeComponent>
+		<TransformNode />
+	</CServerNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>0.0</EmissiveIntensity>
+		<DyingExplosions>25</DyingExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DyingEffectScale>1.0</DyingEffectScale>
+		<DeathExplosions>6</DeathExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DeathEffect>CapShipExplosionCore</DeathEffect>
+		<DyingEffectScale>0.10</DyingEffectScale>
+		<DeathEffectScale>2.0</DeathEffectScale>
+		<ShrapnelEffect>ShrapnelBig</ShrapnelEffect>
+		<ShrapnelEffectScale>3.0</ShrapnelEffectScale>
+		<ShowDamageTrail>true</ShowDamageTrail>
+		<ContrailEffectSize>0.2</ContrailEffectSize>
+		<DamageEffectSize>0.1</DamageEffectSize>
+		<Skin>
+			<Name>DestroyerScoria</Name>
+			<ColorMap>Ships/SFC-Destroyer/Skins/T_Destroyer_Scoria</ColorMap>
+		</Skin>
+		<Skin>
+			<Name>DestroyerHavoc</Name>
+			<ColorMap>Ships/SFC-Destroyer/Skins/T_Destroyer_Havoc</ColorMap>
+		</Skin>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+    <CClientCameraViewComponent>
+        <Camera Type="External">
+            <ViewPosition X="0" Y="0.002" Z="-0.008" />
+			<ViewAngle X="0" Y="0" />
+        </Camera>
+    </CClientCameraViewComponent>
+	<CServerActorComponent>
+		<Name>Wreckage</Name>
+	</CServerActorComponent>
+	<CActorComponent>
+    	<Indicator>Structure</Indicator>
+		<SurfaceType>Metal</SurfaceType>
+	</CActorComponent>
+	<CClientActorComponent>
+	</CClientActorComponent>
+	<CBodyComponent>
+    	<PhysicsBody Type="Mesh" >
+			<CollisionFile>$Dev/Ships/SFC-Destroyer/Debris/577826e5.insm</CollisionFile>
+			<Dynamic>true</Dynamic>
+            <Mass>3000.0</Mass>
+            <Collisions>true</Collisions>
+			<CollisionScale>1</CollisionScale>
+			<BodyGroup>4</BodyGroup>
+        </PhysicsBody>
+		<HitMesh>
+			<CollisionFile>$Dev/Ships/SFC-Destroyer/Debris/577826e5.insm</CollisionFile>
+			<CollisionScale>1</CollisionScale>
+			<SplitCost>0.001</SplitCost>
+		</HitMesh>
+	</CBodyComponent>
+	<CHullComponent>
+		<HitPoints>2500</HitPoints>
+		<DyingDuration>5.0</DyingDuration>
+		<DeathTiming>1.0</DeathTiming>
+		<DeathDuration>2.0</DeathDuration>
+		<MaxLifeTime>120.0</MaxLifeTime>
+		<MaxLifeTimeDeath>true</MaxLifeTimeDeath>
+	</CHullComponent>
+</ActorConfig>

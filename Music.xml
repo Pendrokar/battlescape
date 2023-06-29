@@ -30,6 +30,16 @@
 		<Path>event:/Musics/Ambient/Infinity_Ambient_SP_04_Demo_loop_V1</Path>
 		<Volume>1.0</Volume>
 	</Track>
+	<Track>
+		<Type>Space_Ambient</Type>
+		<Path>event:/Musics/Ambient/Infinity_A08_SP_Ghost Wrack_Final_Track_MZ</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Space_Ambient</Type>
+		<Path>event:/Musics/Ambient/Infinity_A09_SP_Blue Horizons_Final_Track_MZ</Path>
+		<Volume>1.0</Volume>
+	</Track>
 
 	<Track>
 		<Type>Planet_Ambient</Type>
@@ -68,6 +78,21 @@
 		<Path>event:/Musics/Exploration/Infinity_Exploration_03_Demo_loop_V1</Path>
 		<Volume>1.0</Volume>
 	</Track>
+	<Track>
+		<Type>Space_Exploration</Type>
+		<Path>event:/Musics/Exploration/Infinity_E04_Secret Hideout_Final_Track_MZ</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Space_Exploration</Type>
+		<Path>event:/Musics/Exploration/Infinity_E05_Approaching the Orbit_Final_Track_MZ</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Space_Exploration</Type>
+		<Path>event:/Musics/Exploration/Infinity_E06_Far Encounter_Final_Track_MZ</Path>
+		<Volume>1.0</Volume>
+	</Track>
 
 	<Track>
 		<Type>Battle</Type>
@@ -87,6 +112,26 @@
 	<Track>
 		<Type>Battle</Type>
 		<Path>event:/Musics/Battle/Infinity_Battle_04_Demo_loop_V1</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Battle</Type>
+		<Path>event:/Musics/Battle/Infinity_B05_Decaptor_Final_Track_MZ</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Battle</Type>
+		<Path>event:/Musics/Battle/Infinity_B06_Phoenix_Final_Track_MZ</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Battle</Type>
+		<Path>event:/Musics/Battle/Infinity_B07_Space Pig_Final_Track_MZ</Path>
+		<Volume>1.0</Volume>
+	</Track>
+	<Track>
+		<Type>Battle</Type>
+		<Path>event:/Musics/Battle/Infinity_B08_Royal Lion_Final_Track_MZ</Path>
 		<Volume>1.0</Volume>
 	</Track>
 

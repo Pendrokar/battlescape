@@ -1,0 +1,65 @@
+<ActorConfig>
+	<Meta>
+		<ActorType>Prop</ActorType>
+	</Meta>
+	<CClientNodeComponent>
+        <Object Mesh="Ships/Debris/SM_GenericDebris4" >
+			<RejectionSize>0.005</RejectionSize>
+            <Material Override="true" />
+			<Scale X="4" Y="4" Z="4" />
+         </Object>
+	</CClientNodeComponent>
+	<CServerNodeComponent>
+		<TransformNode />
+	</CServerNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+		<DyingExplosions>0</DyingExplosions>
+		<DeathExplosions>1</DeathExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DeathEffect>SmallShipExplosion</DeathEffect>
+		<DyingEffectScale>0.10</DyingEffectScale>
+		<DeathEffectScale>3.0</DeathEffectScale>
+		<ShrapnelEffect>ShrapnelBig</ShrapnelEffect>
+		<ShrapnelEffectScale>2.0</ShrapnelEffectScale>
+		<ContrailEffectSize>0.04</ContrailEffectSize>
+		<DamageEffectSize>0.015</DamageEffectSize>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+    <CClientCameraViewComponent>
+        <Camera Type="External">
+            <ViewPosition X="0" Y="0.002" Z="-0.008" />
+			<ViewAngle X="0" Y="0" />
+        </Camera>
+    </CClientCameraViewComponent>
+	<CServerActorComponent>
+		<Name>Wreckage</Name>
+	</CServerActorComponent>
+	<CActorComponent>
+    	<Indicator>Structure</Indicator>
+		<SurfaceType>Metal</SurfaceType>
+	</CActorComponent>
+	<CClientActorComponent>
+	</CClientActorComponent>
+	<CBodyComponent>
+    	<PhysicsBody Type="Mesh" >
+			<CollisionFile>$Dev/Ships/Debris/collision/93b199c2.insm</CollisionFile>
+			<Dynamic>true</Dynamic>
+            <Mass>5000.0</Mass>
+            <Collisions>true</Collisions>
+			<CollisionScale>4</CollisionScale>
+			<BodyGroup>4</BodyGroup>
+        </PhysicsBody>
+		<HitMesh>
+			<CollisionFile>$Dev/Ships/Debris/collision/93b199c2.insm</CollisionFile>
+			<CollisionScale>4</CollisionScale>
+			<SplitCost>0.001</SplitCost>
+		</HitMesh>
+	</CBodyComponent>
+	<CHullComponent>
+		<HitPoints>5000</HitPoints>
+		<DyingDuration>0.0</DyingDuration>
+		<DeathDuration>0.0</DeathDuration>
+		<MaxLifeTime>60.0</MaxLifeTime>
+	</CHullComponent>
+</ActorConfig>

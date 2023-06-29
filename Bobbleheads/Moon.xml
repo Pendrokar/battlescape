@@ -1,0 +1,5 @@
+<BobbleheadConfig>
+	<Name>Moon</Name>
+	<Mesh>Cockpits/Bobbleheads/Planet/SM_Planet</Mesh>
+	<MeshScale>0.25</MeshScale>
+</BobbleheadConfig>

@@ -27,7 +27,6 @@
 				<Class>Indestructible</Class>
 			</Module>
 			<ServerModule>
-				<CreditsReward>2500</CreditsReward>
 			</ServerModule>
 		</TransformNode>
 	</Condition>

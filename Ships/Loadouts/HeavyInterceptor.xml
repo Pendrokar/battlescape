@@ -1,0 +1,18 @@
+<Loadout Version="0.0.0.1" >
+	<Name>HeavyInterceptor</Name>
+	<DisplayName>HEAVY</DisplayName>
+	<Actor>Interceptor</Actor>
+	<LayoutFile>$Config/Ships/Layouts/InterceptorHeavyLayout.xml</LayoutFile>
+	<IsMain>true</IsMain>
+    <Mount HardpointName="s_gun_left" Weapon="GimbalGunMK1" GroupID="1"/>
+    <Mount HardpointName="s_gun_right" Weapon="GimbalGunMK1" GroupID="1"/>
+    <Mount HardpointName="s_gun_pod_left" Weapon="GimbalBlasterMK1" GroupID="2"/>
+    <Mount HardpointName="s_gun_pod_right" Weapon="GimbalBlasterMK1" GroupID="2"/>
+    <Mount HardpointName="s_mod_electronics1" System="FlightAssist"/>
+    <Mount HardpointName="s_rocket_right" Weapon="RocketLauncher" GroupID="0"/>
+    <Mount HardpointName="s_rocket_left" Weapon="RocketLauncher" GroupID="0"/>
+    <Mount HardpointName="s_mod_structure1" System="LightArmorPlating1"/>
+    <Mount HardpointName="s_mod_weaponmod3" System="WeaponsDurability"/>
+    <Mount HardpointName="s_missile_top" Weapon="MissilePod" GroupID="3"/>
+    <Mount HardpointName="s_missile_bottom" Weapon="MissilePod" GroupID="3"/>
+</Loadout>

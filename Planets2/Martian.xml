@@ -1,4 +1,10 @@
 <ActorConfig>
+	<Meta>
+		<ActorType>Planet</ActorType>
+		<MapIconName>Moon</MapIconName>
+		<MapIconColor X="0.678" Y="0.407" Z="0.258" W="1" />
+  		<MapIconSize>1000</MapIconSize>
+	</Meta>
 	<CNodeComponent>
 		<TransformNode>
 		</TransformNode>
@@ -16,8 +22,6 @@
 		<SurfaceType>Surface</SurfaceType>
 	</CActorComponent>
 	<CClientActorComponent>
-		<MapIcon>Planet</MapIcon>
-		<MapColor X="0.678" Y="0.407" Z="0.258" W="1" />
 	</CClientActorComponent>
 	<CBodyComponent>
 	</CBodyComponent>
@@ -137,5 +141,172 @@
 				<Wind>5.0</Wind>
 			</Sound>
 		</Sounds>
+		<Props>
+			<Layer ID="0">
+				<MeshName>Props/Planets/SmoothAlienRocks/Meshes/SM_Dunes_Rock_Big_00_LOD4</MeshName>
+				<ScaleBase>4.0</ScaleBase>
+				<ScalePower>1.5</ScalePower>
+				<MaxScaleLevel>10</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>24000.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>1.0</MaxShadowDist>
+				<AltRange X="0.0" Y="1.0" />
+				<SlopeRange X="0.0" Y="0.9" />
+				<NoiseRange X="0.0" Y="10.0" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="0.0" />
+				<RollRange X="0.0" Y="0.0" />
+				<DiffuseColor X="0.15" Y="0.3" Z="0.5" W="1.0" />
+				<SlopeAlign>0.9</SlopeAlign>
+				<Count Level="9" Amount="1" />
+				<Count Level="10" Amount="2" />
+				<Count Level="11" Amount="4" />
+				<Count Level="12" Amount="8" />
+				<Count Level="13" Amount="15" />
+				<Count Level="14" Amount="25" />
+				<Count Level="15" Amount="40" />
+			</Layer>
+
+			<Layer ID="1">
+				<MeshName>Props/Planets/SmoothAlienRocks/Meshes/SM_Dunes_Rock_Big_01_LOD4</MeshName>
+				<ScaleBase>4.0</ScaleBase>
+				<ScalePower>1.5</ScalePower>
+				<MaxScaleLevel>10</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>24000.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>1.0</MaxShadowDist>
+				<AltRange X="0.0" Y="1.0" />
+				<SlopeRange X="0.0" Y="0.9" />
+				<NoiseRange X="0.0" Y="10.0" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="0.0" />
+				<RollRange X="0.0" Y="0.0" />
+				<DiffuseColor X="0.15" Y="0.3" Z="0.5" W="1.0" />
+				<SlopeAlign>0.9</SlopeAlign>
+				<Count Level="9" Amount="1" />
+				<Count Level="10" Amount="2" />
+				<Count Level="11" Amount="4" />
+				<Count Level="12" Amount="8" />
+				<Count Level="13" Amount="15" />
+				<Count Level="14" Amount="25" />
+				<Count Level="15" Amount="40" />
+
+			</Layer>
+
+			<Layer ID="2">
+				<MeshName>Props/Planets/SmoothAlienRocks/Meshes/SM_Dunes_Rock_Big_02_LOD4</MeshName>
+				<ScaleBase>4.0</ScaleBase>
+				<ScalePower>1.5</ScalePower>
+				<MaxScaleLevel>10</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>24000.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>1.0</MaxShadowDist>
+				<AltRange X="0.0" Y="1.0" />
+				<SlopeRange X="0.0" Y="0.9" />
+				<NoiseRange X="0.0" Y="10.0" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="0.0" />
+				<RollRange X="0.0" Y="0.0" />
+				<DiffuseColor X="0.15" Y="0.3" Z="0.5" W="1.0" />
+				<SlopeAlign>0.9</SlopeAlign>
+				<Count Level="9" Amount="1" />
+				<Count Level="10" Amount="2" />
+				<Count Level="11" Amount="4" />
+				<Count Level="12" Amount="8" />
+				<Count Level="13" Amount="15" />
+				<Count Level="14" Amount="25" />
+				<Count Level="15" Amount="40" />
+			</Layer>
+
+			<Layer ID="3">
+				<MeshName>Props/Planets/Alien/Meshes/SM_Gastarias</MeshName>
+				<ScaleBase>40.0</ScaleBase>
+				<ScalePower>1.5</ScalePower>
+				<MaxScaleLevel>10</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>24000.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>2.0</MaxShadowDist>
+				<AltRange X="0.0" Y="1.0" />
+				<SlopeRange X="0.8" Y="0.9" />
+				<NoiseRange X="0.0" Y="1.0" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="0.0" />
+				<RollRange X="0.0" Y="0.0" />
+				<DiffuseColor X="1.0" Y="1.0" Z="1.0" W="1.0" />
+				<SlopeAlign>1.0</SlopeAlign>
+				<Count Level="10" Amount="1" />
+			</Layer>
+
+			<Layer ID="4">
+				<MeshName>Props/Planets/Alien/Meshes/SM_GastariasEgg</MeshName>
+<!-- 				<ScaleBase>15.0</ScaleBase> -->
+				<ScaleBase>40.0</ScaleBase>
+				<ScalePower>1.5</ScalePower>
+				<MaxScaleLevel>10</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>24000.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>0.5</MaxShadowDist>
+				<AltRange X="0.0" Y="1.0" />
+				<SlopeRange X="0.8" Y="0.9" />
+				<NoiseRange X="0.0" Y="1.0" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="0.0" />
+				<RollRange X="0.0" Y="0.0" />
+				<DiffuseColor X="1.0" Y="1.0" Z="1.0" W="1.0" />
+				<SlopeAlign>0.5</SlopeAlign>
+				<Count Level="11" Amount="1" />
+			</Layer>
+
+			<Layer ID="5">
+				<MeshName>Props/Planets/Cactus/Meshes/SM_Cactus10</MeshName>
+				<ScaleBase>3.0</ScaleBase>
+				<ScalePower>1.1</ScalePower>
+				<MaxScaleLevel>10</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>14300.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>0.5</MaxShadowDist>
+				<AltRange X="0.0" Y="1.0" />
+				<SlopeRange X="0.95" Y="1.0" />
+				<NoiseRange X="0.6" Y="1.0" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="0.0" />
+				<RollRange X="0.0" Y="0.0" />
+				<DiffuseColor X="0.2" Y="0.2" Z="0.2" W="1.0" />
+				<SlopeAlign>0.5</SlopeAlign>
+				<Count Level="13" Amount="50" />
+				<Count Level="14" Amount="250" />
+				<Count Level="15" Amount="800" />
+			</Layer>
+		</Props>
 	</CClientPlanetComponent>
 </ActorConfig>

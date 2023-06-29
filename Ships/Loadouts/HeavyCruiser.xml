@@ -1,0 +1,32 @@
+<Loadout Version="0.0.0.1" >
+	<Name>HeavyCruiser</Name>
+	<DisplayName>HEAVY</DisplayName>
+	<Actor>Cruiser</Actor>
+	<LayoutFile>$Config/Ships/Layouts/CruiserHeavyLayout.xml</LayoutFile>
+	<IsMain>true</IsMain>
+    <Mount HardpointName="s_mko_missile_midX_bot_left" Weapon="MissileLauncherMK3" GroupID="4"/>
+    <Mount HardpointName="s_mko_missile_midX_bot_right" Weapon="MissileLauncherMK3" GroupID="4"/>
+    <Mount HardpointName="s_mko_missile_midX_top_left" Weapon="MissileLauncherMK3" GroupID="4"/>
+    <Mount HardpointName="s_mko_missile_midX_top_right" Weapon="MissileLauncherMK3" GroupID="4"/>
+    <Mount HardpointName="s_mod_electronics1" System="FlightAssist"/>
+    <Mount HardpointName="s_mk7_front_top" Weapon="HeraclesMK7" GroupID="3"/>
+    <Mount HardpointName="s_mk7_aft_top_right" Weapon="HeraclesMK7" GroupID="3"/>
+    <Mount HardpointName="s_mk7_aft_bot_left" Weapon="HeraclesMK7" GroupID="3"/>
+    <Mount HardpointName="s_mk7_aft_top_left" Weapon="ThunderboltMK7" GroupID="2"/>
+    <Mount HardpointName="s_mk7_aft_bot_right" Weapon="ThunderboltMK7" GroupID="2"/>
+    <Mount HardpointName="s_mk7_mid_right" Weapon="HeraclesMK7" GroupID="3"/>
+    <Mount HardpointName="s_mk7_mid_left" Weapon="ThunderboltMK7" GroupID="2"/>
+    <Mount HardpointName="s_mk6_front_top_right" Weapon="TurretGunMK6" GroupID="0"/>
+    <Mount HardpointName="s_mk6_front_bot_left" Weapon="TurretGunMK6" GroupID="0"/>
+    <Mount HardpointName="s_mk6_front_top_left" Weapon="TurretBlasterMK6" GroupID="1"/>
+    <Mount HardpointName="s_mk6_front_bot_right" Weapon="TurretBlasterMK6" GroupID="1"/>
+    <Mount HardpointName="s_mk6_rear_top_left" Weapon="TurretBlasterMK6" GroupID="1"/>
+    <Mount HardpointName="s_mk6_rear_bot_right" Weapon="TurretBlasterMK6" GroupID="1"/>
+    <Mount HardpointName="s_mk6_rear_top_right" Weapon="TurretGunMK6" GroupID="0"/>
+    <Mount HardpointName="s_mk6_rear_bot_left" Weapon="TurretGunMK6" GroupID="0"/>
+    <Mount HardpointName="s_mko_missile_fwd_right" Weapon="MissileLauncherMK3" GroupID="4"/>
+    <Mount HardpointName="s_mko_missile_fwd_left" Weapon="MissileLauncherMK3" GroupID="4"/>
+    <Mount HardpointName="s_mod_structure1" System="RepairCrew"/>
+    <Mount HardpointName="s_mod_structure2" System="HeavyArmorPlating1"/>
+    <Mount HardpointName="s_mod_weaponsmod2" System="WeaponsDurability"/>
+</Loadout>

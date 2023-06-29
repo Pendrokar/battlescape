@@ -1,0 +1,32 @@
+<Loadout Version="0.0.0.1" >
+	<Name>LowTechDestroyer</Name>
+	<DisplayName>LOW TECH</DisplayName>
+	<Actor>Destroyer</Actor>
+	<LayoutFile>$Config/Ships/Layouts/DestroyerLowTechLayout.xml</LayoutFile>
+	<IsMain>true</IsMain>
+    <Mount HardpointName="s_mk4_bot_left_center" Weapon="LaserAMSMK3" GroupID="0"/>
+    <Mount HardpointName="s_mk4_bot_right_center" Weapon="LaserAMSMK3" GroupID="0"/>
+    <Mount HardpointName="s_mk4_top_left_forward" Weapon="LaserAMSMK3" GroupID="0"/>
+    <Mount HardpointName="s_mk4_top_right_forward" Weapon="LaserAMSMK3" GroupID="0"/>
+    <Mount HardpointName="s_mk5_bot_left" Weapon="TurretGunMK5" GroupID="3"/>
+    <Mount HardpointName="s_mk5_bot_right" Weapon="TurretBlasterMK5" GroupID="4"/>
+    <Mount HardpointName="s_mk5_top_left" Weapon="TurretBlasterMK5" GroupID="4"/>
+    <Mount HardpointName="s_mk5_top_right" Weapon="TurretGunMK5" GroupID="3"/>
+    <Mount HardpointName="s_mod_electronics1" System="FlightAssist"/>
+    <Mount HardpointName="s_mod_electronics3" System="WarpJam1" GroupID="6"/>
+    <Mount HardpointName="s_mk4_bot_left_forward" Weapon="AutoTurretBlasterMK4" GroupID="2"/>
+    <Mount HardpointName="s_mk4_bot_right_forward" Weapon="AutoTurretBlasterMK4" GroupID="2"/>
+    <Mount HardpointName="s_mko_missile_left" Weapon="MissileLauncherMK3" GroupID="5"/>
+    <Mount HardpointName="s_mko_missile_right" Weapon="MissileLauncherMK3" GroupID="5"/>
+    <Mount HardpointName="s_mk4_center_top" Weapon="AutoTurretBlasterMK4" GroupID="2"/>
+    <Mount HardpointName="s_mk4_rear_top2" Weapon="AutoTurretGunMK4" GroupID="1"/>
+    <Mount HardpointName="s_mk4_rear_bot2" Weapon="AutoTurretGunMK4" GroupID="1"/>
+    <Mount HardpointName="s_mk4_rear_bot1" Weapon="LaserAMSMK3" GroupID="0"/>
+    <Mount HardpointName="s_mk4_top_left_center" Weapon="AutoTurretGunMK4" GroupID="1"/>
+    <Mount HardpointName="s_mod_structural1" System="FeatherHull"/>
+    <Mount HardpointName="s_mod_weaponsmod2" System="FasterTurretRotation1"/>
+    <Mount HardpointName="s_mod_weaponsmod3" System="AMSDamage"/>
+    <Mount HardpointName="s_mod_storage2" System="ExtraMediumAmmo"/>
+    <Mount HardpointName="s_mk4_top_right_center" Weapon="AutoTurretGunMK4" GroupID="1"/>
+    <Mount HardpointName="s_mk4_rear_top1" Weapon="AutoTurretBlasterMK4" GroupID="2"/>
+</Loadout>

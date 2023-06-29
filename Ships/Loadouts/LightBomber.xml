@@ -1,0 +1,22 @@
+<Loadout Version="0.0.0.1" >
+	<Name>LightBomber</Name>
+	<DisplayName>LIGHT</DisplayName>
+	<Actor>Bomber</Actor>
+	<LayoutFile>$Config/Ships/Layouts/BomberLightLayout.xml</LayoutFile>
+	<IsMain>true</IsMain>
+    <Mount HardpointName="s_gun_A_left" Weapon="GimbalGunMK1" GroupID="0"/>
+    <Mount HardpointName="s_gun_A_right" Weapon="GimbalGunMK1" GroupID="0"/>
+    <Mount HardpointName="s_gun_E_left" Weapon="GimbalBlasterMK1" GroupID="1"/>
+    <Mount HardpointName="s_gun_E_right" Weapon="GimbalBlasterMK1" GroupID="1"/>
+    <Mount HardpointName="s_gun_G_left" Weapon="GimbalGunMK1" GroupID="0"/>
+    <Mount HardpointName="s_gun_G_right" Weapon="GimbalGunMK1" GroupID="0"/>
+    <Mount HardpointName="s_missile_left_1" Weapon="MissilePod" GroupID="3"/>
+    <Mount HardpointName="s_missile_right_1" Weapon="MissilePod" GroupID="3"/>
+    <Mount HardpointName="s_mod_electronics1" System="FlightAssist"/>
+    <Mount HardpointName="s_mod_propulsion2" System="TurboEnergy"/>
+    <Mount HardpointName="s_mod_propulsion1" System="GyroBoost"/>
+    <Mount HardpointName="s_mod_structure1" System="FeatherHull"/>
+    <Mount HardpointName="s_mod_electronics4" System="TurnSpeed"/>
+    <Mount HardpointName="s_gun_rocketpod_2" Weapon="RocketLauncher" GroupID="2"/>
+    <Mount HardpointName="s_gun_rocketpod_1" Weapon="RocketLauncher" GroupID="2"/>
+</Loadout>

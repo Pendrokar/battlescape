@@ -5,12 +5,10 @@
 			<LOD Level="2" Mesh="Structures/StationModules_SFC/SM_SFC_Station_FighterBay_Lod2" />
 			<LOD Level="3" Mesh="Structures/StationModules_SFC/SM_SFC_Station_FighterBay_Lod3" />
 			<LOD Level="4" Mesh="Structures/StationModules_SFC/SM_SFC_Station_FighterBay_Lod4" />
-			<LOD Level="5" Mesh="Structures/StationModules_SFC/SM_SFC_Station_FighterBay_Lod5" />
 			<LODPower>0.5</LODPower>
 			<RejectionSize>0.005</RejectionSize>
 
 			<PhysicsBody Type="Mesh" >
-<!-- 		        <CollisionFile>$Dev/Structures/SFC-Stations/ad7d0467.insm</CollisionFile> -->
 		        <CollisionFile>$Dev/Structures/StationModules_SFC/c805b9db.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
@@ -302,40 +300,48 @@
 		        <Class>HangarSpawn</Class>
 				<HitPoints>6000</HitPoints>
 				<Score>25</Score>
+				<SpawnNameTag>HUD_Hangar</SpawnNameTag>
+				<SpawnNamePos X="0" Y="0" Z="0.3" />
+				<MarkerMesh>Structures/LandingMarkers/SM_FighterHangar_new</MarkerMesh>
+				<MarkerLightOffset X="0" Y="0" Z="0.35" />
+				<Name>UI_Module_SmallHangar</Name>
+				<IconName>SI_Wrench</IconName>
+				<IconOffset X="0" Y="0" Z="0" />
+
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.060" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Position X="0.060" Y="-0.07" Z="-0.0349" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.060" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Position X="0.060" Y="-0.07" Z="0.0041" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.0" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Position X="0.0" Y="-0.07" Z="-0.0349" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.0" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Position X="0.0" Y="-0.07" Z="0.0041" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="-0.060" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Position X="-0.060" Y="-0.07" Z="-0.0349" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="-0.060" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Position X="-0.060" Y="-0.07" Z="0.0041" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			</Module>
@@ -344,7 +350,6 @@
 	<Condition Target="Server">
 		<TransformNode >
 		     <PhysicsBody Type="Mesh" >
-<!-- 		        <CollisionFile>$Dev/Structures/SFC-Stations/ad7d0467.insm</CollisionFile> -->
 		        <CollisionFile>$Dev/Structures/StationModules_SFC/c805b9db.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
@@ -352,48 +357,47 @@
 		        <Class>HangarSpawn</Class>
 				<HitPoints>6000</HitPoints>
 				<Score>25</Score>
+				<IconOffset X="0" Y="0" Z="0" />
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.060" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Position X="0.060" Y="-0.07" Z="-0.0349" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
+			    </Spawn>
+ 			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
+			        <Position X="0.060" Y="-0.07" Z="0.0041" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.060" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Position X="0.0" Y="-0.07" Z="-0.0349" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.0" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
+			        <Position X="0.0" Y="-0.07" Z="0.0041" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="0.0" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Position X="-0.060" Y="-0.07" Z="-0.0349" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			    <Spawn>
 					<Type>Fighter</Type>
 			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="-0.060" Y="-0.07" Z="-0.0334" Type="3dsMax"/>
-			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
-			    </Spawn>
-			    <Spawn>
-					<Type>Fighter</Type>
-			        <Size X="0.026" Y="0.045" Z="0.020" Type="3dsMax" />
-			        <Position X="-0.060" Y="-0.07" Z="0.00532" Type="3dsMax"/>
+			        <Position X="-0.060" Y="-0.07" Z="0.0041" Type="3dsMax"/>
 			        <Rotation X="0" Y="0" Z="0" W="1" Type="3dsMax" />
 			    </Spawn>
 			</Module>
 			<ServerModule>
-				<CreditsReward>60</CreditsReward>
-				<OnDestroyedPopupTitle>Server_Destroyed_Module_FighterSpawn_Title_Self</OnDestroyedPopupTitle>
+				<CreditsReward>50</CreditsReward>
 				<OnDestroyedPopupText>Server_Destroyed_Module_FighterSpawn_Text_Self</OnDestroyedPopupText>
-				<OnDestroyedPopupFooter>Server_Destroyed_Module_FighterSpawn_Footer_Self</OnDestroyedPopupFooter>
 			</ServerModule>
 		</TransformNode>
 	</Condition>

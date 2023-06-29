@@ -39,14 +39,7 @@
 		        <CollisionFile>$Dev/Structures/SFC-Military/64746560.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
-
-			<Sound>
-				<Name>ReactorStructure</Name>
-			</Sound>
-			<Sound>
-				<Name>ReactorStructureBass</Name>
-			</Sound>
-
+			
 			<Light Type="PointLight" >
 				<Name>Omni059</Name>
 				<Color X="1.0" Y="0.0" Z="0.0" />
@@ -536,11 +529,24 @@
 			</Light>
 
 			<Module>
-		        <Class>Reactor</Class>
-				<HitPoints>50000</HitPoints>
-				<Score>150</Score>
+				<!-- This is the red reactor with 3 chimneys on top of it, within a larger dish, on top of another building -->
+		        <Class>CorePowerPlant</Class>
+				<HitPoints>100000</HitPoints>
+				<Name>UI_Module_CorePowerPlant</Name>
+				<Score>500</Score>
+				<DPSScoreFactor>250.0</DPSScoreFactor>
+				<AttackPriority>8</AttackPriority>
+				<BattleScore>100</BattleScore>
+				<IconName>SI_PowerB</IconName>
+				<AimOffset X="0.4" Y="0.2" Z="0" />
+				<IconOffset X="0.4" Y="0.4" Z="0" />
+				<IconSize>64.0</IconSize>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
+			<ClientModule>
+				<EffectMeshName>FX/Shields/SM_Ground-military-reactor-shield</EffectMeshName>
+				<PreloadEffectMesh>true</PreloadEffectMesh>
+			</ClientModule>
 		</Object>
 	</Condition>
 	<Condition Target="Server">
@@ -550,16 +556,19 @@
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			<Module>
-		        <Class>Reactor</Class>
-				<HitPoints>50000</HitPoints>
-				<Score>150</Score>
+		        <Class>CorePowerPlant</Class>
+				<HitPoints>100000</HitPoints>
+				<Score>500</Score>
+				<DPSScoreFactor>250.0</DPSScoreFactor>
+				<AttackPriority>8</AttackPriority>
+				<BattleScore>100</BattleScore>
+				<IconName>SI_PowerB</IconName>
+				<AimOffset X="0.4" Y="0.2" Z="0" />
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
 			<ServerModule>
-				<CreditsReward>250</CreditsReward>
-				<OnDestroyedPopupTitle>Server_Destroyed_Module_Reactor_Title_Self</OnDestroyedPopupTitle>
-				<OnDestroyedPopupText>Server_Destroyed_Module_Reactor_Text_Self</OnDestroyedPopupText>
-				<OnDestroyedPopupFooter>Server_Destroyed_Module_Reactor_Footer_Self</OnDestroyedPopupFooter>
+				<CreditsReward>400</CreditsReward>
+				<OnDestroyedPopupText>Server_Destroyed_Module_PowerPlant_Text_Self</OnDestroyedPopupText>
 			</ServerModule>
 		</TransformNode>
 	</Condition>

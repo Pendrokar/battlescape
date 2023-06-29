@@ -5,19 +5,10 @@
 			<LOD Level="2" Mesh="Structures/StationModules_SFC/SM_SFC_Station_HexTower_A_Lod2" />
 			<LOD Level="3" Mesh="Structures/StationModules_SFC/SM_SFC_Station_HexTower_A_Lod3" />
 			<LOD Level="4" Mesh="Structures/StationModules_SFC/SM_SFC_Station_HexTower_A_Lod4" />
-
-<!-- 		<Object Mesh="Structures/SFC-Stations/SM_SFC_Station_HexTower_A_Lod0" >
-			<LOD Level="1" Mesh="Structures/SFC-Stations/SM_SFC_Station_HexTower_A_Lod1" />
-			<LOD Level="2" Mesh="Structures/SFC-Stations/SM_SFC_Station_HexTower_A_Lod2" />
-			<LOD Level="3" Mesh="Structures/SFC-Stations/SM_SFC_Station_HexTower_A_Lod3" />
-			<LOD Level="4" Mesh="Structures/SFC-Stations/SM_SFC_Station_HexTower_A_Lod4" />
-			<LOD Level="5" Mesh="Structures/SFC-Stations/SM_SFC_Station_HexTower_A_Lod5" />
-			<LOD Level="6" Mesh="Structures/SFC-Stations/SM_SFC_Station_HexTower_A_Lod6" /> -->
 			<LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
 
 			<PhysicsBody Type="Mesh" >
-<!-- 		        <CollisionFile>$Dev/Structures/SFC-Stations/b30ee2e9.insm</CollisionFile> -->
 		        <CollisionFile>$Dev/Structures/StationModules_SFC/a2178d72.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
@@ -120,7 +111,8 @@
 
 			<Module>
 		        <Class>Unknown</Class>
-				<HitPoints>2000</HitPoints>
+				<HitPoints>4000</HitPoints>
+				<Name>UI_Module_Structural</Name>
 				<Score>25</Score>
 			</Module>
 		</Object>
@@ -128,17 +120,15 @@
 	<Condition Target="Server">
 		<TransformNode >
 		     <PhysicsBody Type="Mesh" >
-<!-- 		        <CollisionFile>$Dev/Structures/SFC-Stations/b30ee2e9.insm</CollisionFile> -->
 		        <CollisionFile>$Dev/Structures/StationModules_SFC/a2178d72.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			<Module>
 		        <Class>Unknown</Class>
-				<HitPoints>2000</HitPoints>
+				<HitPoints>4000</HitPoints>
 				<Score>25</Score>
 			</Module>
 			<ServerModule>
-				<CreditsReward>10</CreditsReward>
 			</ServerModule>
 		</TransformNode>
 	</Condition>

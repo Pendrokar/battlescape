@@ -9,16 +9,12 @@
 			<LOD Level="6" Mesh="Structures/SFC-Military/SM_SFC_Military_Pipe_turn1_left_Lod6" />
 			<LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
-
+		
 			<PhysicsBody Type="Mesh" >
 		        <CollisionFile>$Dev/Structures/SFC-Military/87155571.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
-
-			<Sound>
-				<Name>250mPipeStructure</Name>
-			</Sound>
-
+			
 			<Light Type="PointLight" >
 				<Name>Omni001</Name>
 				<Color X="0.996079" Y="0.941177" Z="0.72549" />
@@ -29,6 +25,7 @@
 
 			<Module>
 		        <Class>Unknown</Class>
+				<Name>UI_Module_Structural</Name>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
 		</Object>

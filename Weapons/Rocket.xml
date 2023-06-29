@@ -1,0 +1,102 @@
+<ActorConfig>
+	<Meta>
+		<ActorType>Weapon</ActorType>
+	</Meta>
+	<CClientNodeComponent>
+        <Object Mesh="Ships/Weapons/Missiles/SM_SFC_Missile1" >
+			<RejectionSize>0.002</RejectionSize>
+            <Material Override="true" />
+            <ThrusterModel ConfigFile="$Dev/config/thrusters/MissileThrusters.xml" >
+                <LightsInheritVisibility>false</LightsInheritVisibility>
+                <ParticlesInheritVisibility>true</ParticlesInheritVisibility>
+                <ActivateDistance>2.5</ActivateDistance>
+            </ThrusterModel>
+			<Scale X="1.0" Y="1.0" Z="1.0" />
+        </Object>
+	</CClientNodeComponent>
+	<CServerNodeComponent>
+		<TransformNode />
+	</CServerNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+		<ThrustersEmissiveScale>5.0</ThrustersEmissiveScale>
+		<DyingExplosions>0</DyingExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DeathEffect>RocketExplosion</DeathEffect>
+		<DyingEffectScale>0.05</DyingEffectScale>
+		<DeathEffectScale>0.25</DeathEffectScale>
+		<DeathEffectRange>20.0</DeathEffectRange>
+		<DeathImpactEffect>MissileExplosion</DeathImpactEffect>
+		<DeathImpactEffectScale>0.15</DeathImpactEffectScale>
+		<DeathImpactEffectOffset>0.0</DeathImpactEffectOffset>
+		<ShieldImpactEffectScale>0.15</ShieldImpactEffectScale>
+		<ShowContrail>true</ShowContrail>
+		<ContrailEffectSize>0.003</ContrailEffectSize>
+		<DeathGenericEffect>RocketExplosion</DeathGenericEffect>
+		<DeathGenericEffectScale>0.25</DeathGenericEffectScale>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+    <CClientCameraViewComponent>
+        <Camera Type="External">
+            <!-- chase camera behind ship -->
+            <ViewPosition X="0" Y="0.00035" Z="-0.002" />
+			<ViewAngle X="-0.007" Y="0" />
+        </Camera>
+    </CClientCameraViewComponent>
+	<CClientAudioComponent>
+		<EngineIdle Target="PlasmaTravel" FadeLength="5.0" DistRangeScale="25.0" />
+		<MainThruster Target="MainThrusterSmall3" />
+	</CClientAudioComponent>
+	<CServerActorComponent>
+        <Name>RKT</Name>
+		<NetworkSize>0.02</NetworkSize>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>5.0</EmissionsRange>
+		<SensorPower>1.0</SensorPower>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>None</Indicator>
+		<ClassName>ROCKET</ClassName>
+	</CActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Box" >
+        	<SidesSize X="0.005" Y="0.005" Z="0.010" />
+            <Offset X="0" Y="0" Z="0" />
+            <Mass>0.02</Mass>
+            <Collisions>true</Collisions>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+        </PhysicsBody>
+	</CBodyComponent>
+    <CPropulsionComponent>
+        <RampUpSpeed>0.0</RampUpSpeed>
+        <MinLinearThrust X="-0.0" Y="-0.0" Z="-0.02" />
+        <MaxLinearThrust X="0.0" Y="0.0" Z="0.02" />
+        <BaseRotationThrust X="0.00250" Y="0.00250" Z="0.00250" />
+        <FullRotationThrust X="0.00250" Y="0.00250" Z="0.00250" />
+        <RotationStabilizer X="1.0" Y="1.0" Z="1.0" />
+		<BaseRotationSpeed X="1.40" Y="1.40" Z="1.40" />
+		<FullRotationSpeed X="1.40" Y="1.40" Z="1.40" />
+		<CapSpeed>1.5</CapSpeed>
+    </CPropulsionComponent>
+	<CEngineComponent>
+		<EnergyPoints>0</EnergyPoints>
+		<RechargeRate>0</RechargeRate>
+	</CEngineComponent>
+	<CHullComponent>
+		<HitPoints>10</HitPoints>
+		<DeathDuration>0.0</DeathDuration>
+		<DyingDuration>0.0</DyingDuration>
+		<DeathCredits>0</DeathCredits>
+		<Drag>1.0</Drag>
+	</CHullComponent>
+	<CServerMissileComponent>
+		<Mode>Unguided</Mode>
+		<ActivationTimer>0.0</ActivationTimer>
+		<InterceptSpeed>2.0</InterceptSpeed>
+		<TrackingRange>5.0</TrackingRange>
+		<MinTargetMass>0.0</MinTargetMass>
+		<DetonateOnDeath>false</DetonateOnDeath>
+	</CServerMissileComponent>
+</ActorConfig>

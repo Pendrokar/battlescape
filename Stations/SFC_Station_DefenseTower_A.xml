@@ -2,9 +2,6 @@
 	<Condition Target="Client">
 		<Object Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_A_Lod0" >
             <LOD Level="1" Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_A_Lod1" />
-            <LOD Level="2" Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_A_Lod2" />
-            <LOD Level="3" Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_A_Lod3" />
-            <LOD Level="4" Mesh="Structures/SFC_StaticDefense/SM_SFC_Station_DefenseTower_A_Lod4" />
 			<LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
 			<PhysicsBody Type="Mesh" >
@@ -12,9 +9,17 @@
   		        <Collisions>true</Collisions>
   		    </PhysicsBody>
 			<Module>
-		        <Class>DefenseTowerA</Class>
-				<HitPoints>1500</HitPoints>
+		        <Class>Defense</Class>
+				<HitPoints>2500</HitPoints>
+				<ShipPoints>300</ShipPoints>
 				<Score>20</Score>
+				<AttackPriority>4</AttackPriority>
+				<BattleScore>4</BattleScore>
+				<Name>UI_Module_DefenseTower</Name>
+				<IconName>SI_Chevron</IconName>
+				<AimOffset X="0" Y="0.15" Z="0.035" />
+				<IconOffset X="0" Y="0.2" Z="0.035" />
+				<IconSize>16.0</IconSize>
 			    <Sockets>
 					<FileName>$Dev/Structures/SFC_StaticDefense/d1031079.insm</FileName>
 			        <Socket Name="s_top_turret" Type="Hardpoint" Class="MK4" />
@@ -31,9 +36,14 @@
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			<Module>
-		        <Class>DefenseTowerA</Class>
-				<HitPoints>1500</HitPoints>
+		        <Class>Defense</Class>
+				<HitPoints>2500</HitPoints>
+				<ShipPoints>300</ShipPoints>
 				<Score>20</Score>
+				<AttackPriority>4</AttackPriority>
+				<BattleScore>4</BattleScore>
+				<AimOffset X="0" Y="0.15" Z="0.035" />
+				<IconOffset X="0" Y="0.2" Z="0.035" />
 			    <Sockets>
 					<FileName>$Dev/Structures/SFC_StaticDefense/d1031079.insm</FileName>
 			        <Socket Name="s_top_turret" Type="Hardpoint" Class="MK4" />
@@ -42,10 +52,8 @@
 			    </Sockets>
 			</Module>
 			<ServerModule>
-				<CreditsReward>40</CreditsReward>
-				<OnDestroyedPopupTitle>Server_Destroyed_Module_DefenseTower_Title_Self</OnDestroyedPopupTitle>
+				<CreditsReward>50</CreditsReward>
 				<OnDestroyedPopupText>Server_Destroyed_Module_DefenseTower_Text_Self</OnDestroyedPopupText>
-				<OnDestroyedPopupFooter>Server_Destroyed_Module_DefenseTower_Footer_Self</OnDestroyedPopupFooter>
 			</ServerModule>
 		</TransformNode>
 	</Condition>

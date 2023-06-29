@@ -1,28 +1,21 @@
 <Filter>
 	<Condition Target="Client">
-		<Object Mesh="Structures/SFC-Factory/SM_SFC_Factory_Reactor_Lod0" >
-		    <LOD Level="1" Mesh="Structures/SFC-Factory/SM_SFC_Factory_Reactor_Lod1" />
-		    <LOD Level="2" Mesh="Structures/SFC-Factory/SM_SFC_Factory_Reactor_Lod2" />
-		    <LOD Level="3" Mesh="Structures/SFC-Factory/SM_SFC_Factory_Reactor_Lod3" />
-		    <LOD Level="4" Mesh="Structures/SFC-Factory/SM_SFC_Factory_Reactor_Lod4" />
-		    <LOD Level="5" Mesh="Structures/SFC-Factory/SM_SFC_Factory_Reactor_Lod5" />
-		    <LOD Level="6" Mesh="Structures/SFC-Factory/SM_SFC_Factory_Reactor_Lod6" />
+		<Object Mesh="Structures/SFC-Factory/SM_SFC_Factory_Reactor_Double_Size_Lod0" >
+		    <LOD Level="1" Mesh="Structures/SFC-Factory/SM_SFC_Factory_Reactor_Double_Size_Lod1" />
+		    <LOD Level="2" Mesh="Structures/SFC-Factory/SM_SFC_Factory_Reactor_Double_Size_Lod2" />
+		    <LOD Level="3" Mesh="Structures/SFC-Factory/SM_SFC_Factory_Reactor_Double_Size_Lod3" />
+		    <LOD Level="4" Mesh="Structures/SFC-Factory/SM_SFC_Factory_Reactor_Double_Size_Lod4" />
+		    <LOD Level="5" Mesh="Structures/SFC-Factory/SM_SFC_Factory_Reactor_Double_Size_Lod5" />
+		    <LOD Level="6" Mesh="Structures/SFC-Factory/SM_SFC_Factory_Reactor_Double_Size_Lod6" />
 		    <LODPower>0.5</LODPower>
 			<RejectionSize>0.005</RejectionSize>
 
 		     <PhysicsBody Type="Mesh" >
-		        <CollisionFile>$Dev/Structures/SFC-Factory/2cb109a3.insm</CollisionFile>
+		        <CollisionFile>$Dev/Structures/SFC-Factory/9177ea5f.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
-
-			<Sound>
-				<Name>ReactorStructure</Name>
-			</Sound>
-			<Sound>
-				<Name>ReactorStructureBass</Name>
-			</Sound>
-
-			<Light Type="PointLight" >
+			
+<!-- 			<Light Type="PointLight" >
 				<Name>Omni019</Name>
 				<Color X="0.996079" Y="0.764706" Z="0.686275" />
 				<Lumens>100000000</Lumens>
@@ -156,33 +149,49 @@
 				<Lumens>100000000</Lumens>
 				<position x="0.1306152641773223877" y="-0.023029141128063201904" z="0.14280612766742706299" Type="3dsMax"/>
 				<Cutoff>2048</Cutoff>
-			</Light>
+			</Light> -->
 
 			<Module>
-		        <Class>Reactor</Class>
-				<HitPoints>40000</HitPoints>
-				<Score>150</Score>
+				<!-- This is the smaller greenish dish reactor with 6 chimneys on it -->
+		        <Class>SatPowerPlant</Class>
+				<HitPoints>35000</HitPoints>
+				<Name>UI_Module_SatPowerPlant</Name>
+				<ShipPoints>200</ShipPoints>
+				<Score>100</Score>
+				<AttackPriority>6</AttackPriority>
+				<BattleScore>50</BattleScore>
+				<IconName>SI_PowerB</IconName>
+				<AimOffset X="0" Y="0.1" Z="0" />
+				<IconOffset X="0" Y="0.2" Z="0" />
+				<IconSize>64.0</IconSize>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
+			<ClientModule>
+				<EffectMeshName>FX/Shields/SM_Ground-factory-reactor-shield</EffectMeshName>
+				<PreloadEffectMesh>true</PreloadEffectMesh>
+			</ClientModule>
 		</Object>
 	</Condition>
 	<Condition Target="Server">
 		<TransformNode >
 		     <PhysicsBody Type="Mesh" >
-		        <CollisionFile>$Dev/Structures/SFC-Factory/2cb109a3.insm</CollisionFile>
+		        <CollisionFile>$Dev/Structures/SFC-Factory/9177ea5f.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			<Module>
-		        <Class>Reactor</Class>
-				<HitPoints>40000</HitPoints>
-				<Score>150</Score>
+		        <Class>SatPowerPlant</Class>
+				<HitPoints>35000</HitPoints>
+				<ShipPoints>200</ShipPoints>
+				<Score>100</Score>
+				<AttackPriority>6</AttackPriority>
+				<BattleScore>50</BattleScore>
+				<IconName>SI_PowerB</IconName>
+				<AimOffset X="0" Y="0.1" Z="0" />
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
 			<ServerModule>
-				<CreditsReward>250</CreditsReward>
-				<OnDestroyedPopupTitle>Server_Destroyed_Module_Reactor_Title_Self</OnDestroyedPopupTitle>
-				<OnDestroyedPopupText>Server_Destroyed_Module_Reactor_Text_Self</OnDestroyedPopupText>
-				<OnDestroyedPopupFooter>Server_Destroyed_Module_Reactor_Footer_Self</OnDestroyedPopupFooter>
+				<CreditsReward>150</CreditsReward>
+				<OnDestroyedPopupText>Server_Destroyed_Module_PowerPlant_Text_Self</OnDestroyedPopupText>
 			</ServerModule>
 		</TransformNode>
 	</Condition>

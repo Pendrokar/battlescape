@@ -1,0 +1,104 @@
+<ActorConfig>
+	<Meta>
+		<ActorType>Weapon</ActorType>
+	</Meta>
+	<CClientNodeComponent>
+        <Object Mesh="Ships/Weapons/Mines/DestroyerMine/SM_DestroyerMine_Lod0" >
+            <LOD Level="1" Mesh="Ships/Weapons/Mines/DestroyerMine/SM_DestroyerMine_Lod1" />
+            <LODPower>4.0</LODPower>
+			<RejectionSize>0.002</RejectionSize>
+            <Material Override="true" />
+            <ThrusterModel ConfigFile="$Dev/config/thrusters/TorpedoThrusters.xml" >
+                <LightsInheritVisibility>false</LightsInheritVisibility>
+                <ParticlesInheritVisibility>true</ParticlesInheritVisibility>
+                <ActivateDistance>8.0</ActivateDistance>
+            </ThrusterModel>
+			<Scale X="1.0" Y="1.0" Z="1.0" />
+         </Object>
+	</CClientNodeComponent>
+	<CServerNodeComponent>
+		<TransformNode />
+	</CServerNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>500000.0</EmissiveIntensity>
+		<ThrustersEmissiveScale>5.0</ThrustersEmissiveScale>
+		<DyingExplosions>0</DyingExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DeathEffect>MineExplosion</DeathEffect>
+		<DyingEffectScale>0.05</DyingEffectScale>
+		<DeathEffectScale>10.0</DeathEffectScale>
+		<DeathEffectRange>100.0</DeathEffectRange>
+		<ShieldImpactEffectScale>0.50</ShieldImpactEffectScale>
+		<ContrailEffectSize>0.010</ContrailEffectSize>
+		<DeathGenericEffect>MissileExplosionBig</DeathGenericEffect>
+		<DeathGenericEffectScale>1.0</DeathGenericEffectScale>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+    <CClientCameraViewComponent>
+        <Camera Type="External">
+            <ViewPosition X="0" Y="0.0106" Z="-0.042" />
+			<ViewAngle X="0" Y="0" />
+        </Camera>
+    </CClientCameraViewComponent>
+	<CServerActorComponent>
+        <Name>MINE</Name>
+		<NetworkSize>0.02</NetworkSize>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>15.0</EmissionsRange>
+		<SensorPower>2.0</SensorPower>
+		<IsScannable>true</IsScannable>
+		<MaxScanRange>500.0</MaxScanRange>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>Mine</Indicator>
+		<SurfaceType>Metal</SurfaceType>
+		<ClassName>PROX.MINE</ClassName>
+	</CActorComponent>
+	<CClientActorComponent>
+	</CClientActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Box" >
+        	<SidesSize X="0.016468" Y="0.016468" Z="0.036500" />
+            <Offset X="0" Y="0" Z="0" />
+            <Mass>1000.0</Mass>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+			<AutoDisable>true</AutoDisable>
+        </PhysicsBody>
+	</CBodyComponent>
+    <CPropulsionComponent>
+        <RampUpSpeed>0.0</RampUpSpeed>
+        <MinLinearThrust X="-30.0" Y="-30.0" Z="-30.0" />
+        <MaxLinearThrust X="30.0" Y="30.0" Z="30.0" />
+        <BaseRotationThrust X="0.1" Y="0.1" Z="0.1" />
+        <FullRotationThrust X="0.1" Y="0.1" Z="0.1" />
+        <RotationStabilizer X="2.5" Y="2.5" Z="2.5" />
+		<BaseRotationSpeed X="0.1" Y="0.1" Z="0.1" />
+		<FullRotationSpeed X="0.1" Y="0.1" Z="0.1" />
+		<RotationDampener>3.0</RotationDampener>
+		<AtmoDecay>0.03</AtmoDecay>
+		<CapSpeed>0.25</CapSpeed>
+    </CPropulsionComponent>
+	<CEngineComponent>
+		<EnergyPoints>0</EnergyPoints>
+		<RechargeRate>0</RechargeRate>
+	</CEngineComponent>
+	<CHullComponent>
+		<HitPoints>275</HitPoints>
+		<DyingDuration>0.0</DyingDuration>
+		<DeathDuration>1.5</DeathDuration>
+		<DeathCredits>20</DeathCredits>
+	</CHullComponent>
+	<CServerMissileComponent>
+		<Mode>ActiveMine</Mode>
+		<ActivationTimer>5.0</ActivationTimer>
+		<InterceptSpeed>0.25</InterceptSpeed>
+		<TrackingAngle>3.14</TrackingAngle>
+		<TrackingRange>40.0</TrackingRange>
+		<DetonationRange>0.5</DetonationRange>
+		<MinTargetMass>999.0</MinTargetMass>
+		<MinStackRange>10.0</MinStackRange>
+		<DetonateOnDeath>true</DetonateOnDeath>
+	</CServerMissileComponent>
+</ActorConfig>

@@ -1,4 +1,14 @@
 <ActorConfig>
+	<Meta>
+		<ActorType>Ship</ActorType>
+		<SpawnType>Corvette</SpawnType>
+		<IsPlayerSpawnable>true</IsPlayerSpawnable>
+		<ShipClassCost>400</ShipClassCost>
+		<ShipBattleScore>4</ShipBattleScore>
+		<DisplayName>UI_ShipType_Corvette</DisplayName>
+		<ClassAbbrev>CRV</ClassAbbrev>
+		<WorldBoxSize X="0.0480000190" Y="0.0223000087" Z="0.0825925916" />
+	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_no_cockpit_Lod0" >
             <LOD Level="1" Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_no_cockpit_Lod1" />
@@ -7,7 +17,6 @@
             <LOD Level="4" Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_no_cockpit_Lod4" />
             <LOD Level="5" Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_no_cockpit_Lod5" />
             <LOD Level="6" Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_no_cockpit_Lod6" />
-<!--             <LODPower>4.0</LODPower> -->
             <LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
             <Material Override="true" />
@@ -222,7 +231,7 @@
 				<position x="0.0037000000011175871" y="-0.0037500017788261175" z="0.010100002400577068" Type="3dsMax"/>
 				<Cutoff>256.0</Cutoff>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Name>CenterInternalOmnis</Name>
 				<Color X="0.0" Y="1.0" Z="0.0" />
@@ -366,7 +375,7 @@
 				<position x="-0.0028000001329928637" y="0.010500000789761543" z="0.0054000006057322025" Type="3dsMax"/>
 				<Cutoff>256.0</Cutoff>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Name>CockpitNeckOmnis</Name>
 				<Color X="1.0" Y="1.0" Z="1.0" />
@@ -374,7 +383,7 @@
 				<position x="-0.0028000001329928637" y="0.016499999910593033" z="0.0054000006057322025" Type="3dsMax"/>
 				<Cutoff>256.0</Cutoff>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Name>CockpitNeckOmnis</Name>
 				<Color X="1.0" Y="1.0" Z="1.0" />
@@ -470,7 +479,7 @@
 				<position x="-0.0090000024065375328" y="-0.012599997222423553" z="-0.010500001721084118" Type="3dsMax"/>
 				<Cutoff>256.0</Cutoff>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Name>CenterRearOmnis</Name>
 				<Color X="1.0" Y="1.0" Z="1.0" />
@@ -621,13 +630,17 @@
 			<MeshInstance ID="4" Name="Corvette_MI_LightBeige">Primary</MeshInstance>
 			<MeshInstance ID="1" Name="Corvette_MI_Yellow">Secondary</MeshInstance>
 		</Paint>
+
 		<DyingExplosions>30</DyingExplosions>
-		<DeathExplosions>4</DeathExplosions>
 		<DyingEffect>DyingExplosion</DyingEffect>
-		<DeathEffect>SmallShipExplosion</DeathEffect>
 		<DyingEffectScale>0.25</DyingEffectScale>
-		<DeathEffectScale>1.5</DeathEffectScale>
+
+		<DeathEffectCount>3</DeathEffectCount>
+		<DeathEffectDuration>0.5</DeathEffectDuration>
+		<DeathEffect>SmallShipExplosion</DeathEffect>
+		<DeathEffectScale>1.0</DeathEffectScale>
 		<DeathEffectRange>150.0</DeathEffectRange>
+
 		<ShrapnelEffect>ShrapnelSmall</ShrapnelEffect>
 		<ShrapnelEffectScale>1.0</ShrapnelEffectScale>
 		<ContrailEffectSize>0.08</ContrailEffectSize>
@@ -643,9 +656,10 @@
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
-		<LinAccSmoothing>0.5</LinAccSmoothing>
+		<LinAccSmoothing>0.6</LinAccSmoothing>
 		<AngVelSmoothing>0.8</AngVelSmoothing>
-		<ViewRangeExt X="1.0" Y="1.4" />
+		<ViewRangeExt X="0.9" Y="1.4" />
+		<DefaultViewRangeExt>0.9</DefaultViewRangeExt>
         <Camera Type="Internal">
             <!-- camera at cockpit center, but frame/hull is not rendered -->
       	  	<ViewPosition X="-0.000440" Y="0.004164" Z="0.029971" />
@@ -673,7 +687,7 @@
 			<ViewAngle X="0.039" Y="4.711" />
         </Camera>
     </CClientCameraViewComponent>
-    <CClientExternalCockpitComponent>      
+    <CClientExternalCockpitComponent>
         <Object Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_cockpit_Lod0" >
             <LOD Level="1" Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_cockpit_Lod1" />
             <LOD Level="2" Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_cockpit_Lod2" />
@@ -690,7 +704,7 @@
 		<CockpitBody>
 			<CollisionFile>$Dev/Cockpits/SFC-Corvette/3cc2dc20.insm</CollisionFile>
 		</CockpitBody>
-        <Object Mesh="Cockpits/SFC-Corvette/SM_SFC_Corvette_Cockpit" >
+        <Object Mesh="Cockpits/SFC-Corvette/SM_SFC_Corvette_CockpitMfds" >
 
  			<Light Type="PointLight" >
 				<Name>FrameLight075</Name>
@@ -835,7 +849,7 @@
 				<position x="0.00022529553098138422" y="0.030405659228563309" z="0.0037449009250849485" Type="3dsMax"/>
 				<Range>0.1</Range>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Name>FrameLight057</Name>
 				<Color X="0.0235294" Y="1.0" Z="0.0" />
@@ -1085,7 +1099,7 @@
 			</Light>
 
         </Object>
-        <ViewPosition X="-0.000440" Y="0.004164" Z="0.029971" />
+        <ViewPosition X="-0.00037" Y="0.00416" Z="0.02978" />
         <AlertLight>
              <Light Type="PointLight" >
                 <Color X="1" Y="0.25" Z="0.05" />
@@ -1124,29 +1138,28 @@
 		<BobbleHead>
 			<Socket>s_bobblehead_left</Socket>
 		</BobbleHead>
+		<MFD ID="0" SegID="26" ParamName="ScreenTexture" />
+		<MFD ID="1" SegID="27" ParamName="ScreenTexture" />
+		<MFD ID="2" SegID="28" ParamName="ScreenTexture" />
     </CClientInternalCockpitComponent>
 	<CClientAudioComponent>
-		<SideThruster Target="SideThrusterSmall" DistRangeScale="0.60" FadeLength="0.5" />
-		<MainThruster Target="MainThrusterSmall2" DistRangeScale="0.80" FadeLength="2.0" />
+		<SideThruster Target="SideThrusterSmall" DistRangeScale="0.255" FadeLength="0.5" />
+		<MainThruster Target="MainThrusterSmall2" DistRangeScale="0.34" FadeLength="2.0" />
 		<EngineIdle Target="EngineIdleLight3" FadeLength="2.0" />
 		<EngineFast Target="EngineFastLight2" FadeLength="2.0" />
-		<EngineTurbo Target="EngineTurbo" FadeLength="2.0" />
+		<EngineTurbo Target="EngineTurbo2" FadeLength="2.0" />
 		<WarpAmbient Target="WarpAmbient" FadeLength="2.0" />
 		<AtmoFriction Target="AtmoFriction" FadeLength="2.0" />
 		<DamageShield Target="DamageShieldMedium" />
 		<DamagePower Target="DamagePowerMedium" />
 		<DamageEngine Target="DamageEngineMedium" />
+		<TurboBoost Target="BoostStart" />
 	</CClientAudioComponent>
 	<CClientActorComponent>
 		<ControlScheme>Target</ControlScheme>
 	</CClientActorComponent>
 	<CServerActorComponent>
-		<StratScore>0</StratScore>
-		<DefaultSkins>
-			<Skin TeamID="0">CorvetteHavoc</Skin>
-			<Skin TeamID="1">CorvetteScoria</Skin>
-			<Skin TeamID="2">CorvetteHavoc</Skin>
-		</DefaultSkins>
+    <StratValue>0</StratValue>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>60.0</EmissionsRange>
@@ -1155,14 +1168,13 @@
 	<CActorComponent>
     	<Indicator>MediumShip</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassAbbrev>CRV</ClassAbbrev>
 		<ClassName>CORVETTE</ClassName>
 	</CActorComponent>
 	<CBodyComponent>
         <PhysicsBody Type="Box" >
             <SidesSize X="0.0480000190" Y="0.0223000087" Z="0.0825925916" />
             <Offset X="0" Y="5.0004106014966965e-05" Z="0.0093037169426679611" />
-            <Mass>580.0</Mass>
+            <Mass>441.0</Mass>
             <Collisions>true</Collisions>
             <Bounce>0.0</Bounce>
             <Friction>1.4</Friction>
@@ -1173,39 +1185,65 @@
 		</HitMesh>
 	</CBodyComponent>
     <CPropulsionComponent>
-        <RampUpFactor>4.0</RampUpFactor>
-        <LinearThrust X="12.5" Y="11.0" Z="15.08" />
-        <RotationThrust X="0.18" Y="0.15" Z="0.10" />
+        <RampUpSpeed>0.2</RampUpSpeed>
+        <MinLinearThrust X="-20.0" Y="-13.09" Z="-22.6" />
+        <MaxLinearThrust X="20.0" Y="15.4" Z="25.1" />
+        <BaseRotationThrust X="0.25" Y="0.30" Z="0.15" />
+        <FullRotationThrust X="0.25" Y="0.30" Z="0.15" />
         <RotationStabilizer X="2.5" Y="2.5" Z="1.5" />
-		<MaxRotationSpeed X="0.6" Y="0.4" Z="1.5" />
+		<BaseRotationSpeed X="0.526" Y="0.79" Z="1.972" />
+		<FullRotationSpeed X="0.526" Y="0.79" Z="1.972" />
+		<RotationDampener>2.97</RotationDampener>
 		<AtmoDecay>0.004</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>0.0</DriftLimiter>
-		<CapSpeed>0.275</CapSpeed>
+		<CapSpeed>0.362</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>300</EnergyPoints>
-		<RechargeRate>20</RechargeRate>
-		<HeatPoints>300</HeatPoints>
+		<RechargeEnergyPoints>20</RechargeEnergyPoints>
+		<HeatPoints>350</HeatPoints>
 		<DechargeHeatPoints>35</DechargeHeatPoints>
 	</CEngineComponent>
 	<CHullComponent>
 		<HitPoints>1000</HitPoints>
-		<DyingDuration>6.0</DyingDuration>
-		<DeathDuration>0.5</DeathDuration>
-		<DeathCredits>35</DeathCredits>
+		<DeathDuration>3.0</DeathDuration>
+		<DeathTiming>0.0</DeathTiming>
+		<DeathDebrisTiming>0.0</DeathDebrisTiming>
+ 		<DeathDebrisCount>0</DeathDebrisCount>
+		<MainDeathDebrisCount>1</MainDeathDebrisCount>
+		<MainDeathDebris X="-6.7341" Z="7.68385" Y="0">CorvetteDebris1</MainDeathDebris>
+		<MainDeathDebris X="-6.47595" Z="-23.6932" Y="0">CorvetteDebris2</MainDeathDebris>
+		<MainDeathDebris X="12.9505" Z="-9.99217" Y="0">CorvetteDebris3</MainDeathDebris>
+		<MainDeathDebrisSpeedScale>1.0</MainDeathDebrisSpeedScale>
+		<MainDeathDebrisRotScale>10.0</MainDeathDebrisRotScale>
+		<KillCamTiming>2.0</KillCamTiming>
+		<DeathCredits>125</DeathCredits>
+		<GriefCredits>35</GriefCredits>
+		<DeathXP>75</DeathXP>
 		<Drag>0.003</Drag>
 		<ArmorPoints>2</ArmorPoints>
+		<DefaultSkins>
+			<Skin TeamID="0">CorvetteHavoc</Skin>
+			<Skin TeamID="1">CorvetteScoria</Skin>
+			<Skin TeamID="2">CorvetteHavoc</Skin>
+		</DefaultSkins>
 	</CHullComponent>
 	<CShieldComponent>
 		<ShieldPoints>2000</ShieldPoints>
-		<RechargeRate>8</RechargeRate>
+		<RechargeShieldPoints>7</RechargeShieldPoints>
+		<RechargeDelay>1.5</RechargeDelay>
+		<RechargeDamageRatio>0.3</RechargeDamageRatio>
+		<InterferenceScale>0.3</InterferenceScale>
 	</CShieldComponent>
 	<CWarpComponent>
-		<MinWarpSpeed>0.170</MinWarpSpeed>
+		<WarpChargeDuration>6.0</WarpChargeDuration>
+		<WarpCooldown>12.0</WarpCooldown>
+		<WarpSpeedCoeff>12.0</WarpSpeedCoeff>
+		<MinWarpSpeed>0.241</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>
-		<WarpMesh>Particles/Warp/SM_WarpTunnelRound</WarpMesh>
+		<WarpMesh>FX/Warp/SM_WarpTunnelRound</WarpMesh>
 		<WarpMeshScale>27.3</WarpMeshScale>
 		<LightsDist>0.015</LightsDist>
 	</CClientWarpComponent>
@@ -1213,105 +1251,106 @@
 		<Socket>s_spotlight</Socket>
 	</CFrontLightComponent>
 	<CTurboBoostComponent>
-		<EnergyTurboCost>20.0</EnergyTurboCost>
+		<!-- Thrust multiplier = 1 + TurboThrustRate + TurboInitialBoost * TimeDecay -->
+		<EnergyTurboCost>30.0</EnergyTurboCost>
 		<TurboThrustRate>1.0</TurboThrustRate>
 		<TurboTimerDecay>3.0</TurboTimerDecay>
-		<TurboInitialBoost>2.0</TurboInitialBoost>
-		<ThrustScale X="1.0" Y="0.9" Z="0.7" />
+		<TurboInitialBoost>0.0</TurboInitialBoost>
+		<BoostThrustScale X="1.0" Y="0.9" Z="0.7" />
 		<BoostCooldown>1.0</BoostCooldown>
 	</CTurboBoostComponent>
 	<CShipComponent>
-		<SpawnType>Corvette</SpawnType>
-		<Equipment>WarpJam1</Equipment>
 	</CShipComponent>
 	<CHardpointComponent>
-		<Mesh>$Dev/Ships/SFC-Corvette/848a3799.insm</Mesh>
-		<Group ID="0" >
-			<GroupType>Primary</GroupType>
-			<Weapon>TurretGunMK4</Weapon>
-		</Group>
-		<Group ID="1" >
-			<GroupType>Secondary</GroupType>
-			<Weapon>TurretBlasterMK4</Weapon>
-		</Group>
-		<Group ID="2" >
-			<GroupType>Primary</GroupType>
-			<Weapon>TurretGunMK4</Weapon>
-		</Group>
-		<Group ID="3" >
-			<GroupType>Secondary</GroupType>
-			<Weapon>TurretBlasterMK4</Weapon>
-		</Group>
-		<Group ID="4" >
-			<GroupType>Missile</GroupType>
-			<Weapon>MissilePod</Weapon>
-		</Group>
-
+		<Layout>$Config/Ships/Layouts/CorvetteLayout.xml</Layout>
+		<ExclusiveWeapons>true</ExclusiveWeapons>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
+		<Group ID="6" />
+		<Group ID="7" />
+		<Group ID="8" />
+		<Group ID="9" />
  		<Hardpoint ID="0" >
-			<!-- bottom right -->
 			<Socket>s_weapon_1</Socket>
-			<GroupID>1</GroupID>
 		</Hardpoint>
  		<Hardpoint ID="1" >
-			<!-- top right -->
 			<Socket>s_weapon_2</Socket>
-			<GroupID>0</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="2" >
-			<!-- top left -->
 			<Socket>s_weapon_3</Socket>
-			<GroupID>0</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="3" >
-			<!-- bottom left -->
 			<Socket>s_weapon_4</Socket>
-			<GroupID>1</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="4" >
-			<!-- top rear -->
 			<Socket>s_weapon_5</Socket>
-			<GroupID>3</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="5" >
-			<!-- bottom rear -->
 			<Socket>s_weapon_6</Socket>
-			<GroupID>2</GroupID>
 		</Hardpoint>
-
 		<Hardpoint ID="6" >
 			<Socket>s_weapon_missile_1</Socket>
-			<GroupID>4</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="7" >
 			<Socket>s_weapon_missile_2</Socket>
-			<GroupID>4</GroupID>
 		</Hardpoint>
-
-		<Ammo>
-			<Type>Mg56mm</Type>
-			<Amount>5000</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>Mg96mm</Type>
-			<Amount>3500</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>LightMissile</Type>
-			<Amount>10</Amount>
-		</Ammo>
+		<Hardpoint ID="8" >
+			<Socket>s_mod_propulsion</Socket>
+		</Hardpoint>
+		<Hardpoint ID="9" >
+			<Socket>s_mod_reactor</Socket>
+		</Hardpoint>
+		<Hardpoint ID="10" >
+			<Socket>s_mod_weaponsmod</Socket>
+		</Hardpoint>
+		<Hardpoint ID="11" >
+			<Socket>s_mod_storage</Socket>
+		</Hardpoint>
+		<Hardpoint ID="12" >
+			<Socket>s_mod_storage2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="13" >
+			<Socket>s_mod_electronics1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="14" >
+			<Socket>s_mod_electronics2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="15" >
+			<Socket>s_mod_electronics3</Socket>
+		</Hardpoint>
+		<Hardpoint ID="16" >
+			<Socket>s_mod_structure1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="17" >
+			<Socket>s_mod_structure2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="18" >
+			<Socket>s_mod_structure3</Socket>
+		</Hardpoint>
+		<Hardpoint ID="19" >
+			<Socket>s_mod_shields</Socket>
+		</Hardpoint>
+	</CHardpointComponent>
+	<CAbilityComponent>
+		<Properties>
+			<WarpJamSourceOffset X="0" Y="0.008" Z="0.015" />
+			<WarpJamSourceSizeScale X="0.5" />
+		</Properties>
+	</CAbilityComponent>
+	<CServerHardpointComponent>
+		<Loadout Name="DefaultCorvette" Proba="65" />
+		<Loadout Name="CorvetteAMS" Proba="20" />
+		<Loadout Name="HeavyCorvette" Proba="15" />
 		<Ammo>
 			<Type>Chaff</Type>
-			<Amount>24</Amount>
+			<Amount>14</Amount>
 		</Ammo>
-	</CHardpointComponent>
-	<CServerHardpointComponent>
 	</CServerHardpointComponent>
-	<CResupplyComponent>
-		<AuraRadius>1.0</AuraRadius>
-		<HullRepairRate>4.0</HullRepairRate>
-		<AmmoRate>25.0</AmmoRate>
-		<MinDamageTime>5.0</MinDamageTime>
-	</CResupplyComponent>
+	<CResupplyComponent />
 	<CServerMissionComponent>
 		<BountyReward>25</BountyReward>
 	</CServerMissionComponent>

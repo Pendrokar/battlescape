@@ -9,15 +9,11 @@
 		    <LOD Level="6" Mesh="Structures/SFC-Factory/SM_SFC_Factory_CommsMast_Lod6" />
 		    <LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
-
+		
 		     <PhysicsBody Type="Mesh" >
 		        <CollisionFile>$Dev/Structures/SFC-Factory/18c93b01.insm</CollisionFile>
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
-
-			<Sound>
-				<Name>CommsMastStructure</Name>
-			</Sound>
 
 			<Light Type="PointLight" >
 				<Name>Omni007</Name>
@@ -88,8 +84,19 @@
 			</Light>
 
 			<Module>
-		        <Class>Sensors</Class>
-				<HitPoints>2500</HitPoints>
+		        <Class>WarpInterdiction</Class>
+				<HitPoints>15000</HitPoints>
+				<ShipPoints>300</ShipPoints>
+				<Score>20</Score>
+				<AttackPriority>4</AttackPriority>
+				<BattleScore>15</BattleScore>
+				<Name>UI_Module_WarpInterdiction</Name>
+				<IconName>SI_Chevron</IconName>
+				<AimOffset X="0" Y="0.4" Z="0" />
+				<IconOffset X="0" Y="0.7" Z="0" />
+				<IconSize>16.0</IconSize>
+				<MapToPlanet>true</MapToPlanet>
+				<Name>UI_Module_Sensors</Name>
 				<Score>20</Score>
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
@@ -102,16 +109,19 @@
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			<Module>
-		        <Class>Sensors</Class>
-				<HitPoints>2500</HitPoints>
+		        <Class>WarpInterdiction</Class>
+				<HitPoints>15000</HitPoints>
+				<ShipPoints>300</ShipPoints>
 				<Score>20</Score>
+				<AttackPriority>4</AttackPriority>
+				<BattleScore>15</BattleScore>
+				<AimOffset X="0" Y="0.4" Z="0" />
+				<IconOffset X="0" Y="0.7" Z="0" />
 				<MapToPlanet>true</MapToPlanet>
 			</Module>
 			<ServerModule>
-				<CreditsReward>60</CreditsReward>
-				<OnDestroyedPopupTitle>Server_Destroyed_Module_Sensors_Title_Self</OnDestroyedPopupTitle>
-				<OnDestroyedPopupText>Server_Destroyed_Module_Sensors_Text_Self</OnDestroyedPopupText>
-				<OnDestroyedPopupFooter>Server_Destroyed_Module_Sensors_Footer_Self</OnDestroyedPopupFooter>
+				<CreditsReward>100</CreditsReward>
+				<OnDestroyedPopupText>Server_Destroyed_Module_WarpTower_Text_Self</OnDestroyedPopupText>
 			</ServerModule>
 		</TransformNode>
 	</Condition>

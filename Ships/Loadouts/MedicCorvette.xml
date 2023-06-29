@@ -1,0 +1,22 @@
+<Loadout Version="0.0.0.1">
+    <Name>MedicCorvette</Name>
+    <DisplayName>MEDIC</DisplayName>
+    <Actor>Corvette</Actor>
+	<LayoutFile>$Config/Ships/Layouts/CorvetteLayout.xml</LayoutFile>
+    <IsMain>false</IsMain>
+    <Mount HardpointName="s_weapon_missile_1" Weapon="MissilePod" GroupID="2"/>
+    <Mount HardpointName="s_weapon_missile_2" Weapon="MissilePod" GroupID="2"/>
+    <Mount HardpointName="s_mod_electronics1" System="FlightAssist"/>
+    <Mount HardpointName="s_mod_electronics3" System="WarpJam1" GroupID="3"/>
+    <Mount HardpointName="s_mod_structure1" System="LightRepairField"/>
+    <Mount HardpointName="s_mod_structure2" System="LightResupplyField"/>
+    <Mount HardpointName="s_weapon_2" Weapon="RepairBeamMK3" GroupID="0"/>
+    <Mount HardpointName="s_weapon_3" Weapon="RepairBeamMK3" GroupID="0"/>
+    <Mount HardpointName="s_weapon_6" Weapon="RepairBeamMK3" GroupID="0"/>
+    <Mount HardpointName="s_weapon_5" Weapon="TurretGunMK4" GroupID="1"/>
+    <Mount HardpointName="s_weapon_1" Weapon="TurretGunMK4" GroupID="1"/>
+    <Mount HardpointName="s_weapon_4" Weapon="TurretGunMK4" GroupID="1"/>
+    <Mount HardpointName="s_mod_weaponsmod" System="FasterTurretRotation1"/>
+    <Mount HardpointName="s_mod_structure3" System="RepairRobot"/>
+    <Mount HardpointName="s_mod_propulsion" System="TurboEnergy"/>
+</Loadout>

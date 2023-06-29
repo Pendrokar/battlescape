@@ -1,0 +1,65 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/StationModules_SFC/SM_SFC_Station_CapShipDock_A_Lod0" >
+			<LOD Level="1" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CapShipDock_A_Lod1" />
+			<LOD Level="2" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CapShipDock_A_Lod2" />
+			<LOD Level="3" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CapShipDock_A_Lod3" />
+			<LOD Level="4" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CapShipDock_A_Lod4" />
+			<LOD Level="5" Mesh="Structures/StationModules_SFC/SM_SFC_Station_CapShipDock_A_Lod5" />
+			<LODPower>0.35</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+
+			<PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/0127231b.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+
+			<Module>
+				<Class>DockingSpawn</Class>
+				<HitPoints>30000</HitPoints>
+				<Score>70</Score>
+				<SpawnNameTag>HUD_Docking</SpawnNameTag>
+				<SpawnNamePos X="0" Y="0.1" Z="-0.5" />
+				<MarkerMesh>Structures/LandingMarkers/SM_Capship_hangar</MarkerMesh>
+				<Name>UI_Module_CarrierBay</Name>
+				<IconName>SI_Wrench</IconName>
+				<AimOffset X="0" Y="0.0" Z="-1.0" />
+				<IconOffset X="0" Y="0.1" Z="-1.55" />
+			    <Spawn>
+					<Type>Carrier</Type>
+			        <Size X="1.200" Y="2.250" Z="0.400" Type="3dsMax" />
+			        <Position X="0" Y="-0.525" Z="0.024" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="1" W="0" Type="3dsMax" />
+			        <Offset X="0" Y="0" Z="0" />
+			    </Spawn>
+			</Module>
+
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/0127231b.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+				<Class>DockingSpawn</Class>
+				<HitPoints>30000</HitPoints>
+				<Score>70</Score>
+				<AimOffset X="0" Y="0.0" Z="-1.0" />
+				<IconOffset X="0" Y="0.1" Z="-1.55" />
+			    <Spawn>
+					<Type>Carrier</Type>
+			        <Size X="1.200" Y="2.250" Z="0.400" Type="3dsMax" />
+			        <Position X="0" Y="-0.525" Z="0.024" Type="3dsMax"/>
+			        <Rotation X="0" Y="0" Z="1" W="0" Type="3dsMax" />
+			        <Offset X="0" Y="0" Z="0" />
+			    </Spawn>
+			</Module>
+			<ServerModule>
+				<CreditsReward>100</CreditsReward>
+				<OnDestroyedPopupText>Server_Destroyed_Module_CapShipSpawn_Text_Self</OnDestroyedPopupText>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

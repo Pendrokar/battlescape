@@ -63,6 +63,7 @@
 
 			<Module>
 		        <Class>Unknown</Class>
+				<Name>UI_Module_Structural</Name>
 			</Module>
 		</Object>
 	</Condition>

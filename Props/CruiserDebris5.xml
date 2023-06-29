@@ -1,0 +1,137 @@
+<ActorConfig>
+	<Meta>
+		<ActorType>Prop</ActorType>
+	</Meta>
+	<CClientNodeComponent>
+        <Object Mesh="Ships/SFC-Cruiser/Debris/SM_SFC_Cruiser_Debris_Part5_Lod0" >
+            <LOD Level="1" Mesh="Ships/SFC-Cruiser/Debris/SM_SFC_Cruiser_Debris_Part5_Lod1" />
+            <LOD Level="2" Mesh="Ships/SFC-Cruiser/Debris/SM_SFC_Cruiser_Debris_Part5_Lod2" />
+            <LOD Level="3" Mesh="Ships/SFC-Cruiser/Debris/SM_SFC_Cruiser_Debris_Part5_Lod3" />
+            <LOD Level="4" Mesh="Ships/SFC-Cruiser/Debris/SM_SFC_Cruiser_Debris_Part5_Lod4" />
+            <LODPower>0.4</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+            <Material Override="true" />
+			<Scale X="1" Y="1" Z="1" />
+
+<!-- 			<ParticleSystemInstance>
+				<System>ParticleEffects/Smokes/P_MiningDegassing_optimized</System>
+				<SizeScale>0.2</SizeScale>
+				<Duration>1000000</Duration>
+				<RejectionDistance>10.0</RejectionDistance>
+				<Position x="-0.06" y="0" z="-0.01" />
+				<Rotation x="-1.57" y="0.1" z="0.05" w="1" />
+			</ParticleSystemInstance>
+
+			<ParticleSystemInstance>
+				<System>ParticleEffects/Smokes/P_MiningDegassing_optimized</System>
+				<SizeScale>0.2</SizeScale>
+				<Duration>1000000</Duration>
+				<RejectionDistance>10.0</RejectionDistance>
+				<Position x="0.06" y="0" z="-0.01" />
+				<Rotation x="-1.57" y="-0.15" z="0.02" w="1" />
+			</ParticleSystemInstance>
+
+			<ParticleSystemInstance>
+				<System>ParticleEffects/Smokes/P_MiningDegassing_optimized</System>
+				<SizeScale>0.2</SizeScale>
+				<Duration>1000000</Duration>
+				<RejectionDistance>10.0</RejectionDistance>
+				<Position x="0.0" y="0" z="0.35" />
+				<Rotation x="0" y="0.5" z="0.01" w="1" />
+			</ParticleSystemInstance> -->
+
+         </Object>
+	</CClientNodeComponent>
+	<CServerNodeComponent>
+		<TransformNode />
+	</CServerNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>0.0</EmissiveIntensity>
+		<DyingExplosions>25</DyingExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DyingEffectScale>1.0</DyingEffectScale>
+		<DeathExplosions>6</DeathExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DeathEffect>CapShipExplosionCore</DeathEffect>
+		<DyingEffectScale>0.10</DyingEffectScale>
+		<DeathEffectScale>2.0</DeathEffectScale>
+		<ShrapnelEffect>ShrapnelBig</ShrapnelEffect>
+		<ShrapnelEffectScale>3.0</ShrapnelEffectScale>
+		<ShowDamageTrail>true</ShowDamageTrail>
+		<ContrailEffectSize>0.2</ContrailEffectSize>
+		<DamageEffectSize>0.2</DamageEffectSize>
+
+		<Skin>
+			<Name>CruiserScoria</Name>
+			<ColorMap>Ships/SFC-Cruiser/Skins/T_Cruiser_Dark_Red</ColorMap>
+		</Skin>
+		<Skin>
+			<Name>CruiserDarkGray</Name>
+			<ColorMap>Ships/SFC-Cruiser/Skins/T_Cruiser_Dark_Gray</ColorMap>
+		</Skin>
+		<Skin>
+			<Name>CruiserBlueCamo</Name>
+			<ColorMap>Ships/SFC-Cruiser/Skins/T_Cruiser_Blue_Camo</ColorMap>
+		</Skin>
+		<Skin>
+			<Name>CruiserBlueDigital</Name>
+			<ColorMap>Ships/SFC-Cruiser/Skins/T_Cruiser_Blue_Digital</ColorMap>
+		</Skin>
+		<Skin>
+			<Name>CruiserDesertCamo</Name>
+			<ColorMap>Ships/SFC-Cruiser/Skins/T_Cruiser_Desert_Camo</ColorMap>
+		</Skin>
+		<Skin>
+			<Name>CruiserGoldLine</Name>
+			<ColorMap>Ships/SFC-Cruiser/Skins/T_Cruiser_GoldLine</ColorMap>
+		</Skin>
+		<Skin>
+			<Name>CruiserTurquoiseBolt</Name>
+			<ColorMap>Ships/SFC-Cruiser/Skins/T_Cruiser_Turquoise_Bolt</ColorMap>
+		</Skin>
+		<Skin>
+			<Name>CruiserHavoc</Name>
+			<ColorMap>Ships/SFC-Cruiser/Skins/T_HAVOC</ColorMap>
+		</Skin>
+
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+    <CClientCameraViewComponent>
+        <Camera Type="External">
+            <ViewPosition X="0" Y="0.002" Z="-0.008" />
+			<ViewAngle X="0" Y="0" />
+        </Camera>
+    </CClientCameraViewComponent>
+	<CServerActorComponent>
+		<Name>Wreckage</Name>
+	</CServerActorComponent>
+	<CActorComponent>
+    	<Indicator>Structure</Indicator>
+		<SurfaceType>Metal</SurfaceType>
+	</CActorComponent>
+	<CClientActorComponent>
+	</CClientActorComponent>
+	<CBodyComponent>
+    	<PhysicsBody Type="Mesh" >
+			<CollisionFile>$Dev/Ships/SFC-Cruiser/Debris/9609cb06.insm</CollisionFile>
+			<Dynamic>true</Dynamic>
+            <Mass>6000.0</Mass>
+            <Collisions>true</Collisions>
+			<CollisionScale>1</CollisionScale>
+			<BodyGroup>4</BodyGroup>
+        </PhysicsBody>
+		<HitMesh>
+			<CollisionFile>$Dev/Ships/SFC-Cruiser/Debris/9609cb06.insm</CollisionFile>
+			<CollisionScale>1</CollisionScale>
+			<SplitCost>0.001</SplitCost>
+		</HitMesh>
+	</CBodyComponent>
+	<CHullComponent>
+		<HitPoints>5000</HitPoints>
+		<DyingDuration>5.0</DyingDuration>
+		<DeathTiming>1.0</DeathTiming>
+		<DeathDuration>2.0</DeathDuration>
+		<MaxLifeTime>240.0</MaxLifeTime>
+		<MaxLifeTimeDeath>true</MaxLifeTimeDeath>
+	</CHullComponent>
+</ActorConfig>

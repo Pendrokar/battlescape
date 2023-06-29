@@ -1,4 +1,14 @@
 <ActorConfig>
+	<Meta>
+		<ActorType>Ship</ActorType>
+		<SpawnType>Capship</SpawnType>
+		<IsPlayerSpawnable>true</IsPlayerSpawnable>
+		<ShipClassCost>800</ShipClassCost>
+		<ShipBattleScore>7</ShipBattleScore>
+		<DisplayName>UI_ShipType_Destroyer</DisplayName>
+		<ClassAbbrev>DST</ClassAbbrev>
+		<WorldBoxSize X ="0.28667" Y="0.06373" Z="0.3563" />
+	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Destroyer/SM_SFC_Destroyer_Lod0" >
             <LOD Level="1" Mesh="Ships/SFC-Destroyer/SM_SFC_Destroyer_Lod1" />
@@ -7,7 +17,6 @@
             <LOD Level="4" Mesh="Ships/SFC-Destroyer/SM_SFC_Destroyer_Lod4" />
             <LOD Level="5" Mesh="Ships/SFC-Destroyer/SM_SFC_Destroyer_Lod5" />
             <LOD Level="6" Mesh="Ships/SFC-Destroyer/SM_SFC_Destroyer_Lod6" />
-<!--             <LODPower>3.0</LODPower> -->
             <LODPower>0.5</LODPower>
 			<RejectionSize>0.005</RejectionSize>
             <Material Override="true" />
@@ -209,17 +218,35 @@
 	<CClientHullComponent>
         <EmissiveIntensity>50000.0</EmissiveIntensity>
 		<ThrustersEmissiveScale>5.0</ThrustersEmissiveScale>
+
 		<DyingExplosions>40</DyingExplosions>
 		<DyingEffect>DyingExplosion</DyingEffect>
 		<DyingEffectScale>0.45</DyingEffectScale>
-		<DeathExplosions>12</DeathExplosions>
+		<DyingExplosionsMode>false</DyingExplosionsMode>
+
+		<DeathExplosions>25</DeathExplosions>
+		<DeathExplosionsDuration>5.0</DeathExplosionsDuration>
+		<DeathExplosionsEffect>SmallExplosionSound</DeathExplosionsEffect>
+
 		<DeathCoreEffect>BlueShockwave</DeathCoreEffect>
 		<DeathCoreEffectScale>20.0</DeathCoreEffectScale>
-		<DeathEffect>CapShipExplosionCore</DeathEffect>
-		<DeathEffectScale>2.0</DeathEffectScale>
+		<DeathCoreEffectDelay>5.0</DeathCoreEffectDelay>
+		<DeathCoreEffectOffset X="0.0" Y="0.0" Z="-0.1" />
+
+		<DeathEffectCount>1</DeathEffectCount>
+		<DeathEffect>DestroyerExplosion1</DeathEffect>
+		<DeathEffectScale>1.0</DeathEffectScale>
+		<DeathEffectMinScale>1.0</DeathEffectMinScale>
+		<DeathEffectMaxScale>1.0</DeathEffectMaxScale>
 		<DeathEffectRange>200.0</DeathEffectRange>
+		<DeathEffectLocalSpace>true</DeathEffectLocalSpace>
+
+		<ShrapnelCount>12</ShrapnelCount>
 		<ShrapnelEffect>ShrapnelBig</ShrapnelEffect>
-		<ShrapnelEffectScale>2.5</ShrapnelEffectScale>
+		<ShrapnelEffectScale>1.5</ShrapnelEffectScale>
+		<ShrapnelEffectDelay>5.0</ShrapnelEffectDelay>
+		<ShrapnelEffectDuration>1.0</ShrapnelEffectDuration>
+
 		<ContrailEffectSize>0.15</ContrailEffectSize>
 		<DamageEffectSize>0.12</DamageEffectSize>
 		<Skin>
@@ -236,7 +263,7 @@
 		<LinAccSmoothing>0.1</LinAccSmoothing>
 		<AngVelSmoothing>0.5</AngVelSmoothing>
 		<ViewRangeExt X="1.0" Y="2.0" />
-		<DefaultViewRangeExt>1.5</DefaultViewRangeExt>
+		<DefaultViewRangeExt>1.0</DefaultViewRangeExt>
         <Camera Type="Capship" >
             <ViewPosition X="0" Y="0.0" Z="-0.348" />
 			<ViewAngle X="0" Y="0" />
@@ -253,8 +280,8 @@
         </Camera>
     </CClientCameraViewComponent>
 	<CClientAudioComponent>
-		<SideThruster Target="SideThrusterBig" DistRangeScale="0.5" FadeLength="0.5" />
-		<MainThruster Target="MainThrusterHeavy1" DistRangeScale="0.75" FadeLength="2.0" />
+		<SideThruster Target="SideThrusterBig" DistRangeScale="0.216" FadeLength="0.5" />
+		<MainThruster Target="MainThrusterHeavy1" DistRangeScale="0.865" FadeLength="2.0" />
 		<EngineIdle Target="EngineIdleHeavy2" FadeLength="2.0" />
 		<EngineFast Target="EngineFastHeavy1" FadeLength="2.0" />
 		<WarpAmbient Target="WarpAmbient" FadeLength="2.0" />
@@ -267,12 +294,7 @@
 		<ControlScheme>CapShip</ControlScheme>
 	</CClientActorComponent>
 	<CServerActorComponent>
-		<StratScore>0</StratScore>
-		<DefaultSkins>
-			<Skin TeamID="0">DestroyerHavoc</Skin>
-			<Skin TeamID="1">DestroyerScoria</Skin>
-			<Skin TeamID="2">DestroyerHavoc</Skin>
-		</DefaultSkins>
+    <StratValue>0</StratValue>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>100.0</EmissionsRange>
@@ -283,14 +305,13 @@
 	<CActorComponent>
     	<Indicator>MediumShip</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassAbbrev>DST</ClassAbbrev>
 		<ClassName>DESTROYER</ClassName>
 	</CActorComponent>
 	<CBodyComponent>
     	<PhysicsBody Type="Mesh" >
 			<CollisionFile>$Dev/Ships/SFC-Destroyer/Collision/f2816f6c.insm</CollisionFile>
 			<Dynamic>true</Dynamic>
-            <Mass>18000.0</Mass>
+            <Mass>15520.0</Mass>
             <Collisions>true</Collisions>
         </PhysicsBody>
 <!--     	<PhysicsBody Type="Box" >
@@ -308,197 +329,212 @@
 		</HitMesh>
 	</CBodyComponent>
     <CPropulsionComponent>
-        <RampUpFactor>10.0</RampUpFactor>
-        <LinearThrust X="260.0" Y="230.0" Z="396.0" />
-        <RotationThrust X="36.0" Y="36.0" Z="25.0" />
+        <RampUpSpeed>0.2</RampUpSpeed>
+        <MinLinearThrust X="-260.0" Y="-230.0" Z="-396.0" />
+        <MaxLinearThrust X="260.0" Y="230.0" Z="396.0" />
+        <BaseRotationThrust X="36.0" Y="36.0" Z="25.0" />
+        <FullRotationThrust X="36.0" Y="36.0" Z="25.0" />
         <RotationStabilizer X="2.0" Y="2.0" Z="2.0" />
-		<MaxRotationSpeed X="0.4" Y="0.3" Z="0.8" />
+		<BaseRotationSpeed X="0.464" Y="0.348" Z="0.928" />
+		<FullRotationSpeed X="0.464" Y="0.348" Z="0.928" />
+		<RotationDampener>1.51</RotationDampener>
 		<AtmoDecay>0.008</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>2.0</DriftLimiter>
-		<CapSpeed>0.225</CapSpeed>
+		<CapSpeed>0.261</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>1000</EnergyPoints>
+		<RechargeEnergyPoints>50</RechargeEnergyPoints>
 		<HeatPoints>1250</HeatPoints>
 		<DechargeHeatPoints>150</DechargeHeatPoints>
 	</CEngineComponent>
 	<CHullComponent>
 		<HitPoints>20000</HitPoints>
-		<DyingDuration>8.0</DyingDuration>
-		<DeathTiming>3.0</DeathTiming>
-		<DeathDuration>3.0</DeathDuration>
-		<DeathCredits>60</DeathCredits>
+		<DeathDuration>18.0</DeathDuration>
+		<DeathTiming>0.0</DeathTiming>
+		<KillCamTiming>3.0</KillCamTiming>
+		<DeathDebrisTiming>5.0</DeathDebrisTiming>
+		<DeathDebrisCount>0</DeathDebrisCount>
+		<DeathDebrisScale>1.0</DeathDebrisScale>
+		<DeathDebris X="-83.7131" Z="-1.83797" Y="0.857503">ShipDebris1</DeathDebris>
+		<DeathDebris X="-43.2575" Z="71.9674" Y="0.857503">ShipDebris2</DeathDebris>
+		<DeathDebris X="27.3437" Z="80.4005" Y="0.857503">ShipDebris3</DeathDebris>
+		<DeathDebris X="79.1102" Z="0.0260509" Y="0.857503">ShipDebris4</DeathDebris>
+		<DeathDebris X="124.19" Z="0" Y="0.857503">ShipDebris5</DeathDebris>
+		<DeathDebris X="0" Z="-79.5174" Y="3.43173">ShipDebris6</DeathDebris>
+		<DeathDebris X="12.4395" Z="1.65329" Y="-18.0485">ShipDebris7</DeathDebris>
+		<DeathDebris X="91.3624" Z="-50.4448" Y="0">ShipDebris8</DeathDebris>
+		<DeathDebris X="0.0590725" Z="-120.126" Y="-16.5578">ShipDebris9</DeathDebris>
+		<DeathCredits>200</DeathCredits>
+		<MainDeathDebrisCount>9</MainDeathDebrisCount>
+		<MainDeathDebris>DestroyerDebris1</MainDeathDebris>
+		<MainDeathDebris>DestroyerDebris2</MainDeathDebris>
+		<MainDeathDebris>DestroyerDebris3</MainDeathDebris>
+		<MainDeathDebris>DestroyerDebris4</MainDeathDebris>
+		<MainDeathDebris>DestroyerDebris5</MainDeathDebris>
+		<MainDeathDebris>DestroyerDebris6</MainDeathDebris>
+		<MainDeathDebris>DestroyerDebris7</MainDeathDebris>
+		<MainDeathDebris>DestroyerDebris8</MainDeathDebris>
+		<MainDeathDebris>DestroyerDebris9</MainDeathDebris>
+		<GriefCredits>60</GriefCredits>
+		<DeathXP>125</DeathXP>
 		<Drag>0.0005</Drag>
 		<ArmorPoints>3</ArmorPoints>
+		<DefaultSkins>
+			<Skin TeamID="0">DestroyerHavoc</Skin>
+			<Skin TeamID="1">DestroyerScoria</Skin>
+			<Skin TeamID="2">DestroyerHavoc</Skin>
+		</DefaultSkins>
 	</CHullComponent>
 	<CShieldComponent>
 		<ShieldPoints>20000</ShieldPoints>
-		<RechargeRate>25</RechargeRate>
+		<RechargeShieldPoints>40</RechargeShieldPoints>
+		<InterferenceScale>0.5</InterferenceScale>
 	</CShieldComponent>
 	<CWarpComponent>
-		<MinWarpSpeed>0.140</MinWarpSpeed>
+		<WarpChargeDuration>8.0</WarpChargeDuration>
+		<WarpCooldown>14.0</WarpCooldown>
+		<WarpSpeedCoeff>20.0</WarpSpeedCoeff>
+		<MinWarpSpeed>0.173</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>
-		<WarpMesh>Particles/Warp/SM_WarpTunnelRound</WarpMesh>
+		<WarpMesh>FX/Warp/SM_WarpTunnelRound</WarpMesh>
 		<WarpMeshScale>118.0</WarpMeshScale>
 		<LightsDist>0.015</LightsDist>
 	</CClientWarpComponent>
 	<CShipComponent>
-		<SpawnType>Capship</SpawnType>
-		<Equipment>WarpJam1</Equipment>
-		<Equipment>MineLauncher</Equipment>
 	</CShipComponent>
 	<CHardpointComponent>
-		<Mesh>$Dev/Ships/SFC-Destroyer/b4fc6271.insm</Mesh>
-
-		<Group ID="0" >
-			<GroupType>Primary</GroupType>
-			<Weapon>AutoTurretGunMK4</Weapon>
-			<AutoAim>true</AutoAim>
-			<AutoFire>true</AutoFire>
-		</Group>
-		<Group ID="1" >
-			<GroupType>Secondary</GroupType>
-			<Weapon>AutoTurretBlasterMK4</Weapon>
-			<AutoAim>true</AutoAim>
-			<AutoFire>true</AutoFire>
-		</Group>
-		<Group ID="2" >
-			<GroupType>Primary</GroupType>
-			<Weapon>TurretGunMK5</Weapon>
-		</Group>
-		<Group ID="3" >
-			<GroupType>Secondary</GroupType>
-			<Weapon>TurretBlasterMK5</Weapon>
-		</Group>
-		<Group ID="4" >
-			<GroupType>Primary</GroupType>
-			<Weapon>TurretGunMK6</Weapon>
-		</Group>
-		<Group ID="5" >
-			<GroupType>Missile</GroupType>
-			<Weapon>MissileLauncherMK3</Weapon>
-		</Group>
-		<Group ID="6" >
-			<GroupType>Missile</GroupType>
-			<Weapon>MissileLauncherMK3</Weapon>
-		</Group>
-		<Group ID="7" >
-			<GroupType>Primary</GroupType>
-			<Weapon>TurretFlakMK5</Weapon>
-		</Group>
-
+		<Layout>$Config/Ships/Layouts/DestroyerLayout.xml</Layout>
+		<ExclusiveWeapons>false</ExclusiveWeapons>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
+		<Group ID="6" />
+		<Group ID="7" />
+		<Group ID="8" />
+		<Group ID="9" />
   		<Hardpoint ID="0" >
 			<Socket>s_mk4_bot_left_center</Socket>
-			<GroupID>1</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="1" >
 			<Socket>s_mk4_bot_left_forward</Socket>
-			<GroupID>0</GroupID>
 		</Hardpoint>
   		<Hardpoint ID="2" >
 			<Socket>s_mk4_bot_right_center</Socket>
-			<GroupID>1</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="3" >
 			<Socket>s_mk4_bot_right_forward</Socket>
-			<GroupID>7</GroupID>
 		</Hardpoint>
  		<Hardpoint ID="4" >
 			<Socket>s_mk4_top_left_center</Socket>
-			<GroupID>0</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="5" >
 			<Socket>s_mk4_top_left_forward</Socket>
-			<GroupID>1</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="6" >
 			<Socket>s_mk4_top_right_center</Socket>
-			<GroupID>0</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="7" >
 			<Socket>s_mk4_top_right_forward</Socket>
-			<GroupID>1</GroupID>
 		</Hardpoint>
-
 		<Hardpoint ID="8" >
 			<Socket>s_mk5_bot_left</Socket>
-			<GroupID>7</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="9" >
 			<Socket>s_mk5_bot_right</Socket>
-			<GroupID>3</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="10" >
 			<Socket>s_mk5_center_top</Socket>
-			<GroupID>7</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="11" >
 			<Socket>s_mk5_top_left</Socket>
-			<GroupID>3</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="12" >
 			<Socket>s_mk5_top_right</Socket>
-			<GroupID>7</GroupID>
 		</Hardpoint>
-
 		<Hardpoint ID="13" >
 			<Socket>s_mk6_bot</Socket>
-			<GroupID>4</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="14" >
 			<Socket>s_mk6_left</Socket>
-			<GroupID>4</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="15" >
 			<Socket>s_mk6_right</Socket>
-			<GroupID>4</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="16" >
 			<Socket>s_mk6_top</Socket>
-			<GroupID>4</GroupID>
 		</Hardpoint>
-
 		<Hardpoint ID="17" >
 			<Socket>s_mko_missile</Socket>
-			<GroupID>5</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="18" >
 			<Socket>s_mko_missile2</Socket>
-			<GroupID>5</GroupID>
 		</Hardpoint>
 		<Hardpoint ID="19" >
-			<Socket>s_mko_torpedo</Socket>
-			<GroupID>-1</GroupID>
+			<Socket>s_minepod_mine</Socket>
 		</Hardpoint>
-
-		<Ammo>
-			<Type>Mg56mm</Type>
-			<Amount>10000</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>Mg96mm</Type>
-			<Amount>5000</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>LightMissile</Type>
-			<Amount>64</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>Torpedo</Type>
-			<Amount>12</Amount>
-		</Ammo>
-		<Ammo>
-			<Type>Chaff</Type>
-			<Amount>32</Amount>
-		</Ammo>
+		<Hardpoint ID="20" >
+			<Socket>s_mod_reactor1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="21" >
+			<Socket>s_mod_weaponsmod1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="22" >
+			<Socket>s_mod_weaponsmod2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="23" >
+			<Socket>s_mod_propulsion1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="24" >
+			<Socket>s_mod_propulsion2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="25" >
+			<Socket>s_mod_storage1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="26" >
+			<Socket>s_mod_storage2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="27" >
+			<Socket>s_mod_electronics1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="28" >
+			<Socket>s_mod_electronics2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="29" >
+			<Socket>s_mod_electronics3</Socket>
+		</Hardpoint>
+		<Hardpoint ID="30" >
+			<Socket>s_mod_structural1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="31" >
+			<Socket>s_mod_structural2</Socket>
+		</Hardpoint>
+		<Hardpoint ID="32" >
+			<Socket>s_mod_shields1</Socket>
+		</Hardpoint>
+		<Hardpoint ID="33" >
+			<Socket>s_mod_shields2</Socket>
+		</Hardpoint>
+	</CHardpointComponent>
+	<CAbilityComponent>
+		<Properties>
+			<WarpJamSourceOffset  X="0" Y="-0.030" Z="0" />
+			<WarpJamSourceSizeScale X="0.5" />
+		</Properties>
+	</CAbilityComponent>
+	<CServerHardpointComponent>
+		<Loadout Name="DefaultDestroyer" Proba="60" />
+		<Loadout Name="RailgunDestroyer" Proba="20" />
+		<Loadout Name="LowTechDestroyer" Proba="20" />
 		<Ammo>
 			<Type>ProximityMine</Type>
 			<Amount>6</Amount>
 		</Ammo>
-	</CHardpointComponent>
-	<CServerHardpointComponent>
 	</CServerHardpointComponent>
 	<CServerMissionComponent>
 		<BountyReward>75</BountyReward>

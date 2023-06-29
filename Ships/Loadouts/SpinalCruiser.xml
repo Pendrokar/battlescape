@@ -1,0 +1,31 @@
+<Loadout Version="0.0.0.1" >
+	<Name>SpinalCruiser</Name>
+	<DisplayName>SPINAL</DisplayName>
+	<Actor>Cruiser</Actor>
+	<LayoutFile>$Config/Ships/Layouts/CruiserSpinalLayout.xml</LayoutFile>
+	<IsMain>true</IsMain>
+    <Mount HardpointName="s_mod_electronics1" System="FlightAssist"/>
+    <Mount HardpointName="s_mks_SpinalMount" Weapon="SpinalCruiserMKS" GroupID="0"/>
+    <Mount HardpointName="s_mk4_rear_top_left" Weapon="TurretRailgunMK4" GroupID="1"/>
+    <Mount HardpointName="s_mk4_rear_bot_right" Weapon="TurretRailgunMK4" GroupID="1"/>
+    <Mount HardpointName="s_mk4_front_bot_left" Weapon="TurretRailgunMK4" GroupID="1"/>
+    <Mount HardpointName="s_mk4_front_top_right" Weapon="TurretRailgunMK4" GroupID="1"/>
+    <Mount HardpointName="s_mk4_rear_top_right" Weapon="PhalanxMK4" GroupID="2"/>
+    <Mount HardpointName="s_mk4_rear_bot_left" Weapon="PhalanxMK4" GroupID="2"/>
+    <Mount HardpointName="s_mk4_front_top_left" Weapon="PhalanxMK4" GroupID="2"/>
+    <Mount HardpointName="s_mk4_front_bot_right" Weapon="PhalanxMK4" GroupID="2"/>
+    <Mount HardpointName="s_mk5_top_left" Weapon="TurretGunMK5" GroupID="3"/>
+    <Mount HardpointName="s_mk5_bot_right" Weapon="TurretGunMK5" GroupID="3"/>
+    <Mount HardpointName="s_mk5_top_right" Weapon="TurretBlasterMK5" GroupID="4"/>
+    <Mount HardpointName="s_mk5_bot_left" Weapon="TurretBlasterMK5" GroupID="4"/>
+    <Mount HardpointName="s_mk6_bot_left" Weapon="TurretGunMK6" GroupID="5"/>
+    <Mount HardpointName="s_mk6_bot_right" Weapon="TurretGunMK6" GroupID="5"/>
+    <Mount HardpointName="s_mk6_top_left" Weapon="TurretGunMK6" GroupID="5"/>
+    <Mount HardpointName="s_mk6_top_right" Weapon="TurretGunMK6" GroupID="5"/>
+    <Mount HardpointName="s_mko_missile_rear_right" Weapon="SSMBattery" GroupID="6"/>
+    <Mount HardpointName="s_mko_missile_fwd_right" Weapon="SSMBattery" GroupID="6"/>
+    <Mount HardpointName="s_mko_missile_rear_left" Weapon="SSMBattery" GroupID="6"/>
+    <Mount HardpointName="s_mko_missile_fwd_left" Weapon="SSMBattery" GroupID="6"/>
+    <Mount HardpointName="s_mod_structure1" System="RepairCrew"/>
+    <Mount HardpointName="s_mod_structure2" System="RepairCrew"/>
+</Loadout>

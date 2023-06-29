@@ -10,15 +10,6 @@
 			<LODPower>1.0</LODPower>
 			<RejectionSize>0.005</RejectionSize>
 
-<!-- 			<ParticleSystemInstance>
-				<System>Particles/Smoke/Effects/P_Industrial-Smoke</System>
-				<SizeScale>0.25</SizeScale>
-				<Duration>1000000</Duration>
-				<RejectionDistance>20.0</RejectionDistance>
-				<Position x="0.03" y="0.0" z="0.260267" Type="3dsMax"/>
-				<Rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
-			</ParticleSystemInstance> -->
-
 			<PhysicsBody Type="Mesh" >
 		        <CollisionFile>$Dev/Structures/SFC-Military/0039f204.insm</CollisionFile>
 		        <Collisions>true</Collisions>
@@ -41,13 +32,24 @@
 			</Light>
 
 			<Module>
-		        <Class>DefenseTowerA</Class>
-				<HitPoints>1500</HitPoints>
+				<!-- This is the smaller boxy tower -->
+		        <Class>Defense</Class>
+				<HitPoints>2000</HitPoints>
+				<ShipPoints>125</ShipPoints>
 				<Score>20</Score>
+				<DPSScoreFactor>100.0</DPSScoreFactor>
+				<AttackPriority>4</AttackPriority>
+				<BattleScore>4</BattleScore>
+				<Name>UI_Module_DefenseTower</Name>
+				<IconName>SI_Chevron</IconName>
+				<AimOffset X="0" Y="0.15" Z="0" />
+				<IconOffset X="0" Y="0.3" Z="0" />
+				<IconSize>8.0</IconSize>
 				<MapToPlanet>true</MapToPlanet>
 			    <Sockets>
 					<FileName>$Dev/Structures/SFC-Military/0039f204.insm</FileName>
-			        <Socket Name="s_turret" Type="Hardpoint" Class="MK3" />
+			        <Socket Name="s_turret" Type="Hardpoint" Class="MK4" />
+			        <Socket Name="s_turret2" Type="Hardpoint" Class="MK4" />
 			    </Sockets>
 			</Module>
 		</Object>
@@ -59,20 +61,24 @@
 		        <Collisions>true</Collisions>
 		    </PhysicsBody>
 			<Module>
-		        <Class>DefenseTowerA</Class>
-				<HitPoints>1500</HitPoints>
+		        <Class>Defense</Class>
+				<HitPoints>2000</HitPoints>
+				<ShipPoints>125</ShipPoints>
+				<DPSScoreFactor>100.0</DPSScoreFactor>
 				<Score>20</Score>
+				<AttackPriority>4</AttackPriority>
+				<BattleScore>4</BattleScore>
+				<AimOffset X="0" Y="0.15" Z="0" />
 				<MapToPlanet>true</MapToPlanet>
 			    <Sockets>
 					<FileName>$Dev/Structures/SFC-Military/0039f204.insm</FileName>
-			        <Socket Name="s_turret" Type="Hardpoint" Class="MK3" />
+			        <Socket Name="s_turret" Type="Hardpoint" Class="MK4" />
+			        <Socket Name="s_turret2" Type="Hardpoint" Class="MK4" />
 			    </Sockets>
 			</Module>
 			<ServerModule>
-				<CreditsReward>20</CreditsReward>
-				<OnDestroyedPopupTitle>Server_Destroyed_Module_DefenseTower_Title_Self</OnDestroyedPopupTitle>
+				<CreditsReward>40</CreditsReward>
 				<OnDestroyedPopupText>Server_Destroyed_Module_DefenseTower_Text_Self</OnDestroyedPopupText>
-				<OnDestroyedPopupFooter>Server_Destroyed_Module_DefenseTower_Footer_Self</OnDestroyedPopupFooter>
 			</ServerModule>
 		</TransformNode>
 	</Condition>

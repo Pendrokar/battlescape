@@ -1,0 +1,56 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/StationModules_SFC/SM_SFC_Station_ShieldGen_B_Lod0">
+			<LOD Level="1" Mesh="Structures/StationModules_SFC/SM_SFC_Station_ShieldGen_B_Lod1" />
+			<LODPower>1.0</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+			<PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/c3a10c93.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>ShieldGenerator</Class>
+				<HitPoints>35000</HitPoints>
+				<Name>UI_Module_ShieldGen</Name>
+				<ShipPoints>2250</ShipPoints>
+				<DPSScoreFactor>50.0</DPSScoreFactor>
+				<Score>100</Score>
+				<AttackPriority>5</AttackPriority>
+				<BattleScore>25</BattleScore>
+				<IconName>SI_ShieldB</IconName>
+				<IconSize>32.0</IconSize>
+				<AimOffset X="0" Y="0.5" Z="0" />
+				<IconOffset X="0" Y="0.5" Z="0" />
+				<IconSize>32.0</IconSize>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/c3a10c93.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>ShieldGenerator</Class>
+				<HitPoints>35000</HitPoints>
+				<ShipPoints>2250</ShipPoints>
+				<DPSScoreFactor>50.0</DPSScoreFactor>
+				<Score>100</Score>
+				<AttackPriority>5</AttackPriority>
+				<BattleScore>25</BattleScore>
+				<AimOffset X="0" Y="0.5" Z="0" />
+				<IconOffset X="0" Y="0.5" Z="0" />
+			</Module>
+			<ServerModule>
+				<CreditsReward>100</CreditsReward>
+				<OnDestroyedPopupText>Server_Destroyed_Module_Shields_Text_Self</OnDestroyedPopupText>
+				<DeathEffectName>EMPMissileExplosion</DeathEffectName>
+				<DeathEffectScale>1.0</DeathEffectScale>
+				<DeathEffectOffset X="0" Y="0.8" Z="0" />
+				<DeathShockwaveRange>0.25</DeathShockwaveRange>
+				<DeathShockwaveDamage>200.0</DeathShockwaveDamage>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>
