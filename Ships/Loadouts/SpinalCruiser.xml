@@ -3,7 +3,7 @@
 	<DisplayName>SPINAL</DisplayName>
 	<Actor>Cruiser</Actor>
 	<LayoutFile>$Config/Ships/Layouts/CruiserSpinalLayout.xml</LayoutFile>
-	<IsMain>true</IsMain>
+	<IsMain>false</IsMain>
     <Mount HardpointName="s_mod_electronics1" System="FlightAssist"/>
     <Mount HardpointName="s_mks_SpinalMount" Weapon="SpinalCruiserMKS" GroupID="0"/>
     <Mount HardpointName="s_mk4_rear_top_left" Weapon="TurretRailgunMK4" GroupID="1"/>

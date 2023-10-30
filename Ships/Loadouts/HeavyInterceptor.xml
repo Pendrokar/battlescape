@@ -3,7 +3,7 @@
 	<DisplayName>HEAVY</DisplayName>
 	<Actor>Interceptor</Actor>
 	<LayoutFile>$Config/Ships/Layouts/InterceptorHeavyLayout.xml</LayoutFile>
-	<IsMain>true</IsMain>
+	<IsMain>false</IsMain>
     <Mount HardpointName="s_gun_left" Weapon="GimbalGunMK1" GroupID="1"/>
     <Mount HardpointName="s_gun_right" Weapon="GimbalGunMK1" GroupID="1"/>
     <Mount HardpointName="s_gun_pod_left" Weapon="GimbalBlasterMK1" GroupID="2"/>

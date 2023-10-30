@@ -857,7 +857,7 @@
 	<SoundEffect3D>
 		<Name>RotatingTurret</Name>
 		<Path>event:/Weapons/RotatingTurret</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.2" />
 		<DistRange X="0.03" Y="2.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>

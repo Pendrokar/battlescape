@@ -8,6 +8,7 @@
 		<DisplayName>UI_ShipType_Interceptor</DisplayName>
 		<ClassAbbrev>INT</ClassAbbrev>
         <WorldBoxSize X="0.0121250944" Y="0.00453546643" Z="0.0152096823" />
+		<CarryPointsCost>1</CarryPointsCost>
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Fighter/SM_SFC_Fighter_exterior_no_cockpit_Lod0" >
@@ -96,24 +97,43 @@
 
 		<ContrailEffectSize>0.04</ContrailEffectSize>
 		<DamageEffectSize>0.015</DamageEffectSize>
+
 		<Skin>
 			<Name>InterceptorScoria</Name>
-			<ColorMap>Ships/SFC-Fighter/Skins/T_Skin_Scoria</ColorMap>
+			<MeshInstance ID="1">Ships/SFC-Fighter/MI_Skin-Scoria</MeshInstance>
 		</Skin>
 		<Skin>
 			<Name>InterceptorHavoc</Name>
-			<ColorMap>Ships/SFC-Fighter/Skins/T_Skin_Havoc</ColorMap>
+			<MeshInstance ID="1">Ships/SFC-Fighter/MI_Skin-Havoc</MeshInstance>
 		</Skin>
 		<Skin>
 			<Name>InterceptorFire</Name>
-			<ColorMap>Ships/SFC-Fighter/Skins/T_Skin_Fire</ColorMap>
+			<MeshInstance ID="1">Ships/SFC-Fighter/MI_Skin-Fire</MeshInstance>
 		</Skin>
+		<Skin>
+			<Name>InterceptorBee</Name>
+			<MeshInstance ID="1">Ships/SFC-Fighter/MI_Skin-Bee</MeshInstance>
+		</Skin>
+		<Skin>
+			<Name>InterceptorGold</Name>
+			<MeshInstance ID="1">Ships/SFC-Fighter/MI_Skin-Dev</MeshInstance>
+		</Skin>
+		<Skin>
+			<Name>InterceptorIndustrial</Name>
+			<MeshInstance ID="1">Ships/SFC-Fighter/MI_Skin-Industrial</MeshInstance>
+		</Skin>
+		<Skin>
+			<Name>InterceptorMilitary</Name>
+			<MeshInstance ID="1">Ships/SFC-Fighter/MI_Skin-Military</MeshInstance>
+		</Skin>
+
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
 		<LinAccSmoothing>0.9</LinAccSmoothing>
 		<AngVelSmoothing>0.95</AngVelSmoothing>
-		<ViewRangeExt X="1.0" Y="1.9" />
+		<ViewRangeExt X="0.7" Y="1.9" />
+		<DefaultViewRangeExt>1.0</DefaultViewRangeExt>
         <Camera Type="Internal">
             <!-- camera at cockpit center, but frame/hull is not rendered -->
             <ViewPosition X="-0.000296" Y="0.000584" Z="0.006197" />
@@ -140,6 +160,22 @@
             <ViewPosition X="0" Y="0.004" Z="-0.016" />
 			<ViewAngle X="0.039" Y="4.711" />
         </Camera>
+
+        <Camera Type="External">
+            <!-- near hull top-left-center -->
+            <ViewPosition X="-0.00488" Y="0.00197" Z="-0.00185" />
+			<ViewAngle X="0.116" Y="6.270" />
+			<LinAccSmoothing>0.0</LinAccSmoothing>
+			<AngVelSmoothing>0.15</AngVelSmoothing>
+        </Camera>
+        <Camera Type="External">
+            <!-- near hull center behind -->
+            <ViewPosition X="0.0" Y="0.00378" Z="-0.00322" />
+			<ViewAngle X="0.116" Y="6.270" />
+			<LinAccSmoothing>0.0</LinAccSmoothing>
+			<AngVelSmoothing>0.15</AngVelSmoothing>
+        </Camera>
+
     </CClientCameraViewComponent>
     <CClientExternalCockpitComponent>
         <Object Mesh="Ships/SFC-Fighter/SM_SFC_Fighter_exterior_cockpitpart_Lod0" >

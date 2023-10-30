@@ -839,6 +839,7 @@
 		<Actor Class="Destroyer" />
 		<Actor Class="Cruiser" />
 		<Actor Class="Carrier" />
+		<Actor Class="Hauler" />
 		<Credits>0</Credits>
 		<Mass>15.0</Mass>
 		<Mesh>
@@ -966,6 +967,7 @@
 		<Actor Class="Destroyer" />
 		<Actor Class="Cruiser" />
 		<Actor Class="Carrier" />
+		<Actor Class="Hauler" />
 		<Credits>0</Credits>
 		<Mass>8.0</Mass>
 		<Mesh>

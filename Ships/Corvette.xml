@@ -8,6 +8,7 @@
 		<DisplayName>UI_ShipType_Corvette</DisplayName>
 		<ClassAbbrev>CRV</ClassAbbrev>
 		<WorldBoxSize X="0.0480000190" Y="0.0223000087" Z="0.0825925916" />
+		<CarryPointsCost>5</CarryPointsCost>
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Corvette/SM_SFC_Corvette_exterior_no_cockpit_Lod0" >
@@ -271,7 +272,7 @@
 				<position x="0.0021750002633780241" y="0.0022499994374811649" z="-0.0037000004667788744" Type="3dsMax"/>
 				<Cutoff>256.0</Cutoff>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Name>CenterInternalOmnis</Name>
 				<Color X="1.0" Y="0.0" Z="0.0" />
@@ -658,7 +659,7 @@
     <CClientCameraViewComponent>
 		<LinAccSmoothing>0.6</LinAccSmoothing>
 		<AngVelSmoothing>0.8</AngVelSmoothing>
-		<ViewRangeExt X="0.9" Y="1.4" />
+		<ViewRangeExt X="0.7" Y="1.4" />
 		<DefaultViewRangeExt>0.9</DefaultViewRangeExt>
         <Camera Type="Internal">
             <!-- camera at cockpit center, but frame/hull is not rendered -->

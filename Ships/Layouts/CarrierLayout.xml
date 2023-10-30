@@ -290,4 +290,52 @@
 		<position x="-0.0025455323047935962677" y="0.49902188777923583984" z="0" Type="3dsMax"/>
 		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
 	</Socket>
+	<Socket Name="s_hangar_tube_top_right" >
+		<Size>Mk1</Size>
+		<Category>Hangar</Category>
+		<position x="0.32499998807907104492" y="1.0549999475479125977" z="0.050000000745058059692" Type="3dsMax"/>
+		<rotation x="-0.70710659027099609375" y="0" z="0" w="0.70710694789886474609" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_hangar_tube_bot_right" >
+		<Size>Mk1</Size>
+		<Category>Hangar</Category>
+		<position x="0.32499998807907104492" y="1.0549999475479125977" z="-0.050000000745058059692" Type="3dsMax"/>
+		<rotation x="-0.70710659027099609375" y="0" z="0" w="0.70710694789886474609" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_hangar_tube_bot_left" >
+		<Size>Mk1</Size>
+		<Category>Hangar</Category>
+		<position x="-0.32499998807907104492" y="1.0549999475479125977" z="-0.050000000745058059692" Type="3dsMax"/>
+		<rotation x="-0.70710659027099609375" y="0" z="0" w="0.70710694789886474609" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_hangar_tube_top_left" >
+		<Size>Mk1</Size>
+		<Category>Hangar</Category>
+		<position x="-0.32499998807907104492" y="1.0549999475479125977" z="0.050000000745058059692" Type="3dsMax"/>
+		<rotation x="-0.70710659027099609375" y="0" z="0" w="0.70710694789886474609" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_hangar_back_left" >
+		<Size>Mk1</Size>
+		<Category>Hangar</Category>
+		<position x="-0.061999998986721038818" y="-0.53919422626495361328" z="0" Type="3dsMax"/>
+		<rotation x="0" y="-0.70710659027099609375" z="-0.70710694789886474609" w="0" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_hangar_back_right" >
+		<Size>Mk1</Size>
+		<Category>Hangar</Category>
+		<position x="0.061999998986721038818" y="-0.53919422626495361328" z="0" Type="3dsMax"/>
+		<rotation x="0" y="-0.70710659027099609375" z="-0.70710694789886474609" w="0" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_hangar_front_right" >
+		<Size>Mk1</Size>
+		<Category>Hangar</Category>
+		<position x="0.061999998986721038818" y="0.79900002479553222656" z="0" Type="3dsMax"/>
+		<rotation x="-0.70710659027099609375" y="0" z="0" w="0.70710694789886474609" Type="3dsMax"/>
+	</Socket>
+	<Socket Name="s_hangar_front_left" >
+		<Size>Mk1</Size>
+		<Category>Hangar</Category>
+		<position x="-0.061999998986721038818" y="0.79900002479553222656" z="0" Type="3dsMax"/>
+		<rotation x="-0.70710659027099609375" y="0" z="0" w="0.70710694789886474609" Type="3dsMax"/>
+	</Socket>
 </Layout>

@@ -3,7 +3,7 @@
 	<DisplayName>HEAVY</DisplayName>
 	<Actor>Cruiser</Actor>
 	<LayoutFile>$Config/Ships/Layouts/CruiserHeavyLayout.xml</LayoutFile>
-	<IsMain>true</IsMain>
+	<IsMain>false</IsMain>
     <Mount HardpointName="s_mko_missile_midX_bot_left" Weapon="MissileLauncherMK3" GroupID="4"/>
     <Mount HardpointName="s_mko_missile_midX_bot_right" Weapon="MissileLauncherMK3" GroupID="4"/>
     <Mount HardpointName="s_mko_missile_midX_top_left" Weapon="MissileLauncherMK3" GroupID="4"/>

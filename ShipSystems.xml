@@ -9,6 +9,7 @@
 		TurboBoost properties: EnergyTurboCost, TurboThrustRate, TurboTimerDecay, TurboInitialBoost, BoostThrustScale, BoostCooldown
 		Warp properties: WarpChargeDuration, WarpCooldown, WarpSpeedCoeff, MinWarpSpeed
 		Sensor properties: EmissionsRange, SensorPowern, PassiveEnergyEmissions, ActiveEnergyEmissions
+		Carrier properties: CarryPoints, HangarDeployRate, HangarRepairRate
 
 		Weapons general properties (affects all weapons, unless restricted by a weapon ID or type): WeaponsKineticDamage, WeaponsEnergyDamage, WeaponsHitPoints, WeaponsTurnSpeed, WeaponsHeat, WeaponsFireCooldown, WeaponsSpread, WeaponsShotSpeed, WeaponsPitchRange, WeaponsYawRange, WeaponsAmmoCost,
 			WeaponsKineticAmmoCost, WeaponsEnergyAmmoCost, WeaponsMaxAmmo, WeaponsArmorPiercing, SmartMissileMode, WeaponsLifeTime (for MTBs), WeaponsHP, WeaponsMass
@@ -33,7 +34,7 @@
 	</ShipSystem>
 	<ShipSystem ID="1" Name="WarpJam2" Category="Electronics" Class="MK3;MK4" Credits="850" Requires="WarpJam1" Excludes="" AbilityType="Passive" Stack="1" Rank="8" >
 		<DisplayName>UI_System_WarpJam2_Name</DisplayName>
-		<Icon>$UI/loadout_electronics.svg</Icon>
+		<Icon>$UI/loadout_warp_2.svg</Icon>
 		<ShortDescr>UI_System_WarpJam2_Descr</ShortDescr>
 		<Property Name="Duration" Value="25.0" Target="WarpJamDuration" Op="Add" Descr="UI_System_WarpJam2_Duration" Quality="Positive" />
 		<Property Name="Range" Value="-2.5" Target="WarpJamRange" Op="Add" Descr="UI_System_WarpJam2_Range" Quality="Negative" />
@@ -181,7 +182,7 @@
 		<Property Name="ResupplyParts" Value="0.1" Target="Mass" Op="MulInitAdd" Descr="UI_System_LightResupplyField_ResupplyParts" Quality="Negative" />
 		<Actor Class="Corvette" />
 	</ShipSystem>
-	<ShipSystem ID="19" Name="AMSDamage" Category="WeaponsMod" Class="MK3;MK4" Credits="800" Requires="" Excludes="" AbilityType="Passive" Stack="2" Rank="7" >
+	<ShipSystem ID="19" Name="AMSDamage" Category="WeaponsMod" Class="MK3;MK4;MK6" Credits="800" Requires="" Excludes="" AbilityType="Passive" Stack="2" Rank="7" >
 		<DisplayName>UI_System_AMSDamage_Name</DisplayName>
 		<Icon>$UI/loadout_laser.svg</Icon>
 		<ShortDescr>UI_System_AMSDamage_Descr</ShortDescr>
@@ -471,8 +472,56 @@
 		<Property Name="Mass" Value="0.5" Target="WeaponsMass" Op="MulInitAdd" Descr="UI_System_ExtraRockets_Mass" Quality="Negative" />
 		<Weapon ID="RocketLauncher" />
 	</ShipSystem>
-
-
+	<ShipSystem ID="49" Name="Detonate" Category="Electronics" Class="MK1;MK2;MK3;MK4;MK5;MK6" Credits="1000" Requires="" Excludes="" AbilityType="Event" Stack="1" Rank="6" >
+		<DisplayName>UI_System_Detonate_Name</DisplayName>
+		<Icon>$UI/loadout_electronics.svg</Icon>
+		<ShortDescr>UI_System_Detonate_Descr</ShortDescr>
+		<ShortInfo>UI_System_Detonate_Info</ShortInfo>
+		<Property Name="AbilityCooldown" Value="15.0" Target="Detonate_AbilityCooldown" Op="Add" Descr="UI_System_Detonate_Cooldown" Quality="Negative" />
+		<AbilityAction>Detonate</AbilityAction>
+	</ShipSystem>
+	<ShipSystem ID="50" Name="HangarDeployRate" Category="Storage" Class="MK6;MK7" Credits="2500" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="13" >
+		<DisplayName>UI_System_HangarDeployRate_Name</DisplayName>
+		<Icon>$UI/loadout_drone.svg</Icon>
+		<ShortDescr>UI_System_HangarDeployRate_Descr</ShortDescr>
+		<Property Name="Rate" Value="0.5" Target="HangarDeployRate" Op="Mul" Descr="UI_System_HangarDeployRate_Rate" Quality="Positive" />
+		<Property Name="RepairHitPointsRate" Value="0.9" Target="RepairHitPointsRate" Op="Mul" Descr="UI_System_HangarDeployRate_RepairHitPointsRate" Quality="Negative" />
+		<Property Name="SelfRepairRate" Value="0.9" Target="SelfRepairRate" Op="Add" Descr="UI_System_HangarDeployRate_SelfRepairRate" Quality="Negative" />
+		<Actor Class="Carrier" />
+	</ShipSystem>
+	<ShipSystem ID="51" Name="HangarRepairRate" Category="Storage" Class="MK6;MK7" Credits="3000" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="14" >
+		<DisplayName>UI_System_HangarRepairRate_Name</DisplayName>
+		<Icon>$UI/loadout_drone.svg</Icon>
+		<ShortDescr>UI_System_HangarRepairRate_Descr</ShortDescr>
+		<Property Name="Rate" Value="2.0" Target="HangarRepairRate" Op="Mul" Descr="UI_System_HangarRepairRate_Rate" Quality="Positive" />
+		<Property Name="RepairHitPointsRate" Value="0.9" Target="RepairHitPointsRate" Op="Mul" Descr="UI_System_HangarRepairRate_RepairHitPointsRate" Quality="Negative" />
+		<Property Name="SelfRepairRate" Value="0.9" Target="SelfRepairRate" Op="Add" Descr="UI_System_HangarRepairRate_SelfRepairRate" Quality="Negative" />
+		<Actor Class="Carrier" />
+	</ShipSystem>
+	<ShipSystem ID="52" Name="HangarCapacity" Category="Storage" Class="MK6;MK7" Credits="8000" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="17" >
+		<DisplayName>UI_System_HangarCapacity_Name</DisplayName>
+		<Icon>$UI/loadout_drone.svg</Icon>
+		<ShortDescr>UI_System_HangarCapacity_Descr</ShortDescr>
+		<Property Name="HangarCapacity" Value="1.5" Target="CarryPoints" Op="Mul" Descr="UI_System_HangarCapacity_CarryPoints" Quality="Positive" />
+		<Property Name="RepairHitPointsRate" Value="0.75" Target="RepairHitPointsRate" Op="Mul" Descr="UI_System_HangarCapacity_RepairHitPointsRate" Quality="Negative" />
+		<Property Name="ResupplyAmmoPointsRate" Value="0.75" Target="ResupplyAmmoPointsRate" Op="Mul" Descr="UI_System_HangarCapacity_ResupplyAmmoPointsRate" Quality="Negative" />
+		<Property Name="SelfRepairRate" Value="0.75" Target="SelfRepairRate" Op="Add" Descr="UI_System_HangarCapacity_SelfRepairRate" Quality="Negative" />
+		<Property Name="Mass" Value="0.15" Target="Mass" Op="MulInitAdd" Descr="UI_System_HangarCapacity_Mass" Quality="Negative" />
+		<Actor Class="Carrier" />
+	</ShipSystem>
+	<ShipSystem ID="53" Name="HangarVeteranRank" Category="Storage" Class="MK6;MK7" Credits="5000" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="15" >
+		<DisplayName>UI_System_HangarVeteranRank_Name</DisplayName>
+		<Icon>$UI/loadout_drone.svg</Icon>
+		<ShortDescr>UI_System_HangarVeteranRank_Descr</ShortDescr>
+		<Actor Class="Carrier" />
+	</ShipSystem>
+	<ShipSystem ID="54" Name="HangarSalvage" Category="Storage" Class="MK6;MK7" Credits="7500" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="16" >
+		<DisplayName>UI_System_HangarSalvage_Name</DisplayName>
+		<Icon>$UI/loadout_drone.svg</Icon>
+		<ShortDescr>UI_System_HangarSalvage_Descr</ShortDescr>
+		<Property Name="HangarCapacity" Value="0.85" Target="CarryPoints" Op="Mul" Descr="UI_System_HangarSalvage_CarryPoints" Quality="Negative" />
+		<Actor Class="Carrier" />
+	</ShipSystem>
 <!-- 	Upgrade to reduce energy emissions -->
 <!-- 	Warp upgrades: lower cooldown, lower charge time..  another upgrade that protects the warp from being disrupted -->
 </ShipSystems>

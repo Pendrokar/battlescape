@@ -3,7 +3,7 @@
 	<DisplayName>BUBBLE SHIELD</DisplayName>
 	<Actor>Carrier</Actor>
 	<LayoutFile>$Config/Ships/Layouts/CarrierLayout.xml</LayoutFile>
-	<IsMain>true</IsMain>
+	<IsMain>false</IsMain>
 	<Mount HardpointName="s_mk4_front_bot_left_1" Weapon="LaserAMSMK3" GroupID="0" />
 	<Mount HardpointName="s_mk4_front_bot_left_2" Weapon="AutoTurretBlasterMK4" GroupID="2" />
 	<Mount HardpointName="s_mk4_front_bot_right_1" Weapon="LaserAMSMK3" GroupID="0" />
@@ -40,4 +40,40 @@
 	<Mount HardpointName="s_mod_structural1" System="HeavyRepairField" />
 	<Mount HardpointName="s_mod_structural2" System="HeavyResupplyField" />
 	<Mount HardpointName="s_mod_shields1" System="SphericalShield" />
+    <Hangar>
+        <Loadout ID="0" Name="DefaultInterceptor"/>
+        <Loadout ID="1" Name="HeavyInterceptor"/>
+        <Loadout ID="2" Name="RailgunInterceptor"/>
+        <Loadout ID="3" Name="Hawk"/>
+        <Loadout ID="4" Name="DefaultBomber"/>
+        <Loadout ID="5" Name="MedicCorvette"/>
+        <Loadout ID="6" Name="CorvetteAMS"/>
+        <Loadout ID="7" Name="DefaultCorvette"/>
+        <Squad ID="0" Name="ALPHA" NameID="0">
+            <Ship Loadout="0"/>
+            <Ship Loadout="0"/>
+            <Ship Loadout="0"/>
+            <Ship Loadout="0"/>
+            <Ship Loadout="0"/>
+            <Ship Loadout="0"/>
+        </Squad>
+        <Squad ID="1" Name="BETA" NameID="1">
+            <Ship Loadout="3"/>
+            <Ship Loadout="3"/>
+            <Ship Loadout="2"/>
+            <Ship Loadout="2"/>
+            <Ship Loadout="1"/>
+        </Squad>
+        <Squad ID="2" Name="GAMMA" NameID="2">
+            <Ship Loadout="4"/>
+            <Ship Loadout="4"/>
+            <Ship Loadout="4"/>
+        </Squad>
+        <Squad ID="3" Name="DELTA" NameID="3">
+            <Ship Loadout="7"/>
+            <Ship Loadout="4"/>
+            <Ship Loadout="0"/>
+            <Ship Loadout="0"/>
+        </Squad>
+    </Hangar>
 </Loadout>

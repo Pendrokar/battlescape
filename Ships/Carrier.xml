@@ -8,6 +8,7 @@
 		<DisplayName>UI_ShipType_Carrier</DisplayName>
 		<ClassAbbrev>CAR</ClassAbbrev>
 		<WorldBoxSize X="1.14701" Y="0.375646" Z="2.216075" />
+		<MaxSpawnedInGame>4</MaxSpawnedInGame>
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod0" >
@@ -786,7 +787,7 @@
 		<LinAccSmoothing>0.02</LinAccSmoothing>
 		<AngVelSmoothing>0.2</AngVelSmoothing>
 		<ViewRangeExt X="0.7" Y="1.5" />
-		<DefaultViewRangeExt>0.7</DefaultViewRangeExt>
+		<DefaultViewRangeExt>1.0</DefaultViewRangeExt>
         <Camera Type="Capship">
             <ViewPosition X="0" Y="-0.4638" Z="-1.8165" />
 			<ViewAngle X="0" Y="0" />
@@ -1094,6 +1095,7 @@
 		<DamageModel>Global</DamageModel>
 	</CServerModulesComponent>
 	<CCarrierComponent>
+		<CarryPoints>30</CarryPoints>
 	</CCarrierComponent>
 	<CServerMissionComponent>
 		<BountyReward>250</BountyReward>

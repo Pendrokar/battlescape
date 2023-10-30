@@ -8,6 +8,7 @@
 		<DisplayName>UI_ShipType_Bomber</DisplayName>
 		<ClassAbbrev>BMB</ClassAbbrev>
        	<WorldBoxSize X="0.019316" Y="0.009618" Z="0.025341" />
+		<CarryPointsCost>3</CarryPointsCost>
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Bomber/SM_SFC_Bomber_ext_no_cockpit_Lod0" >
@@ -194,7 +195,8 @@
     <CClientCameraViewComponent>
 		<LinAccSmoothing>0.8</LinAccSmoothing>
 		<AngVelSmoothing>0.9</AngVelSmoothing>
-		<ViewRangeExt X="1.0" Y="1.5" />
+		<ViewRangeExt X="0.7" Y="1.5" />
+		<DefaultViewRangeExt>1.0</DefaultViewRangeExt>
         <Camera Type="Internal">
             <!-- camera at cockpit center, but frame/hull is not rendered -->
         	<ViewPosition X="0" Y=" 0.001814" Z="0.010352" />

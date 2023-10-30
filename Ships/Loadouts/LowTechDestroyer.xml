@@ -3,7 +3,7 @@
 	<DisplayName>LOW TECH</DisplayName>
 	<Actor>Destroyer</Actor>
 	<LayoutFile>$Config/Ships/Layouts/DestroyerLowTechLayout.xml</LayoutFile>
-	<IsMain>true</IsMain>
+	<IsMain>false</IsMain>
     <Mount HardpointName="s_mk4_bot_left_center" Weapon="LaserAMSMK3" GroupID="0"/>
     <Mount HardpointName="s_mk4_bot_right_center" Weapon="LaserAMSMK3" GroupID="0"/>
     <Mount HardpointName="s_mk4_top_left_forward" Weapon="LaserAMSMK3" GroupID="0"/>

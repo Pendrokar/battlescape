@@ -41,18 +41,37 @@
 		<ShowDamageTrail>true</ShowDamageTrail>
 		<ContrailEffectSize>0.002</ContrailEffectSize>
 		<DamageEffectSize>0.01</DamageEffectSize>
+
+		<!-- Note: due to cockpit not being split, the mesh instance ID is #2 instead of #1 in the original interceptor hull  -->
 		<Skin>
 			<Name>InterceptorScoria</Name>
-			<ColorMap>Ships/SFC-Fighter/Skins/T_Skin_Scoria</ColorMap>
+			<MeshInstance ID="2">Ships/SFC-Fighter/MI_Skin-Scoria</MeshInstance>
 		</Skin>
 		<Skin>
 			<Name>InterceptorHavoc</Name>
-			<ColorMap>Ships/SFC-Fighter/Skins/T_Skin_Havoc</ColorMap>
+			<MeshInstance ID="2">Ships/SFC-Fighter/MI_Skin-Havoc</MeshInstance>
 		</Skin>
 		<Skin>
 			<Name>InterceptorFire</Name>
-			<ColorMap>Ships/SFC-Fighter/Skins/T_Skin_Fire</ColorMap>
+			<MeshInstance ID="2">Ships/SFC-Fighter/MI_Skin-Fire</MeshInstance>
 		</Skin>
+		<Skin>
+			<Name>InterceptorBee</Name>
+			<MeshInstance ID="2">Ships/SFC-Fighter/MI_Skin-Bee</MeshInstance>
+		</Skin>
+		<Skin>
+			<Name>InterceptorGold</Name>
+			<MeshInstance ID="2">Ships/SFC-Fighter/MI_Skin-Dev</MeshInstance>
+		</Skin>
+		<Skin>
+			<Name>InterceptorIndustrial</Name>
+			<MeshInstance ID="2">Ships/SFC-Fighter/MI_Skin-Industrial</MeshInstance>
+		</Skin>
+		<Skin>
+			<Name>InterceptorMilitary</Name>
+			<MeshInstance ID="2">Ships/SFC-Fighter/MI_Skin-Military</MeshInstance>
+		</Skin>
+
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
