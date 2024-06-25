@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout Name="default layout">
+	<DisplayName>DEFAULT</DisplayName>
+	<Actor>Hades</Actor>
+	<Socket Name="s_mod_electronics1" >
+		<Size>Mk1</Size>
+		<Category>Electronics</Category>
+		<position x="0.0019999998621642589569" y="0.0069999997504055500031" z="0" Type="3dsMax"/>
+		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+	</Socket>
+</Layout>

@@ -31,7 +31,6 @@
     	<Indicator>Structure</Indicator>
 		<SurfaceType>Surface</SurfaceType>
 		<ClassAbbrev>AST</ClassAbbrev>
-		<ClassName>ASTEROID</ClassName>
 	</CActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Static" >

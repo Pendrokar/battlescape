@@ -1,0 +1,7 @@
+<Loadout Version="0.0.0.1" >
+	<Name>DefaultDrone</Name>
+	<DisplayName>DEFAULT</DisplayName>
+	<Actor>RepairDrone</Actor>
+	<LayoutFile>$Config/Ships/Layouts/DroneLayout.xml</LayoutFile>
+	<IsMain>true</IsMain>
+</Loadout>

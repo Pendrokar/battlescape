@@ -102,8 +102,8 @@
 	<Character Portrait="Portrait_A_52" Team="0" Rank="0" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
 	<Character Portrait="Portrait_A_53" Team="1" Rank="0" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
 	<Character Portrait="Portrait_A_62" Team="0" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
-	<Character Portrait="Portrait_A_63" Team="1" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
-	<Character Portrait="Portrait_A_72" Team="0" Rank="0" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
+	<Character Portrait="Portrait_A_63" Team="1" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Male_Officer_2" />
+	<Character Portrait="Portrait_A_72" Team="0" Rank="0" IsPlayer="false" IsMale="false" Name="" Voice="Female_Officer_2" />
 	<Character Portrait="Portrait_A_73" Team="1" Rank="0" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
 	<Character Portrait="Portrait_A_04" Team="0" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
 	<Character Portrait="Portrait_A_05" Team="1" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Events" />

@@ -6,100 +6,76 @@
 	</Meta>
 	<CNodeComponent>
 		<TransformNode>
-			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_A.xml" Lights="true" >
-				<position x="3.4641025066375732422" y="1.9999995231628417969" z="-17.01415252685546875" Type="3dsMax"/>
-				<rotation x="0" y="0" z="-0.86602544784545898438" w="0.49999994039535522461" Type="3dsMax"/>
+			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_B.xml" Lights="true" >
+				<position x="13.348975181579589844" y="7.7070384025573730469" z="-12.422333717346191406" Type="3dsMax"/>
+				<rotation x="-0.83651626110076904297" y="-0.22414408624172210693" z="-0.48296287655830383301" w="-0.12940961122512817383" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_A.xml" Lights="true" >
-				<position x="3.4641027450561523438" y="1.9999996423721313477" z="17" Type="3dsMax"/>
-				<rotation x="0" y="0" z="-0.86602544784545898438" w="0.49999994039535522461" Type="3dsMax"/>
+			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_B.xml" Lights="true" >
+				<position x="-13.348970413208007813" y="7.70703887939453125" z="-12.422337532043457031" Type="3dsMax"/>
+				<rotation x="-0.22414408624172210693" y="-0.83651643991470336914" z="-0.12940959632396697998" w="-0.48296263813972473145" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_A.xml" Lights="true" >
-				<position x="-3.4641020298004150391" y="2.0000007152557373047" z="-17.01415252685546875" Type="3dsMax"/>
-				<rotation x="0" y="0" z="-0.86602544784545898438" w="-0.49999994039535522461" Type="3dsMax"/>
+			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_B.xml" Lights="true" >
+				<position x="-1.0798349876495194621e-06" y="-15.414069175720214844" z="-12.422333717346191406" Type="3dsMax"/>
+				<rotation x="0.61237239837646484375" y="-0.61237245798110961914" z="0.35355338454246520996" w="-0.35355338454246520996" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_A.xml" Lights="true" >
-				<position x="-3.4641017913818359375" y="2.0000004768371582031" z="17" Type="3dsMax"/>
-				<rotation x="0" y="0" z="-0.86602544784545898438" w="-0.49999994039535522461" Type="3dsMax"/>
+			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_B.xml" Lights="true" >
+				<position x="-13.348972320556640625" y="-7.7070374488830566406" z="12.422330856323242188" Type="3dsMax"/>
+				<rotation x="0.4829629063606262207" y="0.12940967082977294922" z="-0.83651632070541381836" w="-0.22414374351501464844" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_A.xml" Lights="true" >
-				<position x="8.6602544784545898438" y="-4.9999995231628417969" z="7" Type="3dsMax"/>
-				<rotation x="0.6123726963996887207" y="0.35355308651924133301" z="-0.3535537421703338623" w="0.61237215995788574219" Type="3dsMax"/>
+			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_B.xml" Lights="true" >
+				<position x="2.8864844807685585693e-06" y="15.414071083068847656" z="12.422334671020507813" Type="3dsMax"/>
+				<rotation x="0.35355341434478759766" y="-0.35355344414710998535" z="-0.61237233877182006836" w="0.61237245798110961914" Type="3dsMax"/>
 			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_A.xml" Lights="true" >
-				<position x="8.6602573394775390625" y="-5" z="-7.0000009536743164063" Type="3dsMax"/>
-				<rotation x="0.6123726963996887207" y="0.35355308651924133301" z="-0.3535537421703338623" w="0.61237215995788574219" Type="3dsMax"/>
-			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_A.xml" Lights="true" >
-				<position x="-8.6602544784545898438" y="-4.9999990463256835938" z="7" Type="3dsMax"/>
-				<rotation x="0.61237227916717529297" y="-0.3535538017749786377" z="0.35355302691459655762" w="0.61237257719039916992" Type="3dsMax"/>
-			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_A.xml" Lights="true" >
-				<position x="-8.66025543212890625" y="-5" z="-7.0000009536743164063" Type="3dsMax"/>
-				<rotation x="0.61237227916717529297" y="-0.3535538017749786377" z="0.35355302691459655762" w="0.61237257719039916992" Type="3dsMax"/>
-			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_A.xml" Lights="true" >
-				<position x="9.7656254638422979042e-07" y="9.9999990463256835938" z="7" Type="3dsMax"/>
-				<rotation x="-4.2990063775505404919e-07" y="-0.70710682868957519531" z="0.70710670948028564453" w="3.6808347658734419383e-07" Type="3dsMax"/>
-			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_A.xml" Lights="true" >
-				<position x="0" y="-4.0000004768371582031" z="-17.01415252685546875" Type="3dsMax"/>
-				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
-			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_A.xml" Lights="true" >
-				<position x="9.7656254638422979042e-07" y="10" z="-7.0000009536743164063" Type="3dsMax"/>
-				<rotation x="-4.2990063775505404919e-07" y="-0.70710682868957519531" z="0.70710670948028564453" w="3.6808347658734419383e-07" Type="3dsMax"/>
-			</Link>
-			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_A.xml" Lights="true" >
-				<position x="0" y="-4" z="17" Type="3dsMax"/>
-				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
+			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseStation_B.xml" Lights="true" >
+				<position x="13.348977088928222656" y="-7.7070341110229492188" z="12.422333717346191406" Type="3dsMax"/>
+				<rotation x="-0.1294094771146774292" y="-0.48296287655830383301" z="0.22414383292198181152" w="0.83651632070541381836" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" Lights="true" >
-				<position x="-0.74620234966278076172" y="-0.35525777935981750488" z="2.2177622318267822266" Type="3dsMax"/>
+				<position x="-0.74620234966278076172" y="-0.35525774955749511719" z="2.2177622318267822266" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710670948028564453" z="0" w="0.7071068882942199707" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="0.39989846944808959961" y="-2.0552499294281005859" z="-0.34060254693031311035" Type="3dsMax"/>
+				<position x="0.39989843964576721191" y="-2.0552496910095214844" z="-0.34060254693031311035" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710694789886474609" z="0.70710659027099609375" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-0.90261799097061157227" y="-2.0552499294281005859" z="-0.34060254693031311035" Type="3dsMax"/>
+				<position x="-0.90261793136596679688" y="-2.0552496910095214844" z="-0.34060254693031311035" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710694789886474609" z="0.70710659027099609375" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-0.90261799097061157227" y="-2.0552499294281005859" z="0.43863284587860107422" Type="3dsMax"/>
+				<position x="-0.90261793136596679688" y="-2.0552496910095214844" z="0.43863281607627868652" Type="3dsMax"/>
 				<rotation x="-0.70710659027099609375" y="0" z="0" w="0.70710694789886474609" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="0.39989846944808959961" y="-2.0552499294281005859" z="0.43863284587860107422" Type="3dsMax"/>
+				<position x="0.39989843964576721191" y="-2.0552496910095214844" z="0.43863281607627868652" Type="3dsMax"/>
 				<rotation x="-0.70710659027099609375" y="0" z="0" w="0.70710694789886474609" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="0.099898442625999450684" y="-2.0552501678466796875" z="2.6593976020812988281" Type="3dsMax"/>
+				<position x="0.09989843517541885376" y="-2.0552499294281005859" z="2.6593973636627197266" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710694789886474609" z="0.70710659027099609375" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-1.2026180028915405273" y="-2.0552501678466796875" z="2.6593976020812988281" Type="3dsMax"/>
+				<position x="-1.2026178836822509766" y="-2.0552499294281005859" z="2.6593973636627197266" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710694789886474609" z="0.70710659027099609375" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-1.2026180028915405273" y="-2.0552501678466796875" z="3.438632965087890625" Type="3dsMax"/>
+				<position x="-1.2026178836822509766" y="-2.0552499294281005859" z="3.4386327266693115234" Type="3dsMax"/>
 				<rotation x="-0.70710659027099609375" y="0" z="0" w="0.70710694789886474609" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="0.099898427724838256836" y="-2.0552501678466796875" z="3.438632965087890625" Type="3dsMax"/>
+				<position x="0.099898420274257659912" y="-2.0552499294281005859" z="3.4386327266693115234" Type="3dsMax"/>
 				<rotation x="-0.70710659027099609375" y="0" z="0" w="0.70710694789886474609" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="0.74021172523498535156" y="2.3323948383331298828" z="2.2000000476837158203" Type="3dsMax"/>
+				<position x="0.74021166563034057617" y="2.3323948383331298828" z="2.2000000476837158203" Type="3dsMax"/>
 				<rotation x="2.3040462338030920364e-07" y="-0.70710659027099609375" z="-2.3040466601287334925e-07" w="0.70710694789886474609" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="0.74021196365356445313" y="2.1797530651092529297" z="1.1999998092651367188" Type="3dsMax"/>
+				<position x="0.74021190404891967773" y="2.1797528266906738281" z="1.1999998092651367188" Type="3dsMax"/>
 				<rotation x="2.3040462338030920364e-07" y="-0.70710659027099609375" z="-2.3040466601287334925e-07" w="0.70710694789886474609" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="-1.1366465091705322266" y="1.7213103771209716797" z="1.2000001668930053711" Type="3dsMax"/>
+				<position x="-1.1366465091705322266" y="1.7213102579116821289" z="1.2000001668930053711" Type="3dsMax"/>
 				<rotation x="2.2338248584219400072e-07" y="0.70710676908493041992" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
@@ -107,123 +83,123 @@
 				<rotation x="2.2338248584219400072e-07" y="0.70710676908493041992" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-1.7762212678462674376e-07" y="0.51400071382522583008" z="-6.0100002288818359375" Type="3dsMax"/>
+				<position x="-1.7762211257377202855e-07" y="0.51400065422058105469" z="-6.0100002288818359375" Type="3dsMax"/>
 				<rotation x="-0.7071068882942199707" y="0" z="0" w="0.70710664987564086914" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-2.1413079309695604024e-07" y="-0.51399940252304077148" z="-6.0100002288818359375" Type="3dsMax"/>
+				<position x="-2.1413077888610132504e-07" y="-0.51399940252304077148" z="-6.0100002288818359375" Type="3dsMax"/>
 				<rotation x="-1.3767879636361612938e-07" y="-0.7071068882942199707" z="-0.70710664987564086914" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-0.40335926413536071777" y="-0.4033578038215637207" z="-6.7660002708435058594" Type="3dsMax"/>
+				<position x="-0.40335926413536071777" y="-0.40335777401924133301" z="-6.7659997940063476563" Type="3dsMax"/>
 				<rotation x="-0.38268357515335083008" y="-0.92387950420379638672" z="-1.6659973312016518321e-07" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="0.40335854887962341309" y="0.40335977077484130859" z="-6.7660002708435058594" Type="3dsMax"/>
+				<position x="0.40335851907730102539" y="0.4033597409725189209" z="-6.7659997940063476563" Type="3dsMax"/>
 				<rotation x="-0.9238796234130859375" y="0.38268327713012695313" z="0" w="-1.7988601541674142936e-07" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-0.40335914492607116699" y="0.40335988998413085938" z="-6.7660002708435058594" Type="3dsMax"/>
+				<position x="-0.40335914492607116699" y="0.40335986018180847168" z="-6.7659997940063476563" Type="3dsMax"/>
 				<rotation x="-0.9238796234130859375" y="-0.38268321752548217773" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="0.4033584296703338623" y="-0.40335792303085327148" z="-6.7660002708435058594" Type="3dsMax"/>
+				<position x="0.40335839986801147461" y="-0.40335792303085327148" z="-6.7659997940063476563" Type="3dsMax"/>
 				<rotation x="0.38268327713012695313" y="-0.9238796234130859375" z="1.6704974825643148506e-07" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="0" y="1.8000004291534423828" z="-8.8910007476806640625" Type="3dsMax"/>
+				<position x="0" y="1.800000309944152832" z="-8.8909997940063476563" Type="3dsMax"/>
 				<rotation x="1.490116119384765625e-07" y="0" z="-1" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="0" y="-1.7999997138977050781" z="-8.8910007476806640625" Type="3dsMax"/>
+				<position x="0" y="-1.7999995946884155273" z="-8.8909997940063476563" Type="3dsMax"/>
 				<rotation x="0" y="0" z="1.5099580252808664227e-07" w="1" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="0.14580276608467102051" y="0.0075005008839070796967" z="-10.90930938720703125" Type="3dsMax"/>
+				<position x="0.14580276608467102051" y="0.0075005008839070796967" z="-10.909308433532714844" Type="3dsMax"/>
 				<rotation x="-0.4999999701976776123" y="-0.49999979138374328613" z="-0.4999999701976776123" w="0.50000029802322387695" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="-0.14580275118350982666" y="0.0075004813261330127716" z="-10.90930938720703125" Type="3dsMax"/>
+				<position x="-0.14580275118350982666" y="0.0075004813261330127716" z="-10.909308433532714844" Type="3dsMax"/>
 				<rotation x="-0.49999991059303283691" y="0.49999985098838806152" z="0.50000011920928955078" w="0.50000011920928955078" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="0.056000001728534698486" y="-2.270617329713786603e-07" z="-9.080219268798828125" Type="3dsMax"/>
+				<position x="0.056000001728534698486" y="-2.270617329713786603e-07" z="-9.0802183151245117188" Type="3dsMax"/>
 				<rotation x="-0.5" y="-0.4999999701976776123" z="-0.4999999701976776123" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-0.056000001728534698486" y="2.8465608465921832249e-06" z="-9.080219268798828125" Type="3dsMax"/>
+				<position x="-0.056000001728534698486" y="2.8465606192185077816e-06" z="-9.0802183151245117188" Type="3dsMax"/>
 				<rotation x="-0.49999994039535522461" y="0.49999994039535522461" z="0.50000005960464477539" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_ShieldGenerator_A.xml" Lights="true" >
-				<position x="-1.4198461771011352539" y="-0.97091680765151977539" z="0.17745453119277954102" Type="3dsMax"/>
+				<position x="-1.4198460578918457031" y="-0.970916748046875" z="0.17745453119277954102" Type="3dsMax"/>
 				<rotation x="0.033879257738590240479" y="-0.80544495582580566406" z="0.43560969829559326172" w="-0.40044325590133666992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_ShieldGenerator_A.xml" Lights="true" >
-				<position x="-1.6783246994018554688" y="0.41044351458549499512" z="5.6989898681640625" Type="3dsMax"/>
+				<position x="-1.678324580192565918" y="0.41044348478317260742" z="5.6989898681640625" Type="3dsMax"/>
 				<rotation x="0.57529276609420776367" y="0.19053347408771514893" z="-0.25008788704872131348" w="0.75511008501052856445" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_ShieldGenerator_A.xml" Lights="true" >
-				<position x="1.0023218393325805664" y="-0.73679172992706298828" z="1.5040132999420166016" Type="3dsMax"/>
+				<position x="1.0023217201232910156" y="-0.73679167032241821289" z="1.5040131807327270508" Type="3dsMax"/>
 				<rotation x="0.37325674295425415039" y="-0.63090342283248901367" z="0.58539903163909912109" w="0.34633538126945495605" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_FighterBay.xml" Lights="true" >
-				<position x="-1.1417610645294189453" y="0.11000000685453414917" z="4.3700008392333984375" Type="3dsMax"/>
+				<position x="-1.1417609453201293945" y="0.10999999940395355225" z="4.3700003623962402344" Type="3dsMax"/>
 				<rotation x="-0.70710682868957519531" y="0" z="-0.70710670948028564453" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CorvetteBay.xml" Lights="true" >
-				<position x="-0.038239017128944396973" y="0.10500000417232513428" z="4.3699998855590820313" Type="3dsMax"/>
+				<position x="-0.038239013403654098511" y="0.10499999672174453735" z="4.3699994087219238281" Type="3dsMax"/>
 				<rotation x="-0.70710676908493041992" y="-1.6156525362021056935e-07" z="0.70710676908493041992" w="-1.8404170987196266651e-07" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_FighterBay.xml" Lights="true" >
-				<position x="-1.1417610645294189453" y="0.60000002384185791016" z="4.3700008392333984375" Type="3dsMax"/>
+				<position x="-1.1417609453201293945" y="0.60000002384185791016" z="4.3700003623962402344" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CorvetteBay.xml" Lights="true" >
-				<position x="-0.038239017128944396973" y="0.60500001907348632813" z="4.3699998855590820313" Type="3dsMax"/>
+				<position x="-0.038239013403654098511" y="0.60500001907348632813" z="4.3699994087219238281" Type="3dsMax"/>
 				<rotation x="0" y="0.70710682868957519531" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_FighterBay.xml" Lights="true" >
-				<position x="1.6206014156341552734" y="-1.7999998331069946289" z="-10.149999618530273438" Type="3dsMax"/>
+				<position x="1.6206012964248657227" y="-1.7999997138977050781" z="-10.149998664855957031" Type="3dsMax"/>
 				<rotation x="-0.70710676908493041992" y="-0.70710676908493041992" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CorvetteBay.xml" Lights="true" >
-				<position x="1.6256009340286254883" y="1.800000309944152832" z="-10.149999618530273438" Type="3dsMax"/>
+				<position x="1.6256008148193359375" y="1.8000001907348632813" z="-10.149998664855957031" Type="3dsMax"/>
 				<rotation x="-0.70710676908493041992" y="-0.70710676908493041992" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_FighterBay.xml" Lights="true" >
-				<position x="-1.6206011772155761719" y="1.8000000715255737305" z="-10.149999618530273438" Type="3dsMax"/>
+				<position x="-1.6206010580062866211" y="1.7999999523162841797" z="-10.149998664855957031" Type="3dsMax"/>
 				<rotation x="0.70710676908493041992" y="-0.70710676908493041992" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CorvetteBay.xml" Lights="true" >
-				<position x="-1.6256011724472045898" y="-1.8000000715255737305" z="-10.149999618530273438" Type="3dsMax"/>
+				<position x="-1.6256010532379150391" y="-1.7999999523162841797" z="-10.149998664855957031" Type="3dsMax"/>
 				<rotation x="0.70710676908493041992" y="-0.70710676908493041992" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_ShieldGenerator_A.xml" Lights="true" >
-				<position x="-1.4685457472296548076e-07" y="1.8800005912780761719" z="-10.700000762939453125" Type="3dsMax"/>
+				<position x="-1.4685456051211076556e-07" y="1.8800004720687866211" z="-10.699999809265136719" Type="3dsMax"/>
 				<rotation x="0.70710682868957519531" y="0" z="0" w="0.70710670948028564453" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_ShieldGenerator_A.xml" Lights="true" >
-				<position x="-3.0096546765889797825e-07" y="-1.8799996376037597656" z="-10.700000762939453125" Type="3dsMax"/>
+				<position x="-3.0096543923718854785e-07" y="-1.8799995183944702148" z="-10.699999809265136719" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710682868957519531" z="0.70710670948028564453" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_FighterBay.xml" Lights="true" >
-				<position x="-0.54939961433410644531" y="0.84179997444152832031" z="7.7300004959106445313" Type="3dsMax"/>
+				<position x="-0.54939961433410644531" y="0.84179991483688354492" z="7.7300000190734863281" Type="3dsMax"/>
 				<rotation x="0" y="-1" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_FighterBay.xml" Lights="true" >
-				<position x="-0.54939961433410644531" y="-1.2206003665924072266" z="7.7300004959106445313" Type="3dsMax"/>
+				<position x="-0.54939961433410644531" y="-1.2206003665924072266" z="7.7300000190734863281" Type="3dsMax"/>
 				<rotation x="-1" y="0" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CorvetteBay.xml" Lights="true" >
-				<position x="-0.5" y="-1.3938395977020263672" z="-0.26883944869041442871" Type="3dsMax"/>
+				<position x="-0.5" y="-1.3938394784927368164" z="-0.26883944869041442871" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710682868957519531" z="0.70710670948028564453" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_FighterBay.xml" Lights="true" >
-				<position x="-0.5" y="-1.543839573860168457" z="-0.26383942365646362305" Type="3dsMax"/>
+				<position x="-0.5" y="-1.5438394546508789063" z="-0.26383942365646362305" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="0.70710676908493041992" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_ShieldGenerator_B.xml" Lights="true" >
-				<position x="-0.30001521110534667969" y="-0.30000010132789611816" z="2.5890142917633056641" Type="3dsMax"/>
+				<position x="-0.30001521110534667969" y="-0.30000010132789611816" z="2.5890140533447265625" Type="3dsMax"/>
 				<rotation x="-0.70710676908493041992" y="-0.70710676908493041992" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_ShieldGenerator_B.xml" Lights="true" >
@@ -231,83 +207,83 @@
 				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_ShieldGenerator_B.xml" Lights="true" >
-				<position x="-0.55001521110534667969" y="-0.20000137388706207275" z="9.950000762939453125" Type="3dsMax"/>
+				<position x="-0.55001521110534667969" y="-0.20000135898590087891" z="9.9499998092651367188" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-3.6246275901794433594" y="3.6246311664581298828" z="-3.4999992847442626953" Type="3dsMax"/>
+				<position x="-3.6246273517608642578" y="3.6246311664581298828" z="-3.4999990463256835938" Type="3dsMax"/>
 				<rotation x="0.27059793472290039063" y="-0.6532815098762512207" z="-0.65328156948089599609" w="-0.27059799432754516602" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-3.4464366436004638672" y="3.4464404582977294922" z="-3.4999992847442626953" Type="3dsMax"/>
+				<position x="-3.4464364051818847656" y="3.4464402198791503906" z="-3.4999990463256835938" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="-0.27059793472290039063" z="-0.27059784531593322754" w="0.65328156948089599609" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="3.62462615966796875" y="-3.6246302127838134766" z="-3.5000011920928955078" Type="3dsMax"/>
+				<position x="3.6246259212493896484" y="-3.6246302127838134766" z="-3.5000009536743164063" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="-0.27059793472290039063" z="-0.27059784531593322754" w="0.65328156948089599609" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="3.4464352130889892578" y="-3.4464392662048339844" z="-3.5000011920928955078" Type="3dsMax"/>
+				<position x="3.4464349746704101563" y="-3.4464392662048339844" z="-3.5000009536743164063" Type="3dsMax"/>
 				<rotation x="0.27059796452522277832" y="-0.6532815098762512207" z="-0.6532815098762512207" w="-0.27059799432754516602" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="1.6687804418324958533e-06" y="5.1259999275207519531" z="-3.4999997615814208984" Type="3dsMax"/>
+				<position x="1.6687803281456581317e-06" y="5.12599945068359375" z="-3.4999995231628417969" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="-0.70710676908493041992" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="1.6687804418324958533e-06" y="4.8739995956420898438" z="-3.4999997615814208984" Type="3dsMax"/>
+				<position x="1.6687803281456581317e-06" y="4.8739995956420898438" z="-3.4999995231628417969" Type="3dsMax"/>
 				<rotation x="-0.70710676908493041992" y="-1.6858739115832577227e-07" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-3.2140326311491662636e-06" y="-5.1259989738464355469" z="-3.5000007152557373047" Type="3dsMax"/>
+				<position x="-3.2140324037754908204e-06" y="-5.1259984970092773438" z="-3.5000004768371582031" Type="3dsMax"/>
 				<rotation x="-0.70710676908493041992" y="-1.6858739115832577227e-07" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-3.2140326311491662636e-06" y="-4.8739986419677734375" z="-3.5000007152557373047" Type="3dsMax"/>
+				<position x="-3.2140324037754908204e-06" y="-4.8739986419677734375" z="-3.5000004768371582031" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="-0.70710676908493041992" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="3.6246294975280761719" y="3.6246283054351806641" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="3.6246294975280761719" y="3.6246280670166015625" z="-3.5" Type="3dsMax"/>
 				<rotation x="-0.27059814333915710449" y="-0.65328145027160644531" z="-0.65328145027160644531" w="0.27059814333915710449" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="3.4464385509490966797" y="3.4464373588562011719" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="3.4464385509490966797" y="3.4464373588562011719" z="-3.5" Type="3dsMax"/>
 				<rotation x="-0.65328139066696166992" y="0.27059805393218994141" z="0.2705980837345123291" w="0.6532815098762512207" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-3.6246306896209716797" y="-3.6246263980865478516" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="-3.6246306896209716797" y="-3.62462615966796875" z="-3.5" Type="3dsMax"/>
 				<rotation x="-0.65328139066696166992" y="0.27059805393218994141" z="0.2705980837345123291" w="0.6532815098762512207" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-3.4464397430419921875" y="-3.4464354515075683594" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="-3.4464397430419921875" y="-3.4464352130889892578" z="-3.5" Type="3dsMax"/>
 				<rotation x="-0.27059805393218994141" y="-0.65328145027160644531" z="-0.6532815098762512207" w="0.27059805393218994141" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="5.12599945068359375" y="-5.3784975762027897872e-07" z="-3.5000011920928955078" Type="3dsMax"/>
+				<position x="5.1259989738464355469" y="-5.3784975762027897872e-07" z="-3.5000009536743164063" Type="3dsMax"/>
 				<rotation x="-0.5" y="-0.4999999701976776123" z="-0.4999999701976776123" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="4.8739991188049316406" y="-5.7590057167544728145e-07" z="-3.5000011920928955078" Type="3dsMax"/>
+				<position x="4.8739991188049316406" y="-5.7590057167544728145e-07" z="-3.5000009536743164063" Type="3dsMax"/>
 				<rotation x="-0.49999994039535522461" y="0.49999994039535522461" z="0.50000005960464477539" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-5.12599945068359375" y="2.535772864575847052e-06" z="-3.4999992847442626953" Type="3dsMax"/>
+				<position x="-5.1259989738464355469" y="2.5357726372021716088e-06" z="-3.4999990463256835938" Type="3dsMax"/>
 				<rotation x="-0.49999994039535522461" y="0.49999994039535522461" z="0.50000005960464477539" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-4.8739991188049316406" y="2.535772864575847052e-06" z="-3.4999992847442626953" Type="3dsMax"/>
+				<position x="-4.8739991188049316406" y="2.5357726372021716088e-06" z="-3.4999990463256835938" Type="3dsMax"/>
 				<rotation x="-0.5" y="-0.5" z="-0.5" w="0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-3.4464375972747802734" y="3.4464406967163085938" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="-3.4464375972747802734" y="3.4464404582977294922" z="-10.5" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="-0.27059793472290039063" z="-0.27059784531593322754" w="0.65328156948089599609" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="3.4464342594146728516" y="-3.4464390277862548828" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="3.44643402099609375" y="-3.4464390277862548828" z="-10.5" Type="3dsMax"/>
 				<rotation x="0.27059796452522277832" y="-0.6532815098762512207" z="-0.6532815098762512207" w="-0.27059799432754516602" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="6.1180958255135919899e-07" y="4.8740000724792480469" z="-10.417140007019042969" Type="3dsMax"/>
+				<position x="6.1180952570794033818e-07" y="4.8740000724792480469" z="-10.417140007019042969" Type="3dsMax"/>
 				<rotation x="-0.70710676908493041992" y="-1.6858739115832577227e-07" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
@@ -315,215 +291,215 @@
 				<rotation x="0" y="-0.70710676908493041992" z="-0.70710676908493041992" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="3.4464375972747802734" y="3.4464375972747802734" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="3.4464375972747802734" y="3.4464375972747802734" z="-10.5" Type="3dsMax"/>
 				<rotation x="-0.65328139066696166992" y="0.27059805393218994141" z="0.2705980837345123291" w="0.6532815098762512207" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-3.4464409351348876953" y="-3.4464352130889892578" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="-3.4464406967163085938" y="-3.4464349746704101563" z="-10.5" Type="3dsMax"/>
 				<rotation x="-0.27059805393218994141" y="-0.65328145027160644531" z="-0.6532815098762512207" w="0.27059805393218994141" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="4.8739972114562988281" y="-2.6992080393029027618e-07" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="4.8739972114562988281" y="-2.6992080393029027618e-07" z="-10.5" Type="3dsMax"/>
 				<rotation x="-0.49999994039535522461" y="0.49999994039535522461" z="0.50000005960464477539" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-4.8740010261535644531" y="2.8417525754775851965e-06" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="-4.8740010261535644531" y="2.8417525754775851965e-06" z="-10.5" Type="3dsMax"/>
 				<rotation x="-0.5" y="-0.5" z="-0.5" w="0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="-3.6133160591125488281" y="3.6133182048797607422" z="-10.900000572204589844" Type="3dsMax"/>
+				<position x="-3.6133158206939697266" y="3.6133182048797607422" z="-10.899999618530273438" Type="3dsMax"/>
 				<rotation x="0.6532815098762512207" y="0.27059796452522277832" z="-0.27059817314147949219" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="3.6133131980895996094" y="-3.6133153438568115234" z="-10.900000572204589844" Type="3dsMax"/>
+				<position x="3.6133129596710205078" y="-3.6133151054382324219" z="-10.899999618530273438" Type="3dsMax"/>
 				<rotation x="-0.27059805393218994141" y="0.65328145027160644531" z="-0.6532815098762512207" w="-0.27059805393218994141" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="0" y="5.1100010871887207031" z="-10.900000572204589844" Type="3dsMax"/>
+				<position x="0" y="5.1100010871887207031" z="-10.899999618530273438" Type="3dsMax"/>
 				<rotation x="0.70710682868957519531" y="-1.4891699606778274756e-07" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="-1.8899949054684839211e-06" y="-5.1099991798400878906" z="-10.900000572204589844" Type="3dsMax"/>
+				<position x="-1.8899947917816461995e-06" y="-5.1099991798400878906" z="-10.899999618530273438" Type="3dsMax"/>
 				<rotation x="0" y="0.70710676908493041992" z="-0.70710676908493041992" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="3.6133146286010742188" y="3.6133158206939697266" z="-10.900000572204589844" Type="3dsMax"/>
+				<position x="3.6133143901824951172" y="3.613315582275390625" z="-10.899999618530273438" Type="3dsMax"/>
 				<rotation x="0.6532815098762512207" y="-0.27059805393218994141" z="0.27059784531593322754" w="0.6532815098762512207" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="-3.6133172512054443359" y="-3.6133153438568115234" z="-10.900000572204589844" Type="3dsMax"/>
+				<position x="-3.6133172512054443359" y="-3.6133151054382324219" z="-10.899999618530273438" Type="3dsMax"/>
 				<rotation x="-0.27059799432754516602" y="-0.65328156948089599609" z="0.65328145027160644531" w="-0.27059793472290039063" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="5.1099982261657714844" y="4.9514466127220657654e-07" z="-10.900000572204589844" Type="3dsMax"/>
+				<position x="5.1099982261657714844" y="4.9514460442878771573e-07" z="-10.899999618530273438" Type="3dsMax"/>
 				<rotation x="0.50000005960464477539" y="-0.50000005960464477539" z="0.50000005960464477539" w="0.49999985098838806152" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="-5.1100015640258789063" y="4.9383322675566887483e-07" z="-10.900000572204589844" Type="3dsMax"/>
+				<position x="-5.1100015640258789063" y="4.9383322675566887483e-07" z="-10.899999618530273438" Type="3dsMax"/>
 				<rotation x="0.5" y="0.49999991059303283691" z="-0.5" w="0.50000011920928955078" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="3.6246271133422851563" y="3.6246306896209716797" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="3.6246268749237060547" y="3.6246306896209716797" z="3.5" Type="3dsMax"/>
 				<rotation x="0.65328156948089599609" y="-0.27059796452522277832" z="0.27059793472290039063" w="0.6532815098762512207" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="3.4464361667633056641" y="3.4464397430419921875" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="3.4464359283447265625" y="3.4464397430419921875" z="3.5" Type="3dsMax"/>
 				<rotation x="-0.27059790492057800293" y="-0.65328156948089599609" z="0.6532815098762512207" w="-0.27059790492057800293" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-3.6246266365051269531" y="-3.6246306896209716797" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-3.6246263980865478516" y="-3.6246306896209716797" z="3.5" Type="3dsMax"/>
 				<rotation x="-0.27059790492057800293" y="-0.65328156948089599609" z="0.6532815098762512207" w="-0.27059790492057800293" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-3.4464356899261474609" y="-3.4464397430419921875" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-3.4464354515075683594" y="-3.4464397430419921875" z="3.5" Type="3dsMax"/>
 				<rotation x="0.6532815098762512207" y="-0.27059799432754516602" z="0.27059796452522277832" w="0.6532815098762512207" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-2.1972657577862264588e-06" y="5.1259999275207519531" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-2.1972655304125510156e-06" y="5.12599945068359375" z="3.5" Type="3dsMax"/>
 				<rotation x="0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-2.1972657577862264588e-06" y="4.8739995956420898438" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-2.1972655304125510156e-06" y="4.8739995956420898438" z="3.5" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="0.70710676908493041992" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-3.624629974365234375" y="3.6246278285980224609" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-3.624629974365234375" y="3.6246275901794433594" z="3.5" Type="3dsMax"/>
 				<rotation x="0.6532815098762512207" y="0.2705980837345123291" z="-0.27059805393218994141" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-3.4464390277862548828" y="3.4464368820190429688" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-3.4464390277862548828" y="3.4464368820190429688" z="3.5" Type="3dsMax"/>
 				<rotation x="0.2705981135368347168" y="-0.6532815098762512207" z="0.65328139066696166992" w="0.2705980837345123291" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="3.6246302127838134766" y="-3.6246268749237060547" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="3.6246302127838134766" y="-3.6246266365051269531" z="3.5" Type="3dsMax"/>
 				<rotation x="0.2705981135368347168" y="-0.6532815098762512207" z="0.65328139066696166992" w="0.2705980837345123291" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="3.4464392662048339844" y="-3.4464359283447265625" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="3.4464392662048339844" y="-3.4464356899261474609" z="3.5" Type="3dsMax"/>
 				<rotation x="0.6532815098762512207" y="0.2705980837345123291" z="-0.27059805393218994141" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-5.12599945068359375" y="-8.4382952536543598399e-07" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-5.1259989738464355469" y="-8.4382946852201712318e-07" z="3.5" Type="3dsMax"/>
 				<rotation x="0.50000005960464477539" y="0.4999999701976776123" z="-0.49999994039535522461" w="0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-4.8739991188049316406" y="-8.8188033942060428672e-07" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-4.8739991188049316406" y="-8.8188028257718542591e-07" z="3.5" Type="3dsMax"/>
 				<rotation x="-0.5" y="0.5" z="-0.5" w="-0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="5.12599945068359375" y="2.2297933810477843508e-06" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="5.1259989738464355469" y="2.2297931536741089076e-06" z="3.5" Type="3dsMax"/>
 				<rotation x="-0.5" y="0.5" z="-0.5" w="-0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="4.8739991188049316406" y="2.2297933810477843508e-06" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="4.8739991188049316406" y="2.2297931536741089076e-06" z="3.5" Type="3dsMax"/>
 				<rotation x="-0.5" y="-0.5" z="0.5" w="-0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="3.4464361667633056641" y="3.4464395046234130859" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="3.4464359283447265625" y="3.4464395046234130859" z="10.5" Type="3dsMax"/>
 				<rotation x="-0.27059790492057800293" y="-0.65328156948089599609" z="0.6532815098762512207" w="-0.27059790492057800293" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-3.4464356899261474609" y="-3.4464402198791503906" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="-3.4464354515075683594" y="-3.4464399814605712891" z="10.5" Type="3dsMax"/>
 				<rotation x="0.6532815098762512207" y="-0.27059799432754516602" z="0.27059796452522277832" w="0.6532815098762512207" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="3.6133141517639160156" y="3.6133172512054443359" z="10.900000572204589844" Type="3dsMax"/>
+				<position x="3.6133139133453369141" y="3.6133172512054443359" z="10.899999618530273438" Type="3dsMax"/>
 				<rotation x="-0.2705981135368347168" y="-0.65328145027160644531" z="-0.6532815098762512207" w="0.27059802412986755371" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="-3.6133151054382324219" y="-3.6133162975311279297" z="10.900000572204589844" Type="3dsMax"/>
+				<position x="-3.6133148670196533203" y="-3.6133160591125488281" z="10.899999618530273438" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="0.2705980837345123291" z="0.27059805393218994141" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-2.1972657577862264588e-06" y="4.8739991188049316406" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="-2.1972655304125510156e-06" y="4.8739991188049316406" z="10.5" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="0.70710676908493041992" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="2.6855470878217602149e-06" y="-4.8739991188049316406" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="2.6855468604480847716e-06" y="-4.8739991188049316406" z="10.5" Type="3dsMax"/>
 				<rotation x="0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="-1.7089844277506927028e-06" y="5.1100001335144042969" z="10.900000572204589844" Type="3dsMax"/>
+				<position x="-1.7089844277506927028e-06" y="5.1100001335144042969" z="10.899999618530273438" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="-0.70710676908493041992" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="2.441406365960574476e-07" y="-5.1100001335144042969" z="10.900000572204589844" Type="3dsMax"/>
+				<position x="2.441406365960574476e-07" y="-5.1100001335144042969" z="10.899999618530273438" Type="3dsMax"/>
 				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-3.4464390277862548828" y="3.4464366436004638672" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="-3.4464390277862548828" y="3.4464364051818847656" z="10.5" Type="3dsMax"/>
 				<rotation x="0.2705981135368347168" y="-0.6532815098762512207" z="0.65328139066696166992" w="0.2705980837345123291" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="3.4464392662048339844" y="-3.4464361667633056641" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="3.4464392662048339844" y="-3.4464359283447265625" z="10.5" Type="3dsMax"/>
 				<rotation x="0.6532815098762512207" y="0.2705980837345123291" z="-0.27059805393218994141" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="-3.6133165359497070313" y="3.6133148670196533203" z="10.900000572204589844" Type="3dsMax"/>
+				<position x="-3.6133162975311279297" y="3.6133146286010742188" z="10.899999618530273438" Type="3dsMax"/>
 				<rotation x="0.27059793472290039063" y="-0.6532815098762512207" z="-0.65328145027160644531" w="-0.27059805393218994141" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="3.6133158206939697266" y="-3.6133162975311279297" z="10.900000572204589844" Type="3dsMax"/>
+				<position x="3.613315582275390625" y="-3.6133160591125488281" z="10.899999618530273438" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="-0.27059799432754516602" z="-0.27059796452522277832" w="0.6532815098762512207" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="-4.8739991188049316406" y="-1.187860107165761292e-06" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="-4.8739991188049316406" y="-1.1878599934789235704e-06" z="10.5" Type="3dsMax"/>
 				<rotation x="-0.5" y="0.5" z="-0.5" w="-0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_B.xml" Lights="true" >
-				<position x="4.8739991188049316406" y="1.9238136701460462064e-06" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="4.8739991188049316406" y="1.9238134427723707631e-06" z="10.5" Type="3dsMax"/>
 				<rotation x="-0.5" y="-0.5" z="0.5" w="-0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="-5.1100001335144042969" y="-4.5776369006489403546e-07" z="10.900000572204589844" Type="3dsMax"/>
+				<position x="-5.1100001335144042969" y="-4.5776366164318460505e-07" z="10.899999618530273438" Type="3dsMax"/>
 				<rotation x="0.49999991059303283691" y="-0.50000005960464477539" z="-0.50000005960464477539" w="-0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="5.1100006103515625" y="-4.5907501089459401555e-07" z="10.900000572204589844" Type="3dsMax"/>
+				<position x="5.1100006103515625" y="-4.5907501089459401555e-07" z="10.899999618530273438" Type="3dsMax"/>
 				<rotation x="-0.50000005960464477539" y="-0.4999999701976776123" z="-0.49999994039535522461" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_4.xml" Lights="true" >
-				<position x="-1.0055669546127319336" y="-1.9799998998641967773" z="1.5329294204711914063" Type="3dsMax"/>
+				<position x="-1.0055668354034423828" y="-1.9799997806549072266" z="1.5329293012619018555" Type="3dsMax"/>
 				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_4.xml" Lights="true" >
-				<position x="0.19443309307098388672" y="-1.9799998998641967773" z="1.5329294204711914063" Type="3dsMax"/>
+				<position x="0.19443309307098388672" y="-1.9799997806549072266" z="1.5329293012619018555" Type="3dsMax"/>
 				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_City_A.xml" Lights="true" >
-				<position x="-0.5" y="-1.4000000953674316406" z="0.20000003278255462646" Type="3dsMax"/>
+				<position x="-0.4999999701976776123" y="-1.3999999761581420898" z="0.20000003278255462646" Type="3dsMax"/>
 				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_HexTower_A.xml" Lights="true" >
-				<position x="-1.4000000953674316406" y="-1.2000000476837158203" z="2.1500000953674316406" Type="3dsMax"/>
+				<position x="-1.3999999761581420898" y="-1.2000000476837158203" z="2.1500000953674316406" Type="3dsMax"/>
 				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_Tall_C.xml" Lights="true" >
-				<position x="-0.54999983310699462891" y="-0.90000081062316894531" z="8.9957780838012695313" Type="3dsMax"/>
+				<position x="-0.54999983310699462891" y="-0.90000081062316894531" z="8.995777130126953125" Type="3dsMax"/>
 				<rotation x="0" y="0.70710682868957519531" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_Tall_C.xml" Lights="true" >
-				<position x="-0.54999983310699462891" y="0.49999913573265075684" z="8.9957780838012695313" Type="3dsMax"/>
+				<position x="-0.54999983310699462891" y="0.49999910593032836914" z="8.995777130126953125" Type="3dsMax"/>
 				<rotation x="0" y="0.70710682868957519531" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_Flat_A.xml" Lights="true" >
-				<position x="-0.54999983310699462891" y="-0.20000086724758148193" z="8.19577789306640625" Type="3dsMax"/>
+				<position x="-0.54999983310699462891" y="-0.20000085234642028809" z="8.1957769393920898438" Type="3dsMax"/>
 				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Hub_B_Hollow.xml" Lights="true" >
-				<position x="-0.54999983310699462891" y="-0.20000086724758148193" z="8.9957780838012695313" Type="3dsMax"/>
+				<position x="-0.54999983310699462891" y="-0.20000085234642028809" z="8.995777130126953125" Type="3dsMax"/>
 				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Reactor_A.xml" Lights="true" >
-				<position x="-0.54999983310699462891" y="-0.20000086724758148193" z="8.5557775497436523438" Type="3dsMax"/>
+				<position x="-0.54999983310699462891" y="-0.20000085234642028809" z="8.5557775497436523438" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CityTower_B.xml" Lights="true" >
-				<position x="-0.54999983310699462891" y="0.59999901056289672852" z="9.8957777023315429688" Type="3dsMax"/>
+				<position x="-0.54999983310699462891" y="0.59999895095825195313" z="9.8957777023315429688" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="-0.70710676908493041992" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CityTower_B.xml" Lights="true" >
-				<position x="-0.54999983310699462891" y="0.59999901056289672852" z="8.0957775115966796875" Type="3dsMax"/>
+				<position x="-0.54999983310699462891" y="0.59999895095825195313" z="8.0957775115966796875" Type="3dsMax"/>
 				<rotation x="0.70710676908493041992" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CityTower_B.xml" Lights="true" >
@@ -535,75 +511,75 @@
 				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes2.xml" Lights="true" >
-				<position x="-0.74810278415679931641" y="-0.06376692652702331543" z="1.780650019645690918" Type="3dsMax"/>
+				<position x="-0.74810272455215454102" y="-0.063766919076442718506" z="1.7806499004364013672" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710670948028564453" z="0" w="0.7071068882942199707" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes1.xml" Lights="true" >
-				<position x="-0.76173818111419677734" y="-0.71397417783737182617" z="1.7928346395492553711" Type="3dsMax"/>
+				<position x="-0.76173818111419677734" y="-0.71397411823272705078" z="1.7928346395492553711" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710670948028564453" z="0" w="0.7071068882942199707" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Factories/SFC_Factory_SphericalTank.xml" Lights="true" >
-				<position x="-0.74620234966278076172" y="-0.35525777935981750488" z="1.539564967155456543" Type="3dsMax"/>
+				<position x="-0.74620234966278076172" y="-0.35525774955749511719" z="1.539564967155456543" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710670948028564453" z="0" w="0.7071068882942199707" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Factories/SFC_Factory_RefineryTower2.xml" Lights="true" >
-				<position x="-0.71936827898025512695" y="-0.79934471845626831055" z="1.103915095329284668" Type="3dsMax"/>
+				<position x="-0.71936821937561035156" y="-0.79934465885162353516" z="1.103915095329284668" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710670948028564453" z="0" w="0.7071068882942199707" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Factories/SFC_Factory_RefineryTower1.xml" Lights="true" >
-				<position x="-0.75357604026794433594" y="-0.82350933551788330078" z="2.1206076145172119141" Type="3dsMax"/>
+				<position x="-0.75357598066329956055" y="-0.82350927591323852539" z="2.1206073760986328125" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710670948028564453" z="0" w="0.7071068882942199707" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Factories/SFC_Factory_Pipes3.xml" Lights="true" >
-				<position x="-0.75290453433990478516" y="-0.32646200060844421387" z="1.8439563512802124023" Type="3dsMax"/>
+				<position x="-0.75290447473526000977" y="-0.32646197080612182617" z="1.8439563512802124023" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection2.xml" Lights="true" >
-				<position x="-0.75702202320098876953" y="-0.16591788828372955322" z="1.7820723056793212891" Type="3dsMax"/>
+				<position x="-0.75702196359634399414" y="-0.16591787338256835938" z="1.7820723056793212891" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710670948028564453" z="0" w="0.7071068882942199707" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Factories/SFC_Factory_PipesConnection1.xml" Lights="true" >
-				<position x="-0.75914019346237182617" y="-0.55253118276596069336" z="1.7967917919158935547" Type="3dsMax"/>
+				<position x="-0.75914013385772705078" y="-0.55253112316131591797" z="1.7967917919158935547" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710670948028564453" z="0" w="0.7071068882942199707" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Factories/SFC_Factory_6CylindersSmall.xml" Lights="true" >
-				<position x="-0.73488557338714599609" y="-0.35347327589988708496" z="1.2216104269027709961" Type="3dsMax"/>
+				<position x="-0.73488557338714599609" y="-0.35347327589988708496" z="1.2216103076934814453" Type="3dsMax"/>
 				<rotation x="0.50000011920928955078" y="-0.4999999701976776123" z="0.49999988079071044922" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Factories/SFC_Factory_2DiscsSmall.xml" Lights="true" >
-				<position x="-0.76355928182601928711" y="-0.15261311829090118408" z="1.488675236701965332" Type="3dsMax"/>
+				<position x="-0.76355928182601928711" y="-0.15261311829090118408" z="1.4886751174926757813" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710670948028564453" z="0" w="0.7071068882942199707" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="3.5355341434478759766" y="-3.535533905029296875" z="8.6227855682373046875" Type="3dsMax"/>
+				<position x="3.535533905029296875" y="-3.5355336666107177734" z="8.6227855682373046875" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="0.27059805393218994141" z="0.27059802412986755371" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="3.5355341434478759766" y="-3.535533905029296875" z="5.3772149085998535156" Type="3dsMax"/>
+				<position x="3.535533905029296875" y="-3.5355336666107177734" z="5.3772149085998535156" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="0.27059805393218994141" z="0.27059802412986755371" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="-3.5355341434478759766" y="3.535533905029296875" z="8.6227855682373046875" Type="3dsMax"/>
+				<position x="-3.535533905029296875" y="3.5355336666107177734" z="8.6227855682373046875" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="0.27059805393218994141" z="0.27059802412986755371" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="-3.5355341434478759766" y="3.535533905029296875" z="5.3772149085998535156" Type="3dsMax"/>
+				<position x="-3.535533905029296875" y="3.5355336666107177734" z="5.3772149085998535156" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="0.27059805393218994141" z="0.27059802412986755371" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="-3.5355343818664550781" y="-3.5355346202850341797" z="5.3772149085998535156" Type="3dsMax"/>
+				<position x="-3.5355341434478759766" y="-3.5355343818664550781" z="5.3772149085998535156" Type="3dsMax"/>
 				<rotation x="0.2705980837345123291" y="-0.6532815098762512207" z="-0.65328145027160644531" w="-0.27059805393218994141" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="-3.535533905029296875" y="-3.5355343818664550781" z="8.6227855682373046875" Type="3dsMax"/>
+				<position x="-3.5355336666107177734" y="-3.5355341434478759766" z="8.6227855682373046875" Type="3dsMax"/>
 				<rotation x="0.2705980837345123291" y="-0.6532815098762512207" z="-0.65328145027160644531" w="-0.27059805393218994141" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="3.5355336666107177734" y="3.5355336666107177734" z="5.3772149085998535156" Type="3dsMax"/>
+				<position x="3.5355334281921386719" y="3.5355334281921386719" z="5.3772149085998535156" Type="3dsMax"/>
 				<rotation x="0.2705980837345123291" y="-0.6532815098762512207" z="-0.65328145027160644531" w="-0.27059805393218994141" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="3.5355336666107177734" y="3.5355341434478759766" z="8.6227855682373046875" Type="3dsMax"/>
+				<position x="3.5355334281921386719" y="3.535533905029296875" z="8.6227855682373046875" Type="3dsMax"/>
 				<rotation x="0.2705980837345123291" y="-0.6532815098762512207" z="-0.65328145027160644531" w="-0.27059805393218994141" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
@@ -615,83 +591,83 @@
 				<rotation x="-0.50000005960464477539" y="0.5" z="0.4999999701976776123" w="0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-3.5355322360992431641" y="-3.5355350971221923828" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="-3.5355319976806640625" y="-3.5355348587036132813" z="10.5" Type="3dsMax"/>
 				<rotation x="0.65328168869018554688" y="0.2705974876880645752" z="-0.65328174829483032227" w="-0.2705974280834197998" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="1.7089844277506927028e-06" y="-5" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="1.7089844277506927028e-06" y="-5" z="10.5" Type="3dsMax"/>
 				<rotation x="0.50000023841857910156" y="0.49999976158142089844" z="-0.50000023841857910156" w="-0.49999976158142089844" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="3.5355350971221923828" y="-3.5355322360992431641" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="3.5355348587036132813" y="-3.5355319976806640625" z="10.5" Type="3dsMax"/>
 				<rotation x="-0.27059832215309143066" y="-0.65328139066696166992" z="0.27059838175773620605" w="0.65328133106231689453" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="4.9999990463256835938" y="1.9238134427723707631e-06" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="4.9999990463256835938" y="1.9238134427723707631e-06" z="10.5" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="3.5355343818664550781" y="-3.5355324745178222656" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="3.5355341434478759766" y="-3.5355322360992431641" z="3.5" Type="3dsMax"/>
 				<rotation x="-0.27059862017631530762" y="-0.65328121185302734375" z="0.27059867978096008301" w="0.65328121185302734375" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="5" y="1.3736930668528657407e-06" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="5" y="1.373692953166028019e-06" z="3.5" Type="3dsMax"/>
 				<rotation x="-3.6386734336701920256e-07" y="-0.70710676908493041992" z="3.9477592395087413024e-07" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="3.5355327129364013672" y="3.5355348587036132813" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="3.5355324745178222656" y="3.5355346202850341797" z="3.5" Type="3dsMax"/>
 				<rotation x="0.27059772610664367676" y="-0.65328162908554077148" z="-0.27059769630432128906" w="0.65328162908554077148" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-1.4648437627329258248e-06" y="4.9999995231628417969" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-1.4648437627329258248e-06" y="4.9999995231628417969" z="3.5" Type="3dsMax"/>
 				<rotation x="0.49999994039535522461" y="-0.50000005960464477539" z="-0.49999994039535522461" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="3.5355343818664550781" y="-3.5355317592620849609" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="3.5355341434478759766" y="-3.5355315208435058594" z="-10.5" Type="3dsMax"/>
 				<rotation x="-0.27059862017631530762" y="-0.65328121185302734375" z="0.27059867978096008301" w="0.65328121185302734375" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="5" y="1.9856524886563420296e-06" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="5" y="1.9856522612826665863e-06" z="-10.5" Type="3dsMax"/>
 				<rotation x="-3.6386734336701920256e-07" y="-0.70710676908493041992" z="3.9477592395087413024e-07" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="3.5355327129364013672" y="3.5355355739593505859" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="3.5355324745178222656" y="3.5355353355407714844" z="-10.5" Type="3dsMax"/>
 				<rotation x="0.27059772610664367676" y="-0.65328162908554077148" z="-0.27059769630432128906" w="0.65328162908554077148" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-1.4648437627329258248e-06" y="5" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="-1.4648437627329258248e-06" y="5" z="-10.5" Type="3dsMax"/>
 				<rotation x="0.49999994039535522461" y="-0.50000005960464477539" z="-0.49999994039535522461" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-1.4648437627329258248e-06" y="4.9999995231628417969" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="-1.4648437627329258248e-06" y="4.9999995231628417969" z="-3.5" Type="3dsMax"/>
 				<rotation x="0.49999994039535522461" y="-0.50000005960464477539" z="-0.49999994039535522461" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="3.5355327129364013672" y="3.5355353355407714844" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="3.5355324745178222656" y="3.5355350971221923828" z="-3.5" Type="3dsMax"/>
 				<rotation x="0.27059772610664367676" y="-0.65328162908554077148" z="-0.27059769630432128906" w="0.65328162908554077148" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="5" y="1.6796727777546038851e-06" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="5" y="1.6796727777546038851e-06" z="-3.5" Type="3dsMax"/>
 				<rotation x="-3.6386734336701920256e-07" y="-0.70710676908493041992" z="3.9477592395087413024e-07" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="3.5355343818664550781" y="-3.5355319976806640625" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="3.5355341434478759766" y="-3.5355317592620849609" z="-3.5" Type="3dsMax"/>
 				<rotation x="-0.27059862017631530762" y="-0.65328121185302734375" z="0.27059867978096008301" w="0.65328121185302734375" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Tower_A.xml" Lights="true" >
-				<position x="0.65000003576278686523" y="1.9059329032897949219" z="2.2000000476837158203" Type="3dsMax"/>
+				<position x="0.64999997615814208984" y="1.9059329032897949219" z="2.2000000476837158203" Type="3dsMax"/>
 				<rotation x="0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Tower_A.xml" Lights="true" >
-				<position x="0.65000003576278686523" y="1.7532908916473388672" z="1.2000000476837158203" Type="3dsMax"/>
+				<position x="0.64999997615814208984" y="1.7532907724380493164" z="1.2000000476837158203" Type="3dsMax"/>
 				<rotation x="0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Tower_A.xml" Lights="true" >
-				<position x="-1.0500000715255737305" y="1.2948479652404785156" z="1.2000000476837158203" Type="3dsMax"/>
+				<position x="-1.0499999523162841797" y="1.2948478460311889648" z="1.2000000476837158203" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="-0.70710676908493041992" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Tower_A.xml" Lights="true" >
-				<position x="-1.0500000715255737305" y="1.5123434066772460938" z="2.2000000476837158203" Type="3dsMax"/>
+				<position x="-1.0499999523162841797" y="1.5123434066772460938" z="2.2000000476837158203" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="-0.70710676908493041992" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Hub_B_Hollow.xml" Lights="true" >
@@ -699,7 +675,7 @@
 				<rotation x="0.70710676908493041992" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_Cap.xml" Lights="true" >
-				<position x="-0.20000003278255462646" y="3.2007546424865722656" z="2.7000000476837158203" Type="3dsMax"/>
+				<position x="-0.20000003278255462646" y="3.2007544040679931641" z="2.7000000476837158203" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.70710670948028564453" w="0.70710682868957519531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_Cap.xml" Lights="true" >
@@ -707,11 +683,11 @@
 				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_Cap.xml" Lights="true" >
-				<position x="-0.20000003278255462646" y="3.2007546424865722656" z="0.70000004768371582031" Type="3dsMax"/>
+				<position x="-0.20000003278255462646" y="3.2007544040679931641" z="0.69999998807907104492" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.70710670948028564453" w="0.70710682868957519531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_Cap.xml" Lights="true" >
-				<position x="-0.19999994337558746338" y="2.0007543563842773438" z="0.70000004768371582031" Type="3dsMax"/>
+				<position x="-0.19999994337558746338" y="2.0007543563842773438" z="0.69999998807907104492" Type="3dsMax"/>
 				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_5u.xml" Lights="true" >
@@ -719,27 +695,27 @@
 				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_5u.xml" Lights="true" >
-				<position x="-0.19999995827674865723" y="2.6007544994354248047" z="0.70000004768371582031" Type="3dsMax"/>
+				<position x="-0.19999995827674865723" y="2.6007544994354248047" z="0.69999998807907104492" Type="3dsMax"/>
 				<rotation x="0" y="0" z="-0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_City_B.xml" Lights="true" >
-				<position x="0.30000007152557373047" y="1.2507543563842773438" z="1.7000000476837158203" Type="3dsMax"/>
+				<position x="0.30000007152557373047" y="1.250754237174987793" z="1.7000000476837158203" Type="3dsMax"/>
 				<rotation x="-0.4999999701976776123" y="0.50000005960464477539" z="-0.49999994039535522461" w="0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Hub_B_Hollow.xml" Lights="true" >
-				<position x="-0.19999997317790985107" y="1.8507543802261352539" z="1.7000000476837158203" Type="3dsMax"/>
+				<position x="-0.19999997317790985107" y="1.8507542610168457031" z="1.7000000476837158203" Type="3dsMax"/>
 				<rotation x="0.70710676908493041992" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_2.xml" Lights="true" >
-				<position x="0.45000001788139343262" y="2.6107544898986816406" z="1.7000000476837158203" Type="3dsMax"/>
+				<position x="0.44999998807907104492" y="2.6107544898986816406" z="1.7000000476837158203" Type="3dsMax"/>
 				<rotation x="0.70710676908493041992" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_2.xml" Lights="true" >
-				<position x="0.45000001788139343262" y="2.8707544803619384766" z="1.7000000476837158203" Type="3dsMax"/>
+				<position x="0.44999998807907104492" y="2.8707544803619384766" z="1.7000000476837158203" Type="3dsMax"/>
 				<rotation x="0.70710676908493041992" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_2.xml" Lights="true" >
-				<position x="0.45000001788139343262" y="2.3507544994354248047" z="1.7000000476837158203" Type="3dsMax"/>
+				<position x="0.44999998807907104492" y="2.3507544994354248047" z="1.7000000476837158203" Type="3dsMax"/>
 				<rotation x="0.70710676908493041992" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_2.xml" Lights="true" >
@@ -759,15 +735,15 @@
 				<rotation x="-0.70710676908493041992" y="0" z="0.70710676908493041992" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_square.xml" Lights="true" >
-				<position x="0" y="3.4715187549591064453" z="-10.3097686767578125" Type="3dsMax"/>
+				<position x="0" y="3.4715185165405273438" z="-10.3097686767578125" Type="3dsMax"/>
 				<rotation x="0.13052618503570556641" y="0" z="0" w="0.9914448857307434082" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_square.xml" Lights="true" >
-				<position x="0" y="-3.4715173244476318359" z="-10.3097686767578125" Type="3dsMax"/>
+				<position x="0" y="-3.4715170860290527344" z="-10.3097686767578125" Type="3dsMax"/>
 				<rotation x="-0.13052618503570556641" y="0" z="0" w="0.9914448857307434082" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_OpenPylon_Long_A.xml" Lights="true" >
-				<position x="0" y="0.80000042915344238281" z="-8" Type="3dsMax"/>
+				<position x="0" y="0.80000036954879760742" z="-8" Type="3dsMax"/>
 				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_OpenPylon_Long_A.xml" Lights="true" >
@@ -775,47 +751,47 @@
 				<rotation x="0" y="-0.70710676908493041992" z="-0.70710676908493041992" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Indy_C.xml" Lights="true" >
-				<position x="-1.250001072883605957" y="-1.7999995946884155273" z="-9.8899993896484375" Type="3dsMax"/>
+				<position x="-1.2500009536743164063" y="-1.7999994754791259766" z="-9.8899993896484375" Type="3dsMax"/>
 				<rotation x="-1" y="0" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Indy_C.xml" Lights="true" >
-				<position x="-1.250001072883605957" y="1.8000010251998901367" z="-9.8899993896484375" Type="3dsMax"/>
+				<position x="-1.2500009536743164063" y="1.8000010251998901367" z="-9.8899993896484375" Type="3dsMax"/>
 				<rotation x="-1" y="0" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_3x.xml" Lights="true" >
-				<position x="0" y="1.9691827297210693359" z="-9.9400005340576171875" Type="3dsMax"/>
+				<position x="0" y="1.9691826105117797852" z="-9.9399995803833007813" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_3x.xml" Lights="true" >
-				<position x="0" y="1.6291826963424682617" z="-9.9400005340576171875" Type="3dsMax"/>
+				<position x="0" y="1.6291825771331787109" z="-9.9399995803833007813" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Indy_B.xml" Lights="true" >
-				<position x="0" y="-1.7999998331069946289" z="-10.439999580383300781" Type="3dsMax"/>
+				<position x="0" y="-1.7999997138977050781" z="-10.439998626708984375" Type="3dsMax"/>
 				<rotation x="-0.49999994039535522461" y="-0.50000005960464477539" z="0.5" w="0.49999994039535522461" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Indy_B.xml" Lights="true" >
-				<position x="0" y="1.8000010251998901367" z="-10.439999580383300781" Type="3dsMax"/>
+				<position x="0" y="1.8000010251998901367" z="-10.439998626708984375" Type="3dsMax"/>
 				<rotation x="0.5" y="-0.5" z="-0.50000005960464477539" w="0.49999994039535522461" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Indy_B.xml" Lights="true" >
-				<position x="0" y="-1.7999995946884155273" z="-9.4400014877319335938" Type="3dsMax"/>
+				<position x="0" y="-1.7999994754791259766" z="-9.4400005340576171875" Type="3dsMax"/>
 				<rotation x="-0.49999994039535522461" y="0.4999999701976776123" z="-0.50000005960464477539" w="0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Indy_B.xml" Lights="true" >
-				<position x="0" y="1.8000010251998901367" z="-9.4400014877319335938" Type="3dsMax"/>
+				<position x="0" y="1.8000010251998901367" z="-9.4400005340576171875" Type="3dsMax"/>
 				<rotation x="0.49999994039535522461" y="0.50000017881393432617" z="0.49999958276748657227" w="0.50000035762786865234" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_3x.xml" Lights="true" >
-				<position x="0" y="-1.970816493034362793" z="-9.9400005340576171875" Type="3dsMax"/>
+				<position x="0" y="-1.9708163738250732422" z="-9.9399995803833007813" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Indy_C.xml" Lights="true" >
-				<position x="1.25" y="-1.7999995946884155273" z="-9.8899993896484375" Type="3dsMax"/>
+				<position x="1.25" y="-1.7999994754791259766" z="-9.8899993896484375" Type="3dsMax"/>
 				<rotation x="0" y="-1" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_3x.xml" Lights="true" >
-				<position x="0" y="-1.6308164596557617188" z="-9.9400005340576171875" Type="3dsMax"/>
+				<position x="0" y="-1.6308164596557617188" z="-9.9399995803833007813" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Indy_C.xml" Lights="true" >
@@ -823,11 +799,11 @@
 				<rotation x="0" y="-1" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Thin_B.xml" Lights="true" >
-				<position x="0" y="4.7460127916565397754e-07" z="-10.857611656188964844" Type="3dsMax"/>
+				<position x="0" y="4.7460125074394454714e-07" z="-10.857611656188964844" Type="3dsMax"/>
 				<rotation x="0" y="-1" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Thin_B.xml" Lights="true" >
-				<position x="0" y="-0.99999964237213134766" z="-10.857611656188964844" Type="3dsMax"/>
+				<position x="0" y="-0.99999958276748657227" z="-10.857611656188964844" Type="3dsMax"/>
 				<rotation x="0" y="-1" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Thin_B.xml" Lights="true" >
@@ -835,111 +811,111 @@
 				<rotation x="0" y="-1" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Thin_B.xml" Lights="true" >
-				<position x="0" y="3.9438111798517638817e-07" z="-9.022388458251953125" Type="3dsMax"/>
+				<position x="0" y="3.9438108956346695777e-07" z="-9.0223875045776367188" Type="3dsMax"/>
 				<rotation x="0" y="0" z="1.5099580252808664227e-07" w="1" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Thin_B.xml" Lights="true" >
-				<position x="0" y="-0.99999970197677612305" z="-9.0223894119262695313" Type="3dsMax"/>
+				<position x="0" y="-0.99999964237213134766" z="-9.022388458251953125" Type="3dsMax"/>
 				<rotation x="0" y="0" z="1.5099580252808664227e-07" w="1" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Thin_B.xml" Lights="true" >
-				<position x="0" y="1.0000003576278686523" z="-9.022388458251953125" Type="3dsMax"/>
+				<position x="0" y="1.0000003576278686523" z="-9.0223875045776367188" Type="3dsMax"/>
 				<rotation x="0" y="0" z="1.5099580252808664227e-07" w="1" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Thin_Cap.xml" Lights="true" >
-				<position x="0" y="-1.6499996185302734375" z="-10.857611656188964844" Type="3dsMax"/>
+				<position x="0" y="-1.6499994993209838867" z="-10.857611656188964844" Type="3dsMax"/>
 				<rotation x="0" y="-1" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Thin_Cap.xml" Lights="true" >
-				<position x="0" y="1.6500010490417480469" z="-10.857611656188964844" Type="3dsMax"/>
+				<position x="0" y="1.6500009298324584961" z="-10.857611656188964844" Type="3dsMax"/>
 				<rotation x="-1" y="0" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Thin_Cap.xml" Lights="true" >
-				<position x="0" y="-1.6499996185302734375" z="-9.0223894119262695313" Type="3dsMax"/>
+				<position x="0" y="-1.6499994993209838867" z="-9.022388458251953125" Type="3dsMax"/>
 				<rotation x="0" y="0" z="1.5099580252808664227e-07" w="1" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Thin_Cap.xml" Lights="true" >
-				<position x="0" y="1.6500010490417480469" z="-9.022388458251953125" Type="3dsMax"/>
+				<position x="0" y="1.6500009298324584961" z="-9.0223875045776367188" Type="3dsMax"/>
 				<rotation x="0" y="0" z="-1" w="1.5099580252808664227e-07" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-1.500001072883605957" y="4.3263349880362511612e-07" z="-9.8975000381469726563" Type="3dsMax"/>
+				<position x="-1.5000009536743164063" y="4.3263347038191568572e-07" z="-9.8975000381469726563" Type="3dsMax"/>
 				<rotation x="0" y="0.70710670948028564453" z="0" w="0.70710682868957519531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="1.5000001192092895508" y="4.3263349880362511612e-07" z="-9.8975000381469726563" Type="3dsMax"/>
+				<position x="1.5" y="4.3263347038191568572e-07" z="-9.8975000381469726563" Type="3dsMax"/>
 				<rotation x="-0.70710682868957519531" y="0" z="-0.70710670948028564453" w="1.5734916303244972369e-07" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Hub_C.xml" Lights="true" >
-				<position x="0" y="1.2153921127319335938" z="-9.9400005340576171875" Type="3dsMax"/>
+				<position x="0" y="1.2153921127319335938" z="-9.9399995803833007813" Type="3dsMax"/>
 				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Hub_C.xml" Lights="true" >
-				<position x="0" y="-1.1846079826354980469" z="-9.9400005340576171875" Type="3dsMax"/>
+				<position x="0" y="-1.1846078634262084961" z="-9.9399995803833007813" Type="3dsMax"/>
 				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="1.7935855388641357422" y="-4.3351984024047851563" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="1.7935854196548461914" y="-4.3351984024047851563" z="-10.5" Type="3dsMax"/>
 				<rotation x="-0.58793807029724121094" y="0.3928476870059967041" z="0.58793759346008300781" w="-0.39284721016883850098" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-1.7971935272216796875" y="-4.3337044715881347656" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="-1.7971935272216796875" y="-4.3337039947509765625" z="-10.5" Type="3dsMax"/>
 				<rotation x="0.39284732937812805176" y="-0.58793771266937255859" z="-0.39284759759902954102" w="0.58793795108795166016" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-4.3351993560791015625" y="-1.7935835123062133789" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="-4.3351993560791015625" y="-1.7935833930969238281" z="-10.5" Type="3dsMax"/>
 				<rotation x="0.1379496157169342041" y="-0.69351965188980102539" z="-0.13795009255409240723" w="0.69352012872695922852" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-4.3337044715881347656" y="1.7971937656402587891" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="-4.3337039947509765625" y="1.7971937656402587891" z="-10.5" Type="3dsMax"/>
 				<rotation x="-0.1379499584436416626" y="-0.69351971149444580078" z="0.13794948160648345947" w="0.69352018833160400391" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-1.7935843467712402344" y="4.3351984024047851563" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="-1.7935842275619506836" y="4.3351984024047851563" z="-10.5" Type="3dsMax"/>
 				<rotation x="-0.3928476870059967041" y="-0.58793759346008300781" z="0.39284721016883850098" w="0.58793807029724121094" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="1.7971924543380737305" y="4.3337054252624511719" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="1.7971923351287841797" y="4.3337049484252929688" z="-10.5" Type="3dsMax"/>
 				<rotation x="-0.58793789148330688477" y="-0.39284741878509521484" z="0.5879376530647277832" w="0.3928476870059967041" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="4.3337054252624511719" y="-1.7971918582916259766" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="4.3337049484252929688" y="-1.7971917390823364258" z="-10.5" Type="3dsMax"/>
 				<rotation x="-0.69352012872695922852" y="0.13794994354248046875" z="0.69351977109909057617" w="-0.13794946670532226563" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="4.3351984024047851563" y="1.7935857772827148438" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="4.3351984024047851563" y="1.793585658073425293" z="-10.5" Type="3dsMax"/>
 				<rotation x="-0.69352012872695922852" y="-0.13794963061809539795" z="0.69351965188980102539" w="0.13795010745525360107" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="3.5355343818664550781" y="3.5355343818664550781" z="-5.3772139549255371094" Type="3dsMax"/>
+				<position x="3.5355341434478759766" y="3.5355341434478759766" z="-5.3772139549255371094" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="-0.27059805393218994141" z="-0.27059802412986755371" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="3.5355343818664550781" y="3.5355343818664550781" z="-8.6227855682373046875" Type="3dsMax"/>
+				<position x="3.5355341434478759766" y="3.5355341434478759766" z="-8.6227855682373046875" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="-0.27059805393218994141" z="-0.27059802412986755371" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="-3.5355343818664550781" y="-3.5355329513549804688" z="-5.3772139549255371094" Type="3dsMax"/>
+				<position x="-3.5355341434478759766" y="-3.5355327129364013672" z="-5.3772139549255371094" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="-0.27059805393218994141" z="-0.27059802412986755371" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="-3.5355343818664550781" y="-3.5355329513549804688" z="-8.6227855682373046875" Type="3dsMax"/>
+				<position x="-3.5355341434478759766" y="-3.5355327129364013672" z="-8.6227855682373046875" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="-0.27059805393218994141" z="-0.27059802412986755371" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="3.5355336666107177734" y="-3.5355334281921386719" z="-8.6227855682373046875" Type="3dsMax"/>
+				<position x="3.5355334281921386719" y="-3.5355331897735595703" z="-8.6227855682373046875" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="0.2705980837345123291" z="0.27059805393218994141" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="3.5355336666107177734" y="-3.5355334281921386719" z="-5.3772139549255371094" Type="3dsMax"/>
+				<position x="3.5355334281921386719" y="-3.5355331897735595703" z="-5.3772139549255371094" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="0.2705980837345123291" z="0.27059805393218994141" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="-3.5355336666107177734" y="3.5355353355407714844" z="-8.6227855682373046875" Type="3dsMax"/>
+				<position x="-3.5355334281921386719" y="3.5355350971221923828" z="-8.6227855682373046875" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="0.2705980837345123291" z="0.27059805393218994141" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="-3.5355336666107177734" y="3.5355353355407714844" z="-5.3772139549255371094" Type="3dsMax"/>
+				<position x="-3.5355334281921386719" y="3.5355350971221923828" z="-5.3772139549255371094" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="0.2705980837345123291" z="0.27059805393218994141" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
@@ -951,123 +927,123 @@
 				<rotation x="0.5" y="-0.5" z="-0.5" w="-0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="0" y="5.0000009536743164063" z="-8.6227855682373046875" Type="3dsMax"/>
+				<position x="0" y="5.0000004768371582031" z="-8.6227855682373046875" Type="3dsMax"/>
 				<rotation x="0.5" y="-0.5" z="-0.5" w="-0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="0" y="5.0000009536743164063" z="-5.3772139549255371094" Type="3dsMax"/>
+				<position x="0" y="5.0000004768371582031" z="-5.3772139549255371094" Type="3dsMax"/>
 				<rotation x="0.5" y="-0.5" z="-0.5" w="-0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_5u.xml" Lights="true" >
-				<position x="-0.2500000298023223877" y="-1.9800002574920654297" z="-0.25" Type="3dsMax"/>
+				<position x="-0.2500000298023223877" y="-1.9800001382827758789" z="-0.25" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710682868957519531" z="-0.70710670948028564453" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_5u.xml" Lights="true" >
-				<position x="-0.2500000298023223877" y="-1.9800002574920654297" z="0.38000002503395080566" Type="3dsMax"/>
+				<position x="-0.2500000298023223877" y="-1.9800001382827758789" z="0.37999999523162841797" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710682868957519531" z="-0.70710670948028564453" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_B.xml" Lights="true" >
-				<position x="0.44999983906745910645" y="-0.87999993562698364258" z="0.050000000745058059692" Type="3dsMax"/>
+				<position x="0.44999980926513671875" y="-0.87999987602233886719" z="0.050000000745058059692" Type="3dsMax"/>
 				<rotation x="0.50000005960464477539" y="-0.49999994039535522461" z="0.49999994039535522461" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_B.xml" Lights="true" >
-				<position x="-0.95000016689300537109" y="-1.5800001621246337891" z="0.050000000745058059692" Type="3dsMax"/>
+				<position x="-0.9500001072883605957" y="-1.5800001621246337891" z="0.050000000745058059692" Type="3dsMax"/>
 				<rotation x="-0.50000005960464477539" y="0.49999991059303283691" z="0.4999999701976776123" w="0.50000011920928955078" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_A.xml" Lights="true" >
-				<position x="-0.95000028610229492188" y="-0.88000017404556274414" z="0.050000000745058059692" Type="3dsMax"/>
+				<position x="-0.95000022649765014648" y="-0.88000011444091796875" z="0.050000000745058059692" Type="3dsMax"/>
 				<rotation x="0.50000005960464477539" y="-0.49999994039535522461" z="0.49999994039535522461" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_A.xml" Lights="true" >
-				<position x="0.44999989867210388184" y="-1.5800000429153442383" z="0.050000000745058059692" Type="3dsMax"/>
+				<position x="0.44999986886978149414" y="-1.5800000429153442383" z="0.050000000745058059692" Type="3dsMax"/>
 				<rotation x="-0.50000005960464477539" y="0.4999999701976776123" z="0.49999994039535522461" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_Indy_A.xml" Lights="true" >
-				<position x="0.58000004291534423828" y="-2.2900002002716064453" z="0.050000000745058059692" Type="3dsMax"/>
+				<position x="0.57999998331069946289" y="-2.2899999618530273438" z="0.050000000745058059692" Type="3dsMax"/>
 				<rotation x="-0.50000005960464477539" y="-0.50000005960464477539" z="-0.5" w="0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_Indy_A.xml" Lights="true" >
-				<position x="-1.0800000429153442383" y="-2.2900004386901855469" z="0.050000980496406555176" Type="3dsMax"/>
+				<position x="-1.0800000429153442383" y="-2.2900002002716064453" z="0.050000976771116256714" Type="3dsMax"/>
 				<rotation x="-0.5" y="-0.50000005960464477539" z="0.5" w="-0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_Flat_B.xml" Lights="true" >
-				<position x="0.34999996423721313477" y="-1.9800001382827758789" z="0.050000000745058059692" Type="3dsMax"/>
+				<position x="0.34999993443489074707" y="-1.9800000190734863281" z="0.050000000745058059692" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_Flat_B.xml" Lights="true" >
-				<position x="-0.85000002384185791016" y="-1.9800002574920654297" z="0.050000000745058059692" Type="3dsMax"/>
+				<position x="-0.85000002384185791016" y="-1.9800001382827758789" z="0.050000000745058059692" Type="3dsMax"/>
 				<rotation x="0.70710670948028564453" y="0" z="-0.70710682868957519531" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" Lights="true" >
-				<position x="0.53000015020370483398" y="-3.1399998664855957031" z="0.050000980496406555176" Type="3dsMax"/>
+				<position x="0.53000015020370483398" y="-3.1399998664855957031" z="0.050000976771116256714" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" Lights="true" >
-				<position x="-1.0299999713897705078" y="-3.1400001049041748047" z="0.050000000745058059692" Type="3dsMax"/>
+				<position x="-1.029999852180480957" y="-3.1400001049041748047" z="0.050000000745058059692" Type="3dsMax"/>
 				<rotation x="0" y="0.70710670948028564453" z="0" w="0.70710682868957519531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_A.xml" Lights="true" >
-				<position x="-1.25" y="-0.88000029325485229492" z="3.0500001907348632813" Type="3dsMax"/>
+				<position x="-1.25" y="-0.88000023365020751953" z="3.0499999523162841797" Type="3dsMax"/>
 				<rotation x="0.50000005960464477539" y="-0.49999994039535522461" z="0.49999994039535522461" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_B.xml" Lights="true" >
-				<position x="0.15000006556510925293" y="-0.88000005483627319336" z="3.0500001907348632813" Type="3dsMax"/>
+				<position x="0.15000006556510925293" y="-0.87999999523162841797" z="3.0499999523162841797" Type="3dsMax"/>
 				<rotation x="0.50000005960464477539" y="-0.49999994039535522461" z="0.49999994039535522461" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_A.xml" Lights="true" >
-				<position x="0.15000012516975402832" y="-1.5800000429153442383" z="3.0500001907348632813" Type="3dsMax"/>
+				<position x="0.15000012516975402832" y="-1.5800000429153442383" z="3.0499999523162841797" Type="3dsMax"/>
 				<rotation x="-0.50000005960464477539" y="0.4999999701976776123" z="0.49999994039535522461" w="0.50000005960464477539" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" Lights="true" >
-				<position x="-1.3299996852874755859" y="-3.1400001049041748047" z="3.0500001907348632813" Type="3dsMax"/>
+				<position x="-1.3299996852874755859" y="-3.1400001049041748047" z="3.0499999523162841797" Type="3dsMax"/>
 				<rotation x="0" y="0.70710670948028564453" z="0" w="0.70710682868957519531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CapShipDock_B.xml" Lights="true" >
-				<position x="0.23000037670135498047" y="-3.1400001049041748047" z="3.0500011444091796875" Type="3dsMax"/>
+				<position x="0.23000036180019378662" y="-3.1400001049041748047" z="3.0500009059906005859" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_B.xml" Lights="true" >
-				<position x="-1.2499998807907104492" y="-1.5800002813339233398" z="3.0500001907348632813" Type="3dsMax"/>
+				<position x="-1.2499998807907104492" y="-1.5800002813339233398" z="3.0499999523162841797" Type="3dsMax"/>
 				<rotation x="-0.50000005960464477539" y="0.49999991059303283691" z="0.4999999701976776123" w="0.50000011920928955078" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_5u.xml" Lights="true" >
-				<position x="-0.54999983310699462891" y="-1.9800002574920654297" z="2.7500002384185791016" Type="3dsMax"/>
+				<position x="-0.54999983310699462891" y="-1.9800001382827758789" z="2.75" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710682868957519531" z="-0.70710670948028564453" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_Indy_A.xml" Lights="true" >
-				<position x="-1.3799998760223388672" y="-2.2900004386901855469" z="3.0500011444091796875" Type="3dsMax"/>
+				<position x="-1.3799997568130493164" y="-2.2900002002716064453" z="3.0500009059906005859" Type="3dsMax"/>
 				<rotation x="-0.5" y="-0.50000005960464477539" z="0.5" w="-0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_Flat_B.xml" Lights="true" >
-				<position x="0.050000187009572982788" y="-1.9800001382827758789" z="3.0500001907348632813" Type="3dsMax"/>
+				<position x="0.050000183284282684326" y="-1.9800000190734863281" z="3.0499999523162841797" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_Flat_B.xml" Lights="true" >
-				<position x="-1.1499998569488525391" y="-1.9800003767013549805" z="3.0500001907348632813" Type="3dsMax"/>
+				<position x="-1.1499997377395629883" y="-1.9800002574920654297" z="3.0499999523162841797" Type="3dsMax"/>
 				<rotation x="0.70710670948028564453" y="0" z="-0.70710682868957519531" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_5u.xml" Lights="true" >
-				<position x="-0.54999983310699462891" y="-1.9800002574920654297" z="3.3800001144409179688" Type="3dsMax"/>
+				<position x="-0.54999983310699462891" y="-1.9800001382827758789" z="3.3800001144409179688" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710682868957519531" z="-0.70710670948028564453" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_Indy_A.xml" Lights="true" >
-				<position x="0.28000026941299438477" y="-2.2900002002716064453" z="3.0500001907348632813" Type="3dsMax"/>
+				<position x="0.28000023961067199707" y="-2.2899999618530273438" z="3.0499999523162841797" Type="3dsMax"/>
 				<rotation x="-0.50000005960464477539" y="-0.50000005960464477539" z="-0.5" w="0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="-0.89999997615814208984" y="-1.4599999189376831055" z="4.8500003814697265625" Type="3dsMax"/>
+				<position x="-0.89999991655349731445" y="-1.4599999189376831055" z="4.8499999046325683594" Type="3dsMax"/>
 				<rotation x="-0.57357645034790039063" y="0" z="0" w="0.81915205717086791992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="-0.19999994337558746338" y="-1.4599999189376831055" z="4.8500003814697265625" Type="3dsMax"/>
+				<position x="-0.19999994337558746338" y="-1.4599999189376831055" z="4.8499999046325683594" Type="3dsMax"/>
 				<rotation x="-0.57357645034790039063" y="0" z="0" w="0.81915205717086791992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_Flat_B.xml" Lights="true" >
-				<position x="-0.55000030994415283203" y="-0.82973963022232055664" z="6.4218187332153320313" Type="3dsMax"/>
+				<position x="-0.55000030994415283203" y="-0.82973957061767578125" z="6.4218182563781738281" Type="3dsMax"/>
 				<rotation x="-0.57357639074325561523" y="0" z="0" w="0.81915205717086791992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_5u.xml" Lights="true" >
-				<position x="-0.36999851465225219727" y="0.30521163344383239746" z="6.9861850738525390625" Type="3dsMax"/>
+				<position x="-0.36999851465225219727" y="0.30521160364151000977" z="6.9861845970153808594" Type="3dsMax"/>
 				<rotation x="-0.12278772145509719849" y="-0.69636428356170654297" z="-0.12278772145509719849" w="0.69636428356170654297" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_Cap.xml" Lights="true" >
@@ -1075,27 +1051,27 @@
 				<rotation x="-0.12278772145509719849" y="-0.69636428356170654297" z="-0.12278772145509719849" w="0.69636428356170654297" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_Cap.xml" Lights="true" >
-				<position x="-0.73000043630599975586" y="0.51042443513870239258" z="6.4223694801330566406" Type="3dsMax"/>
+				<position x="-0.73000043630599975586" y="0.51042443513870239258" z="6.4223690032958984375" Type="3dsMax"/>
 				<rotation x="-0.69636422395706176758" y="0.12278766930103302002" z="-0.69636428356170654297" w="-0.12278766930103302002" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_5u.xml" Lights="true" >
-				<position x="-0.72999858856201171875" y="0.30521163344383239746" z="6.9861850738525390625" Type="3dsMax"/>
+				<position x="-0.72999852895736694336" y="0.30521160364151000977" z="6.9861845970153808594" Type="3dsMax"/>
 				<rotation x="-0.12278772145509719849" y="-0.69636428356170654297" z="-0.12278772145509719849" w="0.69636428356170654297" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_Cap.xml" Lights="true" >
-				<position x="-0.72999858856201171875" y="0.099999666213989257813" z="7.5500001907348632813" Type="3dsMax"/>
+				<position x="-0.72999852895736694336" y="0.099999666213989257813" z="7.5500001907348632813" Type="3dsMax"/>
 				<rotation x="-0.12278772145509719849" y="-0.69636428356170654297" z="-0.12278772145509719849" w="0.69636428356170654297" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_5u.xml" Lights="true" >
-				<position x="-0.72999858856201171875" y="-0.70521247386932373047" z="6.9861850738525390625" Type="3dsMax"/>
+				<position x="-0.72999852895736694336" y="-0.70521247386932373047" z="6.9861845970153808594" Type="3dsMax"/>
 				<rotation x="0.12278784066438674927" y="-0.69636422395706176758" z="0.12278784066438674927" w="0.69636422395706176758" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_Cap.xml" Lights="true" >
-				<position x="-0.72999858856201171875" y="-0.50000035762786865234" z="7.5500001907348632813" Type="3dsMax"/>
+				<position x="-0.72999852895736694336" y="-0.50000035762786865234" z="7.5500001907348632813" Type="3dsMax"/>
 				<rotation x="0.12278784066438674927" y="-0.69636422395706176758" z="0.12278784066438674927" w="0.69636422395706176758" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_5u.xml" Lights="true" >
-				<position x="-0.36999857425689697266" y="-0.70521247386932373047" z="6.9861850738525390625" Type="3dsMax"/>
+				<position x="-0.36999857425689697266" y="-0.70521247386932373047" z="6.9861845970153808594" Type="3dsMax"/>
 				<rotation x="0.12278784066438674927" y="-0.69636422395706176758" z="0.12278784066438674927" w="0.69636422395706176758" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_TubeStrut_Cap.xml" Lights="true" >
@@ -1103,59 +1079,59 @@
 				<rotation x="0.12278784066438674927" y="-0.69636422395706176758" z="0.12278784066438674927" w="0.69636422395706176758" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Indy_B.xml" Lights="true" >
-				<position x="-0.54999953508377075195" y="0.23999968171119689941" z="7.7500004768371582031" Type="3dsMax"/>
+				<position x="-0.54999953508377075195" y="0.23999966681003570557" z="7.75" Type="3dsMax"/>
 				<rotation x="-0.70710664987564086914" y="-0.7071068882942199707" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Indy_B.xml" Lights="true" >
-				<position x="-0.54999953508377075195" y="-0.64000040292739868164" z="7.7500004768371582031" Type="3dsMax"/>
+				<position x="-0.54999953508377075195" y="-0.64000034332275390625" z="7.75" Type="3dsMax"/>
 				<rotation x="-0.70710676908493041992" y="0.70710676908493041992" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_Strut_A.xml" Lights="true" >
-				<position x="-0.54999953508377075195" y="-0.20000034570693969727" z="7.2000002861022949219" Type="3dsMax"/>
+				<position x="-0.54999953508377075195" y="-0.20000033080577850342" z="7.1999998092651367188" Type="3dsMax"/>
 				<rotation x="0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_Strut_A.xml" Lights="true" >
-				<position x="-0.54999953508377075195" y="-0.20000034570693969727" z="7.5100002288818359375" Type="3dsMax"/>
+				<position x="-0.54999953508377075195" y="-0.20000033080577850342" z="7.5100002288818359375" Type="3dsMax"/>
 				<rotation x="0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="-1.2699996232986450195" y="-0.20000040531158447266" z="9.5700006484985351563" Type="3dsMax"/>
+				<position x="-1.2699995040893554688" y="-0.20000039041042327881" z="9.56999969482421875" Type="3dsMax"/>
 				<rotation x="0" y="0" z="-0.70710670948028564453" w="0.70710682868957519531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_DefenseTower_A.xml" Lights="true" >
-				<position x="0.17000049352645874023" y="-0.20000040531158447266" z="9.5700006484985351563" Type="3dsMax"/>
+				<position x="0.17000049352645874023" y="-0.20000039041042327881" z="9.56999969482421875" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="3.5355343818664550781" y="3.535533905029296875" z="1.6227861642837524414" Type="3dsMax"/>
+				<position x="3.5355341434478759766" y="3.5355336666107177734" z="1.6227861642837524414" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="-0.27059805393218994141" z="-0.27059802412986755371" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="3.5355343818664550781" y="3.535533905029296875" z="-1.6227852106094360352" Type="3dsMax"/>
+				<position x="3.5355341434478759766" y="3.5355336666107177734" z="-1.6227852106094360352" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="-0.27059805393218994141" z="-0.27059802412986755371" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="-3.5355343818664550781" y="-3.5355334281921386719" z="1.6227861642837524414" Type="3dsMax"/>
+				<position x="-3.5355341434478759766" y="-3.5355331897735595703" z="1.6227861642837524414" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="-0.27059805393218994141" z="-0.27059802412986755371" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="-3.5355343818664550781" y="-3.5355334281921386719" z="-1.6227852106094360352" Type="3dsMax"/>
+				<position x="-3.5355341434478759766" y="-3.5355331897735595703" z="-1.6227852106094360352" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="-0.27059805393218994141" z="-0.27059802412986755371" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="3.5355336666107177734" y="-3.535533905029296875" z="-1.6227852106094360352" Type="3dsMax"/>
+				<position x="3.5355334281921386719" y="-3.5355336666107177734" z="-1.6227852106094360352" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="0.2705980837345123291" z="0.27059805393218994141" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="3.5355336666107177734" y="-3.535533905029296875" z="1.6227861642837524414" Type="3dsMax"/>
+				<position x="3.5355334281921386719" y="-3.5355336666107177734" z="1.6227861642837524414" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="0.2705980837345123291" z="0.27059805393218994141" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="-3.5355336666107177734" y="3.5355348587036132813" z="-1.6227852106094360352" Type="3dsMax"/>
+				<position x="-3.5355334281921386719" y="3.5355346202850341797" z="-1.6227852106094360352" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="0.2705980837345123291" z="0.27059805393218994141" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
-				<position x="-3.5355336666107177734" y="3.5355348587036132813" z="1.6227861642837524414" Type="3dsMax"/>
+				<position x="-3.5355334281921386719" y="3.5355346202850341797" z="1.6227861642837524414" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="0.2705980837345123291" z="0.27059805393218994141" w="0.65328145027160644531" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
@@ -1167,95 +1143,95 @@
 				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="4.3351984024047851563" y="1.7935853004455566406" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="4.3351984024047851563" y="1.7935851812362670898" z="-3.5" Type="3dsMax"/>
 				<rotation x="0.69351965188980102539" y="0.13794972002506256104" z="-0.69352012872695922852" w="-0.13795009255409240723" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="1.7935853004455566406" y="-4.3351979255676269531" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="1.7935851812362670898" y="-4.3351979255676269531" z="-3.5" Type="3dsMax"/>
 				<rotation x="0.58793753385543823242" y="-0.39284756779670715332" z="-0.58793812990188598633" w="0.39284721016883850098" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="4.3337054252624511719" y="-1.7971923351287841797" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="4.3337049484252929688" y="-1.7971922159194946289" z="-3.5" Type="3dsMax"/>
 				<rotation x="0.69351965188980102539" y="-0.13794979453086853027" z="-0.6935202479362487793" w="0.13794942200183868408" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="1.7971924543380737305" y="4.3337049484252929688" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="1.7971923351287841797" y="4.3337044715881347656" z="-3.5" Type="3dsMax"/>
 				<rotation x="0.5879376530647277832" y="0.39284747838973999023" z="-0.58793789148330688477" w="-0.3928476870059967041" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-1.7935843467712402344" y="4.3351988792419433594" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="-1.7935842275619506836" y="4.3351988792419433594" z="-3.5" Type="3dsMax"/>
 				<rotation x="-0.39284765720367431641" y="-0.58793753385543823242" z="0.39284726977348327637" w="0.58793807029724121094" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-4.3337044715881347656" y="1.7971934080123901367" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="-4.3337039947509765625" y="1.7971934080123901367" z="-3.5" Type="3dsMax"/>
 				<rotation x="-0.13794988393783569336" y="-0.69351965188980102539" z="0.13794951140880584717" w="0.69352018833160400391" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-4.3351988792419433594" y="-1.7935838699340820313" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="-4.3351988792419433594" y="-1.7935837507247924805" z="-3.5" Type="3dsMax"/>
 				<rotation x="0.1379496455192565918" y="-0.69351959228515625" z="-0.13795001804828643799" w="0.69352018833160400391" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-1.7971934080123901367" y="-4.3337044715881347656" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="-1.7971934080123901367" y="-4.3337039947509765625" z="-3.5" Type="3dsMax"/>
 				<rotation x="0.39284738898277282715" y="-0.58793771266937255859" z="-0.39284759759902954102" w="0.58793795108795166016" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-5.0000019073486328125" y="-7.9426104093727190048e-07" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="-5.0000014305114746094" y="-7.9426098409385303967e-07" z="10.5" Type="3dsMax"/>
 				<rotation x="0.70710676908493041992" y="0" z="-0.70710676908493041992" w="1.3135814924680744298e-07" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="3.5355329513549804688" y="3.535533905029296875" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="3.5355327129364013672" y="3.5355336666107177734" z="10.5" Type="3dsMax"/>
 				<rotation x="0.27059763669967651367" y="-0.65328168869018554688" z="-0.27059760689735412598" w="0.65328168869018554688" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-1.4648437627329258248e-06" y="5" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="-1.4648437627329258248e-06" y="5" z="10.5" Type="3dsMax"/>
 				<rotation x="0.49999970197677612305" y="-0.50000029802322387695" z="-0.49999970197677612305" w="0.50000029802322387695" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-3.5355350971221923828" y="3.5355336666107177734" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="-3.5355348587036132813" y="3.5355334281921386719" z="10.5" Type="3dsMax"/>
 				<rotation x="-0.65328139066696166992" y="0.27059832215309143066" z="0.65328133106231689453" w="-0.27059835195541381836" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-3.5355336666107177734" y="3.5355331897735595703" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-3.5355334281921386719" y="3.5355329513549804688" z="3.5" Type="3dsMax"/>
 				<rotation x="-0.65328127145767211914" y="0.27059853076934814453" z="0.65328127145767211914" w="-0.27059859037399291992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-5" y="-5.5012037591950502247e-07" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-5" y="-5.5012037591950502247e-07" z="3.5" Type="3dsMax"/>
 				<rotation x="0.70710676908493041992" y="-4.4816104605160944629e-07" z="-0.70710676908493041992" w="4.7906962663546437398e-07" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-3.5355336666107177734" y="-3.5355341434478759766" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-3.5355334281921386719" y="-3.535533905029296875" z="3.5" Type="3dsMax"/>
 				<rotation x="0.65328162908554077148" y="0.27059775590896606445" z="-0.65328162908554077148" w="-0.27059769630432128906" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="2.441406365960574476e-07" y="-4.9999995231628417969" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="2.441406365960574476e-07" y="-4.9999995231628417969" z="-10.5" Type="3dsMax"/>
 				<rotation x="0.50000011920928955078" y="0.49999994039535522461" z="-0.50000005960464477539" w="-0.49999994039535522461" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-3.5355336666107177734" y="3.5355336666107177734" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="-3.5355334281921386719" y="3.5355334281921386719" z="-10.5" Type="3dsMax"/>
 				<rotation x="-0.65328127145767211914" y="0.27059853076934814453" z="0.65328127145767211914" w="-0.27059859037399291992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-5" y="1.8230147702524845954e-07" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="-5" y="1.8230147702524845954e-07" z="-10.5" Type="3dsMax"/>
 				<rotation x="0.70710676908493041992" y="-4.4816104605160944629e-07" z="-0.70710676908493041992" w="4.7906962663546437398e-07" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-3.5355336666107177734" y="-3.5355336666107177734" z="-10.500000953674316406" Type="3dsMax"/>
+				<position x="-3.5355334281921386719" y="-3.5355334281921386719" z="-10.5" Type="3dsMax"/>
 				<rotation x="0.65328162908554077148" y="0.27059775590896606445" z="-0.65328162908554077148" w="-0.27059769630432128906" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-3.535533905029296875" y="3.5355334281921386719" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="-3.5355336666107177734" y="3.5355331897735595703" z="-3.5" Type="3dsMax"/>
 				<rotation x="-0.65328127145767211914" y="0.27059853076934814453" z="0.65328127145767211914" w="-0.27059859037399291992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-5" y="0" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="-5" y="0" z="-3.5" Type="3dsMax"/>
 				<rotation x="0.70710676908493041992" y="-4.4816104605160944629e-07" z="-0.70710676908493041992" w="4.7906962663546437398e-07" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="-3.5355334281921386719" y="-3.535533905029296875" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="-3.5355331897735595703" y="-3.5355336666107177734" z="-3.5" Type="3dsMax"/>
 				<rotation x="0.65328162908554077148" y="0.27059775590896606445" z="-0.65328162908554077148" w="-0.27059769630432128906" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Composite_A_A.xml" Lights="true" >
-				<position x="2.441406365960574476e-07" y="-5.0000009536743164063" z="-3.5000002384185791016" Type="3dsMax"/>
+				<position x="2.441406365960574476e-07" y="-5.0000004768371582031" z="-3.5" Type="3dsMax"/>
 				<rotation x="0.50000011920928955078" y="0.49999994039535522461" z="-0.50000005960464477539" w="-0.49999994039535522461" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6.xml" Lights="true" >
@@ -1267,155 +1243,155 @@
 				<rotation x="-0.70710682868957519531" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="1.7935854196548461914" y="-4.3351969718933105469" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="1.7935853004455566406" y="-4.3351969718933105469" z="10.5" Type="3dsMax"/>
 				<rotation x="0.58793789148330688477" y="-0.39284762740135192871" z="-0.58793801069259643555" w="0.39284697175025939941" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-4.3351979255676269531" y="-1.7935862541198730469" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="-4.3351979255676269531" y="-1.7935861349105834961" z="10.5" Type="3dsMax"/>
 				<rotation x="0.13794974982738494873" y="-0.6935202479362487793" z="-0.13794988393783569336" w="0.69351959228515625" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-1.7971919775009155273" y="-4.3337049484252929688" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="-1.7971918582916259766" y="-4.3337044715881347656" z="10.5" Type="3dsMax"/>
 				<rotation x="0.39284750819206237793" y="-0.58793807029724121094" z="-0.39284762740135192871" w="0.58793741464614868164" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="4.3337039947509765625" y="-1.7971913814544677734" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="4.3337035179138183594" y="-1.7971912622451782227" z="10.5" Type="3dsMax"/>
 				<rotation x="0.69351989030838012695" y="-0.13794972002506256104" z="-0.69352000951766967773" w="0.13794939219951629639" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="4.3351984024047851563" y="1.7935850620269775391" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="4.3351984024047851563" y="1.7935849428176879883" z="3.5" Type="3dsMax"/>
 				<rotation x="0.69351965188980102539" y="0.13794972002506256104" z="-0.69352012872695922852" w="-0.13795009255409240723" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="4.3337054252624511719" y="-1.7971925735473632813" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="4.3337049484252929688" y="-1.7971924543380737305" z="3.5" Type="3dsMax"/>
 				<rotation x="0.69351965188980102539" y="-0.13794979453086853027" z="-0.6935202479362487793" w="0.13794942200183868408" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="1.7971924543380737305" y="4.3337049484252929688" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="1.7971923351287841797" y="4.3337044715881347656" z="3.5" Type="3dsMax"/>
 				<rotation x="0.5879376530647277832" y="0.39284747838973999023" z="-0.58793789148330688477" w="-0.3928476870059967041" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="4.3351969718933105469" y="1.7935847043991088867" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="4.3351969718933105469" y="1.7935845851898193359" z="10.5" Type="3dsMax"/>
 				<rotation x="-0.6935202479362487793" y="-0.13794966042041778564" z="0.69351959228515625" w="0.13794977962970733643" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="1.7971913814544677734" y="4.3337049484252929688" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="1.7971912622451782227" y="4.3337044715881347656" z="10.5" Type="3dsMax"/>
 				<rotation x="-0.58793812990188598633" y="-0.39284741878509521484" z="0.58793753385543823242" w="0.39284753799438476563" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-1.7935851812362670898" y="4.3351988792419433594" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="-1.7935850620269775391" y="4.3351988792419433594" z="10.5" Type="3dsMax"/>
 				<rotation x="-0.3928476870059967041" y="-0.58793783187866210938" z="0.3928470313549041748" w="0.58793795108795166016" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-4.3337054252624511719" y="1.7971925735473632813" z="10.500000953674316406" Type="3dsMax"/>
+				<position x="-4.3337049484252929688" y="1.7971924543380737305" z="10.5" Type="3dsMax"/>
 				<rotation x="-0.13794982433319091797" y="-0.69351989030838012695" z="0.13794948160648345947" w="0.69351994991302490234" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-4.3351988792419433594" y="-1.7935841083526611328" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-4.3351988792419433594" y="-1.793583989143371582" z="3.5" Type="3dsMax"/>
 				<rotation x="0.1379496455192565918" y="-0.69351959228515625" z="-0.13795001804828643799" w="0.69352018833160400391" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-1.7935843467712402344" y="4.3351988792419433594" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-1.7935842275619506836" y="4.3351988792419433594" z="3.5" Type="3dsMax"/>
 				<rotation x="-0.39284765720367431641" y="-0.58793753385543823242" z="0.39284726977348327637" w="0.58793807029724121094" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_tri.xml" Lights="true" >
-				<position x="-4.3337044715881347656" y="1.7971931695938110352" z="3.5000002384185791016" Type="3dsMax"/>
+				<position x="-4.3337039947509765625" y="1.7971931695938110352" z="3.5" Type="3dsMax"/>
 				<rotation x="-0.13794988393783569336" y="-0.69351965188980102539" z="0.13794951140880584717" w="0.69352018833160400391" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_1.xml" Lights="true" >
-				<position x="0" y="-0.67922770977020263672" z="-1.5730000734329223633" Type="3dsMax"/>
+				<position x="0" y="-0.67922765016555786133" z="-1.5729999542236328125" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_1.xml" Lights="true" >
-				<position x="0" y="-0.40322768688201904297" z="-1.5490000247955322266" Type="3dsMax"/>
+				<position x="0" y="-0.40322765707969665527" z="-1.5490000247955322266" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_1.xml" Lights="true" >
-				<position x="0" y="0.40322792530059814453" z="-1.5490000247955322266" Type="3dsMax"/>
+				<position x="0" y="0.40322789549827575684" z="-1.5490000247955322266" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_1.xml" Lights="true" >
-				<position x="0" y="0.67922794818878173828" z="-1.5730000734329223633" Type="3dsMax"/>
+				<position x="0" y="0.67922788858413696289" z="-1.5729999542236328125" Type="3dsMax"/>
 				<rotation x="0" y="0" z="0.70710676908493041992" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_square.xml" Lights="true" >
-				<position x="-2.0107241027744748862e-07" y="0.40000045299530029297" z="-3.2999997138977050781" Type="3dsMax"/>
+				<position x="-2.0107239606659277342e-07" y="0.40000042319297790527" z="-3.2999994754791259766" Type="3dsMax"/>
 				<rotation x="-0.67559021711349487305" y="0" z="0" w="0.7372773289680480957" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_6_square.xml" Lights="true" >
-				<position x="-2.3604148680078651523e-07" y="-0.3999995887279510498" z="-3.2999997138977050781" Type="3dsMax"/>
+				<position x="-2.3604148680078651523e-07" y="-0.39999955892562866211" z="-3.2999994754791259766" Type="3dsMax"/>
 				<rotation x="-0.73727738857269287109" y="0" z="0" w="0.67559021711349487305" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_B.xml" Lights="true" >
-				<position x="0.3999996483325958252" y="-0.39999893307685852051" z="-6.6000003814697265625" Type="3dsMax"/>
+				<position x="0.3999996483325958252" y="-0.39999890327453613281" z="-6.5999999046325683594" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="-0.27059820294380187988" z="-0.27059805393218994141" w="0.65328133106231689453" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_B.xml" Lights="true" >
-				<position x="-0.40000039339065551758" y="0.4000008702278137207" z="-6.6000003814697265625" Type="3dsMax"/>
+				<position x="-0.40000036358833312988" y="0.40000084042549133301" z="-6.5999999046325683594" Type="3dsMax"/>
 				<rotation x="0.2705980837345123291" y="-0.65328145027160644531" z="-0.6532815098762512207" w="-0.27059802412986755371" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_B.xml" Lights="true" >
-				<position x="-0.40000039339065551758" y="-0.39999917149543762207" z="-6.6000003814697265625" Type="3dsMax"/>
+				<position x="-0.40000036358833312988" y="-0.39999914169311523438" z="-6.5999999046325683594" Type="3dsMax"/>
 				<rotation x="-0.6532815098762512207" y="0.27059793472290039063" z="0.27059799432754516602" w="0.6532815098762512207" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Solid_B.xml" Lights="true" >
-				<position x="0.3999996483325958252" y="0.40000110864639282227" z="-6.6000003814697265625" Type="3dsMax"/>
+				<position x="0.3999996483325958252" y="0.40000110864639282227" z="-6.5999999046325683594" Type="3dsMax"/>
 				<rotation x="-0.27059796452522277832" y="-0.65328145027160644531" z="-0.6532815098762512207" w="0.27059805393218994141" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Cap.xml" Lights="true" >
-				<position x="-3.8980141425781766884e-07" y="0.58000212907791137695" z="-6.9500002861022949219" Type="3dsMax"/>
+				<position x="-3.8980138583610823844e-07" y="0.58000206947326660156" z="-6.9499998092651367188" Type="3dsMax"/>
 				<rotation x="0" y="-0.70710676908493041992" z="-0.70710676908493041992" w="-1.6015523840451351134e-07" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_Cap.xml" Lights="true" >
-				<position x="-3.8980141425781766884e-07" y="-0.5799999237060546875" z="-6.9500012397766113281" Type="3dsMax"/>
+				<position x="-3.8980138583610823844e-07" y="-0.57999986410140991211" z="-6.950000762939453125" Type="3dsMax"/>
 				<rotation x="-0.70710676908493041992" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_A.xml" Lights="true" >
-				<position x="-3.143034632557828445e-07" y="0.58000212907791137695" z="-6.4500002861022949219" Type="3dsMax"/>
+				<position x="-3.1430343483407341409e-07" y="0.58000206947326660156" z="-6.4499998092651367188" Type="3dsMax"/>
 				<rotation x="0.70710676908493041992" y="0" z="0" w="0.70710676908493041992" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Pylon_Plating_A.xml" Lights="true" >
-				<position x="-3.1430352009920170531e-07" y="-0.5799999237060546875" z="-6.4500002861022949219" Type="3dsMax"/>
+				<position x="-3.143034916774922749e-07" y="-0.57999986410140991211" z="-6.4499998092651367188" Type="3dsMax"/>
 				<rotation x="0" y="0.70710676908493041992" z="-0.70710676908493041992" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_Strut_A.xml" Lights="true" >
-				<position x="-0.6000003814697265625" y="1.1039687706215772778e-06" z="-6.6000003814697265625" Type="3dsMax"/>
+				<position x="-0.6000003814697265625" y="1.1039686569347395562e-06" z="-6.5999999046325683594" Type="3dsMax"/>
 				<rotation x="-0.70710676908493041992" y="-0.70710676908493041992" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Interface_Strut_A.xml" Lights="true" >
-				<position x="0.59999966621398925781" y="1.1039687706215772778e-06" z="-6.6000003814697265625" Type="3dsMax"/>
+				<position x="0.59999960660934448242" y="1.1039686569347395562e-06" z="-6.5999999046325683594" Type="3dsMax"/>
 				<rotation x="-0.70710682868957519531" y="0.70710670948028564453" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_HexTower_A.xml" Lights="true" >
-				<position x="0" y="1.1039687706215772778e-06" z="-5" Type="3dsMax"/>
+				<position x="0" y="1.1039686569347395562e-06" z="-5" Type="3dsMax"/>
 				<rotation x="0" y="-1" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_2.xml" Lights="true" >
-				<position x="-3.1732344041301985271e-07" y="1.1039687706215772778e-06" z="-6.4700002670288085938" Type="3dsMax"/>
+				<position x="-3.1732344041301985271e-07" y="1.1039686569347395562e-06" z="-6.4699997901916503906" Type="3dsMax"/>
 				<rotation x="-0.4999999701976776123" y="0.50000005960464477539" z="-0.4999999701976776123" w="0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Girder_2.xml" Lights="true" >
-				<position x="-3.5658234764923690818e-07" y="1.1039687706215772778e-06" z="-6.7300014495849609375" Type="3dsMax"/>
+				<position x="-3.5658234764923690818e-07" y="1.1039686569347395562e-06" z="-6.7300009727478027344" Type="3dsMax"/>
 				<rotation x="-0.4999999701976776123" y="0.50000005960464477539" z="-0.4999999701976776123" w="0.5" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_Reactor_A.xml" Lights="true" >
-				<position x="-1.5575790257571497932e-07" y="6.1568749742946238257e-07" z="-5.4000000953674316406" Type="3dsMax"/>
+				<position x="-1.5575788836486026412e-07" y="6.1568744058604352176e-07" z="-5.4000000953674316406" Type="3dsMax"/>
 				<rotation x="0" y="-1" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CityTower_A.xml" Lights="true" >
-				<position x="-2.010566220178588992e-07" y="0.45000064373016357422" z="-5.7000002861022949219" Type="3dsMax"/>
+				<position x="-2.01056607807004184e-07" y="0.45000061392784118652" z="-5.6999998092651367188" Type="3dsMax"/>
 				<rotation x="-0.70710676908493041992" y="-0.70710676908493041992" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CityTower_A.xml" Lights="true" >
-				<position x="-2.010566504395683296e-07" y="-0.44999942183494567871" z="-5.700000762939453125" Type="3dsMax"/>
+				<position x="-2.010566362287136144e-07" y="-0.44999939203262329102" z="-5.7000002861022949219" Type="3dsMax"/>
 				<rotation x="0.70710670948028564453" y="-0.70710682868957519531" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CityTower_A.xml" Lights="true" >
-				<position x="-0.50000023841857910156" y="3.7154683241169550456e-07" z="-5.700000762939453125" Type="3dsMax"/>
+				<position x="-0.50000023841857910156" y="3.7154680398998607416e-07" z="-5.7000002861022949219" Type="3dsMax"/>
 				<rotation x="0" y="-1" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/SFC_Station_CityTower_A.xml" Lights="true" >
-				<position x="0.49999979138374328613" y="6.1568749742946238257e-07" z="-5.700000762939453125" Type="3dsMax"/>
+				<position x="0.49999976158142089844" y="6.1568744058604352176e-07" z="-5.7000002861022949219" Type="3dsMax"/>
 				<rotation x="-1" y="0" z="0" w="0" Type="3dsMax"/>
 			</Link>
 			<Link Target="$Dev/Config/Stations/Asteroid_Glimmerfall.xml" Lights="true" >
@@ -1461,7 +1437,7 @@
 	</CEngineComponent>
 	<CShieldComponent>
 		<Type>Spherical</Type>
-		<Radius X="21" Y="21" Z="21" />
+		<Radius X="26" Y="26" Z="26" />
 		<ShieldPoints>1500000</ShieldPoints>
 		<RechargeShieldPoints>150</RechargeShieldPoints>
 		<RechargeDelay>0.0</RechargeDelay> <!-- no-damage time before we can start recharging the shields -->
@@ -1500,6 +1476,7 @@
 	</CServerDefenseComponent>
 	<CModulesComponent>
 		<MapToPlanet>false</MapToPlanet>
+		<SPFactor>1.3</SPFactor>
 		<Weapons>
 			<Target Name="SFC_Station_DefenseTower_A" Socket="s_top_turret" Weapon="DefenseTurretGunMK7" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
 			<Target Name="SFC_Station_DefenseTower_A" Socket="s_left_turret" Weapon="DefenseTurretGunMK5" ProbaRangeMin="0.0" ProbaRangeMax="0.6"/>
@@ -1512,12 +1489,15 @@
 			<Target Name="SFC_Station_DefenseTower_B" Socket="s_left_turret" Weapon="LaserAMSMK3" ProbaRangeMin="0.7" ProbaRangeMax="1.0" />
 			<Target Name="SFC_Station_DefenseTower_B" Socket="s_right_turret" Weapon="LaserAMSMK3" ProbaRangeMin="0.7" ProbaRangeMax="1.0" />
 
-			<Target Name="SFC_Station_DefenseStation_A" Socket="s_top_turret" Weapon="DefenseTurretGunMK6" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
-			<Target Name="SFC_Station_DefenseStation_A" Socket="s_bottom_turret" Weapon="DefenseTurretGunMK6" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
-			<Target Name="SFC_Station_DefenseStation_A" Socket="s_side_left_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="0.75"/>
-			<Target Name="SFC_Station_DefenseStation_A" Socket="s_side_right_turret" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.0" ProbaRangeMax="0.75"/>
-			<Target Name="SFC_Station_DefenseStation_A" Socket="s_side_left_turret" Weapon="LaserAMSMK3" ProbaRangeMin="0.75" ProbaRangeMax="1.0"/>
-			<Target Name="SFC_Station_DefenseStation_A" Socket="s_side_right_turret" Weapon="LaserAMSMK3" ProbaRangeMin="0.75" ProbaRangeMax="1.0"/>
+			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret_orbital" Weapon="SpaceCanonMK9" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
+			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret1" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="0.75"/>
+			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret2" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.0" ProbaRangeMax="0.75"/>
+			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret1" Weapon="LaserAMSMK3" ProbaRangeMin="0.75" ProbaRangeMax="1.0"/>
+			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret2" Weapon="LaserAMSMK3" ProbaRangeMin="0.75" ProbaRangeMax="1.0"/>
+			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret3" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="0.5"/>
+			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret3" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.5" ProbaRangeMax="1.0"/>
+			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret4" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="0.5"/>
+			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret4" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.5" ProbaRangeMax="1.0"/>
 		</Weapons>
 	</CModulesComponent>
 	<CServerModulesComponent>

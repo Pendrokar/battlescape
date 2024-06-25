@@ -998,6 +998,7 @@
 	</CServerDefenseComponent>
 	<CModulesComponent>
 		<MapToPlanet>true</MapToPlanet>
+		<SPFactor>1.3</SPFactor>
 		<Weapons>
 			<Target Name="SFC_Military_GunTower1" Socket="s_turret" Weapon="DefenseTurretGunMK6" ProbaRangeMin="0.0" ProbaRangeMax="0.25"/>
 			<Target Name="SFC_Military_GunTower1" Socket="s_turret" Weapon="LaserAMSMK3" ProbaRangeMin="0.25" ProbaRangeMax="0.5"/>

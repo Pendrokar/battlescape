@@ -533,6 +533,7 @@
 		        <Class>CorePowerPlant</Class>
 				<HitPoints>100000</HitPoints>
 				<Name>UI_Module_CorePowerPlant</Name>
+				<ShipPoints>600</ShipPoints>
 				<Score>500</Score>
 				<DPSScoreFactor>250.0</DPSScoreFactor>
 				<AttackPriority>8</AttackPriority>
@@ -558,6 +559,7 @@
 			<Module>
 		        <Class>CorePowerPlant</Class>
 				<HitPoints>100000</HitPoints>
+				<ShipPoints>600</ShipPoints>
 				<Score>500</Score>
 				<DPSScoreFactor>250.0</DPSScoreFactor>
 				<AttackPriority>8</AttackPriority>

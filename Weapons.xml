@@ -28,7 +28,7 @@
 		<YawRange X="-0.5" Y="0.5" />
 		<FireCone X="0.035" Y="0.035" />
 		<AimType>Gimbaled</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<Spread>0.0060</Spread> <!-- Spread angle of projectiles, in radians -->
 		<Icon>LightMachineGun</Icon>
@@ -36,10 +36,11 @@
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>MgSmall3</Name>
-			<DuplicateRange>0.03</DuplicateRange>
+			<Name>MachineGun6</Name>
+			<DuplicateRange>0.02</DuplicateRange>
 			<DuplicateLength>0.1</DuplicateLength>
-			<MaxDupedCount>2</MaxDupedCount>
+			<MaxDupedCount>4</MaxDupedCount>
+			<Offset>0.02</Offset>
 		</Sound>
         <Muzzle>
 			<Effect>ParticleEffects/Weapons/Kinetic/P_WavyStreakMuzzleFlash</Effect>
@@ -48,6 +49,7 @@
 			<LightColor X="1.0" Y="0.7" Z="0.2" />
 			<LightCutoff>30.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightDuration>0.1</LightDuration>
+			<RecoilOffset>0.0001</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>LightAmmo</Type>
@@ -105,8 +107,8 @@
 		<Credits>0</Credits>
 		<Mass>1.0</Mass>
 		<Mesh>
-			<Attach Mesh="Ships/Weapons/ForwardFacing/SM_Mk2_Single_SideAttached_Kinetic_LOD0" >
-	            <LOD Level="1" Mesh="Ships/Weapons/ForwardFacing/SM_Mk2_Single_SideAttached_Kinetic_LOD1" />
+			<Attach Mesh="Ships/Weapons/ForwardFacing/SM_Mk2_Single_SideAttached_Shredder_LOD0" >
+	            <LOD Level="1" Mesh="Ships/Weapons/ForwardFacing/SM_Mk2_Single_SideAttached_Shredder_LOD1" />
 			</Attach>
 			<HitBox>
 				<Min X="-0.002" Y="-0.002" Z="-0.002" />
@@ -115,7 +117,7 @@
 		</Mesh>
 		<HitPoints>80</HitPoints>
 		<Sockets>
-			<Attach>$Dev/Ships/Weapons/ForwardFacing/f3774b38.insm</Attach>
+			<Attach>$Dev/Ships/Weapons/ForwardFacing/8a9e1fbf.insm</Attach>
 		</Sockets>
 		<Scale>1.0</Scale>
 		<FireRate>100.0</FireRate> <!-- Fire rate in number of shots per second -->
@@ -128,7 +130,7 @@
 		<YawRange X="-20" Y="20" />
 		<FireCone X="0.35" Y="0.35" />
 		<AimType>Fixed</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<Spread>0.025</Spread> <!-- Spread angle of projectiles, in radians -->
 		<Icon>LightMachineGun</Icon>
@@ -136,7 +138,7 @@
 		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>Shotgun2</Name>
+			<Name>HeavyCanon2</Name>
 			<MinFireTime>0.5</MinFireTime>
 			<DuplicateRange>0.04</DuplicateRange>
 			<DuplicateLength>0.2</DuplicateLength>
@@ -149,6 +151,8 @@
 			<LightColor X="1.0" Y="0.7" Z="0.2" />
 			<LightCutoff>30.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightDuration>0.1</LightDuration>
+			<RecoilFreq>5.0</RecoilFreq>
+			<RecoilOffset>0.0002</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>LightAmmo</Type>
@@ -226,7 +230,7 @@
 		<YawRange X="-0.5" Y="0.5" />
 		<FireCone X="0.035" Y="0.035" />
 		<AimType>Gimbaled</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<Spread>0.0040</Spread> <!-- Spread angle of projectiles, in radians -->
 		<Icon>LightBlaster</Icon>
@@ -235,9 +239,9 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>BlasterSmall3</Name>
-			<DuplicateRange>0.03</DuplicateRange>
+			<DuplicateRange>0.02</DuplicateRange>
 			<DuplicateLength>0.1</DuplicateLength>
-			<MaxDupedCount>2</MaxDupedCount>
+			<MaxDupedCount>4</MaxDupedCount>
 		</Sound>
         <Muzzle>
 			<Effect>ParticleEffects/Weapons/Blasters/P_LaserBoltMuzzleFlash</Effect>
@@ -246,6 +250,7 @@
 			<LightColor X="0.2" Y="0.7" Z="1.0" />
 			<LightCutoff>30.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightDuration>0.1</LightDuration>
+			<RecoilOffset>0.0001</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>Energy</Type>
@@ -297,8 +302,8 @@
 		<Rank>3</Rank>
 		<Mass>1.0</Mass>
 		<Mesh>
-			<Attach Mesh="Ships/Weapons/ForwardFacing/SM_Mk1_Single_SideAttached_Kinetic_LOD0" >
-	            <LOD Level="1" Mesh="Ships/Weapons/ForwardFacing/SM_Mk1_Single_SideAttached_Kinetic_LOD1" />
+			<Attach Mesh="Ships/Weapons/ForwardFacing/SM_Mk1_Single_SideAttached_Halcyon_LOD0" >
+	            <LOD Level="1" Mesh="Ships/Weapons/ForwardFacing/SM_Mk1_Single_SideAttached_Halcyon_LOD1" />
 			</Attach>
 			<HitBox>
 				<Min X="-0.002" Y="-0.002" Z="-0.002" />
@@ -307,7 +312,7 @@
 		</Mesh>
 		<HitPoints>50</HitPoints>
 		<Sockets>
-			<Attach>$Dev/Ships/Weapons/ForwardFacing/baa4d62e.insm</Attach>
+			<Attach>$Dev/Ships/Weapons/ForwardFacing/d12f9a41.insm</Attach>
 		</Sockets>
 		<Scale>1.0</Scale>
 		<FireRate>7.0</FireRate> <!-- Fire rate in number of shots per second -->
@@ -320,7 +325,7 @@
 		<YawRange X="-15" Y="15" />
 		<FireCone X="0.035" Y="0.035" />
 		<AimType>Converging</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<Spread>0.0030</Spread> <!-- Spread angle of projectiles, in radians -->
 		<Icon>LightMachineGun</Icon>
@@ -329,9 +334,9 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>Halcyon</Name>
-			<DuplicateRange>0.03</DuplicateRange>
+			<DuplicateRange>0.02</DuplicateRange>
 			<DuplicateLength>0.1</DuplicateLength>
-			<MaxDupedCount>2</MaxDupedCount>
+			<MaxDupedCount>4</MaxDupedCount>
 		</Sound>
         <Muzzle>
 			<Effect>ParticleEffects/Weapons/Kinetic/P_WavyStreakMuzzleFlash</Effect>
@@ -340,6 +345,7 @@
 			<LightColor X="1.0" Y="0.7" Z="0.2" />
 			<LightCutoff>30.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightDuration>0.1</LightDuration>
+			<RecoilOffset>0.0001</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>LightAmmo</Type>
@@ -421,7 +427,7 @@
 		<YawRange X="-0.125" Y="0.125" />
 		<FireCone X="0.03" Y="0.03" />
 		<AimType>Gimbaled</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<Spread>0.0010</Spread> <!-- Spread angle of projectiles, in radians -->
 		<Icon>LightMachineGun</Icon>
@@ -430,9 +436,9 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>HeavyRailgun</Name>
-			<DuplicateRange>0.03</DuplicateRange>
+			<DuplicateRange>0.02</DuplicateRange>
 			<DuplicateLength>0.1</DuplicateLength>
-			<MaxDupedCount>2</MaxDupedCount>
+			<MaxDupedCount>4</MaxDupedCount>
 		</Sound>
         <Muzzle>
 			<Effect>ParticleEffects/Weapons/Railguns/P_SmallRailgunMuzzleFlash</Effect>
@@ -441,6 +447,7 @@
 			<LightColor X="0.6" Y="0.2" Z="1.0" />
 			<LightCutoff>75.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightDuration>0.25</LightDuration>
+			<RecoilOffset>0.00015</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>LightAmmo</Type>
@@ -500,8 +507,8 @@
 		<Rank>4</Rank>
 		<Mass>0.5</Mass>
 		<Mesh>
-			<Attach Mesh="Ships/Weapons/ForwardFacing/SM_Mk1_Single_SideAttached_Kinetic_LOD0" >
-	            <LOD Level="1" Mesh="Ships/Weapons/ForwardFacing/SM_Mk1_Single_SideAttached_Kinetic_LOD1" />
+			<Attach Mesh="Ships/Weapons/ForwardFacing/SM_Mk1_Single_SideAttached_PlasmaCutter_LOD0" >
+	            <LOD Level="1" Mesh="Ships/Weapons/ForwardFacing/SM_Mk1_Single_SideAttached_PlasmaCutter_LOD1" />
 			</Attach>
 			<HitBox>
 				<Min X="-0.002" Y="-0.002" Z="-0.002" />
@@ -510,7 +517,7 @@
 		</Mesh>
 		<HitPoints>50</HitPoints>
 		<Sockets>
-			<Attach>$Dev/Ships/Weapons/ForwardFacing/baa4d62e.insm</Attach>
+			<Attach>$Dev/Ships/Weapons/ForwardFacing/4ca462a8.insm</Attach>
 		</Sockets>
 		<Scale>1.0</Scale>
 		<FireRate>7.0</FireRate> <!-- Fire rate in number of shots per second -->
@@ -522,9 +529,9 @@
 		<PitchRange X="-15" Y="15" />
 		<YawRange X="-15" Y="15" />
 		<FireCone X="0.035" Y="0.035" />
-		<Spread>0.0030</Spread> <!-- Spread angle of projectiles, in radians -->
+		<Spread>0.0020</Spread> <!-- Spread angle of projectiles, in radians -->
 		<AimType>Converging</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<Icon>LightBlaster</Icon>
 		<ShowReticle>true</ShowReticle>
@@ -532,9 +539,9 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>PlasmaCutter2</Name>
-			<DuplicateRange>0.03</DuplicateRange>
+			<DuplicateRange>0.02</DuplicateRange>
 			<DuplicateLength>0.1</DuplicateLength>
-			<MaxDupedCount>2</MaxDupedCount>
+			<MaxDupedCount>4</MaxDupedCount>
 		</Sound>
         <Muzzle>
 			<Effect>ParticleEffects/Weapons/Blasters/P_LaserBoltMuzzleFlash</Effect>
@@ -543,6 +550,7 @@
 			<LightColor X="0.2" Y="0.7" Z="1.0" />
 			<LightCutoff>30.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightDuration>0.1</LightDuration>
+			<RecoilOffset>0.0001</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>Energy</Type>
@@ -635,7 +643,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.04" Y="0.04" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.006</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
@@ -644,6 +652,7 @@
 		<TargetType Type="MediumShip" Priority="2.0" />
 		<TargetType Type="LargeShip" Priority="4.0" />
 		<TargetType Type="Mine" Priority="0.5" />
+		<TargetType Type="Drone" Priority="4.0" />
 		<LeadAimAcceleration>1.0</LeadAimAcceleration>
 		<Icon>TurretMK4Gun</Icon>
 		<HUDIcon>SI_Chevron</HUDIcon>
@@ -652,6 +661,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK4</Name>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
 			<DistRangeScale>0.6</DistRangeScale>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>1.5</RotatingPitch>
@@ -663,6 +674,7 @@
 			<LightColor X="1.0" Y="0.5" Z="0.15" />
 			<LightCutoff>50.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightDuration>0.2</LightDuration>
+			<RecoilOffset>0.0005</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>MediumAmmo</Type>
@@ -672,7 +684,7 @@
 		<Shot>
 			<Type>Projectile</Type>
 			<Name>ParticleEffects/Weapons/Kinetic/P_3dProjectile-kinetic</Name>
-			<Scale X="0.04" Y="0.04" Z="0.04" />
+			<Scale X="0.02" Y="0.02" Z="0.02" />
 			<Offset>0.01</Offset>
 			<LightQuality>4</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.1" />
@@ -759,7 +771,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.04" Y="0.04" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.007</Spread> <!-- Spread angle of projectiles, in radians -->
 		<TargetSizeRange X="0.0" Y="0.25" />
@@ -774,6 +786,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>BlasterTurretMK4</Name>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
 			<DistRangeScale>0.6</DistRangeScale>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>1.5</RotatingPitch>
@@ -785,6 +799,7 @@
 			<LightColor X="0.2" Y="0.7" Z="1.0" />
 			<LightCutoff>50.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightDuration>0.1</LightDuration>
+			<RecoilOffset>0.0005</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>Energy</Type>
@@ -880,7 +895,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.02" Y="0.02" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.008</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
@@ -889,6 +904,7 @@
 		<TargetType Type="MediumShip" Priority="2.0" />
 		<TargetType Type="LargeShip" Priority="4.0" />
 		<TargetType Type="Mine" Priority="0.5" />
+		<TargetType Type="Drone" Priority="4.0" />
 		<LeadAimAcceleration>1.0</LeadAimAcceleration>
 		<Icon>TurretMK4Gun</Icon>
 		<HUDIcon>SI_Chevron</HUDIcon>
@@ -897,6 +913,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK4</Name>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
 			<DistRangeScale>0.6</DistRangeScale>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>1.5</RotatingPitch>
@@ -908,6 +926,7 @@
 			<LightColor X="1.0" Y="0.5" Z="0.15" />
 			<LightCutoff>50.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightDuration>0.2</LightDuration>
+			<RecoilOffset>0.0005</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>MediumAmmo</Type>
@@ -1008,7 +1027,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.02" Y="0.02" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.006</Spread> <!-- Spread angle of projectiles, in radians -->
 		<TargetSizeRange X="0.0" Y="0.25" />
@@ -1023,6 +1042,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>BlasterTurretMK4</Name>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
 			<DistRangeScale>0.6</DistRangeScale>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>1.5</RotatingPitch>
@@ -1034,6 +1055,7 @@
 			<LightColor X="0.2" Y="0.7" Z="1.0" />
 			<LightCutoff>50.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightDuration>0.1</LightDuration>
+			<RecoilOffset>0.0005</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>Energy</Type>
@@ -1086,6 +1108,7 @@
 		<Type>AttachBaseBarrel</Type>
 		<Class>MK5</Class>
 		<Actor Class="Destroyer" />
+		<Actor Class="Hauler" />
 		<Actor Class="Cruiser" />
 		<Actor Class="Carrier" />
 		<Credits>0</Credits>
@@ -1128,7 +1151,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.07" Y="0.07" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.0100</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
@@ -1156,8 +1179,9 @@
 			<Scale>2.0</Scale>
 			<Offset>0.0</Offset>
 			<LightColor X="1.0" Y="0.5" Z="0.15" />
-			<LightCutoff>150.0</LightCutoff>
+			<LightCutoff>300.0</LightCutoff>
 			<LightDuration>0.25</LightDuration>
+			<RecoilOffset>0.001</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>MediumAmmo</Type>
@@ -1171,13 +1195,13 @@
 			<Offset>0.05</Offset>
 			<LightQuality>4</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.1" />
-			<LightCutoff>75.0</LightCutoff>
+			<LightCutoff>250.0</LightCutoff>
 			<KineticDamage>40.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<EnergyDamage>15.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
 			<LifeTime>5.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.4</Speed> <!-- Initial speed the shot gets fired at -->
-			<Heat>15.0</Heat>
+			<Heat>10.0</Heat>
 		</Shot>
 		<Impact>
 			<Metal>
@@ -1215,6 +1239,7 @@
 		<Type>AttachBaseBarrel</Type>
 		<Class>MK5</Class>
 		<Actor Class="Destroyer" />
+		<Actor Class="Hauler" />
 		<Actor Class="Cruiser" />
 		<Actor Class="Carrier" />
 		<Credits>0</Credits>
@@ -1257,7 +1282,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.07" Y="0.07" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.0080</Spread> <!-- Spread angle of projectiles, in radians -->
 		<TargetSizeRange X="0.06" Y="100.0" />
@@ -1272,16 +1297,19 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>BlasterTurretMK5</Name>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.2</DuplicateLength>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>1.0</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>ParticleEffects/Weapons/Blasters/P_LaserBoltMuzzleFlash</Effect>
-			<Scale>4.0</Scale>
+			<Scale>2.0</Scale>
 			<Offset>0.0</Offset>
 			<LightColor X="0.08" Y="0.15" Z="1.0" />
-			<LightCutoff>150.0</LightCutoff>
+			<LightCutoff>300.0</LightCutoff>
 			<LightDuration>0.25</LightDuration>
+			<RecoilOffset>0.001</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>Energy</Type>
@@ -1294,7 +1322,7 @@
 			<Offset>0.05</Offset>
 			<LightQuality>4</LightQuality>
 			<LightColor X="0.08" Y="0.15" Z="1.0" />
-			<LightCutoff>75.0</LightCutoff>
+			<LightCutoff>250.0</LightCutoff>
 			<KineticDamage>16.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<EnergyDamage>50.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
@@ -1376,7 +1404,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.08" Y="0.08" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.0125</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
@@ -1391,6 +1419,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK6</Name>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.2</DuplicateLength>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>0.75</RotatingPitch>
 		</Sound>
@@ -1399,8 +1429,9 @@
 			<Scale>1.0</Scale>
 			<Offset>0.0</Offset>
 			<LightColor X="1.0" Y="0.5" Z="0.15" />
-			<LightCutoff>300.0</LightCutoff>
+			<LightCutoff>750.0</LightCutoff>
 			<LightDuration>0.3</LightDuration>
+			<RecoilOffset>0.002</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>HeavyAmmo</Type>
@@ -1410,11 +1441,11 @@
 		<Shot>
 			<Type>Projectile</Type>
 			<Name>ParticleEffects/Weapons/Kinetic/P_3dProjectile-kinetic-mk6</Name>
-			<Scale X="0.04" Y="0.04" Z="0.1" />
+			<Scale X="0.035" Y="0.035" Z="0.09" />
 			<Offset>0.06</Offset>
 			<LightQuality>3</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.1" />
-			<LightCutoff>120.0</LightCutoff>
+			<LightCutoff>500.0</LightCutoff>
 			<KineticDamage>150.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<EnergyDamage>75.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
@@ -1500,7 +1531,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.08" Y="0.08" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.0100</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
@@ -1514,17 +1545,20 @@
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>BlasterTurretMK5</Name>
+			<Name>BlasterTurretMK6</Name>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.2</DuplicateLength>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>1.0</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>ParticleEffects/Weapons/Blasters/P_LaserBoltMuzzleFlash</Effect>
-			<Scale>3.5</Scale>
+			<Scale>8.0</Scale>
 			<Offset>0.0</Offset>
 			<LightColor X="0.05" Y="0.3" Z="1.0" />
-			<LightCutoff>200.0</LightCutoff>
+			<LightCutoff>750.0</LightCutoff>
 			<LightDuration>0.4</LightDuration>
+			<RecoilOffset>0.002</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>Energy</Type>
@@ -1533,11 +1567,11 @@
 		<Shot>
 			<Type>Projectile</Type>
 			<Name>ParticleEffects/Weapons/Blasters/P_3dProjectile-blaster_big</Name>
-			<Scale X="0.07" Y="0.07" Z="0.08" />
+			<Scale X="0.06" Y="0.06" Z="0.07" />
 			<Offset>0.07</Offset>
 			<LightQuality>3</LightQuality>
 			<LightColor X="0.05" Y="0.3" Z="1.0" />
-			<LightCutoff>120.0</LightCutoff>
+			<LightCutoff>500.0</LightCutoff>
 			<KineticDamage>50.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<EnergyDamage>175.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
@@ -1619,7 +1653,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.10" Y="0.10" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.0150</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
@@ -1634,17 +1668,20 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK7</Name>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.2</DuplicateLength>
 			<DistRangeScale>1.25</DistRangeScale>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>0.5</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>ParticleEffects/Weapons/Kinetic/P_Muzzleflash-big-kinetic</Effect>
-			<Scale>1.5</Scale>
+			<Scale>2.0</Scale>
 			<Offset>0.0</Offset>
 			<LightColor X="1.0" Y="0.5" Z="0.15" />
-			<LightCutoff>500.0</LightCutoff>
+			<LightCutoff>1500.0</LightCutoff>
 			<LightDuration>0.4</LightDuration>
+			<RecoilOffset>0.005</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>HeavyAmmo</Type>
@@ -1654,11 +1691,11 @@
 		<Shot>
 			<Type>Projectile</Type>
 			<Name>ParticleEffects/Weapons/Kinetic/P_3dProjectile-kinetic-mk7</Name>
-			<Scale X="0.08" Y="0.08" Z="0.18" />
+			<Scale X="0.07" Y="0.07" Z="0.15" />
 			<Offset>0.12</Offset>
 			<LightQuality>3</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.1" />
-			<LightCutoff>150.0</LightCutoff>
+			<LightCutoff>1000.0</LightCutoff>
 			<KineticDamage>500.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<EnergyDamage>250.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
@@ -1707,8 +1744,6 @@
 		<Actor Class="Corvette" />
 		<Mass>1.0</Mass>
 		<Mesh>
-			<Attach Mesh="Ships/Weapons/Missiles/SM_SFC_MissilePod">
-			</Attach>
 			<HitBox>
 				<Min X="-0.002" Y="-0.002" Z="-0.002" />
 				<Max X="0.002" Y="0.002" Z="0.002" />
@@ -1716,7 +1751,6 @@
 		</Mesh>
 		<HitPoints>40</HitPoints>
 		<Sockets>
-			<Attach>$Dev/Ships/Weapons/Missiles/4d06508f.insm</Attach>
 		</Sockets>
 		<GunOffset X="0" Y="0" Z="0" />
 		<Scale>1.0</Scale>
@@ -1728,12 +1762,14 @@
 		<YawRange X="0" Y="0" />
 		<FireCone X="0.6" Y="0.6" />
 		<AimType>Fixed</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<LockType>Target</LockType>
 		<LockTime>2.5</LockTime>
 		<LockCone X="0.15" Y="0.15" />
+		<MinLockDistance>2.0</MinLockDistance>
 		<MaxLockDistance>25.0</MaxLockDistance>
+		<LockDistanceAI>8.0</LockDistanceAI>
 		<TargetSizeRange X="0.0" Y="0.25" />
 		<TargetType Type="SmallShip" Priority="1.0" />
 		<TargetType Type="MediumShip" Priority="2.0" />
@@ -1744,6 +1780,7 @@
 		<ShowReticle>false</ShowReticle>
 		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
 		<Sound>
 			<Name>MissileLaunch</Name>
 		</Sound>
@@ -1779,8 +1816,6 @@
 		<Actor Class="Corvette" />
 		<Mass>2.0</Mass>
 		<Mesh>
-			<Attach Mesh="Ships/Weapons/Missiles/SM_SFC_MissilePod">
-			</Attach>
 			<HitBox>
 				<Min X="-0.002" Y="-0.002" Z="-0.002" />
 				<Max X="0.002" Y="0.002" Z="0.002" />
@@ -1788,7 +1823,6 @@
 		</Mesh>
 		<HitPoints>60</HitPoints>
 		<Sockets>
-			<Attach>$Dev/Ships/Weapons/Missiles/4d06508f.insm</Attach>
 		</Sockets>
 		<GunOffset X="0" Y="0" Z="0" />
 		<Scale>1.0</Scale>
@@ -1800,12 +1834,14 @@
 		<YawRange X="0" Y="0" />
 		<FireCone X="0.3" Y="0.3" />
 		<AimType>Fixed</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<LockType>Target</LockType>
 		<LockTime>2.0</LockTime>
 		<LockCone X="0.25" Y="0.25" />
+		<MinLockDistance>4.0</MinLockDistance>
 		<MaxLockDistance>50.0</MaxLockDistance>
+		<LockDistanceAI>10.0</LockDistanceAI>
 		<TargetSizeRange X="0.25" Y="1000.0" />
 		<TargetType Type="MediumShip" Priority="2.0" />
 		<TargetType Type="LargeShip" Priority="1.0" />
@@ -1815,6 +1851,7 @@
 		<ShowReticle>false</ShowReticle>
 		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
 		<Sound>
 			<Name>TorpedoLaunch</Name>
 		</Sound>
@@ -1847,8 +1884,6 @@
 		<Credits>0</Credits>
 		<Mass>500.0</Mass>
 		<Mesh>
-			<Attach Mesh="Ships/Weapons/Missiles/SM_SFC_MissilePod">
-			</Attach>
 			<HitBox>
 				<Min X="-0.01" Y="-0.01" Z="-0.01" />
 				<Max X="0.01" Y="0.01" Z="0.01" />
@@ -1856,7 +1891,6 @@
 		</Mesh>
 		<HitPoints>500</HitPoints>
 		<Sockets>
-			<Attach>$Dev/Ships/Weapons/Missiles/4d06508f.insm</Attach>
 		</Sockets>
 		<GunOffset X="0" Y="0" Z="0" />
 		<Scale>1.0</Scale>
@@ -1868,12 +1902,14 @@
 		<YawRange X="0" Y="0" />
 		<FireCone X="1.57" Y="1.57" />
 		<AimType>Fixed</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<LockType>Target</LockType>
 		<LockTime>5.0</LockTime>
 		<LockCone X="0.25" Y="0.25" />
+		<MinLockDistance>3.0</MinLockDistance>
 		<MaxLockDistance>25.0</MaxLockDistance>
+		<LockDistanceAI>8.0</LockDistanceAI>
 		<TargetSizeRange X="0.25" Y="1000.0" />
 		<TargetType Type="MediumShip" Priority="2.0" />
 		<TargetType Type="LargeShip" Priority="1.0" />
@@ -1883,6 +1919,7 @@
 		<ShowReticle>false</ShowReticle>
 		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
 		<Sound>
 			<Name>TorpedoLaunch</Name>
 		</Sound>
@@ -1950,7 +1987,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.04" Y="0.04" />
 		<AimType>Turret</AimType>
-		<AimMode>AutoOnly</AimMode>
+		<AimMode>AutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.0010</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
@@ -1959,6 +1996,7 @@
 		<TargetType Type="MediumShip" Priority="2.0" />
 		<TargetType Type="LargeShip" Priority="4.0" />
 		<TargetType Type="Mine" Priority="0.5" />
+		<TargetType Type="Drone" Priority="4.0" />
 		<LeadAimAcceleration>1.0</LeadAimAcceleration>
 		<Icon>TurretMK4Gun</Icon>
 		<HUDIcon>SI_Chevron</HUDIcon>
@@ -1967,6 +2005,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK4</Name>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
 			<DistRangeScale>0.6</DistRangeScale>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>1.5</RotatingPitch>
@@ -1979,6 +2019,7 @@
 			<LightCutoff>250.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightIntensity>2000000000.0</LightIntensity>
 			<LightDuration>0.25</LightDuration>
+			<RecoilOffset>0.0005</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>MediumAmmo</Type>
@@ -2074,7 +2115,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.04" Y="0.04" />
 		<AimType>Turret</AimType>
-		<AimMode>AutoOnly</AimMode>
+		<AimMode>AutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.0008</Spread> <!-- Spread angle of projectiles, in radians -->
 		<TargetSizeRange X="0.0" Y="0.25" />
@@ -2089,6 +2130,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>BlasterTurretMK4</Name>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
 			<DistRangeScale>0.6</DistRangeScale>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>1.5</RotatingPitch>
@@ -2101,6 +2144,7 @@
 			<LightCutoff>250.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightIntensity>2000000000.0</LightIntensity>
 			<LightDuration>0.25</LightDuration>
+			<RecoilOffset>0.0005</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>Energy</Type>
@@ -2191,7 +2235,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.07" Y="0.07" />
 		<AimType>Turret</AimType>
-		<AimMode>AutoOnly</AimMode>
+		<AimMode>AutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.0020</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
@@ -2208,17 +2252,20 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK5</Name>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.2</DuplicateLength>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>1.0</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>ParticleEffects/Weapons/Kinetic/P_WavyStreakMuzzleFlash</Effect>
-			<Scale>2.0</Scale>
+			<Scale>3.0</Scale>
 			<Offset>0.0</Offset>
 			<LightColor X="1.0" Y="0.5" Z="0.15" />
 			<LightCutoff>350.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightIntensity>4000000000.0</LightIntensity>
 			<LightDuration>0.35</LightDuration>
+			<RecoilOffset>0.001</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>MediumAmmo</Type>
@@ -2232,7 +2279,7 @@
 			<Offset>0.05</Offset>
 			<LightQuality>4</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.1" />
-			<LightCutoff>75.0</LightCutoff>
+			<LightCutoff>250.0</LightCutoff>
 			<KineticDamage>60.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<EnergyDamage>25.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
@@ -2314,7 +2361,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.07" Y="0.07" />
 		<AimType>Turret</AimType>
-		<AimMode>AutoOnly</AimMode>
+		<AimMode>AutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.0015</Spread> <!-- Spread angle of projectiles, in radians -->
 		<TargetSizeRange X="0.03" Y="100.0" />
@@ -2329,17 +2376,20 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>BlasterTurretMK5</Name>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.2</DuplicateLength>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>1.0</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>ParticleEffects/Weapons/Blasters/P_LaserBoltMuzzleFlash</Effect>
-			<Scale>2.0</Scale>
+			<Scale>3.0</Scale>
 			<Offset>0.0</Offset>
 			<LightColor X="0.08" Y="0.15" Z="1.0" />
 			<LightCutoff>350.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightIntensity>4000000000.0</LightIntensity>
 			<LightDuration>0.35</LightDuration>
+			<RecoilOffset>0.001</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>Energy</Type>
@@ -2352,7 +2402,7 @@
 			<Offset>0.05</Offset>
 			<LightQuality>4</LightQuality>
 			<LightColor X="0.08" Y="0.15" Z="1.0" />
-			<LightCutoff>75.0</LightCutoff>
+			<LightCutoff>250.0</LightCutoff>
 			<KineticDamage>20.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<EnergyDamage>70.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
@@ -2430,7 +2480,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.08" Y="0.08" />
 		<AimType>Turret</AimType>
-		<AimMode>AutoOnly</AimMode>
+		<AimMode>AutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.0030</Spread> <!-- Spread angle of projectiles, in radians -->
 		<LeadAimAcceleration>1.0</LeadAimAcceleration>
@@ -2445,17 +2495,20 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK6</Name>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.2</DuplicateLength>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>0.75</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>ParticleEffects/Weapons/Kinetic/P_Muzzleflash-big-kinetic</Effect>
-			<Scale>2.0</Scale>
+			<Scale>1.5</Scale>
 			<Offset>0.0</Offset>
 			<LightColor X="1.0" Y="0.5" Z="0.15" />
-			<LightCutoff>500.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+			<LightCutoff>800.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightIntensity>8000000000.0</LightIntensity>
 			<LightDuration>0.5</LightDuration>
+			<RecoilOffset>0.002</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>HeavyAmmo</Type>
@@ -2465,11 +2518,11 @@
 		<Shot>
 			<Type>Projectile</Type>
 			<Name>ParticleEffects/Weapons/Kinetic/P_3dProjectile-kinetic-mk6</Name>
-			<Scale X="0.04" Y="0.04" Z="0.1" />
+			<Scale X="0.035" Y="0.035" Z="0.09" />
 			<Offset>0.06</Offset>
 			<LightQuality>3</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.1" />
-			<LightCutoff>120.0</LightCutoff>
+			<LightCutoff>500.0</LightCutoff>
 			<KineticDamage>250.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<EnergyDamage>200.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
@@ -2541,19 +2594,19 @@
 			<Barrel>$Dev/Ships/Weapons/Mk7_Trio/4b511721.insm</Barrel>
 		</Sockets>
 		<Scale>1.0</Scale>
-		<FireRate>3.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<FireRate>1.0</FireRate> <!-- Fire rate in number of shots per second -->
 		<SynchroMode>Random</SynchroMode>
-		<BurstCount>5</BurstCount>
-		<BurstCooldown>1.0</BurstCooldown>
+		<BurstCount>2</BurstCount>
+		<BurstCooldown>5.0</BurstCooldown>
 		<BurstFire>false</BurstFire>
-		<TurnSpeed X="30" Y="30" />
+		<TurnSpeed X="6" Y="6" />
 		<PitchRange X="-90" Y="5" />
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.08" Y="0.08" />
 		<AimType>Turret</AimType>
-		<AimMode>AutoOnly</AimMode>
+		<AimMode>AutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
-		<Spread>0.0030</Spread> <!-- Spread angle of projectiles, in radians -->
+		<Spread>0.0150</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
 		<TargetSizeRange X="0.25" Y="100.0" />
 		<TargetType Type="MediumShip" Priority="2.0" />
@@ -2566,6 +2619,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK7</Name>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.2</DuplicateLength>
 			<DistRangeScale>1.25</DistRangeScale>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>0.5</RotatingPitch>
@@ -2575,9 +2630,10 @@
 			<Scale>3.0</Scale>
 			<Offset>0.0</Offset>
 			<LightColor X="1.0" Y="0.5" Z="0.15" />
-			<LightCutoff>750.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+			<LightCutoff>1750.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightIntensity>16000000000.0</LightIntensity>
 			<LightDuration>0.6</LightDuration>
+			<RecoilOffset>0.005</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>HeavyAmmo</Type>
@@ -2587,15 +2643,15 @@
 		<Shot>
 			<Type>Projectile</Type>
 			<Name>ParticleEffects/Weapons/Kinetic/P_3dProjectile-kinetic-mk7</Name>
-			<Scale X="0.08" Y="0.08" Z="0.18" />
+			<Scale X="0.07" Y="0.07" Z="0.15" />
 			<Offset>0.12</Offset>
 			<LightQuality>3</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.1" />
-			<LightCutoff>150.0</LightCutoff>
+			<LightCutoff>1000.0</LightCutoff>
 			<KineticDamage>500.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<EnergyDamage>250.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
-			<LifeTime>5.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<LifeTime>7.28</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>2.2</Speed> <!-- Initial speed the shot gets fired at -->
 			<Heat>50.0</Heat>
 		</Shot>
@@ -2666,13 +2722,15 @@
 		<YawRange X="0" Y="0" />
 		<FireCone X="0.40" Y="0.40" />
 		<AimType>Fixed</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<LockSource>Forward</LockSource>
 		<LockType>Target</LockType>
 		<LockTime>4.0</LockTime>
 		<LockCone X="0.3" Y="0.3" />
+		<MinLockDistance>2.5</MinLockDistance>
 		<MaxLockDistance>35.0</MaxLockDistance>
+		<LockDistanceAI>8.0</LockDistanceAI>
 		<TargetSizeRange X="0.25" Y="1000.0" />
 		<TargetType Type="MediumShip" Priority="1.0" />
 		<TargetType Type="LargeShip" Priority="2.0" />
@@ -2682,6 +2740,7 @@
 		<ShowReticle>false</ShowReticle>
 		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
 		<Sound>
 			<Name>MissileLaunch</Name>
 		</Sound>
@@ -2697,7 +2756,7 @@
 			<DamageType>ShieldAndHull</DamageType> <!-- Type of damage -->
 			<SplashRadius>0.2</SplashRadius>
 			<LifeTime>40.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
-			<Speed>0.20</Speed> <!-- Initial speed the shot gets fired at -->
+			<Speed>0.25</Speed> <!-- Initial speed the shot gets fired at -->
 			<Heat>20.0</Heat>
 		</Shot>
 		<Impact>
@@ -2754,13 +2813,15 @@
 		<YawRange X="0" Y="0" />
 		<FireCone X="0.35" Y="0.35" />
 		<AimType>Fixed</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<LockSource>Forward</LockSource>
 		<LockType>Target</LockType>
 		<LockTime>4.0</LockTime>
 		<LockCone X="0.3" Y="0.3" />
+		<MinLockDistance>2.5</MinLockDistance>
 		<MaxLockDistance>35.0</MaxLockDistance>
+		<LockDistanceAI>8.0</LockDistanceAI>
 		<TargetSizeRange X="0.25" Y="1000.0" />
 		<TargetType Type="MediumShip" Priority="1.0" />
 		<TargetType Type="LargeShip" Priority="2.0" />
@@ -2770,6 +2831,7 @@
 		<ShowReticle>false</ShowReticle>
 		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
 		<Sound>
 			<Name>MissileLaunch</Name>
 		</Sound>
@@ -2785,7 +2847,7 @@
 			<DamageType>ShieldAndHull</DamageType> <!-- Type of damage -->
 			<SplashRadius>0.2</SplashRadius>
 			<LifeTime>40.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
-			<Speed>0.20</Speed> <!-- Initial speed the shot gets fired at -->
+			<Speed>0.25</Speed> <!-- Initial speed the shot gets fired at -->
 			<Heat>20.0</Heat>
 		</Shot>
 		<Impact>
@@ -2842,13 +2904,15 @@
 		<YawRange X="0" Y="0" />
 		<FireCone X="0.35" Y="0.35" />
 		<AimType>Fixed</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<LockSource>Forward</LockSource>
 		<LockType>Target</LockType>
 		<LockTime>6.0</LockTime>
 		<LockCone X="0.25" Y="0.25" />
+		<MinLockDistance>4.0</MinLockDistance>
 		<MaxLockDistance>50.0</MaxLockDistance>
+		<LockDistanceAI>10.0</LockDistanceAI>
 		<TargetSizeRange X="0.25" Y="1000.0" />
 		<TargetType Type="MediumShip" Priority="2.0" />
 		<TargetType Type="LargeShip" Priority="1.0" />
@@ -2858,6 +2922,7 @@
 		<ShowReticle>false</ShowReticle>
 		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
 		<Sound>
 			<Name>TorpedoLaunch</Name>
 		</Sound>
@@ -2888,6 +2953,7 @@
 		<Type>AttachBaseBarrel</Type>
 		<Class>MK4</Class>
 		<Actor Class="Corvette" />
+		<Actor Class="Hauler" />
 		<Actor Class="Destroyer" />
 		<Actor Class="Cruiser" />
 		<Actor Class="Carrier" />
@@ -2921,19 +2987,19 @@
 			<Barrel>$Dev/Ships/Weapons/Mk4_Single/ccb89926.insm</Barrel>
 		</Sockets>
 		<Scale>1.0</Scale>
-		<FireRate>5.0</FireRate> <!-- Fire rate in number of shots per second -->
-		<BurstCount>5</BurstCount>
+		<FireRate>2.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<BurstCount>10</BurstCount>
 		<BurstCooldown>3.0</BurstCooldown>
 		<BurstFire>false</BurstFire>
 		<SynchroMode>Random</SynchroMode>
-		<TurnSpeed X="40" Y="40" />
+		<TurnSpeed X="60" Y="60" />
 		<PitchRange X="-90" Y="4" />
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.1" Y="0.1" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
-		<Spread>0.040</Spread> <!-- Spread angle of projectiles, in radians -->
+		<Spread>0.025</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
 		<TargetSizeRange X="0.0" Y="0.25" />
 		<TargetType Type="SmallShip" Priority="1.0" />
@@ -2942,6 +3008,7 @@
 		<TargetType Type="Torpedo" Priority="0.5" />
 		<TargetType Type="HeavyMissile" Priority="1.0" />
 		<TargetType Type="Mine" Priority="0.5" />
+		<TargetType Type="Drone" Priority="4.0" />
 		<TargetTrackRange X="0.0" Y="8.0" />
 		<LeadAimAcceleration>1.0</LeadAimAcceleration>
 		<Icon>TurretMK4Flak</Icon>
@@ -2951,6 +3018,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>Mg48</Name>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>1.0</RotatingPitch>
 		</Sound>
@@ -2961,28 +3030,31 @@
 			<LightColor X="1.0" Y="0.5" Z="0.15" />
 			<LightCutoff>120.0</LightCutoff>
 			<LightDuration>0.25</LightDuration>
+			<RecoilOffset>0.0005</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>MediumAmmo</Type>
 			<Cost>2</Cost>
-			<Max>1000</Max>
+			<Max>1500</Max>
 		</Ammo>
 		<Shot>
 			<Type>Projectile</Type>
 			<Name>ParticleEffects/Weapons/Kinetic/P_3dProjectile-flak-ball</Name>
-			<Scale X="0.03" Y="0.03" Z="0.05" />
+			<Scale X="0.02" Y="0.02" Z="0.04" />
 			<Offset>0.05</Offset>
 			<LightQuality>4</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.1" />
 			<LightCutoff>75.0</LightCutoff>
-			<KineticDamage>15.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
-			<EnergyDamage>8.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
+			<KineticDamage>12.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<EnergyDamage>6.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
-			<SplashRadius>0.15</SplashRadius>
+			<SplashRadius>0.2</SplashRadius>
 			<LifeTime>3.34</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.5</Speed> <!-- Initial speed the shot gets fired at -->
-			<Heat>16.0</Heat>
+			<Heat>8.0</Heat>
 			<Detonates>true</Detonates>
+			<DetonationRange X="1.0" Y="1000.0" />
+			<DirectHitDamageRatio>0.5</DirectHitDamageRatio> <!-- Hit damage ratio for direct hits (aka. less explosive) -->
 		</Shot>
 		<Impact>
 			<Metal>
@@ -3018,20 +3090,15 @@
 		<Credits>0</Credits>
 		<Mass>10.0</Mass>
 		<Mesh>
-			<Attach Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD0">
-	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD1" />
-	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD2" />
-	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD3" />
-			</Attach>
 			<Base Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Body_LOD0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Body_LOD1" />
 	            <LOD Level="2" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Body_LOD2" />
 	            <LOD Level="3" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Body_LOD3" />
 			</Base>
-			<Barrel Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk1_Ams_Gun_Laser_LOD0">
-	            <LOD Level="1" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk1_Ams_Gun_Laser_LOD1" />
-	            <LOD Level="2" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk1_Ams_Gun_Laser_LOD2" />
-	            <LOD Level="3" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk1_Ams_Gun_Laser_LOD3" />
+			<Barrel Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Gun_Laser_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Gun_Laser_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Gun_Laser_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Gun_Laser_LOD3" />
 			</Barrel>
 			<HitBox>
 				<Min X="-0.020" Y="-0.020" Z="-0.020" />
@@ -3041,7 +3108,7 @@
 		<HitPoints>250</HitPoints>
 		<Sockets>
 			<Base>$Dev/Ships/Weapons/Mk3_AntiMissileLaser/607e8c4d.insm</Base>
-			<Barrel>$Dev/Ships/Weapons/Mk3_AntiMissileLaser/922c5dc1.insm</Barrel>
+			<Barrel>$Dev/Ships/Weapons/Mk3_AntiMissileLaser/bc9c6b87.insm</Barrel>
 		</Sockets>
 		<Scale>2.0</Scale>
 		<FireRate>1.0</FireRate> <!-- Fire rate in number of shots per second -->
@@ -3051,7 +3118,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.005" Y="0.005" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<TargetSizeRange X="0.0" Y="0.05" />
 		<TargetType Type="Torpedo" Priority="1.0" />
@@ -3069,6 +3136,8 @@
 		<Sound>
 			<Name>AMSFire</Name>
 			<DistRangeScale>0.6</DistRangeScale>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>2.0</RotatingPitch>
 			<AmbientName>AMSAmbient</AmbientName>
@@ -3133,6 +3202,7 @@
 		<Type>AttachBaseBarrel</Type>
 		<Class>MK4</Class>
 		<Actor Class="Corvette" />
+		<Actor Class="Hauler" />
 		<Actor Class="Destroyer" />
 		<Actor Class="Cruiser" />
 		<Actor Class="Carrier" />
@@ -3167,9 +3237,9 @@
 			<Barrel>$Dev/Ships/Weapons/Mk4_Single/71df307c.insm</Barrel>
 		</Sockets>
 		<Scale>1.0</Scale>
-		<FireRate>6.0</FireRate> <!-- Fire rate in number of shots per second -->
-		<BurstCount>4</BurstCount>
-		<BurstCooldown>0.85</BurstCooldown>
+		<FireRate>3.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<BurstCount>3</BurstCount>
+		<BurstCooldown>2.25</BurstCooldown>
 		<BurstFire>false</BurstFire>
 		<SynchroMode>Random</SynchroMode>
 		<TurnSpeed X="25" Y="25" />
@@ -3177,15 +3247,16 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.03" Y="0.03" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
-		<Spread>0.0015</Spread> <!-- Spread angle of projectiles, in radians -->
+		<Spread>0.0010</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
 		<TargetSizeRange X="0.0" Y="0.25" />
 		<TargetType Type="SmallShip" Priority="1.0" />
 		<TargetType Type="MediumShip" Priority="2.0" />
 		<TargetType Type="LargeShip" Priority="4.0" />
 		<TargetType Type="Mine" Priority="0.5" />
+		<TargetType Type="Drone" Priority="4.0" />
 		<LeadAimAcceleration>1.0</LeadAimAcceleration>
 		<Icon>TurretMK4Gun</Icon>
 		<HUDIcon>SI_Chevron</HUDIcon>
@@ -3194,6 +3265,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>SmallRailgun</Name>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
 			<DistRangeScale>0.6</DistRangeScale>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>1.5</RotatingPitch>
@@ -3205,12 +3278,13 @@
 			<LightColor X="0.6" Y="0.2" Z="1.0" />
 			<LightCutoff>120.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightDuration>0.5</LightDuration>
+			<RecoilOffset>0.001</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>MediumAmmo</Type>
-			<Cost>2</Cost>
-			<Max>2500</Max>
-			<Energy>5</Energy>
+			<Cost>3</Cost>
+			<Max>2000</Max>
+			<Energy>4</Energy>
 		</Ammo>
 		<Shot>
 			<Type>Projectile</Type>
@@ -3220,12 +3294,12 @@
 			<LightQuality>4</LightQuality>
 			<LightColor X="0.5" Y="0.2" Z="1.0" />
 			<LightCutoff>25.0</LightCutoff>
-			<KineticDamage>6.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
-			<EnergyDamage>1.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
+			<KineticDamage>16.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<EnergyDamage>3.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
-			<LifeTime>3.2</LifeTime> <!-- Duration in seconds until shots fade out and die -->
-			<Speed>2.5</Speed> <!-- Initial speed the shot gets fired at -->
-			<Heat>6.0</Heat>
+			<LifeTime>2.67</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>3.0</Speed> <!-- Initial speed the shot gets fired at -->
+			<Heat>4.0</Heat>
 		</Shot>
 		<Impact>
 			<Metal>
@@ -3267,8 +3341,6 @@
 		<Rank>2</Rank>
 		<Mass>1.0</Mass>
 		<Mesh>
-			<Attach Mesh="Ships/Weapons/Missiles/SM_SFC_MissilePod">
-			</Attach>
 			<HitBox>
 				<Min X="-0.002" Y="-0.002" Z="-0.002" />
 				<Max X="0.002" Y="0.002" Z="0.002" />
@@ -3276,7 +3348,6 @@
 		</Mesh>
 		<HitPoints>50</HitPoints>
 		<Sockets>
-			<Attach>$Dev/Ships/Weapons/Missiles/4d06508f.insm</Attach>
 		</Sockets>
 		<GunOffset X="0" Y="0" Z="0" />
 		<Scale>1.0</Scale>
@@ -3288,12 +3359,14 @@
 		<YawRange X="0" Y="0" />
 		<FireCone X="0.6" Y="0.6" />
 		<AimType>Fixed</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<LockType>Target</LockType>
 		<LockTime>2.5</LockTime>
 		<LockCone X="0.15" Y="0.15" />
+		<MinLockDistance>2.0</MinLockDistance>
 		<MaxLockDistance>25.0</MaxLockDistance>
+		<LockDistanceAI>8.0</LockDistanceAI>
 		<TargetSizeRange X="0.0" Y="0.25" />
 		<TargetType Type="SmallShip" Priority="1.0" />
 		<TargetType Type="MediumShip" Priority="2.0" />
@@ -3303,6 +3376,7 @@
 		<ShowReticle>false</ShowReticle>
 		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
 		<Sound>
 			<Name>MissileLaunch</Name>
 		</Sound>
@@ -3328,29 +3402,24 @@
 
 	<Weapon>
 		<ID>RepairBeamMK3</ID>
-		<Name>UI_Weapon_RepairBeamMK3_Name</Name>   
+		<Name>UI_Weapon_RepairBeamMK3_Name</Name>
 		<LongDescr>UI_Weapon_RepairBeamMK3_LongDescr</LongDescr>
 		<Type>AttachBaseBarrel</Type>
-		<Class>MK3;MK4</Class>
+		<Class>MK3</Class>
 		<Rank>5</Rank>
 		<Credits>400</Credits>
 		<Actor Class="Corvette" />
 		<Mass>6.0</Mass>
 		<Mesh>
-			<Attach Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD0">
-	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD1" />
-	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD2" />
-	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD3" />
-			</Attach>
-			<Base Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Body_LOD0">
-	            <LOD Level="1" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Body_LOD1" />
-	            <LOD Level="2" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Body_LOD2" />
-	            <LOD Level="3" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Body_LOD3" />
+			<Base Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD3" />
 			</Base>
-			<Barrel Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk1_Ams_Gun_Laser_LOD0">
-	            <LOD Level="1" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk1_Ams_Gun_Laser_LOD1" />
-	            <LOD Level="2" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk1_Ams_Gun_Laser_LOD2" />
-	            <LOD Level="3" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk1_Ams_Gun_Laser_LOD3" />
+			<Barrel Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_RepairDrone_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_RepairDrone_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_RepairDrone_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_RepairDrone_LOD3" />
 			</Barrel>
 			<HitBox>
 				<Min X="-0.010" Y="-0.010" Z="-0.010" />
@@ -3359,8 +3428,8 @@
 		</Mesh>
 		<HitPoints>200</HitPoints>
 		<Sockets>
-			<Base>$Dev/Ships/Weapons/Mk3_AntiMissileLaser/607e8c4d.insm</Base>
-			<Barrel>$Dev/Ships/Weapons/Mk3_AntiMissileLaser/922c5dc1.insm</Barrel>
+			<Base>$Dev/Ships/Weapons/Mk4_Single/95324bac.insm</Base>
+			<Barrel>$Dev/Ships/Weapons/Mk4_Single/c8b1cd83.insm</Barrel>
 		</Sockets>
 		<Scale>1.0</Scale>
 		<FireRate>1.0</FireRate> <!-- Fire rate in number of shots per second -->
@@ -3370,12 +3439,13 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.005" Y="0.005" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimOrAutoAimAndManualFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<TargetSizeRange X="0.0" Y="0.05" />
 		<TargetType Type="SmallShip" Priority="1.0" />
 		<TargetType Type="MediumShip" Priority="2.0" />
 		<TargetType Type="Mine" Priority="1.5" />
+		<TargetsAllies>true</TargetsAllies>
 		<LeadAimAcceleration>1.0</LeadAimAcceleration>
 		<IgnoreDamageType>true</IgnoreDamageType>
 		<Icon>AMSLaser</Icon>
@@ -3386,6 +3456,8 @@
 		<Sound>
 			<Name>AMSFire</Name>
 			<DistRangeScale>0.6</DistRangeScale>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>2.0</RotatingPitch>
 			<AmbientName>AMSAmbient</AmbientName>
@@ -3441,6 +3513,348 @@
 	</Weapon>
 
 	<Weapon>
+		<ID>RepairBeamMK5</ID>
+		<Name>UI_Weapon_RepairBeamMK3_Name</Name>
+		<LongDescr>UI_Weapon_RepairBeamMK3_LongDescr</LongDescr>
+		<Type>AttachBaseBarrel</Type>
+		<Class>MK5</Class>
+		<Credits>0</Credits>
+		<Actor Class="Hauler" />
+		<Mass>40.0</Mass>
+		<Mesh>
+			<Base Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD3" />
+			</Base>
+			<Barrel Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_RepairDrone_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_RepairDrone_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_RepairDrone_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_RepairDrone_LOD3" />
+			</Barrel>
+			<HitBox>
+				<Min X="-0.010" Y="-0.010" Z="-0.010" />
+				<Max X="0.010" Y="0.010" Z="0.010" />
+			</HitBox>
+		</Mesh>
+		<HitPoints>400</HitPoints>
+		<Sockets>
+			<Base>$Dev/Ships/Weapons/Mk4_Single/95324bac.insm</Base>
+			<Barrel>$Dev/Ships/Weapons/Mk4_Single/c8b1cd83.insm</Barrel>
+		</Sockets>
+		<Scale>2.0</Scale>
+		<FireRate>1.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<SynchroMode>Sync</SynchroMode>
+		<TurnSpeed X="30" Y="30" />
+		<PitchRange X="-90" Y="1" />
+		<YawRange X="-180" Y="180" />
+		<FireCone X="0.02" Y="0.02" />
+		<AimType>Turret</AimType>
+		<AimMode>ManualAimOrAutoAimAndManualFire</AimMode>
+		<AutoAimDefault>true</AutoAimDefault>
+		<TargetType Type="SmallShip" Priority="4.0" />
+		<TargetType Type="MediumShip" Priority="2.0" />
+		<TargetType Type="LargeShip" Priority="1.0" />
+		<TargetType Type="Mine" Priority="4.0" />
+		<TargetsAllies>true</TargetsAllies>
+		<LeadAimAcceleration>1.0</LeadAimAcceleration>
+		<IgnoreDamageType>true</IgnoreDamageType>
+		<Icon>AMSLaser</Icon>
+		<HUDIcon>SI_AntiMissileLaser</HUDIcon>
+		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
+		<LeadReticle>false</LeadReticle>
+		<Sound>
+			<Name>AMSFire</Name>
+			<DistRangeScale>0.6</DistRangeScale>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>2.0</RotatingPitch>
+			<AmbientName>AMSAmbient</AmbientName>
+			<AmbientPitch>1.0</AmbientPitch>
+		</Sound>
+        <Muzzle>
+			<Effect>ParticleEffects/Weapons/Kinetic/P_WavyStreakMuzzleFlash</Effect>
+			<Scale>2.0</Scale>
+			<Offset>0.0</Offset>
+			<LightColor X="0.1" Y="1.0" Z="0.4" />
+			<LightCutoff>100.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+			<LightDuration>1.0</LightDuration>
+		</Muzzle>
+		<Ammo>
+			<Type>Energy</Type>
+			<Cost>40</Cost>
+		</Ammo>
+		<Shot>
+			<Type>Laser</Type>
+			<Name>ParticleEffects/Beams/P_Repair_Beam</Name>
+			<Scale X="0.0020" Y="0.030" Z="0.0020" />
+			<Offset>0.0</Offset>
+			<LightQuality>4</LightQuality>
+			<LightColor X="0.1" Y="1.0" Z="0.4" />
+			<LightCutoff>25.0</LightCutoff>
+			<KineticDamage>40.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<DamageType>Repair</DamageType> <!-- Type of damage -->
+			<DamageRate>0.25</DamageRate>
+			<WeaponDamageScale>3.0</WeaponDamageScale>
+			<LifeTime>0.30</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>10.0</Speed> <!-- Initial speed the shot gets fired at -->
+			<Range>3.0</Range>
+			<LimitRangeToTarget>true</LimitRangeToTarget>
+		</Shot>
+		<Impact>
+			<Metal>
+                <Effect>ImpactRepairBeam</Effect>
+				<Offset>0.005</Offset>
+				<Scale>2.0</Scale>
+			</Metal>
+			<Shield>
+				<Effect>ImpactRepairBeam</Effect>
+				<Offset>0.0025</Offset>
+				<Scale>2.0</Scale>
+			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<Offset>0.001</Offset>
+				<Scale>1.0</Scale>
+			</Surface>
+			<SmokeDamageScale>0.005</SmokeDamageScale>
+		</Impact>
+	</Weapon>
+
+	<Weapon>
+		<ID>RearmBeamMK5</ID>
+		<Name>UI_Weapon_RearmBeamMK5_Name</Name>
+		<LongDescr>UI_Weapon_RearmBeamMK5_LongDescr</LongDescr>
+		<Type>AttachBaseBarrel</Type>
+		<Class>MK5</Class>
+		<Credits>0</Credits>
+		<Actor Class="Hauler" />
+		<Mass>60.0</Mass>
+		<Mesh>
+			<Base Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD3" />
+			</Base>
+			<Barrel Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_RepairDrone_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_RepairDrone_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_RepairDrone_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_RepairDrone_LOD3" />
+			</Barrel>
+			<HitBox>
+				<Min X="-0.010" Y="-0.010" Z="-0.010" />
+				<Max X="0.010" Y="0.010" Z="0.010" />
+			</HitBox>
+		</Mesh>
+		<HitPoints>400</HitPoints>
+		<Sockets>
+			<Base>$Dev/Ships/Weapons/Mk4_Single/95324bac.insm</Base>
+			<Barrel>$Dev/Ships/Weapons/Mk4_Single/c8b1cd83.insm</Barrel>
+		</Sockets>
+		<Scale>2.0</Scale>
+		<FireRate>1.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<SynchroMode>Sync</SynchroMode>
+		<TurnSpeed X="30" Y="30" />
+		<PitchRange X="-90" Y="1" />
+		<YawRange X="-180" Y="180" />
+		<FireCone X="0.02" Y="0.02" />
+		<AimType>Turret</AimType>
+		<AimMode>ManualAimOrAutoAimAndManualFire</AimMode>
+		<AutoAimDefault>true</AutoAimDefault>
+		<TargetType Type="SmallShip" Priority="4.0" />
+		<TargetType Type="MediumShip" Priority="2.0" />
+		<TargetType Type="LargeShip" Priority="1.0" />
+		<TargetType Type="Mine" Priority="4.0" />
+		<TargetsAllies>true</TargetsAllies>
+		<LeadAimAcceleration>1.0</LeadAimAcceleration>
+		<IgnoreDamageType>true</IgnoreDamageType>
+		<Icon>AMSLaser</Icon>
+		<HUDIcon>SI_AntiMissileLaser</HUDIcon>
+		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
+		<LeadReticle>false</LeadReticle>
+		<Sound>
+			<Name>AMSFire</Name>
+			<DistRangeScale>0.6</DistRangeScale>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>2.0</RotatingPitch>
+			<AmbientName>AMSAmbient</AmbientName>
+			<AmbientPitch>1.0</AmbientPitch>
+		</Sound>
+        <Muzzle>
+			<Effect>ParticleEffects/Weapons/Kinetic/P_WavyStreakMuzzleFlash</Effect>
+			<Scale>2.0</Scale>
+			<Offset>0.0</Offset>
+			<LightColor X="1.0" Y="1.0" Z="0.4" />
+			<LightCutoff>100.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+			<LightDuration>1.0</LightDuration>
+		</Muzzle>
+		<Ammo>
+			<Type>Energy</Type>
+			<Cost>40</Cost>
+		</Ammo>
+		<Shot>
+			<Type>Laser</Type>
+			<Name>ParticleEffects/Beams/P_Rearm_Beam</Name>
+			<Scale X="0.0020" Y="0.030" Z="0.0020" />
+			<Offset>0.0</Offset>
+			<LightQuality>4</LightQuality>
+			<LightColor X="0.1" Y="1.0" Z="0.4" />
+			<LightCutoff>25.0</LightCutoff>
+			<KineticDamage>50.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<DamageType>Rearm</DamageType> <!-- Type of damage -->
+			<DamageRate>0.25</DamageRate>
+			<LifeTime>0.30</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>10.0</Speed> <!-- Initial speed the shot gets fired at -->
+			<Range>3.0</Range>
+			<LimitRangeToTarget>true</LimitRangeToTarget>
+		</Shot>
+		<Impact>
+			<Metal>
+                <Effect>ImpactRepairBeam</Effect>
+				<Offset>0.005</Offset>
+				<Scale>2.0</Scale>
+			</Metal>
+			<Shield>
+				<Effect>ImpactRepairBeam</Effect>
+				<Offset>0.0025</Offset>
+				<Scale>2.0</Scale>
+			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<Offset>0.001</Offset>
+				<Scale>1.0</Scale>
+			</Surface>
+			<SmokeDamageScale>0.005</SmokeDamageScale>
+		</Impact>
+	</Weapon>
+
+	<Weapon>
+		<ID>SpaceCanonMK9</ID>
+		<Name>UI_Weapon_SpaceCanonMK9_Name</Name>
+		<Type>AttachBaseBarrel</Type>
+		<Class>MK9</Class>
+		<Credits>-1</Credits>
+		<Mass>15000.0</Mass>
+		<Mesh>
+			<Base Mesh="Ships/Weapons/Mk10_Orbital/SM_Mk10_Orbital_Body_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk10_Orbital/SM_Mk10_Orbital_Body_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk10_Orbital/SM_Mk10_Orbital_Body_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk10_Orbital/SM_Mk10_Orbital_Body_LOD3" />
+	            <LOD Level="4" Mesh="Ships/Weapons/Mk10_Orbital/SM_Mk10_Orbital_Body_LOD4" />
+			</Base>
+			<Barrel Mesh="Ships/Weapons/Mk10_Orbital/SM_Mk10_Orbital_Gun_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk10_Orbital/SM_Mk10_Orbital_Gun_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk10_Orbital/SM_Mk10_Orbital_Gun_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk10_Orbital/SM_Mk10_Orbital_Gun_LOD3" />
+	            <LOD Level="4" Mesh="Ships/Weapons/Mk10_Orbital/SM_Mk10_Orbital_Gun_LOD4" />
+			</Barrel>
+			<HitBox>
+				<Min X="-0.15" Y="-0.15" Z="-0.15" />
+				<Max X="0.15" Y="0.15" Z="0.15" />
+			</HitBox>
+		</Mesh>
+		<HitPoints>60000</HitPoints>
+		<Sockets>
+			<Base>$Dev/Ships/Weapons/Mk10_Orbital/65c82202.insm</Base>
+			<Barrel>$Dev/Ships/Weapons/Mk10_Orbital/3a20193d.insm</Barrel>
+		</Sockets>
+		<Scale>1.0</Scale>
+		<FireRate>1.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<SynchroMode>Random</SynchroMode>
+		<BurstCount>5</BurstCount>
+		<BurstCooldown>10.0</BurstCooldown>
+		<BurstFire>false</BurstFire>
+		<TurnSpeed X="10" Y="10" />
+		<PitchRange X="-90" Y="7" />
+		<YawRange X="-180" Y="180" />
+		<FireCone X="0.04" Y="0.04" />
+		<AimType>Turret</AimType>
+		<AimMode>AutoAimAndFire</AimMode>
+		<AutoAimDefault>true</AutoAimDefault>
+		<Spread>0.0005</Spread> <!-- Spread angle of projectiles, in radians -->
+		<IgnoreDamageType>true</IgnoreDamageType>
+		<TargetSizeRange X="0.25" Y="100.0" />
+		<TargetType Type="MediumShip" Priority="8.0" />
+		<TargetType Type="LargeShip" Priority="1.0" />
+		<LeadAimAcceleration>1.0</LeadAimAcceleration>
+		<Icon>TurretMK7Gun</Icon>
+		<HUDIcon>SI_Chevron</HUDIcon>
+		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
+		<LeadReticle>true</LeadReticle>
+		<Sound>
+			<Name>KineticTurretMK7</Name>
+			<DuplicateRange>0.1</DuplicateRange>
+			<DuplicateLength>0.3</DuplicateLength>
+			<DistRangeScale>5.0</DistRangeScale>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>0.3</RotatingPitch>
+		</Sound>
+        <Muzzle>
+			<Effect>ParticleEffects/Weapons/OrbitalCanon/P_Orbital-canon-muzzleflash-orange-quicker</Effect>
+			<Scale>2.0</Scale>
+			<Offset>0.0</Offset>
+			<LightColor X="1" Y="0.4" Z="0.0" />
+			<LightCutoff>3000.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+			<LightIntensity>1024000000000.0</LightIntensity>
+			<LightDuration>1.0</LightDuration>
+			<RecoilOffset>0.05</RecoilOffset>
+		</Muzzle>
+		<Ammo>
+			<Type>HeavyAmmo</Type>
+			<Cost>32</Cost>
+			<Max>50000</Max>
+		</Ammo>
+		<Shot>
+			<Type>Projectile</Type>
+			<Name>ParticleEffects/Weapons/OrbitalCanon/P_Orbital-projectile-orange</Name>
+			<Scale X="0.16" Y="0.16" Z="0.36" />
+			<Offset>0.24</Offset>
+			<LightQuality>2</LightQuality>
+			<LightColor X="1" Y="0.4" Z="0.0" />
+			<LightCutoff>2000.0</LightCutoff>
+			<KineticDamage>1500.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<EnergyDamage>1500.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
+			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
+			<LifeTime>37.5</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>4.0</Speed> <!-- Initial speed the shot gets fired at -->
+			<Heat>100.0</Heat>
+		</Shot>
+		<Impact>
+			<Metal>
+				<Effect>ImpactMetalLargeKinetic</Effect>
+				<EffectSelf>ImpactMetalLargeSelfKinetic</EffectSelf>
+				<Offset>0.02</Offset>
+				<Scale>2.0</Scale>
+				<ScaleSelf>2.0</ScaleSelf>
+				<Bounce>0.0</Bounce>
+                <BounceEffect>ImpactMetalSparkles</BounceEffect>
+				<BounceEffectScale>16.0</BounceEffectScale>
+			</Metal>
+			<Shield>
+				<Effect>ImpactShieldLargeKinetic</Effect>
+				<EffectSelf>ImpactShieldLargeSelfKinetic</EffectSelf>
+				<Offset>0.005</Offset>
+				<Scale>4.0</Scale>
+				<ScaleSelf>4.0</ScaleSelf>
+			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.002</Offset>
+				<Scale>8.0</Scale>
+				<ScaleSelf>8.0</ScaleSelf>
+			</Surface>
+			<SmokeDamageScale>0.08</SmokeDamageScale>
+		</Impact>
+	</Weapon>
+
+	<Weapon>
 		<ID>OrbitalCanonMK10</ID>
 		<Name>UI_Weapon_OrbitalCanonMK10_Name</Name>
 		<Type>AttachBaseBarrel</Type>
@@ -3481,7 +3895,7 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.04" Y="0.04" />
 		<AimType>Turret</AimType>
-		<AimMode>AutoOnly</AimMode>
+		<AimMode>AutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.0005</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
@@ -3496,6 +3910,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK7</Name>
+			<DuplicateRange>0.1</DuplicateRange>
+			<DuplicateLength>0.3</DuplicateLength>
 			<DistRangeScale>5.0</DistRangeScale>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>0.3</RotatingPitch>
@@ -3505,9 +3921,10 @@
 			<Scale>2.0</Scale>
 			<Offset>0.0</Offset>
 			<LightColor X="1" Y="0.4" Z="0.0" />
-			<LightCutoff>2000.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+			<LightCutoff>3000.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightIntensity>1024000000000.0</LightIntensity>
 			<LightDuration>1.0</LightDuration>
+			<RecoilOffset>0.05</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>HeavyAmmo</Type>
@@ -3519,9 +3936,9 @@
 			<Name>ParticleEffects/Weapons/OrbitalCanon/P_Orbital-projectile-orange</Name>
 			<Scale X="0.16" Y="0.16" Z="0.36" />
 			<Offset>0.24</Offset>
-			<LightQuality>3</LightQuality>
+			<LightQuality>2</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.0" />
-			<LightCutoff>500.0</LightCutoff>
+			<LightCutoff>2000.0</LightCutoff>
 			<KineticDamage>1500.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<EnergyDamage>1500.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
@@ -3565,9 +3982,9 @@
 		<Type>AttachBaseBarrel</Type>
 		<Class>MK7</Class>
 		<Actor Class="Cruiser" />
-		<Credits>800</Credits>
-		<Rank>6</Rank>
-		<Mass>1500.0</Mass>
+		<Credits>1500</Credits>
+		<Rank>8</Rank>
+		<Mass>3000.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/Mk7_Forward_Facing_Canon/SM_Mk7_Fwd_Canon_Base_LOD0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk7_Forward_Facing_Canon/SM_Mk7_Fwd_Canon_Base_LOD1" />
@@ -3597,10 +4014,10 @@
 		<BurstFire>false</BurstFire>
 		<TurnSpeed X="8" Y="8" />
 		<PitchRange X="-90" Y="0" />
-		<YawRange X="-50" Y="50" />
+		<YawRange X="-40" Y="40" />
 		<FireCone X="0.10" Y="0.10" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.0150</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
@@ -3615,17 +4032,20 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK7</Name>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.2</DuplicateLength>
 			<DistRangeScale>1.25</DistRangeScale>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>0.5</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>ParticleEffects/Weapons/Kinetic/P_Muzzleflash-big-kinetic</Effect>
-			<Scale>1.5</Scale>
+			<Scale>2.0</Scale>
 			<Offset>0.0</Offset>
 			<LightColor X="1" Y="0.25" Z="0.05" />
-			<LightCutoff>500.0</LightCutoff>
+			<LightCutoff>1500.0</LightCutoff>
 			<LightDuration>0.4</LightDuration>
+			<RecoilOffset>0.005</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>HeavyAmmo</Type>
@@ -3635,13 +4055,13 @@
 		<Shot>
 			<Type>Projectile</Type>
 			<Name>ParticleEffects/Weapons/Kinetic/P_3dProjectile-cannon-mk7</Name>
-			<Scale X="0.1" Y="0.1" Z="0.1" />
+			<Scale X="0.075" Y="0.075" Z="0.085" />
 			<Offset>0.1</Offset>
 			<LightQuality>3</LightQuality>
 			<LightColor X="1" Y="0.25" Z="0.05" />
-			<LightCutoff>150.0</LightCutoff>
-			<KineticDamage>450.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
-			<EnergyDamage>75.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
+			<LightCutoff>1000.0</LightCutoff>
+			<KineticDamage>300.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<EnergyDamage>70.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
 			<LifeTime>6.5</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>2.5</Speed> <!-- Initial speed the shot gets fired at -->
@@ -3683,9 +4103,9 @@
 		<Type>AttachBaseBarrel</Type>
 		<Class>MK7</Class>
 		<Actor Class="Cruiser" />
-		<Credits>1000</Credits>
-		<Rank>7</Rank>
-		<Mass>1200.0</Mass>
+		<Credits>1800</Credits>
+		<Rank>9</Rank>
+		<Mass>2700.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/Mk7_Forward_Facing_Blaster/SM_Mk7_Fwd_Blaster_Base_LOD0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk7_Forward_Facing_Blaster/SM_Mk7_Fwd_Blaster_Base_LOD1" />
@@ -3716,10 +4136,10 @@
 		<BurstFire>false</BurstFire>
 		<TurnSpeed X="12" Y="12" />
 		<PitchRange X="-90" Y="0" />
-		<YawRange X="-50" Y="50" />
+		<YawRange X="-40" Y="40" />
 		<FireCone X="0.08" Y="0.08" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.0125</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
@@ -3733,17 +4153,20 @@
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
-			<Name>BlasterTurretMK5</Name>
+			<Name>BlasterTurretMK6</Name>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.2</DuplicateLength>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>0.6</RotatingPitch>
 		</Sound>
         <Muzzle>
 			<Effect>ParticleEffects/Weapons/Blasters/P_LaserBoltMuzzleFlash</Effect>
-			<Scale>6.0</Scale>
+			<Scale>15.0</Scale>
 			<Offset>0.0</Offset>
 			<LightColor X="0.1" Y="0.4" Z="1.0" />
-			<LightCutoff>500.0</LightCutoff>
+			<LightCutoff>1500.0</LightCutoff>
 			<LightDuration>0.6</LightDuration>
+			<RecoilOffset>0.005</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>Energy</Type>
@@ -3752,13 +4175,13 @@
 		<Shot>
 			<Type>Projectile</Type>
 			<Name>ParticleEffects/Weapons/Blasters/P_3dProjectile-blaster-mk7-sphere</Name>
-			<Scale X="0.1" Y="0.1" Z="0.1" />
-			<Offset>0.1</Offset>
+			<Scale X="0.08" Y="0.08" Z="0.08" />
+			<Offset>0.08</Offset>
 			<LightQuality>3</LightQuality>
 			<LightColor X="0.1" Y="0.4" Z="1.0" />
-			<LightCutoff>120.0</LightCutoff>
-			<KineticDamage>100.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
-			<EnergyDamage>500.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
+			<LightCutoff>1000.0</LightCutoff>
+			<KineticDamage>50.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<EnergyDamage>320.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
 			<LifeTime>7.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>2.0</Speed> <!-- Initial speed the shot gets fired at -->
@@ -3796,6 +4219,7 @@
 		<Type>AttachBaseBarrel</Type>
 		<Class>MK4</Class>
 		<Actor Class="Corvette" />
+		<Actor Class="Hauler" />
 		<Actor Class="Destroyer" />
 		<Actor Class="Cruiser" />
 		<Actor Class="Carrier" />
@@ -3813,10 +4237,10 @@
 	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD2" />
 	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD3" />
 			</Base>
-			<Barrel Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Kinetic_LOD0">
-	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Kinetic_LOD1" />
-	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Kinetic_LOD2" />
-	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Kinetic_LOD3" />
+			<Barrel Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Phalanx_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Phalanx_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Phalanx_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Phalanx_LOD3" />
 			</Barrel>
 			<HitBox>
 				<Min X="-0.010" Y="-0.010" Z="-0.010" />
@@ -3827,12 +4251,12 @@
 		<Sockets>
 			<Attach>$Dev/Ships/Weapons/Mk4_Single/7f1ce4fe.insm</Attach>
 			<Base>$Dev/Ships/Weapons/Mk4_Single/95324bac.insm</Base>
-			<Barrel>$Dev/Ships/Weapons/Mk4_Single/5056da57.insm</Barrel>
+			<Barrel>$Dev/Ships/Weapons/Mk4_Single/51b5e7c9.insm</Barrel>
 		</Sockets>
 		<Scale>1.0</Scale>
 		<FireRate>15.0</FireRate> <!-- Fire rate in number of shots per second -->
 		<SynchroMode>Random</SynchroMode>
-		<BurstCount>8</BurstCount>
+		<BurstCount>10</BurstCount>
 		<BurstCooldown>1.5</BurstCooldown>
 		<BurstFire>false</BurstFire>
 		<TurnSpeed X="60" Y="60" />
@@ -3840,9 +4264,9 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.02" Y="0.02" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
-		<Spread>0.0080</Spread> <!-- Spread angle of projectiles, in radians -->
+		<Spread>0.0060</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
 		<TargetSizeRange X="0.0" Y="0.25" />
 		<TargetType Type="SmallShip" Priority="2.0" />
@@ -3850,6 +4274,7 @@
 		<TargetType Type="HeavyMissile" Priority="1.5" />
 		<TargetType Type="Torpedo" Priority="1.0" />
 		<TargetType Type="Mine" Priority="0.5" />
+		<TargetType Type="Drone" Priority="4.0" />
 		<TargetTrackRange X="0.0" Y="5.0" />
 		<LeadAimAcceleration>1.0</LeadAimAcceleration>
 		<Icon>TurretMK4Gun</Icon>
@@ -3859,6 +4284,8 @@
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>KineticTurretMK4</Name>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
 			<DistRangeScale>0.6</DistRangeScale>
 			<RotatingName>RotatingTurret</RotatingName>
 			<RotatingPitch>1.5</RotatingPitch>
@@ -3870,11 +4297,12 @@
 			<LightColor X="1.0" Y="0.5" Z="0.15" />
 			<LightCutoff>50.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightDuration>0.2</LightDuration>
+			<RecoilOffset>0.0005</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>MediumAmmo</Type>
 			<Cost>2</Cost>
-			<Max>2000</Max>
+			<Max>3000</Max>
 		</Ammo>
 		<Shot>
 			<Type>Projectile</Type>
@@ -3884,7 +4312,7 @@
 			<LightQuality>4</LightQuality>
 			<LightColor X="1" Y="0.4" Z="0.1" />
 			<LightCutoff>25.0</LightCutoff>
-			<KineticDamage>10</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<KineticDamage>8</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<EnergyDamage>3</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
 			<LifeTime>2.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
@@ -3950,7 +4378,7 @@
 		<YawRange X="0" Y="0" />
 		<FireCone X="0.15" Y="0.15" />
 		<AimType>Fixed</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<Spread>0.0</Spread> <!-- Spread angle of projectiles, in radians -->
 		<IgnoreDamageType>true</IgnoreDamageType>
@@ -3963,9 +4391,12 @@
 		<ShowReticle>true</ShowReticle>
 		<ShowAimDir>true</ShowAimDir>
 		<ShowAmmoAsNumber>true</ShowAmmoAsNumber>
+		<ShowInstantDamage>true</ShowInstantDamage>
 		<LeadReticle>true</LeadReticle>
 		<Sound>
 			<Name>SpinalCanon</Name>
+			<DuplicateRange>0.1</DuplicateRange>
+			<DuplicateLength>0.3</DuplicateLength>
 			<DistRangeScale>5.0</DistRangeScale>
 		</Sound>
 		<Charge>
@@ -3990,9 +4421,10 @@
 			<Scale>1.0</Scale>
 			<Offset>0.0</Offset>
 			<LightColor X="1" Y="0.6" Z="0.1" />
-			<LightCutoff>1500.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+			<LightCutoff>2500.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 			<LightIntensity>1024000000000.0</LightIntensity>
 			<LightDuration>1.0</LightDuration>
+			<RecoilOffset>0.1</RecoilOffset>
 		</Muzzle>
 		<Ammo>
 			<Type>HeavyAmmo</Type>
@@ -4099,8 +4531,6 @@
 		<Rank>7</Rank>
 		<Mass>1.0</Mass>
 		<Mesh>
-			<Attach Mesh="Ships/Weapons/Missiles/SM_SFC_MissilePod">
-			</Attach>
 			<HitBox>
 				<Min X="-0.002" Y="-0.002" Z="-0.002" />
 				<Max X="0.002" Y="0.002" Z="0.002" />
@@ -4108,7 +4538,6 @@
 		</Mesh>
 		<HitPoints>75</HitPoints>
 		<Sockets>
-			<Attach>$Dev/Ships/Weapons/Missiles/4d06508f.insm</Attach>
 		</Sockets>
 		<GunOffset X="0" Y="0" Z="0" />
 		<Scale>1.0</Scale>
@@ -4122,7 +4551,7 @@
 		<YawRange X="0" Y="0" />
 		<FireCone X="0.5" Y="0.5" />
 		<AimType>Fixed</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<TargetSizeRange X="0.0" Y="0.25" />
 		<TargetType Type="SmallShip" Priority="1.0" />
@@ -4132,6 +4561,7 @@
 		<ShowReticle>true</ShowReticle>
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>true</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
 		<Sound>
 			<Name>MissileLaunch</Name>
 		</Sound>
@@ -4165,8 +4595,8 @@
 		<Actor Class="Destroyer" />
 		<Actor Class="Cruiser" />
 		<Actor Class="Carrier" />
-		<Credits>1500</Credits>
-		<Rank>8</Rank>
+		<Credits>1250</Credits>
+		<Rank>7</Rank>
 		<Mass>20.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/SamLauncher/SM_SamLauncher_Base_Lod0">
@@ -4203,14 +4633,16 @@
 		<YawRange X="-180" Y="180" />
 		<FireCone X="0.35" Y="0.35" />
 		<AimType>Turret</AimType>
-		<AimMode>ManualAndAuto</AimMode>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<ManualAutoAim>true</ManualAutoAim>
 		<ManualFireConeRequired>true</ManualFireConeRequired>
 		<AutoAimDefault>true</AutoAimDefault>
 		<LockType>Target</LockType>
 		<LockTime>2.5</LockTime>
 		<LockCone X="0.15" Y="0.15" />
+		<MinLockDistance>2.0</MinLockDistance>
 		<MaxLockDistance>25.0</MaxLockDistance>
+		<LockDistanceAI>6.0</LockDistanceAI>
 		<TargetSizeRange X="0.0" Y="0.25" />
 		<TargetType Type="SmallShip" Priority="1.0" />
 		<TargetType Type="MediumShip" Priority="4.0" />
@@ -4222,6 +4654,7 @@
 		<ShowReticle>false</ShowReticle>
 		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
 		<Sound>
 			<Name>MissileLaunch</Name>
 		</Sound>
@@ -4254,11 +4687,10 @@
 		<Credits>750</Credits>
 		<Rank>8</Rank>
 		<Actor Class="Interceptor" />
+		<Actor Class="Bomber" />
 		<Actor Class="Corvette" />
 		<Mass>1.0</Mass>
 		<Mesh>
-			<Attach Mesh="Ships/Weapons/Missiles/SM_SFC_MissilePod">
-			</Attach>
 			<HitBox>
 				<Min X="-0.002" Y="-0.002" Z="-0.002" />
 				<Max X="0.002" Y="0.002" Z="0.002" />
@@ -4266,7 +4698,6 @@
 		</Mesh>
 		<HitPoints>60</HitPoints>
 		<Sockets>
-			<Attach>$Dev/Ships/Weapons/Missiles/4d06508f.insm</Attach>
 		</Sockets>
 		<GunOffset X="0" Y="0" Z="0" />
 		<Scale>1.0</Scale>
@@ -4278,12 +4709,14 @@
 		<YawRange X="0" Y="0" />
 		<FireCone X="0.4" Y="0.4" />
 		<AimType>Fixed</AimType>
-		<AimMode>ManualOnly</AimMode>
+		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
 		<LockType>Target</LockType>
 		<LockTime>2.0</LockTime>
 		<LockCone X="0.25" Y="0.25" />
+		<MinLockDistance>1.0</MinLockDistance>
 		<MaxLockDistance>50.0</MaxLockDistance>
+		<LockDistanceAI>10.0</LockDistanceAI>
 		<TargetSizeRange X="0.25" Y="1000.0" />
 		<TargetType Type="MediumShip" Priority="2.0" />
 		<TargetType Type="LargeShip" Priority="1.0" />
@@ -4293,20 +4726,21 @@
 		<ShowReticle>false</ShowReticle>
 		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
 		<Sound>
 			<Name>MissileLaunch</Name>
 		</Sound>
 		<Ammo>
 			<Type>LightMissile</Type>
 			<Cost>1</Cost>
-			<Max>5</Max>
+			<Max>8</Max>
 		</Ammo>
 		<Shot>
 			<Type>Actor</Type>
 			<Name>DecoyMissile</Name>
-			<KineticDamage>1.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<KineticDamage>50.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldAndHull</DamageType> <!-- Type of damage -->
-			<LifeTime>10.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<LifeTime>60.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>0.20</Speed> <!-- Initial speed the shot gets fired at -->
 			<Heat>50.0</Heat>
 		</Shot>
@@ -4315,4 +4749,397 @@
 		</Impact>
 	</Weapon>
 
+	<Weapon>
+		<ID>RepairDronePod</ID>
+		<Name>UI_Weapon_RepairDrone_Name</Name>
+		<LongDescr>UI_Weapon_RepairDrone_LongDescr</LongDescr>
+		<Type>StaticSingle</Type>
+		<Class>LightMissilePod</Class>
+		<Credits>0</Credits>
+		<Actor Class="Hauler" />
+		<Mass>100.0</Mass>
+		<Mesh>
+			<HitBox>
+				<Min X="-0.002" Y="-0.002" Z="-0.002" />
+				<Max X="0.002" Y="0.002" Z="0.002" />
+			</HitBox>
+		</Mesh>
+		<HitPoints>400</HitPoints>
+		<Sockets>
+		</Sockets>
+		<GunOffset X="0" Y="0" Z="0" />
+		<Scale>1.0</Scale>
+		<FireMode>FirstOnStart</FireMode>
+		<FireRate>0.033</FireRate> <!-- Fire rate in number of shots per second -->
+		<SynchroMode>Random</SynchroMode>
+		<TurnSpeed X="0" Y="0" />
+		<PitchRange X="0" Y="0" />
+		<YawRange X="0" Y="0" />
+		<FireCone X="0.6" Y="0.6" />
+		<AimType>Fixed</AimType>
+		<AimMode>ManualAimAndFire</AimMode>
+		<AutoAimDefault>false</AutoAimDefault>
+		<LockType>Target</LockType>
+		<LockTime>2.5</LockTime>
+		<LockCone X="0.15" Y="0.15" />
+		<MinLockDistance>2.0</MinLockDistance>
+		<MaxLockDistance>25.0</MaxLockDistance>
+		<LockDistanceAI>10.0</LockDistanceAI>
+		<TargetSizeRange X="0.0" Y="0.25" />
+		<TargetTrackRange X="0.0" Y="25.0" />
+		<Icon>MissileLauncher</Icon>
+		<HUDIcon>SI_PlusBig</HUDIcon>
+		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>false</ShowAimDir>
+		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
+		<Sound>
+			<Name>MissileLaunch</Name>
+		</Sound>
+		<Ammo>
+			<Type>Drone</Type>
+			<Cost>1</Cost>
+			<Max>15</Max>
+		</Ammo>
+		<Shot>
+			<Type>Actor</Type>
+			<Name>RepairDrone</Name>
+			<KineticDamage>8000.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<DamageType>Repair</DamageType> <!-- Type of damage -->
+			<LifeTime>60.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>0.25</Speed> <!-- Initial speed the shot gets fired at -->
+			<Heat>10.0</Heat>
+		</Shot>
+		<Impact>
+			<SmokeDamageScale>0.002</SmokeDamageScale>
+		</Impact>
+	</Weapon>
+
+	<Weapon>
+		<ID>RearmDronePod</ID>
+		<Name>UI_Weapon_RearmDrone_Name</Name>
+		<LongDescr>UI_Weapon_RearmDrone_LongDescr</LongDescr>
+		<Type>StaticSingle</Type>
+		<Class>LightMissilePod</Class>
+		<Credits>0</Credits>
+		<Actor Class="Hauler" />
+		<Mass>100.0</Mass>
+		<Mesh>
+			<HitBox>
+				<Min X="-0.002" Y="-0.002" Z="-0.002" />
+				<Max X="0.002" Y="0.002" Z="0.002" />
+			</HitBox>
+		</Mesh>
+		<HitPoints>400</HitPoints>
+		<Sockets>
+		</Sockets>
+		<GunOffset X="0" Y="0" Z="0" />
+		<Scale>1.0</Scale>
+		<FireMode>FirstOnStart</FireMode>
+		<FireRate>0.033</FireRate> <!-- Fire rate in number of shots per second -->
+		<SynchroMode>Random</SynchroMode>
+		<TurnSpeed X="0" Y="0" />
+		<PitchRange X="0" Y="0" />
+		<YawRange X="0" Y="0" />
+		<FireCone X="0.6" Y="0.6" />
+		<AimType>Fixed</AimType>
+		<AimMode>ManualAimAndFire</AimMode>
+		<AutoAimDefault>false</AutoAimDefault>
+		<LockType>Target</LockType>
+		<LockTime>2.5</LockTime>
+		<LockCone X="0.15" Y="0.15" />
+		<MinLockDistance>2.0</MinLockDistance>
+		<MaxLockDistance>25.0</MaxLockDistance>
+		<LockDistanceAI>10.0</LockDistanceAI>
+		<TargetSizeRange X="0.0" Y="0.25" />
+		<TargetTrackRange X="0.0" Y="25.0" />
+		<Icon>MissileLauncher</Icon>
+		<HUDIcon>SI_PlusBig</HUDIcon>
+		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>false</ShowAimDir>
+		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
+		<Sound>
+			<Name>MissileLaunch</Name>
+		</Sound>
+		<Ammo>
+			<Type>Drone</Type>
+			<Cost>1</Cost>
+			<Max>15</Max>
+		</Ammo>
+		<Shot>
+			<Type>Actor</Type>
+			<Name>RearmDrone</Name>
+			<KineticDamage>2500.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<DamageType>Rearm</DamageType> <!-- Type of damage -->
+			<LifeTime>60.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>0.25</Speed> <!-- Initial speed the shot gets fired at -->
+			<Heat>10.0</Heat>
+		</Shot>
+		<Impact>
+			<SmokeDamageScale>0.002</SmokeDamageScale>
+		</Impact>
+	</Weapon>
+
+	<Weapon>
+		<ID>TurretTrigunMK5</ID>
+		<Name>UI_Weapon_TurretTrigunMK5_Name</Name>
+		<LongDescr>UI_Weapon_TurretTrigunMK5_LongDescr</LongDescr>
+		<Type>AttachBaseBarrel</Type>
+		<Class>MK5</Class>
+		<Actor Class="Destroyer" />
+		<Actor Class="Hauler" />
+		<Actor Class="Cruiser" />
+		<Actor Class="Carrier" />
+		<Credits>750</Credits>
+		<Rank>5</Rank>
+		<Mass>35.0</Mass>
+		<Mesh>
+			<Attach Mesh="Ships/Weapons/Mk5_Trio/SM_Mk5_Trio_Base_Lod0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk5_Trio/SM_Mk5_Trio_Base_Lod1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk5_Trio/SM_Mk5_Trio_Base_Lod2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk5_Trio/SM_Mk5_Trio_Base_Lod3" />
+			</Attach>
+			<Base Mesh="Ships/Weapons/Mk5_Trio/SM_Mk5_Trio_Body_Lod0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk5_Trio/SM_Mk5_Trio_Body_Lod1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk5_Trio/SM_Mk5_Trio_Body_Lod2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk5_Trio/SM_Mk5_Trio_Body_Lod3" />
+			</Base>
+			<Barrel Mesh="Ships/Weapons/Mk5_Trio/SM_Mk5_Trio_Gun_Kinetic_Lod0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk5_Trio/SM_Mk5_Trio_Gun_Kinetic_Lod1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk5_Trio/SM_Mk5_Trio_Gun_Kinetic_Lod2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk5_Trio/SM_Mk5_Trio_Gun_Kinetic_Lod3" />
+			</Barrel>
+			<HitBox>
+				<Min X="-0.02" Y="-0.02" Z="-0.02" />
+				<Max X="0.02" Y="0.02" Z="0.02" />
+			</HitBox>
+		</Mesh>
+		<HitPoints>300</HitPoints>
+		<Sockets>
+			<Attach>$Dev/Ships/Weapons/Mk5_Trio/0d885d3f.insm</Attach>
+			<Base>$Dev/Ships/Weapons/Mk5_Trio/c6fa1388.insm</Base>
+			<Barrel>$Dev/Ships/Weapons/Mk5_Trio/9e0066f6.insm</Barrel>
+		</Sockets>
+		<Scale>1.0</Scale>
+		<FireRate>100.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<SynchroMode>Random</SynchroMode>
+		<BurstCount>3</BurstCount>
+		<BurstCooldown>1.0</BurstCooldown>
+		<BurstFire>false</BurstFire>
+		<TurnSpeed X="20" Y="20" />
+		<PitchRange X="-90" Y="4" />
+		<YawRange X="-90" Y="90" />
+		<FireCone X="0.07" Y="0.07" />
+		<AimType>Turret</AimType>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
+		<AutoAimDefault>true</AutoAimDefault>
+		<Spread>0.0150</Spread> <!-- Spread angle of projectiles, in radians -->
+		<IgnoreDamageType>true</IgnoreDamageType>
+		<TargetSizeRange X="0.06" Y="100.0" />
+		<TargetType Type="SmallShip" Priority="4.0" />
+		<TargetType Type="MediumShip" Priority="1.0" />
+		<TargetType Type="LargeShip" Priority="2.0" />
+		<TargetType Type="Mine" Priority="4.0" />
+		<LeadAimAcceleration>1.0</LeadAimAcceleration>
+		<Icon>TurretMK5Gun</Icon>
+		<HUDIcon>SI_Chevron</HUDIcon>
+		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
+		<LeadReticle>true</LeadReticle>
+		<Sound>
+			<Name>KineticTurretMK5</Name>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.2</DuplicateLength>
+			<MaxDupedCount>1</MaxDupedCount>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.0</RotatingPitch>
+		</Sound>
+        <Muzzle>
+			<Effect>ParticleEffects/Weapons/Kinetic/P_WavyStreakMuzzleFlash</Effect>
+			<Scale>3.0</Scale>
+			<Offset>0.0</Offset>
+			<LightColor X="1.0" Y="0.5" Z="0.15" />
+			<LightCutoff>300.0</LightCutoff>
+			<LightDuration>0.25</LightDuration>
+			<RecoilOffset>0.001</RecoilOffset>
+		</Muzzle>
+		<Ammo>
+			<Type>MediumAmmo</Type>
+			<Cost>3</Cost>
+			<Max>5000</Max>
+		</Ammo>
+		<Shot>
+			<Type>Projectile</Type>
+			<Name>ParticleEffects/Weapons/Kinetic/P_3dProjectile-kinetic-mk5</Name>
+			<Scale X="0.06" Y="0.06" Z="0.085" />
+			<Offset>0.05</Offset>
+			<LightQuality>4</LightQuality>
+			<LightColor X="1" Y="0.4" Z="0.1" />
+			<LightCutoff>250.0</LightCutoff>
+			<KineticDamage>24.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<EnergyDamage>8.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
+			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
+			<LifeTime>4.17</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>1.2</Speed> <!-- Initial speed the shot gets fired at -->
+			<Heat>12.0</Heat>
+		</Shot>
+		<Impact>
+			<Metal>
+                <Effect>ImpactMetalMediumKinetic</Effect>
+				<EffectSelf>ImpactMetalMediumSelfKinetic</EffectSelf>
+				<Offset>0.01</Offset>
+				<Scale>2.0</Scale>
+				<ScaleSelf>1.0</ScaleSelf>
+				<Bounce>0.0</Bounce>
+                <BounceEffect>ImpactMetalSparkles</BounceEffect>
+				<BounceEffectScale>4.0</BounceEffectScale>
+			</Metal>
+			<Shield>
+				<Effect>ImpactShieldLargeKinetic</Effect>
+				<EffectSelf>ImpactShieldLargeSelfKinetic</EffectSelf>
+				<Offset>0.0025</Offset>
+				<Scale>1.5</Scale>
+				<ScaleSelf>1.5</ScaleSelf>
+			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>1.0</Scale>
+				<ScaleSelf>1.0</ScaleSelf>
+			</Surface>
+			<SmokeDamageScale>0.01</SmokeDamageScale>
+		</Impact>
+	</Weapon>
+
+	<Weapon>
+		<ID>TurretFlakMK6</ID>
+		<Name>UI_Weapon_TurretFlakMK6_Name</Name>
+		<LongDescr>UI_Weapon_TurretFlakMK6_LongDescr</LongDescr>
+		<Type>AttachBaseBarrel</Type>
+		<Class>MK6</Class>
+		<Actor Class="Destroyer" />
+		<Actor Class="Cruiser" />
+		<Actor Class="Carrier" />
+		<Credits>900</Credits>
+		<Rank>6</Rank>
+		<Mass>750.0</Mass>
+		<Mesh>
+			<Attach Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD3" />
+			</Attach>
+			<Base Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD3" />
+			</Base>
+			<Barrel Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Flak_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Flak_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Flak_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Flak_LOD3" />
+			</Barrel>
+			<HitBox>
+				<Min X="-0.010" Y="-0.010" Z="-0.010" />
+				<Max X="0.010" Y="0.010" Z="0.010" />
+			</HitBox>
+		</Mesh>
+		<HitPoints>300</HitPoints>
+		<Sockets>
+			<Attach>$Dev/Ships/Weapons/Mk4_Single/7f1ce4fe.insm</Attach>
+			<Base>$Dev/Ships/Weapons/Mk4_Single/95324bac.insm</Base>
+			<Barrel>$Dev/Ships/Weapons/Mk4_Single/ccb89926.insm</Barrel>
+		</Sockets>
+		<Scale>4.0</Scale>
+		<FireRate>100.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<BurstCount>20</BurstCount>
+		<BurstCooldown>5.0</BurstCooldown>
+		<BurstFire>false</BurstFire>
+		<SynchroMode>Random</SynchroMode>
+		<TurnSpeed X="25" Y="25" />
+		<PitchRange X="-90" Y="4" />
+		<YawRange X="-180" Y="180" />
+		<FireCone X="0.1" Y="0.1" />
+		<AimType>Turret</AimType>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
+		<AutoAimDefault>true</AutoAimDefault>
+		<Spread>0.1</Spread> <!-- Spread angle of projectiles, in radians -->
+		<IgnoreDamageType>true</IgnoreDamageType>
+		<TargetSizeRange X="0.0" Y="100.0" />
+		<TargetType Type="MediumShip" Priority="1.0" />
+		<TargetType Type="SmallShip" Priority="2.0" />
+		<TargetType Type="LargeShip" Priority="4.0" />
+		<TargetType Type="Torpedo" Priority="2.5" />
+		<TargetType Type="HeavyMissile" Priority="5.0" />
+		<TargetType Type="Mine" Priority="1.0" />
+		<TargetTrackRange X="0.0" Y="8.0" />
+		<LeadAimAcceleration>1.0</LeadAimAcceleration>
+		<Icon>TurretMK4Flak</Icon>
+		<HUDIcon>SI_Chevron</HUDIcon>
+		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
+		<LeadReticle>true</LeadReticle>
+		<Sound>
+			<Name>Mg48</Name>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.2</DuplicateLength>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.0</RotatingPitch>
+		</Sound>
+        <Muzzle>
+			<Effect>ParticleEffects/Weapons/Kinetic/P_WavyStreakMuzzleFlash</Effect>
+			<Scale>4.0</Scale>
+			<Offset>0.0</Offset>
+			<LightColor X="1.0" Y="0.5" Z="0.15" />
+			<LightCutoff>120.0</LightCutoff>
+			<LightDuration>0.25</LightDuration>
+			<RecoilOffset>0.0005</RecoilOffset>
+		</Muzzle>
+		<Ammo>
+			<Type>MediumAmmo</Type>
+			<Cost>1</Cost>
+			<Max>2500</Max>
+		</Ammo>
+		<Shot>
+			<Type>Projectile</Type>
+			<Name>ParticleEffects/Weapons/Kinetic/P_3dProjectile-flak-ball</Name>
+			<Scale X="0.02" Y="0.02" Z="0.04" />
+			<Offset>0.05</Offset>
+			<LightQuality>4</LightQuality>
+			<LightColor X="1" Y="0.4" Z="0.1" />
+			<LightCutoff>75.0</LightCutoff>
+			<KineticDamage>22.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<EnergyDamage>10.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
+			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
+			<SplashRadius>0.2</SplashRadius>
+			<LifeTime>3.34</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>1.5</Speed> <!-- Initial speed the shot gets fired at -->
+			<Heat>3.0</Heat>
+			<Detonates>true</Detonates>
+			<DetonationRange X="1.0" Y="1000.0" />
+			<DirectHitDamageRatio>1.0</DirectHitDamageRatio> <!-- Hit damage ratio for direct hits (aka. less explosive) -->
+		</Shot>
+		<Impact>
+			<Metal>
+                <Effect>FlakExplosion</Effect>
+				<Offset>0.05</Offset>
+				<Scale>2.0</Scale>
+			</Metal>
+			<Shield>
+				<Effect>FlakExplosion</Effect>
+				<Offset>0.0025</Offset>
+				<Scale>2.0</Scale>
+			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
+				<Offset>0.001</Offset>
+				<Scale>2.0</Scale>
+				<ScaleSelf>2.0</ScaleSelf>
+			</Surface>
+			<SmokeDamageScale>0.01</SmokeDamageScale>
+		</Impact>
+	</Weapon>
 </Weapons>

@@ -182,13 +182,13 @@
 				<position x="-0.16229456663131713867" y="0.056973297148942947388" z="0.34560537338256835938" Type="3dsMax"/>
 				<Cutoff>1024.0</Cutoff>
 			</Light>
-			
+
 			<Module>
 		        <Class>OrbitalCanon</Class>
 				<HitPoints>40000</HitPoints>
-				<ShipPoints>800</ShipPoints>
+				<ShipPoints>2000</ShipPoints>
 				<Score>200</Score>
-				<AttackPriority>4</AttackPriority>
+				<AttackPriority>6</AttackPriority>
 				<BattleScore>35</BattleScore>
 				<Name>UI_Module_OrbitalCanon</Name>
 				<IconName>SI_BigGun</IconName>
@@ -214,9 +214,9 @@
 			<Module>
 		        <Class>OrbitalCanon</Class>
 				<HitPoints>40000</HitPoints>
-				<ShipPoints>800</ShipPoints>
+				<ShipPoints>2000</ShipPoints>
 				<Score>200</Score>
-				<AttackPriority>4</AttackPriority>
+				<AttackPriority>6</AttackPriority>
 				<BattleScore>35</BattleScore>
 				<IconName>SI_BigGun</IconName>
 				<AimOffset X="0" Y="0.4" Z="0" />

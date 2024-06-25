@@ -1,70 +1,313 @@
-<Planet>
-    <Global>
-        <Radius Value="3850.0" />
-        <RotationSpeed Value="0.0" />
-        <Position X="0" Y="0" Z="0" />
-    </Global>
-    <Atmosphere State="true" >
-        <Thickness Value="120.0" />
-        <BetaR Red="0.010" Green="0.012" Blue="0.010" />
-        <HR Value="6.0" />
-        <BetaMSca Red="0.0350" Green="0.0200" Blue="0.0100" />
-        <BetaMEx Red="0.0550" Green="0.0350" Blue="0.0125" />
-        <HM Value="3.0" />
-        <G Value="0.775" />
-    </Atmosphere>
-    <Ground State="true" >
-        <Patch TexRes="512" />
-        <SeaLevel Value="0.0" />
-        <Slope Power="1.0" />
-        <Fractal Altitude="0.1" Slope="0.3" />
-    </Ground>
-    <Ocean State="false" >
-        <DeepColor Red="0.00175" Green="0.0035" Blue="0.0105" />
-        <ShallowColor Red="0.0075" Green="0.030" Blue="0.0112" />
-        <Spectrum TimeScale="0.5" Amplitude="1.0" Wind="600.0" />
-        <Foam State="true" ParamX="-1.0" ParamY="0.99" ParamZ="30.0" ParamW="0.01" Intensity="0.3" Texture="$Textures/Foam.png" />
-    </Ocean>
-    <Cloud State="false" >
-        <Altitude Value="15.0" />
-    </Cloud>
-    <Material>
-        <Noise Value="DblEmu" />
-        <Wireframe Value="0" />
-        <Culling Value="Back" />
-        <BlendedNoise Freq1="10.0" Freq2="25.0" Freq3="48.0" Weight1="0.6" Weight2="0.5" Weight3="0.4" />
-        <Emissive>
-            <Intensity>80000.0</Intensity>
-            <IllumColor X="10000" Y="3000" Z="500" />
-            <IllumAltDecay>30</IllumAltDecay>
-        </Emissive>
-    </Material>
-    <Layers>
-    	<Layer ID="0" Diffuse="$Textures/Volcanic/Vol_Cliff01D.tga" Normal="$Textures/Volcanic/Vol_Cliff01N.tga" Emissive="$Textures/Volcanic/NoEmissive.png" Specular="" Roughness="" RoughnessInAlpha="true" />
-    	<Layer ID="1" Diffuse="$Textures/Volcanic/Vol_Lava02D.tga" Normal="$Textures/Volcanic/Vol_Lava02N.tga" Emissive="$Textures/Volcanic/Vol_Lava02E.tga" Specular="" Roughness="" RoughnessInAlpha="true" />
-    	<Layer ID="2" Diffuse="$Textures/Volcanic/Vol_Lava03D.tga" Normal="$Textures/Volcanic/Vol_Lava03N.tga" Emissive="$Textures/Volcanic/Vol_Lava03E.tga" Specular="" Roughness="" RoughnessInAlpha="true" />
-    	<Layer ID="3" Diffuse="$Textures/Volcanic/Vol_RockFoldCrack01D.tga" Normal="$Textures/Volcanic/Vol_RockFoldCrack01N.tga" Emissive="$Textures/Volcanic/NoEmissive.png" Specular="" Roughness="" RoughnessInAlpha="true" />
-    	<Layer ID="4" Diffuse="$Textures/Volcanic/Volcanic_AshFineD.tga" Normal="$Textures/Volcanic/Volcanic_AshFineN.tga" Emissive="$Textures/Volcanic/NoEmissive.png" Specular="" Roughness="" RoughnessInAlpha="true" />
-    	<Layer ID="5" Diffuse="$Textures/Volcanic/Volcanic_DunesLargeD.tga" Normal="$Textures/Volcanic/Volcanic_DunesLargeN.tga" Emissive="$Textures/Volcanic/NoEmissive.png" Specular="" Roughness="" RoughnessInAlpha="true" />
-    	<Layer ID="6" Diffuse="$Textures/Volcanic/Volcanic_Pebble01D.tga" Normal="$Textures/Volcanic/Volcanic_Pebble01N.tga" Emissive="$Textures/Volcanic/NoEmissive.png" Specular="" Roughness="" RoughnessInAlpha="true" />
-    	<Layer ID="7" Diffuse="$Textures/Volcanic/Volcanic_Rock01D.tga" Normal="$Textures/Volcanic/Volcanic_Rock01N.tga" Emissive="$Textures/Volcanic/NoEmissive.png" Specular="" Roughness="" RoughnessInAlpha="true" />
-    	<Layer ID="8" Diffuse="$Textures/Mars/MarsBarchansD.tga" Normal="$Textures/Mars/MarsBarchansN.png" Emissive="$Textures/Volcanic/NoEmissive.png" Specular="" Roughness="" RoughnessInAlpha="true">
-            <Color X="0.015" Y="0.02" Z="0.035" W="1" />
-        </Layer>
-    </Layers>
-    <Rules>
-        <Biome ID="0">
-        	<Rule ID="0" ParentID="-1" Layer1="0" Layer2="6" AltMin="0.0" AltMax="1.0" SlopeMin="0" SlopeMax="1" />
-         	<Rule ID="1" ParentID="0" Layer1="1" Layer2="2" AltMin="0.00" AltMax="0.05" SlopeMin="0.91" SlopeMax="1.0" AltMinDelta="0.0" AltMaxDelta="0.0" />
-        	<Rule ID="2" ParentID="0" Layer1="6" Layer2="0" AltMin="0.05" AltMax="0.20" SlopeMin="0.93" SlopeMax="1.0" AltMinDelta="0.0" AltMaxDelta="0.025" />
-        	<Rule ID="3" ParentID="0" Layer1="8" Layer2="8" AltMin="0.15" AltMax="0.22" SlopeMin="0.93" SlopeMax="1.0" AltMinDelta="0.0" AltMaxDelta="0.025" />
-        	<Rule ID="4" ParentID="0" Layer1="5" Layer2="5" AltMin="0.20" AltMax="0.41" SlopeMin="0.93" SlopeMax="1.0" AltMinDelta="0.027" AltMaxDelta="0.025" />
-        	<Rule ID="5" ParentID="0" Layer1="4" Layer2="4" AltMin="0.40" AltMax="0.48" SlopeMin="0.88" SlopeMax="1.0" AltMinDelta="0.024" AltMaxDelta="0.026" />
-        	<Rule ID="6" ParentID="0" Layer1="8" Layer2="8" AltMin="0.46" AltMax="0.62" SlopeMin="0.88" SlopeMax="1.0" AltMinDelta="0.024" AltMaxDelta="0.026" />
-        	<Rule ID="7" ParentID="0" Layer1="6" Layer2="6" AltMin="0.60" AltMax="0.82" SlopeMin="0.94" SlopeMax="1.0" AltMinDelta="0.023" AltMaxDelta="0.023" />
-        	<Rule ID="8" ParentID="0" Layer1="5" Layer2="4" AltMin="0.80" AltMax="1.00" SlopeMin="0.91" SlopeMax="1.0" AltMinDelta="0.026" AltMaxDelta="0.022" />
-        	<Rule ID="9" ParentID="0" Layer1="3" Layer2="7" AltMin="0.00" AltMax="1.00" SlopeMin="0.00" SlopeMax="0.75" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
-        	<Rule ID="10" ParentID="0" Layer1="0" Layer2="6" AltMin="0.00" AltMax="1.00" SlopeMin="0.70" SlopeMax="0.95" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
-        </Biome>
-    </Rules>
-</Planet>
+<ActorConfig>
+	<Meta>
+		<ActorType>Planet</ActorType>
+		<MapIconName>Moon</MapIconName>
+		<MapIconColor X="0.18525" Y="0.192" Z="0.203" W="1" />
+  		<MapIconSize>1000</MapIconSize>
+	</Meta>
+	<CNodeComponent>
+		<TransformNode>
+		</TransformNode>
+	</CNodeComponent>
+	<CServerActorComponent>
+		<Name>Cinder</Name>
+		<NetworkRange>0.0005</NetworkRange>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>600000000.0</EmissionsRange>
+		<SensorPower>0.0</SensorPower>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>Planet</Indicator>
+		<SurfaceType>Surface</SurfaceType>
+	</CActorComponent>
+	<CClientActorComponent>
+	</CClientActorComponent>
+	<CBodyComponent>
+	</CBodyComponent>
+	<CPlanetComponent>
+		<Type>Volcanic</Type>
+		<Radius>3850.0</Radius>
+		<RotationSpeed Value="0.0" />
+        <GravityMass>2.0e21</GravityMass>
+	    <Ground State="true" >
+	        <Patch TexRes="512" />
+	        <SeaLevel Value="0.0" />
+	        <Slope Power="1.0" />
+	        <Fractal Altitude="0.1" Slope="0.3" />
+	    </Ground>
+		<Atmosphere>
+			<Density>30.0</Density>
+			<Decay>0.2</Decay>
+		</Atmosphere>
+	</CPlanetComponent>
+	<CClientPlanetComponent>
+	    <Atmosphere State="true" >
+	        <Thickness Value="120.0" />
+	        <BetaR Red="0.010" Green="0.012" Blue="0.010" />
+	        <HR Value="9.0" />
+	        <BetaMSca Red="0.0" Green="0.0" Blue="0.0100" />
+	        <BetaMEx Red="0.0550" Green="0.0350" Blue="0.0125" />
+	        <HM Value="3.0" />
+	        <G Value="0.775" />
+	    </Atmosphere>
+	    <Ground State="true" >
+	        <Patch TexRes="512" />
+	        <SeaLevel Value="0.0" />
+	        <Slope Power="1.0" />
+	        <Fractal Altitude="0.1" Slope="0.3" />
+	    </Ground>
+	    <Ocean State="false" />
+	    <Cloud State="false" />
+	    <Material>
+	        <Noise Value="DblEmu" />
+	        <Wireframe Value="0" />
+	        <Culling Value="Back" />
+	        <BlendedNoise Freq1="10.0" Freq2="25.0" Freq3="48.0" Weight1="0.6" Weight2="0.5" Weight3="0.4" />
+	        <Emissive>
+	            <Intensity>80000.0</Intensity>
+	            <IllumColor X="10000" Y="3000" Z="500" />
+	            <IllumAltDecay>30</IllumAltDecay>
+	        </Emissive>
+	    </Material>
+	    <Layers>
+	    	<Layer ID="0" DiffuseTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackD:1" NormalTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackN:1" EmissiveTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackE:0" RoughnessInAlpha="true" />
+	    	<Layer ID="1" DiffuseTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackD:3" NormalTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackN:3" EmissiveTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackE:2" RoughnessInAlpha="true" />
+	    	<Layer ID="2" DiffuseTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackD:4" NormalTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackN:4" EmissiveTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackE:3" RoughnessInAlpha="true" />
+	    	<Layer ID="3" DiffuseTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackD:7" NormalTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackN:7" EmissiveTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackE:0" RoughnessInAlpha="true" />
+	    	<Layer ID="4" DiffuseTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackD:0" NormalTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackN:0" EmissiveTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackE:0" RoughnessInAlpha="true" />
+	    	<Layer ID="5" DiffuseTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackD:2" NormalTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackN:2" EmissiveTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackE:0" RoughnessInAlpha="true" />
+	    	<Layer ID="6" DiffuseTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackD:5" NormalTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackN:5" EmissiveTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackE:0" RoughnessInAlpha="true" />
+	    	<Layer ID="7" DiffuseTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackD:6" NormalTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackN:6" EmissiveTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackE:0" RoughnessInAlpha="true" />
+	    	<Layer ID="8" DiffuseTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackD:0" NormalTexPack="Celestial/Planets/Textures/Martian/T_Planet_Mars_TexPackN:0" EmissiveTexPack="Celestial/Planets/Textures/Volcanic/T_Planet_Volcanic_TexPackE:0" RoughnessInAlpha="true">
+	            <DiffuseColor X="0.7" Y="0.7" Z="0.7" W="1" />
+	        </Layer>
+	    </Layers>
+	    <Rules>
+	        <Biome ID="0">
+	        	<Rule ID="0" ParentID="-1" Layer1="0" Layer2="6" AltMin="0.0" AltMax="1.0" SlopeMin="0" SlopeMax="1" />
+	         	<Rule ID="1" ParentID="0" Layer1="1" Layer2="2" AltMin="0.00" AltMax="0.05" SlopeMin="0.91" SlopeMax="1.0" AltMinDelta="0.0" AltMaxDelta="0.0" />
+	        	<Rule ID="2" ParentID="0" Layer1="6" Layer2="0" AltMin="0.05" AltMax="0.20" SlopeMin="0.93" SlopeMax="1.0" AltMinDelta="0.0" AltMaxDelta="0.025" />
+	        	<Rule ID="3" ParentID="0" Layer1="8" Layer2="8" AltMin="0.15" AltMax="0.22" SlopeMin="0.93" SlopeMax="1.0" AltMinDelta="0.0" AltMaxDelta="0.025" />
+	        	<Rule ID="4" ParentID="0" Layer1="5" Layer2="5" AltMin="0.20" AltMax="0.41" SlopeMin="0.93" SlopeMax="1.0" AltMinDelta="0.027" AltMaxDelta="0.025" />
+	        	<Rule ID="5" ParentID="0" Layer1="4" Layer2="4" AltMin="0.40" AltMax="0.48" SlopeMin="0.88" SlopeMax="1.0" AltMinDelta="0.024" AltMaxDelta="0.026" />
+	        	<Rule ID="6" ParentID="0" Layer1="8" Layer2="8" AltMin="0.46" AltMax="0.62" SlopeMin="0.88" SlopeMax="1.0" AltMinDelta="0.024" AltMaxDelta="0.026" />
+	        	<Rule ID="7" ParentID="0" Layer1="6" Layer2="6" AltMin="0.60" AltMax="0.82" SlopeMin="0.94" SlopeMax="1.0" AltMinDelta="0.023" AltMaxDelta="0.023" />
+	        	<Rule ID="8" ParentID="0" Layer1="5" Layer2="4" AltMin="0.80" AltMax="1.00" SlopeMin="0.91" SlopeMax="1.0" AltMinDelta="0.026" AltMaxDelta="0.022" />
+	        	<Rule ID="9" ParentID="0" Layer1="3" Layer2="7" AltMin="0.00" AltMax="1.00" SlopeMin="0.00" SlopeMax="0.75" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+	        	<Rule ID="10" ParentID="0" Layer1="0" Layer2="6" AltMin="0.00" AltMax="1.00" SlopeMin="0.70" SlopeMax="0.95" SlopeMinDelta="0.02" SlopeMaxDelta="0.02" />
+	        </Biome>
+	    </Rules>
+		<WindGrid>
+			<MinAltitude>1.0</MinAltitude>
+			<MeanAltitude>8.0</MeanAltitude>
+			<GridDimension>13</GridDimension>
+			<GridSize>1.0</GridSize>
+
+			<DustEffect>WindDust</DustEffect>
+			<DustProbaOffset>-0.4</DustProbaOffset>
+			<DustProbaScale>2.0</DustProbaScale>
+			<DustColor X="0.02" Y="0.015" Z="0.01" W="1" />
+			<DustAlpha>2.0</DustAlpha>
+			<DustAmbient>0.4</DustAmbient>
+			<DustOctaves>6</DustOctaves>
+			<DustLacunarity>2.0</DustLacunarity>
+			<DustHFactor>0.5</DustHFactor>
+			<DustFrequency>0.005</DustFrequency>
+
+			<WindIntensity>0.6</WindIntensity>
+			<WindOctaves>6</WindOctaves>
+			<WindLacunarity>2.0</WindLacunarity>
+			<WindHFactor>0.5</WindHFactor>
+			<WindIntensityOffset>0.7</WindIntensityOffset>
+			<WindIntensityScale>1.0</WindIntensityScale>
+			<WindFrequency>0.01</WindFrequency>
+		</WindGrid>
+		<Sounds>
+			<Sound>
+				<Name>AmbientWind</Name>
+				<Volume>0.5</Volume>
+				<Altitude X="3.0" Y="1000.0" />
+				<Falloff>0.5</Falloff>
+				<Wind>10.0</Wind>
+			</Sound>
+			<Sound>
+				<Name>AmbientLava</Name>
+				<Volume>1.0</Volume>
+				<Altitude X="0.0" Y="0.0" />
+				<Falloff>1.0</Falloff>
+			</Sound>
+		</Sounds>
+		<Props>
+ 			<Layer ID="0" Comment="Various gases erupting from the mountain sides" >
+				<EffectName>ParticleEffects/Smokes/P_MiningDegassing_optimized</EffectName>
+				<ScaleBase>1.0</ScaleBase>
+				<ScalePower>1.0</ScalePower>
+				<MaxScaleLevel>10</MaxScaleLevel>
+				<ScaleLevel>7</ScaleLevel>
+				<FractalNoise>
+					<Freq>1600.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>1.0</MaxShadowDist>
+				<AltRange X="0.0" Y="0.25" />
+				<SlopeRange X="0.5" Y="0.9" />
+				<NoiseRange X="0.0" Y="0.1" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="0.0" />
+				<RollRange X="0.0" Y="0.0" />
+				<SlopeAlign>0.5</SlopeAlign>
+				<DiffuseColor X="0.4" Y="0.4" Z="0.4" W="1.0" />
+				<Count Level="7" Amount="1" />
+				<Count Level="8" Amount="2" />
+				<Count Level="9" Amount="6" />
+				<Count Level="10" Amount="12" />
+				<Count Level="11" Amount="20" />
+			</Layer>
+
+			<Layer ID="1">
+<!-- 				<MeshName>Props/Planets/Rocks01/Redstone/Models/SM-RedStone01_LOD3</MeshName> -->
+				<MeshName>Props/Planets/Rocks01/Redstone/Models/SM-RedStone01_LOD_200tri_smooth</MeshName>
+				<ScaleBase>60.0</ScaleBase>
+				<ScalePower>1.5</ScalePower>
+				<MaxScaleLevel>10</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>14300.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>1.0</MaxShadowDist>
+				<AltRange X="0.20" Y="1.0" />
+				<SlopeRange X="0.5" Y="0.95" />
+				<NoiseRange X="0.0" Y="10.0" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="6.283" />
+				<RollRange X="0.0" Y="6.283" />
+				<DiffuseColor X="0.05" Y="0.07" Z="0.1" W="1.0" />
+				<SlopeAlign>0.5</SlopeAlign>
+				<Count Level="9" Amount="1" />
+				<Count Level="10" Amount="2" />
+				<Count Level="11" Amount="5" />
+				<Count Level="12" Amount="10" />
+				<Count Level="13" Amount="15" />
+				<Count Level="14" Amount="25" />
+			</Layer>
+
+ 			<Layer ID="2">
+<!-- 				<MeshName>Props/Planets/Rocks01/Redstone/Models/Sm-RedStone05_LOD3</MeshName> -->
+				<MeshName>Props/Planets/Rocks01/Redstone/Models/SM-RedStone05_LOD_200tri_smooth</MeshName>
+				<ScaleBase>150.0</ScaleBase>
+				<ScalePower>1.4</ScalePower>
+				<MaxScaleLevel>6</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>4700.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>5.0</MaxShadowDist>
+				<AltRange X="0.23" Y="1.0" />
+				<SlopeRange X="0.7" Y="0.9" />
+				<NoiseRange X="0.0" Y="10.0" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="6.283" />
+				<RollRange X="0.0" Y="6.283" />
+				<DiffuseColor X="0.03" Y="0.04" Z="0.05" W="1.0" />
+				<SlopeAlign>0.5</SlopeAlign>
+				<Count Level="6" Amount="25" />
+				<Count Level="7" Amount="50" />
+				<Count Level="8" Amount="125" />
+				<Count Level="9" Amount="200" />
+				<Count Level="10" Amount="350" />
+				<Count Level="11" Amount="200" />
+				<Count Level="12" Amount="100" />
+				<Count Level="13" Amount="50" />
+			</Layer>
+
+			<Layer ID="3">
+<!-- 				<MeshName>Props/Planets/Rocks01/Redstone/Models/Sm-RedStone04_LOD3</MeshName> -->
+				<MeshName>Props/Planets/Rocks01/Redstone/Models/SM-RedStone04_LOD_200tri_smooth</MeshName>
+				<ScaleBase>35.0</ScaleBase>
+				<ScalePower>1.3</ScalePower>
+				<MaxScaleLevel>6</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>11600.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>0.5</MaxShadowDist>
+				<AltRange X="0.17" Y="1.0" />
+				<SlopeRange X="0.9" Y="1.0" />
+				<NoiseRange X="-0.25" Y="0.10" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="6.283" />
+				<RollRange X="0.0" Y="6.283" />
+				<DiffuseColor X="0.05" Y="0.07" Z="0.1" W="1.0" />
+				<SlopeAlign>0.5</SlopeAlign>
+				<Count Level="12" Amount="5" />
+				<Count Level="13" Amount="10" />
+				<Count Level="14" Amount="25" />
+				<Count Level="15" Amount="50" />
+			</Layer>
+
+			<Layer ID="4" Comment="Organic mushroom-alien thingies" >
+				<MeshName>Props/Planets/Cactus/Meshes/SM_Cactus7</MeshName>
+				<ScaleBase>15.0</ScaleBase>
+				<ScalePower>1.4</ScalePower>
+				<MaxScaleLevel>10</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>13000.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>0.5</MaxShadowDist>
+				<AltRange X="0.17" Y="0.5" />
+				<SlopeRange X="0.8" Y="0.97" />
+				<NoiseRange X="-0.25" Y="0.5" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="0.0" />
+				<RollRange X="0.0" Y="0.0" />
+				<DiffuseColor X="0.1" Y="0.1" Z="0.1" W="1.0" />
+				<SlopeAlign>1.0</SlopeAlign>
+				<Count Level="13" Amount="5" />
+				<Count Level="14" Amount="15" />
+				<Count Level="15" Amount="60" />
+			</Layer>
+
+			<Layer ID="5" Comment="Purple alien looking fern" >
+				<MeshName>Props/Planets/Cactus/Meshes/SM_Cactus9</MeshName>
+				<ScaleBase>5.0</ScaleBase>
+				<ScalePower>1.2</ScalePower>
+				<MaxScaleLevel>10</MaxScaleLevel>
+				<ScaleLevel>14</ScaleLevel>
+				<FractalNoise>
+					<Freq>3500.0</Freq>
+					<Octaves>8</Octaves>
+					<Lacunarity>2.0</Lacunarity>
+					<HFactor>1.0</HFactor>
+				</FractalNoise>
+				<MaxShadowDist>0.5</MaxShadowDist>
+				<AltRange X="0.3" Y="1.0" />
+				<SlopeRange X="0.92" Y="1.0" />
+				<NoiseRange X="0.5" Y="1.0" />
+				<YawRange X="0.0" Y="6.283" />
+				<PitchRange X="0.0" Y="0.0" />
+				<RollRange X="0.0" Y="0.0" />
+				<DiffuseColor X="0.1" Y="0.1" Z="0.2" W="1.0" />
+				<SlopeAlign>1.0</SlopeAlign>
+				<Count Level="13" Amount="5" />
+				<Count Level="14" Amount="16" />
+				<Count Level="15" Amount="70" />
+			</Layer>
+		</Props>
+	</CClientPlanetComponent>
+</ActorConfig>

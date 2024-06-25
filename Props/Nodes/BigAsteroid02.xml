@@ -1,0 +1,33 @@
+<Filter>
+	<Condition Target="Client">
+        <Object Mesh="Celestial/Asteroids/BigA02/SM_BigA02" >
+			<RejectionSize>0.00001</RejectionSize>
+            <PhysicsBody Type="Mesh" >
+                <CollisionFile>$Dev/Celestial/Asteroids/BigA02/a03fe774.insm</CollisionFile>
+				<CollisionScale>1000</CollisionScale>
+                <Collisions>true</Collisions>
+                <Bounce>0.25</Bounce>
+                <Friction>0.01</Friction>
+            </PhysicsBody>
+			<Scale X="1000" Y="1000" Z="1000" />
+			<Module>
+		        <Class>Indestructible</Class>
+				<Name>UI_Module_Asteroid</Name>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+            <PhysicsBody Type="Mesh" >
+                <CollisionFile>$Dev/Celestial/Asteroids/BigA02/a03fe774.insm</CollisionFile>
+				<CollisionScale>1000</CollisionScale>
+                <Collisions>true</Collisions>
+                <Bounce>0.25</Bounce>
+                <Friction>0.01</Friction>
+            </PhysicsBody>
+			<Module>
+		        <Class>Indestructible</Class>
+			</Module>
+		</TransformNode>
+	</Condition>
+</Filter>

@@ -135,7 +135,7 @@
 	<SoundEffect2D>
 		<Name>RankUp</Name>
 		<Path>event:/General/RankUp</Path>
-		<Volume>0.20</Volume>
+		<Volume>2.0</Volume>
 	</SoundEffect2D>
 	<SoundEffect2D>
 		<Name>RadarEcho</Name>
@@ -181,6 +181,46 @@
 	<SoundEffect2D>
 		<Name>TransmissionOut</Name>
 		<Path>event:/Interface/TransmissionOut</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>ButtonClick1</Name>
+		<Path>event:/Interface/UI/ButtonClick1</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>ButtonClick2</Name>
+		<Path>event:/Interface/UI/ButtonClick2</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>ButtonClick3</Name>
+		<Path>event:/Interface/UI/ButtonClick3</Path>
+		<Volume>0.25</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>ButtonClick4</Name>
+		<Path>event:/Interface/UI/ButtonClick4</Path>
+		<Volume>0.5</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>ButtonClick5</Name>
+		<Path>event:/Interface/UI/ButtonClick5</Path>
+		<Volume>0.5</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>ObjectiveNotification1</Name>
+		<Path>event:/Interface/Notifications/ObjectiveNotification1</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>ObjectiveNotification2</Name>
+		<Path>event:/Interface/Notifications/ObjectiveNotification2</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>ObjectiveNotification3</Name>
+		<Path>event:/Interface/Notifications/ObjectiveNotification3</Path>
 		<Volume>1.0</Volume>
 	</SoundEffect2D>
 
@@ -291,28 +331,28 @@
 	<SoundEffect3D>
 		<Name>EngineIdleLight1</Name>
 		<Path>event:/General/EngineIdleLight1</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.6" />
 		<DistRange X="2.0" Y="25.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>EngineIdleLight2</Name>
 		<Path>event:/General/EngineIdleLight2</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.6" />
 		<DistRange X="2.0" Y="25.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>EngineIdleLight3</Name>
 		<Path>event:/General/EngineIdleLight3</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.6" />
 		<DistRange X="2.0" Y="25.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>InterceptorIdle</Name>
 		<Path>event:/General/InterceptorIdle</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.4" />
 		<DistRange X="2.0" Y="25.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
@@ -340,28 +380,28 @@
 	<SoundEffect3D>
 		<Name>EngineIdleHeavy1</Name>
 		<Path>event:/General/EngineIdleHeavy1</Path>
-		<VolumeRange X="0" Y="0.5" />
+		<VolumeRange X="0" Y="0.1" />
 		<DistRange X="1.0" Y="15.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>EngineIdleHeavy2</Name>
 		<Path>event:/General/EngineIdleHeavy2</Path>
-		<VolumeRange X="0" Y="0.5" />
+		<VolumeRange X="0" Y="0.1" />
 		<DistRange X="1.0" Y="15.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>EngineFastHeavy1</Name>
 		<Path>event:/General/EngineFastHeavy1</Path>
-		<VolumeRange X="0" Y="0.5" />
+		<VolumeRange X="0" Y="0.6" />
 		<DistRange X="1.0" Y="15.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>EngineFastHeavy2</Name>
 		<Path>event:/General/EngineFastHeavy2</Path>
-		<VolumeRange X="0" Y="0.5" />
+		<VolumeRange X="0" Y="0.6" />
 		<DistRange X="1.0" Y="15.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
@@ -382,42 +422,42 @@
 	<SoundEffect3D>
 		<Name>SideThrusterSmall</Name>
 		<Path>event:/General/SideThrusterSmall</Path>
-		<VolumeRange X="0" Y="0.20" />
+		<VolumeRange X="0" Y="0.2" />
 		<DistRange X="0.05" Y="10.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>SideThrusterSmall2</Name>
 		<Path>event:/General/SideThrusterSmall2</Path>
-		<VolumeRange X="0" Y="0.5" />
+		<VolumeRange X="0" Y="0.2" />
 		<DistRange X="0.05" Y="10.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>MainThrusterSmall1</Name>
 		<Path>event:/General/MainThrusterSmall1</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.7" />
 		<DistRange X="0.25" Y="75.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>MainThrusterSmall2</Name>
 		<Path>event:/General/MainThrusterSmall2</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.7" />
 		<DistRange X="0.25" Y="75.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>MainThrusterSmall3</Name>
 		<Path>event:/General/MainThrusterSmall3</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.7" />
 		<DistRange X="0.25" Y="75.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>MainThrusterSmall4</Name>
 		<Path>event:/General/MainThrusterSmall4</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.7" />
 		<DistRange X="0.25" Y="75.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
@@ -431,28 +471,28 @@
 	<SoundEffect3D>
 		<Name>InterceptorMainThruster</Name>
 		<Path>event:/General/InterceptorMainThruster</Path>
-		<VolumeRange X="0" Y="1.0" />
+		<VolumeRange X="0" Y="0.7" />
 		<DistRange X="0.25" Y="75.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>MainThrusterHeavy1</Name>
 		<Path>event:/General/MainThrusterHeavy1</Path>
-		<VolumeRange X="0" Y="0.5" />
+		<VolumeRange X="0" Y="0.4" />
 		<DistRange X="0.1" Y="10.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>MainThrusterHeavy2</Name>
 		<Path>event:/General/MainThrusterHeavy2</Path>
-		<VolumeRange X="0" Y="0.5" />
+		<VolumeRange X="0" Y="0.4" />
 		<DistRange X="0.1" Y="10.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>SideThrusterBig</Name>
 		<Path>event:/General/SideThrusterBig</Path>
-		<VolumeRange X="0" Y="0.5" />
+		<VolumeRange X="0" Y="0.3" />
 		<DistRange X="0.025" Y="5.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>
@@ -618,7 +658,6 @@
 		<VolumeRange X="0" Y="0.25" />
 		<DistRange X="0.05" Y="1.0" />
 	</SoundEffect3D>
-
 	<SoundEffect3D>
 		<Name>DamageShieldSmall</Name>
 		<Path>event:/Damage/DamageShieldSmall</Path>
@@ -637,7 +676,6 @@
 		<VolumeRange X="0" Y="1" />
 		<DistRange X="0.5" Y="10.0" />
 	</SoundEffect3D>
-
 	<SoundEffect3D>
 		<Name>ShieldInterferenceStart1</Name>
 		<Path>event:/Damage/ShieldInterferenceStart1</Path>
@@ -655,6 +693,12 @@
 		<Path>event:/Damage/ShieldInterferenceEnd1</Path>
 		<VolumeRange X="0" Y="1" />
 		<DistRange X="0.25" Y="5.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ShieldRecharge</Name>
+		<Path>event:/General/ShieldRecharge</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.02" Y="3.0" />
 	</SoundEffect3D>
 
 	<!-- Weapons sounds -->
@@ -687,6 +731,60 @@
 		<Path>event:/Weapons/Guns/MgSmall3</Path>
 		<VolumeRange X="0" Y="1.0" />
 		<DistRange X="0.002" Y="2.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MachineGun1</Name>
+		<Path>event:/Weapons/Guns/Machine Gun 1</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.002" Y="2.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MachineGun2</Name>
+		<Path>event:/Weapons/Guns/Machine Gun 2</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.002" Y="2.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MachineGun3</Name>
+		<Path>event:/Weapons/Guns/Machine Gun 3</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.002" Y="2.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MachineGun4</Name>
+		<Path>event:/Weapons/Guns/Machine Gun 4</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.002" Y="2.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MachineGun5</Name>
+		<Path>event:/Weapons/Guns/Machine Gun 5</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.002" Y="2.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MachineGun6</Name>
+		<Path>event:/Weapons/Guns/Machine Gun 6</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.002" Y="2.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>MachineGun7</Name>
+		<Path>event:/Weapons/Guns/Machine Gun 7</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.002" Y="2.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>HeavyCanon1</Name>
+		<Path>event:/Weapons/Guns/Heavy Canon 1</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.002" Y="2.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>HeavyCanon2</Name>
+		<Path>event:/Weapons/Guns/Heavy Canon 2</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.004" Y="3.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>Halcyon</Name>
@@ -761,12 +859,6 @@
 		<DistRange X="0.05" Y="3.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
-		<Name>BlasterMedium</Name>
-		<Path>event:/Weapons/Blasters/BlasterMedium</Path>
-		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.08" Y="5.0" />
-	</SoundEffect3D>
-	<SoundEffect3D>
 		<Name>KineticTurretMK4</Name>
 		<Path>event:/Weapons/KineticTurrets/KineticTurretMK4</Path>
 		<VolumeRange X="0" Y="1.0" />
@@ -794,13 +886,19 @@
 		<Name>BlasterTurretMK4</Name>
 		<Path>event:/Weapons/BlasterTurrets/BlasterTurretMK4</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.06" Y="4.0" />
+		<DistRange X="0.05" Y="3.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>BlasterTurretMK5</Name>
-		<Path>event:/Weapons/Blasters/BlasterLarge</Path>
+		<Path>event:/Weapons/BlasterTurrets/BlasterTurretMK5</Path>
 		<VolumeRange X="0" Y="1.0" />
 		<DistRange X="0.08" Y="5.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>BlasterTurretMK6</Name>
+		<Path>event:/Weapons/BlasterTurrets/BlasterTurretMK6</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.12" Y="8.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>AMSFire</Name>
@@ -929,6 +1027,12 @@
 		<VolumeRange X="0" Y="1" />
 		<DistRange X="0.15" Y="6.0" />
 	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ExplosionMine</Name>
+		<Path>event:/Hits/ExplosionMine</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.6" Y="40.0" />
+	</SoundEffect3D>
 
 	<!-- Collisions and impacts sounds -->
 	<SoundEffect3D>
@@ -1023,6 +1127,24 @@
 		<VolumeRange X="0" Y="1.0" />
 		<DistRange X="1.5" Y="60.0" />
 		<CutoffRange>1.0</CutoffRange>
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ImpactKineticMetal1</Name>
+		<Path>event:/Hits/ImpactKineticMetal1</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.01" Y="1.5" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ImpactKineticMetal2</Name>
+		<Path>event:/Hits/ImpactKineticMetal2</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.02" Y="4.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>ImpactKineticMetal3</Name>
+		<Path>event:/Hits/ImpactKineticMetal3</Path>
+		<VolumeRange X="0" Y="1.0" />
+		<DistRange X="0.05" Y="10.0" />
 	</SoundEffect3D>
 
 	<!-- Misc sounds -->

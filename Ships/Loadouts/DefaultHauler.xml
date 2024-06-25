@@ -4,13 +4,14 @@
 	<Actor>Hauler</Actor>
 	<LayoutFile>$Config/Ships/Layouts/HaulerLayout.xml</LayoutFile>
 	<IsMain>true</IsMain>
-	<Mount HardpointName="s_turret_1" Weapon="AutoTurretGunMK4" GroupID="0" />
-	<Mount HardpointName="s_turret_2" Weapon="AutoTurretGunMK4" GroupID="0" />
-	<Mount HardpointName="s_turret_3" Weapon="AutoTurretGunMK4" GroupID="0" />
-	<Mount HardpointName="s_turret_4" Weapon="AutoTurretBlasterMK4" GroupID="1" />
-	<Mount HardpointName="s_turret_5" Weapon="AutoTurretGunMK4" GroupID="0" />
-	<Mount HardpointName="s_turret_6" Weapon="AutoTurretBlasterMK4" GroupID="1" />
-	<Mount HardpointName="s_turret_7" Weapon="AutoTurretBlasterMK4" GroupID="1" />
-	<Mount HardpointName="s_turret_8" Weapon="AutoTurretBlasterMK4" GroupID="1" />
-	<Mount HardpointName="s_mod_electronics1" System="FlightAssist" />
+    <Mount HardpointName="s_mod_electronics1" System="FlightAssist" GroupID="15"/>
+    <Mount HardpointName="s_mk5_right" Weapon="RepairBeamMK5" GroupID="2"/>
+    <Mount HardpointName="s_mk5_left" Weapon="RepairBeamMK5" GroupID="2"/>
+    <Mount HardpointName="s_mk5_bottom" Weapon="RearmBeamMK5" GroupID="3"/>
+    <Mount HardpointName="s_mk5_top" Weapon="RearmBeamMK5" GroupID="3"/>
+    <Mount HardpointName="s_mk4_front_top_right" Weapon="AutoTurretGunMK4" GroupID="0"/>
+    <Mount HardpointName="s_mk4_front_top_left" Weapon="AutoTurretBlasterMK4" GroupID="1"/>
+    <Mount HardpointName="s_mk4_front_bot_center" Weapon="AutoTurretGunMK4" GroupID="0"/>
+    <Mount HardpointName="s_mk4_rear_top_center" Weapon="AutoTurretBlasterMK4" GroupID="1"/>
+    <Mount HardpointName="s_drone_pod" Weapon="RepairDronePod" GroupID="4"/>
 </Loadout>

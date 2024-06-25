@@ -20,6 +20,7 @@
 		        <Class>CoreReactor</Class>
 				<HitPoints>125000</HitPoints>
 				<Name>UI_Module_Reactor</Name>
+				<ShipPoints>800</ShipPoints>
 				<Score>500</Score>
 				<AttackPriority>8</AttackPriority>
 				<BattleScore>100</BattleScore>
@@ -44,6 +45,7 @@
 			<Module>
 		        <Class>CoreReactor</Class>
 				<HitPoints>125000</HitPoints>
+				<ShipPoints>800</ShipPoints>
 				<Score>500</Score>
 				<AttackPriority>8</AttackPriority>
 				<BattleScore>100</BattleScore>

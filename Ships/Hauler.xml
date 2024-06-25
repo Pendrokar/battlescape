@@ -2,7 +2,7 @@
 	<Meta>
 		<ActorType>Ship</ActorType>
 		<SpawnType>Hauler</SpawnType>
-		<IsPlayerSpawnable>false</IsPlayerSpawnable>
+		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>600</ShipClassCost>
 		<ShipBattleScore>5</ShipBattleScore>
 		<DisplayName>UI_ShipType_Hauler</DisplayName>
@@ -1372,12 +1372,31 @@
 
 		<ContrailEffectSize>0.075</ContrailEffectSize>
 		<DamageEffectSize>0.07</DamageEffectSize>
+
+		<Skin>
+			<Name>HaulerScoria</Name>
+			<MeshColor ID="2" R="0.6" G="0.18" B="0.132" A="1.0" />
+			<PaintColor1 X="0.6" Y="0.18" Z="0.132" W="1.0" />
+			<PaintColor2 X="1.0" Y="1.0" Z="1.0" W="1.0" />
+		</Skin>
+		<Skin>
+			<Name>HaulerHavoc</Name>
+			<MeshColor ID="2" R="0.94" G="0.9" B="0.4" A="1.0" />
+			<PaintColor1 X="1.0" Y="0.9" Z="0.10" W="1.0" />
+			<PaintColor2 X="0.54" Y="0.74" Z="1.0" W="1.0" />
+		</Skin>
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
 		<LinAccSmoothing>0.1</LinAccSmoothing>
 		<AngVelSmoothing>0.5</AngVelSmoothing>
-		<ViewRangeExt X="1.0" Y="2.0" />
+		<ViewRangeExt X="0.8" Y="1.6" />
+		<DefaultViewRangeExt>1.0</DefaultViewRangeExt>
+        <Camera Type="Capship" >
+            <ViewPosition X="0" Y="0.0" Z="-0.420" />
+			<ViewAngle X="0" Y="0" />
+			<ViewOffset>0.3</ViewOffset>
+        </Camera>
         <Camera Type="External" >
             <!-- chase camera behind ship -->
             <ViewPosition X="0" Y="0.01212" Z="-0.31309" />
@@ -1385,7 +1404,7 @@
         </Camera>
         <Camera Type="Internal" >
             <!-- bridge -->
-            <ViewPosition X="0.0" Y="0.05251" Z="-0.05694" />
+            <ViewPosition X="0.0" Y="0.048" Z="-0.156" />
 			<ViewAngle X="0" Y="0" />
         </Camera>
     </CClientCameraViewComponent>
@@ -1415,47 +1434,51 @@
 	<CActorComponent>
     	<Indicator>MediumShip</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassName>HAULER</ClassName>
 	</CActorComponent>
 	<CBodyComponent>
-		<PhysicsBody Type="Box" >
+    	<PhysicsBody Type="Mesh" >
+			<CollisionFile>$Dev/Ships/SFC-Hauler/Collision/bcb07b14.insm</CollisionFile>
+			<Dynamic>true</Dynamic>
+            <Mass>7908.0</Mass>
+            <Collisions>true</Collisions>
+        </PhysicsBody>
+<!-- 		<PhysicsBody Type="Box" >
         	<SidesSize X="0.131799996" Y="0.0591151193" Z="0.478196621" />
             <Offset X="0.0006" Y="0" Z="0" />
             <Mass>7908.0</Mass>
             <Collisions>true</Collisions>
-    	</PhysicsBody>
+    	</PhysicsBody> -->
 		<HitMesh>
-			<CollisionFile>$Dev/Ships/SFC-Hauler/Collision/194da471.insm</CollisionFile>
+			<CollisionFile>$Dev/Ships/SFC-Hauler/Collision/bcb07b14.insm</CollisionFile>
 			<SplitCost>0.0005</SplitCost>
 		</HitMesh>
 	</CBodyComponent>
     <CPropulsionComponent>
         <RampUpSpeed>0.2</RampUpSpeed>
-        <MinLinearThrust X="-130.0" Y="-150.0" Z="-175.0" />
-        <MaxLinearThrust X="130.0" Y="150.0" Z="175.0" />
-        <BaseRotationThrust X="60.0" Y="60.0" Z="8.0" />
-        <FullRotationThrust X="60.0" Y="60.0" Z="8.0" />
+        <MinLinearThrust X="-150.0" Y="-200.0" Z="-275.0" />
+        <MaxLinearThrust X="150.0" Y="200.0" Z="275.0" />
+        <BaseRotationThrust X="15.0" Y="15.0" Z="2.0" />
+        <FullRotationThrust X="15.0" Y="15.0" Z="2.0" />
         <RotationStabilizer X="1.0" Y="1.0" Z="1.0" />
-		<BaseRotationSpeed X="0.404" Y="0.303" Z="0.708" />
-		<FullRotationSpeed X="0.404" Y="0.303" Z="0.708" />
-		<RotationDampener>0.6</RotationDampener>
+		<BaseRotationSpeed X="0.40" Y="0.35" Z="0.35" />
+		<FullRotationSpeed X="0.40" Y="0.35" Z="0.35" />
+		<RotationDampener>1.0</RotationDampener>
 		<AtmoDecay>0.007</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
-		<DriftLimiter>2.0</DriftLimiter>
-		<CapSpeed>0.228</CapSpeed>
+		<DriftLimiter>1.5</DriftLimiter>
+		<CapSpeed>0.250</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
-		<EnergyPoints>1000</EnergyPoints>
+		<EnergyPoints>800</EnergyPoints>
 		<RechargeEnergyPoints>50</RechargeEnergyPoints>
-		<HeatPoints>600</HeatPoints>
-		<DechargeHeatPoints>90</DechargeHeatPoints>
+		<HeatPoints>750</HeatPoints>
+		<DechargeHeatPoints>125</DechargeHeatPoints>
 	</CEngineComponent>
 	<CHullComponent>
-		<HitPoints>4000</HitPoints>
-
-		<DeathDuration>16.0</DeathDuration>
+		<HitPoints>3000</HitPoints>
+		<DeathDuration>10.0</DeathDuration>
 		<DeathTiming>0.0</DeathTiming>
-		<KillCamTiming>2.0</KillCamTiming>
+		<KillCamTiming>3.0</KillCamTiming>
 		<DeathDebrisTiming>4.0</DeathDebrisTiming>
 		<DeathDebrisCount>4</DeathDebrisCount>
 		<DeathDebrisScale>20</DeathDebrisScale>
@@ -1472,11 +1495,23 @@
 		<DeathXP>200</DeathXP>
 		<Drag>0.0004</Drag>
 		<ArmorPoints>2</ArmorPoints>
+		<DefaultSkins>
+			<Skin TeamID="0">HaulerHavoc</Skin>
+			<Skin TeamID="1">HaulerScoria</Skin>
+			<Skin TeamID="2">HaulerHavoc</Skin>
+		</DefaultSkins>
 	</CHullComponent>
 	<CShieldComponent>
-		<ShieldPoints>5000</ShieldPoints>
-		<RechargeShieldPoints>6</RechargeShieldPoints>
+		<ShieldPoints>14000</ShieldPoints>
+		<RechargeShieldPoints>100</RechargeShieldPoints>
+		<RechargeDamageRatio>0.35</RechargeDamageRatio>
+		<InterferenceScale>0.4</InterferenceScale>
 	</CShieldComponent>
+	<CClientShieldComponent>
+		<ImpactShieldMeshFX>FX/Shields/SM_Hauler-shield</ImpactShieldMeshFX>
+		<ImpactShieldNoiseScale>100.0</ImpactShieldNoiseScale>
+		<ImpactShieldStartTime>0.10</ImpactShieldStartTime>
+	</CClientShieldComponent>
 	<CWarpComponent>
 		<WarpChargeDuration>8.0</WarpChargeDuration>
 		<WarpCooldown>15.0</WarpCooldown>
@@ -1551,11 +1586,17 @@
 			<Socket>s_mod_shields1</Socket>
 		</Hardpoint>
 	</CHardpointComponent>
+	<CAbilityComponent>
+		<Properties>
+			<WarpJamSourceOffset  X="0" Y="0" Z="0" />
+			<WarpJamSourceSizeScale X="0.25" />
+		</Properties>
+	</CAbilityComponent>
 	<CServerHardpointComponent>
 		<Loadout Name="DefaultHauler" Proba="100" />
 		<Ammo>
 			<Type>Chaff</Type>
-			<Amount>20</Amount>
+			<Amount>25</Amount>
 		</Ammo>
 	</CServerHardpointComponent>
 	<CServerHaulerComponent>

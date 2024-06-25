@@ -1,37 +1,203 @@
-<Planet>
-	<Global>
-		<Radius Value="78000.0" />
+<ActorConfig>
+	<Meta>
+		<ActorType>Planet</ActorType>
+		<MapIconName>Planet</MapIconName>
+		<MapIconColor X="0.2" Y="0.25" Z="0.808" W="1" />
+  		<MapIconSize>2000</MapIconSize>
+	</Meta>
+	<CNodeComponent>
+		<TransformNode>
+		</TransformNode>
+	</CNodeComponent>
+	<CServerActorComponent>
+		<Name>Rethe Prime</Name>
+		<NetworkRange>0.0005</NetworkRange>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>10000000000.0</EmissionsRange>
+		<SensorPower>0.0</SensorPower>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>Planet</Indicator>
+		<SurfaceType>Surface</SurfaceType>
+	</CActorComponent>
+	<CClientActorComponent>
+	</CClientActorComponent>
+	<CBodyComponent>
+	</CBodyComponent>
+	<CPlanetComponent>
+		<Type>GasGiant</Type>
+		<Radius>78000.0</Radius>
 		<RotationSpeed Value="0.0" />
-	</Global>
-    <Atmosphere State="true" >
-        <Thickness Value="300.0" />
-        <BetaR Red="0.00015" Green="0.0005" Blue="0.005" />
-        <HR Value="64.0" />
-        <BetaMSca Red="0.02" Green="0.02" Blue="0.02" />
-        <BetaMEx Red="0.022" Green="0.022" Blue="0.022" />
-        <HM Value="1.2" />
-        <G Value="0.75" />
-    </Atmosphere>
-    <Cloud LayerID="0" State="true" Transparent="true" >
-        <Altitude Value="50.0" />
-        <RotationSpeed Value="0.0005" />
-        <NoiseScale X="1.0" Y="16.0" Z="1.0" />
-        <NoiseOffset X="0.572" Y="0.572" Z="0.572" />
-        <MeanColor Red="0.3" Green="0.3" Blue="0.3" />
-        <ColorVariance Red="0.1" Green="0.1" Blue="0.1" />
-        <Persistence Value="0.9" />
-        <Recursions Value="5" />
-        <Deform Scale="16.0" Strength="0.5" />
-    </Cloud>
-    <Cloud LayerID="1" State="true" Transparent="false" >
-        <Altitude Value="0.0" />
-        <RotationSpeed Value="-0.00025" />
-        <NoiseScale X="1.25" Y="12.0" Z="1.35" />
-        <NoiseOffset X="3.5612" Y="3.5612" Z="3.5612" />
-        <MeanColor Red="0.2" Green="0.01" Blue="0.001" />
-        <ColorVariance Red="0.1" Green="0.002" Blue="0.001" />
-        <Persistence Value="0.9" />
-        <Recursions Value="5" />
-        <Deform Scale="32.0" Strength="0.25" />
-    </Cloud>
-</Planet>
+        <GravityMass>3.485e23</GravityMass>
+		<Atmosphere>
+			<Density>1000.0</Density>
+			<Decay>0.2</Decay>
+		</Atmosphere>
+	</CPlanetComponent>
+	<CClientPlanetComponent>
+	    <Atmosphere State="true" >
+	        <Thickness Value="2000.0" />
+	        <BetaR Red="0.0004" Green="0.0005" Blue="0.02" />
+	        <HR Value="200.0" />
+	        <BetaMSca Red="0.0" Green="0.0" Blue="0.0" />
+	        <BetaMEx Red="0.0" Green="0.0" Blue="0.0" />
+	        <HM Value="8" />
+	        <G Value="0.75" />
+	    </Atmosphere>
+	    <Cloud LayerID="0" State="true" Transparent="true" >
+	        <Altitude Value="50.0" />
+	        <RotationSpeed Value="0.00063" />
+			<Noise ID="0">
+				<Scale X="4" Y="29" Z="3" />
+				<Offset X="1.29" Y="0.58" Z="-0.92" />
+				<Strength>0.5</Strength>
+				<Octaves>12</Octaves>
+				<Weight>0.4</Weight>
+				<Frequency>1.6</Frequency>
+			</Noise>
+ 			<Noise ID="1">
+				<Scale X="32" Y="128" Z="32" />
+				<Offset X="-0.11" Y="2.72" Z="4.94" />
+				<Strength>0.45</Strength>
+				<Octaves>8</Octaves>
+				<Weight>0.4</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+			<Noise ID="2">
+				<Scale X="128" Y="512" Z="128" />
+				<Offset X="1.56" Y="-2.38" Z="1.41" />
+				<Octaves>4</Octaves>
+				<Weight>0.5</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+			<ColorTableTexture>Celestial/Planets/Textures/GasGiant/T_Planet_GasGiant_PinkLUT</ColorTableTexture>
+            <ColorTable NbKeys="5">
+                <Default X="1" Y="1" Z="1" />
+                <Key Param="0.0" X="0.175" Y="0.375" Z="0.325" />
+				<Key Param="0.5" X="0.15" Y="0.35" Z="0.375" />
+				<Key Param="0.8" X="0.45" Y="0.45" Z="0.50" />
+                <Key Param="0.95" X="0.6" Y="0.55" Z="0.50" />
+                <Key Param="1.0" X="1.0" Y="1.0" Z="0.95" />
+            </ColorTable>
+	    </Cloud>
+		<Cloud LayerID="1" State="true" Transparent="false" >
+	        <Altitude Value="0.0" />
+	        <RotationSpeed Value="-0.00025" />
+			<Noise ID="0">
+				<Scale X="7" Y="32" Z="6" />
+				<Offset X="1.29" Y="0.58" Z="-0.92" />
+				<Strength>0.25</Strength>
+				<Octaves>12</Octaves>
+				<Weight>0.7</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+			<Noise ID="1">
+				<Scale X="48" Y="128" Z="53" />
+				<Offset X="-0.11" Y="2.72" Z="4.94" />
+				<Strength>0.25</Strength>
+				<Octaves>8</Octaves>
+				<Weight>0.5</Weight>
+				<Frequency>2.5</Frequency>
+			</Noise>
+			<Noise ID="2">
+				<Scale X="256" Y="512" Z="256" />
+				<Offset X="1.56" Y="-2.38" Z="1.41" />
+				<Octaves>4</Octaves>
+				<Weight>0.3</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+			<ColorTableTexture>Celestial/Planets/Textures/GasGiant/T_Planet_GasGiant_DarkRedLUT</ColorTableTexture>
+            <ColorTable NbKeys="3">
+                <Default X="1" Y="1" Z="1" />
+                <Key Param="0.0" X="0.175" Y="0.375" Z="0.325" />
+				<Key Param="0.7" X="0.15" Y="0.35" Z="0.375" />
+                <Key Param="1.0" X="0.125" Y="0.325" Z="0.375" />
+            </ColorTable>
+	    </Cloud>
+		<WindGrid ID="0" >
+			<MinAltitude>8.0</MinAltitude>
+			<MeanAltitude>15.0</MeanAltitude>
+			<GridDimension>17</GridDimension>
+			<GridSize>4.0</GridSize>
+
+			<DustEffect>WindDust</DustEffect>
+			<DustProbaOffset>2.0</DustProbaOffset>
+			<DustProbaScale>1.0</DustProbaScale>
+			<DustColor X="0.175" Y="0.375" Z="0.325" W="1" />
+			<DustAlpha>2.0</DustAlpha>
+			<DustAmbient>0.2</DustAmbient>
+			<DustOctaves>6</DustOctaves>
+			<DustLacunarity>2.0</DustLacunarity>
+			<DustHFactor>0.5</DustHFactor>
+			<DustFrequency>0.1</DustFrequency>
+
+			<WindIntensity>10.0</WindIntensity>
+			<WindOctaves>6</WindOctaves>
+			<WindLacunarity>2.0</WindLacunarity>
+			<WindHFactor>0.5</WindHFactor>
+			<WindIntensityOffset>1.0</WindIntensityOffset>
+			<WindIntensityScale>0.25</WindIntensityScale>
+			<WindFrequency>0.01</WindFrequency>
+		</WindGrid>
+		<WindGrid ID="1" >
+			<MinAltitude>60.0</MinAltitude>
+			<MeanAltitude>25.0</MeanAltitude>
+			<GridDimension>13</GridDimension>
+			<GridSize>40.0</GridSize>
+
+			<DustEffect>WindDust</DustEffect>
+			<DustProbaOffset>0.75</DustProbaOffset>
+			<DustProbaScale>3.0</DustProbaScale>
+			<DustColor X="0.45" Y="0.45" Z="0.50" W="1" />
+			<DustAlpha>5.0</DustAlpha>
+			<DustAmbient>0.2</DustAmbient>
+			<DustOctaves>6</DustOctaves>
+			<DustLacunarity>2.0</DustLacunarity>
+			<DustHFactor>0.5</DustHFactor>
+			<DustFrequency>0.01</DustFrequency>
+
+			<WindIntensity>100.0</WindIntensity>
+			<WindOctaves>6</WindOctaves>
+			<WindLacunarity>2.0</WindLacunarity>
+			<WindHFactor>0.5</WindHFactor>
+			<WindIntensityOffset>0.75</WindIntensityOffset>
+			<WindIntensityScale>0.25</WindIntensityScale>
+			<WindFrequency>0.001</WindFrequency>
+		</WindGrid>
+		<WindGrid ID="2" >
+			<MinAltitude>150.0</MinAltitude>
+			<MeanAltitude>60.0</MeanAltitude>
+			<GridDimension>13</GridDimension>
+			<GridSize>120.0</GridSize>
+
+			<DustEffect>WindDust</DustEffect>
+			<DustProbaOffset>0.5</DustProbaOffset>
+			<DustProbaScale>1.0</DustProbaScale>
+			<DustColor X="0.6" Y="0.55" Z="0.50" W="1" />
+			<DustAlpha>2.0</DustAlpha>
+			<DustAmbient>0.1</DustAmbient>
+			<DustOctaves>6</DustOctaves>
+			<DustLacunarity>2.0</DustLacunarity>
+			<DustHFactor>0.5</DustHFactor>
+			<DustFrequency>0.01</DustFrequency>
+
+			<WindIntensity>200.0</WindIntensity>
+			<WindOctaves>6</WindOctaves>
+			<WindLacunarity>2.0</WindLacunarity>
+			<WindHFactor>0.5</WindHFactor>
+			<WindIntensityOffset>0.5</WindIntensityOffset>
+			<WindIntensityScale>0.5</WindIntensityScale>
+			<WindFrequency>0.001</WindFrequency>
+		</WindGrid>
+		<Sounds>
+			<Sound>
+				<Name>AmbientWind</Name>
+				<Volume>1.0</Volume>
+				<Altitude X="0.0" Y="1000.0" />
+				<Falloff>0.5</Falloff>
+				<Wind>10.0</Wind>
+			</Sound>
+		</Sounds>
+	</CClientPlanetComponent>
+</ActorConfig>

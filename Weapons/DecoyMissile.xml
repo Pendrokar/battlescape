@@ -50,12 +50,11 @@
 		<NetworkSize>0.02</NetworkSize>
 	</CServerActorComponent>
 	<CServerSensorComponent>
-		<EmissionsRange>10.0</EmissionsRange>
+		<EmissionsRange>25.0</EmissionsRange>
 		<SensorPower>1.0</SensorPower>
 	</CServerSensorComponent>
 	<CActorComponent>
     	<Indicator>Torpedo</Indicator>
-		<ClassName>TORPEDO</ClassName>
 	</CActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Box" >
@@ -84,10 +83,10 @@
 		<RechargeRate>0</RechargeRate>
 	</CEngineComponent>
 	<CHullComponent>
-		<HitPoints>150</HitPoints>
+		<HitPoints>75</HitPoints>
 		<DeathDuration>0.0</DeathDuration>
 		<DyingDuration>0.0</DyingDuration>
-		<DeathCredits>0</DeathCredits>
+		<DeathCredits>1</DeathCredits>
 		<Drag>1.0</Drag>
 	</CHullComponent>
 	<CServerMissileComponent>

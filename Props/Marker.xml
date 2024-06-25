@@ -1,0 +1,24 @@
+<ActorConfig>
+	<Meta>
+		<ActorType>Prop</ActorType>
+	</Meta>
+	<CClientNodeComponent>
+		<TransformNode />
+	</CClientNodeComponent>
+	<CServerNodeComponent>
+		<TransformNode />
+	</CServerNodeComponent>
+	<CClientInterpolationComponent />
+	<CServerActorComponent>
+		<Name>Marker</Name>
+	</CServerActorComponent>
+	<CActorComponent>
+    	<Indicator>Beacon</Indicator>
+	</CActorComponent>
+	<CClientActorComponent>
+	</CClientActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>1000.0</EmissionsRange>
+		<SensorPower>1.0</SensorPower>
+	</CServerSensorComponent>
+</ActorConfig>

@@ -1,0 +1,30 @@
+<Filter>
+	<Condition Target="Client">
+        <Object Mesh="Props/RaceGates/Models/101_RaceGate_000_Start" >
+			<RejectionSize>0.00001</RejectionSize>
+            <PhysicsBody Type="Mesh" >
+                <CollisionFile>$Dev/Props/RaceGates/Models/20ed2701.insm</CollisionFile>
+                <Collisions>true</Collisions>
+                <Bounce>0.25</Bounce>
+                <Friction>0.01</Friction>
+            </PhysicsBody>
+			<Module>
+		        <Class>Indestructible</Class>
+				<Name>UI_Module_Gate</Name>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+            <PhysicsBody Type="Mesh" >
+                <CollisionFile>$Dev/Props/RaceGates/Models/20ed2701.insm</CollisionFile>
+                <Collisions>true</Collisions>
+                <Bounce>0.25</Bounce>
+                <Friction>0.01</Friction>
+            </PhysicsBody>
+			<Module>
+		        <Class>Indestructible</Class>
+			</Module>
+		</TransformNode>
+	</Condition>
+</Filter>

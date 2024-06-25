@@ -57,7 +57,6 @@
 	</CServerSensorComponent>
 	<CActorComponent>
     	<Indicator>Torpedo</Indicator>
-		<ClassName>TORPEDO</ClassName>
 	</CActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Box" >

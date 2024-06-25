@@ -1,0 +1,2187 @@
+<ActorConfig>
+	<CNodeComponent>
+		<TransformNode>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-0.703553" y = "0.145863" z = "-1.144118" />
+				<Rotation x = "0.700826" y = "0.104604" z = "-0.653955" w = "-0.265036" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "0.706544" y = "2.550337" z = "-3.327187" />
+				<Rotation x = "-0.016505" y = "0.956531" z = "-0.268117" w = "-0.113529" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-0.411825" y = "-0.979296" z = "-5.668795" />
+				<Rotation x = "0.587474" y = "-0.035405" z = "0.758215" w = "0.280591" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "3.046676" y = "-2.801118" z = "-5.485897" />
+				<Rotation x = "-0.013295" y = "0.044571" z = "0.925332" w = "0.376294" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "8.425951" y = "21.306607" z = "18.481952" />
+				<Rotation x = "0.761752" y = "-0.273792" z = "-0.510615" w = "-0.289903" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-0.521596" y = "4.845311" z = "-6.019026" />
+				<Rotation x = "-0.545643" y = "-0.354833" z = "-0.325371" w = "0.685931" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "3.828009" y = "-12.356764" z = "4.715267" />
+				<Rotation x = "0.898752" y = "-0.437307" z = "-0.018462" w = "0.025805" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-8.467714" y = "-3.476553" z = "4.756043" />
+				<Rotation x = "-0.625868" y = "0.649178" z = "-0.338527" w = "-0.268807" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "17.498665" y = "-17.470019" z = "-8.487827" />
+				<Rotation x = "-0.065318" y = "0.587090" z = "0.242072" w = "0.769714" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "28.512055" y = "-17.283867" z = "-24.838056" />
+				<Rotation x = "-0.296043" y = "0.628828" z = "0.372862" w = "0.614742" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-0.270094" y = "-11.698260" z = "7.382390" />
+				<Rotation x = "0.540965" y = "0.353732" z = "0.755067" w = "-0.110020" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "14.731248" y = "-29.013912" z = "13.385064" />
+				<Rotation x = "0.305166" y = "-0.590182" z = "-0.243809" w = "0.706482" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "9.356943" y = "-24.576427" z = "13.395303" />
+				<Rotation x = "0.692865" y = "0.320485" z = "-0.375638" w = "0.525475" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "0.134468" y = "1.006860" z = "-11.595440" />
+				<Rotation x = "-0.409996" y = "-0.408808" z = "-0.448263" w = "0.681058" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "10.708581" y = "18.034448" z = "14.767120" />
+				<Rotation x = "-0.097922" y = "0.705014" z = "-0.180512" w = "0.678809" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "16.990930" y = "-23.982637" z = "-9.982890" />
+				<Rotation x = "-0.582747" y = "-0.016907" z = "0.764428" w = "-0.275265" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-4.545978" y = "5.410357" z = "1.281910" />
+				<Rotation x = "0.225973" y = "0.855926" z = "0.295530" w = "0.359150" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-3.592786" y = "-2.078900" z = "3.036871" />
+				<Rotation x = "0.625022" y = "0.530793" z = "-0.571807" w = "0.025379" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "3.091173" y = "12.895046" z = "6.056964" />
+				<Rotation x = "0.475815" y = "0.212816" z = "0.779184" w = "-0.348111" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-1.401612" y = "-18.593994" z = "9.519041" />
+				<Rotation x = "0.592766" y = "0.598533" z = "-0.252594" w = "-0.476007" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "21.038101" y = "-18.691616" z = "34.510007" />
+				<Rotation x = "-0.037378" y = "-0.624034" z = "0.749196" w = "0.218836" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-10.310976" y = "10.349846" z = "7.885186" />
+				<Rotation x = "-0.325366" y = "0.155862" z = "0.874791" w = "0.323394" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-6.478627" y = "-6.507740" z = "2.154094" />
+				<Rotation x = "0.142016" y = "-0.536293" z = "-0.642828" w = "0.528198" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "1.486570" y = "-11.146184" z = "11.914085" />
+				<Rotation x = "0.930134" y = "-0.338081" z = "0.018001" w = "-0.142221" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-7.285092" y = "3.571542" z = "-9.286739" />
+				<Rotation x = "0.977283" y = "0.018195" z = "-0.129852" w = "-0.166507" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-5.019132" y = "-31.496201" z = "-29.306998" />
+				<Rotation x = "-0.358544" y = "-0.188177" z = "-0.634726" w = "0.658148" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "5.417180" y = "-11.662124" z = "7.327416" />
+				<Rotation x = "-0.084953" y = "-0.719629" z = "-0.093276" w = "0.682801" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "9.592867" y = "-9.287430" z = "2.190505" />
+				<Rotation x = "0.074939" y = "-0.281269" z = "-0.747288" w = "0.597355" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "5.673874" y = "-4.444965" z = "-44.358246" />
+				<Rotation x = "0.631745" y = "0.377689" z = "0.634159" w = "-0.236838" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "6.621247" y = "8.847873" z = "10.730428" />
+				<Rotation x = "-0.180716" y = "0.707105" z = "-0.031029" w = "0.682921" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-3.457629" y = "-4.371727" z = "0.592754" />
+				<Rotation x = "0.882142" y = "-0.372439" z = "0.284745" w = "0.045107" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "16.965688" y = "-2.036091" z = "27.939602" />
+				<Rotation x = "0.648549" y = "-0.282755" z = "-0.644776" w = "-0.289305" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "20.528893" y = "-26.639605" z = "-12.075785" />
+				<Rotation x = "0.581897" y = "-0.054999" z = "-0.302911" w = "0.752738" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-16.557318" y = "8.875696" z = "4.386411" />
+				<Rotation x = "0.006480" y = "-0.416750" z = "0.907498" w = "0.052205" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-1.462312" y = "7.974538" z = "-3.551816" />
+				<Rotation x = "-0.266301" y = "0.332812" z = "0.744635" w = "0.513652" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-13.486182" y = "7.528147" z = "28.498626" />
+				<Rotation x = "-0.221846" y = "0.896069" z = "-0.148684" w = "-0.354595" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-11.016089" y = "-12.881390" z = "23.903316" />
+				<Rotation x = "-0.122020" y = "0.130911" z = "-0.615015" w = "0.767938" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "12.038393" y = "3.224264" z = "25.922831" />
+				<Rotation x = "0.736808" y = "-0.268127" z = "0.617927" w = "-0.058201" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "14.013250" y = "-9.754781" z = "6.483442" />
+				<Rotation x = "-0.506023" y = "0.534773" z = "-0.462374" w = "-0.494134" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-9.205450" y = "-15.723071" z = "22.985035" />
+				<Rotation x = "-0.074654" y = "0.073377" z = "0.412520" w = "0.904914" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-10.259357" y = "8.873987" z = "-10.974100" />
+				<Rotation x = "0.253007" y = "0.761978" z = "-0.365766" w = "0.470736" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-7.779754" y = "26.594269" z = "19.994467" />
+				<Rotation x = "0.847316" y = "0.193928" z = "-0.452327" w = "0.199619" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "20.208447" y = "-20.110729" z = "37.504479" />
+				<Rotation x = "0.822642" y = "-0.045831" z = "0.431844" w = "-0.366974" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-5.428694" y = "-17.495394" z = "25.555403" />
+				<Rotation x = "-0.537983" y = "0.094233" z = "0.800053" w = "0.248213" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "8.008615" y = "-25.590048" z = "10.092523" />
+				<Rotation x = "-0.261867" y = "0.592976" z = "0.260236" w = "0.715599" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-14.871085" y = "-15.152381" z = "17.931746" />
+				<Rotation x = "-0.501287" y = "0.537584" z = "0.429419" w = "0.524704" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-7.349845" y = "-21.949093" z = "22.204413" />
+				<Rotation x = "-0.034195" y = "0.862065" z = "-0.479749" w = "0.159738" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "13.661388" y = "-9.136141" z = "25.356238" />
+				<Rotation x = "-0.339814" y = "-0.285721" z = "0.894229" w = "0.056965" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "0.705962" y = "-4.611872" z = "-7.263167" />
+				<Rotation x = "-0.186644" y = "-0.261830" z = "0.587808" w = "0.742355" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "17.872014" y = "-12.842658" z = "23.009554" />
+				<Rotation x = "-0.253088" y = "0.556756" z = "0.451214" w = "0.649904" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "22.952371" y = "-26.323426" z = "18.092538" />
+				<Rotation x = "0.921470" y = "0.050313" z = "0.385160" w = "-0.003536" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "18.835068" y = "-28.943254" z = "-7.952967" />
+				<Rotation x = "0.404150" y = "0.534375" z = "-0.308187" w = "0.675372" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-2.450990" y = "10.656976" z = "-10.595375" />
+				<Rotation x = "-0.388125" y = "0.817562" z = "0.063552" w = "0.420611" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-8.329221" y = "2.204061" z = "24.454861" />
+				<Rotation x = "-0.204744" y = "0.781816" z = "0.447415" w = "0.382966" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-11.338045" y = "-0.169888" z = "-12.162154" />
+				<Rotation x = "-0.220992" y = "0.346808" z = "0.542692" w = "0.732374" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-11.415171" y = "-9.963560" z = "5.927774" />
+				<Rotation x = "0.310055" y = "-0.195588" z = "0.927879" w = "0.068206" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-5.349825" y = "21.218384" z = "-17.986610" />
+				<Rotation x = "0.531677" y = "-0.557078" z = "-0.130551" w = "0.624452" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-6.410850" y = "-13.105859" z = "23.571809" />
+				<Rotation x = "-0.419102" y = "0.619936" z = "0.328077" w = "0.576540" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-5.238612" y = "12.938078" z = "-0.189407" />
+				<Rotation x = "-0.299165" y = "0.015491" z = "0.400891" w = "0.865764" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "0.890935" y = "-7.580576" z = "1.353995" />
+				<Rotation x = "0.950464" y = "0.001090" z = "0.119795" w = "-0.286820" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-10.839300" y = "-2.114181" z = "29.017515" />
+				<Rotation x = "-0.139055" y = "0.762821" z = "0.217255" w = "0.592931" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "8.882727" y = "-13.360157" z = "11.161978" />
+				<Rotation x = "0.867272" y = "0.445392" z = "-0.197145" w = "-0.102948" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-8.846160" y = "-29.895156" z = "32.652192" />
+				<Rotation x = "0.918852" y = "0.168368" z = "0.010815" w = "-0.356715" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "14.090550" y = "-8.075787" z = "-7.599945" />
+				<Rotation x = "0.916049" y = "-0.315365" z = "-0.010292" w = "0.247575" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-5.433745" y = "-13.554942" z = "13.989733" />
+				<Rotation x = "-0.273519" y = "0.430319" z = "0.004283" w = "0.860229" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "8.925150" y = "-4.066381" z = "31.234496" />
+				<Rotation x = "-0.132051" y = "0.784384" z = "-0.528942" w = "0.295845" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-3.248177" y = "-8.460972" z = "15.709501" />
+				<Rotation x = "-0.062224" y = "-0.610872" z = "0.730290" w = "-0.299400" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-10.140734" y = "2.762195" z = "-10.528674" />
+				<Rotation x = "-0.540172" y = "-0.224456" z = "0.749385" w = "0.310251" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "4.908113" y = "-14.586551" z = "46.862642" />
+				<Rotation x = "0.654090" y = "0.003321" z = "-0.092916" w = "0.750681" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-10.595460" y = "19.540037" z = "15.600733" />
+				<Rotation x = "0.364466" y = "0.592443" z = "-0.224543" w = "0.682463" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "12.382304" y = "14.075954" z = "-10.011473" />
+				<Rotation x = "0.513706" y = "0.546825" z = "-0.359720" w = "0.554698" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "23.219696" y = "-1.230408" z = "31.438575" />
+				<Rotation x = "-0.556714" y = "0.670126" z = "0.447081" w = "-0.202779" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "9.635452" y = "-32.279641" z = "-4.575361" />
+				<Rotation x = "0.604433" y = "0.645779" z = "-0.464976" w = "-0.037791" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "7.101770" y = "-15.237963" z = "12.832872" />
+				<Rotation x = "0.674164" y = "-0.218272" z = "0.670592" w = "0.219466" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-10.170623" y = "-27.460448" z = "-7.215340" />
+				<Rotation x = "-0.244568" y = "-0.072133" z = "-0.475020" w = "0.842223" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "20.307646" y = "-3.377767" z = "24.859225" />
+				<Rotation x = "-0.366402" y = "-0.369696" z = "0.822983" w = "-0.227539" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-3.277881" y = "-2.004247" z = "-13.652292" />
+				<Rotation x = "0.477057" y = "0.659817" z = "-0.246482" w = "0.525647" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-28.342378" y = "25.368860" z = "23.896959" />
+				<Rotation x = "-0.487150" y = "0.725469" z = "-0.344634" w = "-0.342939" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-5.015352" y = "-0.507038" z = "55.676276" />
+				<Rotation x = "0.725796" y = "0.415183" z = "0.395777" w = "-0.379742" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-13.245248" y = "22.172900" z = "-34.696872" />
+				<Rotation x = "0.022262" y = "-0.163444" z = "0.984900" w = "0.052552" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "19.337394" y = "-15.839542" z = "-10.237814" />
+				<Rotation x = "0.186104" y = "0.850986" z = "0.479953" w = "0.104082" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "9.758406" y = "23.241757" z = "-12.004918" />
+				<Rotation x = "-0.557246" y = "0.704078" z = "-0.029449" w = "0.439186" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "22.155649" y = "-13.446032" z = "29.439276" />
+				<Rotation x = "0.097969" y = "0.614130" z = "0.474668" w = "0.622846" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-3.744420" y = "2.017406" z = "-16.413914" />
+				<Rotation x = "0.736580" y = "-0.175376" z = "0.048897" w = "0.651385" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-17.838318" y = "46.249549" z = "11.402729" />
+				<Rotation x = "0.049910" y = "0.307889" z = "-0.700280" w = "0.642122" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "16.187754" y = "-27.022952" z = "-9.589705" />
+				<Rotation x = "0.865014" y = "-0.484803" z = "-0.082083" w = "0.099898" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "34.922715" y = "-28.345143" z = "52.994478" />
+				<Rotation x = "-0.642368" y = "0.009463" z = "0.681875" w = "0.349744" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-16.462815" y = "-4.867740" z = "34.095673" />
+				<Rotation x = "0.091765" y = "-0.742673" z = "0.082710" w = "0.658160" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-10.672284" y = "5.143448" z = "2.956577" />
+				<Rotation x = "0.393349" y = "-0.577657" z = "0.439541" w = "0.564262" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "22.709063" y = "19.767080" z = "30.938166" />
+				<Rotation x = "0.648014" y = "-0.426265" z = "-0.617508" w = "-0.130615" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-18.371571" y = "-17.917757" z = "23.481939" />
+				<Rotation x = "0.132019" y = "-0.502219" z = "0.103304" w = "0.848337" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "14.219023" y = "23.189994" z = "71.498031" />
+				<Rotation x = "0.892993" y = "-0.364227" z = "-0.052978" w = "0.259027" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "6.248390" y = "-14.535020" z = "-3.066766" />
+				<Rotation x = "0.747042" y = "-0.317583" z = "0.427457" w = "0.397932" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-18.676671" y = "31.626204" z = "2.144291" />
+				<Rotation x = "0.153272" y = "-0.776437" z = "-0.235098" w = "0.564254" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-16.988819" y = "1.236829" z = "4.583703" />
+				<Rotation x = "0.342319" y = "0.774130" z = "0.391551" w = "0.360871" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "39.165506" y = "-24.718406" z = "-6.745368" />
+				<Rotation x = "0.736344" y = "0.352323" z = "0.527095" w = "-0.236298" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "13.929023" y = "-0.159833" z = "38.126106" />
+				<Rotation x = "0.138438" y = "-0.149260" z = "-0.098554" w = "0.974086" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-15.491949" y = "11.987662" z = "13.266352" />
+				<Rotation x = "-0.022621" y = "0.715709" z = "-0.041578" w = "0.696793" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "1.489382" y = "1.425956" z = "-6.368383" />
+				<Rotation x = "0.488396" y = "0.505785" z = "-0.464916" w = "0.538056" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-19.485585" y = "-20.878387" z = "-21.981966" />
+				<Rotation x = "-0.646864" y = "-0.340044" z = "0.396305" w = "0.555769" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "46.322758" y = "-22.410933" z = "46.351871" />
+				<Rotation x = "-0.399891" y = "0.558316" z = "0.544466" w = "-0.481588" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-0.468088" y = "-8.965981" z = "-9.102192" />
+				<Rotation x = "-0.097840" y = "-0.042744" z = "0.953079" w = "-0.283267" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "11.424954" y = "-22.736556" z = "26.743764" />
+				<Rotation x = "-0.526905" y = "-0.289799" z = "0.790943" w = "-0.113123" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-28.296368" y = "-24.541739" z = "10.923624" />
+				<Rotation x = "0.213872" y = "0.407354" z = "-0.421398" w = "0.781502" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-12.979755" y = "13.064361" z = "11.136087" />
+				<Rotation x = "-0.640184" y = "0.763329" z = "0.085671" w = "0.012372" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "8.474753" y = "3.089619" z = "22.290582" />
+				<Rotation x = "-0.356558" y = "-0.446499" z = "-0.572925" w = "0.587590" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-24.454505" y = "-19.327886" z = "26.502797" />
+				<Rotation x = "0.038475" y = "0.145320" z = "0.986615" w = "0.063190" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-5.968870" y = "1.487025" z = "46.356069" />
+				<Rotation x = "0.832357" y = "-0.484148" z = "-0.010276" w = "0.269586" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "35.849743" y = "13.801436" z = "14.238228" />
+				<Rotation x = "0.430996" y = "0.439676" z = "0.371299" w = "0.695028" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "20.091949" y = "-16.807317" z = "30.517007" />
+				<Rotation x = "-0.646802" y = "0.280067" z = "-0.212047" w = "0.676939" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "28.421925" y = "-19.675433" z = "33.855491" />
+				<Rotation x = "0.501417" y = "-0.450512" z = "0.699490" w = "0.237347" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-0.195841" y = "10.655362" z = "29.073463" />
+				<Rotation x = "0.736614" y = "0.182392" z = "-0.603103" w = "0.245763" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-7.306679" y = "-28.547311" z = "-9.374373" />
+				<Rotation x = "-0.189244" y = "0.763250" z = "0.100180" w = "0.609589" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "4.207273" y = "-2.746104" z = "14.608756" />
+				<Rotation x = "0.571971" y = "-0.013794" z = "0.756330" w = "0.317212" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-7.201836" y = "-25.849151" z = "36.733736" />
+				<Rotation x = "-0.042573" y = "-0.837465" z = "0.072418" w = "0.539995" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-19.194860" y = "21.630154" z = "-20.578668" />
+				<Rotation x = "0.582540" y = "-0.186141" z = "0.742201" w = "-0.274112" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "41.861797" y = "-21.902384" z = "-3.151210" />
+				<Rotation x = "0.619760" y = "0.764677" z = "0.176324" w = "0.008697" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-7.652971" y = "-29.337528" z = "-5.234300" />
+				<Rotation x = "-0.465323" y = "-0.115427" z = "0.240868" w = "0.843880" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "14.121624" y = "-20.905211" z = "27.894763" />
+				<Rotation x = "0.709952" y = "-0.597554" z = "0.372174" w = "0.019620" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "17.108773" y = "26.742276" z = "-15.201548" />
+				<Rotation x = "0.083536" y = "-0.720934" z = "0.112740" w = "0.678649" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-14.685858" y = "14.815437" z = "-22.541218" />
+				<Rotation x = "0.511124" y = "0.777730" z = "0.202549" w = "-0.304732" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "11.434660" y = "32.050437" z = "-12.823128" />
+				<Rotation x = "0.788622" y = "0.604451" z = "-0.077804" w = "-0.081607" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "14.585927" y = "-0.216738" z = "33.556361" />
+				<Rotation x = "0.686362" y = "-0.650243" z = "-0.271647" w = "-0.179719" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "25.439305" y = "-17.761585" z = "29.611107" />
+				<Rotation x = "0.071227" y = "0.891507" z = "-0.420982" w = "0.151383" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "10.167179" y = "-59.399824" z = "6.900040" />
+				<Rotation x = "-0.612085" y = "0.645816" z = "-0.255586" w = "-0.378086" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "11.721256" y = "24.964301" z = "70.302241" />
+				<Rotation x = "-0.369369" y = "-0.704974" z = "-0.272806" w = "0.540514" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-23.938869" y = "-11.918126" z = "13.013269" />
+				<Rotation x = "-0.595421" y = "-0.138812" z = "0.747328" w = "-0.260202" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "18.618794" y = "-16.322227" z = "36.449967" />
+				<Rotation x = "0.274428" y = "0.860278" z = "-0.363097" w = "0.229723" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "8.650989" y = "-36.229611" z = "-0.008774" />
+				<Rotation x = "0.867355" y = "-0.301821" z = "-0.259052" w = "-0.299151" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-9.531733" y = "5.702649" z = "-10.308083" />
+				<Rotation x = "0.659261" y = "0.191553" z = "-0.441149" w = "0.577988" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-4.916609" y = "-11.593475" z = "46.757589" />
+				<Rotation x = "-0.037142" y = "0.875227" z = "0.257426" w = "0.407837" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-5.050608" y = "-9.064184" z = "4.221023" />
+				<Rotation x = "0.333297" y = "0.183392" z = "-0.706939" w = "0.596253" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-21.003640" y = "-26.207268" z = "-26.791815" />
+				<Rotation x = "-0.245652" y = "0.862251" z = "0.323090" w = "-0.302971" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-25.475629" y = "-21.388007" z = "1.944949" />
+				<Rotation x = "-0.030329" y = "0.843288" z = "-0.266540" w = "0.465728" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-13.401712" y = "-1.217834" z = "30.392961" />
+				<Rotation x = "0.603862" y = "0.304727" z = "0.714391" w = "-0.179269" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-23.563091" y = "-40.262787" z = "-0.127667" />
+				<Rotation x = "0.726254" y = "0.049098" z = "-0.685391" w = "0.019584" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "11.425278" y = "1.085543" z = "35.140163" />
+				<Rotation x = "-0.254800" y = "0.608494" z = "0.495527" w = "0.565035" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-37.743750" y = "5.669445" z = "12.211447" />
+				<Rotation x = "0.473854" y = "-0.497146" z = "0.562578" w = "0.460233" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-0.058380" y = "-22.713693" z = "-12.647290" />
+				<Rotation x = "-0.165783" y = "-0.629908" z = "-0.010517" w = "0.758697" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "15.897493" y = "3.447410" z = "33.174931" />
+				<Rotation x = "-0.293602" y = "0.696983" z = "0.526495" w = "0.388349" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-7.821800" y = "-1.767608" z = "-0.863561" />
+				<Rotation x = "0.232663" y = "0.313074" z = "0.892425" w = "0.226784" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "15.486728" y = "-53.881930" z = "8.889703" />
+				<Rotation x = "0.191020" y = "-0.597681" z = "0.723790" w = "0.287084" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-7.364357" y = "-38.470121" z = "7.613010" />
+				<Rotation x = "0.047970" y = "-0.593075" z = "0.799911" w = "0.078126" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-16.505413" y = "-26.465415" z = "-1.290275" />
+				<Rotation x = "0.147416" y = "-0.196260" z = "-0.550443" w = "0.797974" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-0.823457" y = "-9.675019" z = "4.299714" />
+				<Rotation x = "0.163728" y = "-0.080246" z = "0.444887" w = "0.876829" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-28.510357" y = "-22.601356" z = "7.171242" />
+				<Rotation x = "-0.305963" y = "-0.435831" z = "-0.444710" w = "0.720189" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "19.396566" y = "17.728572" z = "-5.337179" />
+				<Rotation x = "-0.353787" y = "0.174479" z = "0.798849" w = "0.454129" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "26.328692" y = "-9.737352" z = "28.364050" />
+				<Rotation x = "0.444098" y = "0.570771" z = "0.601468" w = "0.339461" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "58.225215" y = "-35.190399" z = "-32.538213" />
+				<Rotation x = "-0.100572" y = "0.836213" z = "-0.530535" w = "0.095742" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-31.887076" y = "36.994803" z = "23.535097" />
+				<Rotation x = "-0.265996" y = "0.541803" z = "0.035616" w = "0.796509" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "12.723665" y = "-6.020207" z = "25.991699" />
+				<Rotation x = "-0.676614" y = "-0.081570" z = "0.730830" w = "0.037780" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-5.088044" y = "-33.737337" z = "-11.716712" />
+				<Rotation x = "0.411215" y = "-0.355073" z = "0.748866" w = "0.379506" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-19.857141" y = "-3.653979" z = "-12.048827" />
+				<Rotation x = "0.738214" y = "-0.529859" z = "0.386617" w = "-0.157534" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "9.297633" y = "-17.152400" z = "45.752904" />
+				<Rotation x = "-0.397373" y = "0.565504" z = "0.361105" w = "0.626021" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "19.606038" y = "-13.956434" z = "33.135398" />
+				<Rotation x = "-0.515786" y = "0.780294" z = "-0.113636" w = "0.334953" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-14.683519" y = "24.785756" z = "-31.909279" />
+				<Rotation x = "0.222343" y = "0.909096" z = "-0.251839" w = "0.246343" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "31.473972" y = "-9.909375" z = "26.804991" />
+				<Rotation x = "-0.403464" y = "0.414333" z = "0.785364" w = "-0.220790" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "21.316426" y = "30.635208" z = "8.455256" />
+				<Rotation x = "-0.507464" y = "0.171990" z = "-0.543663" w = "0.646011" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-1.130923" y = "-26.984375" z = "26.444813" />
+				<Rotation x = "0.304651" y = "-0.370195" z = "0.528936" w = "0.700265" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "42.061155" y = "-24.213027" z = "42.592137" />
+				<Rotation x = "-0.029321" y = "-0.056937" z = "0.989904" w = "-0.126446" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "26.377953" y = "-22.640592" z = "21.017712" />
+				<Rotation x = "0.432029" y = "-0.551593" z = "0.597985" w = "0.389242" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "33.214384" y = "1.207752" z = "37.360894" />
+				<Rotation x = "0.586577" y = "0.729109" z = "0.008806" w = "0.352492" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "17.211078" y = "-19.371924" z = "-19.254173" />
+				<Rotation x = "-0.204651" y = "-0.583550" z = "0.676105" w = "-0.400587" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "45.241149" y = "-29.859036" z = "-10.005449" />
+				<Rotation x = "0.538517" y = "-0.406179" z = "0.587897" w = "0.446537" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "14.112695" y = "-8.631242" z = "28.303330" />
+				<Rotation x = "0.426731" y = "0.538528" z = "-0.503549" w = "0.523762" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "26.945055" y = "-13.340206" z = "25.060017" />
+				<Rotation x = "0.804322" y = "-0.308884" z = "0.372224" w = "0.345117" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-33.208222" y = "-23.354712" z = "24.392406" />
+				<Rotation x = "0.235680" y = "0.153288" z = "0.943186" w = "0.177082" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "21.558422" y = "-8.074079" z = "31.575837" />
+				<Rotation x = "-0.461513" y = "-0.498612" z = "-0.430537" w = "0.594163" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "7.506593" y = "-11.460651" z = "4.031856" />
+				<Rotation x = "0.510340" y = "0.821327" z = "0.252441" w = "0.035327" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "9.510540" y = "-2.092911" z = "33.523068" />
+				<Rotation x = "-0.131745" y = "0.882512" z = "0.141248" w = "0.428794" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "53.685331" y = "-18.335388" z = "-23.161359" />
+				<Rotation x = "0.166378" y = "0.671571" z = "-0.392580" w = "0.605963" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-5.651544" y = "6.663255" z = "-2.541648" />
+				<Rotation x = "-0.034323" y = "0.620256" z = "0.411107" w = "0.667155" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "2.371453" y = "6.307179" z = "-22.213797" />
+				<Rotation x = "0.495638" y = "0.621288" z = "-0.580522" w = "-0.177027" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "2.677907" y = "10.805614" z = "35.411251" />
+				<Rotation x = "0.442883" y = "0.821990" z = "0.112734" w = "-0.339822" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-25.575521" y = "3.145205" z = "1.210961" />
+				<Rotation x = "0.645525" y = "-0.516709" z = "0.415726" w = "-0.378789" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-10.059786" y = "-25.402693" z = "29.841736" />
+				<Rotation x = "0.011424" y = "-0.551079" z = "-0.232650" w = "0.801283" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "8.964544" y = "-5.168051" z = "0.568030" />
+				<Rotation x = "-0.310553" y = "0.851292" z = "-0.398770" w = "-0.140858" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "28.420679" y = "-16.280125" z = "2.620839" />
+				<Rotation x = "0.848811" y = "0.356299" z = "-0.315242" w = "0.230637" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "17.701865" y = "-22.145288" z = "17.158432" />
+				<Rotation x = "0.099179" y = "-0.294861" z = "0.321108" w = "0.894489" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "19.386657" y = "30.247669" z = "11.329149" />
+				<Rotation x = "-0.257919" y = "0.616705" z = "-0.030631" w = "0.743111" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "18.522417" y = "13.664029" z = "60.221459" />
+				<Rotation x = "-0.681137" y = "0.078081" z = "0.725418" w = "0.061032" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-8.689860" y = "-13.604460" z = "-2.878042" />
+				<Rotation x = "-0.638435" y = "-0.097147" z = "0.763510" w = "-0.003999" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "4.605294" y = "-21.547595" z = "-31.221197" />
+				<Rotation x = "0.726152" y = "0.365399" z = "-0.551697" w = "0.186596" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "43.934943" y = "-19.912357" z = "26.566969" />
+				<Rotation x = "-0.333573" y = "-0.135780" z = "-0.369666" w = "0.856528" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-2.238645" y = "-6.517977" z = "-5.892352" />
+				<Rotation x = "0.706216" y = "0.577408" z = "0.408063" w = "0.036659" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-12.252369" y = "-6.313408" z = "7.954196" />
+				<Rotation x = "-0.473649" y = "0.159713" z = "0.666095" w = "0.553594" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-3.024214" y = "-22.970411" z = "10.919835" />
+				<Rotation x = "0.459944" y = "-0.712654" z = "-0.028199" w = "0.528943" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "28.193864" y = "-0.233586" z = "-15.903771" />
+				<Rotation x = "-0.731931" y = "-0.174534" z = "0.214494" w = "0.622742" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "25.843843" y = "-9.195182" z = "-8.982870" />
+				<Rotation x = "0.636678" y = "0.377803" z = "0.663692" w = "0.106860" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "24.435347" y = "14.550409" z = "52.010140" />
+				<Rotation x = "0.872594" y = "-0.048201" z = "-0.412486" w = "0.257123" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-19.869642" y = "-7.609153" z = "-3.708521" />
+				<Rotation x = "-0.443673" y = "-0.394224" z = "0.641086" w = "-0.486570" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-12.951729" y = "7.229105" z = "-9.029276" />
+				<Rotation x = "0.021276" y = "-0.283497" z = "0.852223" w = "-0.439195" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-5.289700" y = "1.261352" z = "-9.636584" />
+				<Rotation x = "-0.055464" y = "0.727534" z = "0.628298" w = "0.269923" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "14.325738" y = "-41.627606" z = "35.791413" />
+				<Rotation x = "-0.586094" y = "-0.154484" z = "0.715931" w = "-0.346512" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-20.994393" y = "8.113034" z = "-17.745495" />
+				<Rotation x = "-0.374189" y = "-0.022057" z = "0.914708" w = "-0.151014" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-16.324440" y = "-0.902048" z = "20.559848" />
+				<Rotation x = "0.578909" y = "-0.041047" z = "0.784675" w = "-0.217862" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "9.079002" y = "27.138673" z = "-9.847831" />
+				<Rotation x = "0.392772" y = "0.639970" z = "0.577709" w = "-0.320032" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-16.189593" y = "5.611391" z = "7.082787" />
+				<Rotation x = "0.779783" y = "0.291515" z = "0.331535" w = "-0.443893" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "16.310412" y = "31.324063" z = "13.544540" />
+				<Rotation x = "0.771222" y = "-0.034026" z = "0.552475" w = "0.314371" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "1.368866" y = "-2.854303" z = "-10.812555" />
+				<Rotation x = "-0.465449" y = "-0.061079" z = "0.748758" w = "0.467962" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "14.027705" y = "-51.262476" z = "-4.243085" />
+				<Rotation x = "-0.131038" y = "0.774548" z = "-0.615992" w = "-0.058801" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "15.468055" y = "-56.643708" z = "1.456377" />
+				<Rotation x = "-0.482559" y = "0.656512" z = "-0.380185" w = "-0.437708" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "10.548418" y = "6.015149" z = "38.483264" />
+				<Rotation x = "0.258441" y = "0.054276" z = "-0.489453" w = "0.831082" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-5.898023" y = "24.622763" z = "-48.805602" />
+				<Rotation x = "-0.340447" y = "0.497384" z = "0.387257" w = "0.697665" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-7.632034" y = "-23.748063" z = "39.749924" />
+				<Rotation x = "0.343109" y = "-0.665030" z = "-0.297505" w = "0.592876" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "1.428112" y = "8.274479" z = "-0.385677" />
+				<Rotation x = "0.634594" y = "0.436118" z = "-0.143278" w = "0.621742" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-5.373180" y = "10.452159" z = "35.101067" />
+				<Rotation x = "0.198527" y = "-0.132202" z = "-0.517710" w = "0.821636" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "40.436747" y = "-16.187541" z = "-6.694110" />
+				<Rotation x = "-0.500338" y = "-0.494632" z = "0.500929" w = "0.504055" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "25.425661" y = "-52.516566" z = "-22.605798" />
+				<Rotation x = "0.235863" y = "-0.076211" z = "0.889882" w = "0.382975" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-16.342543" y = "-4.610181" z = "9.522518" />
+				<Rotation x = "-0.167789" y = "0.610007" z = "-0.436763" w = "0.639513" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-15.552990" y = "-19.418632" z = "-5.129714" />
+				<Rotation x = "-0.306506" y = "0.308389" z = "0.442093" w = "0.784541" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "37.249367" y = "-1.267156" z = "27.077915" />
+				<Rotation x = "0.826116" y = "-0.357064" z = "0.223384" w = "0.374349" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "31.149329" y = "-24.967221" z = "7.329014" />
+				<Rotation x = "0.649033" y = "0.270916" z = "0.658027" w = "-0.268999" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-38.790662" y = "-42.434470" z = "5.483488" />
+				<Rotation x = "0.255069" y = "-0.017097" z = "0.963740" w = "-0.076507" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "4.516868" y = "28.943831" z = "2.034406" />
+				<Rotation x = "0.896715" y = "0.160577" z = "-0.412329" w = "-0.010073" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "32.868335" y = "-28.855236" z = "23.817370" />
+				<Rotation x = "-0.284909" y = "0.548782" z = "-0.460621" w = "0.636784" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-19.019097" y = "18.389759" z = "-61.554115" />
+				<Rotation x = "0.785145" y = "-0.572628" z = "-0.131843" w = "-0.195606" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-21.645478" y = "-22.719108" z = "13.532100" />
+				<Rotation x = "-0.327529" y = "0.413480" z = "0.799629" w = "0.286972" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "13.529992" y = "-59.896312" z = "2.572897" />
+				<Rotation x = "-0.150285" y = "0.098937" z = "0.033627" w = "0.983105" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-26.207670" y = "21.661056" z = "-24.199543" />
+				<Rotation x = "0.304614" y = "0.785189" z = "-0.399205" w = "-0.362386" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "2.937349" y = "4.967851" z = "-32.137002" />
+				<Rotation x = "0.344694" y = "0.182499" z = "0.876307" w = "0.282781" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "12.553151" y = "-9.084837" z = "-43.442979" />
+				<Rotation x = "0.144782" y = "0.220682" z = "0.949805" w = "-0.167955" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-18.083126" y = "-1.394210" z = "-4.716075" />
+				<Rotation x = "-0.513483" y = "0.409044" z = "0.121544" w = "0.744477" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-35.120163" y = "10.044720" z = "-57.344843" />
+				<Rotation x = "-0.459528" y = "-0.299173" z = "-0.433176" w = "0.715324" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-14.065828" y = "-39.434238" z = "20.973907" />
+				<Rotation x = "-0.589231" y = "0.247855" z = "0.713539" w = "0.286771" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "39.309926" y = "-19.106260" z = "49.571875" />
+				<Rotation x = "-0.045020" y = "-0.348717" z = "0.851719" w = "-0.388516" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "42.730940" y = "26.069366" z = "5.073097" />
+				<Rotation x = "-0.161852" y = "0.721421" z = "0.673270" w = "0.007982" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-6.616512" y = "-5.879204" z = "31.902803" />
+				<Rotation x = "-0.051466" y = "-0.787044" z = "-0.106624" w = "0.605430" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-5.195379" y = "-26.329462" z = "-4.958222" />
+				<Rotation x = "-0.006541" y = "0.202319" z = "0.977062" w = "0.066136" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-11.195695" y = "-4.065076" z = "1.597246" />
+				<Rotation x = "0.744238" y = "-0.083443" z = "0.481382" w = "0.455432" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "25.849394" y = "6.123208" z = "-25.714754" />
+				<Rotation x = "-0.207311" y = "-0.668745" z = "0.694242" w = "0.166823" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "17.117561" y = "-7.769954" z = "30.234781" />
+				<Rotation x = "-0.362486" y = "0.441809" z = "0.795166" w = "0.202781" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "27.507592" y = "23.221823" z = "37.720907" />
+				<Rotation x = "-0.579732" y = "0.733616" z = "0.048409" w = "-0.351247" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-21.265480" y = "-16.655531" z = "29.050263" />
+				<Rotation x = "-0.704473" y = "0.185947" z = "0.425319" w = "0.536884" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-13.248571" y = "13.909131" z = "32.350843" />
+				<Rotation x = "-0.544521" y = "0.701522" z = "-0.200909" w = "-0.413521" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "10.416528" y = "-21.011047" z = "10.904336" />
+				<Rotation x = "-0.336275" y = "0.708601" z = "0.284574" w = "0.551199" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "11.519143" y = "-19.978031" z = "19.736333" />
+				<Rotation x = "0.479662" y = "0.638783" z = "-0.098525" w = "0.593442" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "1.739308" y = "10.149851" z = "5.986022" />
+				<Rotation x = "0.078831" y = "0.878781" z = "-0.446778" w = "-0.148050" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "1.831635" y = "13.656209" z = "-6.452174" />
+				<Rotation x = "-0.526655" y = "0.657434" z = "-0.315202" w = "-0.437108" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-33.190108" y = "-20.932690" z = "2.419325" />
+				<Rotation x = "-0.014253" y = "-0.350449" z = "0.044920" w = "0.935395" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "23.088511" y = "-25.415709" z = "-14.718723" />
+				<Rotation x = "-0.364415" y = "0.441370" z = "0.589104" w = "0.570395" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "46.295350" y = "13.409063" z = "-11.678602" />
+				<Rotation x = "0.909765" y = "0.089188" z = "-0.331995" w = "-0.232707" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "11.205852" y = "-9.140590" z = "-13.653138" />
+				<Rotation x = "0.119606" y = "0.616992" z = "-0.327540" w = "0.705502" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-18.845210" y = "4.528872" z = "8.836502" />
+				<Rotation x = "0.438605" y = "0.469976" z = "0.609428" w = "-0.464053" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "10.858751" y = "-27.555937" z = "46.653278" />
+				<Rotation x = "0.802435" y = "-0.092283" z = "0.570964" w = "0.146912" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-9.599334" y = "-13.579274" z = "20.285594" />
+				<Rotation x = "0.399015" y = "0.123245" z = "0.821286" w = "-0.388699" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "13.945221" y = "7.311573" z = "-25.523737" />
+				<Rotation x = "-0.014915" y = "0.162038" z = "0.562232" w = "0.810812" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-10.195306" y = "3.301346" z = "-6.860859" />
+				<Rotation x = "0.671196" y = "0.600976" z = "0.432997" w = "0.028927" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-15.468246" y = "-10.514451" z = "32.018292" />
+				<Rotation x = "-0.450955" y = "0.428596" z = "0.375687" w = "0.686880" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "10.849817" y = "16.206778" z = "24.491135" />
+				<Rotation x = "-0.730983" y = "0.430921" z = "0.169769" w = "0.501148" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-12.724293" y = "4.986106" z = "26.469143" />
+				<Rotation x = "-0.524906" y = "0.296142" z = "0.544165" w = "0.583659" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-31.600498" y = "-20.273075" z = "23.946504" />
+				<Rotation x = "-0.182577" y = "0.053277" z = "0.896688" w = "-0.399721" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-25.296847" y = "15.055803" z = "23.277332" />
+				<Rotation x = "0.351734" y = "0.560501" z = "-0.428888" w = "0.614961" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "17.175138" y = "-11.436084" z = "25.574482" />
+				<Rotation x = "-0.333540" y = "0.434624" z = "0.701284" w = "0.456130" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-25.479018" y = "26.805680" z = "-20.005637" />
+				<Rotation x = "-0.205612" y = "-0.636011" z = "-0.236756" w = "0.705096" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-19.237619" y = "5.289887" z = "32.764482" />
+				<Rotation x = "-0.176208" y = "0.433304" z = "-0.547624" w = "0.693762" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-23.063392" y = "3.501231" z = "8.288839" />
+				<Rotation x = "0.150522" y = "0.477483" z = "-0.494857" w = "0.710260" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-4.331272" y = "5.616324" z = "4.767307" />
+				<Rotation x = "0.049079" y = "0.319691" z = "0.562933" w = "0.760589" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "46.820430" y = "-18.389882" z = "27.291449" />
+				<Rotation x = "-0.649815" y = "-0.331530" z = "-0.444003" w = "0.520278" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "21.187657" y = "-5.627563" z = "41.912067" />
+				<Rotation x = "0.487928" y = "0.235976" z = "0.831842" w = "-0.119498" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-7.683643" y = "-19.212655" z = "2.085197" />
+				<Rotation x = "0.427212" y = "-0.523678" z = "0.549234" w = "0.491521" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-29.678272" y = "-7.985431" z = "-5.057890" />
+				<Rotation x = "0.217214" y = "0.956975" z = "0.192219" w = "-0.008276" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-38.383070" y = "-28.314152" z = "31.612464" />
+				<Rotation x = "-0.563586" y = "-0.365175" z = "0.634768" w = "-0.382214" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-12.053463" y = "-22.774840" z = "22.860337" />
+				<Rotation x = "0.001600" y = "0.499909" z = "0.165553" w = "0.850106" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-14.394229" y = "19.375453" z = "-4.508989" />
+				<Rotation x = "0.732634" y = "0.262992" z = "-0.610017" w = "-0.148199" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "13.243770" y = "-32.540392" z = "-12.390733" />
+				<Rotation x = "0.768759" y = "0.053022" z = "0.356187" w = "0.528516" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-19.467603" y = "26.863089" z = "-17.436057" />
+				<Rotation x = "0.075627" y = "-0.077015" z = "-0.074763" w = "0.991342" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-11.293105" y = "11.597302" z = "23.465843" />
+				<Rotation x = "-0.625763" y = "0.214328" z = "0.543266" w = "0.517055" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "55.227955" y = "13.837702" z = "-7.195399" />
+				<Rotation x = "0.826987" y = "0.435457" z = "0.034816" w = "0.353917" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-25.368368" y = "31.564857" z = "-22.740192" />
+				<Rotation x = "0.240634" y = "0.263943" z = "0.846557" w = "0.394677" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-27.233160" y = "-10.520449" z = "10.055491" />
+				<Rotation x = "0.833731" y = "-0.436941" z = "-0.321413" w = "-0.103293" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "25.243713" y = "-17.351813" z = "53.049657" />
+				<Rotation x = "0.108515" y = "0.771832" z = "-0.606631" w = "-0.156520" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-13.467020" y = "-8.982619" z = "0.046191" />
+				<Rotation x = "-0.553568" y = "-0.196781" z = "0.749787" w = "0.304399" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "0.635481" y = "-12.629679" z = "-21.386512" />
+				<Rotation x = "0.541571" y = "0.762255" z = "0.353503" w = "0.026536" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "45.759822" y = "-27.031038" z = "41.755121" />
+				<Rotation x = "-0.187072" y = "0.228849" z = "0.302170" w = "0.906270" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "10.663613" y = "-9.615724" z = "-5.183482" />
+				<Rotation x = "-0.613984" y = "-0.438387" z = "-0.241918" w = "0.610177" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-9.840297" y = "-15.609898" z = "11.313477" />
+				<Rotation x = "0.173146" y = "0.647849" z = "-0.296061" w = "0.680191" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "18.479316" y = "-24.532552" z = "-13.106378" />
+				<Rotation x = "0.867004" y = "0.216628" z = "0.360515" w = "-0.267217" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-24.102882" y = "-14.744390" z = "29.811739" />
+				<Rotation x = "0.650002" y = "0.163442" z = "-0.645673" w = "0.365910" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "42.008263" y = "-22.407334" z = "50.768900" />
+				<Rotation x = "-0.478118" y = "0.498711" z = "0.307886" w = "0.654138" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "37.812698" y = "-14.622048" z = "-7.393411" />
+				<Rotation x = "-0.070720" y = "-0.432202" z = "-0.175170" w = "0.881769" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-6.371320" y = "0.580855" z = "5.357911" />
+				<Rotation x = "0.544786" y = "0.584474" z = "0.373661" w = "0.471143" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-21.485641" y = "-16.864844" z = "4.076728" />
+				<Rotation x = "-0.210326" y = "0.810784" z = "0.537929" w = "0.095003" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-3.637143" y = "-27.183551" z = "35.904415" />
+				<Rotation x = "-0.332379" y = "-0.560060" z = "-0.378239" w = "0.657870" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "4.291741" y = "-0.435154" z = "-14.247033" />
+				<Rotation x = "0.294630" y = "0.645121" z = "0.249873" w = "0.659223" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-14.404534" y = "20.367281" z = "-32.441491" />
+				<Rotation x = "0.028020" y = "-0.577888" z = "0.706190" w = "-0.408114" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-15.180661" y = "-3.670389" z = "-13.073337" />
+				<Rotation x = "-0.296320" y = "0.485006" z = "0.817721" w = "0.091087" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-1.667301" y = "29.580824" z = "7.175931" />
+				<Rotation x = "0.832532" y = "-0.457278" z = "0.174428" w = "-0.259544" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-18.589141" y = "16.778293" z = "-25.626103" />
+				<Rotation x = "0.474567" y = "-0.661006" z = "0.179142" w = "0.552960" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "2.423956" y = "7.091518" z = "-5.532496" />
+				<Rotation x = "0.724957" y = "0.053966" z = "0.006318" w = "0.686648" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "0.836351" y = "29.468854" z = "31.944788" />
+				<Rotation x = "0.161204" y = "0.685551" z = "-0.157594" w = "0.692241" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "12.799707" y = "-3.284865" z = "43.929634" />
+				<Rotation x = "0.779011" y = "-0.612725" z = "-0.081796" w = "-0.104976" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-16.422944" y = "-42.752813" z = "-4.510669" />
+				<Rotation x = "0.007204" y = "0.953084" z = "0.225460" w = "-0.201858" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-33.209250" y = "31.566723" z = "29.049175" />
+				<Rotation x = "-0.233126" y = "0.122973" z = "0.543798" w = "0.796752" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "33.827818" y = "-23.952076" z = "53.217315" />
+				<Rotation x = "0.475361" y = "-0.190048" z = "0.530096" w = "0.675953" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "14.161858" y = "40.535594" z = "67.800445" />
+				<Rotation x = "0.682851" y = "0.654888" z = "0.211913" w = "0.244806" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-24.909815" y = "-57.661525" z = "7.267097" />
+				<Rotation x = "0.802090" y = "0.095868" z = "-0.257526" w = "0.530228" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "7.081949" y = "-2.480036" z = "-6.841500" />
+				<Rotation x = "-0.047952" y = "0.242742" z = "0.379186" w = "0.891625" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "3.354157" y = "13.741747" z = "35.275961" />
+				<Rotation x = "-0.191971" y = "0.076719" z = "0.746794" w = "0.632107" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-8.655475" y = "7.580986" z = "-7.569949" />
+				<Rotation x = "-0.496958" y = "0.295582" z = "0.662283" w = "0.476493" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-4.899802" y = "-32.067489" z = "15.118549" />
+				<Rotation x = "0.884034" y = "0.220004" z = "-0.410795" w = "-0.036461" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "24.683017" y = "-14.678375" z = "21.163179" />
+				<Rotation x = "0.508066" y = "0.109775" z = "0.705077" w = "-0.482374" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-36.441706" y = "-21.196938" z = "19.073883" />
+				<Rotation x = "-0.441047" y = "0.759679" z = "-0.082800" w = "0.470648" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-40.699950" y = "5.011939" z = "10.172241" />
+				<Rotation x = "0.616790" y = "0.714265" z = "0.291557" w = "-0.156175" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "9.228853" y = "-11.781526" z = "28.934390" />
+				<Rotation x = "0.953738" y = "-0.235634" z = "0.070857" w = "0.172740" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "15.240320" y = "21.753394" z = "22.630397" />
+				<Rotation x = "-0.232281" y = "0.116094" z = "0.843170" w = "0.470778" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-1.763601" y = "-2.088130" z = "-20.957556" />
+				<Rotation x = "0.576072" y = "0.342334" z = "0.619082" w = "-0.409496" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "39.309947" y = "13.189203" z = "-25.728894" />
+				<Rotation x = "0.747202" y = "0.201194" z = "0.633273" w = "-0.013253" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "24.399606" y = "-18.630323" z = "-9.493036" />
+				<Rotation x = "-0.259702" y = "-0.658618" z = "-0.261460" w = "0.656061" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-26.637189" y = "-15.115862" z = "13.179606" />
+				<Rotation x = "0.119427" y = "0.707284" z = "-0.322783" w = "0.617493" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "0.288913" y = "-18.721948" z = "28.478905" />
+				<Rotation x = "-0.735918" y = "0.255897" z = "0.355113" w = "0.516562" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-11.421268" y = "-20.506139" z = "-33.238182" />
+				<Rotation x = "0.681599" y = "-0.234584" z = "0.624426" w = "0.300806" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-5.231986" y = "-16.007670" z = "10.558885" />
+				<Rotation x = "-0.535823" y = "-0.200357" z = "0.335340" w = "0.748531" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "18.296972" y = "-21.435288" z = "11.399082" />
+				<Rotation x = "-0.085917" y = "-0.583054" z = "0.180272" w = "0.787507" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "26.605042" y = "8.614960" z = "24.566626" />
+				<Rotation x = "0.137051" y = "0.746055" z = "0.470831" w = "-0.450485" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-20.150899" y = "-9.946844" z = "-33.908033" />
+				<Rotation x = "-0.701537" y = "-0.001068" z = "0.712551" w = "-0.010787" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "10.182513" y = "11.297721" z = "-30.012978" />
+				<Rotation x = "0.492291" y = "0.464268" z = "-0.455669" w = "0.578334" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-6.752889" y = "-30.937390" z = "-18.198348" />
+				<Rotation x = "0.567641" y = "0.559155" z = "-0.138787" w = "0.588105" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "3.821545" y = "36.646780" z = "-15.460588" />
+				<Rotation x = "0.400555" y = "0.469476" z = "-0.293197" w = "0.730194" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-5.406455" y = "-5.390778" z = "6.274758" />
+				<Rotation x = "0.603628" y = "0.473310" z = "0.613628" w = "0.187274" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-9.954938" y = "18.610804" z = "-28.557086" />
+				<Rotation x = "0.231841" y = "-0.548141" z = "0.096445" w = "0.797803" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-1.605383" y = "-21.091485" z = "30.298657" />
+				<Rotation x = "0.954034" y = "-0.082322" z = "-0.155468" w = "-0.242636" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "6.119363" y = "6.204886" z = "23.631482" />
+				<Rotation x = "-0.008458" y = "0.783775" z = "0.450133" w = "-0.427792" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-23.254389" y = "13.498914" z = "-18.989952" />
+				<Rotation x = "-0.283601" y = "0.848327" z = "-0.142126" w = "0.423925" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-1.361983" y = "-4.960070" z = "28.206033" />
+				<Rotation x = "-0.532663" y = "-0.174957" z = "0.827502" w = "0.030003" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "38.139088" y = "4.263519" z = "-2.250978" />
+				<Rotation x = "-0.336451" y = "0.306317" z = "0.822164" w = "0.342077" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-8.621584" y = "11.464824" z = "-4.357109" />
+				<Rotation x = "-0.642485" y = "0.674488" z = "-0.181253" w = "0.315318" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "1.685914" y = "8.161376" z = "8.722926" />
+				<Rotation x = "-0.424420" y = "-0.236286" z = "0.859148" w = "-0.160937" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "31.056527" y = "-8.917115" z = "39.170936" />
+				<Rotation x = "0.290398" y = "0.327282" z = "0.456721" w = "0.774572" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-2.373069" y = "-21.350401" z = "16.276784" />
+				<Rotation x = "0.544282" y = "-0.370779" z = "0.736891" w = "0.152552" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "21.466691" y = "-54.289614" z = "-20.224702" />
+				<Rotation x = "0.501030" y = "-0.427797" z = "0.751924" w = "-0.023878" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "10.740800" y = "-44.095689" z = "-19.250479" />
+				<Rotation x = "0.679956" y = "-0.220127" z = "0.697498" w = "0.051965" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "35.437444" y = "7.640697" z = "1.522131" />
+				<Rotation x = "0.650984" y = "-0.465326" z = "0.381616" w = "0.462666" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-3.995165" y = "-29.522008" z = "-1.683643" />
+				<Rotation x = "0.856194" y = "0.299557" z = "0.367305" w = "0.205634" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "17.852871" y = "-14.869375" z = "20.187866" />
+				<Rotation x = "0.612109" y = "0.577589" z = "-0.454079" w = "0.292447" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-29.313365" y = "-1.753154" z = "-13.968581" />
+				<Rotation x = "0.210637" y = "0.710122" z = "-0.621585" w = "-0.254934" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "9.402877" y = "-13.429884" z = "-6.161389" />
+				<Rotation x = "0.717751" y = "-0.031155" z = "-0.692675" w = "-0.063747" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-20.561101" y = "-20.068531" z = "23.884414" />
+				<Rotation x = "0.818414" y = "-0.041887" z = "-0.572621" w = "-0.023407" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-2.869362" y = "-17.317468" z = "-34.197960" />
+				<Rotation x = "-0.045908" y = "0.266151" z = "0.383440" w = "0.883193" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-37.640167" y = "-34.920544" z = "17.296778" />
+				<Rotation x = "0.489436" y = "-0.528669" z = "0.423709" w = "0.549027" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-4.174506" y = "8.242748" z = "-15.693724" />
+				<Rotation x = "0.032003" y = "0.037915" z = "0.916601" w = "0.396713" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "9.878891" y = "-56.102689" z = "8.591640" />
+				<Rotation x = "0.462489" y = "0.603847" z = "-0.544878" w = "-0.352959" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-16.433646" y = "6.124551" z = "12.103800" />
+				<Rotation x = "-0.022127" y = "0.804864" z = "0.572076" w = "0.156308" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-17.625430" y = "-28.450962" z = "-31.743542" />
+				<Rotation x = "0.119853" y = "-0.432358" z = "-0.263769" w = "0.853890" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-31.777816" y = "-7.473795" z = "10.957805" />
+				<Rotation x = "-0.570286" y = "-0.150728" z = "0.608951" w = "0.530315" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "16.407363" y = "18.702016" z = "-8.808894" />
+				<Rotation x = "-0.021476" y = "0.682167" z = "0.061423" w = "0.728296" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-18.418300" y = "3.500101" z = "-5.983313" />
+				<Rotation x = "0.519013" y = "-0.561703" z = "0.390296" w = "0.512625" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "27.186205" y = "20.513928" z = "19.579991" />
+				<Rotation x = "-0.464869" y = "-0.266099" z = "0.364051" w = "0.761942" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "3.037259" y = "16.415004" z = "-4.579429" />
+				<Rotation x = "0.391300" y = "0.674613" z = "-0.459895" w = "0.424592" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-41.929591" y = "-24.761145" z = "5.268332" />
+				<Rotation x = "0.674371" y = "0.696711" z = "0.196725" w = "0.145316" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-19.039808" y = "-22.319127" z = "22.596450" />
+				<Rotation x = "-0.181976" y = "0.222907" z = "0.868393" w = "0.403845" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-16.863813" y = "-8.342233" z = "25.732996" />
+				<Rotation x = "0.330943" y = "-0.145469" z = "-0.689314" w = "0.627823" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "3.967801" y = "-7.284894" z = "22.801277" />
+				<Rotation x = "-0.427230" y = "0.580522" z = "0.420818" w = "0.550800" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-4.576687" y = "-7.499047" z = "12.126609" />
+				<Rotation x = "0.927354" y = "-0.145723" z = "0.288341" w = "-0.188781" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-12.296465" y = "-16.292761" z = "37.327390" />
+				<Rotation x = "0.165218" y = "-0.362947" z = "0.859260" w = "0.320382" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-10.504715" y = "-2.422877" z = "39.375136" />
+				<Rotation x = "0.646157" y = "0.235772" z = "0.679058" w = "-0.256462" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "35.127046" y = "14.082860" z = "-28.167317" />
+				<Rotation x = "-0.020576" y = "-0.475104" z = "0.338469" w = "0.811968" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "7.159789" y = "-31.356033" z = "5.472519" />
+				<Rotation x = "0.681256" y = "-0.355090" z = "0.640088" w = "0.009446" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-12.531381" y = "-5.198937" z = "24.539365" />
+				<Rotation x = "0.759319" y = "0.068608" z = "0.644961" w = "0.052463" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-1.973610" y = "54.037565" z = "67.066590" />
+				<Rotation x = "-0.273075" y = "0.607633" z = "0.506680" w = "0.547255" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-9.432736" y = "-7.536585" z = "5.573826" />
+				<Rotation x = "-0.613352" y = "0.358895" z = "-0.236769" w = "0.662521" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "4.591539" y = "-39.634959" z = "-2.125886" />
+				<Rotation x = "0.348942" y = "0.355550" z = "-0.462100" w = "0.733681" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "3.339557" y = "-4.849332" z = "7.106275" />
+				<Rotation x = "0.522377" y = "0.773453" z = "-0.151070" w = "0.325685" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "19.506953" y = "11.169155" z = "-34.535270" />
+				<Rotation x = "-0.407609" y = "0.568022" z = "0.714867" w = "-0.013090" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "14.188231" y = "-26.536647" z = "-4.929271" />
+				<Rotation x = "0.578415" y = "0.758156" z = "0.139223" w = "0.266930" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "16.186439" y = "10.483384" z = "59.680197" />
+				<Rotation x = "0.641722" y = "0.128603" z = "0.588554" w = "-0.474614" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "43.647192" y = "-15.365228" z = "50.042396" />
+				<Rotation x = "0.632457" y = "0.618808" z = "0.462862" w = "0.053224" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "42.071428" y = "6.723813" z = "40.093327" />
+				<Rotation x = "0.104734" y = "0.743726" z = "0.593869" w = "0.288483" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "38.445686" y = "-2.289583" z = "20.667564" />
+				<Rotation x = "-0.356722" y = "0.662364" z = "0.209359" w = "0.624653" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "23.336672" y = "3.194117" z = "-27.764270" />
+				<Rotation x = "0.207565" y = "0.629079" z = "0.576039" w = "-0.478911" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-1.247381" y = "-29.419154" z = "-25.580518" />
+				<Rotation x = "0.004135" y = "0.449305" z = "-0.456970" w = "0.767650" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "29.852803" y = "-21.333060" z = "-29.377680" />
+				<Rotation x = "0.582392" y = "0.636485" z = "0.502531" w = "0.056300" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "18.117494" y = "6.227000" z = "38.465747" />
+				<Rotation x = "0.445609" y = "0.532234" z = "0.475318" w = "0.540585" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-9.568060" y = "15.281520" z = "40.839090" />
+				<Rotation x = "0.764818" y = "0.542167" z = "-0.107954" w = "0.330840" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "30.457678" y = "19.925855" z = "57.530162" />
+				<Rotation x = "0.132563" y = "0.259962" z = "-0.528267" w = "0.797359" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-25.212904" y = "-48.155304" z = "-13.310026" />
+				<Rotation x = "0.081805" y = "0.768225" z = "0.264861" w = "0.577049" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "14.715824" y = "14.487781" z = "-33.549245" />
+				<Rotation x = "-0.727700" y = "-0.057299" z = "-0.181655" w = "0.658916" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-39.348330" y = "41.150738" z = "-51.863977" />
+				<Rotation x = "-0.271742" y = "-0.006626" z = "-0.147592" w = "0.950962" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "12.338743" y = "-16.755330" z = "-4.395855" />
+				<Rotation x = "0.012334" y = "0.848977" z = "-0.052718" w = "0.525649" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "11.273858" y = "16.149643" z = "37.420465" />
+				<Rotation x = "-0.446525" y = "0.756916" z = "0.207068" w = "0.429902" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "10.936095" y = "32.637977" z = "7.473228" />
+				<Rotation x = "0.767218" y = "-0.332237" z = "-0.546041" w = "0.053251" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "9.988982" y = "43.416793" z = "81.800639" />
+				<Rotation x = "-0.003039" y = "0.903392" z = "-0.414630" w = "0.109341" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-0.155323" y = "10.885320" z = "33.409152" />
+				<Rotation x = "0.141789" y = "-0.574345" z = "0.264587" w = "0.761589" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "33.913254" y = "-26.258479" z = "3.033264" />
+				<Rotation x = "0.795227" y = "0.423556" z = "-0.132098" w = "-0.413237" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "20.168312" y = "-38.917043" z = "6.608704" />
+				<Rotation x = "0.339558" y = "-0.188605" z = "0.919079" w = "-0.066496" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-7.484827" y = "12.451963" z = "-17.144513" />
+				<Rotation x = "-0.175551" y = "-0.353371" z = "-0.257433" w = "0.882065" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-44.905192" y = "-11.116298" z = "13.587977" />
+				<Rotation x = "0.528166" y = "-0.357908" z = "0.708578" w = "0.301429" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "21.904518" y = "-37.037735" z = "24.696972" />
+				<Rotation x = "-0.364672" y = "0.356478" z = "0.385986" w = "0.768734" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "7.530709" y = "-10.840764" z = "18.169077" />
+				<Rotation x = "0.209461" y = "0.500300" z = "-0.156784" w = "0.825376" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "8.021228" y = "23.466321" z = "66.619050" />
+				<Rotation x = "-0.258232" y = "0.665488" z = "0.243393" w = "0.656660" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "4.703602" y = "11.997727" z = "31.435045" />
+				<Rotation x = "0.662669" y = "0.095054" z = "0.248415" w = "0.700089" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "10.535286" y = "9.912265" z = "40.391115" />
+				<Rotation x = "0.121465" y = "0.899381" z = "-0.055968" w = "0.416207" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "40.135539" y = "46.030247" z = "-15.470721" />
+				<Rotation x = "0.548320" y = "-0.481966" z = "0.280499" w = "0.623197" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "0.467127" y = "-1.103496" z = "22.485440" />
+				<Rotation x = "0.086200" y = "-0.613649" z = "0.566811" w = "0.542890" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "25.990446" y = "11.621909" z = "-10.365227" />
+				<Rotation x = "0.524821" y = "-0.333497" z = "0.635177" w = "0.458141" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-22.152167" y = "-11.473661" z = "-44.882684" />
+				<Rotation x = "0.870361" y = "-0.047150" z = "0.490107" w = "-0.006522" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-27.160694" y = "31.021399" z = "-27.261520" />
+				<Rotation x = "0.723135" y = "-0.663326" z = "0.136542" w = "0.135759" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-26.490626" y = "-20.167840" z = "12.809207" />
+				<Rotation x = "0.533042" y = "0.591949" z = "-0.452816" w = "0.400525" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "12.987419" y = "-39.148639" z = "26.783457" />
+				<Rotation x = "0.316643" y = "-0.523510" z = "0.776326" w = "0.151636" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "8.539989" y = "4.620731" z = "-11.046652" />
+				<Rotation x = "0.400638" y = "0.845772" z = "-0.325760" w = "-0.134312" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "18.797655" y = "-15.265739" z = "14.362843" />
+				<Rotation x = "-0.398812" y = "-0.472349" z = "0.745900" w = "0.247929" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-14.484852" y = "-8.234453" z = "38.449762" />
+				<Rotation x = "0.188270" y = "-0.086356" z = "-0.642129" w = "0.738083" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-31.658195" y = "-12.043679" z = "0.327049" />
+				<Rotation x = "0.579869" y = "0.399576" z = "-0.573515" w = "0.418535" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "12.893270" y = "0.670464" z = "-2.879679" />
+				<Rotation x = "0.856922" y = "0.342144" z = "-0.296606" w = "0.246268" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-4.204331" y = "25.163998" z = "11.001827" />
+				<Rotation x = "0.648668" y = "0.477695" z = "-0.589743" w = "-0.056929" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "35.136994" y = "-21.436862" z = "55.855062" />
+				<Rotation x = "-0.512321" y = "-0.535290" z = "-0.386619" w = "0.549107" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "26.245587" y = "-18.464081" z = "-15.187232" />
+				<Rotation x = "0.835156" y = "-0.000451" z = "-0.088098" w = "0.542911" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-5.584195" y = "19.892855" z = "8.564805" />
+				<Rotation x = "0.129207" y = "0.184751" z = "0.926602" w = "0.300966" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "8.495371" y = "-31.286035" z = "23.832104" />
+				<Rotation x = "0.807892" y = "-0.469276" z = "0.213072" w = "-0.285818" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-5.918188" y = "21.290939" z = "-28.906326" />
+				<Rotation x = "-0.070455" y = "0.625068" z = "0.767946" w = "0.120768" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-12.020346" y = "14.800478" z = "45.927428" />
+				<Rotation x = "0.531351" y = "0.031338" z = "-0.541693" w = "0.650579" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "6.188106" y = "4.473217" z = "-17.260224" />
+				<Rotation x = "-0.055277" y = "0.689303" z = "0.058804" w = "0.719964" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "0.740500" y = "4.588906" z = "-38.023463" />
+				<Rotation x = "-0.397864" y = "0.237964" z = "-0.239543" w = "0.853051" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-43.436480" y = "7.443603" z = "2.688521" />
+				<Rotation x = "0.611821" y = "-0.054207" z = "0.639014" w = "0.463031" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "12.895293" y = "-13.810858" z = "0.092950" />
+				<Rotation x = "-0.259908" y = "0.002515" z = "-0.091537" w = "0.961282" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-14.603764" y = "13.445975" z = "44.934452" />
+				<Rotation x = "-0.449082" y = "-0.271384" z = "0.785609" w = "0.327864" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "23.662921" y = "-8.499514" z = "22.517198" />
+				<Rotation x = "-0.088612" y = "-0.224548" z = "-0.029886" w = "0.969965" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "23.657180" y = "-0.614278" z = "-24.075886" />
+				<Rotation x = "0.610498" y = "0.333723" z = "0.717978" w = "-0.020674" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-11.071321" y = "-12.578918" z = "-50.042187" />
+				<Rotation x = "-0.057361" y = "0.706520" z = "0.703603" w = "0.049817" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-20.845570" y = "-15.200859" z = "50.944032" />
+				<Rotation x = "0.729003" y = "0.640150" z = "-0.110383" w = "0.215819" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "18.262099" y = "-20.419234" z = "-4.965118" />
+				<Rotation x = "-0.537099" y = "-0.550655" z = "-0.346051" w = "0.537171" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "3.316895" y = "-53.489253" z = "5.512430" />
+				<Rotation x = "-0.004878" y = "0.624630" z = "-0.199417" w = "0.755014" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "22.353975" y = "-15.522369" z = "-11.266658" />
+				<Rotation x = "0.180888" y = "0.806165" z = "-0.191329" w = "0.529878" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "36.847169" y = "-19.069582" z = "53.062109" />
+				<Rotation x = "0.770873" y = "-0.588465" z = "0.033731" w = "0.241509" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "42.188449" y = "-25.228243" z = "-18.456070" />
+				<Rotation x = "0.544455" y = "-0.189931" z = "-0.567941" w = "0.587315" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "50.160978" y = "-18.733546" z = "24.457230" />
+				<Rotation x = "-0.565676" y = "-0.538092" z = "0.581294" w = "0.229273" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "12.701985" y = "20.012475" z = "17.084340" />
+				<Rotation x = "-0.489708" y = "0.530981" z = "-0.336625" w = "0.604094" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "14.091050" y = "-53.592040" z = "-35.111954" />
+				<Rotation x = "0.671436" y = "0.235605" z = "0.655089" w = "-0.254013" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "17.143509" y = "1.619041" z = "52.302901" />
+				<Rotation x = "-0.556855" y = "-0.411331" z = "0.581864" w = "-0.426794" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-0.305887" y = "13.287399" z = "42.671542" />
+				<Rotation x = "0.521231" y = "0.676004" z = "0.422067" w = "-0.305281" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-10.626051" y = "-10.421269" z = "27.517506" />
+				<Rotation x = "-0.431682" y = "-0.410774" z = "0.802836" w = "-0.019232" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "18.766082" y = "13.727915" z = "29.794835" />
+				<Rotation x = "0.065746" y = "0.729673" z = "0.102087" w = "0.672929" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-18.003930" y = "-1.814315" z = "-31.580664" />
+				<Rotation x = "0.164496" y = "0.831844" z = "-0.336482" w = "0.409581" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-7.985562" y = "-8.145869" z = "34.180445" />
+				<Rotation x = "0.532426" y = "0.757221" z = "0.369618" w = "0.080756" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-1.531491" y = "-24.463654" z = "33.150671" />
+				<Rotation x = "0.764919" y = "-0.534694" z = "0.339191" w = "0.118109" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "39.692038" y = "40.930264" z = "-8.184978" />
+				<Rotation x = "0.120892" y = "-0.173243" z = "0.919590" w = "-0.331250" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "45.797675" y = "-10.507267" z = "-13.563344" />
+				<Rotation x = "-0.025229" y = "0.515425" z = "0.838329" w = "0.175799" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-3.110398" y = "34.142917" z = "20.021572" />
+				<Rotation x = "-0.371281" y = "0.916786" z = "-0.083337" w = "0.121280" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-19.953524" y = "21.579960" z = "-1.464189" />
+				<Rotation x = "0.646818" y = "0.666851" z = "0.198698" w = "-0.312177" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "1.644027" y = "38.058854" z = "-40.933708" />
+				<Rotation x = "-0.119628" y = "0.720155" z = "-0.017876" w = "0.683188" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "27.525534" y = "1.455370" z = "4.352443" />
+				<Rotation x = "-0.532383" y = "0.519365" z = "0.253865" w = "0.618370" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-17.042601" y = "21.693009" z = "-17.930048" />
+				<Rotation x = "-0.512531" y = "0.583621" z = "-0.072546" w = "0.625648" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "22.871420" y = "-6.947281" z = "7.695984" />
+				<Rotation x = "0.730025" y = "0.088307" z = "0.677663" w = "0.006161" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "14.909510" y = "-14.505954" z = "28.099778" />
+				<Rotation x = "-0.194769" y = "0.433270" z = "0.874432" w = "-0.098544" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-35.091252" y = "-13.544636" z = "15.572527" />
+				<Rotation x = "0.807857" y = "0.290402" z = "-0.268070" w = "-0.437233" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "49.117894" y = "-9.117379" z = "60.364257" />
+				<Rotation x = "-0.040386" y = "0.150829" z = "0.290468" w = "0.944059" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-15.175657" y = "-18.305607" z = "25.990720" />
+				<Rotation x = "0.137925" y = "0.176800" z = "-0.086938" w = "0.970649" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "1.916909" y = "2.046230" z = "2.333063" />
+				<Rotation x = "0.610730" y = "0.187764" z = "-0.589814" w = "0.493834" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "12.233791" y = "-13.913335" z = "39.786779" />
+				<Rotation x = "0.713506" y = "0.237738" z = "0.601103" w = "-0.270306" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-4.319256" y = "-8.185609" z = "20.311651" />
+				<Rotation x = "0.567796" y = "0.464865" z = "-0.478051" w = "0.482675" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "12.393874" y = "-57.163398" z = "-34.495497" />
+				<Rotation x = "0.555913" y = "0.427423" z = "0.520613" w = "-0.487065" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-35.158189" y = "-21.310817" z = "16.114497" />
+				<Rotation x = "-0.032990" y = "0.842572" z = "0.045345" w = "0.535656" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-8.409995" y = "3.135632" z = "19.680233" />
+				<Rotation x = "-0.079268" y = "-0.638662" z = "-0.425118" w = "0.636477" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "1.259969" y = "-34.606195" z = "9.061738" />
+				<Rotation x = "0.695168" y = "-0.052541" z = "0.306155" w = "0.648267" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "21.769406" y = "-27.424427" z = "30.780452" />
+				<Rotation x = "0.527568" y = "0.486162" z = "-0.460866" w = "0.522419" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-29.370669" y = "12.895732" z = "42.156151" />
+				<Rotation x = "-0.016296" y = "-0.621237" z = "-0.156260" w = "0.767712" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "3.174666" y = "-1.688915" z = "31.127366" />
+				<Rotation x = "-0.080181" y = "-0.470929" z = "0.249298" w = "0.842405" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-4.601692" y = "-27.015636" z = "43.855066" />
+				<Rotation x = "0.780911" y = "0.279458" z = "0.521595" w = "-0.200049" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-19.337442" y = "6.871821" z = "20.965030" />
+				<Rotation x = "0.674967" y = "-0.361038" z = "0.490194" w = "0.416870" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-18.098427" y = "32.860476" z = "-13.992474" />
+				<Rotation x = "0.303554" y = "-0.563326" z = "0.429646" w = "0.637121" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-15.916861" y = "18.135135" z = "8.379881" />
+				<Rotation x = "0.261106" y = "0.850249" z = "-0.417816" w = "-0.185283" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "21.540650" y = "-67.566863" z = "8.399716" />
+				<Rotation x = "-0.162164" y = "-0.726520" z = "-0.160136" w = "0.648250" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-38.825824" y = "-10.802935" z = "-7.212122" />
+				<Rotation x = "-0.201785" y = "0.765961" z = "-0.129809" w = "0.596436" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-2.462111" y = "2.211478" z = "4.480276" />
+				<Rotation x = "0.697960" y = "0.112606" z = "0.696520" w = "-0.122603" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "27.247423" y = "-20.978649" z = "-21.096864" />
+				<Rotation x = "0.697903" y = "-0.278851" z = "0.573328" w = "0.326295" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-8.567084" y = "-28.775044" z = "-19.533722" />
+				<Rotation x = "-0.543393" y = "-0.535063" z = "0.557116" w = "0.328715" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-23.355664" y = "-10.088572" z = "10.214644" />
+				<Rotation x = "0.542578" y = "0.462414" z = "-0.531880" w = "0.457041" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-4.616791" y = "-27.354674" z = "20.918922" />
+				<Rotation x = "0.087606" y = "0.156774" z = "0.980252" w = "-0.082784" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-15.817052" y = "29.469046" z = "29.150512" />
+				<Rotation x = "0.648840" y = "-0.348778" z = "0.634153" w = "0.234969" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "-19.472196" y = "47.929624" z = "-29.655714" />
+				<Rotation x = "-0.530054" y = "0.477351" z = "0.487164" w = "0.503835" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "28.841861" y = "-13.578114" z = "39.808851" />
+				<Rotation x = "0.628003" y = "-0.318764" z = "0.633390" w = "0.320652" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "34.723038" y = "-1.155420" z = "7.619217" />
+				<Rotation x = "0.182973" y = "-0.644039" z = "0.431359" w = "0.604701" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-11.960529" y = "19.204544" z = "-37.208424" />
+				<Rotation x = "0.726464" y = "-0.306054" z = "0.014172" w = "0.615126" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-17.639715" y = "17.430191" z = "-12.689752" />
+				<Rotation x = "-0.167958" y = "0.892836" z = "0.217248" w = "-0.356984" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "71.669610" y = "-59.638383" z = "-42.124110" />
+				<Rotation x = "0.919135" y = "-0.080306" z = "0.373535" w = "0.095985" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "21.436732" y = "9.720869" z = "83.508545" />
+				<Rotation x = "-0.651235" y = "0.155261" z = "0.695433" w = "0.261073" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "10.370434" y = "21.554760" z = "-40.147117" />
+				<Rotation x = "-0.344097" y = "0.374390" z = "0.859979" w = "0.043197" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "-10.345022" y = "19.157738" z = "3.463546" />
+				<Rotation x = "0.702136" y = "-0.523917" z = "0.250227" w = "0.412192" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "7.566803" y = "5.738965" z = "37.479965" />
+				<Rotation x = "0.075544" y = "-0.561560" z = "0.445737" w = "0.693009" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-13.064317" y = "-14.853122" z = "-13.702016" />
+				<Rotation x = "-0.573827" y = "-0.476565" z = "-0.437091" w = "0.502553" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "11.126351" y = "-10.947375" z = "-33.439524" />
+				<Rotation x = "-0.465333" y = "0.430743" z = "0.676996" w = "-0.373633" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "14.521566" y = "-32.297941" z = "2.167286" />
+				<Rotation x = "0.671232" y = "-0.213723" z = "0.676069" w = "0.216103" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "6.439818" y = "-0.583576" z = "18.911570" />
+				<Rotation x = "-0.081343" y = "-0.772556" z = "-0.180656" w = "0.603244" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "15.131727" y = "8.365977" z = "-7.256616" />
+				<Rotation x = "0.602493" y = "0.602322" z = "-0.371124" w = "0.369428" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-8.545766" y = "-13.012531" z = "14.036080" />
+				<Rotation x = "0.903482" y = "-0.000165" z = "-0.186213" w = "0.386064" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-6.886356" y = "-23.992066" z = "-10.565732" />
+				<Rotation x = "0.525462" y = "0.382373" z = "0.599337" w = "-0.467414" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "15.484304" y = "-1.078678" z = "-0.265947" />
+				<Rotation x = "0.622904" y = "-0.038089" z = "0.751663" w = "-0.213409" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "0.943584" y = "-16.178108" z = "25.463044" />
+				<Rotation x = "0.570829" y = "-0.015967" z = "0.820885" w = "0.006867" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "10.511750" y = "-28.240212" z = "-8.667861" />
+				<Rotation x = "0.539525" y = "0.743508" z = "-0.130666" w = "0.372874" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid02.xml" Lights = "true" >
+				<Position x = "-48.616320" y = "12.368975" z = "2.484146" />
+				<Rotation x = "0.463678" y = "-0.515550" z = "0.467245" w = "0.548537" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-3.954288" y = "-9.715824" z = "31.634092" />
+				<Rotation x = "-0.766001" y = "0.177249" z = "-0.000849" w = "0.617920" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "10.393362" y = "-26.501276" z = "7.647474" />
+				<Rotation x = "0.464616" y = "0.472961" z = "-0.548938" w = "0.509025" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "32.752261" y = "23.320872" z = "-16.915454" />
+				<Rotation x = "-0.375665" y = "-0.200546" z = "-0.734707" w = "0.528075" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid02.xml" Lights = "true" >
+				<Position x = "26.820522" y = "-18.945067" z = "-32.318270" />
+				<Rotation x = "-0.023404" y = "0.283936" z = "-0.369734" w = "0.884381" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-41.324763" y = "44.978510" z = "-32.158279" />
+				<Rotation x = "0.104590" y = "0.075756" z = "-0.106893" w = "0.985848" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/BigAsteroid01.xml" Lights = "true" >
+				<Position x = "-29.637506" y = "0.921555" z = "16.541862" />
+				<Rotation x = "0.276339" y = "-0.460867" z = "-0.529305" w = "0.656562" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "-5.686917" y = "-35.992922" z = "7.364096" />
+				<Rotation x = "0.916240" y = "-0.100458" z = "0.371974" w = "0.109763" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/MedAsteroid01.xml" Lights = "true" >
+				<Position x = "-49.555859" y = "-23.287531" z = "18.107857" />
+				<Rotation x = "0.761919" y = "-0.458207" z = "-0.457739" w = "0.000194" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid01.xml" Lights = "true" >
+				<Position x = "3.070175" y = "-44.768596" z = "19.710892" />
+				<Rotation x = "-0.195727" y = "0.842695" z = "-0.251771" w = "-0.433783" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/SmallAsteroid02.xml" Lights = "true" >
+				<Position x = "23.660848" y = "-80.464264" z = "-26.089444" />
+				<Rotation x = "0.124801" y = "0.354029" z = "0.920412" w = "-0.109226" />
+			</Link>
+
+			<!-- T1A: Basic training race -->
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGateStart.xml" Lights = "true" >
+				<Position X="-16.138" Y="-27.191" Z="-0.820" />
+				<Rotation X="0.376" Y="0.695" Z="0.609" W="0.064" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGate2PolesWide.xml" Lights = "true" >
+				<Position X="-15.476" Y="-19.665" Z="-3.437" />
+				<Rotation X="-0.005" Y="0.782" Z="0.622" W="-0.043" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGate2PolesWide.xml" Lights = "true" >
+				<Position X="-13.595" Y="-9.210" Z="0.582" />
+				<Rotation X="0.115" Y="0.338" Z="0.767" W="0.533" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGate2PolesWide.xml" Lights = "true" >
+				<Position X="-9.915" Y="-7.628" Z="6.164" />
+				<Rotation X="0.268" Y="0.292" Z="0.774" W="0.494" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGateFinish.xml" Lights = "true" >
+				<Position X="-4.120" Y="-4.147" Z="7.148" />
+				<Rotation X="0.523" Y="0.807" Z="0.271" W="0.033" />
+			</Link>
+			<Filter>
+				<Condition Target="Client">
+					<Light Type="PointLight" >
+						<Color X="0.176471" Y="1.0" Z="0.176471" />
+						<Lumens>5000000000</Lumens>
+						<position X="-16.127" Y="-27.242" Z="-0.712" />
+						<Cutoff>1024</Cutoff>
+					</Light>
+				</Condition>
+			</Filter>
+			<Filter>
+				<Condition Target="Client">
+					<Light Type="PointLight" >
+						<Color X="0.176471" Y="1.0" Z="0.176471" />
+						<Lumens>5000000000</Lumens>
+						<position X="-15.470" Y="-19.691" Z="-3.330" />
+						<Cutoff>1024</Cutoff>
+					</Light>
+				</Condition>
+			</Filter>
+			<Filter>
+				<Condition Target="Client">
+					<Light Type="PointLight" >
+						<Color X="0.176471" Y="1.0" Z="0.176471" />
+						<Lumens>5000000000</Lumens>
+						<position X="-13.695" Y="-9.247" Z="0.615" />
+						<Cutoff>1024</Cutoff>
+					</Light>
+				</Condition>
+			</Filter>
+			<Filter>
+				<Condition Target="Client">
+					<Light Type="PointLight" >
+						<Color X="0.176471" Y="1.0" Z="0.176471" />
+						<Lumens>5000000000</Lumens>
+						<position X="-10.005" Y="-7.671" Z="6.208" />
+						<Cutoff>1024</Cutoff>
+					</Light>
+				</Condition>
+			</Filter>
+			<Filter>
+				<Condition Target="Client">
+					<Light Type="PointLight" >
+						<Color X="0.176471" Y="1.0" Z="0.176471" />
+						<Lumens>5000000000</Lumens>
+						<position X="-4.049" Y="-4.131" Z="7.233" />
+						<Cutoff>1024</Cutoff>
+					</Light>
+				</Condition>
+			</Filter>
+
+			<!-- T1A: Advanced training race -->
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGateStart.xml" Lights = "true" >
+				<Position X="-2.578" Y="-3.147" Z="5.502" />
+				<Rotation X="0.787" Y="0.334" Z="0.514" W="-0.068" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGate2Poles.xml" Lights = "true" >
+				<Position X="-2.368" Y="-1.446" Z="2.167" />
+				<Rotation X="0.630" Y="0.754" Z="0.043" W="-0.182" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGateSlantedPole.xml" Lights = "true" >
+				<Position X="-0.806" Y="-0.903" Z="-0.068" />
+				<Rotation X="0.921" Y="0.230" Z="0.294" W="0.115" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGate2PolesWide.xml" Lights = "true" >
+				<Position X="0.584" Y="-0.664" Z="-3.626" />
+				<Rotation X="0.714" Y="0.622" Z="0.291" W="0.136" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGateCenterPole.xml" Lights = "true" >
+				<Position X="7.014" Y="-2.535" Z="-6.106" />
+				<Rotation X="0.525" Y="0.604" Z="0.269" W="0.536" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGate2Poles.xml" Lights = "true" >
+				<Position X="8.865" Y="-5.045" Z="0.826" />
+				<Rotation X="0.317" Y="0.252" Z="0.102" W="0.909" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGateSlantedPole.xml" Lights = "true" >
+				<Position X="10.520" Y="-6.935" Z="0.556" />
+				<Rotation X="0.406" Y="0.637" Z="-0.253" W="0.604" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGate2PolesWide.xml" Lights = "true" >
+				<Position X="8.969" Y="-13.318" Z="-5.525" />
+				<Rotation X="-0.565" Y="0.641" Z="-0.320" W="-0.409" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGateCenterPole.xml" Lights = "true" >
+				<Position X="11.552" Y="-16.044" Z="-4.016" />
+				<Rotation X="-0.072" Y="0.488" Z="0.382" W="0.781" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGate2Poles.xml" Lights = "true" >
+				<Position X="14.013" Y="-7.869" Z="-7.441" />
+				<Rotation X="-0.014" Y="0.876" Z="0.482" W="-0.005" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGateSlantedPole.xml" Lights = "true" >
+				<Position X="15.020" Y="-0.723" Z="-0.166" />
+				<Rotation X="-0.247" Y="0.296" Z="0.659" W="0.646" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGateFinish.xml" Lights = "true" >
+				<Position X="27.236" Y="1.815" Z="4.481" />
+				<Rotation X="0.185" Y="0.703" Z="0.210" W="0.654" />
+			</Link>
+
+			<!-- T2A: Flight assist off race -->
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGateStart.xml" Lights = "true" >
+				<Position X="23.074" Y="-5.805" Z="9.634" />
+				<Rotation X="0.246" Y="-0.635" Z="-0.216" W="0.700" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGate2Poles.xml" Lights = "true" >
+				<Position X="15.291" Y="-0.920" Z="0.601" />
+				<Rotation X="-0.071" Y="0.883" Z="0.391" W="-0.250" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGate2PolesWide.xml" Lights = "true" >
+				<Position X="-0.033" Y="0.419" Z="-3.903" />
+				<Rotation X="0.201" Y="-0.769" Z="-0.165" W="0.583" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGateSlantedPole.xml" Lights = "true" >
+				<Position X="-9.457" Y="6.002" Z="-10.001" />
+				<Rotation X="-0.034" Y="0.861" Z="0.265" W="-0.433" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGate2Poles.xml" Lights = "true" >
+				<Position X="-10.928" Y="1.694" Z="-6.619" />
+				<Rotation X="0.516" Y="0.115" Z="0.778" W="0.339" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGateCenterPole.xml" Lights = "true" >
+				<Position X="-7.605" Y="3.939" Z="-8.685" />
+				<Rotation X="0.080" Y="0.909" Z="0.359" W="0.198" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGate2Poles.xml" Lights = "true" >
+				<Position X="-13.035" Y="7.242" Z="-8.701" />
+				<Rotation X="-0.392" Y="0.507" Z="0.705" W="-0.303" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/RaceGateFinish.xml" Lights = "true" >
+				<Position X="-17.347" Y="18.544" Z="-11.873" />
+				<Rotation X="-0.012" Y="0.906" Z="0.215" W="-0.364" />
+			</Link>
+
+		</TransformNode>
+	</CNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+	</CClientHullComponent>
+	<CServerActorComponent>
+        <Name>Asteroid Field</Name>
+  	</CServerActorComponent>
+	<CActorComponent>
+    	<Indicator>None</Indicator>
+		<SurfaceType>Surface</SurfaceType>
+		<ClassAbbrev>A-FLD</ClassAbbrev>
+	</CActorComponent>
+	<CClientActorComponent>
+	</CClientActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Static" >
+            <Collisions>true</Collisions>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+        </PhysicsBody>
+	</CBodyComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>1000.0</EmissionsRange>
+		<NetworkSize>15.0</NetworkSize>
+	</CServerSensorComponent>
+</ActorConfig>

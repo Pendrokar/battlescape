@@ -1,0 +1,66 @@
+<Filter>
+	<Condition Target="Client">
+		<Object Mesh="Structures/StationModules_SFC/SM_SFC_Station_Composite_MK10_Lod0" >
+            <LOD Level="1" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Composite_MK10_Lod1" />
+            <LOD Level="2" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Composite_MK10_Lod2" />
+            <LOD Level="3" Mesh="Structures/StationModules_SFC/SM_SFC_Station_Composite_MK10_Lod3" />
+			<LODPower>1.0</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+			<PhysicsBody Type="Mesh" >
+  		        <CollisionFile>$Dev/Structures/StationModules_SFC/5372a543.insm</CollisionFile>
+  		        <Collisions>true</Collisions>
+  		    </PhysicsBody>
+			<Module>
+		        <Class>OrbitalCanon</Class>
+				<HitPoints>80000</HitPoints>
+				<ShipPoints>2000</ShipPoints>
+				<Score>200</Score>
+				<Name>UI_Module_SpaceCanon</Name>
+				<AttackPriority>6</AttackPriority>
+				<DPSScoreFactor>100.0</DPSScoreFactor>
+				<BattleScore>35</BattleScore>
+				<IconName>SI_BigGun</IconName>
+				<AimOffset X="0" Y="0" Z="0" />
+				<IconSize>64.0</IconSize>
+			    <Sockets>
+					<FileName>$Dev/Structures/StationModules_SFC/5372a543.insm</FileName>
+			        <Socket Name="s_turret_orbital" Type="Hardpoint" Class="MK9" />
+			        <Socket Name="s_turret1" Type="Hardpoint" Class="MK4" />
+			        <Socket Name="s_turret2" Type="Hardpoint" Class="MK4" />
+			        <Socket Name="s_turret3" Type="Hardpoint" Class="MK4" />
+			        <Socket Name="s_turret4" Type="Hardpoint" Class="MK4" />
+			    </Sockets>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+		     <PhysicsBody Type="Mesh" >
+		        <CollisionFile>$Dev/Structures/StationModules_SFC/5372a543.insm</CollisionFile>
+		        <Collisions>true</Collisions>
+		    </PhysicsBody>
+			<Module>
+		        <Class>OrbitalCanon</Class>
+				<HitPoints>80000</HitPoints>
+				<ShipPoints>2000</ShipPoints>
+				<Score>200</Score>
+				<AttackPriority>6</AttackPriority>
+				<DPSScoreFactor>100.0</DPSScoreFactor>
+				<BattleScore>35</BattleScore>
+				<AimOffset X="0" Y="0" Z="0" />
+			    <Sockets>
+					<FileName>$Dev/Structures/StationModules_SFC/5372a543.insm</FileName>
+			        <Socket Name="s_turret_orbital" Type="Hardpoint" Class="MK9" />
+			        <Socket Name="s_turret1" Type="Hardpoint" Class="MK4" />
+			        <Socket Name="s_turret2" Type="Hardpoint" Class="MK4" />
+			        <Socket Name="s_turret3" Type="Hardpoint" Class="MK4" />
+			        <Socket Name="s_turret4" Type="Hardpoint" Class="MK4" />
+			    </Sockets>
+			</Module>
+			<ServerModule>
+				<CreditsReward>200</CreditsReward>
+				<OnDestroyedPopupText>Server_Destroyed_Module_DefenseStation_Text_Self</OnDestroyedPopupText>
+			</ServerModule>
+		</TransformNode>
+	</Condition>
+</Filter>

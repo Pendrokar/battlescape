@@ -54,7 +54,6 @@
 	</CServerSensorComponent>
 	<CActorComponent>
     	<Indicator>LightMissile</Indicator>
-		<ClassName>MISSILE</ClassName>
 	</CActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Box" >

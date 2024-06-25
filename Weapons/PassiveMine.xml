@@ -47,7 +47,6 @@
 	<CActorComponent>
     	<Indicator>Mine</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassName>PASS.MINE</ClassName>
 	</CActorComponent>
 	<CClientActorComponent>
 	</CClientActorComponent>

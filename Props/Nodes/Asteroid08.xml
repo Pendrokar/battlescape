@@ -1,0 +1,35 @@
+<Filter>
+	<Condition Target="Client">
+        <Object Mesh="Celestial/Asteroids2/Meshes/SM_Asteroid_8_LOD0" >
+            <LOD Level="1" Mesh="Celestial/Asteroids2/Meshes/SM_Asteroid_8_LOD1" />
+            <LODPower>2.0</LODPower>
+			<RejectionSize>0.00001</RejectionSize>
+            <PhysicsBody Type="Mesh" >
+                <CollisionFile>$Dev/Celestial/Asteroids2/Meshes/5e558aa9.insm</CollisionFile>
+				<CollisionScale>50</CollisionScale>
+                <Collisions>true</Collisions>
+                <Bounce>0.25</Bounce>
+                <Friction>0.01</Friction>
+            </PhysicsBody>
+			<Scale X="50" Y="50" Z="50" />
+			<Module>
+		        <Class>Indestructible</Class>
+				<Name>UI_Module_Asteroid</Name>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+            <PhysicsBody Type="Mesh" >
+                <CollisionFile>$Dev/Celestial/Asteroids2/Meshes/5e558aa9.insm</CollisionFile>
+				<CollisionScale>50</CollisionScale>
+                <Collisions>true</Collisions>
+                <Bounce>0.25</Bounce>
+                <Friction>0.01</Friction>
+            </PhysicsBody>
+			<Module>
+		        <Class>Indestructible</Class>
+			</Module>
+		</TransformNode>
+	</Condition>
+</Filter>

@@ -146,7 +146,7 @@
 				<ShipPoints>100</ShipPoints>
 				<Score>25</Score>
 				<DPSScoreFactor>100.0</DPSScoreFactor>
-				<AttackPriority>4</AttackPriority>
+				<AttackPriority>3</AttackPriority>
 				<BattleScore>6</BattleScore>
 				<IconName>SI_ShieldA</IconName>
 				<AimOffset X="0.0" Y="0.18" Z="-0.4" />
@@ -168,7 +168,7 @@
 				<ShipPoints>100</ShipPoints>
 				<Score>25</Score>
 				<DPSScoreFactor>100.0</DPSScoreFactor>
-				<AttackPriority>4</AttackPriority>
+				<AttackPriority>3</AttackPriority>
 				<BattleScore>6</BattleScore>
 				<AimOffset X="0.0" Y="0.18" Z="-0.4" />
 				<MapToPlanet>true</MapToPlanet>

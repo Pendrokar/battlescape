@@ -4,11 +4,13 @@
 		<SpawnType>Fighter</SpawnType>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>150</ShipClassCost>
+		<BattleBudgetCost>150</BattleBudgetCost>
 		<ShipBattleScore>1</ShipBattleScore>
 		<DisplayName>UI_ShipType_Interceptor</DisplayName>
 		<ClassAbbrev>INT</ClassAbbrev>
         <WorldBoxSize X="0.0121250944" Y="0.00453546643" Z="0.0152096823" />
 		<CarryPointsCost>1</CarryPointsCost>
+		<IndicatorCornerClassID>0</IndicatorCornerClassID>
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Fighter/SM_SFC_Fighter_exterior_no_cockpit_Lod0" >
@@ -101,30 +103,44 @@
 		<Skin>
 			<Name>InterceptorScoria</Name>
 			<MeshInstance ID="1">Ships/SFC-Fighter/MI_Skin-Scoria</MeshInstance>
+			<PaintColor1 X="0.6" Y="0.18" Z="0.132" W="1.0" />
+			<PaintColor2 X="1.0" Y="1.0" Z="1.0" W="1.0" />
 		</Skin>
 		<Skin>
 			<Name>InterceptorHavoc</Name>
 			<MeshInstance ID="1">Ships/SFC-Fighter/MI_Skin-Havoc</MeshInstance>
+			<PaintColor1 X="0.54" Y="0.74" Z="1.0" W="1.0" />
+			<PaintColor2 X="1.0" Y="0.97" Z="0.52" W="1.0" />
 		</Skin>
 		<Skin>
 			<Name>InterceptorFire</Name>
 			<MeshInstance ID="1">Ships/SFC-Fighter/MI_Skin-Fire</MeshInstance>
+			<PaintColor1 X="1.0" Y="0.22" Z="0.16" W="1.0" />
+			<PaintColor2 X="1.0" Y="0.47" Z="0.11" W="1.0" />
 		</Skin>
 		<Skin>
 			<Name>InterceptorBee</Name>
 			<MeshInstance ID="1">Ships/SFC-Fighter/MI_Skin-Bee</MeshInstance>
+			<PaintColor1 X="1.0" Y="0.56" Z="0.0" W="1.0" />
+			<PaintColor2 X="1.0" Y="0.48" Z="0.3" W="1.0" />
 		</Skin>
 		<Skin>
 			<Name>InterceptorGold</Name>
 			<MeshInstance ID="1">Ships/SFC-Fighter/MI_Skin-Dev</MeshInstance>
+			<PaintColor1 X="0.4" Y="0.4" Z="0.4" W="1.0" />
+			<PaintColor2 X="0" Y="0.5" Z="1.0" W="1.0" />
 		</Skin>
 		<Skin>
 			<Name>InterceptorIndustrial</Name>
 			<MeshInstance ID="1">Ships/SFC-Fighter/MI_Skin-Industrial</MeshInstance>
+			<PaintColor1 X="1.0" Y="0.5" Z="0.0" W="1.0" />
+			<PaintColor2 X="1.0" Y="0.66" Z="0.57" W="1.0" />
 		</Skin>
 		<Skin>
 			<Name>InterceptorMilitary</Name>
 			<MeshInstance ID="1">Ships/SFC-Fighter/MI_Skin-Military</MeshInstance>
+			<PaintColor1 X="0.33" Y="0.17" Z="0.10" W="1.0" />
+			<PaintColor2 X="0.6" Y="0.6" Z="0.6" W="1.0" />
 		</Skin>
 
 	</CClientHullComponent>
@@ -472,7 +488,7 @@
 		<MFD ID="3" SegID="9" ParamName="ScreenTexture" />
     </CClientInternalCockpitComponent>
 	<CClientAudioComponent>
-		<SideThruster Target="SideThrusterSmall2" DistRangeScale="0.75" FadeLength="0.5" />
+		<SideThruster Target="SideThrusterSmall" DistRangeScale="0.75" FadeLength="1.0" Pitch="1.3" />
 		<MainThruster Target="InterceptorMainThruster" DistRangeScale="1.0" FadeLength="2.0" />
 		<EngineIdle Target="InterceptorIdle" FadeLength="2.0" />
 		<EngineFast Target="InterceptorFast" FadeLength="2.0" />
@@ -497,7 +513,6 @@
 	<CActorComponent>
     	<Indicator>SmallShip</Indicator>
 		<SurfaceType>Metal</SurfaceType>
-		<ClassName>INTERCEPTOR</ClassName>
 	</CActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Box" >
@@ -566,6 +581,9 @@
 		<RechargeDamageRatio>0.1</RechargeDamageRatio>
 		<InterferenceScale>0.2</InterferenceScale>
 	</CShieldComponent>
+	<CClientShieldComponent>
+		<ActiveShieldMeshFX>FX/Shields/SM_SFC_Fighter_shieldbubble</ActiveShieldMeshFX>
+	</CClientShieldComponent>
 	<CWarpComponent>
 		<WarpChargeDuration>4.0</WarpChargeDuration>
 		<WarpCooldown>8.0</WarpCooldown>
@@ -651,6 +669,12 @@
 		</Hardpoint>
 	</CHardpointComponent>
 	<CAbilityComponent>
+		<Properties>
+			<ActiveShieldEffectDuration X="3.0" />
+			<ActiveShieldLightRadius X="100.0" />
+			<ActiveShieldLightIntensity X="10000000.0" />
+			<ActiveShieldLightColor X="0.05" Y="0.2" Z="1.0" />
+		</Properties>
 	</CAbilityComponent>
 	<CServerHardpointComponent>
 		<Loadout Name="DefaultInterceptor" Proba="50" />

@@ -12,10 +12,10 @@
 		        <Class>ShieldGenerator</Class>
 				<HitPoints>35000</HitPoints>
 				<Name>UI_Module_ShieldGen</Name>
-				<ShipPoints>2250</ShipPoints>
+				<ShipPoints>400</ShipPoints>
 				<DPSScoreFactor>50.0</DPSScoreFactor>
 				<Score>100</Score>
-				<AttackPriority>5</AttackPriority>
+				<AttackPriority>4</AttackPriority>
 				<BattleScore>25</BattleScore>
 				<IconName>SI_ShieldB</IconName>
 				<IconSize>32.0</IconSize>
@@ -34,10 +34,10 @@
 			<Module>
 		        <Class>ShieldGenerator</Class>
 				<HitPoints>35000</HitPoints>
-				<ShipPoints>2250</ShipPoints>
+				<ShipPoints>400</ShipPoints>
 				<DPSScoreFactor>50.0</DPSScoreFactor>
 				<Score>100</Score>
-				<AttackPriority>5</AttackPriority>
+				<AttackPriority>4</AttackPriority>
 				<BattleScore>25</BattleScore>
 				<AimOffset X="0" Y="0.5" Z="0" />
 				<IconOffset X="0" Y="0.5" Z="0" />

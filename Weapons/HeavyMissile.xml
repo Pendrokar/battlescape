@@ -54,7 +54,6 @@
 	</CServerSensorComponent>
 	<CActorComponent>
     	<Indicator>HeavyMissile</Indicator>
-		<ClassName>MISSILE</ClassName>
 	</CActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Box" >
@@ -76,7 +75,7 @@
 		<BaseRotationSpeed X="0.35" Y="0.35" Z="0.35" />
 		<FullRotationSpeed X="0.35" Y="0.35" Z="0.35" />
 		<RotationDampener>2.0</RotationDampener>
-		<CapSpeed>0.6</CapSpeed>
+		<CapSpeed>0.7</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>0</EnergyPoints>

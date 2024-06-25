@@ -10,10 +10,6 @@
 	<Mount HardpointName="s_mk4_front_top_right" Weapon="AutoTurretBlasterMK4" GroupID="0" />
 	<Mount HardpointName="s_mk4_rear_bottom" Weapon="AutoTurretBlasterMK4" GroupID="0" />
 	<Mount HardpointName="s_mk4_rear_top" Weapon="AutoTurretBlasterMK4" GroupID="0" />
-	<Mount HardpointName="s_mk5_fwd_bot_left" Weapon="TurretGunMK5" GroupID="1" />
-	<Mount HardpointName="s_mk5_fwd_top_right" Weapon="TurretGunMK5" GroupID="1" />
-	<Mount HardpointName="s_mk5_fwd_bot_right" Weapon="TurretBlasterMK5" GroupID="2" />
-	<Mount HardpointName="s_mk5_fwd_top_left" Weapon="TurretBlasterMK5" GroupID="2" />
 	<Mount HardpointName="s_mk5_rear_bot_right" Weapon="TurretGunMK5" GroupID="1" />
 	<Mount HardpointName="s_mk5_rear_top_left" Weapon="TurretGunMK5" GroupID="1" />
 	<Mount HardpointName="s_mk5_rear_bot_left" Weapon="TurretBlasterMK5" GroupID="2" />

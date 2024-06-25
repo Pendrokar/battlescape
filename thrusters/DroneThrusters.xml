@@ -1,0 +1,16 @@
+<ThrustModel>
+
+    <MLQ>1024.0</MLQ>
+
+    <Group ID="0" DeltaIntensity="5.0" AngAccFactor="1.0" >
+        <Light Intensity="100000.0" Offset="0.00015" >
+            <Color X="0.1" Y="0.3" Z="1.0" />
+            <FadingSize Min="0.1" Max="0.2" />
+        </Light>
+        <Particles Name="ParticleEffects/Thrusters/P_DroneThruster" SizeScale="1.8" UseMeshParticles="true" Offset="-0.0005" />
+    </Group>
+
+    <Thruster ID="0" Name="s_exhaust1" GroupID="0" />
+    <Thruster ID="1" Name="s_exhaust2" GroupID="0" />
+
+</ThrustModel>
