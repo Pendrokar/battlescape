@@ -838,7 +838,7 @@
 	</CActorComponent>
 	<CBodyComponent>
     	<PhysicsBody Type="Mesh" >
-			<CollisionFile>$Dev/Ships/SFC-Carrier/Collision/79bf60f0.insm</CollisionFile>
+			<CollisionFile>$Dev/Ships/SFC-Carrier/Collision/a8b477c3.insm</CollisionFile>
 			<Dynamic>true</Dynamic>
             <Mass>78000.0</Mass>
             <Collisions>true</Collisions>

@@ -6,7 +6,7 @@
 		<ShipClassCost>600</ShipClassCost>
 		<ShipBattleScore>5</ShipBattleScore>
 		<DisplayName>UI_ShipType_Hauler</DisplayName>
-		<ClassAbbrev>HLR</ClassAbbrev>
+		<ClassAbbrev>SUP</ClassAbbrev>
 		<WorldBoxSize X="0.131799996" Y="0.0591151193" Z="0.478196621" />
 	</Meta>
 	<CClientNodeComponent>

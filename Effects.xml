@@ -482,11 +482,11 @@
 		<LightColor X="0.1" Y="1.0" Z="0.4" />
 		<LightIntensity>400000000.0</LightIntensity>
 		<LightCutoff>100.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
-		<LightDuration>0.75</LightDuration>
+		<LightDuration>1.5</LightDuration>
 		<Sound>
-			<Name>ImpactRepair</Name>
+			<Name>Welding</Name>
 			<DuplicateRange>0.05</DuplicateRange>
-			<DuplicateLength>0.25</DuplicateLength>
+			<DuplicateLength>1.0</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.02</Amplitude>

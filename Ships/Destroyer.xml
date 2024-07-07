@@ -319,6 +319,10 @@
             <Mass>15520.0</Mass>
             <Collisions>true</Collisions>
         </PhysicsBody>
+		<HitMesh>
+			<CollisionFile>$Dev/Ships/SFC-Destroyer/Collision/f2816f6c.insm</CollisionFile>
+			<SplitCost>0.001</SplitCost>
+		</HitMesh>
 <!--     	<PhysicsBody Type="Box" >
         	<SidesSize X ="0.28667" Y="0.06373" Z="0.3563" />
             <Offset X="0" Y="0.0002928" Z="-0.008" />
@@ -328,10 +332,6 @@
 <!-- 		<CollisionBody>
 			<CollisionFile>$Dev/Ships/SFC-Destroyer/Collision/f2816f6c.insm</CollisionFile>
 		</CollisionBody> -->
-		<HitMesh>
-			<CollisionFile>$Dev/Ships/SFC-Destroyer/Collision/f2816f6c.insm</CollisionFile>
-			<SplitCost>0.001</SplitCost>
-		</HitMesh>
 	</CBodyComponent>
     <CPropulsionComponent>
         <RampUpSpeed>0.2</RampUpSpeed>

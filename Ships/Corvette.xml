@@ -218,7 +218,7 @@
 				<position x="0.0037000000011175871" y="0.00074999826028943062" z="0.010100002400577068" Type="3dsMax"/>
 				<Cutoff>256.0</Cutoff>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Name>CenterInternalOmnis</Name>
 				<Color X="0.0" Y="1.0" Z="0.0" />
@@ -242,7 +242,7 @@
 				<position x="0.0037000000011175871" y="0.00074999919161200523" z="-0.010100000537931919" Type="3dsMax"/>
 				<Cutoff>256.0</Cutoff>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Name>CenterInternalOmnis</Name>
 				<Color X="0.0" Y="1.0" Z="0.0" />
@@ -442,7 +442,7 @@
 				<position x="0.0045500006526708603" y="0.028350003063678741" z="0.0018000004347413778" Type="3dsMax"/>
 				<Cutoff>256.0</Cutoff>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Name>CockpitNeckOmnis</Name>
 				<Color X="1.0" Y="1.0" Z="1.0" />
@@ -960,7 +960,7 @@
 				<position x="0.0001949994039023295" y="0.03042999841272831" z="0.0038470018189400434" Type="3dsMax"/>
 				<Range>0.2</Range>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Name>FrameLight044</Name>
 				<Color X="1.0" Y="0.258824" Z="0.0" />

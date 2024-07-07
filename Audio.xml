@@ -1108,6 +1108,12 @@
 		<DistRange X="0.01" Y="1.5" />
 	</SoundEffect3D>
 	<SoundEffect3D>
+		<Name>Welding</Name>
+		<Path>event:/Hits/Welding</Path>
+		<VolumeRange X="0" Y="0.25" />
+		<DistRange X="0.01" Y="1.5" />
+	</SoundEffect3D>
+	<SoundEffect3D>
 		<Name>ImpactSpinalCanonBase</Name>
 		<Path>event:/Hits/ImpactSpinalCanonBase</Path>
 		<VolumeRange X="0" Y="1.0" />
