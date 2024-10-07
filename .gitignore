@@ -1,5 +1,6 @@
 # Ignore all
-*
+*.xsd
+*.spp
 
 # Unignore all xmls
 !*/*.xml
