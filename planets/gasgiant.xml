@@ -38,7 +38,7 @@
 	<CClientPlanetComponent>
 	    <Atmosphere State="true" >
 	        <Thickness Value="2000.0" />
-	        <BetaR Red="0.0004" Green="0.0005" Blue="0.02" />
+	        <BetaR Red="0.0004" Green="0.001" Blue="0.02" />
 	        <HR Value="200.0" />
 	        <BetaMSca Red="0.0" Green="0.0" Blue="0.0" />
 	        <BetaMEx Red="0.0" Green="0.0" Blue="0.0" />

@@ -382,6 +382,7 @@
 		<MainDeathDebris>DestroyerDebris7</MainDeathDebris>
 		<MainDeathDebris>DestroyerDebris8</MainDeathDebris>
 		<MainDeathDebris>DestroyerDebris9</MainDeathDebris>
+		<SalvageDebrisCount>2</SalvageDebrisCount>
 		<GriefCredits>60</GriefCredits>
 		<DeathXP>125</DeathXP>
 		<Drag>0.0005</Drag>
@@ -409,9 +410,20 @@
 		<MinWarpSpeed>0.173</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>
-		<WarpMesh>FX/Warp/SM_WarpTunnelRound</WarpMesh>
-		<WarpMeshScale>118.0</WarpMeshScale>
-		<LightsDist>0.015</LightsDist>
+		<WarpChargeSound>WarpCharging</WarpChargeSound>
+		<WarpChargePitchScale>0.75</WarpChargePitchScale>
+		<WarpInSound>WarpLaunch</WarpInSound>
+		<WarpOutSound>WarpExit</WarpOutSound>
+		<Charge>
+			<Mesh>FX/Warp/SM_Warp-entry-destroyer</Mesh>
+			<Scale>1.0</Scale>
+		</Charge>
+		<Field>
+			<Mesh>FX/Warp/SM_Warp-field-destroyer</Mesh>
+			<Scale>1.0</Scale>
+		</Field>
+		<LightsDist>1.77</LightsDist>
+		<LightsScale>118.0</LightsScale>
 	</CClientWarpComponent>
 	<CShipComponent>
 	</CShipComponent>

@@ -1,26 +1,17 @@
 <ActorConfig>
 	<Meta>
-<!-- 		<ActorType>Ship</ActorType>
-		<SpawnType>Fighter</SpawnType>
-		<IsPlayerSpawnable>true</IsPlayerSpawnable>
-		<ShipClassCost>50</ShipClassCost>
-		<BattleBudgetCost>50</BattleBudgetCost>
-		<ShipBattleScore>1</ShipBattleScore>
-		<DisplayName>UI_ShipType_Drone</DisplayName>
-		<ClassAbbrev>ADRN</ClassAbbrev>
-        <WorldBoxSize X="0.010" Y="0.010" Z="0.010" /> -->
 		<ActorType>Weapon</ActorType>
 	</Meta>
 	<CClientNodeComponent>
-        <Object Mesh="Props/Drones/Drone01/Meshes/SM_DroneCombined" >
+        <Object Mesh="Ships/Weapons/Missiles/SM_SFC_Missile1" >
 			<RejectionSize>0.002</RejectionSize>
             <Material Override="true" />
-            <ThrusterModel ConfigFile="$Dev/config/thrusters/DroneThrusters.xml" >
+            <ThrusterModel ConfigFile="$Dev/config/thrusters/TorpedoThrusters.xml" >
                 <LightsInheritVisibility>false</LightsInheritVisibility>
                 <ParticlesInheritVisibility>true</ParticlesInheritVisibility>
-                <ActivateDistance>2.0</ActivateDistance>
+                <ActivateDistance>8.0</ActivateDistance>
             </ThrusterModel>
-			<Scale X="2" Y="2" Z="2" />
+			<Scale X="4" Y="4" Z="4" />
         </Object>
 	</CClientNodeComponent>
 	<CServerNodeComponent>
@@ -31,43 +22,47 @@
 		<ThrustersEmissiveScale>5.0</ThrustersEmissiveScale>
 		<DyingExplosions>0</DyingExplosions>
 		<DyingEffect>DyingExplosion</DyingEffect>
-		<DeathEffect>MissileExplosion</DeathEffect>
-		<DyingEffectScale>0.01</DyingEffectScale>
-		<DeathEffectScale>0.25</DeathEffectScale>
-		<DeathEffectRange>20.0</DeathEffectRange>
-		<ShieldImpactEffectScale>0.10</ShieldImpactEffectScale>
+		<DeathEffect>EMPTorpedoExplosion</DeathEffect>
+		<DyingEffectScale>0.05</DyingEffectScale>
+		<DeathEffectScale>2.0</DeathEffectScale>
+		<DeathEffectRange>50.0</DeathEffectRange>
+		<DeathImpactEffect>EMPTorpedoExplosion</DeathImpactEffect>
+		<DeathImpactEffectScale>2.0</DeathImpactEffectScale>
+		<DeathImpactEffectOffset>0.02</DeathImpactEffectOffset>
+		<ShieldImpactEffectScale>0.25</ShieldImpactEffectScale>
 		<ShowContrail>true</ShowContrail>
-		<ContrailEffectSize>0.004</ContrailEffectSize>
-		<DeathGenericEffect>MissileExplosion</DeathGenericEffect>
-		<DeathGenericEffectScale>0.25</DeathGenericEffectScale>
+		<ContrailEffectSize>0.005</ContrailEffectSize>
+		<DeathGenericEffect>MissileExplosionBig</DeathGenericEffect>
+		<DeathGenericEffectScale>1.0</DeathGenericEffectScale>
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
         <Camera Type="External">
             <!-- chase camera behind ship -->
-            <ViewPosition X="0" Y="0.00247" Z="-0.01214" />
-			<ViewAngle X="0.253" Y="0.132" />
+            <ViewPosition X="0" Y="0.00098" Z="-0.00630" />
+			<ViewAngle X="-0.007" Y="0" />
         </Camera>
     </CClientCameraViewComponent>
 	<CClientAudioComponent>
+		<EngineIdle Target="PlasmaTravel" FadeLength="5.0" DistRangeScale="50.0" />
 		<MainThruster Target="MainThrusterSmall3" />
 	</CClientAudioComponent>
 	<CServerActorComponent>
-        <Name>R-DRN</Name>
-		<NetworkSize>0.02</NetworkSize>
+        <Name>EMP-TRP</Name>
+		<NetworkSize>0.04</NetworkSize>
 	</CServerActorComponent>
 	<CServerSensorComponent>
-		<EmissionsRange>5.0</EmissionsRange>
-		<SensorPower>0.25</SensorPower>
+		<EmissionsRange>25.0</EmissionsRange>
+		<SensorPower>1.0</SensorPower>
 	</CServerSensorComponent>
 	<CActorComponent>
-    	<Indicator>Drone</Indicator>
+    	<Indicator>Torpedo</Indicator>
 	</CActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Box" >
-        	<SidesSize X="0.010" Y="0.010" Z="0.010" />
+        	<SidesSize X="0.01" Y="0.01" Z="0.01" />
             <Offset X="0" Y="0" Z="0" />
-            <Mass>5.0</Mass>
+            <Mass>1.0</Mass>
             <Collisions>true</Collisions>
             <Bounce>0.0</Bounce>
             <Friction>0.2</Friction>
@@ -75,34 +70,34 @@
 	</CBodyComponent>
     <CPropulsionComponent>
         <RampUpSpeed>0.0</RampUpSpeed>
-        <MinLinearThrust X="-0.35" Y="-0.35" Z="-0.35" />
-        <MaxLinearThrust X="0.35" Y="0.35" Z="0.35" />
+        <MinLinearThrust X="-0.030" Y="-0.030" Z="-0.040" />
+        <MaxLinearThrust X="0.030" Y="0.030" Z="0.040" />
         <BaseRotationThrust X="0.00250" Y="0.00250" Z="0.00250" />
         <FullRotationThrust X="0.00250" Y="0.00250" Z="0.00250" />
         <RotationStabilizer X="1.0" Y="1.0" Z="1.0" />
-		<BaseRotationSpeed X="0.5" Y="0.5" Z="0.5" />
-		<FullRotationSpeed X="0.5" Y="0.5" Z="0.5" />
+		<BaseRotationSpeed X="0.15" Y="0.15" Z="0.15" />
+		<FullRotationSpeed X="0.15" Y="0.15" Z="0.15" />
 		<RotationDampener>2.0</RotationDampener>
-		<CapSpeed>1.0</CapSpeed>
+		<CapSpeed>0.3</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>0</EnergyPoints>
 		<RechargeRate>0</RechargeRate>
 	</CEngineComponent>
 	<CHullComponent>
-		<HitPoints>250</HitPoints>
+		<HitPoints>150</HitPoints>
 		<DeathDuration>0.0</DeathDuration>
 		<DyingDuration>0.0</DyingDuration>
-		<DeathCredits>5</DeathCredits>
+		<DeathCredits>15</DeathCredits>
 		<Drag>1.0</Drag>
 	</CHullComponent>
 	<CServerMissileComponent>
-		<Mode>RepairDrone</Mode>
-		<ActivationTimer>0.0</ActivationTimer>
-		<TrackingRange>10.0</TrackingRange>
-		<MinTargetMass>0.0</MinTargetMass>
+		<Mode>Torpedo</Mode>
+		<ActivationTimer>3.0</ActivationTimer>
+		<TrackingAngle>0.610</TrackingAngle>
+		<TrackingRange>100.0</TrackingRange>
+		<MinTargetMass>1000.0</MinTargetMass>
 		<DetonateOnDeath>false</DetonateOnDeath>
-		<ExplodeOnContact>false</ExplodeOnContact>
-		<NoTargetDetonationTime>5.0</NoTargetDetonationTime>
+		<NoTargetDetonationTime>10.0</NoTargetDetonationTime>
 	</CServerMissileComponent>
 </ActorConfig>

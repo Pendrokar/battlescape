@@ -1,0 +1,70 @@
+<ActorConfig>
+	<Meta>
+		<ActorType>Loot</ActorType>
+	</Meta>
+	<CClientNodeComponent>
+        <Object Mesh="Props/ResupplyCrate/SM_ResupplyCrate_Lod0" >
+            <LOD Level="1" Mesh="Props/ResupplyCrate/SM_ResupplyCrate_Lod1" />
+            <LOD Level="2" Mesh="Props/ResupplyCrate/SM_ResupplyCrate_Lod2" />
+			<Scale X="5" Y="5" Z="5" />
+            <LODPower>4.0</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+         </Object>
+	</CClientNodeComponent>
+	<CServerNodeComponent>
+		<TransformNode />
+	</CServerNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+		<DyingExplosions>0</DyingExplosions>
+		<DeathExplosions>1</DeathExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DeathEffect>SmallShipExplosion</DeathEffect>
+		<DyingEffectScale>0.030</DyingEffectScale>
+		<DeathEffectScale>0.5</DeathEffectScale>
+		<ContrailEffectSize>0.04</ContrailEffectSize>
+		<DamageEffectSize>0.015</DamageEffectSize>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+    <CClientCameraViewComponent>
+        <Camera Type="External">
+            <ViewPosition X="0" Y="0.002" Z="-0.008" />
+			<ViewAngle X="0" Y="0" />
+        </Camera>
+    </CClientCameraViewComponent>
+	<CServerActorComponent>
+		<Name>Resources</Name>
+		<NetworkSize>0.02</NetworkSize>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>10.0</EmissionsRange>
+		<SensorPower>0.0</SensorPower>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>Crate</Indicator>
+		<SurfaceType>Metal</SurfaceType>
+	</CActorComponent>
+	<CClientActorComponent>
+		<IgnoreCollisions>false</IgnoreCollisions>
+	</CClientActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Box" >
+        	<SidesSize X="0.020" Y="0.015" Z="0.026" />
+            <Offset X="0" Y="0" Z="0" />
+            <Mass>1.0</Mass>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+        </PhysicsBody>
+	</CBodyComponent>
+	<CHullComponent>
+		<HitPoints>200</HitPoints>
+		<DyingDuration>0.0</DyingDuration>
+		<DeathDuration>0.0</DeathDuration>
+		<DeathCredits>0</DeathCredits>
+	</CHullComponent>
+	<CServerCrateComponent>
+		<CrateType>Resources</CrateType>
+		<Amount>500</Amount>
+		<Lifetime>180.0</Lifetime>
+	</CServerCrateComponent>
+</ActorConfig>

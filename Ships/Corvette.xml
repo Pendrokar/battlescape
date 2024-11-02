@@ -1251,9 +1251,22 @@
 		<MinWarpSpeed>0.241</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>
-		<WarpMesh>FX/Warp/SM_WarpTunnelRound</WarpMesh>
-		<WarpMeshScale>27.3</WarpMeshScale>
-		<LightsDist>0.015</LightsDist>
+		<WarpInEffectOffset X="0" Y="0" Z="0.035" />
+		<WarpOutEffectOffset X="0" Y="0" Z="0.035" />
+		<WarpChargeSound>WarpCharging</WarpChargeSound>
+		<WarpChargePitchScale>0.95</WarpChargePitchScale>
+		<WarpInSound>WarpLaunch</WarpInSound>
+		<WarpOutSound>WarpExit</WarpOutSound>
+		<Charge>
+			<Mesh>FX/Warp/SM_Warp-entry-corvette</Mesh>
+			<Scale>1.0</Scale>
+		</Charge>
+		<Field>
+			<Mesh>FX/Warp/SM_Warp-field-corvette</Mesh>
+			<Scale>1.25</Scale>
+		</Field>
+		<LightsDist>0.41</LightsDist>
+		<LightsScale>27.3</LightsScale>
 	</CClientWarpComponent>
 	<CFrontLightComponent>
 		<Socket>s_spotlight</Socket>

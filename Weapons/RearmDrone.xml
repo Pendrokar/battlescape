@@ -75,15 +75,15 @@
 	</CBodyComponent>
     <CPropulsionComponent>
         <RampUpSpeed>0.0</RampUpSpeed>
-        <MinLinearThrust X="-0.15" Y="-0.15" Z="-0.15" />
-        <MaxLinearThrust X="0.15" Y="0.15" Z="0.15" />
+        <MinLinearThrust X="-0.35" Y="-0.35" Z="-0.35" />
+        <MaxLinearThrust X="0.35" Y="0.35" Z="0.35" />
         <BaseRotationThrust X="0.00250" Y="0.00250" Z="0.00250" />
         <FullRotationThrust X="0.00250" Y="0.00250" Z="0.00250" />
         <RotationStabilizer X="1.0" Y="1.0" Z="1.0" />
 		<BaseRotationSpeed X="0.5" Y="0.5" Z="0.5" />
 		<FullRotationSpeed X="0.5" Y="0.5" Z="0.5" />
 		<RotationDampener>2.0</RotationDampener>
-		<CapSpeed>0.6</CapSpeed>
+		<CapSpeed>0.8</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>0</EnergyPoints>

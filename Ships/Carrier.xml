@@ -894,6 +894,7 @@
 		<DeathDebris>ShipDebris6</DeathDebris>
 		<DeathDebris>ShipDebris7</DeathDebris>
 		<DeathDebris>ShipDebris8</DeathDebris>
+		<SalvageDebrisCount>4</SalvageDebrisCount>
 		<DeathCredits>500</DeathCredits>
 		<GriefCredits>150</GriefCredits>
 		<DeathXP>500</DeathXP>
@@ -929,9 +930,20 @@
 		<MinWarpSpeed>0.146</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>
-		<WarpMesh>FX/Warp/SM_WarpTunnelRound</WarpMesh>
-		<WarpMeshScale>720.0</WarpMeshScale>
-		<LightsDist>0.015</LightsDist>
+		<WarpChargeSound>WarpCharging</WarpChargeSound>
+		<WarpChargePitchScale>0.5</WarpChargePitchScale>
+		<WarpInSound>WarpLaunch</WarpInSound>
+		<WarpOutSound>WarpExit</WarpOutSound>
+		<Charge>
+			<Mesh>FX/Warp/SM_Warp-entry-carrier</Mesh>
+			<Scale>1.0</Scale>
+		</Charge>
+		<Field>
+			<Mesh>FX/Warp/SM_Warp-field-carrier</Mesh>
+			<Scale>1.0</Scale>
+		</Field>
+		<LightsDist>10.8</LightsDist>
+		<LightsScale>720.0</LightsScale>
 	</CClientWarpComponent>
 	<CShipComponent>
 	</CShipComponent>

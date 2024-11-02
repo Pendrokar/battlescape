@@ -32,6 +32,7 @@
         </Camera>
     </CClientCameraViewComponent>
 	<CServerActorComponent>
+		<Name>Metals</Name>
 		<NetworkSize>0.001</NetworkSize>
 	</CServerActorComponent>
 	<CServerSensorComponent>
@@ -43,7 +44,7 @@
 		<SurfaceType>Metal</SurfaceType>
 	</CActorComponent>
 	<CClientActorComponent>
-		<IgnoreCollisions>true</IgnoreCollisions>
+		<IgnoreCollisions>false</IgnoreCollisions>
 	</CClientActorComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Box" >

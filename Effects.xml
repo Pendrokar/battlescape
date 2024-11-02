@@ -901,6 +901,26 @@
 	</Effect>
 
 	<Effect>
+		<Name>EMPTorpedoExplosion</Name>
+		<ParticleSystem>ParticleEffects/Abilities/WarpJam/P_Warp-interference-bubble2</ParticleSystem>
+		<Scale>0.35</Scale>
+		<LightColor X="0.2" Y="0.6" Z="1.0" />
+		<LightIntensity>5000000000000.0</LightIntensity>
+		<LightMLQ>8192.0</LightMLQ>
+		<LightDuration>2.5</LightDuration>
+		<Sound>
+			<Name>EMPExplosion</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+		</Sound>
+		<Vibrations>
+			<Amplitude>1.0</Amplitude>
+			<Size>0.03</Size>
+			<Duration>0.7</Duration>
+		</Vibrations>
+		<Smog>12</Smog>
+	</Effect>
+
+	<Effect>
 		<Name>HullDamageFireSmall</Name>
 		<!-- <ParticleSystem>Particles/Explosions/Effects/P_Explosion_Internal_small</ParticleSystem> -->
 		<ParticleSystem>ParticleEffects/Explosions/P_Explosion-internal-small</ParticleSystem>
@@ -1028,11 +1048,12 @@
 
 	<Effect>
 		<Name>WarpEnter</Name>
-<!-- 		<ParticleSystem>Particles/Warp/P_EnterWarp</ParticleSystem> -->
-		<LightColor X="0.0" Y="0.4" Z="1.0" />
-		<LightIntensity>200000000.0</LightIntensity>
-		<LightCutoff>100.0</LightCutoff>
-		<LightDuration>0.5</LightDuration>
+		<ParticleSystem>ParticleEffects/Abilities/WarpJam/P_Warp-interference-bubble</ParticleSystem>
+		<Scale>1.5</Scale>
+		<LightColor X="0.4" Y="0.3" Z="1.0" />
+		<LightIntensity>200000000000.0</LightIntensity>
+		<LightCutoff>1000.0</LightCutoff>
+		<LightDuration>0.75</LightDuration>
 		<Vibrations>
 			<Amplitude>0.1</Amplitude>
 		</Vibrations>
@@ -1040,11 +1061,12 @@
 
 	<Effect>
 		<Name>WarpExit</Name>
-<!-- 		<ParticleSystem>Particles/Warp/P_ExitWarp</ParticleSystem> -->
-		<LightColor X="0.0" Y="0.4" Z="1.0" />
-		<LightIntensity>200000000.0</LightIntensity>
-		<LightCutoff>100.0</LightCutoff>
-		<LightDuration>0.5</LightDuration>
+		<ParticleSystem>ParticleEffects/Abilities/WarpJam/P_Warp-interference-bubble</ParticleSystem>
+		<Scale>1.5</Scale>
+		<LightColor X="0.4" Y="0.3" Z="1.0" />
+		<LightIntensity>200000000000.0</LightIntensity>
+		<LightCutoff>1000.0</LightCutoff>
+		<LightDuration>0.75</LightDuration>
 		<Vibrations>
 			<Amplitude>0.1</Amplitude>
 		</Vibrations>

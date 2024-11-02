@@ -35,6 +35,7 @@
     <ActorType ClassName="SpaceWhale" ConfigFile="$Dev/Config/Props/SpaceWhale.xml" />
     <ActorType ClassName="SupplyCrate" ConfigFile="$Dev/Config/Props/SupplyCrate.xml" />
     <ActorType ClassName="MetalCrate" ConfigFile="$Dev/Config/Props/MetalCrate.xml" />
+    <ActorType ClassName="ResourceCrate" ConfigFile="$Dev/Config/Props/ResourceCrate.xml" />
     <ActorType ClassName="HeroAsteroid" Class="Actor" ConfigFile="$Dev/Config/Stations/Assembled/HeroAsteroid.xml" />
     <ActorType ClassName="ProximityMine" ConfigFile="$Dev/Config/Weapons/ProximityMine.xml" />
     <ActorType ClassName="PassiveMine" ConfigFile="$Dev/Config/Weapons/PassiveMine.xml" />
@@ -53,6 +54,7 @@
     <ActorType ClassName="SFC_Station_BigStarport" Class="Actor" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_BigStarport.xml" />
     <ActorType ClassName="SFC_Station_AsteroidProcessing" Class="Actor" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_AsteroidProcessing.xml" />
     <ActorType ClassName="EMPMissile" ConfigFile="$Dev/Config/Weapons/EMPMissile.xml" />
+    <ActorType ClassName="EMPTorpedo" ConfigFile="$Dev/Config/Weapons/EMPTorpedo.xml" />
     <ActorType ClassName="InterceptorDebris1" ConfigFile="$Dev/Config/Props/InterceptorDebris1.xml" />
     <ActorType ClassName="BomberDebris1" ConfigFile="$Dev/Config/Props/BomberDebris1.xml" />
     <ActorType ClassName="CorvetteDebris1" ConfigFile="$Dev/Config/Props/CorvetteDebris1.xml" />

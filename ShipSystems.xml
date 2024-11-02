@@ -236,6 +236,8 @@
 		<Actor Class="Cruiser" />
 		<Weapon ID="TorpedoPod" />
 		<Weapon ID="TorpedoLauncherMK3" />
+		<Weapon ID="EMPTorpedoPod" />
+		<Weapon ID="EMPTorpedoLauncherMK3" />
 	</ShipSystem>
 	<ShipSystem ID="23" Name="ExtraMines" Category="Storage" Class="MK1;MK2;MK3;MK4;MK5;MK6" Credits="2000" Requires="" Excludes="" AbilityType="Passive" Stack="2" Rank="8" >
 		<DisplayName>UI_System_ExtraMines_Name</DisplayName>
@@ -421,6 +423,8 @@
 		<Weapon ID="FixedMissileLauncherMK3" />
 		<Weapon ID="TorpedoLauncherMK3" />
 		<Weapon ID="SSMBattery" />
+		<Weapon ID="EMPTorpedoPod" />
+		<Weapon ID="EMPTorpedoLauncherMK3" />
 	</ShipSystem>
  	<ShipSystem ID="44" Name="PassiveMineLauncher" Category="External" Class="MinePod" Credits="2250" Requires="" Excludes="MineLauncher" AbilityType="Event" Stack="1" Rank="9" >
 		<DisplayName>UI_System_PassiveMineLauncher_Name</DisplayName>
@@ -500,6 +504,8 @@
 		<Weapon ID="TorpedoLauncherMK3" />
 		<Weapon ID="EMPMissilePod" />
 		<Weapon ID="SSMBattery" />
+		<Weapon ID="EMPTorpedoPod" />
+		<Weapon ID="EMPTorpedoLauncherMK3" />
 	</ShipSystem>
 	<ShipSystem ID="50" Name="HangarDeployRate" Category="Storage" Class="MK6;MK7" Credits="3000" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="13" >
 		<DisplayName>UI_System_HangarDeployRate_Name</DisplayName>

@@ -3468,8 +3468,9 @@
 			<LightDuration>1.0</LightDuration>
 		</Muzzle>
 		<Ammo>
-			<Type>Energy</Type>
-			<Cost>20</Cost>
+			<Type>ResourcePoints</Type>
+			<Cost>1</Cost>
+			<Energy>20</Energy>
 		</Ammo>
 		<Shot>
 			<Type>Laser</Type>
@@ -3584,8 +3585,9 @@
 			<LightDuration>1.0</LightDuration>
 		</Muzzle>
 		<Ammo>
-			<Type>Energy</Type>
-			<Cost>40</Cost>
+			<Type>ResourcePoints</Type>
+			<Cost>2</Cost>
+			<Energy>40</Energy>
 		</Ammo>
 		<Shot>
 			<Type>Laser</Type>
@@ -3700,8 +3702,9 @@
 			<LightDuration>1.0</LightDuration>
 		</Muzzle>
 		<Ammo>
-			<Type>Energy</Type>
-			<Cost>40</Cost>
+			<Type>ResourcePoints</Type>
+			<Cost>2</Cost>
+			<Energy>40</Energy>
 		</Ammo>
 		<Shot>
 			<Type>Laser</Type>
@@ -4712,7 +4715,7 @@
 		<GunOffset X="0" Y="0" Z="0" />
 		<Scale>1.0</Scale>
 		<FireMode>FirstOnStart</FireMode>
-		<FireRate>0.5</FireRate> <!-- Fire rate in number of shots per second -->
+		<FireRate>0.1</FireRate> <!-- Fire rate in number of shots per second -->
 		<SynchroMode>Random</SynchroMode>
 		<TurnSpeed X="0" Y="0" />
 		<PitchRange X="0" Y="0" />
@@ -4725,12 +4728,12 @@
 		<LockTime>2.0</LockTime>
 		<LockCone X="0.25" Y="0.25" />
 		<MinLockDistance>1.0</MinLockDistance>
-		<MaxLockDistance>50.0</MaxLockDistance>
+		<MaxLockDistance>25.0</MaxLockDistance>
 		<LockDistanceAI>10.0</LockDistanceAI>
 		<TargetSizeRange X="0.25" Y="1000.0" />
 		<TargetType Type="MediumShip" Priority="2.0" />
 		<TargetType Type="LargeShip" Priority="1.0" />
-		<TargetTrackRange X="0.0" Y="50.0" />
+		<TargetTrackRange X="0.0" Y="25.0" />
 		<Icon>MissileLauncher</Icon>
 		<HUDIcon>SI_PlusBig</HUDIcon>
 		<ShowReticle>false</ShowReticle>
@@ -4752,7 +4755,7 @@
 			<DamageType>ShieldAndHull</DamageType> <!-- Type of damage -->
 			<LifeTime>60.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>0.20</Speed> <!-- Initial speed the shot gets fired at -->
-			<Heat>50.0</Heat>
+			<Heat>25.0</Heat>
 		</Shot>
 		<Impact>
 			<SmokeDamageScale>0.0025</SmokeDamageScale>
@@ -4780,7 +4783,7 @@
 		<GunOffset X="0" Y="0" Z="0" />
 		<Scale>1.0</Scale>
 		<FireMode>FirstOnStart</FireMode>
-		<FireRate>0.033</FireRate> <!-- Fire rate in number of shots per second -->
+		<FireRate>0.1</FireRate> <!-- Fire rate in number of shots per second -->
 		<SynchroMode>Random</SynchroMode>
 		<TurnSpeed X="0" Y="0" />
 		<PitchRange X="0" Y="0" />
@@ -4810,7 +4813,7 @@
 		<Ammo>
 			<Type>Drone</Type>
 			<Cost>1</Cost>
-			<Max>15</Max>
+			<Max>8</Max>
 		</Ammo>
 		<Shot>
 			<Type>Actor</Type>
@@ -4820,6 +4823,7 @@
 			<LifeTime>60.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>0.25</Speed> <!-- Initial speed the shot gets fired at -->
 			<Heat>10.0</Heat>
+			<EffectDuration>15.0</EffectDuration>
 		</Shot>
 		<Impact>
 			<SmokeDamageScale>0.002</SmokeDamageScale>
@@ -4847,7 +4851,7 @@
 		<GunOffset X="0" Y="0" Z="0" />
 		<Scale>1.0</Scale>
 		<FireMode>FirstOnStart</FireMode>
-		<FireRate>0.033</FireRate> <!-- Fire rate in number of shots per second -->
+		<FireRate>0.1</FireRate> <!-- Fire rate in number of shots per second -->
 		<SynchroMode>Random</SynchroMode>
 		<TurnSpeed X="0" Y="0" />
 		<PitchRange X="0" Y="0" />
@@ -4877,7 +4881,7 @@
 		<Ammo>
 			<Type>Drone</Type>
 			<Cost>1</Cost>
-			<Max>15</Max>
+			<Max>8</Max>
 		</Ammo>
 		<Shot>
 			<Type>Actor</Type>
@@ -4887,6 +4891,7 @@
 			<LifeTime>60.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>0.25</Speed> <!-- Initial speed the shot gets fired at -->
 			<Heat>10.0</Heat>
+			<EffectDuration>15.0</EffectDuration>
 		</Shot>
 		<Impact>
 			<SmokeDamageScale>0.002</SmokeDamageScale>
@@ -5154,4 +5159,155 @@
 			<SmokeDamageScale>0.01</SmokeDamageScale>
 		</Impact>
 	</Weapon>
+
+	<Weapon>
+		<ID>EMPTorpedoPod</ID>
+		<Name>UI_Weapon_EMPTorpedoPod_Name</Name>
+		<LongDescr>UI_Weapon_EMPTorpedoPod_LongDescr</LongDescr>
+		<Type>StaticSingle</Type>
+		<Class>TorpedoPod</Class>
+		<Credits>250</Credits>
+		<Rank>2</Rank>
+		<Actor Class="Interceptor" />
+		<Actor Class="Bomber" />
+		<Actor Class="Corvette" />
+		<Mass>3.0</Mass>
+		<Mesh>
+			<HitBox>
+				<Min X="-0.002" Y="-0.002" Z="-0.002" />
+				<Max X="0.002" Y="0.002" Z="0.002" />
+			</HitBox>
+		</Mesh>
+		<HitPoints>80</HitPoints>
+		<Sockets>
+		</Sockets>
+		<GunOffset X="0" Y="0" Z="0" />
+		<Scale>1.0</Scale>
+		<FireMode>FirstOnStart</FireMode>
+		<FireRate>0.2</FireRate> <!-- Fire rate in number of shots per second -->
+		<SynchroMode>Random</SynchroMode>
+		<TurnSpeed X="0" Y="0" />
+		<PitchRange X="0" Y="0" />
+		<YawRange X="0" Y="0" />
+		<FireCone X="0.3" Y="0.3" />
+		<AimType>Fixed</AimType>
+		<AimMode>ManualAimAndFire</AimMode>
+		<AutoAimDefault>false</AutoAimDefault>
+		<LockType>Target</LockType>
+		<LockTime>2.0</LockTime>
+		<LockCone X="0.25" Y="0.25" />
+		<MinLockDistance>4.0</MinLockDistance>
+		<MaxLockDistance>50.0</MaxLockDistance>
+		<LockDistanceAI>10.0</LockDistanceAI>
+		<TargetSizeRange X="0.25" Y="1000.0" />
+		<TargetType Type="MediumShip" Priority="2.0" />
+		<TargetType Type="LargeShip" Priority="1.0" />
+		<TargetTrackRange X="0.0" Y="50.0" />
+		<Icon>TorpedoLauncher</Icon>
+		<HUDIcon>SI_PlusBig</HUDIcon>
+		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>false</ShowAimDir>
+		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
+		<Sound>
+			<Name>TorpedoLaunch</Name>
+		</Sound>
+		<Ammo>
+			<Type>EMPTorpedo</Type>
+			<Cost>1</Cost>
+			<Max>10</Max>
+		</Ammo>
+		<Shot>
+			<Type>Actor</Type>
+			<Name>EMPTorpedo</Name>
+			<EnergyDamage>9000.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
+			<DamageType>ShieldOnly</DamageType> <!-- Type of damage -->
+			<SplashRadius>1.0</SplashRadius>
+			<LifeTime>60.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>0.20</Speed> <!-- Initial speed the shot gets fired at -->
+			<Heat>50.0</Heat>
+		</Shot>
+		<Impact>
+			<SmokeDamageScale>0.0025</SmokeDamageScale>
+		</Impact>
+	</Weapon>
+
+	<Weapon>
+		<ID>EMPTorpedoLauncherMK3</ID>
+		<Name>UI_Weapon_EMPTorpedoLauncherMK3_Name</Name>
+		<LongDescr>UI_Weapon_EMPTorpedoLauncherMK3_LongDescr</LongDescr>
+		<Type>StaticSingle</Type>
+		<Class>TorpedoPod</Class>
+		<Actor Class="Cruiser" />
+		<Credits>250</Credits>
+		<Rank>2</Rank>
+		<Mass>2000.0</Mass>
+		<Mesh>
+			<Attach Mesh="Ships/Weapons/Launchers/SM_Launcher_Torpedo_Lod0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Launchers/SM_Launcher_Torpedo_Lod1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Launchers/SM_Launcher_Torpedo_Lod2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Launchers/SM_Launcher_Torpedo_Lod3" />
+			</Attach>
+			<HitBox>
+				<Min X="-0.02" Y="-0.02" Z="-0.02" />
+				<Max X="0.02" Y="0.02" Z="0.02" />
+			</HitBox>
+		</Mesh>
+		<HitPoints>1250</HitPoints>
+		<Sockets>
+			<Attach>$Dev/Ships/Weapons/Launchers/b880a322.insm</Attach>
+		</Sockets>
+		<GunOffset X="0" Y="0" Z="0" />
+		<Scale>1.0</Scale>
+		<FireMode>FirstOnStart</FireMode>
+		<FireRate>0.1</FireRate> <!-- Fire rate in number of shots per second -->
+		<SynchroMode>Random</SynchroMode>
+		<FireDirection X="-0.15" Y="1" Z="0" />
+		<TurnSpeed X="0" Y="0" />
+		<PitchRange X="0" Y="0" />
+		<YawRange X="0" Y="0" />
+		<FireCone X="0.35" Y="0.35" />
+		<AimType>Fixed</AimType>
+		<AimMode>ManualAimAndFire</AimMode>
+		<AutoAimDefault>false</AutoAimDefault>
+		<LockSource>Forward</LockSource>
+		<LockType>Target</LockType>
+		<LockTime>6.0</LockTime>
+		<LockCone X="0.25" Y="0.25" />
+		<MinLockDistance>4.0</MinLockDistance>
+		<MaxLockDistance>50.0</MaxLockDistance>
+		<LockDistanceAI>10.0</LockDistanceAI>
+		<TargetSizeRange X="0.25" Y="1000.0" />
+		<TargetType Type="MediumShip" Priority="2.0" />
+		<TargetType Type="LargeShip" Priority="1.0" />
+		<TargetTrackRange X="0.0" Y="50.0" />
+		<Icon>TorpedoLauncher</Icon>
+		<HUDIcon>SI_PlusBig</HUDIcon>
+		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>false</ShowAimDir>
+		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
+		<Sound>
+			<Name>TorpedoLaunch</Name>
+		</Sound>
+		<Ammo>
+			<Type>EMPTorpedo</Type>
+			<Cost>1</Cost>
+			<Max>12</Max>
+		</Ammo>
+		<Shot>
+			<Type>Actor</Type>
+			<Name>EMPTorpedo</Name>
+			<EnergyDamage>9000.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
+			<DamageType>ShieldOnly</DamageType> <!-- Type of damage -->
+			<SplashRadius>1.0</SplashRadius>
+			<LifeTime>60.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>0.20</Speed> <!-- Initial speed the shot gets fired at -->
+			<Heat>50.0</Heat>
+		</Shot>
+		<Impact>
+			<SmokeDamageScale>0.0025</SmokeDamageScale>
+		</Impact>
+	</Weapon>
+
 </Weapons>

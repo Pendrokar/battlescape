@@ -45,7 +45,7 @@
 		<MainThruster Target="MainThrusterSmall3" />
 	</CClientAudioComponent>
 	<CServerActorComponent>
-        <Name>EMP</Name>
+        <Name>EMP-LMIS</Name>
 		<NetworkSize>0.02</NetworkSize>
 	</CServerActorComponent>
 	<CServerSensorComponent>

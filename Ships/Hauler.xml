@@ -1503,7 +1503,7 @@
 	</CHullComponent>
 	<CShieldComponent>
 		<ShieldPoints>14000</ShieldPoints>
-		<RechargeShieldPoints>100</RechargeShieldPoints>
+		<RechargeShieldPoints>75</RechargeShieldPoints>
 		<RechargeDamageRatio>0.35</RechargeDamageRatio>
 		<InterferenceScale>0.4</InterferenceScale>
 	</CShieldComponent>
@@ -1518,9 +1518,20 @@
 		<MinWarpSpeed>0.152</MinWarpSpeed>
 	</CWarpComponent>
 	<CClientWarpComponent>
-		<WarpMesh>FX/Warp/SM_WarpTunnelRound</WarpMesh>
-		<WarpMeshScale>159.0</WarpMeshScale>
-		<LightsDist>0.015</LightsDist>
+		<WarpChargeSound>WarpCharging</WarpChargeSound>
+		<WarpChargePitchScale>0.75</WarpChargePitchScale>
+		<WarpInSound>WarpLaunch</WarpInSound>
+		<WarpOutSound>WarpExit</WarpOutSound>
+		<Charge>
+			<Mesh>FX/Warp/SM_Warp-entry-hauler</Mesh>
+			<Scale>1.0</Scale>
+		</Charge>
+		<Field>
+			<Mesh>FX/Warp/SM_Warp-field-hauler</Mesh>
+			<Scale>1.0</Scale>
+		</Field>
+		<LightsDist>2.38</LightsDist>
+		<LightsScale>159.0</LightsScale>
 	</CClientWarpComponent>
 	<CShipComponent>
 	</CShipComponent>
@@ -1596,7 +1607,11 @@
 		<Loadout Name="DefaultHauler" Proba="100" />
 		<Ammo>
 			<Type>Chaff</Type>
-			<Amount>25</Amount>
+			<Amount>8</Amount>
+		</Ammo>
+		<Ammo>
+			<Type>ResourcePoints</Type>
+			<Amount>250</Amount>
 		</Ammo>
 	</CServerHardpointComponent>
 	<CServerHaulerComponent>
