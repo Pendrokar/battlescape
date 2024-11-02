@@ -3191,6 +3191,121 @@
 	</Weapon>
 
 	<Weapon>
+		<ID>DefenseLaserAMSMK3</ID>
+		<Name>UI_Weapon_LaserAMSMK3_Name</Name>
+		<LongDescr>UI_Weapon_LaserAMSMK3_LongDescr</LongDescr>
+		<Type>AttachBaseBarrel</Type>
+		<!-- <Class>MK3;MK4</Class> -->
+		<Credits>-1</Credits>
+		<Mass>10.0</Mass>
+		<Mesh>
+			<Base Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Body_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Body_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Body_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Body_LOD3" />
+			</Base>
+			<Barrel Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Gun_Laser_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Gun_Laser_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Gun_Laser_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Gun_Laser_LOD3" />
+			</Barrel>
+			<HitBox>
+				<Min X="-0.020" Y="-0.020" Z="-0.020" />
+				<Max X="0.020" Y="0.020" Z="0.020" />
+			</HitBox>
+		</Mesh>
+		<HitPoints>250</HitPoints>
+		<Sockets>
+			<Base>$Dev/Ships/Weapons/Mk3_AntiMissileLaser/607e8c4d.insm</Base>
+			<Barrel>$Dev/Ships/Weapons/Mk3_AntiMissileLaser/bc9c6b87.insm</Barrel>
+		</Sockets>
+		<Scale>2.0</Scale>
+		<FireRate>1.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<SynchroMode>Sync</SynchroMode>
+		<TurnSpeed X="60" Y="60" />
+		<PitchRange X="-90" Y="0" />
+		<YawRange X="-180" Y="180" />
+		<FireCone X="0.005" Y="0.005" />
+		<AimType>Turret</AimType>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
+		<AutoAimDefault>true</AutoAimDefault>
+		<TargetSizeRange X="0.0" Y="0.05" />
+		<TargetType Type="Torpedo" Priority="1.0" />
+		<TargetType Type="HeavyMissile" Priority="4.0" />
+		<TargetType Type="LightMissile" Priority="5.0" />
+		<TargetType Type="Mine" Priority="0.5" />
+		<TrackNoFireClasses>Bomber</TrackNoFireClasses>
+		<TargetTrackRange X="0.0" Y="15.0" />
+		<LeadAimAcceleration>1.0</LeadAimAcceleration>
+		<IgnoreDamageType>true</IgnoreDamageType>
+		<Icon>AMSLaser</Icon>
+		<HUDIcon>SI_AntiMissileLaser</HUDIcon>
+		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
+		<LeadReticle>false</LeadReticle>
+		<Sound>
+			<Name>AMSFire</Name>
+			<DistRangeScale>0.6</DistRangeScale>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>2.0</RotatingPitch>
+			<AmbientName>AMSAmbient</AmbientName>
+			<AmbientPitch>1.0</AmbientPitch>
+		</Sound>
+        <Muzzle>
+			<Effect>ParticleEffects/Weapons/Kinetic/P_WavyStreakMuzzleFlash</Effect>
+			<Scale>1.0</Scale>
+			<Offset>0.0</Offset>
+			<LightColor X="0.5" Y="1.0" Z="0.15" />
+			<LightCutoff>100.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
+			<LightDuration>1.0</LightDuration>
+		</Muzzle>
+		<Ammo>
+			<Type>Energy</Type>
+			<Cost>16</Cost>
+		</Ammo>
+		<Shot>
+			<Type>Laser</Type>
+			<Name>ParticleEffects/Beams/P_Laser_AMS</Name>
+			<Scale X="0.0020" Y="0.030" Z="0.0020" />
+			<Offset>0.0</Offset>
+			<LightQuality>4</LightQuality>
+			<LightColor X="0.1" Y="1.0" Z="0.4" />
+			<LightCutoff>25.0</LightCutoff>
+			<KineticDamage>3.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<DamageType>ShieldOnlyThenHullOnly</DamageType> <!-- Type of damage -->
+			<DamageRate>0.25</DamageRate>
+			<LifeTime>0.30</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>8.0</Speed> <!-- Initial speed the shot gets fired at -->
+			<Range>8.0</Range>
+			<Heat>20.0</Heat>
+			<LimitRangeToTarget>true</LimitRangeToTarget>
+		</Shot>
+		<Impact>
+			<Metal>
+                <Effect>ImpactMetalMediumKinetic</Effect>
+				<Offset>0.005</Offset>
+				<Scale>1.0</Scale>
+				<Bounce>0.0</Bounce>
+                <BounceEffect>ImpactMetalSparkles</BounceEffect>
+				<BounceEffectScale>2.0</BounceEffectScale>
+			</Metal>
+			<Shield>
+				<Effect>ImpactShieldSmallKinetic</Effect>
+				<Offset>0.0025</Offset>
+				<Scale>1.0</Scale>
+			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallEnergy</Effect>
+				<Offset>0.001</Offset>
+				<Scale>1.0</Scale>
+			</Surface>
+			<SmokeDamageScale>0.005</SmokeDamageScale>
+		</Impact>
+	</Weapon>
+
+	<Weapon>
 		<ID>TurretRailgunMK4</ID>
 		<Name>UI_Weapon_RailgunMK4_Name</Name>
 		<LongDescr>UI_Weapon_RailgunMK4_LongDescr</LongDescr>
