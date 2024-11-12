@@ -32,8 +32,8 @@
         <GravityMass>5.972e21</GravityMass>
 	    <Ground State="true" >
 	        <Patch TexRes="512" />
-<!-- 	        <SeaLevel Value="0.225" /> -->
-	        <SeaLevel Value="0.0" />
+	        <SeaLevel Value="0.225" />
+	        <!-- <SeaLevel Value="0.0" /> -->
 	        <Slope Power="1.0" />
 	        <Fractal Altitude="0.25" Slope="0.3" />
 	        <Biome TexRes="2048" />
@@ -43,7 +43,7 @@
 			<Density>60.0</Density>
 			<Decay>0.2</Decay>
 		</Atmosphere>
-	    <Ring State="true" >
+	    <Ring State="false" >
 	        <Seed Value="1235" />
 	        <Radius Min="10000" Max="12000" />
 	        <Thickness Value="10.0" />
@@ -124,17 +124,17 @@
 	<CClientPlanetComponent>
 		<Atmosphere State="true" >
 			<Thickness Value="80.0" />
-			<BetaR Red="0.0010" Green="0.0030" Blue="0.0150" />
+			<BetaR Red="0.0150" Green="0.0030" Blue="0.0010" />
 			<HR Value="12.0" />
-	        <BetaMSca Red="0.001" Green="0.0100" Blue="0.004" />
-	        <BetaMEx Red="0.0100" Green="0.0210" Blue="0.0130" />
+	        <BetaMSca Red="0.004" Green="0.0100" Blue="0.001" />
+	        <BetaMEx Red="0.0130" Green="0.0210" Blue="0.0100" />
 			<HM Value="4.0" />
 			<G Value="0.7" />
 		</Atmosphere>
 	    <Ground State="true" >
 	        <Patch TexRes="512" />
-<!-- 	        <SeaLevel Value="0.225" /> -->
-	        <SeaLevel Value="0.0" />
+	        <SeaLevel Value="0.225" />
+	        <!-- <SeaLevel Value="0.0" /> -->
 	        <Slope Power="1.0" />
 	        <Fractal Altitude="0.25" Slope="0.3" />
 	        <Biome TexRes="2048" />
@@ -146,9 +146,12 @@
 	        <Spectrum TimeScale="0.5" Amplitude="1.0" Wind="600.0" />
 	        <Foam State="true" ParamX="-1.0" ParamY="0.95" ParamZ="25.0" ParamW="0.01" Intensity="1.0" Texture="$Dev/Galaxy/Foam.png" />
 	    </Ocean>
-	    <Cloud State="false" >
+	    <!-- <Cloud State="true" >
 	        <Altitude Value="15.0" />
-	    </Cloud>
+	    </Cloud> -->
+	    <!-- <Cloud State="true" >
+	        <Altitude Value="15.1" />
+	    </Cloud> -->
 	    <Ring State="true" >
 	        <Seed Value="1235" />
 	        <Radius Min="10000" Max="12000" />

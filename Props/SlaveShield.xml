@@ -1,0 +1,509 @@
+<ActorConfig>
+	<Meta>
+		<ActorType>Ship</ActorType>
+		<SpawnType>Carrier</SpawnType>
+		<IsPlayerSpawnable>false</IsPlayerSpawnable>
+		<ShipClassCost>1800</ShipClassCost>
+		<BattleBudgetCost>4500</BattleBudgetCost>
+		<ShipBattleScore>20</ShipBattleScore>
+		<DisplayName>SlaveShield</DisplayName>
+		<ClassAbbrev>CAR</ClassAbbrev>
+		<!-- <WorldBoxSize X="1.14701" Y="0.375646" Z="2.216075" /> -->
+		<WorldBoxSize X="10000" Y="10000" Z="10000" />
+		<MaxSpawnedInGame>4</MaxSpawnedInGame>
+		<IndicatorCornerClassID>3</IndicatorCornerClassID>
+	</Meta>
+	<CClientNodeComponent>
+        <Object Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod6" >
+            <!-- <LOD Level="1" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod1" />
+            <LOD Level="2" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod2" />
+            <LOD Level="3" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod3" />
+            <LOD Level="4" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod4" />
+            <LOD Level="5" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod5" />
+            <LOD Level="6" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod6" />
+            <LODPower>0.30</LODPower>
+			<RejectionSize>0.005</RejectionSize> -->
+            <Material Override="true" />
+            <ThrusterModel ConfigFile="$Dev/config/thrusters/CarrierThrusters.xml" >
+                <LightsInheritVisibility>false</LightsInheritVisibility>
+                <ParticlesInheritVisibility>true</ParticlesInheritVisibility>
+                <ActivateDistance>14.0</ActivateDistance>
+            </ThrusterModel>
+
+			<Module>
+		        <Class>CarrierSpawn</Class>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="-0.06" Y="0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="0.06" Y="0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="-0.06" Y="-0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="0.06" Y="-0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Corvette</Type>
+			        <Size X="0.069" Y="0.057" Z="0.102" />
+			        <Position X="0.2" Y="0.0" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Corvette</Type>
+			        <Size X="0.069" Y="0.057" Z="0.102" />
+			        <Position X="-0.2" Y="0.0" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			</Module>
+        </Object>
+	</CClientNodeComponent>
+	<CServerNodeComponent>
+		<TransformNode>
+			<Module>
+		        <Class>CarrierSpawn</Class>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="-0.06" Y="0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="0.06" Y="0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="-0.06" Y="-0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Fighter</Type>
+			        <Size X="0.026" Y="0.020" Z="0.045" />
+			        <Position X="0.06" Y="-0.12" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Corvette</Type>
+			        <Size X="0.069" Y="0.057" Z="0.102" />
+			        <Position X="0.2" Y="0.0" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			    <Spawn>
+					<Type>Corvette</Type>
+			        <Size X="0.069" Y="0.057" Z="0.102" />
+			        <Position X="-0.2" Y="0.0" Z="-1.4" />
+			        <Rotation X="0" Y="0" Z="0" W="1" />
+			        <Offset X="0" Y="0.0" Z="0" />
+			    </Spawn>
+			</Module>
+		</TransformNode>
+	</CServerNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+		<ThrustersEmissiveScale>5.0</ThrustersEmissiveScale>
+
+		<DyingExplosions>100</DyingExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DyingEffectScale>1.50</DyingEffectScale>
+		<DyingExplosionsMode>false</DyingExplosionsMode>
+
+		<DeathExplosions>60</DeathExplosions>
+		<DeathExplosionsDuration>6.0</DeathExplosionsDuration>
+		<DeathExplosionsEffect>SmallExplosionSound</DeathExplosionsEffect>
+
+		<DeathCoreEffect>BlueShockwave</DeathCoreEffect>
+		<DeathCoreEffectScale>60.0</DeathCoreEffectScale>
+		<DeathCoreEffectDelay>6.0</DeathCoreEffectDelay>
+		<DeathCoreEffectOffset X="0.0" Y="0.0" Z="-0.4" />
+
+		<DeathEffectCount>1</DeathEffectCount>
+		<DeathEffect>CarrierExplosion1</DeathEffect>
+		<DeathEffectScale>1.0</DeathEffectScale>
+		<DeathEffectMinScale>1.0</DeathEffectMinScale>
+		<DeathEffectMaxScale>1.0</DeathEffectMaxScale>
+		<DeathEffectRange>400.0</DeathEffectRange>
+		<DeathEffectLocalSpace>true</DeathEffectLocalSpace>
+
+		<ShrapnelCount>30</ShrapnelCount>
+		<ShrapnelEffect>ShrapnelBig</ShrapnelEffect>
+		<ShrapnelEffectScale>3.5</ShrapnelEffectScale>
+		<ShrapnelEffectDelay>6.0</ShrapnelEffectDelay>
+		<ShrapnelEffectDuration>1.0</ShrapnelEffectDuration>
+
+		<ContrailEffectSize>0.25</ContrailEffectSize>
+		<DamageEffectSize>0.30</DamageEffectSize>
+		<Skin>
+			<Name>CarrierScoria</Name>
+			<ColorMap>Ships/SFC-Carrier/Skins/T_Carrier_Scoria</ColorMap>
+			<PaintColor1 X="0.6" Y="0.18" Z="0.132" W="1.0" />
+			<PaintColor2 X="1.0" Y="1.0" Z="1.0" W="1.0" />
+		</Skin>
+		<Skin>
+			<Name>CarrierHavoc</Name>
+			<ColorMap>Ships/SFC-Carrier/Skins/T_Carrier_Havoc</ColorMap>
+			<PaintColor1 X="1.0" Y="0.9" Z="0.10" W="1.0" />
+			<PaintColor2 X="0.54" Y="0.74" Z="1.0" W="1.0" />
+		</Skin>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+    <CClientCameraViewComponent>
+		<LinAccSmoothing>0.02</LinAccSmoothing>
+		<AngVelSmoothing>0.2</AngVelSmoothing>
+		<ViewRangeExt X="0.7" Y="1.5" />
+		<DefaultViewRangeExt>1.0</DefaultViewRangeExt>
+        <Camera Type="Capship">
+            <ViewPosition X="0" Y="-0.4638" Z="-1.8165" />
+			<ViewAngle X="0" Y="0" />
+			<ViewOffset>0.45</ViewOffset>
+        </Camera>
+        <Camera Type="External">
+            <!-- chase camera behind ship -->
+            <ViewPosition X="0" Y="0.252" Z="-1.451" />
+			<ViewAngle X="0.130" Y="0" />
+        </Camera>
+        <Camera Type="Internal" >
+            <!-- bridge -->
+            <ViewPosition X="0" Y="0.236" Z="-0.3581" />
+        </Camera>
+    </CClientCameraViewComponent>
+	<CClientAudioComponent>
+		<SideThruster Target="SideThrusterBig" DistRangeScale="0.08" FadeLength="0.5" />
+		<MainThruster Target="MainThrusterHeavy2" DistRangeScale="0.47" FadeLength="2.0" />
+		<EngineIdle Target="EngineIdleHeavy1" FadeLength="2.0" />
+		<EngineFast Target="EngineFastHeavy2" FadeLength="2.0" />
+		<WarpAmbient Target="WarpAmbient" FadeLength="2.0" />
+		<AtmoFriction Target="AtmoFriction" FadeLength="2.0" />
+		<DamageShield Target="DamageShieldBig" />
+		<DamagePower Target="DamagePowerBig" />
+		<DamageEngine Target="DamageEngineBig" />
+	</CClientAudioComponent>
+	<CClientActorComponent>
+		<ControlScheme>CapShip</ControlScheme>
+	</CClientActorComponent>
+	<CServerActorComponent>
+    <StratValue>0</StratValue>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>1000000000.0</EmissionsRange>
+		<SensorPower>2.0</SensorPower>
+		<IsScannable>true</IsScannable>
+		<MaxScanRange>100000.0</MaxScanRange>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>LargeShip</Indicator>
+		<SurfaceType>Metal</SurfaceType>
+	</CActorComponent>
+	<CBodyComponent>
+    	<PhysicsBody Type="Mesh" >
+			<CollisionFile>$Dev/Ships/SFC-Carrier/Collision/a8b477c3.insm</CollisionFile>
+			<Dynamic>true</Dynamic>
+            <Mass>78000.0</Mass>
+            <Collisions>false</Collisions>
+        </PhysicsBody>
+<!--     	<PhysicsBody Type="Box" >
+        	<SidesSize X="1.16533" Y="0.36359" Z="2.16519" />
+            <Offset X="0" Y="0" Z="-0.05475" />
+            <Mass>100000.0</Mass>
+            <Collisions>true</Collisions>
+        </PhysicsBody> -->
+<!-- 		<CollisionBody>
+			<CollisionFile>$Dev/Ships/SFC-Carrier/Collision/79bf60f0.insm</CollisionFile>
+		</CollisionBody> -->
+		<!-- <HitMesh>
+			<CollisionFile>$Dev/Ships/SFC-Carrier/Collision/79bf60f0.insm</CollisionFile>
+			<SplitCost>0.05</SplitCost>
+		</HitMesh> -->
+	</CBodyComponent>
+    <CPropulsionComponent>
+        <RampUpSpeed>0.2</RampUpSpeed>
+        <MinLinearThrust X="-800.0" Y="-600.0" Z="-1800.0" />
+        <MaxLinearThrust X="800.0" Y="600.0" Z="1800.0" />
+        <BaseRotationThrust X="1800.0" Y="1600.0" Z="1200.0" />
+        <FullRotationThrust X="1800.0" Y="1600.0" Z="1200.0" />
+        <RotationStabilizer X="22.0" Y="22.0" Z="15.0" />
+		<BaseRotationSpeed X="0.24" Y="0.16" Z="0.30" />
+		<FullRotationSpeed X="0.24" Y="0.16" Z="0.30" />
+		<RotationDampener>0.63</RotationDampener>
+		<AtmoDecay>0.04</AtmoDecay>
+		<RotWarpLimiter>0.5</RotWarpLimiter>
+		<DriftLimiter>5.0</DriftLimiter>
+		<CapSpeed>0.220</CapSpeed>
+    </CPropulsionComponent>
+	<CEngineComponent>
+		<EnergyPoints>3000</EnergyPoints>
+		<RechargeEnergyPoints>150</RechargeEnergyPoints>
+		<HeatPoints>3000</HeatPoints>
+		<DechargeHeatPoints>150</DechargeHeatPoints>
+	</CEngineComponent>
+	<CHullComponent>
+		<HitPoints>60000</HitPoints>
+		<DeathDuration>20.0</DeathDuration>
+		<DeathTiming>0.0</DeathTiming>
+		<KillCamTiming>4.0</KillCamTiming>
+		<DeathDebrisTiming>6.0</DeathDebrisTiming>
+		<DeathDebrisCount>20</DeathDebrisCount>
+		<DeathDebrisScale>20</DeathDebrisScale>
+		<DeathDebris>ShipDebris1</DeathDebris>
+		<DeathDebris>ShipDebris2</DeathDebris>
+		<DeathDebris>ShipDebris3</DeathDebris>
+		<DeathDebris>ShipDebris4</DeathDebris>
+		<DeathDebris>ShipDebris5</DeathDebris>
+		<DeathDebris>ShipDebris6</DeathDebris>
+		<DeathDebris>ShipDebris7</DeathDebris>
+		<DeathDebris>ShipDebris8</DeathDebris>
+		<SalvageDebrisCount>4</SalvageDebrisCount>
+		<DeathCredits>500</DeathCredits>
+		<GriefCredits>150</GriefCredits>
+		<DeathXP>500</DeathXP>
+		<Drag>0.00003</Drag>
+		<ArmorPoints>4</ArmorPoints>
+		<DefaultSkins>
+			<Skin TeamID="0">CarrierHavoc</Skin>
+			<Skin TeamID="1">CarrierScoria</Skin>
+			<Skin TeamID="2">CarrierHavoc</Skin>
+		</DefaultSkins>
+	</CHullComponent>
+
+	<CShieldComponent>
+		<Type>Spherical</Type>
+		<Radius X="6380" Y="6380" Z="6380" />
+		<!-- <Origin X="0" Y="0" Z="0" /> -->
+		<Origin X="0" Y="0" Z="7000" />
+		<ShieldPoints>10000000</ShieldPoints>
+		<RechargeShieldPoints>0</RechargeShieldPoints>
+		<RechargeDelay>0.0</RechargeDelay>
+		<MinHitProbability>1.0</MinHitProbability>
+		<DamageRatioThreshold>0.01</DamageRatioThreshold>
+		<RepairRatioThreshold>0.25</RepairRatioThreshold>
+		<RepairDuration>180.0</RepairDuration>
+	</CShieldComponent>
+	<CClientShieldComponent>
+		<BubbleMesh>FX/Shields/SM_GroundShield</BubbleMesh>
+		<GridMesh>FX/Shields/SM_spherified_hex_thick</GridMesh>
+	</CClientShieldComponent>
+
+	<CWarpComponent>
+		<WarpChargeDuration>12.0</WarpChargeDuration>
+		<WarpCooldown>18.0</WarpCooldown>
+		<WarpSpeedCoeff>30.0</WarpSpeedCoeff>
+		<MinWarpSpeed>0.146</MinWarpSpeed>
+	</CWarpComponent>
+	<CClientWarpComponent>
+		<WarpChargeSound>WarpCharging</WarpChargeSound>
+		<WarpChargePitchScale>0.5</WarpChargePitchScale>
+		<WarpInSound>WarpLaunch</WarpInSound>
+		<WarpOutSound>WarpExit</WarpOutSound>
+		<Charge>
+			<Mesh>FX/Warp/SM_Warp-entry-carrier</Mesh>
+			<Scale>1.0</Scale>
+		</Charge>
+		<Field>
+			<Mesh>FX/Warp/SM_Warp-field-carrier</Mesh>
+			<Scale>1.0</Scale>
+		</Field>
+		<LightsDist>10.8</LightsDist>
+		<LightsScale>720.0</LightsScale>
+	</CClientWarpComponent>
+	<CShipComponent>
+	</CShipComponent>
+	<CHardpointComponent>
+		<Layout>$Config/Ships/Layouts/CarrierLayout.xml</Layout>
+		<ExclusiveWeapons>false</ExclusiveWeapons>
+		<Group ID="0" />
+		<Group ID="1" />
+		<Group ID="2" />
+		<Group ID="3" />
+		<Group ID="4" />
+		<Group ID="5" />
+		<Group ID="6" />
+		<Group ID="7" />
+		<Group ID="8" />
+		<Group ID="9" />
+ 		<Hardpoint>
+			<Socket>s_mk4_front_bot_left_1</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_front_bot_left_2</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_front_bot_right_1</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_front_bot_right_2</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_front_top_left_1</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_front_top_left_2</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_front_top_right_1</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_front_top_right_2</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_mid_bot_left</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_mid_bot_right</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_mid_top_left</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_mid_top_right</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_rear_bot_left</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_rear_bot_right</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_rear_top_left</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk4_rear_top_right</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk5_bot_left_1</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk5_bot_left_2</Socket>
+		</Hardpoint>
+ 		<Hardpoint>
+			<Socket>s_mk5_bot_right_1</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk5_bot_right_2</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk5_top_left_1</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk5_top_left_2</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk5_top_right_1</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk5_top_right_2</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk6_bot_left</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk6_bot_right</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk6_top_left</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk6_top_right</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk7_bot</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mk7_top</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mko_missile_bot_left</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mko_missile_bot_right</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mko_missile_top_left</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mko_missile_top_right</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mod_reactor1</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mod_reactor2</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mod_weaponsmod1</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mod_propulsion1</Socket>
+		</Hardpoint>
+ 		<Hardpoint>
+			<Socket>s_mod_storage1</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mod_storage2</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mod_storage3</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mod_electronics1</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mod_electronics2</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mod_electronics3</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mod_structural1</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mod_structural2</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mod_shields1</Socket>
+		</Hardpoint>
+		<Hardpoint>
+			<Socket>s_mod_shields2</Socket>
+		</Hardpoint>
+	</CHardpointComponent>
+	<CAbilityComponent>
+	</CAbilityComponent>
+	<CServerHardpointComponent>
+		<Loadout Name="SphericalShieldCarrier" Proba="100" />
+	</CServerHardpointComponent>
+	<CServerModulesComponent>
+		<DamageModel>Global</DamageModel>
+	</CServerModulesComponent>
+	<CCarrierComponent>
+		<CarryPoints>30</CarryPoints>
+	</CCarrierComponent>
+	<CServerMissionComponent>
+		<BountyReward>250</BountyReward>
+	</CServerMissionComponent>
+</ActorConfig>
