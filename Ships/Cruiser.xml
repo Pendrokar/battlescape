@@ -651,12 +651,6 @@
 		<Hardpoint ID="27" >
 			<Socket>s_mko_missile_midX_bot_left</Socket>
 		</Hardpoint>
-		<Hardpoint ID="28" >
-			<Socket>s_mko_torpedo_top</Socket>
-		</Hardpoint>
-		<Hardpoint ID="29" >
-			<Socket>s_mko_torpedo_bot</Socket>
-		</Hardpoint>
 		<Hardpoint ID="30" >
 			<Socket>s_mod_weaponsmod1</Socket>
 		</Hardpoint>

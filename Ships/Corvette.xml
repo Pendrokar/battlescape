@@ -1284,7 +1284,8 @@
 	</CShipComponent>
 	<CHardpointComponent>
 		<Layout>$Config/Ships/Layouts/CorvetteLayout.xml</Layout>
-		<ExclusiveWeapons>true</ExclusiveWeapons>
+		<ExclusiveWeapons>false</ExclusiveWeapons>
+		<ForceManualAutoAim>true</ForceManualAutoAim>
 		<Group ID="0" />
 		<Group ID="1" />
 		<Group ID="2" />

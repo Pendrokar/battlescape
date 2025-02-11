@@ -1,0 +1,19 @@
+<Loadout Version="0.0.0.1">
+    <HardpointPresets>
+        <Preset ID="0" Name="">
+            <Config Weapon="AutoTurretGunMK4" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="1" Name="">
+            <Config Weapon="AutoTurretBlasterMK4" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="2" Name="">
+            <Config Weapon="RepairBeamMK5" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="3" Name="">
+            <Config Weapon="RearmBeamMK5" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="4" Name="">
+            <Config Weapon="RepairDronePod" AutoAim="false" AutoFire="false"/>
+        </Preset>
+    </HardpointPresets>
+</Loadout>

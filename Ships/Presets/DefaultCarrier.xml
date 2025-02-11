@@ -1,0 +1,19 @@
+<Loadout Version="0.0.0.1">
+    <HardpointPresets>
+        <Preset ID="0" Name="">
+            <Config Weapon="LaserAMSMK3" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="1" Name="">
+            <Config Weapon="TurretFlakMK4" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="2" Name="">
+            <Config Weapon="TurretGunMK5" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="3" Name="">
+            <Config Weapon="TurretGunMK6" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="4" Name="">
+            <Config Weapon="MissileLauncherMK3" AutoAim="false" AutoFire="false"/>
+        </Preset>
+    </HardpointPresets>
+</Loadout>

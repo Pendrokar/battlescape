@@ -780,7 +780,6 @@
 			<Size>0.15</Size>
 			<Duration>0.75</Duration>
 		</Vibrations>
-		<Smog>8</Smog>
 	</Effect>
 
 	<Effect>
@@ -917,7 +916,25 @@
 			<Size>0.03</Size>
 			<Duration>0.7</Duration>
 		</Vibrations>
-		<Smog>12</Smog>
+	</Effect>
+
+	<Effect>
+		<Name>EMPShockwave</Name>
+		<ParticleSystem>ParticleEffects/Abilities/WarpJam/P_Warp-interference-bubble3</ParticleSystem>
+		<Scale>1.0</Scale>
+		<LightColor X="0.2" Y="0.4" Z="1.0" />
+		<LightIntensity>2000000000000.0</LightIntensity>
+		<LightMLQ>8192.0</LightMLQ>
+		<LightDuration>1.25</LightDuration>
+		<Sound>
+			<Name>EMPExplosion</Name>
+			<PostFixRandomCount>-1</PostFixRandomCount>
+		</Sound>
+		<Vibrations>
+			<Amplitude>1.0</Amplitude>
+			<Size>0.03</Size>
+			<Duration>0.7</Duration>
+		</Vibrations>
 	</Effect>
 
 	<Effect>

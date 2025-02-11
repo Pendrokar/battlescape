@@ -215,7 +215,7 @@
 		<Icon>$UI/loadout_proj_rocket.svg</Icon>
 		<ShortDescr>UI_System_ExtraMissiles_Descr</ShortDescr>
 		<Property Name="Missiles" Value="0.5" Target="WeaponsMaxAmmo" Op="MulInitAdd" Descr="UI_System_ExtraMissiles_Missiles" Quality="Positive" />
-		<Property Name="Mass" Value="0.75" Target="WeaponsMass" Op="MulInitAdd" Descr="UI_System_ExtraMissiles_Mass" Quality="Negative" />
+		<Property Name="Mass" Value="0.40" Target="WeaponsMass" Op="MulInitAdd" Descr="UI_System_ExtraMissiles_Mass" Quality="Negative" />
 		<Actor Class="Interceptor" />
 		<Actor Class="Bomber" />
 		<Actor Class="Corvette" />
@@ -231,13 +231,11 @@
 		<Icon>$UI/loadout_proj_rocket.svg</Icon>
 		<ShortDescr>UI_System_ExtraTorps_Descr</ShortDescr>
 		<Property Name="Torps" Value="0.5" Target="WeaponsMaxAmmo" Op="MulInitAdd" Descr="UI_System_ExtraTorps_Torps" Quality="Positive" />
-		<Property Name="Mass" Value="1.5" Target="WeaponsMass" Op="MulInitAdd" Descr="UI_System_ExtraTorps_Mass" Quality="Negative" />
+		<Property Name="Mass" Value="2.5" Target="WeaponsMass" Op="MulInitAdd" Descr="UI_System_ExtraTorps_Mass" Quality="Negative" />
 		<Actor Class="Bomber" />
-		<Actor Class="Cruiser" />
 		<Weapon ID="TorpedoPod" />
-		<Weapon ID="TorpedoLauncherMK3" />
+		<Weapon ID="KineticTorpedoPod" />
 		<Weapon ID="EMPTorpedoPod" />
-		<Weapon ID="EMPTorpedoLauncherMK3" />
 	</ShipSystem>
 	<ShipSystem ID="23" Name="ExtraMines" Category="Storage" Class="MK1;MK2;MK3;MK4;MK5;MK6" Credits="2000" Requires="" Excludes="" AbilityType="Passive" Stack="2" Rank="8" >
 		<DisplayName>UI_System_ExtraMines_Name</DisplayName>
@@ -331,13 +329,6 @@
 		<Weapon ID="Halcyon" />
 		<Weapon ID="RailgunMK1" />
 	</ShipSystem>
-<!-- 	<ShipSystem ID="34" Name="GyroBoost" Category="Propulsion" Class="MK1;MK2;MK3" Credits="750" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="3" >
-		<DisplayName>UI_System_GyroBoost_Name</DisplayName>
-		<Icon>$UI/loadout_engine.svg</Icon>
-		<ShortDescr>UI_System_GyroBoost_Descr</ShortDescr>
-		<Property Name="BaseRotationThrust" Value="0.5" Target="BaseRotationThrust" Op="MulInitAdd" Descr="UI_System_GyroBoost_BaseRotationThrust" Quality="Positive" />
-		<Property Name="FullRotationThrust" Value="0.5" Target="FullRotationThrust" Op="MulInitAdd" />
-	</ShipSystem> -->
 	<ShipSystem ID="35" Name="LateralBoost" Category="Propulsion" Class="MK1;MK2;MK3;MK4;MK5;MK6;MK7" Credits="1500" Requires="" Excludes="ForwardBoost" AbilityType="Passive" Stack="1" Rank="8" >
 		<DisplayName>UI_System_LateralBoost_Name</DisplayName>
 		<Icon>$UI/loadout_engine.svg</Icon>
@@ -421,10 +412,9 @@
 		<Weapon ID="MissileLauncherMK3" />
 		<Weapon ID="EMPMissilePod" />
 		<Weapon ID="FixedMissileLauncherMK3" />
-		<Weapon ID="TorpedoLauncherMK3" />
 		<Weapon ID="SSMBattery" />
+		<Weapon ID="KineticTorpedoPod" />
 		<Weapon ID="EMPTorpedoPod" />
-		<Weapon ID="EMPTorpedoLauncherMK3" />
 	</ShipSystem>
  	<ShipSystem ID="44" Name="PassiveMineLauncher" Category="External" Class="MinePod" Credits="2250" Requires="" Excludes="MineLauncher" AbilityType="Event" Stack="1" Rank="9" >
 		<DisplayName>UI_System_PassiveMineLauncher_Name</DisplayName>
@@ -501,11 +491,10 @@
 		<Weapon ID="MinePod" />
 		<Weapon ID="MissileLauncherMK3" />
 		<Weapon ID="FixedMissileLauncherMK3" />
-		<Weapon ID="TorpedoLauncherMK3" />
 		<Weapon ID="EMPMissilePod" />
 		<Weapon ID="SSMBattery" />
+		<Weapon ID="KineticTorpedoPod" />
 		<Weapon ID="EMPTorpedoPod" />
-		<Weapon ID="EMPTorpedoLauncherMK3" />
 	</ShipSystem>
 	<ShipSystem ID="50" Name="HangarDeployRate" Category="Storage" Class="MK6;MK7" Credits="3000" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="13" >
 		<DisplayName>UI_System_HangarDeployRate_Name</DisplayName>
@@ -616,6 +605,48 @@
 		<DisplayName>UI_System_AnalysisComputer_Name</DisplayName>
 		<Icon>$UI/loadout_electronics.svg</Icon>
 		<ShortDescr>UI_System_AnalysisComputer_Descr</ShortDescr>
+	</ShipSystem>
+	<ShipSystem ID="61" Name="EMPField1" Category="WeaponsMod" Class="MK4" Credits="3000" Requires="" Excludes="EMPField2" AbilityType="Event" Stack="1" Rank="10" >
+		<DisplayName>UI_System_EMPField1_Name</DisplayName>
+		<Icon>$UI/loadout_capacitor.svg</Icon>
+		<ShortDescr>UI_System_EMPField1_Descr</ShortDescr>
+		<HardpointPublic>true</HardpointPublic>
+		<Actor Class="Destroyer" />
+		<Property Name="AbilityCooldown" Value="60.0" Target="EMPField1_AbilityCooldown" Op="Add" Descr="UI_System_EMPField1_AbilityCooldown" Quality="Negative" />
+		<Property Name="EnergyCost" Descr="UI_System_EMPField1_EnergyCost" Quality="Negative" />
+		<Property Name="Damage" Descr="UI_System_EMPField1_Damage" Quality="Positive" />
+		<Property Name="Range" Descr="UI_System_EMPField1_Range" Quality="Positive" />
+		<Property Name="ShieldHarm" Descr="UI_System_EMPField1_ShieldHarm" Quality="Negative" />
+		<AbilityAction>EMPShockwave</AbilityAction>
+		<AbilityAmmoType>Energy</AbilityAmmoType>
+		<AbilityAmmoCost>500.0</AbilityAmmoCost>
+		<AbilityAmmoPerSec>0.0</AbilityAmmoPerSec>
+		<AbilityActivationEffect>EMPShockwave</AbilityActivationEffect>
+		<AbilityActivationEffectScale>1.5</AbilityActivationEffectScale>
+		<AbilityActionProperty Name="EMPDamage">15000.0</AbilityActionProperty>
+		<AbilityActionProperty Name="EMPRange">2.5</AbilityActionProperty>
+		<AbilityActionProperty Name="ShieldSelfDamage">2000.0</AbilityActionProperty>
+	</ShipSystem>
+	<ShipSystem ID="62" Name="EMPField2" Category="WeaponsMod" Class="MK4" Credits="3000" Requires="" Excludes="EMPField1" AbilityType="Event" Stack="1" Rank="10" >
+		<DisplayName>UI_System_EMPField2_Name</DisplayName>
+		<Icon>$UI/loadout_capacitor.svg</Icon>
+		<ShortDescr>UI_System_EMPField2_Descr</ShortDescr>
+		<HardpointPublic>true</HardpointPublic>
+		<Actor Class="Destroyer" />
+		<Property Name="AbilityCooldown" Value="60.0" Target="EMPField2_AbilityCooldown" Op="Add" Descr="UI_System_EMPField2_AbilityCooldown" Quality="Negative" />
+		<Property Name="EnergyCost" Descr="UI_System_EMPField2_EnergyCost" Quality="Negative" />
+		<Property Name="Damage" Descr="UI_System_EMPField2_Damage" Quality="Positive" />
+		<Property Name="Range" Descr="UI_System_EMPField2_Range" Quality="Positive" />
+		<Property Name="ShieldHarm" Descr="UI_System_EMPField2_ShieldHarm" Quality="Negative" />
+		<AbilityAction>EMPShockwave</AbilityAction>
+		<AbilityAmmoType>Energy</AbilityAmmoType>
+		<AbilityAmmoCost>500.0</AbilityAmmoCost>
+		<AbilityAmmoPerSec>0.0</AbilityAmmoPerSec>
+		<AbilityActivationEffect>EMPShockwave</AbilityActivationEffect>
+		<AbilityActivationEffectScale>3.0</AbilityActivationEffectScale>
+		<AbilityActionProperty Name="EMPDamage">1000.0</AbilityActionProperty>
+		<AbilityActionProperty Name="EMPRange">5.0</AbilityActionProperty>
+		<AbilityActionProperty Name="ShieldSelfDamage">1000.0</AbilityActionProperty>
 	</ShipSystem>
 
 <!-- 	Upgrade to reduce energy emissions -->

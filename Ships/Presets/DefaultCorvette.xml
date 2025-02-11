@@ -1,0 +1,17 @@
+<Loadout Version="0.0.0.1">
+    <HardpointPresets>
+        <Preset ID="0" Name="">
+            <Config Weapon="TurretGunMK4" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="1" Name="">
+            <Config Weapon="TurretBlasterMK4" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="2" Name="">
+            <Config Weapon="MissilePod" AutoAim="false" AutoFire="false"/>
+        </Preset>
+        <Preset ID="3" Name="">
+            <Config System="WarpJam1" AutoAim="false" AutoFire="false"/>
+        </Preset>
+        <Preset ID="5" Name=""/>
+    </HardpointPresets>
+</Loadout>

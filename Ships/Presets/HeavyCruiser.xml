@@ -1,0 +1,19 @@
+<Loadout Version="0.0.0.1">
+    <HardpointPresets>
+        <Preset ID="0" Name="">
+            <Config Weapon="TurretGunMK6" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="1" Name="">
+            <Config Weapon="TurretBlasterMK6" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="2" Name="">
+            <Config Weapon="ThunderboltMK7" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="3" Name="">
+            <Config Weapon="HeraclesMK7" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="4" Name="">
+            <Config Weapon="MissileLauncherMK3" AutoAim="false" AutoFire="false"/>
+        </Preset>
+    </HardpointPresets>
+</Loadout>

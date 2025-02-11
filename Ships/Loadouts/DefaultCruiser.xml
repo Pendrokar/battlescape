@@ -28,7 +28,5 @@
 	<Mount HardpointName="s_mko_missile_midX_bot_right" Weapon="MissileLauncherMK3" GroupID="5" />
 	<Mount HardpointName="s_mko_missile_midX_top_left" Weapon="MissileLauncherMK3" GroupID="5" />
 	<Mount HardpointName="s_mko_missile_midX_top_right" Weapon="MissileLauncherMK3" GroupID="5" />
- 	<Mount HardpointName="s_mko_torpedo_bot" Weapon="TorpedoLauncherMK3" GroupID="6" />
-	<Mount HardpointName="s_mko_torpedo_top" Weapon="TorpedoLauncherMK3" GroupID="6" />
 	<Mount HardpointName="s_mod_electronics1" System="FlightAssist" />
 </Loadout>

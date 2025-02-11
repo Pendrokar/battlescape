@@ -1,0 +1,13 @@
+<Loadout Version="0.0.0.1">
+    <HardpointPresets>
+        <Preset ID="0" Name="">
+            <Config Weapon="RailgunMK1" AutoAim="false" AutoFire="false"/>
+        </Preset>
+        <Preset ID="1" Name="">
+            <Config Weapon="GimbalBlasterMK1" AutoAim="false" AutoFire="false"/>
+        </Preset>
+        <Preset ID="2" Name="">
+            <Config Weapon="EMPMissilePod" AutoAim="false" AutoFire="false"/>
+        </Preset>
+    </HardpointPresets>
+</Loadout>

@@ -1,0 +1,16 @@
+<Loadout Version="0.0.0.1">
+    <HardpointPresets>
+        <Preset ID="0" Name="">
+            <Config Weapon="RocketLauncher" AutoAim="false" AutoFire="false"/>
+        </Preset>
+        <Preset ID="1" Name="">
+            <Config Weapon="GimbalGunMK1" AutoAim="false" AutoFire="false"/>
+        </Preset>
+        <Preset ID="2" Name="">
+            <Config Weapon="GimbalBlasterMK1" AutoAim="false" AutoFire="false"/>
+        </Preset>
+        <Preset ID="3" Name="">
+            <Config Weapon="MissilePod" AutoAim="false" AutoFire="false"/>
+        </Preset>
+    </HardpointPresets>
+</Loadout>

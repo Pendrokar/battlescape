@@ -146,18 +146,6 @@
 		<position x="0" y="0.13510802388191223145" z="0.079262524843215942383" Type="3dsMax"/>
 		<rotation x="0" y="0" z="0" w="1" Type="3dsMax"/>
 	</Socket>
-	<Socket Name="s_mko_torpedo_bot" >
-		<Size>TorpedoPod</Size>
-		<Category>Weapons</Category>
-		<position x="0.00031251207110472023487" y="0.38482260704040527344" z="0.022004989907145500183" Type="3dsMax"/>
-		<rotation x="0.50000005960464477539" y="-0.4999999701976776123" z="-0.49999985098838806152" w="0.50000017881393432617" Type="3dsMax"/>
-	</Socket>
-	<Socket Name="s_mko_torpedo_top" >
-		<Size>TorpedoPod</Size>
-		<Category>Weapons</Category>
-		<position x="0" y="0.38499292731285095215" z="-0.023447595536708831787" Type="3dsMax"/>
-		<rotation x="-0.5" y="-0.5" z="-0.50000005960464477539" w="-0.5" Type="3dsMax"/>
-	</Socket>
 	<Socket Name="s_mod_electronics4" >
 		<Size>Mk5</Size>
 		<Category>Electronics</Category>
