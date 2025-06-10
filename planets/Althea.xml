@@ -1,0 +1,437 @@
+<ActorConfig>
+	<Meta>
+		<ActorType>Planet</ActorType>
+		<MapIconName>Planet</MapIconName>
+		<MapIconColor X="0.6" Y="0.4" Z="0.1" W="1" />
+  		<MapIconSize>2000</MapIconSize>
+	</Meta>
+	<CNodeComponent>
+		<TransformNode>
+		</TransformNode>
+	</CNodeComponent>
+	<CServerActorComponent>
+		<Name>Althea</Name>
+		<NetworkRange>0.0005</NetworkRange>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>10000000000.0</EmissionsRange>
+		<SensorPower>0.0</SensorPower>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>Planet</Indicator>
+		<SurfaceType>Surface</SurfaceType>
+	</CActorComponent>
+	<CClientActorComponent>
+	</CClientActorComponent>
+	<CBodyComponent>
+	</CBodyComponent>
+	<CPlanetComponent>
+		<Type>GasGiant</Type>
+		<Radius>63000.0</Radius>
+		<RotationSpeed Value="0.0" />
+        <GravityMass>1.127e23</GravityMass>
+		<Atmosphere>
+			<Density>800.0</Density>
+			<Decay>0.17</Decay>
+		</Atmosphere>
+	    <Ring State="true" >
+	        <Seed Value="1236" />
+			<MaxDepth Value="17" />
+	        <Radius Min="80000" Max="90000" />
+	        <Thickness Value="20.0" />
+	        <BaseColor>
+	            <Color R="70" G="56" B="50" Proba="100"/>
+	            <Color R="255" G="230" B="210" Proba="60"/>
+	            <Color R="180" G="168" B="150" Proba="40"/>
+	            <Color R="104" G="100" B="100" Proba="40"/>
+	        </BaseColor>
+		    <Fade Factor="0.0015" />
+			<Noise Factor="4.0" />
+	        <DiffuseColor Red="1.0" Green="1.0" Blue="1.0" />
+	        <AmbientColor Red="0.16" Green="0.16" Blue="0.16" />
+			<Map>
+				<Width>1024</Width>
+				<Height>64</Height>
+				<ColorRange>1</ColorRange>
+				<ContrastRange X="0.95" Y="0.95" />
+				<NoiseAmp>0.1</NoiseAmp>
+			</Map>
+	        <AsteroidField ImpostorFactor="2.0" >
+				<Cache>
+					<Mode>Time</Mode>
+					<Time>10.0</Time>
+				</Cache>
+	            <Meshes>
+	                <Mesh ID="0" Name="Celestial/Asteroids/BigA01/SM_BigA01" CollName="" CollFile="$Dev/Celestial/Asteroids/BigA01/e4fc0bb4.insm" />
+	                <Mesh ID="1" Name="Celestial/Asteroids/BigA02/SM_BigA02" CollName="" CollFile="$Dev/Celestial/Asteroids/BigA02/a03fe774.insm" />
+	                <Mesh ID="2" Name="Celestial/Asteroids/MedA01/SM_MedA01" CollName="" CollFile="$Dev/Celestial/Asteroids/MedA01/aba3af76.insm" />
+	                <Mesh ID="3" Name="Celestial/Asteroids/MedA02/SM_MedA02" CollName="" CollFile="$Dev/Celestial/Asteroids/MedA02/342737d7.insm" />
+	                <Mesh ID="4" Name="Celestial/Asteroids/SmallA01/SM_SmallA01" CollName="" CollFile="$Dev/Celestial/Asteroids/SmallA01/57a625d0.insm" />
+	                <Mesh ID="5" Name="Celestial/Asteroids/SmallA02/SM_SmallA02" CollName="" CollFile="$Dev/Celestial/Asteroids/SmallA02/e1bea016.insm" />
+	            </Meshes>
+
+	            <Level Depth="7" Count="2500" >
+	                <Mesh ID="0" Proba="0.5" MinSize="14.0" MaxSize="18.0" />
+	                <Mesh ID="1" Proba="0.5" MinSize="14.0" MaxSize="18.0" />
+	            </Level>
+	            <Level Depth="8" Count="1500" >
+	                <Mesh ID="0" Proba="0.5" MinSize="7.0" MaxSize="9.0" />
+	                <Mesh ID="1" Proba="0.5" MinSize="7.0" MaxSize="9.0" />
+	            </Level>
+	            <Level Depth="9" Count="750" >
+	                <Mesh ID="0" Proba="0.5" MinSize="3.0" MaxSize="5.0" />
+	                <Mesh ID="1" Proba="0.5" MinSize="3.0" MaxSize="5.0" />
+	            </Level>
+	            <Level Depth="10" Count="350" >
+	                <Mesh ID="2" Proba="0.5" MinSize="1.5" MaxSize="2.5" />
+	                <Mesh ID="3" Proba="0.5" MinSize="1.5" MaxSize="2.5" />
+	            </Level>
+	            <Level Depth="11" Count="125" >
+	                <Mesh ID="2" Proba="0.5" MinSize="1.0" MaxSize="1.25" />
+	                <Mesh ID="3" Proba="0.5" MinSize="1.0" MaxSize="1.25" />
+	            </Level>
+	            <Level Depth="12" Count="25" >
+	                <Mesh ID="2" Proba="0.5" MinSize="0.5" MaxSize="0.7" />
+	                <Mesh ID="3" Proba="0.5" MinSize="0.5" MaxSize="0.7" />
+	            </Level>
+	            <Level Depth="13" Count="8" >
+	                <Mesh ID="4" Proba="0.5" MinSize="0.25" MaxSize="0.35" />
+	                <Mesh ID="5" Proba="0.5" MinSize="0.25" MaxSize="0.35" />
+	            </Level>
+	            <Level Depth="14" Count="4" >
+	                <Mesh ID="4" Proba="0.5" MinSize="0.12" MaxSize="0.18" />
+	                <Mesh ID="5" Proba="0.5" MinSize="0.12" MaxSize="0.18" />
+	            </Level>
+	            <Level Depth="15" Count="2" >
+	                <Mesh ID="4" Proba="0.5" MinSize="0.08" MaxSize="0.1" />
+	                <Mesh ID="5" Proba="0.5" MinSize="0.08" MaxSize="0.1" />
+	            </Level>
+
+	            <Level Depth="17" Count="0" >
+	            </Level>
+
+		        <Dust Intensity="3000" NearFadeFactor="0.05" MinLevel="6" MaxLevel="11" BaseSize="6.0" />
+				<Debris Level="17" Count="50" />
+	        </AsteroidField>
+	    </Ring>
+	</CPlanetComponent>
+	<CClientPlanetComponent>
+	    <Atmosphere State="true" >
+	        <Thickness Value="600.0" />
+	        <BetaR Red="0.02" Green="0.003" Blue="0.001" />
+	        <HR Value="80.0" />
+	        <BetaMSca Red="0.0" Green="0.0" Blue="0.0" />
+	        <BetaMEx Red="0.0" Green="0.0" Blue="0.0" />
+	        <HM Value="8" />
+	        <G Value="0.75" />
+	    </Atmosphere>
+
+		<Cloud LayerID="0" State="true" Transparent="true" >
+	        <Altitude Value="80.0" />
+	        <RotationSpeed Value="-0.00095" />
+			<CloudPower>1.0</CloudPower>
+			<CloudAlbedo>0.5</CloudAlbedo>
+			<MaxDepth>10</MaxDepth>
+			<NormalStrength>1.0</NormalStrength>
+
+			<Noise ID="0">
+				<Scale X="0.15" Y="10" Z="0.152" />
+				<Octaves>12</Octaves>
+				<Weight>0.7</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+ 			<Noise ID="1" Type="Curl" >
+				<Scale X="3.1" Y="35" Z="3.2" />
+				<Step>0.125</Step>
+				<Strength>1.0</Strength>
+				<Octaves>1</Octaves>
+				<Weight>0.6</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+			<Noise ID="2" Type="Curl">
+				<Scale X="70" Y="350" Z="71" />
+				<Step>0.5</Step>
+				<Strength>0.03</Strength>
+				<Octaves>1</Octaves>
+				<Weight>0.6</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+			<Noise ID="3" Type="Curl">
+				<Scale X="1000" Y="4050" Z="1020" />
+				<Step>2.0</Step>
+				<Strength>0.005</Strength>
+				<Octaves>1</Octaves>
+				<Weight>0.6</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+			<Noise ID="4">
+				<Scale X="2.1" Y="15" Z="2.2" />
+				<Strength>0.15</Strength>
+				<Octaves>1</Octaves>
+				<Weight>0.6</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+  			<Noise ID="5">
+				<Scale X="10" Y="31" Z="11" />
+				<Strength>0.08</Strength>
+				<Octaves>1</Octaves>
+				<Weight>0.6</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+  			<Noise ID="6">
+				<Scale X="35" Y="71" Z="39" />
+				<Strength>0.04</Strength>
+				<Octaves>1</Octaves>
+				<Weight>0.6</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+			<Noise ID="7">
+				<Scale X="85" Y="105" Z="89" />
+				<Strength>0.025</Strength>
+				<Octaves>1</Octaves>
+				<Weight>0.6</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+ 			<Noise ID="8">
+				<Scale X="143" Y="151" Z="141" />
+				<Strength>0.015</Strength>
+				<Octaves>1</Octaves>
+				<Weight>0.6</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+			<Noise ID="9">
+				<Scale X="303" Y="421" Z="306" />
+				<Strength>0.012</Strength>
+				<Octaves>1</Octaves>
+				<Weight>0.6</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+			<Noise ID="10">
+				<Scale X="803" Y="937" Z="906" />
+				<Strength>0.008</Strength>
+				<Octaves>1</Octaves>
+				<Weight>0.6</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+			<Noise ID="11">
+				<Scale X="1803" Y="1937" Z="1906" />
+				<Strength>0.005</Strength>
+				<Octaves>1</Octaves>
+				<Weight>0.6</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+<!--             <ColorTable NbKeys="2">
+                <Default X="1" Y="1" Z="1" />
+                <Key Param="0.0" X="0" Y="0" Z="0" W="1" />
+                <Key Param="1.0" X="1" Y="1" Z="1" W="1" />
+            </ColorTable> -->
+			<ColorTable NbKeys="6">
+                <Default X="1" Y="1" Z="1" />
+                <Key Param="0.0" X="0.5" Y="0.4" Z="0.3" W="0" />
+                <Key Param="0.15" X="0.6" Y="0.5" Z="0.35" W="0.5" />
+                <Key Param="0.3" X="0.7" Y="0.5" Z="0.4" W="1" />
+                <Key Param="0.5" X="0.85" Y="0.6" Z="0.35" W="1" />
+                <Key Param="0.7" X="0.9" Y="0.8" Z="0.6" W="1" />
+                <Key Param="1.0" X="1" Y="0.95" Z="0.8" W="1" />
+            </ColorTable>
+	    </Cloud>
+		<Cloud LayerID="1" State="true" Transparent="false" >
+	        <Altitude Value="0.0" />
+	        <RotationSpeed Value="-0.00025" />
+			<MaxDepth>4</MaxDepth>
+			<Noise ID="0">
+				<Scale X="7" Y="32" Z="6" />
+				<Offset X="1.29" Y="0.58" Z="-0.92" />
+				<Strength>0.25</Strength>
+				<Octaves>12</Octaves>
+				<Weight>0.7</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+			<Noise ID="1">
+				<Scale X="48" Y="128" Z="53" />
+				<Offset X="-0.11" Y="2.72" Z="4.94" />
+				<Strength>0.25</Strength>
+				<Octaves>8</Octaves>
+				<Weight>0.5</Weight>
+				<Frequency>2.5</Frequency>
+			</Noise>
+			<Noise ID="2">
+				<Scale X="256" Y="512" Z="256" />
+				<Offset X="1.56" Y="-2.38" Z="1.41" />
+				<Octaves>4</Octaves>
+				<Weight>0.3</Weight>
+				<Frequency>2.0</Frequency>
+			</Noise>
+            <ColorTable NbKeys="3">
+                <Default X="1" Y="1" Z="1" W="1" />
+                <Key Param="0.0" X="0.1" Y="0.07" Z="0.05" W="1" />
+                <Key Param="0.5" X="0.2" Y="0.15" Z="0.1" W="1" />
+                <Key Param="1.0" X="0.375" Y="0.225" Z="0.125" W="1" />
+            </ColorTable>
+	    </Cloud>
+		<WindGrid ID="0" >
+			<MinAltitude>8.0</MinAltitude>
+			<MeanAltitude>15.0</MeanAltitude>
+			<GridDimension>17</GridDimension>
+			<GridSize>4.0</GridSize>
+
+			<DustEffect>WindDust</DustEffect>
+			<DustProbaOffset>2.0</DustProbaOffset>
+			<DustProbaScale>1.0</DustProbaScale>
+			<DustColor X="0.5" Y="0.1" Z="0.05" W="1" />
+			<DustAlpha>2.0</DustAlpha>
+			<DustAmbient>0.2</DustAmbient>
+			<DustOctaves>6</DustOctaves>
+			<DustLacunarity>2.0</DustLacunarity>
+			<DustHFactor>0.5</DustHFactor>
+			<DustFrequency>0.1</DustFrequency>
+
+			<WindIntensity>10.0</WindIntensity>
+			<WindOctaves>6</WindOctaves>
+			<WindLacunarity>2.0</WindLacunarity>
+			<WindHFactor>0.5</WindHFactor>
+			<WindIntensityOffset>1.0</WindIntensityOffset>
+			<WindIntensityScale>0.25</WindIntensityScale>
+			<WindFrequency>0.01</WindFrequency>
+		</WindGrid>
+		<WindGrid ID="1" >
+			<MinAltitude>60.0</MinAltitude>
+			<MeanAltitude>25.0</MeanAltitude>
+			<GridDimension>13</GridDimension>
+			<GridSize>40.0</GridSize>
+
+			<DustEffect>WindDust</DustEffect>
+			<DustProbaOffset>0.75</DustProbaOffset>
+			<DustProbaScale>3.0</DustProbaScale>
+			<DustColor X="0.6" Y="0.2" Z="0.1" W="1" />
+			<DustAlpha>5.0</DustAlpha>
+			<DustAmbient>0.2</DustAmbient>
+			<DustOctaves>6</DustOctaves>
+			<DustLacunarity>2.0</DustLacunarity>
+			<DustHFactor>0.5</DustHFactor>
+			<DustFrequency>0.01</DustFrequency>
+
+			<WindIntensity>100.0</WindIntensity>
+			<WindOctaves>6</WindOctaves>
+			<WindLacunarity>2.0</WindLacunarity>
+			<WindHFactor>0.5</WindHFactor>
+			<WindIntensityOffset>0.75</WindIntensityOffset>
+			<WindIntensityScale>0.25</WindIntensityScale>
+			<WindFrequency>0.001</WindFrequency>
+		</WindGrid>
+		<WindGrid ID="2" >
+			<MinAltitude>150.0</MinAltitude>
+			<MeanAltitude>60.0</MeanAltitude>
+			<GridDimension>13</GridDimension>
+			<GridSize>120.0</GridSize>
+
+			<DustEffect>WindDust</DustEffect>
+			<DustProbaOffset>0.5</DustProbaOffset>
+			<DustProbaScale>1.0</DustProbaScale>
+			<DustColor X="0.7" Y="0.4" Z="0.2" W="1" />
+			<DustAlpha>2.0</DustAlpha>
+			<DustAmbient>0.1</DustAmbient>
+			<DustOctaves>6</DustOctaves>
+			<DustLacunarity>2.0</DustLacunarity>
+			<DustHFactor>0.5</DustHFactor>
+			<DustFrequency>0.01</DustFrequency>
+
+			<WindIntensity>200.0</WindIntensity>
+			<WindOctaves>6</WindOctaves>
+			<WindLacunarity>2.0</WindLacunarity>
+			<WindHFactor>0.5</WindHFactor>
+			<WindIntensityOffset>0.5</WindIntensityOffset>
+			<WindIntensityScale>0.5</WindIntensityScale>
+			<WindFrequency>0.001</WindFrequency>
+		</WindGrid>
+		<Sounds>
+			<Sound>
+				<Name>AmbientWind</Name>
+				<Volume>1.0</Volume>
+				<Altitude X="0.0" Y="1000.0" />
+				<Falloff>0.5</Falloff>
+				<Wind>10.0</Wind>
+			</Sound>
+		</Sounds>
+	    <Ring State="true" >
+	        <Seed Value="1236" />
+			<MaxDepth Value="17" />
+	        <Radius Min="80000" Max="90000" />
+	        <Thickness Value="20.0" />
+	        <BaseColor>
+	            <Color R="70" G="56" B="50" Proba="100"/>
+	            <Color R="255" G="230" B="210" Proba="60"/>
+	            <Color R="180" G="168" B="150" Proba="40"/>
+	            <Color R="104" G="100" B="100" Proba="40"/>
+	        </BaseColor>
+		    <Fade Factor="0.0015" />
+			<Noise Factor="4.0" />
+	        <DiffuseColor Red="1.0" Green="1.0" Blue="1.0" />
+	        <AmbientColor Red="0.16" Green="0.16" Blue="0.16" />
+			<Map>
+				<Width>1024</Width>
+				<Height>64</Height>
+				<ColorRange>1</ColorRange>
+				<ContrastRange X="0.95" Y="0.95" />
+				<NoiseAmp>0.1</NoiseAmp>
+			</Map>
+	        <AsteroidField ImpostorFactor="2.0" >
+				<Cache>
+					<Mode>Time</Mode>
+					<Time>10.0</Time>
+				</Cache>
+	            <Meshes>
+	                <Mesh ID="0" Name="Celestial/Asteroids/BigA01/SM_BigA01" CollName="" CollFile="$Dev/Celestial/Asteroids/BigA01/e4fc0bb4.insm" />
+	                <Mesh ID="1" Name="Celestial/Asteroids/BigA02/SM_BigA02" CollName="" CollFile="$Dev/Celestial/Asteroids/BigA02/a03fe774.insm" />
+	                <Mesh ID="2" Name="Celestial/Asteroids/MedA01/SM_MedA01" CollName="" CollFile="$Dev/Celestial/Asteroids/MedA01/aba3af76.insm" />
+	                <Mesh ID="3" Name="Celestial/Asteroids/MedA02/SM_MedA02" CollName="" CollFile="$Dev/Celestial/Asteroids/MedA02/342737d7.insm" />
+	                <Mesh ID="4" Name="Celestial/Asteroids/SmallA01/SM_SmallA01" CollName="" CollFile="$Dev/Celestial/Asteroids/SmallA01/57a625d0.insm" />
+	                <Mesh ID="5" Name="Celestial/Asteroids/SmallA02/SM_SmallA02" CollName="" CollFile="$Dev/Celestial/Asteroids/SmallA02/e1bea016.insm" />
+	            </Meshes>
+
+	            <Level Depth="7" Count="2500" >
+	                <Mesh ID="0" Proba="0.5" MinSize="14.0" MaxSize="18.0" />
+	                <Mesh ID="1" Proba="0.5" MinSize="14.0" MaxSize="18.0" />
+	            </Level>
+	            <Level Depth="8" Count="1500" >
+	                <Mesh ID="0" Proba="0.5" MinSize="7.0" MaxSize="9.0" />
+	                <Mesh ID="1" Proba="0.5" MinSize="7.0" MaxSize="9.0" />
+	            </Level>
+	            <Level Depth="9" Count="1000" >
+	                <Mesh ID="0" Proba="0.5" MinSize="3.0" MaxSize="5.0" />
+	                <Mesh ID="1" Proba="0.5" MinSize="3.0" MaxSize="5.0" />
+	            </Level>
+	            <Level Depth="10" Count="500" >
+	                <Mesh ID="2" Proba="0.5" MinSize="1.5" MaxSize="2.5" />
+	                <Mesh ID="3" Proba="0.5" MinSize="1.5" MaxSize="2.5" />
+	            </Level>
+	            <Level Depth="11" Count="175" >
+	                <Mesh ID="2" Proba="0.5" MinSize="1.0" MaxSize="1.25" />
+	                <Mesh ID="3" Proba="0.5" MinSize="1.0" MaxSize="1.25" />
+	            </Level>
+	            <Level Depth="12" Count="37" >
+	                <Mesh ID="2" Proba="0.5" MinSize="0.5" MaxSize="0.7" />
+	                <Mesh ID="3" Proba="0.5" MinSize="0.5" MaxSize="0.7" />
+	            </Level>
+	            <Level Depth="13" Count="8" >
+	                <Mesh ID="4" Proba="0.5" MinSize="0.25" MaxSize="0.35" />
+	                <Mesh ID="5" Proba="0.5" MinSize="0.25" MaxSize="0.35" />
+	            </Level>
+	            <Level Depth="14" Count="5" >
+	                <Mesh ID="4" Proba="0.5" MinSize="0.12" MaxSize="0.18" />
+	                <Mesh ID="5" Proba="0.5" MinSize="0.12" MaxSize="0.18" />
+	            </Level>
+	            <Level Depth="15" Count="3" >
+	                <Mesh ID="4" Proba="0.5" MinSize="0.08" MaxSize="0.1" />
+	                <Mesh ID="5" Proba="0.5" MinSize="0.08" MaxSize="0.1" />
+	            </Level>
+
+	            <Level Depth="17" Count="0" >
+	            </Level>
+
+		        <Dust Intensity="3000" NearFadeFactor="0.05" MinLevel="6" MaxLevel="11" BaseSize="6.0" />
+				<Debris Level="17" Count="50" />
+	        </AsteroidField>
+	    </Ring>
+	</CClientPlanetComponent>
+</ActorConfig>

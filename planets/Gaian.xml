@@ -76,7 +76,7 @@
 	                <Mesh ID="4" Name="Celestial/Asteroids/SmallA01/SM_SmallA01" CollName="" CollFile="$Dev/Celestial/Asteroids/SmallA01/57a625d0.insm" />
 	                <Mesh ID="5" Name="Celestial/Asteroids/SmallA02/SM_SmallA02" CollName="" CollFile="$Dev/Celestial/Asteroids/SmallA02/e1bea016.insm" />
 	            </Meshes>
-	
+
 	            <Level Depth="5" Count="10000" >
 	                <Mesh ID="0" Proba="0.5" MinSize="14.0" MaxSize="18.0" />
 	                <Mesh ID="1" Proba="0.5" MinSize="14.0" MaxSize="18.0" />
@@ -118,6 +118,7 @@
 	            </Level>
 
 		        <Dust Intensity="3000" NearFadeFactor="0.05" MinLevel="5" MaxLevel="10" BaseSize="3.0" />
+				<Debris Level="15" Count="50" />
 	        </AsteroidField>
 	    </Ring>
 	</CPlanetComponent>
@@ -223,6 +224,7 @@
 	            </Level>
 
 		        <Dust Intensity="3000" NearFadeFactor="0.05" MinLevel="5" MaxLevel="10" BaseSize="3.0" />
+				<Debris Level="15" Count="50" />
 	        </AsteroidField>
 	    </Ring>
 	    <Material>

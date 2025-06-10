@@ -20,6 +20,9 @@
     <ActorType ClassName="Icy" ConfigFile="$Dev/Config/Planets/Icy.xml" />
     <ActorType ClassName="Tersac" ConfigFile="$Dev/Config/Planets/Tersac.xml" />
     <ActorType ClassName="Gravius" ConfigFile="$Dev/Config/Planets/Gravius.xml" />
+    <ActorType ClassName="Althea" ConfigFile="$Dev/Config/Planets/Althea.xml" />
+    <ActorType ClassName="Silenus" ConfigFile="$Dev/Config/Planets/Silenus.xml" />
+    <ActorType ClassName="Eole" ConfigFile="$Dev/Config/Planets/Eole.xml" />
     <ActorType ClassName="SFC_LandBase_Test" ConfigFile="$Dev/Config/LandBase/SFC_LandBase_Test.xml" />
     <ActorType ClassName="SFC_LandBase_Small1" ConfigFile="$Dev/Config/LandBase/SFC_LandBase_Small1.xml" />
     <ActorType ClassName="SFC_LandBase_Small2" ConfigFile="$Dev/Config/LandBase/SFC_LandBase_Small2.xml" />
