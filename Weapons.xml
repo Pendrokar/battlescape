@@ -4615,6 +4615,96 @@
 	</Weapon>
 
 	<Weapon>
+		<ID>DefenseEMPBattery</ID>
+		<Name>UI_Weapon_SSMBattery_Name</Name>
+		<LongDescr>UI_Weapon_SSMBattery_LongDescr</LongDescr>
+		<Type>AttachBaseBarrel</Type>
+		<Class>LightMissilePod</Class>
+		<Credits>1250</Credits>
+		<Rank>7</Rank>
+		<Mass>20.0</Mass>
+		<Mesh>
+			<Attach Mesh="Ships/Weapons/SamLauncher/SM_SamLauncher_Base_Lod0">
+	            <LOD Level="1" Mesh="Ships/Weapons/SamLauncher/SM_SamLauncher_Base_Lod1" />
+			</Attach>
+			<Base Mesh="Ships/Weapons/SamLauncher/SM_SamLauncher_Body_Lod0">
+	            <LOD Level="1" Mesh="Ships/Weapons/SamLauncher/SM_SamLauncher_Body_Lod1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/SamLauncher/SM_SamLauncher_Body_Lod2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/SamLauncher/SM_SamLauncher_Body_Lod3" />
+			</Base>
+			<Barrel Mesh="Ships/Weapons/SamLauncher/SM_SamLauncher_Gun_Lod0">
+	            <LOD Level="1" Mesh="Ships/Weapons/SamLauncher/SM_SamLauncher_Gun_Lod1" />
+			</Barrel>
+			<HitBox>
+				<Min X="-0.012" Y="-0.012" Z="-0.012" />
+				<Max X="0.012" Y="0.012" Z="0.012" />
+			</HitBox>
+		</Mesh>
+		<HitPoints>250</HitPoints>
+		<Sockets>
+			<Attach>$Dev/Ships/Weapons/SamLauncher/df6f7055.insm</Attach>
+			<Base>$Dev/Ships/Weapons/SamLauncher/483dc8a7.insm</Base>
+			<Barrel>$Dev/Ships/Weapons/SamLauncher/ca00c59e.insm</Barrel>
+		</Sockets>
+		<Scale>10.0</Scale>
+		<FireMode>FirstOnStart</FireMode>
+		<FireRate>1.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<BurstCount>2</BurstCount>
+		<BurstCooldown>5.0</BurstCooldown>
+		<BurstFire>true</BurstFire>
+		<SynchroMode>Random</SynchroMode>
+		<TurnSpeed X="25" Y="25" />
+		<PitchRange X="-90" Y="10" />
+		<YawRange X="-180" Y="180" />
+		<FireCone X="0.35" Y="0.35" />
+		<AimType>Turret</AimType>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
+		<ManualAutoAim>true</ManualAutoAim>
+		<ManualFireConeRequired>true</ManualFireConeRequired>
+		<AutoAimDefault>true</AutoAimDefault>
+		<LockType>Target</LockType>
+		<LockTime>2.5</LockTime>
+		<LockCone X="0.15" Y="0.15" />
+		<MinLockDistance>0.3</MinLockDistance>
+		<MaxLockDistance>25.0</MaxLockDistance>
+		<LockDistanceAI>6.0</LockDistanceAI>
+		<TargetSizeRange X="0.0" Y="0.25" />
+		<TargetType Type="SmallShip" Priority="1.0" />
+		<TargetType Type="MediumShip" Priority="4.0" />
+		<TargetType Type="Torpedo" Priority="2.0" />
+		<TargetTrackRange X="0.3" Y="20.0" />
+		<TargetMaxStack>1</TargetMaxStack>
+		<Icon>MissileLauncher</Icon>
+		<HUDIcon>SI_PlusBig</HUDIcon>
+		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>false</ShowAimDir>
+		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
+		<Sound>
+			<Name>MissileLaunch</Name>
+		</Sound>
+		<Ammo>
+			<Type>LightMissile</Type>
+			<Cost>1</Cost>
+			<Max>9999</Max>
+		</Ammo>
+		<Shot>
+			<Type>Actor</Type>
+			<Name>EMPMissile</Name>
+			<Offset>0.05</Offset>
+			<KineticDamage>1.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<DamageType>ShieldHullSpread</DamageType> <!-- Type of damage -->
+			<SplashRadius>0.1</SplashRadius>
+			<LifeTime>60.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>0.30</Speed> <!-- Initial speed the shot gets fired at -->
+			<Heat>10.0</Heat>
+		</Shot>
+		<Impact>
+			<SmokeDamageScale>0.002</SmokeDamageScale>
+		</Impact>
+	</Weapon>
+
+	<Weapon>
 		<ID>DecoyMissileLauncher</ID>
 		<Name>UI_Weapon_DecoyMissileLauncher_Name</Name>
 		<LongDescr>UI_Weapon_DecoyMissileLauncher_LongDescr</LongDescr>
