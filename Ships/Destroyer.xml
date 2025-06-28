@@ -263,6 +263,9 @@
 			<PaintColor1 X="1.0" Y="0.9" Z="0.10" W="1.0" />
 			<PaintColor2 X="0.54" Y="0.74" Z="1.0" W="1.0" />
 		</Skin>
+		<ReentryMesh>FX/ReEntry/SM_Destroyer-re-entry</ReentryMesh>
+		<ReentryFrictionScale>0.003</ReentryFrictionScale>
+		<ReentryTailSize>0.20</ReentryTailSize>
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
@@ -385,13 +388,15 @@
 		<SalvageDebrisCount>2</SalvageDebrisCount>
 		<GriefCredits>60</GriefCredits>
 		<DeathXP>125</DeathXP>
-		<Drag>0.0005</Drag>
+		<DragCoeffs X="0.0003" Y="0.07" />
+		<DragAreas X="0.7" Y="0.1" Z="1" />
 		<ArmorPoints>3</ArmorPoints>
 		<DefaultSkins>
 			<Skin TeamID="0">DestroyerHavoc</Skin>
 			<Skin TeamID="1">DestroyerScoria</Skin>
 			<Skin TeamID="2">DestroyerHavoc</Skin>
 		</DefaultSkins>
+		<FrictionDamage>200</FrictionDamage>
 	</CHullComponent>
 	<CShieldComponent>
 		<ShieldPoints>20000</ShieldPoints>

@@ -1085,9 +1085,10 @@
 	</CClientHullComponent>
 	<CServerActorComponent>
         <Name>Demether Stn</Name>
-    <StratValue>600</StratValue>
-    <MatchScore>3</MatchScore>
-  </CServerActorComponent>
+		<StratValue>600</StratValue>
+		<MatchScore>3</MatchScore>
+		<SPDefFactor>0.9</SPDefFactor>
+	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>2000.0</EmissionsRange>
 		<SensorPower>8.0</SensorPower>

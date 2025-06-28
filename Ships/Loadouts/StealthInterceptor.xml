@@ -1,0 +1,18 @@
+<Loadout Version="0.0.0.1">
+    <Name>StealthInterceptor</Name>
+    <DisplayName>STEALTH</DisplayName>
+    <Actor>Interceptor</Actor>
+	<LayoutFile>$Config/Ships/Layouts/InterceptorLayout.xml</LayoutFile>
+    <IsMain>false</IsMain>
+	<IsNonPlayable>true</IsNonPlayable>
+    <Mount HardpointName="s_gun_pod_left" Weapon="Halcyon" GroupID="1"/>
+    <Mount HardpointName="s_gun_pod_right" Weapon="Halcyon" GroupID="1"/>
+    <Mount HardpointName="s_gun_right" Weapon="RailgunMK1" GroupID="0"/>
+    <Mount HardpointName="s_gun_left" Weapon="RailgunMK1" GroupID="0"/>
+    <Mount HardpointName="s_missile_right" Weapon="EMPMissilePod" GroupID="2"/>
+    <Mount HardpointName="s_missile_left" Weapon="EMPMissilePod" GroupID="2"/>
+    <Mount HardpointName="s_mod_structure" System="FeatherHull"/>
+    <Mount HardpointName="s_mod_electronics1" System="FlightAssist"/>
+    <Mount HardpointName="s_mod_electronics3" System="Stealth"/>
+    <Mount HardpointName="s_mod_prop" System="TurboEnergy"/>
+</Loadout>

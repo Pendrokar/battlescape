@@ -1050,6 +1050,12 @@
 	</Effect>
 
 	<Effect>
+		<Name>ReentryTrail</Name>
+		<ParticleSystem>ParticleEffects/Smokes/P_Reentry_Trail</ParticleSystem>
+		<Instance>true</Instance>
+	</Effect>
+
+	<Effect>
 		<Name>WindDust</Name>
 		<!-- <ParticleSystem>Particles/Atmospheres/Effects/101_Wind-Dust</ParticleSystem> -->
 		<ParticleSystem>ParticleEffects/Atmospherics/101_Wind-Dust</ParticleSystem>

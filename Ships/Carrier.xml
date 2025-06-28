@@ -787,6 +787,9 @@
 			<PaintColor1 X="1.0" Y="0.9" Z="0.10" W="1.0" />
 			<PaintColor2 X="0.54" Y="0.74" Z="1.0" W="1.0" />
 		</Skin>
+		<ReentryMesh>FX/ReEntry/SM_Carrier-re-entry</ReentryMesh>
+		<ReentryFrictionScale>0.0005</ReentryFrictionScale>
+		<ReentryTailSize>0.50</ReentryTailSize>
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
@@ -898,13 +901,15 @@
 		<DeathCredits>500</DeathCredits>
 		<GriefCredits>150</GriefCredits>
 		<DeathXP>500</DeathXP>
-		<Drag>0.00003</Drag>
+		<DragCoeffs X="0.00007" Y="0.03" />
+		<DragAreas X="0.5" Y="0.2" Z="1" />
 		<ArmorPoints>4</ArmorPoints>
 		<DefaultSkins>
 			<Skin TeamID="0">CarrierHavoc</Skin>
 			<Skin TeamID="1">CarrierScoria</Skin>
 			<Skin TeamID="2">CarrierHavoc</Skin>
 		</DefaultSkins>
+		<FrictionDamage>500</FrictionDamage>
 	</CHullComponent>
 	<CShieldComponent>
 		<Type>Shape</Type>

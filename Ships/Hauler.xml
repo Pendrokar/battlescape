@@ -1385,6 +1385,9 @@
 			<PaintColor1 X="1.0" Y="0.9" Z="0.10" W="1.0" />
 			<PaintColor2 X="0.54" Y="0.74" Z="1.0" W="1.0" />
 		</Skin>
+		<ReentryMesh>FX/ReEntry/SM_Hauler-re-entry</ReentryMesh>
+		<ReentryFrictionScale>0.005</ReentryFrictionScale>
+		<ReentryTailSize>0.15</ReentryTailSize>
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
@@ -1493,13 +1496,15 @@
 		<DeathCredits>0</DeathCredits>
 		<GriefCredits>80</GriefCredits>
 		<DeathXP>200</DeathXP>
-		<Drag>0.0004</Drag>
+		<DragCoeffs X="0.0006" Y="0.12" />
+		<DragAreas X="0.1" Y="0.05" Z="1" />
 		<ArmorPoints>2</ArmorPoints>
 		<DefaultSkins>
 			<Skin TeamID="0">HaulerHavoc</Skin>
 			<Skin TeamID="1">HaulerScoria</Skin>
 			<Skin TeamID="2">HaulerHavoc</Skin>
 		</DefaultSkins>
+		<FrictionDamage>100</FrictionDamage>
 	</CHullComponent>
 	<CShieldComponent>
 		<ShieldPoints>14000</ShieldPoints>

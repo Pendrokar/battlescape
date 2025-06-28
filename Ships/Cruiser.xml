@@ -403,6 +403,9 @@
 			<PaintColor1 X="0.20" Y="0.48" Z="0.26" W="1.0" />
 			<PaintColor2 X="0.42" Y="0.8" Z="0.94" W="1.0" />
 		</Skin>
+		<ReentryMesh>FX/ReEntry/SM_Cruiser-re-entry</ReentryMesh>
+		<ReentryFrictionScale>0.001</ReentryFrictionScale>
+		<ReentryTailSize>0.30</ReentryTailSize>
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
@@ -511,13 +514,15 @@
 		<DeathCredits>600</DeathCredits>
 		<GriefCredits>120</GriefCredits>
 		<DeathXP>250</DeathXP>
-		<Drag>0.00005</Drag>
+		<DragCoeffs X="0.00015" Y="0.05" />
+		<DragAreas X="0.2" Y="0.15" Z="1" />
 		<ArmorPoints>6</ArmorPoints>
 		<DefaultSkins>
 			<Skin TeamID="0">CruiserHavoc</Skin>
 			<Skin TeamID="1">CruiserScoria</Skin>
 			<Skin TeamID="2">CruiserBlueCamo</Skin>
 		</DefaultSkins>
+		<FrictionDamage>350</FrictionDamage>
 	</CHullComponent>
 	<CShieldComponent>
 		<ShieldPoints>50000</ShieldPoints>

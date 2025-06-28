@@ -2,7 +2,7 @@
 	<!-- Ship properties that can be affected:
 		Actor properties: RepairRate, SelfRepairRate, SelfRepairRateMax, SelfRepairMinDamageTime
 		Physical properties: Mass
-		Hull properties: HitPoints, ArmorPoints, Drag
+		Hull properties: HitPoints, ArmorPoints, DragCoeffs, DragAreas, FrictionDamage
 		Propulsion properties: MinLinearThrust, MaxLinearThrust, BaseRotationThrust, FullRotationThrust, RotationStabilizer, AtmoDecay, RotWarpLimiter, DriftLimiter, CapSpeed, BaseRotationSpeed, FullRotationSpeed, RotationDampener
 		Engine properties: EnergyPoints, RechargeEnergyPoints, HeatPoints, DechargeHeatPoints
 		Shield properties: ShieldPoints, RechargeShieldPoints, RechargeShieldDelay, RechargeShieldDamageRatio, ShieldType, ShieldRadius, ShieldMinHitProbability, ShieldDamageRatioThreshold, ShieldRepairDuration, ShieldDecay
@@ -647,6 +647,12 @@
 		<AbilityActionProperty Name="EMPDamage">1000.0</AbilityActionProperty>
 		<AbilityActionProperty Name="EMPRange">5.0</AbilityActionProperty>
 		<AbilityActionProperty Name="ShieldSelfDamage">1000.0</AbilityActionProperty>
+	</ShipSystem>
+	<ShipSystem ID="63" Name="Coating" Category="Structural" Class="MK1;MK2;MK3" Credits="1500" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="8" >
+		<DisplayName>UI_System_Drag_Name</DisplayName>
+		<Icon>$UI/loadout_hull.svg</Icon>
+		<ShortDescr>UI_System_Drag_Descr</ShortDescr>
+		<Property Name="Drag" ValueX="-0.3" ValueY="0.0" ValueZ="0.0" Target="DragCoeffs" Op="MulInitAdd" Descr="UI_System_Coating_Drag" Quality="Positive" />
 	</ShipSystem>
 
 <!-- 	Upgrade to reduce energy emissions -->

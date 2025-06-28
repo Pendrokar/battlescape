@@ -611,6 +611,7 @@
         <Name>Perseus Stn</Name>
     	<StratValue>300</StratValue>
     	<MatchScore>1</MatchScore>
+		<SPDefFactor>0.9</SPDefFactor>
   	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>1000.0</EmissionsRange>

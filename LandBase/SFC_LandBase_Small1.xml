@@ -1031,7 +1031,8 @@
         <Name>Neuwirth Base</Name>
 	    <StratValue>350</StratValue>
 	    <MatchScore>1</MatchScore>
-  </CServerActorComponent>
+		<SPDefFactor>0.95</SPDefFactor>
+	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>1000.0</EmissionsRange>
 		<SensorPower>4.0</SensorPower>

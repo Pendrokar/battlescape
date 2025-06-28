@@ -425,9 +425,10 @@
 	</CClientHullComponent>
 	<CServerActorComponent>
         <Name>Xanthar Stn</Name>
-    <StratValue>450</StratValue>
-    <MatchScore>2</MatchScore>
-  </CServerActorComponent>
+		<StratValue>450</StratValue>
+		<MatchScore>2</MatchScore>
+		<SPDefFactor>0.85</SPDefFactor>
+	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>2000.0</EmissionsRange>
 		<SensorPower>8.0</SensorPower>

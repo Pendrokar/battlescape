@@ -196,6 +196,9 @@
 			<PaintColor1 X="0.54" Y="0.74" Z="1.0" W="1.0" />
 			<PaintColor2 X="1.0" Y="0.97" Z="0.52" W="1.0" />
 		</Skin>
+		<ReentryMesh>FX/ReEntry/SM_Bomber-re-entry</ReentryMesh>
+		<ReentryFrictionScale>0.05</ReentryFrictionScale>
+		<ReentryTailSize>0.06</ReentryTailSize>
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
@@ -643,13 +646,15 @@
 		<DeathCredits>80</DeathCredits>
 		<GriefCredits>25</GriefCredits>
 		<DeathXP>50</DeathXP>
-		<Drag>0.5</Drag>
+		<DragCoeffs X="0.012" Y="1.1" />
+		<DragAreas X="0.4" Y="0.3" Z="1" />
 		<ArmorPoints>1</ArmorPoints>
 		<DefaultSkins>
 			<Skin TeamID="0">BomberHavoc</Skin>
 			<Skin TeamID="1">BomberScoria</Skin>
 			<Skin TeamID="2">BomberHavoc</Skin>
 		</DefaultSkins>
+		<FrictionDamage>40</FrictionDamage>
 	</CHullComponent>
 	<CShieldComponent>
 		<ShieldPoints>500</ShieldPoints>
@@ -781,8 +786,10 @@
 	<CAbilityComponent>
 	</CAbilityComponent>
 	<CServerHardpointComponent>
-		<Loadout Name="DefaultBomber" Proba="80" />
+		<Loadout Name="DefaultBomber" Proba="40" />
 		<Loadout Name="LightBomber" Proba="20" />
+		<Loadout Name="KineticBomber" Proba="20" />
+		<Loadout Name="EMPBomber" Proba="20" />
 		<Ammo>
 			<Type>Chaff</Type>
 			<Amount>8</Amount>
