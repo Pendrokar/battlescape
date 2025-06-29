@@ -88,7 +88,7 @@
 		<DeathDuration>0.0</DeathDuration>
 		<DyingDuration>0.0</DyingDuration>
 		<DeathCredits>0</DeathCredits>
-		<Drag>1.0</Drag>
+	    <DragCoeff>0.0</DragCoeff>
 	</CHullComponent>
 	<CServerMissileComponent>
 		<Mode>Unguided</Mode>

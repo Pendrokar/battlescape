@@ -563,7 +563,7 @@
 		<DyingDuration>5.0</DyingDuration>
 		<DeathDuration>0.5</DeathDuration>
 		<DeathCredits>25</DeathCredits>
-		<Drag>0.003</Drag>
+		<DragCoeff>0.003</DragCoeff>
 		<ArmorPoints>4</ArmorPoints>
     <DefaultSkins>
     </DefaultSkins>

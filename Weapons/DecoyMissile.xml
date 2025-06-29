@@ -87,7 +87,7 @@
 		<DeathDuration>0.0</DeathDuration>
 		<DyingDuration>0.0</DyingDuration>
 		<DeathCredits>1</DeathCredits>
-		<Drag>1.0</Drag>
+	    <DragCoeff>0.0</DragCoeff>
 	</CHullComponent>
 	<CServerMissileComponent>
 		<Mode>Torpedo</Mode>

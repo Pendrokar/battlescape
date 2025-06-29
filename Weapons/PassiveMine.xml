@@ -81,6 +81,7 @@
 		<DyingDuration>0.0</DyingDuration>
 		<DeathDuration>1.5</DeathDuration>
 		<DeathCredits>10</DeathCredits>
+	    <DragCoeff>0.0</DragCoeff>
 	</CHullComponent>
 	<CServerMissileComponent>
 		<Mode>PassiveMine</Mode>
