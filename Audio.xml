@@ -511,9 +511,22 @@
 	</SoundEffect3D>
 
 	<SoundEffect2D>
+		<Name>DangerAlarm</Name>
+		<Path>event:/Interface/Alarm</Path>
+		<Volume>0.35</Volume>
+		<Looping>true</Looping>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>DangerAlert1</Name>
+		<Path>event:/Interface/Alarms/DangerAlert1</Path>
+		<Volume>1.0</Volume>
+		<Looping>true</Looping>
+	</SoundEffect2D>
+	<SoundEffect2D>
 		<Name>ProximityAlert</Name>
 		<Path>event:/Interface/ProximityAlert</Path>
 		<Volume>0.5</Volume>
+		<Looping>true</Looping>
 	</SoundEffect2D>
 	<SoundEffect2D>
 		<Name>DamageAlert</Name>
@@ -929,7 +942,7 @@
 		<Name>ChaffLaunch</Name>
 		<Path>event:/Weapons/ChaffLaunch</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.06" Y="4.0" />
+		<DistRange X="0.1" Y="6.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ChaffTravel</Name>

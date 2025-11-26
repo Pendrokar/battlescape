@@ -1187,7 +1187,7 @@
         <Name>Skycrane</Name>
 		<StratValue>600</StratValue>
 		<MatchScore>3</MatchScore>
-		<SPDefFactor>1.0</SPDefFactor>
+		<SPDefFactor>0.9</SPDefFactor>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>2000.0</EmissionsRange>

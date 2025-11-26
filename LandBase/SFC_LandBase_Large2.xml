@@ -1455,7 +1455,7 @@
         <Name>Solus Base</Name>
 	    <StratValue>575</StratValue>
 	    <MatchScore>3</MatchScore>
-		<SPDefFactor>1.3</SPDefFactor>
+		<SPDefFactor>0.9</SPDefFactor>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>1000.0</EmissionsRange>

@@ -2,6 +2,7 @@
 	<Meta>
 		<ActorType>Weapon</ActorType>
 		<DisplayName>UI_ShipType_Interceptor</DisplayName>
+		<ClassAbbrev>DMIS</ClassAbbrev>
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/Weapons/Missiles/SM_SFC_Missile1" >

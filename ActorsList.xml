@@ -97,6 +97,7 @@
     <ActorType ClassName="SFC_Station_Outpost_FuelDepot" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_Outpost_FuelDepot.xml" />
     <ActorType ClassName="SFC_Station_Outpost_Sensors1" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_Outpost_Sensors1.xml" />
     <ActorType ClassName="SFC_Station_Outpost_Sensors2" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_Outpost_Sensors2.xml" />
+    <ActorType ClassName="SeekerMissile" ConfigFile="$Dev/Config/Weapons/SeekerMissile.xml" />
 
 <!--     <ActorType ClassName="Skybear" ConfigFile="$Dev/Config/Ships/Skybear.xml" />
     <ActorType ClassName="Hades" ConfigFile="$Dev/Config/Ships/Hades.xml" />

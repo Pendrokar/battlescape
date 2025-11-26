@@ -1,6 +1,7 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Weapon</ActorType>
+		<ClassAbbrev>MINE</ClassAbbrev>
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/Weapons/Mines/SpikyMines/SM_SpikyMine_Lod0" >

@@ -839,7 +839,7 @@
         <Name>Hebellos</Name>
 	    <StratValue>600</StratValue>
     	<MatchScore>3</MatchScore>
-		<SPDefFactor>1.1</SPDefFactor>
+		<SPDefFactor>0.8</SPDefFactor>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>3000.0</EmissionsRange>

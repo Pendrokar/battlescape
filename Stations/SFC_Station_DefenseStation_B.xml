@@ -16,7 +16,7 @@
 				<ShipPoints>2000</ShipPoints>
 				<Score>200</Score>
 				<Name>UI_Module_SpaceCanon</Name>
-				<AttackPriority>6</AttackPriority>
+				<AttackPriority>7</AttackPriority>
 				<DPSScoreFactor>100.0</DPSScoreFactor>
 				<BattleScore>35</BattleScore>
 				<IconName>SI_BigGun</IconName>
@@ -44,7 +44,7 @@
 				<HitPoints>80000</HitPoints>
 				<ShipPoints>2000</ShipPoints>
 				<Score>200</Score>
-				<AttackPriority>6</AttackPriority>
+				<AttackPriority>7</AttackPriority>
 				<DPSScoreFactor>100.0</DPSScoreFactor>
 				<BattleScore>35</BattleScore>
 				<AimOffset X="0" Y="0" Z="0" />

@@ -188,7 +188,7 @@
 				<HitPoints>40000</HitPoints>
 				<ShipPoints>2000</ShipPoints>
 				<Score>200</Score>
-				<AttackPriority>6</AttackPriority>
+				<AttackPriority>7</AttackPriority>
 				<BattleScore>35</BattleScore>
 				<Name>UI_Module_OrbitalCanon</Name>
 				<IconName>SI_BigGun</IconName>
@@ -216,7 +216,7 @@
 				<HitPoints>40000</HitPoints>
 				<ShipPoints>2000</ShipPoints>
 				<Score>200</Score>
-				<AttackPriority>6</AttackPriority>
+				<AttackPriority>7</AttackPriority>
 				<BattleScore>35</BattleScore>
 				<IconName>SI_BigGun</IconName>
 				<AimOffset X="0" Y="0.4" Z="0" />

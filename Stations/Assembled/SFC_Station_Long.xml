@@ -427,7 +427,7 @@
         <Name>Xanthar Stn</Name>
 		<StratValue>450</StratValue>
 		<MatchScore>2</MatchScore>
-		<SPDefFactor>0.85</SPDefFactor>
+		<SPDefFactor>1.05</SPDefFactor>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>2000.0</EmissionsRange>

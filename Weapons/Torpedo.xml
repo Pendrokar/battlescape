@@ -1,6 +1,7 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Weapon</ActorType>
+		<ClassAbbrev>TRP</ClassAbbrev>
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/Weapons/Missiles/SM_SFC_Missile1" >

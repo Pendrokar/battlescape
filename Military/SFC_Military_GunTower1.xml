@@ -39,7 +39,7 @@
 				<Score>20</Score>
 				<DPSScoreFactor>100.0</DPSScoreFactor>
 				<AttackPriority>4</AttackPriority>
-				<BattleScore>4</BattleScore>
+				<BattleScore>5</BattleScore>
 				<Name>UI_Module_DefenseTower</Name>
 				<IconName>SI_Chevron</IconName>
 				<AimOffset X="0" Y="0.15" Z="0" />

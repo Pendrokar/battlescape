@@ -1243,7 +1243,7 @@
         <Name>Suzuko Base</Name>
 	    <StratValue>450</StratValue>
 	    <MatchScore>2</MatchScore>
-		<SPDefFactor>1.1</SPDefFactor>
+		<SPDefFactor>0.75</SPDefFactor>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>1000.0</EmissionsRange>

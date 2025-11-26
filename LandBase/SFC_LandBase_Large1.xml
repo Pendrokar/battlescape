@@ -1219,7 +1219,7 @@
         <Name>Kreipp Base</Name>
 	    <StratValue>575</StratValue>
 	    <MatchScore>3</MatchScore>
-		<SPDefFactor>1.2</SPDefFactor>
+		<SPDefFactor>1.0</SPDefFactor>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>1000.0</EmissionsRange>

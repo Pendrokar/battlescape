@@ -786,11 +786,11 @@
 	<CAbilityComponent>
 	</CAbilityComponent>
 	<CServerHardpointComponent>
-		<Loadout Name="DefaultBomber" Proba="20" />
+		<Loadout Name="DefaultBomber" Proba="30" />
 		<Loadout Name="LightBomber" Proba="20" />
 		<Loadout Name="KineticBomber" Proba="20" />
 		<Loadout Name="EMPBomber" Proba="20" />
-		<Loadout Name="DecoyBomber" Proba="20" />
+		<Loadout Name="DecoyBomber" Proba="10" />
 		<Ammo>
 			<Type>Chaff</Type>
 			<Amount>8</Amount>

@@ -225,6 +225,7 @@
 		<Weapon ID="MissilePod" />
 		<Weapon ID="EMPMissilePod" />
 		<Weapon ID="SSMBattery" />
+		<Weapon ID="SeekerMissilePod" />
 	</ShipSystem>
 	<ShipSystem ID="22" Name="ExtraTorps" Category="Storage" Class="MK1;MK2;MK3;MK4;MK5;MK6" Credits="1250" Requires="" Excludes="" AbilityType="Passive" Stack="2" Rank="4" >
 		<DisplayName>UI_System_ExtraTorps_Name</DisplayName>
@@ -415,6 +416,7 @@
 		<Weapon ID="SSMBattery" />
 		<Weapon ID="KineticTorpedoPod" />
 		<Weapon ID="EMPTorpedoPod" />
+		<Weapon ID="SeekerMissilePod" />
 	</ShipSystem>
  	<ShipSystem ID="44" Name="PassiveMineLauncher" Category="External" Class="MinePod" Credits="2250" Requires="" Excludes="MineLauncher" AbilityType="Event" Stack="1" Rank="9" >
 		<DisplayName>UI_System_PassiveMineLauncher_Name</DisplayName>
@@ -495,6 +497,7 @@
 		<Weapon ID="SSMBattery" />
 		<Weapon ID="KineticTorpedoPod" />
 		<Weapon ID="EMPTorpedoPod" />
+		<Weapon ID="SeekerMissilePod" />
 	</ShipSystem>
 	<ShipSystem ID="50" Name="HangarDeployRate" Category="Storage" Class="MK6;MK7" Credits="3000" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="13" >
 		<DisplayName>UI_System_HangarDeployRate_Name</DisplayName>

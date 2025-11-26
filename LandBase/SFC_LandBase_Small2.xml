@@ -903,7 +903,7 @@
         <Name>Exether Base</Name>
 	    <StratValue>350</StratValue>
 	    <MatchScore>1</MatchScore>
-		<SPDefFactor>1.1</SPDefFactor>
+		<SPDefFactor>0.95</SPDefFactor>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>1000.0</EmissionsRange>

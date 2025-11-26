@@ -69,8 +69,8 @@
 				<HitPoints>750</HitPoints>
 				<ShipPoints>75</ShipPoints>
 				<Score>20</Score>
-				<AttackPriority>3</AttackPriority>
-				<BattleScore>1</BattleScore>
+				<AttackPriority>4</AttackPriority>
+				<BattleScore>2</BattleScore>
 				<Name>UI_Module_DefenseTower</Name>
 				<IconName>SI_Dot</IconName>
 				<AimOffset X="0" Y="0.15" Z="0" />
@@ -95,8 +95,8 @@
 				<HitPoints>750</HitPoints>
 				<ShipPoints>75</ShipPoints>
 				<Score>20</Score>
-				<AttackPriority>3</AttackPriority>
-				<BattleScore>1</BattleScore>
+				<AttackPriority>4</AttackPriority>
+				<BattleScore>2</BattleScore>
 				<AimOffset X="0" Y="0.15" Z="0" />
 				<MapToPlanet>true</MapToPlanet>
 			    <Sockets>

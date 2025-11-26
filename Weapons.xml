@@ -1789,7 +1789,7 @@
 			<Name>LightMissile</Name>
 			<KineticDamage>150.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldHullSpread</DamageType> <!-- Type of damage -->
-			<SplashRadius>0.1</SplashRadius>
+			<SplashRadius>0.15</SplashRadius>
 			<LifeTime>30.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>0.25</Speed> <!-- Initial speed the shot gets fired at -->
 			<Heat>10.0</Heat>
@@ -2749,7 +2749,7 @@
 			<Name>HeavyMissile</Name>
 			<KineticDamage>750.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldHullSpread</DamageType> <!-- Type of damage -->
-			<SplashRadius>0.2</SplashRadius>
+			<SplashRadius>0.25</SplashRadius>
 			<LifeTime>40.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>0.25</Speed> <!-- Initial speed the shot gets fired at -->
 			<Heat>25.0</Heat>
@@ -2966,9 +2966,9 @@
 			<KineticDamage>12.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<EnergyDamage>6.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
-			<SplashRadius>0.2</SplashRadius>
+			<SplashRadius>0.1</SplashRadius>
 			<LifeTime>3.34</LifeTime> <!-- Duration in seconds until shots fade out and die -->
-			<Speed>1.5</Speed> <!-- Initial speed the shot gets fired at -->
+			<Speed>1.4</Speed> <!-- Initial speed the shot gets fired at -->
 			<Heat>8.0</Heat>
 			<Detonates>true</Detonates>
 			<DetonationRange X="1.0" Y="1000.0" />
@@ -3019,8 +3019,8 @@
 	            <LOD Level="3" Mesh="Ships/Weapons/Mk3_AntiMissileLaser/SM_Mk3_Ams_Gun_Laser_LOD3" />
 			</Barrel>
 			<HitBox>
-				<Min X="-0.020" Y="-0.020" Z="-0.020" />
-				<Max X="0.020" Y="0.020" Z="0.020" />
+				<Min X="-0.010" Y="-0.010" Z="-0.010" />
+				<Max X="0.010" Y="0.010" Z="0.010" />
 			</HitBox>
 		</Mesh>
 		<HitPoints>250</HitPoints>
@@ -3051,6 +3051,7 @@
 		<ShowReticle>false</ShowReticle>
 		<ShowAimDir>true</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
+		<AutoSelectPriority>0.57</AutoSelectPriority>
 		<Sound>
 			<Name>AMSFire</Name>
 			<DistRangeScale>0.6</DistRangeScale>
@@ -3085,8 +3086,8 @@
 			<DamageType>ShieldOnlyThenHullOnly</DamageType> <!-- Type of damage -->
 			<DamageRate>0.25</DamageRate>
 			<LifeTime>0.30</LifeTime> <!-- Duration in seconds until shots fade out and die -->
-			<Speed>7.0</Speed> <!-- Initial speed the shot gets fired at -->
-			<Range>7.0</Range>
+			<Speed>8.0</Speed> <!-- Initial speed the shot gets fired at -->
+			<Range>8.0</Range>
 			<Heat>20.0</Heat>
 			<LimitRangeToTarget>true</LimitRangeToTarget>
 		</Shot>
@@ -4365,7 +4366,7 @@
 		<Ammo>
 			<Type>HeavyAmmo</Type>
 			<Cost>100</Cost>
-			<Max>5000</Max>
+			<Max>10000</Max>
 			<Energy>1500</Energy>
 		</Ammo>
 		<Shot>
@@ -4604,7 +4605,7 @@
 			<Name>LightMissile</Name>
 			<KineticDamage>150.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldHullSpread</DamageType> <!-- Type of damage -->
-			<SplashRadius>0.1</SplashRadius>
+			<SplashRadius>0.15</SplashRadius>
 			<LifeTime>30.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>0.30</Speed> <!-- Initial speed the shot gets fired at -->
 			<Heat>10.0</Heat>
@@ -4983,11 +4984,11 @@
 	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Flak_LOD3" />
 			</Barrel>
 			<HitBox>
-				<Min X="-0.010" Y="-0.010" Z="-0.010" />
-				<Max X="0.010" Y="0.010" Z="0.010" />
+				<Min X="-0.04" Y="-0.04" Z="-0.04" />
+				<Max X="0.04" Y="0.04" Z="0.04" />
 			</HitBox>
 		</Mesh>
-		<HitPoints>300</HitPoints>
+		<HitPoints>1000</HitPoints>
 		<Sockets>
 			<Attach>$Dev/Ships/Weapons/Mk4_Single/7f1ce4fe.insm</Attach>
 			<Base>$Dev/Ships/Weapons/Mk4_Single/95324bac.insm</Base>
@@ -5230,4 +5231,74 @@
 		</Impact>
 	</Weapon>
 
+	<Weapon>
+		<ID>SeekerMissilePod</ID>
+		<Name>UI_Weapon_SeekerMissilePod_Name</Name>
+		<LongDescr>UI_Weapon_SeekerMissilePod_LongDescr</LongDescr>
+		<Type>StaticSingle</Type>
+		<Class>LightMissilePod</Class>
+		<Credits>1000</Credits>
+		<Rank>5</Rank>
+		<Actor Class="Interceptor" />
+		<Actor Class="Bomber" />
+		<Mass>0.5</Mass>
+		<Mesh>
+			<HitBox>
+				<Min X="-0.001" Y="-0.001" Z="-0.001" />
+				<Max X="0.001" Y="0.001" Z="0.001" />
+			</HitBox>
+		</Mesh>
+		<HitPoints>20</HitPoints>
+		<Sockets>
+		</Sockets>
+		<GunOffset X="0" Y="0" Z="0" />
+		<Scale>1.0</Scale>
+		<FireMode>FirstOnStart</FireMode>
+		<FireRate>0.3</FireRate> <!-- Fire rate in number of shots per second -->
+		<SynchroMode>Random</SynchroMode>
+		<TurnSpeed X="0" Y="0" />
+		<PitchRange X="0" Y="0" />
+		<YawRange X="0" Y="0" />
+		<FireCone X="0.6" Y="0.6" />
+		<AimType>Fixed</AimType>
+		<AimMode>ManualAimAndFire</AimMode>
+		<AutoAimDefault>false</AutoAimDefault>
+		<LockType>Target</LockType>
+		<LockTime>0.5</LockTime>
+		<LockCone X="0.15" Y="0.15" />
+		<MinLockDistance>1.0</MinLockDistance>
+		<MaxLockDistance>25.0</MaxLockDistance>
+		<LockDistanceAI>4.0</LockDistanceAI>
+		<TargetSizeRange X="0.0" Y="0.05" />
+		<TargetType Type="Mine" Priority="0.5" />
+		<TargetType Type="Torpedo" Priority="1.0" />
+		<TargetType Type="HeavyMissile" Priority="4.0" />
+		<TargetTrackRange X="0.0" Y="25.0" />
+		<Icon>MissileLauncher</Icon>
+		<HUDIcon>SI_PlusBig</HUDIcon>
+		<ShowReticle>false</ShowReticle>
+		<ShowAimDir>false</ShowAimDir>
+		<LeadReticle>false</LeadReticle>
+		<ShowInstantDamage>true</ShowInstantDamage>
+		<Sound>
+			<Name>MissileLaunch</Name>
+		</Sound>
+		<Ammo>
+			<Type>LightMissile</Type>
+			<Cost>1</Cost>
+			<Max>10</Max>
+		</Ammo>
+		<Shot>
+			<Type>Actor</Type>
+			<Name>SeekerMissile</Name>
+			<KineticDamage>40.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<DamageType>ShieldHullSpread</DamageType> <!-- Type of damage -->
+			<LifeTime>20.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>1.0</Speed> <!-- Initial speed the shot gets fired at -->
+			<Heat>5.0</Heat>
+		</Shot>
+		<Impact>
+			<SmokeDamageScale>0.002</SmokeDamageScale>
+		</Impact>
+	</Weapon>
 </Weapons>
