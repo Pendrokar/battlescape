@@ -40,6 +40,7 @@
     <ActorType ClassName="SupplyCrate" ConfigFile="$Dev/Config/Props/SupplyCrate.xml" />
     <ActorType ClassName="MetalCrate" ConfigFile="$Dev/Config/Props/MetalCrate.xml" />
     <ActorType ClassName="ResourceCrate" ConfigFile="$Dev/Config/Props/ResourceCrate.xml" />
+    <ActorType ClassName="BigSupplyProp" ConfigFile="$Dev/Config/Props/BigSupplyProp.xml" />
     <ActorType ClassName="HeroAsteroid" Class="Actor" ConfigFile="$Dev/Config/Stations/Assembled/HeroAsteroid.xml" />
     <ActorType ClassName="ProximityMine" ConfigFile="$Dev/Config/Weapons/ProximityMine.xml" />
     <ActorType ClassName="PassiveMine" ConfigFile="$Dev/Config/Weapons/PassiveMine.xml" />
@@ -86,6 +87,8 @@
     <ActorType ClassName="RepairDrone" ConfigFile="$Dev/Config/Weapons/RepairDrone.xml" />
     <ActorType ClassName="RearmDrone" ConfigFile="$Dev/Config/Weapons/RearmDrone.xml" />
     <ActorType ClassName="AsteroidField01" ConfigFile="$Dev/Config/Props/AsteroidField01.xml" />
+    <ActorType ClassName="AsteroidField02" ConfigFile="$Dev/Config/Props/AsteroidField02.xml" />
+    <ActorType ClassName="ShipYard01" ConfigFile="$Dev/Config/Props/ShipYard01.xml" />
     <ActorType ClassName="Marker" ConfigFile="$Dev/Config/Props/Marker.xml" />
     <ActorType ClassName="SFC_Station_Depot1" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_Depot1.xml" />
     <ActorType ClassName="SFC_Station_Depot2" ConfigFile="$Dev/Config/Stations/Assembled/SFC_Station_Depot2.xml" />

@@ -388,7 +388,7 @@
 		<SalvageDebrisCount>2</SalvageDebrisCount>
 		<GriefCredits>60</GriefCredits>
 		<DeathXP>125</DeathXP>
-		<DragCoeffs X="0.0003" Y="0.07" />
+		<DragCoeffs X="0.0001" Y="0.02" />
 		<DragAreas X="0.7" Y="0.1" Z="1" />
 		<ArmorPoints>3</ArmorPoints>
 		<DefaultSkins>
@@ -560,7 +560,7 @@
 		<Loadout Name="LowTechDestroyer" Proba="20" />
 		<Ammo>
 			<Type>ProximityMine</Type>
-			<Amount>6</Amount>
+			<Amount>8</Amount>
 		</Ammo>
 	</CServerHardpointComponent>
 	<CServerMissionComponent>

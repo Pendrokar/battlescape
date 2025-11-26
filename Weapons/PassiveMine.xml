@@ -77,7 +77,7 @@
 		<RechargeRate>0</RechargeRate>
 	</CEngineComponent>
 	<CHullComponent>
-		<HitPoints>400</HitPoints>
+		<HitPoints>300</HitPoints>
 		<DyingDuration>0.0</DyingDuration>
 		<DeathDuration>1.5</DeathDuration>
 		<DeathCredits>10</DeathCredits>

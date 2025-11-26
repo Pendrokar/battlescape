@@ -1167,7 +1167,7 @@
         <Name>Gemini Stn</Name>
 		<StratValue>450</StratValue>
 		<MatchScore>2</MatchScore>
-		<SPDefFactor>0.8</SPDefFactor>
+		<SPDefFactor>0.95</SPDefFactor>
 	</CServerActorComponent>
 	<CServerSensorComponent>
 		<EmissionsRange>1000.0</EmissionsRange>

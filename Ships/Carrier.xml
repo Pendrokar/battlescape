@@ -901,7 +901,7 @@
 		<DeathCredits>500</DeathCredits>
 		<GriefCredits>150</GriefCredits>
 		<DeathXP>500</DeathXP>
-		<DragCoeffs X="0.00007" Y="0.03" />
+		<DragCoeffs X="0.00005" Y="0.015" /> <!-- .x = linear friction .y = angular friction -->
 		<DragAreas X="0.5" Y="0.2" Z="1" />
 		<ArmorPoints>4</ArmorPoints>
 		<DefaultSkins>

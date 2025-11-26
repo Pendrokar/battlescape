@@ -1496,7 +1496,7 @@
 		<DeathCredits>0</DeathCredits>
 		<GriefCredits>80</GriefCredits>
 		<DeathXP>200</DeathXP>
-		<DragCoeffs X="0.0006" Y="0.12" />
+		<DragCoeffs X="0.0003" Y="0.06" />
 		<DragAreas X="0.1" Y="0.05" Z="1" />
 		<ArmorPoints>2</ArmorPoints>
 		<DefaultSkins>

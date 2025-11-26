@@ -1196,7 +1196,7 @@
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
 			<LifeTime>5.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.4</Speed> <!-- Initial speed the shot gets fired at -->
-			<Heat>10.0</Heat>
+			<Heat>8.0</Heat>
 		</Shot>
 		<Impact>
 			<Metal>
@@ -1446,7 +1446,7 @@
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
 			<LifeTime>6.3</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.9</Speed> <!-- Initial speed the shot gets fired at -->
-			<Heat>50.0</Heat>
+			<Heat>40.0</Heat>
 		</Shot>
 		<Impact>
 			<Metal>
@@ -2747,12 +2747,12 @@
 		<Shot>
 			<Type>Actor</Type>
 			<Name>HeavyMissile</Name>
-			<KineticDamage>500.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<KineticDamage>750.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldHullSpread</DamageType> <!-- Type of damage -->
 			<SplashRadius>0.2</SplashRadius>
 			<LifeTime>40.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>0.25</Speed> <!-- Initial speed the shot gets fired at -->
-			<Heat>20.0</Heat>
+			<Heat>25.0</Heat>
 		</Shot>
 		<Impact>
 			<Metal>
@@ -3085,8 +3085,8 @@
 			<DamageType>ShieldOnlyThenHullOnly</DamageType> <!-- Type of damage -->
 			<DamageRate>0.25</DamageRate>
 			<LifeTime>0.30</LifeTime> <!-- Duration in seconds until shots fade out and die -->
-			<Speed>8.0</Speed> <!-- Initial speed the shot gets fired at -->
-			<Range>8.0</Range>
+			<Speed>7.0</Speed> <!-- Initial speed the shot gets fired at -->
+			<Range>7.0</Range>
 			<Heat>20.0</Heat>
 			<LimitRangeToTarget>true</LimitRangeToTarget>
 		</Shot>
@@ -4652,7 +4652,8 @@
 		<LockCone X="0.25" Y="0.25" />
 		<MinLockDistance>1.0</MinLockDistance>
 		<MaxLockDistance>25.0</MaxLockDistance>
-		<LockDistanceAI>10.0</LockDistanceAI>
+		<LockDistanceAI>11.0</LockDistanceAI>
+		<ForceMissileCountdown>2.0</ForceMissileCountdown>
 		<TargetSizeRange X="0.25" Y="1000.0" />
 		<TargetType Type="MediumShip" Priority="2.0" />
 		<TargetType Type="LargeShip" Priority="1.0" />
@@ -5136,7 +5137,7 @@
 			<Name>TorpedoLaunch</Name>
 		</Sound>
 		<Ammo>
-			<Type>EMPTorpedo</Type>
+			<Type>Torpedo</Type>
 			<Cost>1</Cost>
 			<Max>10</Max>
 		</Ammo>

@@ -11,11 +11,11 @@
 	<Mount HardpointName="s_gun_E_right" Weapon="GimbalBlasterMK1" GroupID="1" />
 	<Mount HardpointName="s_gun_G_left" Weapon="GimbalGunMK1" GroupID="4" />
 	<Mount HardpointName="s_gun_G_right" Weapon="GimbalGunMK1" GroupID="4" />
-	<Mount HardpointName="s_missile_left_1" Weapon="EMPMissilePod" GroupID="2" />
-	<Mount HardpointName="s_missile_left_2" Weapon="EMPMissilePod" GroupID="2" />
+	<Mount HardpointName="s_missile_left_1" Weapon="DecoyMissileLauncher" GroupID="5" />
+	<Mount HardpointName="s_missile_left_2" Weapon="DecoyMissileLauncher" GroupID="5" />
 	<Mount HardpointName="s_missile_left_3" Weapon="EMPMissilePod" GroupID="2" />
-	<Mount HardpointName="s_missile_right_1" Weapon="EMPMissilePod" GroupID="2" />
-	<Mount HardpointName="s_missile_right_2" Weapon="EMPMissilePod" GroupID="2" />
+	<Mount HardpointName="s_missile_right_1" Weapon="DecoyMissileLauncher" GroupID="5" />
+	<Mount HardpointName="s_missile_right_2" Weapon="DecoyMissileLauncher" GroupID="5" />
 	<Mount HardpointName="s_missile_right_3" Weapon="EMPMissilePod" GroupID="2" />
 	<Mount HardpointName="s_gun_torpedo" Weapon="EMPTorpedoPod" GroupID="3" />
 	<Mount HardpointName="s_mod_electronics1" System="FlightAssist" />

@@ -73,46 +73,51 @@
 
 	<!-- Characters and portraits, format: XY -->
 	<Character Portrait="Portrait_A_00" Team="0" Rank="20" IsPlayer="false" IsMale="true" Name="Hashimoto" Voice="Male_Officer_1" />
-	<Character Portrait="Portrait_A_01" Team="1" Rank="20" IsPlayer="false" IsMale="true" Name="Harris" Voice="Male_Officer_1" />
 	<Character Portrait="Portrait_A_10" Team="0" Rank="18" IsPlayer="false" IsMale="false" Name="Mayer" Voice="Female_Officer_1" />
-	<Character Portrait="Portrait_A_11" Team="1" Rank="18" IsPlayer="false" IsMale="false" Name="Weiss" Voice="Female_Officer_1" />
-	<Character Portrait="Portrait_A_40" Team="0" Rank="20" IsPlayer="false" IsMale="true" Name="Hart" Voice="Male_Officer_1" />
-	<Character Portrait="Portrait_A_41" Team="1" Rank="20" IsPlayer="false" IsMale="true" Name="Cranson" Voice="Male_Officer_1" />
 	<Character Portrait="Portrait_A_20" Team="0" Rank="15" IsPlayer="false" IsMale="true" Name="Hiker" Voice="Male_Officer_1" />
-	<Character Portrait="Portrait_A_21" Team="1" Rank="15" IsPlayer="false" IsMale="true" Name="Mason" Voice="Male_Officer_1" />
 	<Character Portrait="Portrait_A_30" Team="0" Rank="15" IsPlayer="false" IsMale="false" Name="Sheng" Voice="Female_Officer_1" />
-	<Character Portrait="Portrait_A_31" Team="1" Rank="15" IsPlayer="false" IsMale="false" Name="Carter" Voice="Female_Officer_1" />
-	<Character Portrait="Portrait_A_60" Team="0" Rank="15" IsPlayer="false" IsMale="true" Name="Decker" Voice="Male_Officer_1" />
-	<Character Portrait="Portrait_A_61" Team="1" Rank="15" IsPlayer="false" IsMale="true" Name="Jarvin" Voice="Male_Officer_1" />
+	<Character Portrait="Portrait_A_40" Team="0" Rank="20" IsPlayer="false" IsMale="true" Name="Hart" Voice="Male_Officer_1" />
 	<Character Portrait="Portrait_A_50" Team="0" Rank="5" IsPlayer="false" IsMale="false" Name="Bennett" Title="UI_RankTitle_CommsOfficer" Voice="Female_Officer_1" />
-	<Character Portrait="Portrait_A_51" Team="1" Rank="5" IsPlayer="false" IsMale="false" Name="Durton" Title="UI_RankTitle_CommsOfficer" Voice="Female_Officer_1" />
-	<Character Portrait="Portrait_A_32" Team="0" Rank="5" IsPlayer="false" IsMale="false" Name="Sanders" Title="UI_RankTitle_CommsOfficer" Voice="Female_Officer_1" />
-	<Character Portrait="Portrait_A_33" Team="1" Rank="5" IsPlayer="false" IsMale="false" Name="Seong-Hun" Title="UI_RankTitle_CommsOfficer" Voice="Female_Officer_1" />
-
+	<Character Portrait="Portrait_A_60" Team="0" Rank="15" IsPlayer="false" IsMale="true" Name="Decker" Voice="Male_Officer_1" />
 	<Character Portrait="Portrait_A_70" Team="0" Rank="15" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
+
+	<Character Portrait="Portrait_A_01" Team="1" Rank="20" IsPlayer="false" IsMale="true" Name="Harris" Voice="Male_Officer_1" />
+	<Character Portrait="Portrait_A_11" Team="1" Rank="18" IsPlayer="false" IsMale="false" Name="Weiss" Voice="Female_Officer_1" />
+	<Character Portrait="Portrait_A_21" Team="1" Rank="15" IsPlayer="false" IsMale="true" Name="Mason" Voice="Male_Officer_1" />
+	<Character Portrait="Portrait_A_31" Team="1" Rank="15" IsPlayer="false" IsMale="false" Name="Carter" Voice="Female_Officer_1" />
+	<Character Portrait="Portrait_A_41" Team="1" Rank="20" IsPlayer="false" IsMale="true" Name="Cranson" Voice="Male_Officer_1" />
+	<Character Portrait="Portrait_A_51" Team="1" Rank="5" IsPlayer="false" IsMale="false" Name="Durton" Title="UI_RankTitle_CommsOfficer" Voice="Female_Officer_1" />
+	<Character Portrait="Portrait_A_61" Team="1" Rank="15" IsPlayer="false" IsMale="true" Name="Jarvin" Voice="Male_Officer_1" />
 	<Character Portrait="Portrait_A_71" Team="1" Rank="15" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
+
 	<Character Portrait="Portrait_A_02" Team="0" Rank="10" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
-	<Character Portrait="Portrait_A_03" Team="1" Rank="10" IsPlayer="false" IsMale="true" Name="" Voice="Male_Officer_3" />
 	<Character Portrait="Portrait_A_12" Team="0" Rank="5" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
-	<Character Portrait="Portrait_A_13" Team="1" Rank="5" IsPlayer="false" IsMale="false" Name="" Voice="Female_Officer_2" />
 	<Character Portrait="Portrait_A_22" Team="0" Rank="10" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
-	<Character Portrait="Portrait_A_23" Team="1" Rank="10" IsPlayer="false" IsMale="true" Name="Bratok" Voice="Male_Officer_2" />
+	<Character Portrait="Portrait_A_32" Team="0" Rank="5" IsPlayer="false" IsMale="false" Name="Sanders" Title="UI_RankTitle_CommsOfficer" Voice="Female_Officer_1" />
  	<Character Portrait="Portrait_A_42" Team="0" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
-	<Character Portrait="Portrait_A_43" Team="1" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
 	<Character Portrait="Portrait_A_52" Team="0" Rank="0" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
-	<Character Portrait="Portrait_A_53" Team="1" Rank="0" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
 	<Character Portrait="Portrait_A_62" Team="0" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
-	<Character Portrait="Portrait_A_63" Team="1" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Male_Officer_3" />
 	<Character Portrait="Portrait_A_72" Team="0" Rank="0" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
+
+	<Character Portrait="Portrait_A_03" Team="1" Rank="10" IsPlayer="false" IsMale="true" Name="" Voice="Male_Officer_3" Comment="Glimmerfall Control" />
+	<Character Portrait="Portrait_A_13" Team="1" Rank="5" IsPlayer="false" IsMale="false" Name="" Voice="Female_Officer_2" />
+	<Character Portrait="Portrait_A_23" Team="1" Rank="10" IsPlayer="false" IsMale="true" Name="Bratok" Voice="Male_Officer_2" />
+	<Character Portrait="Portrait_A_33" Team="1" Rank="5" IsPlayer="false" IsMale="false" Name="Seong-Hun" Title="UI_RankTitle_CommsOfficer" Voice="Female_Officer_1" />
+	<Character Portrait="Portrait_A_43" Team="1" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Events" Comment="SY13B Control" />
+	<Character Portrait="Portrait_A_53" Team="1" Rank="0" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
+	<Character Portrait="Portrait_A_63" Team="1" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Male_Officer_3" />
 	<Character Portrait="Portrait_A_73" Team="1" Rank="0" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
+
 	<Character Portrait="Portrait_A_04" Team="0" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
-	<Character Portrait="Portrait_A_05" Team="1" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
 	<Character Portrait="Portrait_A_14" Team="0" Rank="0" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
-	<Character Portrait="Portrait_A_15" Team="1" Rank="0" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
 	<Character Portrait="Portrait_A_24" Team="0" Rank="5" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
-	<Character Portrait="Portrait_A_25" Team="1" Rank="5" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
 	<Character Portrait="Portrait_A_34" Team="0" Rank="10" IsPlayer="false" IsMale="false" Name="" Voice="Events" />
+	<Character Portrait="Portrait_A_44" Team="0" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
+
+	<Character Portrait="Portrait_A_05" Team="1" Rank="0" IsPlayer="false" IsMale="true" Name="" Voice="Events" Comment="MX22 Control" />
+	<Character Portrait="Portrait_A_15" Team="1" Rank="10" IsPlayer="false" IsMale="false" Name="Aelira Voss" Voice="Female_Officer_4" />
+	<Character Portrait="Portrait_A_25" Team="1" Rank="5" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
 	<Character Portrait="Portrait_A_35" Team="1" Rank="10" IsPlayer="false" IsMale="false" Name="Morrigan" Voice="Female_Officer_3" />
-	<Character Portrait="Portrait_A_04" Team="0" Rank="5" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
-	<Character Portrait="Portrait_A_05" Team="1" Rank="5" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
+	<Character Portrait="Portrait_A_45" Team="1" Rank="3" IsPlayer="false" IsMale="true" Name="" Voice="Events" />
+
 </Global>
