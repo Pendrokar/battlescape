@@ -12,7 +12,7 @@
 		Carrier properties: CarryPoints, HangarDeployRate, HangarRepairRate
 
 		Weapons general properties (affects all weapons, unless restricted by a weapon ID or type): WeaponsKineticDamage, WeaponsEnergyDamage, WeaponsHitPoints, WeaponsTurnSpeed, WeaponsHeat, WeaponsFireCooldown, WeaponsSpread, WeaponsShotSpeed, WeaponsPitchRange, WeaponsYawRange, WeaponsAmmoCost,
-			WeaponsKineticAmmoCost, WeaponsEnergyAmmoCost, WeaponsMaxAmmo, WeaponsArmorPiercing, SmartMissileMode, WeaponsLifeTime, WeaponsRange, WeaponsHP, WeaponsMass, WeaponsBurstCount, WeaponsBurstCooldown, WeaponsSplashRadius, WeaponsDetonationRange
+			WeaponsKineticAmmoCost, WeaponsEnergyAmmoCost, WeaponsMaxAmmo, WeaponsArmorPiercing, SmartMissileMode, WeaponsLifeTime, WeaponsRange, WeaponsHP, WeaponsMass, WeaponsBurstCount, WeaponsBurstCooldown, WeaponsSplashRadius, WeaponsDetonationRange, ChaffDuration
 		Max ammo: LightAmmo, LightMissile, HeavyAmmo, Torpedo, Chaff, ProximityMine, HeavyMissile, Rocket, MediumAmmo
 		Abilities properties: WarpJamRange, WarpJamDuration, <AbilityName>_AbilityCooldown, <AbilityName>_AbilityDuration
 
@@ -45,17 +45,6 @@
 		<Property Name="Duration" Value="25.0" Target="WarpJamDuration" Op="Add" Descr="UI_System_WarpJam2_Duration" Quality="Positive" />
 		<Property Name="Range" Value="-2.5" Target="WarpJamRange" Op="Add" Descr="UI_System_WarpJam2_Range" Quality="Negative" />
 	</ShipSystem>
-<!--  	<ShipSystem ID="2" Name="WarpDisruptor" Category="Electronics" Class="MK1" Credits="1000" Requires="" Excludes="WarpJam1" AbilityType="Passive" Stack="1" Rank="4" >
-		<DisplayName>UI_System_WarpDisruptor_Name</DisplayName>
-		<Icon>$UI/loadout_sensors.svg</Icon>
-		<ShortDescr>UI_System_WarpDisruptor_Descr</ShortDescr>
-		<Mesh></Mesh>
-		<Property Name="Cone" Value="20.0" Descr="Cone angle: 20 degs" />
-		<Property Name="Range" Value="10.0" Descr="Max warp disruption range: 10 Km" />
-		<Property Name="Mass" Value="100.0" Descr="Max target mass: 100 tons" />
-		<Property Name="ChargeTime" Value="5.0" Descr="Charge time: 5 seconds" />
-		<Property Name="Duration" Value="30.0" Descr="Duration: 30 seconds" />
-	</ShipSystem> -->
  	<ShipSystem ID="4" Name="MineLauncher" Category="External" Class="MinePod" Credits="0" Requires="" Excludes="PassiveMineLauncher" AbilityType="Event" Stack="1" >
 		<DisplayName>UI_System_ProxMineLauncher_Name</DisplayName>
 		<Icon>$UI/loadout_proj_rocket.svg</Icon>
@@ -74,42 +63,43 @@
 		<AbilityActivationSound>MineLaunch</AbilityActivationSound>
 		<AbilityActionProperty Name="ActorClass">ProximityMine</AbilityActionProperty>
 	</ShipSystem>
-<!-- 	<ShipSystem ID="5" Name="AsymEngines1" Category="Propulsion" Class="MK1" Credits="100" Requires="" Excludes="" AbilityType="Passive" Stack="1" >
-		<DisplayName>Asymmetric Propulsion</DisplayName>
-		<Icon>$UI/loadout_engine.svg</Icon>
-		<ShortDescr>Increases forward acceleration at the expense of backwards acceleration</ShortDescr>
-		<Property Name="ForwardAcc" Value="1.2" Descr="Forward acceleration: +20%" Quality="Positive" />
-		<Property Name="BackwardAcc" Value="0.8" Descr="Backward acceleration: -20%" Quality="Negative" />
-	</ShipSystem> -->
-	<ShipSystem ID="6" Name="HeatDissipator1" Category="WeaponsMod" Class="MK1;MK2;MK3;MK4;MK5" Credits="250" Requires="" Excludes="" AbilityType="Passive" Stack="2" Rank="2" >
+	<ShipSystem ID="6" Name="HeatDissipator1" Category="WeaponsMod" Class="MK1;MK2;MK3;MK4;MK5" Credits="250" Requires="" Excludes="HeatVent" AbilityType="Passive" Stack="2" Rank="2" >
 		<DisplayName>UI_System_HeatDissipator1_Name</DisplayName>
 		<Icon>$UI/loadout_heat_waves.svg</Icon>
 		<ShortDescr>UI_System_HeatDissipator1_Descr</ShortDescr>
 		<Property Name="Heat" Value="0.30" Target="DechargeHeatPoints" Op="MulInitAdd" Descr="UI_System_HeatDissipator1_Heat" Quality="Positive" />
 		<Property Name="Energy" Value="-0.1" Target="RechargeEnergyPoints" Op="MulInitAdd" Descr="UI_System_HeatDissipator1_Energy" Quality="Negative" />
 	</ShipSystem>
-	<ShipSystem ID="7" Name="FasterTurretRotation1" Category="WeaponsMod" Class="MK4;MK5" Credits="400" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="4" >
+	<ShipSystem ID="7" Name="FasterTurretRotation1" Category="WeaponsMod" Class="MK3;MK4;MK5" Credits="400" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="4" >
 		<DisplayName>UI_System_FasterTurretRotation1_Name</DisplayName>
 		<Icon>$UI/loadout_proj_railgun.svg</Icon>
 		<ShortDescr>UI_System_FasterTurretRotation1_Descr</ShortDescr>
 		<Property Name="TurnSpeed" Value="0.25" Target="WeaponsTurnSpeed" Op="MulInitAdd" Descr="UI_System_FasterTurretRotation1_TurnSpeed" Quality="Positive" />
 		<Property Name="HitPoints" Value="-0.25" Target="WeaponsHitPoints" Op="MulInitAdd" Descr="UI_System_FasterTurretRotation1_HitPoints" Quality="Negative" />
 		<Property Name="Heat" Value="0.1" Target="WeaponsHeat" Op="MulInitAdd" Descr="UI_System_FasterTurretRotation1_Heat" Quality="Negative" />
-		<Weapon Type="Turret" />
+		<Weapon ID="TurretGunMK4" />
+		<Weapon ID="TurretBlasterMK4" />
+		<Weapon ID="AutoTurretGunMK4" />
+		<Weapon ID="AutoTurretBlasterMK4" />
+		<Weapon ID="TurretRailgunMK4" />
+		<Weapon ID="PhalanxMK4" />
+		<Weapon ID="TurretFlakMK4" />
 	</ShipSystem>
 	<ShipSystem ID="8" Name="LightArmorPlating1" Category="Structural" Class="MK1;MK2;MK3" Credits="800" Requires="" Excludes="FeatherHull" AbilityType="Passive" Stack="2" Rank="5" >
 		<DisplayName>UI_System_LightArmorPlating1_Name</DisplayName>
 		<Icon>$UI/loadout_hull.svg</Icon>
 		<ShortDescr>UI_System_LightArmorPlating1_Descr</ShortDescr>
 		<Property Name="ArmorPlating" Value="1" Target="ArmorPoints" Op="Add" Descr="UI_System_LightArmorPlating1_ArmorPlating" Quality="Positive" />
+		<Property Name="HitPoints" Value="0.05" Target="HitPoints" Op="MulInitAdd" Descr="UI_System_LightArmorPlating1_HitPoints" Quality="Positive" />
 		<Property Name="Mass" Value="0.1" Target="Mass" Op="MulInitAdd" Descr="UI_System_LightArmorPlating1_Mass" Quality="Negative" />
 	</ShipSystem>
 	<ShipSystem ID="9" Name="HeavyArmorPlating1" Category="Structural" Class="MK4;MK5;MK6;MK7" Credits="2500" Requires="" Excludes="FeatherHull" AbilityType="Passive" Stack="2" Rank="12" >
 		<DisplayName>UI_System_HeavyArmorPlating1_Name</DisplayName>
 		<Icon>$UI/loadout_hull.svg</Icon>
 		<ShortDescr>UI_System_HeavyArmorPlating1_Descr</ShortDescr>
-		<Property Name="ArmorPlating" Value="2" Target="ArmorPoints" Op="Add" Descr="UI_System_HeavyArmorPlating1_ArmorPlating" Quality="Positive" />
-		<Property Name="Mass" Value="0.2" Target="Mass" Op="MulInitAdd" Descr="UI_System_HeavyArmorPlating1_Mass" Quality="Negative" />
+		<Property Name="ArmorPlating" Value="3" Target="ArmorPoints" Op="Add" Descr="UI_System_HeavyArmorPlating1_ArmorPlating" Quality="Positive" />
+		<Property Name="HitPoints" Value="0.1" Target="HitPoints" Op="MulInitAdd" Descr="UI_System_HeavyArmorPlating1_HitPoints" Quality="Positive" />
+		<Property Name="Mass" Value="0.15" Target="Mass" Op="MulInitAdd" Descr="UI_System_HeavyArmorPlating1_Mass" Quality="Negative" />
 	</ShipSystem>
 	<ShipSystem ID="10" Name="FlightAssist" Category="Electronics" Class="MK1;MK2;MK3;MK4;MK5;MK6;MK7" Credits="0" Requires="" Excludes="" AbilityType="Passive" Stack="1" >
 		<DisplayName>UI_System_FlightAssist_Name</DisplayName>
@@ -189,7 +179,7 @@
 		<Property Name="ResupplyParts" Value="0.1" Target="Mass" Op="MulInitAdd" Descr="UI_System_LightResupplyField_ResupplyParts" Quality="Negative" />
 		<Actor Class="Corvette" />
 	</ShipSystem>
-	<ShipSystem ID="19" Name="AMSDamage" Category="WeaponsMod" Class="MK3;MK4;MK6" Credits="800" Requires="" Excludes="" AbilityType="Passive" Stack="2" Rank="7" >
+	<ShipSystem ID="19" Name="AMSDamage" Category="WeaponsMod" Class="MK3;MK4;MK6" Credits="800" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="7" >
 		<DisplayName>UI_System_AMSDamage_Name</DisplayName>
 		<Icon>$UI/loadout_laser.svg</Icon>
 		<ShortDescr>UI_System_AMSDamage_Descr</ShortDescr>
@@ -232,7 +222,7 @@
 		<Icon>$UI/loadout_proj_rocket.svg</Icon>
 		<ShortDescr>UI_System_ExtraTorps_Descr</ShortDescr>
 		<Property Name="Torps" Value="0.5" Target="WeaponsMaxAmmo" Op="MulInitAdd" Descr="UI_System_ExtraTorps_Torps" Quality="Positive" />
-		<Property Name="Mass" Value="2.5" Target="WeaponsMass" Op="MulInitAdd" Descr="UI_System_ExtraTorps_Mass" Quality="Negative" />
+		<Property Name="Mass" Value="1.0" Target="WeaponsMass" Op="MulInitAdd" Descr="UI_System_ExtraTorps_Mass" Quality="Negative" />
 		<Actor Class="Bomber" />
 		<Weapon ID="TorpedoPod" />
 		<Weapon ID="KineticTorpedoPod" />
@@ -395,7 +385,7 @@
 		<Icon>$UI/loadout_proj_rocket.svg</Icon>
 		<ShortDescr>UI_System_ExtraHeavyMissiles_Descr</ShortDescr>
 		<Property Name="Missiles" Value="0.5" Target="WeaponsMaxAmmo" Op="MulInitAdd" Descr="UI_System_ExtraHeavyMissiles_Missiles" Quality="Positive" />
-		<Property Name="Mass" Value="0.80" Target="WeaponsMass" Op="MulInitAdd" Descr="UI_System_ExtraHeavyMissiles_Mass" Quality="Negative" />
+		<Property Name="Mass" Value="0.75" Target="WeaponsMass" Op="MulInitAdd" Descr="UI_System_ExtraHeavyMissiles_Mass" Quality="Negative" />
 		<Actor Class="Corvette" />
 		<Actor Class="Destroyer" />
 		<Actor Class="Cruiser" />
@@ -459,19 +449,21 @@
 		<AbilityAmmoType>Energy</AbilityAmmoType>
 		<AbilityAmmoCost>0.0</AbilityAmmoCost>
 		<AbilityAmmoPerSec>15.0</AbilityAmmoPerSec>
+		<AbilityActivatedSound>Stealth</AbilityActivatedSound>
 	</ShipSystem>
  	<ShipSystem ID="47" Name="ExtraMediumAmmo" Category="Storage" Class="MK3;MK4;MK5;MK6" Credits="1250" Requires="" Excludes="" AbilityType="Passive" Stack="2" Rank="6" >
 		<DisplayName>UI_System_ExtraMediumAmmo_Name</DisplayName>
 		<Icon>$UI/loadout_proj_railgun.svg</Icon>
 		<ShortDescr>UI_System_ExtraMediumAmmo_Descr</ShortDescr>
 		<Property Name="MaxAmmo" Value="0.25" Target="WeaponsMaxAmmo" Op="MulInitAdd" Descr="UI_System_ExtraMediumAmmo_MaxAmmo" Quality="Positive" />
-		<Property Name="Mass" Value="0.1" Target="Mass" Op="MulInitAdd" Descr="UI_System_ExtraMediumAmmo_Mass" Quality="Negative" />
+		<Property Name="Mass" Value="0.5" Target="WeaponsMass" Op="MulInitAdd" Descr="UI_System_ExtraMediumAmmo_Mass" Quality="Negative" />
 		<Weapon ID="TurretGunMK4" />
 		<Weapon ID="AutoTurretGunMK4" />
 		<Weapon ID="TurretFlakMK4" />
 		<Weapon ID="TurretRailgunMK4" />
 		<Weapon ID="PhalanxMK4" />
 		<Weapon ID="TurretGunMK5" />
+		<Weapon ID="TurretTrigunMK5" />
 	</ShipSystem>
  	<ShipSystem ID="48" Name="ExtraRockets" Category="Storage" Class="MK1;MK2" Credits="1300" Requires="" Excludes="" AbilityType="Passive" Stack="2" Rank="7" >
 		<DisplayName>UI_System_ExtraRockets_Name</DisplayName>
@@ -497,7 +489,6 @@
 		<Weapon ID="SSMBattery" />
 		<Weapon ID="KineticTorpedoPod" />
 		<Weapon ID="EMPTorpedoPod" />
-		<Weapon ID="SeekerMissilePod" />
 	</ShipSystem>
 	<ShipSystem ID="50" Name="HangarDeployRate" Category="Storage" Class="MK6;MK7" Credits="3000" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="13" >
 		<DisplayName>UI_System_HangarDeployRate_Name</DisplayName>
@@ -506,6 +497,7 @@
 		<Property Name="Rate" Value="0.5" Target="HangarDeployRate" Op="Mul" Descr="UI_System_HangarDeployRate_Rate" Quality="Positive" />
 		<Property Name="RepairHitPointsRate" Value="0.9" Target="RepairHitPointsRate" Op="Mul" Descr="UI_System_HangarDeployRate_RepairHitPointsRate" Quality="Negative" />
 		<Property Name="SelfRepairRate" Value="0.9" Target="SelfRepairRate" Op="Add" Descr="UI_System_HangarDeployRate_SelfRepairRate" Quality="Negative" />
+		<RequiresHangar>true</RequiresHangar>
 		<Actor Class="Carrier" />
 	</ShipSystem>
 	<ShipSystem ID="51" Name="HangarRepairRate" Category="Storage" Class="MK6;MK7" Credits="3500" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="14" >
@@ -515,6 +507,7 @@
 		<Property Name="Rate" Value="2.0" Target="HangarRepairRate" Op="Mul" Descr="UI_System_HangarRepairRate_Rate" Quality="Positive" />
 		<Property Name="RepairHitPointsRate" Value="0.9" Target="RepairHitPointsRate" Op="Mul" Descr="UI_System_HangarRepairRate_RepairHitPointsRate" Quality="Negative" />
 		<Property Name="SelfRepairRate" Value="0.9" Target="SelfRepairRate" Op="Add" Descr="UI_System_HangarRepairRate_SelfRepairRate" Quality="Negative" />
+		<RequiresHangar>true</RequiresHangar>
 		<Actor Class="Carrier" />
 	</ShipSystem>
 	<ShipSystem ID="52" Name="HangarCapacity" Category="Storage" Class="MK6;MK7" Credits="8000" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="17" >
@@ -526,22 +519,26 @@
 		<Property Name="ResupplyAmmoPointsRate" Value="0.75" Target="ResupplyAmmoPointsRate" Op="Mul" Descr="UI_System_HangarCapacity_ResupplyAmmoPointsRate" Quality="Negative" />
 		<Property Name="SelfRepairRate" Value="0.75" Target="SelfRepairRate" Op="Add" Descr="UI_System_HangarCapacity_SelfRepairRate" Quality="Negative" />
 		<Property Name="Mass" Value="0.15" Target="Mass" Op="MulInitAdd" Descr="UI_System_HangarCapacity_Mass" Quality="Negative" />
+		<RequiresHangar>true</RequiresHangar>
 		<Actor Class="Carrier" />
 	</ShipSystem>
-	<ShipSystem ID="53" Name="HangarVeteranRank" Category="Storage" Class="MK6;MK7" Credits="5000" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="15" >
+	<ShipSystem ID="53" Name="HangarVeteranRank" Category="Storage" Class="MK5;MK6;MK7" Credits="5000" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="15" >
 		<DisplayName>UI_System_HangarVeteranRank_Name</DisplayName>
 		<Icon>$UI/loadout_drone.svg</Icon>
 		<ShortDescr>UI_System_HangarVeteranRank_Descr</ShortDescr>
+		<RequiresHangar>true</RequiresHangar>
 		<Actor Class="Carrier" />
+		<Actor Class="Cruiser" />
 	</ShipSystem>
 	<ShipSystem ID="54" Name="HangarSalvage" Category="Storage" Class="MK6;MK7" Credits="6500" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="16" >
 		<DisplayName>UI_System_HangarSalvage_Name</DisplayName>
 		<Icon>$UI/loadout_drone.svg</Icon>
 		<ShortDescr>UI_System_HangarSalvage_Descr</ShortDescr>
 		<Property Name="HangarCapacity" Value="0.85" Target="CarryPoints" Op="Mul" Descr="UI_System_HangarSalvage_CarryPoints" Quality="Negative" />
+		<RequiresHangar>true</RequiresHangar>
 		<Actor Class="Carrier" />
 	</ShipSystem>
-	<ShipSystem ID="55" Name="CIWSBurst" Category="WeaponsMod" Class="MK4;MK5;MK6" Credits="1200" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="6" >
+	<ShipSystem ID="55" Name="CIWSBurst" Category="WeaponsMod" Class="MK4;MK5;MK6" Credits="1200" Requires="" Excludes="BurstCooling" AbilityType="Passive" Stack="1" Rank="6" >
 		<DisplayName>UI_System_CIWSBurst_Name</DisplayName>
 		<Icon>$UI/loadout_heat_waves.svg</Icon>
 		<ShortDescr>UI_System_CIWSBurst_Descr</ShortDescr>
@@ -609,53 +606,122 @@
 		<Icon>$UI/loadout_electronics.svg</Icon>
 		<ShortDescr>UI_System_AnalysisComputer_Descr</ShortDescr>
 	</ShipSystem>
-	<ShipSystem ID="61" Name="EMPField1" Category="WeaponsMod" Class="MK4" Credits="3000" Requires="" Excludes="EMPField2" AbilityType="Event" Stack="1" Rank="10" >
+	<ShipSystem ID="61" Name="EMPField1" Category="Shields" Class="MK4" Credits="3000" Requires="" Excludes="EMPField2" AbilityType="Event" Stack="1" Rank="10" >
 		<DisplayName>UI_System_EMPField1_Name</DisplayName>
-		<Icon>$UI/loadout_capacitor.svg</Icon>
+		<Icon>$UI/loadout_shield.svg</Icon>
 		<ShortDescr>UI_System_EMPField1_Descr</ShortDescr>
+		<ShortInfo>UI_System_EMPField1_Info</ShortInfo>
 		<HardpointPublic>true</HardpointPublic>
 		<Actor Class="Destroyer" />
 		<Property Name="AbilityCooldown" Value="60.0" Target="EMPField1_AbilityCooldown" Op="Add" Descr="UI_System_EMPField1_AbilityCooldown" Quality="Negative" />
-		<Property Name="EnergyCost" Descr="UI_System_EMPField1_EnergyCost" Quality="Negative" />
 		<Property Name="Damage" Descr="UI_System_EMPField1_Damage" Quality="Positive" />
 		<Property Name="Range" Descr="UI_System_EMPField1_Range" Quality="Positive" />
 		<Property Name="ShieldHarm" Descr="UI_System_EMPField1_ShieldHarm" Quality="Negative" />
 		<AbilityAction>EMPShockwave</AbilityAction>
-		<AbilityAmmoType>Energy</AbilityAmmoType>
-		<AbilityAmmoCost>500.0</AbilityAmmoCost>
-		<AbilityAmmoPerSec>0.0</AbilityAmmoPerSec>
 		<AbilityActivationEffect>EMPShockwave</AbilityActivationEffect>
-		<AbilityActivationEffectScale>1.5</AbilityActivationEffectScale>
+		<AbilityActivationEffectScale>1.0</AbilityActivationEffectScale>
 		<AbilityActionProperty Name="EMPDamage">15000.0</AbilityActionProperty>
 		<AbilityActionProperty Name="EMPRange">2.5</AbilityActionProperty>
-		<AbilityActionProperty Name="ShieldSelfDamage">2000.0</AbilityActionProperty>
+		<AbilityActionProperty Name="EMPSpeed">1.125</AbilityActionProperty>
+		<AbilityActionProperty Name="EMPDamageDelay">1.0</AbilityActionProperty>
+		<AbilityActionProperty Name="ShieldSelfDamage">4000.0</AbilityActionProperty>
 	</ShipSystem>
-	<ShipSystem ID="62" Name="EMPField2" Category="WeaponsMod" Class="MK4" Credits="3000" Requires="" Excludes="EMPField1" AbilityType="Event" Stack="1" Rank="10" >
+	<ShipSystem ID="62" Name="EMPField2" Category="Reactor" Class="MK4;MK5" Credits="3000" Requires="" Excludes="EMPField1" AbilityType="Event" Stack="1" Rank="10" >
 		<DisplayName>UI_System_EMPField2_Name</DisplayName>
 		<Icon>$UI/loadout_capacitor.svg</Icon>
 		<ShortDescr>UI_System_EMPField2_Descr</ShortDescr>
+		<ShortInfo>UI_System_EMPField2_Info</ShortInfo>
 		<HardpointPublic>true</HardpointPublic>
 		<Actor Class="Destroyer" />
-		<Property Name="AbilityCooldown" Value="60.0" Target="EMPField2_AbilityCooldown" Op="Add" Descr="UI_System_EMPField2_AbilityCooldown" Quality="Negative" />
+		<Actor Class="Cruiser" />
+		<Property Name="AbilityCooldown" Value="30.0" Target="EMPField2_AbilityCooldown" Op="Add" Descr="UI_System_EMPField2_AbilityCooldown" Quality="Negative" />
 		<Property Name="EnergyCost" Descr="UI_System_EMPField2_EnergyCost" Quality="Negative" />
 		<Property Name="Damage" Descr="UI_System_EMPField2_Damage" Quality="Positive" />
 		<Property Name="Range" Descr="UI_System_EMPField2_Range" Quality="Positive" />
-		<Property Name="ShieldHarm" Descr="UI_System_EMPField2_ShieldHarm" Quality="Negative" />
 		<AbilityAction>EMPShockwave</AbilityAction>
 		<AbilityAmmoType>Energy</AbilityAmmoType>
 		<AbilityAmmoCost>500.0</AbilityAmmoCost>
 		<AbilityAmmoPerSec>0.0</AbilityAmmoPerSec>
 		<AbilityActivationEffect>EMPShockwave</AbilityActivationEffect>
-		<AbilityActivationEffectScale>3.0</AbilityActivationEffectScale>
+		<AbilityActivationEffectScale>1.0</AbilityActivationEffectScale>
 		<AbilityActionProperty Name="EMPDamage">1000.0</AbilityActionProperty>
-		<AbilityActionProperty Name="EMPRange">5.0</AbilityActionProperty>
-		<AbilityActionProperty Name="ShieldSelfDamage">1000.0</AbilityActionProperty>
+		<AbilityActionProperty Name="EMPRange">4.0</AbilityActionProperty>
+		<AbilityActionProperty Name="EMPSpeed">2.5</AbilityActionProperty>
+		<AbilityActionProperty Name="EMPDamageDelay">1.0</AbilityActionProperty>
 	</ShipSystem>
 	<ShipSystem ID="63" Name="Coating" Category="Structural" Class="MK1;MK2;MK3" Credits="1500" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="8" >
 		<DisplayName>UI_System_Drag_Name</DisplayName>
 		<Icon>$UI/loadout_hull.svg</Icon>
 		<ShortDescr>UI_System_Drag_Descr</ShortDescr>
 		<Property Name="Drag" ValueX="-0.3" ValueY="0.0" ValueZ="0.0" Target="DragCoeffs" Op="MulInitAdd" Descr="UI_System_Coating_Drag" Quality="Positive" />
+	</ShipSystem>
+	<ShipSystem ID="64" Name="BurstCooling" Category="WeaponsMod" Class="MK4;MK5;MK6" Credits="1750" Requires="" Excludes="CIWSBurst" AbilityType="Passive" Stack="1" Rank="8" >
+		<DisplayName>UI_System_BurstCooling_Name</DisplayName>
+		<Icon>$UI/loadout_heat_waves.svg</Icon>
+		<ShortDescr>UI_System_BurstCooling_Descr</ShortDescr>
+		<HardpointPublic>true</HardpointPublic>
+		<Property Name="BurstCooldown" Value="-0.25" Target="WeaponsBurstCooldown" Op="MulInitAdd" Descr="UI_System_BurstCooling_BurstCooldown" Quality="Positive" />
+		<Property Name="Heat" Value="-0.25" Target="WeaponsHeat" Op="MulInitAdd" Descr="UI_System_BurstCooling_Heat" Quality="Positive" />
+		<Property Name="ProjSpeed" Value="-0.25" Target="WeaponsShotSpeed" Op="MulInitAdd" Descr="UI_System_BurstCooling_ProjSpeed" Quality="Negative" />
+		<Property Name="Range" Value="-0.25" Target="WeaponsRange" Op="MulInitAdd" />
+		<Weapon ID="AutoTurretGunMK4" />
+		<Weapon ID="TurretRailgunMK4" />
+		<Weapon ID="PhalanxMK4" />
+		<Weapon ID="TurretFlakMK4" />
+		<Weapon ID="TurretGunMK5" />
+		<Weapon ID="TurretTrigunMK5" />
+		<Weapon ID="TurretGunMK6" />
+		<Weapon ID="TurretFlakMK6" />
+		<Weapon ID="TurretGunMK7" />
+		<Weapon ID="HeraclesMK7" />
+		<Weapon ID="SpinalCruiserMKS" />
+	</ShipSystem>
+	<ShipSystem ID="65" Name="ChaffDuration" Category="Storage" Class="MK1;MK2;MK3" Credits="250" Requires="" Excludes="" AbilityType="Passive" Stack="1" Rank="2" >
+		<DisplayName>UI_System_ChaffDuration_Name</DisplayName>
+		<Icon>$UI/loadout_laser.svg</Icon>
+		<ShortDescr>UI_System_ChaffDuration_Descr</ShortDescr>
+		<HardpointPublic>true</HardpointPublic>
+		<Property Name="ChaffDuration" Value="0.5" Target="ChaffDuration" Op="MulInitAdd" Descr="UI_System_ChaffDuration_ChaffDuration" Quality="Positive" />
+	</ShipSystem>
+	<ShipSystem ID="66" Name="HeatVent" Category="Reactor" Class="MK4;MK5;MK6" Credits="1250" Requires="" Excludes="HeatDissipator1" AbilityType="Event" Stack="1" Rank="7" >
+		<DisplayName>UI_System_HeatVent_Name</DisplayName>
+		<Icon>$UI/loadout_heat_waves.svg</Icon>
+		<ShortDescr>UI_System_HeatVent_Descr</ShortDescr>
+		<ShortInfo>UI_System_HeatVent_Info</ShortInfo>
+		<Property Name="AbilityCooldown" Value="30.0" Target="HeatVent_AbilityCooldown" Op="Add" Descr="UI_System_HeatVent_Cooldown" Quality="Negative" />
+		<Property Name="EnergyCost" Descr="UI_System_HeatVent_EnergyCost" Quality="Negative" />
+		<Property Name="HeatPoints" Descr="UI_System_HeatVent_HeatPoints" Quality="Positive" />
+		<AbilityAction>HeatVent</AbilityAction>
+		<AbilityAmmoType>Energy</AbilityAmmoType>
+		<AbilityAmmoCost>750.0</AbilityAmmoCost>
+		<AbilityActivationEffect>HeatVent</AbilityActivationEffect>
+		<AbilityActionProperty Name="HeatPoints">1000.0</AbilityActionProperty>
+		<Actor Class="Destroyer" />
+		<Actor Class="Cruiser" />
+		<Actor Class="Carrier" />
+	</ShipSystem>
+ 	<ShipSystem ID="67" Name="ExtraHeavyAmmo" Category="Storage" Class="MK4;MK5;MK6" Credits="2800" Requires="" Excludes="" AbilityType="Passive" Stack="2" Rank="10" >
+		<DisplayName>UI_System_ExtraHeavyAmmo_Name</DisplayName>
+		<Icon>$UI/loadout_proj_railgun.svg</Icon>
+		<ShortDescr>UI_System_ExtraHeavyAmmo_Descr</ShortDescr>
+		<Property Name="MaxAmmo" Value="0.25" Target="WeaponsMaxAmmo" Op="MulInitAdd" Descr="UI_System_ExtraHeavyAmmo_MaxAmmo" Quality="Positive" />
+		<Property Name="Mass" Value="0.4" Target="WeaponsMass" Op="MulInitAdd" Descr="UI_System_ExtraHeavyAmmo_Mass" Quality="Negative" />
+		<Weapon ID="TurretGunMK6" />
+		<Weapon ID="TurretFlakMK6" />
+		<Weapon ID="TurretGunMK7" />
+		<Weapon ID="HeraclesMK7" />
+		<Weapon ID="SpinalCruiserMKS" />
+	</ShipSystem>
+ 	<ShipSystem ID="68" Name="ExtraLightAmmo" Category="Storage" Class="MK1;MK2" Credits="1000" Requires="" Excludes="" AbilityType="Passive" Stack="2" Rank="6" >
+		<DisplayName>UI_System_ExtraLightAmmo_Name</DisplayName>
+		<Icon>$UI/loadout_proj_railgun.svg</Icon>
+		<ShortDescr>UI_System_ExtraLightAmmo_Descr</ShortDescr>
+		<Property Name="MaxAmmo" Value="0.25" Target="WeaponsMaxAmmo" Op="MulInitAdd" Descr="UI_System_ExtraLightAmmo_MaxAmmo" Quality="Positive" />
+		<Property Name="Mass" Value="0.6" Target="WeaponsMass" Op="MulInitAdd" Descr="UI_System_ExtraLightAmmo_Mass" Quality="Negative" />
+		<Weapon ID="GimbalGunMK1" />
+		<Weapon ID="Halcyon" />
+		<Weapon ID="RailgunMK1" />
+		<Weapon ID="ShotgunMK1" />
 	</ShipSystem>
 
 <!-- 	Upgrade to reduce energy emissions -->

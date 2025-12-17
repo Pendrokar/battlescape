@@ -1,11 +1,13 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Ship</ActorType>
+		<IsCapShip>true</IsCapShip>
 		<SpawnType>Carrier</SpawnType>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>1800</ShipClassCost>
 		<BattleBudgetCost>4500</BattleBudgetCost>
-		<ShipBattleScore>20</ShipBattleScore>
+		<ShipBattleScore>13</ShipBattleScore>
+		<ShipEscortScore>24</ShipEscortScore>
 		<DisplayName>UI_ShipType_Carrier</DisplayName>
 		<ClassAbbrev>CAR</ClassAbbrev>
 		<WorldBoxSize X="1.14701" Y="0.375646" Z="2.216075" />
@@ -830,7 +832,7 @@
     <StratValue>0</StratValue>
 	</CServerActorComponent>
 	<CServerSensorComponent>
-		<EmissionsRange>400.0</EmissionsRange>
+		<EmissionsRange>500.0</EmissionsRange>
 		<SensorPower>2.0</SensorPower>
 		<IsScannable>true</IsScannable>
 		<MaxScanRange>100000.0</MaxScanRange>
@@ -843,7 +845,7 @@
     	<PhysicsBody Type="Mesh" >
 			<CollisionFile>$Dev/Ships/SFC-Carrier/Collision/a8b477c3.insm</CollisionFile>
 			<Dynamic>true</Dynamic>
-            <Mass>78000.0</Mass>
+            <Mass>82000.0</Mass>
             <Collisions>true</Collisions>
         </PhysicsBody>
 <!--     	<PhysicsBody Type="Box" >
@@ -852,9 +854,6 @@
             <Mass>100000.0</Mass>
             <Collisions>true</Collisions>
         </PhysicsBody> -->
-<!-- 		<CollisionBody>
-			<CollisionFile>$Dev/Ships/SFC-Carrier/Collision/79bf60f0.insm</CollisionFile>
-		</CollisionBody> -->
 		<HitMesh>
 			<CollisionFile>$Dev/Ships/SFC-Carrier/Collision/79bf60f0.insm</CollisionFile>
 			<SplitCost>0.05</SplitCost>
@@ -873,13 +872,13 @@
 		<AtmoDecay>0.04</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>5.0</DriftLimiter>
-		<CapSpeed>0.220</CapSpeed>
+		<CapSpeed>0.248</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
-		<EnergyPoints>3000</EnergyPoints>
-		<RechargeEnergyPoints>150</RechargeEnergyPoints>
-		<HeatPoints>3000</HeatPoints>
-		<DechargeHeatPoints>150</DechargeHeatPoints>
+		<EnergyPoints>2500</EnergyPoints>
+		<RechargeEnergyPoints>75</RechargeEnergyPoints>
+		<HeatPoints>2500</HeatPoints>
+		<DechargeHeatPoints>180</DechargeHeatPoints>
 	</CEngineComponent>
 	<CHullComponent>
 		<HitPoints>60000</HitPoints>
@@ -927,6 +926,8 @@
 		<ImpactShieldMeshFX>FX/Shields/SM_Carrier-shield</ImpactShieldMeshFX>
 		<ImpactShieldNoiseScale>35.0</ImpactShieldNoiseScale>
 		<ImpactShieldStartTime>0.4</ImpactShieldStartTime>
+		<ShredFX>FX/Shields/SM_Carrier-emp-shred</ShredFX>
+		<ShredDuration>3.0</ShredDuration>
 	</CClientShieldComponent>
 	<CWarpComponent>
 		<WarpChargeDuration>12.0</WarpChargeDuration>
@@ -1111,6 +1112,9 @@
 		</Hardpoint>
 	</CHardpointComponent>
 	<CAbilityComponent>
+		<Properties>
+			<HeatVentEffectScale X="3.0" />
+		</Properties>
 	</CAbilityComponent>
 	<CServerHardpointComponent>
 		<Loadout Name="DefaultCarrier" Proba="50" />
@@ -1120,7 +1124,8 @@
 		<DamageModel>Global</DamageModel>
 	</CServerModulesComponent>
 	<CCarrierComponent>
-		<CarryPoints>30</CarryPoints>
+		<DeploySpeed>0.4</DeploySpeed>
+		<CanDeployPlayers>true</CanDeployPlayers>
 	</CCarrierComponent>
 	<CServerMissionComponent>
 		<BountyReward>250</BountyReward>

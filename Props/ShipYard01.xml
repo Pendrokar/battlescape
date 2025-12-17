@@ -1,0 +1,2030 @@
+<ActorConfig>
+	<CNodeComponent>
+		<TransformNode>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "-0.286629" y = "0.059425" z = "-0.466116" />
+				<Rotation x = "0.700826" y = "0.104604" z = "-0.653955" w = "-0.265036" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "5.670226" y = "4.180024" z = "2.887120" />
+				<Rotation x = "0.761752" y = "-0.273792" z = "-0.510615" w = "-0.289903" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "4.722013" y = "3.468606" z = "8.384694" />
+				<Rotation x = "0.217725" y = "-0.772389" z = "0.181168" w = "0.568497" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "9.239098" y = "3.544955" z = "1.678732" />
+				<Rotation x = "-0.296043" y = "0.628828" z = "0.372862" w = "0.614742" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "-0.107307" y = "-4.840468" z = "3.061286" />
+				<Rotation x = "0.540965" y = "0.353732" z = "0.755067" w = "-0.110020" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "8.109891" y = "-1.165374" z = "10.603669" />
+				<Rotation x = "0.305166" y = "-0.590182" z = "-0.243809" w = "0.706482" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "14.115502" y = "6.941693" z = "-3.563698" />
+				<Rotation x = "0.714803" y = "-0.256430" z = "0.625382" w = "-0.179438" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "9.436162" y = "1.056607" z = "-2.919043" />
+				<Rotation x = "-0.619163" y = "-0.494549" z = "-0.133770" w = "0.595117" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "10.683724" y = "5.449302" z = "5.920901" />
+				<Rotation x = "0.612210" y = "-0.352253" z = "-0.610063" w = "-0.359083" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "6.593062" y = "6.611765" z = "5.511170" />
+				<Rotation x = "0.475815" y = "0.212816" z = "0.779184" w = "-0.348111" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "13.829807" y = "-0.727988" z = "0.800425" />
+				<Rotation x = "0.592766" y = "0.598533" z = "-0.252594" w = "-0.476007" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "8.388630" y = "-0.872489" z = "10.293006" />
+				<Rotation x = "-0.533156" y = "-0.238162" z = "-0.624821" w = "0.518287" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "1.326544" y = "7.512895" z = "6.563464" />
+				<Rotation x = "0.680451" y = "-0.487649" z = "-0.517362" w = "-0.177543" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "6.401543" y = "9.232276" z = "0.983630" />
+				<Rotation x = "0.977283" y = "0.018195" z = "-0.129852" w = "-0.166507" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "7.655802" y = "7.625942" z = "-8.497036" />
+				<Rotation x = "0.000050" y = "0.876081" z = "0.196801" w = "0.440172" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "11.528193" y = "1.068292" z = "-3.991641" />
+				<Rotation x = "0.824123" y = "-0.054216" z = "0.328460" w = "0.458254" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "12.112882" y = "1.992053" z = "-11.226658" />
+				<Rotation x = "0.082609" y = "0.701512" z = "-0.082581" w = "0.703020" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "7.682319" y = "7.112309" z = "-8.746602" />
+				<Rotation x = "-0.331115" y = "-0.151372" z = "0.434733" w = "0.823684" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "9.928669" y = "1.082854" z = "-3.236689" />
+				<Rotation x = "0.764030" y = "0.016470" z = "0.468753" w = "-0.443009" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "16.791350" y = "0.562260" z = "-9.168580" />
+				<Rotation x = "0.819864" y = "0.247856" z = "0.276872" w = "-0.435583" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "5.600924" y = "3.614369" z = "2.869447" />
+				<Rotation x = "-0.392932" y = "0.512061" z = "0.741272" w = "0.184155" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "6.310545" y = "1.831958" z = "7.178280" />
+				<Rotation x = "0.709892" y = "-0.287245" z = "0.641443" w = "-0.045768" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "10.155629" y = "0.697361" z = "-2.864553" />
+				<Rotation x = "-0.188643" y = "-0.430475" z = "-0.423052" w = "0.774682" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "0.980382" y = "5.647319" z = "15.030468" />
+				<Rotation x = "-0.204744" y = "0.781816" z = "0.447415" w = "0.382966" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "-0.505885" y = "-4.853426" z = "3.412306" />
+				<Rotation x = "0.753293" y = "0.207082" z = "0.618663" w = "-0.083203" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "18.693453" y = "11.472908" z = "0.563485" />
+				<Rotation x = "0.753266" y = "0.240520" z = "0.606822" w = "0.080665" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "2.233563" y = "4.868124" z = "12.235118" />
+				<Rotation x = "-0.440282" y = "-0.107343" z = "0.656313" w = "0.603227" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "9.541479" y = "-2.792382" z = "-11.908798" />
+				<Rotation x = "0.878964" y = "-0.087430" z = "-0.465858" w = "0.052480" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "9.864593" y = "12.534223" z = "8.024206" />
+				<Rotation x = "0.120939" y = "-0.709209" z = "0.379693" w = "0.581576" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "10.760160" y = "5.889547" z = "10.488646" />
+				<Rotation x = "-0.414547" y = "0.765797" z = "-0.033511" w = "0.490492" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "10.974112" y = "0.951422" z = "-3.930600" />
+				<Rotation x = "0.891035" y = "0.174892" z = "-0.417461" w = "-0.034577" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "3.206828" y = "7.965302" z = "4.746147" />
+				<Rotation x = "-0.187648" y = "-0.625254" z = "-0.525079" w = "0.546019" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "2.805371" y = "5.063537" z = "13.077779" />
+				<Rotation x = "0.861360" y = "0.201277" z = "-0.357278" w = "-0.299832" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "5.612208" y = "-0.450036" z = "12.121776" />
+				<Rotation x = "-0.211060" y = "0.816399" z = "0.130562" w = "0.521441" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "10.255272" y = "-9.006761" z = "-3.254411" />
+				<Rotation x = "0.395320" y = "0.579766" z = "0.709868" w = "0.060671" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "10.618075" y = "1.925119" z = "1.071795" />
+				<Rotation x = "0.239766" y = "0.808035" z = "0.436457" w = "0.314798" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "14.209060" y = "-0.397890" z = "0.861401" />
+				<Rotation x = "0.514102" y = "0.672530" z = "-0.466409" w = "-0.256641" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "9.436620" y = "1.542641" z = "-2.730027" />
+				<Rotation x = "0.708489" y = "-0.025409" z = "0.541225" w = "-0.452187" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "5.558156" y = "10.386283" z = "-9.008876" />
+				<Rotation x = "0.886856" y = "0.425375" z = "0.177094" w = "0.034371" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "13.523787" y = "-1.299035" z = "2.711184" />
+				<Rotation x = "-0.267223" y = "-0.406524" z = "-0.486764" w = "0.725528" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "17.034872" y = "-3.813821" z = "-17.846157" />
+				<Rotation x = "0.091765" y = "-0.742673" z = "0.082710" w = "0.658160" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "-0.679480" y = "0.460203" z = "-0.470571" />
+				<Rotation x = "0.393349" y = "-0.577657" z = "0.439541" w = "0.564262" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "10.378641" y = "1.520373" z = "0.768455" />
+				<Rotation x = "-0.263179" y = "-0.184401" z = "-0.580772" w = "0.747955" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "3.644731" y = "-3.007313" z = "-3.188647" />
+				<Rotation x = "0.579785" y = "-0.334001" z = "0.694054" w = "0.265672" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "9.206802" y = "-2.501424" z = "-5.604758" />
+				<Rotation x = "0.153272" y = "-0.776437" z = "-0.235098" w = "0.564254" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "16.165895" y = "1.885520" z = "17.515472" />
+				<Rotation x = "0.122900" y = "-0.586946" z = "0.123174" w = "0.790707" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "-0.676270" y = "-5.405083" z = "3.560870" />
+				<Rotation x = "0.170378" y = "0.006708" z = "0.923082" w = "-0.344740" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "10.597009" y = "-4.130016" z = "3.236845" />
+				<Rotation x = "-0.526905" y = "-0.289799" z = "0.790943" w = "-0.113123" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "13.172653" y = "7.611778" z = "-2.318423" />
+				<Rotation x = "0.213872" y = "0.407354" z = "-0.421398" w = "0.781502" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "12.510512" y = "8.444035" z = "18.994037" />
+				<Rotation x = "0.729007" y = "0.372102" z = "0.571087" w = "-0.062836" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "5.244855" y = "3.180722" z = "2.664263" />
+				<Rotation x = "0.821410" y = "0.045786" z = "-0.416530" w = "-0.386901" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "1.022541" y = "-0.433012" z = "3.293141" />
+				<Rotation x = "-0.119254" y = "0.861980" z = "0.007975" w = "-0.492651" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "4.877832" y = "2.851214" z = "2.409100" />
+				<Rotation x = "-0.255001" y = "-0.742844" z = "0.303768" w = "0.539335" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "10.164099" y = "12.911641" z = "7.848840" />
+				<Rotation x = "-0.532889" y = "0.544815" z = "0.286285" w = "0.580729" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "8.838577" y = "3.845286" z = "1.563979" />
+				<Rotation x = "-0.548473" y = "0.744512" z = "-0.351263" w = "0.146609" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "10.031604" y = "1.440158" z = "-3.574814" />
+				<Rotation x = "-0.580907" y = "-0.318533" z = "0.409929" w = "0.626931" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "0.554456" y = "12.825989" z = "-13.508842" />
+				<Rotation x = "0.095751" y = "0.974027" z = "0.174909" w = "-0.107282" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "12.011072" y = "1.492313" z = "-11.450851" />
+				<Rotation x = "-0.499810" y = "0.617151" z = "0.440406" w = "0.418756" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "7.395784" y = "-4.566096" z = "-9.013794" />
+				<Rotation x = "0.866221" y = "-0.094859" z = "0.285139" w = "-0.399197" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "14.949862" y = "5.106585" z = "15.790738" />
+				<Rotation x = "-0.309433" y = "0.143776" z = "0.854943" w = "0.390707" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "0.033931" y = "5.666748" z = "3.326827" />
+				<Rotation x = "-0.634728" y = "0.702226" z = "0.234547" w = "-0.221330" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "-0.080874" y = "-1.429575" z = "3.560283" />
+				<Rotation x = "-0.294123" y = "-0.595765" z = "-0.498805" w = "0.556552" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "3.813155" y = "0.914404" z = "10.561825" />
+				<Rotation x = "-0.366291" y = "0.652044" z = "-0.188203" w = "0.636591" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "14.465881" y = "7.275135" z = "-3.387872" />
+				<Rotation x = "-0.143553" y = "0.877125" z = "-0.043438" w = "-0.456244" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "17.582846" y = "6.576300" z = "5.906566" />
+				<Rotation x = "-0.454884" y = "0.380128" z = "0.364923" w = "0.717924" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "17.784692" y = "-13.077980" z = "-24.106700" />
+				<Rotation x = "0.047970" y = "-0.593075" z = "0.799911" w = "0.078126" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "18.449645" y = "4.494683" z = "-18.107460" />
+				<Rotation x = "0.516055" y = "-0.578537" z = "0.615991" w = "-0.139775" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "8.426202" y = "3.468047" z = "7.987180" />
+				<Rotation x = "0.594948" y = "-0.592348" z = "0.465022" w = "0.280918" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "3.143315" y = "3.156374" z = "0.829487" />
+				<Rotation x = "0.444098" y = "0.570771" z = "0.601468" w = "0.339461" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "8.291328" y = "8.575111" z = "-23.978885" />
+				<Rotation x = "-0.100572" y = "0.836213" z = "-0.530535" w = "0.095742" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "11.787882" y = "14.655729" z = "-13.935004" />
+				<Rotation x = "-0.265996" y = "0.541803" z = "0.035616" w = "0.796509" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "29.450008" y = "6.107709" z = "2.611507" />
+				<Rotation x = "-0.676614" y = "-0.081570" z = "0.730830" w = "0.037780" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "10.258746" y = "7.392395" z = "-13.301494" />
+				<Rotation x = "0.411215" y = "-0.355073" z = "0.748866" w = "0.379506" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "10.499000" y = "-3.664339" z = "3.432544" />
+				<Rotation x = "-0.045653" y = "0.727151" z = "0.041780" w = "0.683683" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "10.154923" y = "0.883034" z = "-2.389701" />
+				<Rotation x = "-0.515786" y = "0.780294" z = "-0.113636" w = "0.334953" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "0.041884" y = "1.771840" z = "7.895549" />
+				<Rotation x = "0.531627" y = "0.695248" z = "0.474879" w = "0.092156" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "-3.023406" y = "6.248082" z = "6.803308" />
+				<Rotation x = "-0.445454" y = "0.531779" z = "0.622036" w = "0.363117" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "5.141368" y = "10.384946" z = "-9.318408" />
+				<Rotation x = "0.639101" y = "0.292728" z = "-0.472140" w = "0.531924" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "20.274521" y = "-4.924503" z = "-17.268858" />
+				<Rotation x = "-0.277983" y = "-0.617551" z = "-0.534863" w = "0.505250" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "6.765856" y = "2.092720" z = "7.100963" />
+				<Rotation x = "-0.409151" y = "-0.417430" z = "0.265606" w = "0.766682" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "12.523664" y = "3.530246" z = "-0.926205" />
+				<Rotation x = "0.785364" y = "-0.194295" z = "-0.522817" w = "0.268541" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "14.325782" y = "17.306146" z = "8.027167" />
+				<Rotation x = "0.376033" y = "0.718826" z = "-0.555063" w = "0.183828" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "20.442323" y = "1.460555" z = "-8.750797" />
+				<Rotation x = "0.612055" y = "-0.403669" z = "0.510141" w = "0.449663" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "2.712063" y = "-6.739883" z = "2.969897" />
+				<Rotation x = "0.166378" y = "0.671571" z = "-0.392580" w = "0.605963" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "14.090135" y = "15.352635" z = "-16.456208" />
+				<Rotation x = "-0.034323" y = "0.620256" z = "0.411107" w = "0.667155" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "2.531174" y = "2.204083" z = "10.696357" />
+				<Rotation x = "-0.169484" y = "0.949142" z = "0.261398" w = "-0.045551" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "5.447669" y = "-13.908859" z = "-2.027451" />
+				<Rotation x = "-0.694996" y = "-0.152695" z = "0.701804" w = "-0.033709" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "7.559941" y = "11.567238" z = "-1.523723" />
+				<Rotation x = "-0.138983" y = "0.664533" z = "0.146479" w = "0.719461" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "1.028216" y = "7.124871" z = "6.446262" />
+				<Rotation x = "-0.471457" y = "0.879293" z = "-0.049834" w = "-0.045710" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "-7.966101" y = "7.650849" z = "2.616343" />
+				<Rotation x = "-0.163933" y = "0.636258" z = "-0.394657" w = "0.642298" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "11.713886" y = "12.047791" z = "17.668645" />
+				<Rotation x = "0.005703" y = "-0.483486" z = "0.737446" w = "-0.471574" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "18.158659" y = "0.981329" z = "-3.093233" />
+				<Rotation x = "0.512198" y = "-0.463826" z = "0.638158" w = "0.339520" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "9.880024" y = "0.795250" z = "-1.965526" />
+				<Rotation x = "0.586310" y = "-0.426045" z = "-0.545037" w = "-0.421498" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "9.869298" y = "-2.743240" z = "-12.364041" />
+				<Rotation x = "0.872594" y = "-0.048201" z = "-0.412486" w = "0.257123" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "8.405753" y = "0.550157" z = "-6.147525" />
+				<Rotation x = "-0.265279" y = "-0.677531" z = "-0.197845" w = "0.656837" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "22.278381" y = "-6.111030" z = "-32.297520" />
+				<Rotation x = "0.499895" y = "-0.311498" z = "0.247298" w = "0.769362" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "7.244005" y = "4.669471" z = "-9.478850" />
+				<Rotation x = "-0.467533" y = "-0.367187" z = "-0.474090" w = "0.649481" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "6.808557" y = "4.281667" z = "-9.601102" />
+				<Rotation x = "0.323166" y = "-0.014893" z = "0.779660" w = "0.536165" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "0.020721" y = "4.773320" z = "2.052762" />
+				<Rotation x = "-0.110743" y = "-0.710790" z = "-0.166888" w = "0.674286" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "-3.159546" y = "7.476832" z = "-0.597644" />
+				<Rotation x = "-0.533973" y = "0.411188" z = "0.711785" w = "0.197888" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "1.728184" y = "1.729393" z = "4.970298" />
+				<Rotation x = "0.558755" y = "0.785742" z = "0.258728" w = "0.058830" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "0.525420" y = "7.401298" z = "6.367464" />
+				<Rotation x = "-0.118136" y = "-0.350138" z = "0.884182" w = "-0.285780" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "-7.099942" y = "2.370048" z = "11.723701" />
+				<Rotation x = "0.341013" y = "0.544787" z = "-0.449750" w = "0.620195" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "-0.292054" y = "-1.364800" z = "-12.488973" />
+				<Rotation x = "-0.009605" y = "0.981593" z = "-0.165142" w = "0.095453" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "5.967478" y = "-0.436256" z = "11.755276" />
+				<Rotation x = "-0.306506" y = "0.308389" z = "0.442093" w = "0.784541" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "-8.397659" y = "7.921870" z = "2.834422" />
+				<Rotation x = "0.039166" y = "0.228947" z = "0.452129" w = "0.861179" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "26.581819" y = "-6.113381" z = "0.778761" />
+				<Rotation x = "0.649033" y = "0.270916" z = "0.658027" w = "-0.268999" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "-0.873577" y = "-0.381898" z = "-4.111966" />
+				<Rotation x = "0.896715" y = "0.160577" z = "-0.412329" w = "-0.010073" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "10.069758" y = "13.866871" z = "6.969719" />
+				<Rotation x = "-0.284909" y = "0.548782" z = "-0.460621" w = "0.636784" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "1.197895" y = "5.921982" z = "7.786857" />
+				<Rotation x = "-0.008114" y = "0.539692" z = "0.304861" w = "0.784682" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "4.382817" y = "5.693672" z = "8.511560" />
+				<Rotation x = "0.284148" y = "0.624631" z = "0.160204" w = "0.709528" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "18.343969" y = "9.165040" z = "-9.895972" />
+				<Rotation x = "0.733242" y = "-0.232528" z = "-0.609297" w = "-0.192469" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "8.566600" y = "0.406681" z = "8.092834" />
+				<Rotation x = "-0.618632" y = "0.024173" z = "0.723447" w = "0.305508" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "7.390966" y = "-4.179883" z = "-8.688526" />
+				<Rotation x = "0.135230" y = "0.607706" z = "-0.288914" w = "0.727279" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "10.149875" y = "7.768141" z = "-13.751985" />
+				<Rotation x = "0.599329" y = "-0.250911" z = "0.760132" w = "-0.006837" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "9.117747" y = "-6.810184" z = "-0.761372" />
+				<Rotation x = "0.194171" y = "0.730736" z = "0.060952" w = "0.651619" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "5.021822" y = "-14.188790" z = "-2.132009" />
+				<Rotation x = "-0.341269" y = "-0.165058" z = "-0.016844" w = "0.925207" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "3.985622" y = "7.491729" z = "8.590548" />
+				<Rotation x = "0.848866" y = "-0.519711" z = "0.018859" w = "-0.094720" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "20.534984" y = "-5.212363" z = "-16.946928" />
+				<Rotation x = "-0.206971" y = "0.612220" z = "-0.375379" w = "0.664410" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "20.579872" y = "-4.611545" z = "-17.663903" />
+				<Rotation x = "0.622447" y = "-0.350778" z = "-0.514743" w = "-0.473872" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "8.341836" y = "3.928298" z = "1.731981" />
+				<Rotation x = "-0.548931" y = "0.431130" z = "0.629860" w = "0.340703" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "2.074670" y = "18.949264" z = "-22.067243" />
+				<Rotation x = "-0.259589" y = "-0.379071" z = "-0.733903" w = "0.500305" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "8.913265" y = "-6.544259" z = "-1.139883" />
+				<Rotation x = "0.750407" y = "-0.024308" z = "-0.659892" w = "-0.029001" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "7.011145" y = "-4.903183" z = "-9.116139" />
+				<Rotation x = "0.191390" y = "-0.042121" z = "-0.129559" w = "0.972014" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "26.280543" y = "-2.606456" z = "-7.696954" />
+				<Rotation x = "-0.159898" y = "0.288087" z = "0.935709" w = "-0.126045" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "3.663892" y = "-0.769336" z = "0.775020" />
+				<Rotation x = "0.193092" y = "-0.804443" z = "0.089740" w = "0.554558" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "10.262830" y = "0.999377" z = "0.859541" />
+				<Rotation x = "-0.450955" y = "0.428596" z = "0.375687" w = "0.686880" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "16.345603" y = "12.531053" z = "-1.336845" />
+				<Rotation x = "-0.730983" y = "0.430921" z = "0.169769" w = "0.501148" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "16.129697" y = "14.908252" z = "-1.750546" />
+				<Rotation x = "-0.506986" y = "0.619267" z = "-0.562981" w = "-0.206218" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "17.881156" y = "18.622679" z = "-1.698599" />
+				<Rotation x = "0.935747" y = "0.086046" z = "-0.247870" w = "-0.235658" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "6.065822" y = "0.987776" z = "5.048222" />
+				<Rotation x = "0.049079" y = "0.319691" z = "0.562933" w = "0.760589" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "21.592903" y = "13.191640" z = "9.641334" />
+				<Rotation x = "0.377184" y = "0.038956" z = "0.110154" w = "0.918739" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "13.010638" y = "-0.921516" z = "-1.421390" />
+				<Rotation x = "0.487928" y = "0.235976" z = "0.831842" w = "-0.119498" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "20.839097" y = "-0.404622" z = "2.768848" />
+				<Rotation x = "0.427212" y = "-0.523678" z = "0.549234" w = "0.491521" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "15.823998" y = "5.348236" z = "1.556531" />
+				<Rotation x = "0.619604" y = "0.517891" z = "0.508596" w = "0.298680" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "8.199791" y = "0.123817" z = "8.396815" />
+				<Rotation x = "-0.402673" y = "0.638367" z = "0.363701" w = "0.545952" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "9.639350" y = "-1.452361" z = "-5.964230" />
+				<Rotation x = "-0.755175" y = "0.301062" z = "0.158413" w = "0.560336" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "0.026629" y = "-9.548592" z = "9.043874" />
+				<Rotation x = "-0.134926" y = "0.682255" z = "0.129286" w = "0.706830" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "7.344163" y = "7.110811" z = "-8.334033" />
+				<Rotation x = "0.558220" y = "-0.031925" z = "0.769179" w = "-0.309411" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "9.610034" y = "-16.237577" z = "-0.045409" />
+				<Rotation x = "0.045041" y = "0.473970" z = "0.081193" w = "0.875632" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "17.352065" y = "-0.698625" z = "-0.009243" />
+				<Rotation x = "0.463657" y = "-0.337954" z = "0.228783" w = "0.786427" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "8.159493" y = "-3.121838" z = "1.625490" />
+				<Rotation x = "0.664777" y = "-0.262453" z = "0.652698" w = "0.251348" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "0.755680" y = "-12.062388" z = "-17.017134" />
+				<Rotation x = "-0.021042" y = "0.474043" z = "-0.197285" w = "0.857857" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "5.173803" y = "-1.193103" z = "2.948862" />
+				<Rotation x = "-0.187072" y = "0.228849" z = "0.302170" w = "0.906270" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "14.276785" y = "9.244159" z = "10.741921" />
+				<Rotation x = "-0.657445" y = "-0.380521" z = "-0.126285" w = "0.637983" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "10.386194" y = "5.050537" z = "5.700507" />
+				<Rotation x = "-0.499622" y = "0.469070" z = "-0.181276" w = "0.705330" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "8.772425" y = "-0.567970" z = "-2.757887" />
+				<Rotation x = "0.340064" y = "0.930256" z = "-0.137438" w = "0.009505" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "20.242219" y = "-4.756150" z = "-4.680312" />
+				<Rotation x = "-0.210326" y = "0.810784" z = "0.537929" w = "0.095003" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "6.849875" y = "-10.528880" z = "-0.136447" />
+				<Rotation x = "-0.469121" y = "0.528920" z = "0.469381" w = "0.529008" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "20.185225" y = "-0.760783" z = "-29.709512" />
+				<Rotation x = "0.737740" y = "0.601026" z = "-0.273760" w = "0.139868" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "4.613777" y = "-7.259590" z = "-8.519012" />
+				<Rotation x = "0.292604" y = "0.705082" z = "0.213766" w = "0.609546" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "8.423400" y = "4.732045" z = "2.198732" />
+				<Rotation x = "0.007204" y = "0.953084" z = "0.225460" w = "-0.201858" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "-1.275990" y = "-7.867188" z = "6.061983" />
+				<Rotation x = "-0.233126" y = "0.122973" z = "0.543798" w = "0.796752" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "5.340672" y = "-7.738586" z = "1.466682" />
+				<Rotation x = "0.475361" y = "-0.190048" z = "0.530096" w = "0.675953" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "9.666581" y = "1.294525" z = "-1.991725" />
+				<Rotation x = "-0.251799" y = "0.200803" z = "0.619918" w = "0.715526" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "11.213300" y = "0.944446" z = "1.545489" />
+				<Rotation x = "0.095699" y = "0.729534" z = "-0.478490" w = "0.479237" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "20.233190" y = "0.994861" z = "-8.798695" />
+				<Rotation x = "-0.713858" y = "0.230051" z = "0.427424" w = "0.504769" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "-4.000485" y = "2.740831" z = "10.509145" />
+				<Rotation x = "0.325241" y = "-0.314113" z = "-0.632722" w = "0.628660" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "16.533476" y = "-5.367311" z = "-33.708540" />
+				<Rotation x = "0.622198" y = "-0.416659" z = "0.287082" w = "0.597368" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "1.432272" y = "6.083335" z = "7.360530" />
+				<Rotation x = "-0.594577" y = "0.237361" z = "0.293061" w = "0.710108" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "2.411234" y = "-6.945986" z = "3.412745" />
+				<Rotation x = "0.553746" y = "-0.089676" z = "0.228750" w = "0.795611" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "-8.280071" y = "-5.885948" z = "10.645202" />
+				<Rotation x = "0.818113" y = "-0.315216" z = "-0.392809" w = "0.277545" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "10.904125" y = "12.183466" z = "-2.868583" />
+				<Rotation x = "-0.503926" y = "-0.009592" z = "0.728816" w = "-0.463459" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "4.996061" y = "8.214840" z = "0.154648" />
+				<Rotation x = "0.755373" y = "-0.368892" z = "0.470915" w = "-0.267524" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "0.225983" y = "5.808389" z = "4.144881" />
+				<Rotation x = "-0.535823" y = "-0.200357" z = "0.335340" w = "0.748531" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "24.190035" y = "-11.635178" z = "-12.643255" />
+				<Rotation x = "0.232523" y = "-0.216860" z = "0.488541" w = "0.812547" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "14.572832" y = "9.189676" z = "-9.107933" />
+				<Rotation x = "-0.178262" y = "-0.561105" z = "0.806325" w = "0.056782" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "7.048947" y = "6.639423" z = "-8.189971" />
+				<Rotation x = "0.389589" y = "-0.154706" z = "0.903826" w = "0.085934" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "8.787287" y = "3.937827" z = "14.095026" />
+				<Rotation x = "0.450228" y = "-0.152256" z = "0.068437" w = "0.877171" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "13.965793" y = "-7.544846" z = "-22.485548" />
+				<Rotation x = "0.400555" y = "0.469476" z = "-0.293197" w = "0.730194" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "9.876508" y = "-8.690508" z = "-3.564285" />
+				<Rotation x = "0.603628" y = "0.473310" z = "0.613628" w = "0.187274" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "11.857473" y = "6.157091" z = "10.797466" />
+				<Rotation x = "-0.206534" y = "-0.534681" z = "0.817942" w = "0.049308" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "16.017664" y = "-5.230161" z = "-0.548207" />
+				<Rotation x = "-0.608190" y = "-0.086265" z = "0.721545" w = "-0.319430" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "11.017270" y = "5.826879" z = "6.065470" />
+				<Rotation x = "-0.470185" y = "0.433114" z = "-0.389215" w = "0.663212" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "2.275549" y = "17.683306" z = "-25.462063" />
+				<Rotation x = "0.679956" y = "-0.220127" z = "0.697498" w = "0.051965" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "5.149719" y = "7.733868" z = "8.716880" />
+				<Rotation x = "0.650984" y = "-0.465326" z = "0.381616" w = "0.462666" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "6.831115" y = "-14.101956" z = "2.547759" />
+				<Rotation x = "-0.248460" y = "0.724153" z = "0.641003" w = "-0.054642" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "11.640461" y = "11.081360" z = "10.194607" />
+				<Rotation x = "0.210637" y = "0.710122" z = "-0.621585" w = "-0.254934" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "29.644170" y = "-10.531130" z = "-21.966169" />
+				<Rotation x = "0.663733" y = "-0.261815" z = "0.645558" w = "0.272333" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "5.425814" y = "-4.985711" z = "-2.291481" />
+				<Rotation x = "0.830882" y = "0.055091" z = "-0.463639" w = "-0.302721" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "-7.593315" y = "7.827604" z = "2.241580" />
+				<Rotation x = "0.032003" y = "0.037915" z = "0.916601" w = "0.396713" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "22.973879" y = "-16.060639" z = "-11.244338" />
+				<Rotation x = "0.226263" y = "0.651119" z = "-0.391612" w = "0.609499" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "18.957771" y = "-4.391505" z = "-0.228208" />
+				<Rotation x = "-0.151559" y = "-0.352635" z = "-0.337788" w = "0.859406" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "5.895621" y = "3.280747" z = "3.158459" />
+				<Rotation x = "-0.262943" y = "0.665949" z = "-0.488000" w = "-0.499228" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "-1.136229" y = "9.657521" z = "-9.099767" />
+				<Rotation x = "0.674371" y = "0.696711" z = "0.196725" w = "0.145316" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "11.948521" y = "7.371991" z = "9.580692" />
+				<Rotation x = "-0.181976" y = "0.222907" z = "0.868393" w = "0.403845" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "0.329218" y = "6.997548" z = "6.103377" />
+				<Rotation x = "0.330943" y = "-0.145469" z = "-0.689314" w = "0.627823" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "-1.426439" y = "0.125282" z = "14.571621" />
+				<Rotation x = "0.927354" y = "-0.145723" z = "0.288341" w = "-0.188781" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "8.028086" y = "5.112780" z = "2.325351" />
+				<Rotation x = "0.243588" y = "-0.658349" z = "-0.395473" w = "0.592320" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "-2.819721" y = "2.892089" z = "11.096191" />
+				<Rotation x = "-0.295961" y = "0.939761" z = "0.052759" w = "0.162705" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "1.687925" y = "-15.137283" z = "1.935141" />
+				<Rotation x = "-0.613352" y = "0.358895" z = "-0.236769" w = "0.662521" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "-8.262988" y = "1.042642" z = "11.459976" />
+				<Rotation x = "-0.407609" y = "0.568022" z = "0.714867" w = "-0.013090" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "-8.563880" y = "9.390204" z = "1.793582" />
+				<Rotation x = "-0.076083" y = "-0.232219" z = "0.907770" w = "-0.340938" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "10.395572" y = "2.176534" z = "7.948357" />
+				<Rotation x = "0.104734" y = "0.743726" z = "0.593869" w = "0.288483" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "5.779035" y = "12.104670" z = "4.992024" />
+				<Rotation x = "-0.362294" y = "0.130124" z = "0.887943" w = "-0.251729" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "-4.326039" y = "6.830381" z = "-2.852249" />
+				<Rotation x = "0.147025" y = "-0.495297" z = "0.706441" w = "-0.483742" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "-0.231120" y = "-3.299124" z = "9.642937" />
+				<Rotation x = "0.552483" y = "0.277578" z = "0.730778" w = "-0.289267" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "10.036409" y = "-3.874949" z = "3.430717" />
+				<Rotation x = "0.792259" y = "0.339757" z = "0.155413" w = "0.482428" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "24.681672" y = "8.624073" z = "4.367520" />
+				<Rotation x = "0.682567" y = "-0.240723" z = "-0.493001" w = "-0.482809" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "0.687395" y = "16.113389" z = "-2.232747" />
+				<Rotation x = "-0.217153" y = "0.863797" z = "0.144901" w = "0.430932" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "-7.187696" y = "4.993441" z = "18.138983" />
+				<Rotation x = "0.462049" y = "-0.576236" z = "0.415190" w = "0.531113" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "15.413652" y = "4.235346" z = "6.848081" />
+				<Rotation x = "-0.121880" y = "-0.391398" z = "-0.485027" w = "0.772465" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "7.010382" y = "-0.498619" z = "-14.453054" />
+				<Rotation x = "0.767218" y = "-0.332237" z = "-0.546041" w = "0.053251" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "10.436214" y = "1.585092" z = "1.483874" />
+				<Rotation x = "0.084477" y = "0.903324" z = "0.390103" w = "0.157130" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "19.875593" y = "2.492989" z = "6.697629" />
+				<Rotation x = "0.109594" y = "0.761418" z = "-0.225900" w = "0.597663" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "3.816926" y = "-3.036772" z = "-5.107698" />
+				<Rotation x = "-0.407064" y = "-0.166917" z = "0.864178" w = "0.244200" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "19.221578" y = "14.598450" z = "-17.274087" />
+				<Rotation x = "-0.364672" y = "0.356478" z = "0.385986" w = "0.768734" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "11.466212" y = "11.817879" z = "17.295552" />
+				<Rotation x = "0.209461" y = "0.500300" z = "-0.156784" w = "0.825376" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "10.562195" y = "-1.747373" z = "5.429842" />
+				<Rotation x = "0.228678" y = "0.168689" z = "0.958326" w = "-0.029350" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "-7.199211" y = "7.801089" z = "16.084867" />
+				<Rotation x = "-0.542439" y = "0.400742" z = "0.099355" w = "0.731638" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "-2.488609" y = "-14.449696" z = "5.395480" />
+				<Rotation x = "0.063235" y = "-0.259554" z = "0.817249" w = "0.510625" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "0.479066" y = "12.965633" z = "-14.016277" />
+				<Rotation x = "0.316643" y = "-0.523510" z = "0.776326" w = "0.151636" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "2.784967" y = "-6.400097" z = "15.064386" />
+				<Rotation x = "-0.398812" y = "-0.472349" z = "0.745900" w = "0.247929" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "16.188307" y = "-4.424147" z = "-11.739104" />
+				<Rotation x = "-0.301941" y = "0.308384" z = "-0.296324" w = "0.852011" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "-0.129367" y = "5.486751" z = "3.918689" />
+				<Rotation x = "0.611797" y = "0.555930" z = "-0.105518" w = "0.552731" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "6.473911" y = "1.364574" z = "4.906338" />
+				<Rotation x = "0.129207" y = "0.184751" z = "0.926602" w = "0.300966" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "-4.344163" y = "6.467096" z = "-2.494859" />
+				<Rotation x = "0.799054" y = "0.416040" z = "-0.178808" w = "0.395539" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "-9.775773" y = "10.302170" z = "-1.137558" />
+				<Rotation x = "-0.419341" y = "0.783855" z = "0.303427" w = "-0.343010" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "11.603852" y = "-6.181715" z = "-4.610748" />
+				<Rotation x = "0.208539" y = "0.524912" z = "0.824312" w = "0.038571" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "7.420889" y = "6.726692" z = "6.573299" />
+				<Rotation x = "0.488782" y = "0.487673" z = "0.085520" w = "0.718299" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "11.078018" y = "0.584440" z = "6.816927" />
+				<Rotation x = "-0.376374" y = "0.119154" z = "0.788915" w = "0.470912" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "-4.119001" y = "-13.927573" z = "-6.864016" />
+				<Rotation x = "-0.004878" y = "0.624630" z = "-0.199417" w = "0.755014" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "23.540682" y = "-10.008150" z = "-3.471370" />
+				<Rotation x = "-0.350278" y = "-0.189691" z = "-0.678945" w = "0.616731" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "13.157134" y = "7.401777" z = "-2.805011" />
+				<Rotation x = "-0.207984" y = "-0.079898" z = "0.908370" w = "-0.353868" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "20.530464" y = "-11.459863" z = "3.857565" />
+				<Rotation x = "-0.182002" y = "0.943281" z = "-0.275862" w = "-0.031578" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "3.209102" y = "4.213987" z = "9.708574" />
+				<Rotation x = "0.065746" y = "0.729673" z = "0.102087" w = "0.672929" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "18.037619" y = "3.192070" z = "-4.787531" />
+				<Rotation x = "-0.593236" y = "-0.094349" z = "0.508575" w = "0.616864" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "13.011110" y = "3.819542" z = "8.608159" />
+				<Rotation x = "0.795967" y = "0.040555" z = "-0.066935" w = "0.600259" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "9.028695" y = "6.831509" z = "7.021471" />
+				<Rotation x = "0.334090" y = "-0.447674" z = "0.303879" w = "0.771770" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "21.023963" y = "12.048272" z = "-11.291573" />
+				<Rotation x = "-0.535173" y = "0.400275" z = "0.536360" w = "0.515448" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "24.074422" y = "-1.296277" z = "-21.110484" />
+				<Rotation x = "0.730025" y = "0.088307" z = "0.677663" w = "0.006161" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "12.838210" y = "-8.226581" z = "-19.695821" />
+				<Rotation x = "-0.720644" y = "0.009701" z = "-0.201106" w = "0.663427" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "7.199559" y = "-10.781931" z = "-0.447912" />
+				<Rotation x = "-0.091560" y = "-0.623135" z = "-0.130295" w = "0.765731" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "-8.531907" y = "-5.362413" z = "10.528429" />
+				<Rotation x = "-0.552580" y = "0.293157" z = "0.563154" w = "0.539974" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "25.081510" y = "-5.813537" z = "-28.409476" />
+				<Rotation x = "-0.165762" y = "-0.600063" z = "0.727499" w = "-0.288430" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "10.669717" y = "0.144523" z = "-0.915785" />
+				<Rotation x = "0.851273" y = "-0.319643" z = "0.410610" w = "-0.067545" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "2.568446" y = "-9.076302" z = "-12.128799" />
+				<Rotation x = "-0.273086" y = "-0.566198" z = "-0.428241" w = "0.649195" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "8.840302" y = "-6.947065" z = "0.903138" />
+				<Rotation x = "-0.016296" y = "-0.621237" z = "-0.156260" w = "0.767712" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "-0.673572" y = "1.830761" z = "9.335021" />
+				<Rotation x = "-0.080181" y = "-0.470929" z = "0.249298" w = "0.842405" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "24.382632" y = "-11.273989" z = "-12.307160" />
+				<Rotation x = "0.848374" y = "-0.274857" z = "0.181672" w = "0.414380" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "7.720890" y = "-0.822620" z = "10.864976" />
+				<Rotation x = "0.687456" y = "-0.153138" z = "-0.563854" w = "-0.431302" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "8.502188" y = "10.787689" z = "10.191305" />
+				<Rotation x = "-0.590647" y = "-0.210508" z = "-0.398254" w = "0.669490" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "15.078259" y = "4.346871" z = "-32.698640" />
+				<Rotation x = "0.291146" y = "0.063428" z = "0.712228" w = "0.635564" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "11.834982" y = "4.554433" z = "4.259007" />
+				<Rotation x = "-0.059751" y = "0.309731" z = "-0.327814" w = "0.890525" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "14.625729" y = "9.670618" z = "10.541103" />
+				<Rotation x = "0.915631" y = "0.038902" z = "0.378971" w = "0.128408" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "12.969952" y = "7.073729" z = "-3.266300" />
+				<Rotation x = "-0.530054" y = "0.477351" z = "0.487164" w = "0.503835" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "8.475055" y = "4.619195" z = "2.754710" />
+				<Rotation x = "-0.130803" y = "-0.723784" z = "0.189607" w = "0.650443" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "11.744509" y = "11.400181" z = "16.250778" />
+				<Rotation x = "0.979530" y = "0.185000" z = "-0.079332" w = "-0.001304" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "-10.469586" y = "-3.613945" z = "6.241800" />
+				<Rotation x = "0.735042" y = "0.665256" z = "0.106856" w = "-0.075687" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "-8.820565" y = "3.185561" z = "6.609046" />
+				<Rotation x = "0.237875" y = "0.847901" z = "-0.443211" w = "0.167459" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "7.512819" y = "-4.511285" z = "-8.318446" />
+				<Rotation x = "0.698157" y = "0.132500" z = "0.664665" w = "-0.230738" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "12.232636" y = "7.743835" z = "9.848188" />
+				<Rotation x = "-0.075559" y = "-0.017113" z = "0.081868" w = "0.993627" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "23.341318" y = "20.713509" z = "-5.177728" />
+				<Rotation x = "-0.022194" y = "-0.616507" z = "-0.255832" w = "0.744296" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "5.714600" y = "3.142687" z = "3.609913" />
+				<Rotation x = "-0.601206" y = "-0.358883" z = "0.503723" w = "0.505981" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "12.894175" y = "3.700744" z = "2.364919" />
+				<Rotation x = "0.740451" y = "-0.349787" z = "0.533037" w = "0.212728" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "5.969705" y = "-0.818653" z = "12.318377" />
+				<Rotation x = "0.570704" y = "0.227941" z = "0.757482" w = "-0.220366" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "5.894108" y = "7.244525" z = "12.874352" />
+				<Rotation x = "0.104590" y = "0.075756" z = "-0.106893" w = "0.985848" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "12.638477" y = "0.735809" z = "13.861299" />
+				<Rotation x = "0.124801" y = "0.354029" z = "0.920412" w = "-0.109226" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "17.947894" y = "12.492239" z = "-0.885690" />
+				<Rotation x = "0.726148" y = "0.123829" z = "-0.666032" w = "0.117377" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "6.218608" y = "5.284310" z = "5.188291" />
+				<Rotation x = "0.825950" y = "0.291740" z = "0.472275" w = "-0.098239" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "8.645811" y = "3.387650" z = "11.177124" />
+				<Rotation x = "-0.446803" y = "0.005603" z = "0.681001" w = "0.580150" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "15.442708" y = "15.266791" z = "10.920875" />
+				<Rotation x = "0.486019" y = "0.499368" z = "-0.061639" w = "0.714575" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "18.914213" y = "2.450216" z = "16.238537" />
+				<Rotation x = "-0.222186" y = "-0.645218" z = "-0.198722" w = "0.703446" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "10.450462" y = "-0.169685" z = "-1.372544" />
+				<Rotation x = "-0.055074" y = "-0.357146" z = "0.930692" w = "0.056797" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "17.583874" y = "0.565028" z = "-8.714335" />
+				<Rotation x = "-0.437241" y = "0.140891" z = "-0.728224" w = "0.508587" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "9.405610" y = "-3.164526" z = "-12.312249" />
+				<Rotation x = "0.153432" y = "0.923991" z = "-0.327010" w = "-0.125552" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "26.655801" y = "-11.724985" z = "4.270620" />
+				<Rotation x = "0.256602" y = "-0.143265" z = "0.955282" w = "0.032652" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "3.169714" y = "-0.614806" z = "0.737564" />
+				<Rotation x = "0.428678" y = "0.312903" z = "0.806237" w = "0.261359" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "9.491146" y = "1.508010" z = "-3.700007" />
+				<Rotation x = "-0.013709" y = "0.649234" z = "0.349295" w = "0.675500" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "1.571208" y = "2.280170" z = "5.138940" />
+				<Rotation x = "0.624376" y = "0.467978" z = "-0.576734" w = "0.241928" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "-6.345196" y = "10.774973" z = "16.523229" />
+				<Rotation x = "0.867374" y = "0.253425" z = "0.427439" w = "-0.027091" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "0.467048" y = "-0.093530" z = "6.651534" />
+				<Rotation x = "0.927636" y = "0.111938" z = "0.165454" w = "-0.315572" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "3.434178" y = "15.200035" z = "-3.370982" />
+				<Rotation x = "-0.206981" y = "-0.209518" z = "-0.748633" w = "0.593977" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "15.743575" y = "15.151941" z = "-1.382632" />
+				<Rotation x = "0.319597" y = "0.153892" z = "0.890834" w = "-0.283882" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "15.932780" y = "-7.333990" z = "10.992053" />
+				<Rotation x = "-0.312151" y = "-0.631839" z = "-0.308472" w = "0.638894" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "4.551668" y = "16.972873" z = "15.666382" />
+				<Rotation x = "-0.417861" y = "-0.640677" z = "-0.206457" w = "0.610165" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "10.510709" y = "10.402174" z = "-17.913562" />
+				<Rotation x = "-0.083292" y = "0.345536" z = "-0.781392" w = "0.512927" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "6.366884" y = "1.866841" z = "5.666043" />
+				<Rotation x = "0.270815" y = "0.543206" z = "0.717600" w = "-0.341521" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "4.706139" y = "2.062613" z = "6.593118" />
+				<Rotation x = "0.831401" y = "-0.533545" z = "-0.152556" w = "-0.028783" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "3.012851" y = "-18.329641" z = "-16.429863" />
+				<Rotation x = "0.410047" y = "-0.542413" z = "0.575206" w = "0.454739" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "8.292809" y = "2.731705" z = "-6.619405" />
+				<Rotation x = "-0.258676" y = "0.818950" z = "-0.085065" w = "0.505145" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "8.519712" y = "-0.605591" z = "-3.213891" />
+				<Rotation x = "0.764560" y = "-0.413016" z = "0.489287" w = "-0.073917" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "23.126360" y = "-16.388063" z = "-10.820582" />
+				<Rotation x = "0.086147" y = "0.202015" z = "0.950570" w = "0.219510" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "9.830687" y = "-2.313617" z = "-12.656745" />
+				<Rotation x = "0.392716" y = "0.901554" z = "-0.147258" w = "-0.106256" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "8.744426" y = "4.910643" z = "-9.822163" />
+				<Rotation x = "-0.687363" y = "0.076004" z = "0.714338" w = "0.107131" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "16.317493" y = "-4.202400" z = "-6.552209" />
+				<Rotation x = "0.725690" y = "-0.249803" z = "-0.587591" w = "0.256339" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "3.059918" y = "15.970849" z = "-0.594192" />
+				<Rotation x = "-0.230093" y = "-0.593369" z = "0.753812" w = "-0.163515" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "15.797207" y = "2.350783" z = "-10.904928" />
+				<Rotation x = "-0.174452" y = "0.482074" z = "0.770630" w = "-0.378551" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "0.008017" y = "-20.664616" z = "-3.576630" />
+				<Rotation x = "0.823426" y = "0.455068" z = "-0.200896" w = "0.272990" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "6.870351" y = "-1.585874" z = "1.194993" />
+				<Rotation x = "-0.666799" y = "-0.524465" z = "-0.141125" w = "0.510294" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "6.098953" y = "1.517581" z = "5.319092" />
+				<Rotation x = "0.081208" y = "-0.106666" z = "-0.052461" w = "0.989583" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "6.161137" y = "3.014946" z = "2.714186" />
+				<Rotation x = "-0.499561" y = "0.043155" z = "-0.654131" w = "0.566294" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "-12.630508" y = "1.135544" z = "7.832018" />
+				<Rotation x = "-0.612679" y = "-0.478555" z = "-0.362847" w = "0.513762" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "13.812690" y = "-1.065254" z = "13.084036" />
+				<Rotation x = "-0.492857" y = "-0.421886" z = "-0.131927" w = "0.749466" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "5.571074" y = "-0.216501" z = "11.379762" />
+				<Rotation x = "0.229462" y = "0.122972" z = "0.594992" w = "0.760401" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "21.404776" y = "12.459319" z = "-11.446199" />
+				<Rotation x = "-0.112899" y = "0.599550" z = "0.777367" w = "0.153279" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "17.534657" y = "-25.123249" z = "-8.482089" />
+				<Rotation x = "0.134789" y = "0.067005" z = "-0.702173" w = "0.695913" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "5.610322" y = "5.429424" z = "-2.154664" />
+				<Rotation x = "0.916326" y = "-0.086498" z = "0.254158" w = "-0.297099" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "2.868647" y = "20.042532" z = "-3.840083" />
+				<Rotation x = "0.061965" y = "0.791356" z = "0.122361" w = "0.595772" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "0.374953" y = "-0.315476" z = "5.692998" />
+				<Rotation x = "-0.225202" y = "0.217965" z = "-0.101885" w = "0.944137" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "20.902713" y = "1.719359" z = "-8.866167" />
+				<Rotation x = "-0.191043" y = "-0.729267" z = "-0.107877" w = "0.648101" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "18.064563" y = "12.937696" z = "-1.264225" />
+				<Rotation x = "-0.240152" y = "0.874565" z = "-0.004434" w = "0.421240" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "19.677593" y = "6.918415" z = "-19.808278" />
+				<Rotation x = "-0.474874" y = "0.180133" z = "0.859440" w = "0.058394" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "-1.859868" y = "7.297928" z = "-14.602823" />
+				<Rotation x = "0.348248" y = "0.707613" z = "-0.274397" w = "0.550193" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "8.479540" y = "-17.048581" z = "6.206064" />
+				<Rotation x = "0.664124" y = "0.223751" z = "-0.336995" w = "0.628736" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "18.270892" y = "-13.290124" z = "-23.915296" />
+				<Rotation x = "0.669044" y = "-0.281637" z = "-0.663041" w = "0.182858" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "11.677972" y = "0.584157" z = "1.471621" />
+				<Rotation x = "0.054763" y = "-0.211557" z = "-0.085105" w = "0.972112" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "6.347761" y = "8.188664" z = "10.168439" />
+				<Rotation x = "-0.118547" y = "-0.106887" z = "0.939602" w = "-0.302771" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "12.620796" y = "3.426902" z = "2.733837" />
+				<Rotation x = "-0.038227" y = "-0.623419" z = "-0.288520" w = "0.725703" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "19.574667" y = "10.041785" z = "6.312768" />
+				<Rotation x = "0.537282" y = "0.029926" z = "0.774716" w = "-0.332035" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "22.990496" y = "-5.457407" z = "-10.960513" />
+				<Rotation x = "0.530134" y = "-0.171339" z = "0.829127" w = "-0.046361" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "17.292297" y = "-0.317047" z = "-7.683049" />
+				<Rotation x = "-0.453483" y = "0.835485" z = "-0.286669" w = "-0.118908" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "7.527448" y = "1.475738" z = "8.858147" />
+				<Rotation x = "-0.598667" y = "-0.294505" z = "0.633669" w = "-0.391572" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "10.757270" y = "-16.847734" z = "-1.379721" />
+				<Rotation x = "0.447298" y = "0.744557" z = "-0.494743" w = "-0.028080" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "7.514086" y = "-2.570740" z = "5.830795" />
+				<Rotation x = "-0.564346" y = "-0.178035" z = "0.805971" w = "-0.015075" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "6.123767" y = "1.408135" z = "5.960477" />
+				<Rotation x = "0.142084" y = "-0.707594" z = "-0.395613" w = "0.567991" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "0.662059" y = "-9.654126" z = "-2.226556" />
+				<Rotation x = "-0.057173" y = "0.456513" z = "0.672601" w = "0.579599" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "4.081289" y = "1.155296" z = "-0.756454" />
+				<Rotation x = "0.695712" y = "0.622467" z = "0.335928" w = "-0.125192" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "1.986089" y = "-13.704192" z = "-9.214445" />
+				<Rotation x = "-0.367896" y = "0.468675" z = "0.793078" w = "-0.126583" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "8.393658" y = "0.583151" z = "12.671197" />
+				<Rotation x = "-0.654751" y = "-0.202396" z = "0.256050" w = "0.681745" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "17.779213" y = "16.509218" z = "-9.475604" />
+				<Rotation x = "0.483993" y = "0.241922" z = "0.743935" w = "0.392154" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "21.334962" y = "12.991798" z = "-11.296804" />
+				<Rotation x = "-0.012855" y = "0.256757" z = "0.835364" w = "-0.485878" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "-8.803484" y = "-4.914541" z = "10.320961" />
+				<Rotation x = "-0.691345" y = "-0.092875" z = "0.234955" w = "0.676914" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "18.505056" y = "4.573545" z = "-18.648936" />
+				<Rotation x = "-0.159621" y = "-0.380377" z = "0.800696" w = "-0.434419" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "14.353508" y = "-2.015370" z = "-7.218236" />
+				<Rotation x = "0.113981" y = "0.650184" z = "-0.277627" w = "0.697991" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "5.836776" y = "-24.184519" z = "-3.196085" />
+				<Rotation x = "0.062144" y = "0.898115" z = "0.331104" w = "-0.282660" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "6.236334" y = "1.286398" z = "-15.600021" />
+				<Rotation x = "0.360768" y = "0.316717" z = "0.877129" w = "-0.013437" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "-15.821998" y = "-8.190810" z = "2.837736" />
+				<Rotation x = "0.679132" y = "-0.039343" z = "0.732842" w = "-0.013230" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "5.878593" y = "-24.656238" z = "-3.530851" />
+				<Rotation x = "-0.231296" y = "-0.461966" z = "0.838252" w = "0.174424" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "10.157657" y = "17.016211" z = "-13.522532" />
+				<Rotation x = "0.832857" y = "-0.378949" z = "-0.308003" w = "0.260541" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "16.075644" y = "4.886182" z = "1.494882" />
+				<Rotation x = "0.453438" y = "0.731317" z = "-0.158829" w = "0.484090" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "14.586169" y = "12.892352" z = "8.264429" />
+				<Rotation x = "0.108130" y = "-0.743950" z = "0.212790" w = "0.624152" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "0.617967" y = "10.430779" z = "8.310957" />
+				<Rotation x = "0.064353" y = "-0.708282" z = "0.111644" w = "0.694068" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "6.773777" y = "11.199097" z = "2.042117" />
+				<Rotation x = "0.053736" y = "0.670119" z = "-0.574180" w = "0.467301" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "1.344026" y = "23.399951" z = "-1.806516" />
+				<Rotation x = "0.219159" y = "0.662651" z = "0.550340" w = "-0.458246" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "14.978717" y = "-0.588024" z = "8.713515" />
+				<Rotation x = "0.367359" y = "-0.260244" z = "0.714919" w = "0.534986" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "-2.494754" y = "1.993106" z = "11.299588" />
+				<Rotation x = "0.114709" y = "0.162524" z = "-0.362906" w = "0.910344" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "10.971036" y = "-5.178643" z = "10.544527" />
+				<Rotation x = "0.585171" y = "0.542948" z = "-0.577034" w = "0.172666" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "15.865076" y = "4.825768" z = "-26.386815" />
+				<Rotation x = "0.847467" y = "0.394465" z = "-0.352017" w = "0.047755" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "-10.123324" y = "-3.292745" z = "6.022814" />
+				<Rotation x = "-0.043426" y = "0.272072" z = "0.840230" w = "0.467016" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "8.989845" y = "0.815353" z = "-2.906039" />
+				<Rotation x = "-0.001094" y = "-0.716266" z = "0.368547" w = "0.592567" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "21.131752" y = "-10.730663" z = "-14.877938" />
+				<Rotation x = "-0.379321" y = "0.406303" z = "-0.566063" w = "0.608774" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "19.314812" y = "6.931960" z = "-20.242031" />
+				<Rotation x = "-0.555421" y = "0.658395" z = "0.094591" w = "0.499075" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "6.847611" y = "6.259867" z = "5.771725" />
+				<Rotation x = "0.508493" y = "-0.487389" z = "0.519640" w = "0.483591" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "9.808913" y = "-1.665214" z = "12.012620" />
+				<Rotation x = "0.121813" y = "0.881231" z = "0.270424" w = "-0.368056" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "7.819333" y = "4.045242" z = "9.613118" />
+				<Rotation x = "-0.395233" y = "0.825949" z = "0.023092" w = "0.401330" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "5.646077" y = "15.070913" z = "16.276635" />
+				<Rotation x = "0.279711" y = "-0.352857" z = "0.752901" w = "0.479994" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "11.013465" y = "12.585340" z = "-2.515056" />
+				<Rotation x = "-0.463264" y = "0.683977" z = "-0.266264" w = "-0.496654" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "22.506190" y = "-10.525661" z = "6.048017" />
+				<Rotation x = "-0.279337" y = "-0.154237" z = "-0.487523" w = "0.812713" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "20.083074" y = "2.239502" z = "-34.358987" />
+				<Rotation x = "-0.409963" y = "-0.072366" z = "0.909008" w = "-0.019938" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "6.559428" y = "0.305948" z = "-4.033609" />
+				<Rotation x = "0.899341" y = "0.117941" z = "0.404769" w = "0.115924" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "-10.957093" y = "-3.935054" z = "6.139585" />
+				<Rotation x = "-0.014638" y = "0.097938" z = "0.952960" w = "0.286462" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "-2.880849" y = "-1.913652" z = "17.774362" />
+				<Rotation x = "-0.483027" y = "0.374793" z = "0.230187" w = "0.757119" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "13.280602" y = "4.905598" z = "17.501993" />
+				<Rotation x = "0.065899" y = "0.926110" z = "-0.370169" w = "-0.030854" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "-12.670071" y = "-16.851711" z = "-2.591913" />
+				<Rotation x = "-0.231957" y = "-0.636830" z = "0.088134" w = "0.729984" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "21.768604" y = "12.729929" z = "-11.062720" />
+				<Rotation x = "0.368936" y = "0.757934" z = "0.227372" w = "-0.487569" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "12.323814" y = "0.720776" z = "14.282861" />
+				<Rotation x = "0.371896" y = "0.882629" z = "0.065745" w = "0.279887" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "3.268316" y = "-0.657549" z = "2.545763" />
+				<Rotation x = "0.039237" y = "0.509941" z = "0.619134" w = "0.595897" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "25.584185" y = "2.367513" z = "-13.525674" />
+				<Rotation x = "-0.184794" y = "-0.222310" z = "0.898234" w = "0.331067" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "20.370593" y = "5.138208" z = "5.694031" />
+				<Rotation x = "0.670029" y = "0.317973" z = "0.590643" w = "0.317955" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "17.905687" y = "-15.543065" z = "-20.267130" />
+				<Rotation x = "0.332723" y = "0.543134" z = "-0.444588" w = "0.629796" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "4.180642" y = "5.896667" z = "4.937925" />
+				<Rotation x = "0.712278" y = "0.411372" z = "-0.155009" w = "0.547180" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "4.432304" y = "8.946474" z = "0.394005" />
+				<Rotation x = "-0.163277" y = "-0.733400" z = "0.296486" w = "0.589543" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "7.816964" y = "14.114436" z = "19.386020" />
+				<Rotation x = "-0.504014" y = "-0.492319" z = "0.665232" w = "0.247100" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "14.299257" y = "11.624282" z = "-2.213371" />
+				<Rotation x = "0.658252" y = "0.507037" z = "0.525096" w = "0.184097" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "3.236671" y = "-0.430412" z = "2.040016" />
+				<Rotation x = "0.455785" y = "0.407161" z = "-0.171250" w = "0.772757" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "7.969932" y = "10.725631" z = "-11.380154" />
+				<Rotation x = "-0.233452" y = "-0.694027" z = "0.142431" w = "0.665988" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "16.986836" y = "-1.227274" z = "1.485958" />
+				<Rotation x = "-0.027686" y = "-0.495766" z = "-0.289250" w = "0.818403" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "16.329134" y = "-8.001539" z = "8.489866" />
+				<Rotation x = "0.611347" y = "0.373838" z = "-0.585451" w = "0.379139" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "-2.850665" y = "-1.792190" z = "17.289005" />
+				<Rotation x = "-0.494020" y = "0.861860" z = "-0.110515" w = "0.030463" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "-2.936620" y = "7.939795" z = "-0.364441" />
+				<Rotation x = "0.629190" y = "0.367045" z = "0.594772" w = "-0.340065" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "12.101484" y = "8.743836" z = "-0.292950" />
+				<Rotation x = "0.179758" y = "-0.308697" z = "-0.343865" w = "0.868418" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "-3.166822" y = "-1.560532" z = "16.941438" />
+				<Rotation x = "0.580630" y = "0.166006" z = "0.330963" w = "0.725103" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "15.932083" y = "-7.581790" z = "10.531854" />
+				<Rotation x = "0.015586" y = "0.005256" z = "-0.692699" w = "0.721039" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "3.645432" y = "4.559340" z = "9.578492" />
+				<Rotation x = "0.398138" y = "0.659558" z = "-0.494986" w = "0.401819" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "-4.940156" y = "-0.534880" z = "-3.541104" />
+				<Rotation x = "0.718981" y = "-0.484054" z = "-0.379342" w = "-0.323818" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "6.410851" y = "4.939658" z = "8.145991" />
+				<Rotation x = "-0.168188" y = "-0.660792" z = "0.392370" w = "0.617343" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "12.520466" y = "-5.269297" z = "-1.455226" />
+				<Rotation x = "-0.020554" y = "0.817936" z = "-0.544561" w = "0.184423" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "-3.502193" y = "12.639894" z = "10.647862" />
+				<Rotation x = "-0.060939" y = "-0.526781" z = "0.830510" w = "0.170414" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "16.365970" y = "5.599844" z = "21.585411" />
+				<Rotation x = "0.305860" y = "-0.573579" z = "-0.103435" w = "0.752834" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "10.827691" y = "15.704578" z = "3.833230" />
+				<Rotation x = "0.208991" y = "0.332090" z = "0.578670" w = "0.714969" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "-11.350515" y = "-8.869084" z = "-13.661366" />
+				<Rotation x = "0.662865" y = "0.474014" z = "0.524638" w = "-0.246325" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "18.005631" y = "6.685061" z = "6.629189" />
+				<Rotation x = "0.311813" y = "-0.028047" z = "0.854479" w = "0.414550" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "3.813125" y = "-1.452821" z = "10.782850" />
+				<Rotation x = "-0.043648" y = "0.836076" z = "0.277268" w = "-0.471374" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "11.704037" y = "15.183230" z = "-13.976341" />
+				<Rotation x = "0.279691" y = "0.330015" z = "-0.299979" w = "0.850221" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "13.916738" y = "-0.220993" z = "-8.268233" />
+				<Rotation x = "-0.120770" y = "-0.827307" z = "-0.102592" w = "0.538937" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "9.980251" y = "14.105530" z = "12.403332" />
+				<Rotation x = "0.530395" y = "0.684779" z = "0.023657" w = "-0.499199" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "23.117288" y = "-0.003229" z = "6.337761" />
+				<Rotation x = "0.991085" y = "-0.073542" z = "-0.074544" w = "-0.082373" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "-8.931745" y = "-0.567291" z = "-3.455093" />
+				<Rotation x = "-0.738771" y = "0.241860" z = "-0.351929" w = "0.521408" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "16.741572" y = "10.720830" z = "-10.820355" />
+				<Rotation x = "0.774940" y = "0.471310" z = "-0.401407" w = "0.127306" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "0.556239" y = "10.936612" z = "-11.832224" />
+				<Rotation x = "-0.185598" y = "-0.546542" z = "0.403334" w = "0.710047" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "16.089363" y = "-7.148453" z = "0.842221" />
+				<Rotation x = "-0.297755" y = "0.907600" z = "-0.167100" w = "-0.244298" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "2.651638" y = "18.967666" z = "-21.985896" />
+				<Rotation x = "0.780877" y = "0.215989" z = "0.585185" w = "0.033732" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "16.388384" y = "20.846168" z = "-9.113896" />
+				<Rotation x = "0.399162" y = "0.130006" z = "0.758229" w = "0.498856" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "18.578773" y = "-5.902561" z = "-7.115097" />
+				<Rotation x = "0.742765" y = "0.210704" z = "-0.561490" w = "0.297713" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "11.756977" y = "10.737266" z = "19.987364" />
+				<Rotation x = "0.195673" y = "0.963121" z = "-0.055585" w = "-0.176128" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "9.864519" y = "13.294086" z = "7.574406" />
+				<Rotation x = "0.217951" y = "0.890182" z = "-0.379946" w = "-0.125353" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "13.078443" y = "6.085869" z = "3.429713" />
+				<Rotation x = "0.296987" y = "-0.196506" z = "0.597602" w = "0.718371" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "7.170822" y = "0.211430" z = "-16.136395" />
+				<Rotation x = "-0.169640" y = "0.681176" z = "0.031255" w = "0.711509" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "13.529371" y = "15.499793" z = "-16.330630" />
+				<Rotation x = "-0.457653" y = "0.143561" z = "0.179399" w = "0.858929" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "22.335260" y = "1.894728" z = "-17.545759" />
+				<Rotation x = "0.902299" y = "-0.206855" z = "0.231770" w = "0.298915" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "11.349294" y = "-0.696951" z = "3.430955" />
+				<Rotation x = "-0.265487" y = "-0.600390" z = "0.673548" w = "0.339679" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "13.502381" y = "11.776025" z = "-16.588351" />
+				<Rotation x = "0.904047" y = "0.077200" z = "0.009388" w = "-0.420298" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "24.366864" y = "-0.077985" z = "6.746151" />
+				<Rotation x = "0.125656" y = "0.792175" z = "0.340114" w = "0.490909" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "9.908980" y = "1.687356" z = "-1.650796" />
+				<Rotation x = "-0.551396" y = "0.368033" z = "0.533010" w = "0.525751" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "2.680511" y = "-7.276992" z = "18.409061" />
+				<Rotation x = "0.751316" y = "-0.105933" z = "-0.650661" w = "0.030703" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "14.950763" y = "15.645817" z = "-29.873833" />
+				<Rotation x = "-0.704940" y = "-0.036367" z = "0.707323" w = "-0.037827" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "26.234938" y = "-6.388349" z = "1.067628" />
+				<Rotation x = "-0.605146" y = "-0.328094" z = "0.348515" w = "0.636153" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "0.833740" y = "1.994162" z = "-11.452672" />
+				<Rotation x = "-0.328331" y = "0.035055" z = "0.942786" w = "0.046093" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "0.695697" y = "7.039270" z = "5.688583" />
+				<Rotation x = "-0.167323" y = "-0.488446" z = "0.777424" w = "-0.359216" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "14.081172" y = "2.443747" z = "24.462253" />
+				<Rotation x = "-0.611617" y = "-0.220465" z = "-0.080476" w = "0.755542" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "-11.811454" y = "-4.454886" z = "1.467809" />
+				<Rotation x = "0.170807" y = "0.233049" z = "0.957340" w = "-0.003635" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "6.456189" y = "-13.904553" z = "2.275104" />
+				<Rotation x = "0.704664" y = "-0.139991" z = "-0.682819" w = "-0.132701" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "29.006489" y = "-1.321701" z = "-12.474631" />
+				<Rotation x = "-0.155677" y = "0.857921" z = "-0.193238" w = "0.449883" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "6.673603" y = "16.195210" z = "24.651271" />
+				<Rotation x = "-0.302666" y = "0.710191" z = "0.003336" w = "0.635619" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "5.472547" y = "9.247036" z = "2.289416" />
+				<Rotation x = "0.014109" y = "0.843179" z = "-0.446612" w = "0.298977" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "1.597694" y = "1.051951" z = "9.676946" />
+				<Rotation x = "-0.564033" y = "0.628311" z = "0.300444" w = "-0.443650" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "25.182192" y = "-8.949087" z = "-14.713956" />
+				<Rotation x = "0.824056" y = "-0.023426" z = "0.553006" w = "-0.120698" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "6.128310" y = "-0.321392" z = "-11.106224" />
+				<Rotation x = "-0.399920" y = "-0.095750" z = "0.394822" w = "0.821591" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "3.928477" y = "5.452255" z = "4.664015" />
+				<Rotation x = "0.702191" y = "0.126357" z = "-0.573478" w = "0.402598" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "12.637416" y = "0.764375" z = "2.652123" />
+				<Rotation x = "0.760000" y = "0.079968" z = "0.641595" w = "0.066037" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "-0.022478" y = "-2.086966" z = "11.210257" />
+				<Rotation x = "0.373273" y = "-0.446214" z = "-0.280980" w = "0.763289" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "6.898488" y = "-4.521587" z = "-8.716725" />
+				<Rotation x = "0.309189" y = "-0.719806" z = "-0.120186" w = "0.609785" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "-5.532459" y = "18.332405" z = "18.337014" />
+				<Rotation x = "-0.763560" y = "0.003076" z = "0.312688" w = "0.564971" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "2.952035" y = "-4.626025" z = "-3.797374" />
+				<Rotation x = "0.665325" y = "0.113977" z = "0.736092" w = "-0.050206" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "0.530467" y = "12.793771" z = "-14.488777" />
+				<Rotation x = "-0.234845" y = "-0.333545" z = "0.560307" w = "0.720869" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "3.993818" y = "7.509748" z = "9.116929" />
+				<Rotation x = "0.656009" y = "-0.271860" z = "0.493308" w = "0.502386" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "16.393176" y = "1.354703" z = "-6.252941" />
+				<Rotation x = "-0.103191" y = "0.557415" z = "-0.166941" w = "0.806704" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "17.028817" y = "-6.520457" z = "-10.526151" />
+				<Rotation x = "0.469230" y = "0.647458" z = "0.421603" w = "-0.427637" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "20.305046" y = "2.497390" z = "7.017081" />
+				<Rotation x = "0.604438" y = "-0.585801" z = "0.504230" w = "-0.192989" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "31.281912" y = "-12.891881" z = "-14.491437" />
+				<Rotation x = "-0.498152" y = "0.459525" z = "0.484314" w = "0.553282" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "1.420520" y = "-15.299888" z = "1.543252" />
+				<Rotation x = "0.683658" y = "0.455529" z = "0.488687" w = "-0.293752" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "-12.217245" y = "-4.751736" z = "1.285865" />
+				<Rotation x = "0.692010" y = "0.365854" z = "0.601032" w = "0.161351" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "16.403798" y = "0.314871" z = "-8.802117" />
+				<Rotation x = "-0.051775" y = "0.909768" z = "0.406361" w = "0.067173" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "-6.749946" y = "1.567297" z = "20.786409" />
+				<Rotation x = "0.311036" y = "-0.627698" z = "0.322615" w = "0.636530" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "6.815067" y = "2.091357" z = "5.851794" />
+				<Rotation x = "-0.570593" y = "0.751531" z = "0.032171" w = "0.329529" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "2.866261" y = "-6.458465" z = "-8.095494" />
+				<Rotation x = "-0.464943" y = "0.671997" z = "0.360198" w = "0.450006" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "27.198595" y = "12.834484" z = "-0.818693" />
+				<Rotation x = "-0.096501" y = "0.869758" z = "-0.193303" w = "0.443670" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "14.278147" y = "10.446906" z = "14.986682" />
+				<Rotation x = "-0.354711" y = "-0.598781" z = "-0.350745" w = "0.626593" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "3.910539" y = "6.116298" z = "4.553499" />
+				<Rotation x = "0.266033" y = "-0.316910" z = "0.661561" w = "0.625405" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "22.070689" y = "2.203211" z = "-17.162569" />
+				<Rotation x = "-0.239871" y = "-0.564950" z = "-0.609944" w = "0.501259" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "13.337966" y = "4.068643" z = "0.391448" />
+				<Rotation x = "0.247184" y = "-0.457978" z = "0.436553" w = "0.733878" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "5.581079" y = "12.149240" z = "6.957310" />
+				<Rotation x = "0.325402" y = "0.677795" z = "-0.360361" w = "0.552130" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "3.254020" y = "-1.805087" z = "5.039113" />
+				<Rotation x = "-0.477277" y = "0.781781" z = "-0.400962" w = "-0.015911" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "6.000743" y = "15.475143" z = "11.685931" />
+				<Rotation x = "-0.238539" y = "-0.522024" z = "0.004593" w = "0.818883" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "4.457581" y = "-9.354682" z = "6.313093" />
+				<Rotation x = "0.826607" y = "0.060978" z = "-0.551053" w = "-0.096662" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "6.459681" y = "-1.451963" z = "2.354302" />
+				<Rotation x = "0.464913" y = "-0.412781" z = "-0.303795" w = "0.721925" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "12.969391" y = "16.881766" z = "-12.040169" />
+				<Rotation x = "0.763480" y = "0.300839" z = "0.531480" w = "0.210054" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "-1.399128" y = "-9.237353" z = "2.270791" />
+				<Rotation x = "-0.305975" y = "0.703368" z = "-0.016196" w = "0.641397" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "-3.066549" y = "-8.082903" z = "-4.423347" />
+				<Rotation x = "-0.553013" y = "-0.297662" z = "0.336421" w = "0.701708" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "0.135244" y = "-10.032615" z = "9.172663" />
+				<Rotation x = "-0.055157" y = "0.233575" z = "-0.635131" w = "0.734172" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "6.288590" y = "-1.223867" z = "12.203376" />
+				<Rotation x = "0.821794" y = "0.361281" z = "-0.397115" w = "-0.190866" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "4.314953" y = "-3.053423" z = "0.858349" />
+				<Rotation x = "0.179107" y = "0.611383" z = "0.460867" w = "0.617846" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris4.xml" Lights = "true" >
+				<Position x = "-5.833744" y = "7.973495" z = "-2.092823" />
+				<Rotation x = "-0.368993" y = "0.794835" z = "-0.119007" w = "0.466817" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "2.617019" y = "1.101780" z = "7.873373" />
+				<Rotation x = "0.434387" y = "0.242403" z = "-0.593559" w = "0.632643" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "10.749703" y = "-7.428879" z = "-4.629200" />
+				<Rotation x = "-0.083504" y = "0.960427" z = "0.190388" w = "-0.185360" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "9.321546" y = "1.431192" z = "-12.521931" />
+				<Rotation x = "0.841619" y = "0.284621" z = "-0.457627" w = "-0.035289" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "2.279837" y = "-3.394832" z = "0.205935" />
+				<Rotation x = "-0.459517" y = "-0.349259" z = "0.672293" w = "0.463555" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "10.503367" y = "-1.817511" z = "-8.045245" />
+				<Rotation x = "-0.330846" y = "0.180321" z = "0.882735" w = "-0.280720" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "24.424613" y = "-3.269911" z = "-1.825020" />
+				<Rotation x = "0.607924" y = "-0.299871" z = "0.714987" w = "0.171170" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "-2.127116" y = "19.659892" z = "-7.310476" />
+				<Rotation x = "0.653184" y = "0.066450" z = "0.591306" w = "-0.468286" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "18.961546" y = "9.695207" z = "20.824096" />
+				<Rotation x = "-0.499231" y = "0.515951" z = "0.599077" w = "0.354500" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "0.181888" y = "-0.355236" z = "6.315570" />
+				<Rotation x = "0.348138" y = "0.685865" z = "-0.629916" w = "0.107682" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "1.325447" y = "1.301746" z = "15.775241" />
+				<Rotation x = "-0.008284" y = "-0.687338" z = "0.705454" w = "0.172721" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "-1.673505" y = "-7.559858" z = "6.019884" />
+				<Rotation x = "0.166517" y = "-0.684896" z = "0.424730" w = "0.568150" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "11.231740" y = "11.801342" z = "-2.709357" />
+				<Rotation x = "0.667230" y = "-0.657870" z = "-0.016470" w = "-0.348913" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "19.216045" y = "1.958261" z = "20.421578" />
+				<Rotation x = "-0.215159" y = "0.463510" z = "0.229549" w = "0.828356" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "4.903902" y = "9.809014" z = "20.182016" />
+				<Rotation x = "-0.556635" y = "0.624015" z = "0.531715" w = "0.134320" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "14.772585" y = "-0.264539" z = "9.174661" />
+				<Rotation x = "0.295465" y = "0.174302" z = "0.935237" w = "0.087473" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "-1.475979" y = "-11.134041" z = "1.075006" />
+				<Rotation x = "0.218841" y = "0.658141" z = "-0.231156" w = "0.682294" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "2.756191" y = "-2.254832" z = "1.330907" />
+				<Rotation x = "0.916846" y = "-0.384287" z = "0.073457" w = "-0.079510" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "7.907454" y = "-2.697995" z = "-0.852576" />
+				<Rotation x = "0.850806" y = "0.162953" z = "0.112934" w = "0.486643" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "13.380230" y = "5.416019" z = "14.908713" />
+				<Rotation x = "0.686628" y = "0.070326" z = "-0.336443" w = "0.640626" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "26.929835" y = "13.155301" z = "-1.146859" />
+				<Rotation x = "0.867186" y = "0.109807" z = "-0.483431" w = "-0.047188" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "16.118494" y = "0.014040" z = "-2.374939" />
+				<Rotation x = "0.103033" y = "0.734349" z = "-0.295753" w = "0.602201" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "10.589904" y = "-4.550704" z = "-24.992427" />
+				<Rotation x = "-0.618432" y = "0.577107" z = "0.029892" w = "0.532537" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris7.xml" Lights = "true" >
+				<Position x = "18.614621" y = "-3.157902" z = "-0.915575" />
+				<Rotation x = "0.274687" y = "0.659300" z = "-0.649035" w = "0.261963" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "14.339045" y = "16.917812" z = "-6.943680" />
+				<Rotation x = "0.170761" y = "-0.702080" z = "0.130560" w = "0.678880" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris5.xml" Lights = "true" >
+				<Position x = "-7.922909" y = "-17.133619" z = "-11.070816" />
+				<Rotation x = "0.836962" y = "0.441886" z = "0.175348" w = "0.271080" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris7.xml" Lights = "true" >
+				<Position x = "3.388203" y = "10.039403" z = "-1.826622" />
+				<Rotation x = "-0.228100" y = "-0.343721" z = "0.910871" w = "0.011869" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris1.xml" Lights = "true" >
+				<Position x = "-3.212786" y = "11.913934" z = "-10.549775" />
+				<Rotation x = "-0.073885" y = "-0.092232" z = "-0.043771" w = "0.992027" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "7.385978" y = "14.388076" z = "19.355727" />
+				<Rotation x = "-0.090594" y = "0.738940" z = "-0.194795" w = "0.638605" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "12.348611" y = "3.605681" z = "3.224631" />
+				<Rotation x = "-0.511919" y = "0.445860" z = "0.539284" w = "0.498318" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris2.xml" Lights = "true" >
+				<Position x = "14.165796" y = "-3.462652" z = "15.225135" />
+				<Rotation x = "0.625495" y = "-0.608669" z = "0.474078" w = "0.116312" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "9.838642" y = "2.126251" z = "5.225512" />
+				<Rotation x = "0.431408" y = "0.293926" z = "0.817504" w = "-0.243274" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris4.xml" Lights = "true" >
+				<Position x = "3.132779" y = "16.227844" z = "8.334493" />
+				<Rotation x = "0.392008" y = "0.804658" z = "0.382614" w = "-0.229044" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris6.xml" Lights = "true" >
+				<Position x = "14.803970" y = "2.838197" z = "-7.422678" />
+				<Rotation x = "0.065867" y = "0.775467" z = "0.086715" w = "0.621927" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "19.997083" y = "-4.546447" z = "-17.529096" />
+				<Rotation x = "-0.541874" y = "0.571363" z = "-0.508723" w = "-0.348019" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "20.832724" y = "6.359642" z = "11.916411" />
+				<Rotation x = "-0.138474" y = "0.856078" z = "-0.484987" w = "-0.112883" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris5.xml" Lights = "true" >
+				<Position x = "24.215466" y = "8.531397" z = "4.004662" />
+				<Rotation x = "-0.604095" y = "0.733280" z = "0.072004" w = "-0.303620" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "16.514984" y = "-13.854600" z = "-2.481388" />
+				<Rotation x = "0.752412" y = "-0.594945" z = "-0.226012" w = "-0.169808" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "-0.372207" y = "15.069895" z = "1.869409" />
+				<Rotation x = "0.390233" y = "0.769922" z = "-0.111184" w = "0.492520" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris8.xml" Lights = "true" >
+				<Position x = "5.417708" y = "20.732433" z = "-16.719254" />
+				<Rotation x = "0.224070" y = "-0.592732" z = "0.213816" w = "0.743468" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "16.958953" y = "18.730169" z = "-16.496405" />
+				<Rotation x = "0.015691" y = "0.649116" z = "-0.400054" w = "0.646807" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris3.xml" Lights = "true" >
+				<Position x = "0.625407" y = "-8.381593" z = "13.380385" />
+				<Rotation x = "0.168761" y = "0.950288" z = "0.261610" w = "0.005703" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "-3.159881" y = "-3.358190" z = "5.369634" />
+				<Rotation x = "0.723927" y = "0.066672" z = "0.555937" w = "0.403012" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/CruiserDebris1.xml" Lights = "true" >
+				<Position x = "0.747693" y = "11.758329" z = "-5.889640" />
+				<Rotation x = "-0.290876" y = "0.674236" z = "0.421944" w = "0.531753" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris6.xml" Lights = "true" >
+				<Position x = "-3.043956" y = "5.869834" z = "12.557215" />
+				<Rotation x = "-0.580638" y = "-0.403798" z = "0.275596" w = "0.651040" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris2.xml" Lights = "true" >
+				<Position x = "4.267612" y = "18.780997" z = "3.005417" />
+				<Rotation x = "-0.285076" y = "0.666082" z = "0.242720" w = "0.645100" />
+			</Link>
+			<Link Target = "$Dev/Config/Props/Nodes/ShipDebris3.xml" Lights = "true" >
+				<Position x = "24.507342" y = "9.699525" z = "8.527090" />
+				<Rotation x = "0.129736" y = "0.963965" z = "0.155151" w = "0.172823" />
+			</Link>
+		</TransformNode>
+	</CNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+	</CClientHullComponent>
+	<CServerActorComponent>
+        <Name>Shipyard</Name>
+  	</CServerActorComponent>
+	<CActorComponent>
+    	<Indicator>None</Indicator>
+		<SurfaceType>Surface</SurfaceType>
+		<ClassAbbrev>S-YRD</ClassAbbrev>
+	</CActorComponent>
+	<CClientActorComponent>
+	</CClientActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Static" >
+            <Collisions>true</Collisions>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+        </PhysicsBody>
+	</CBodyComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>1000.0</EmissionsRange>
+		<NetworkSize>15.0</NetworkSize>
+	</CServerSensorComponent>
+</ActorConfig>

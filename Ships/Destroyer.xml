@@ -1,11 +1,13 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Ship</ActorType>
+		<IsCapShip>true</IsCapShip>
 		<SpawnType>Capship</SpawnType>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>800</ShipClassCost>
 		<BattleBudgetCost>800</BattleBudgetCost>
 		<ShipBattleScore>7</ShipBattleScore>
+		<ShipEscortScore>7</ShipEscortScore>
 		<DisplayName>UI_ShipType_Destroyer</DisplayName>
 		<ClassAbbrev>DST</ClassAbbrev>
 		<WorldBoxSize X ="0.28667" Y="0.06373" Z="0.3563" />
@@ -306,7 +308,7 @@
     <StratValue>0</StratValue>
 	</CServerActorComponent>
 	<CServerSensorComponent>
-		<EmissionsRange>100.0</EmissionsRange>
+		<EmissionsRange>150.0</EmissionsRange>
 		<SensorPower>1.25</SensorPower>
 		<IsScannable>true</IsScannable>
 		<MaxScanRange>5000.0</MaxScanRange>
@@ -319,7 +321,7 @@
     	<PhysicsBody Type="Mesh" >
 			<CollisionFile>$Dev/Ships/SFC-Destroyer/Collision/f2816f6c.insm</CollisionFile>
 			<Dynamic>true</Dynamic>
-            <Mass>15520.0</Mass>
+            <Mass>13500.0</Mass>
             <Collisions>true</Collisions>
         </PhysicsBody>
 		<HitMesh>
@@ -349,12 +351,12 @@
 		<AtmoDecay>0.008</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>2.0</DriftLimiter>
-		<CapSpeed>0.261</CapSpeed>
+		<CapSpeed>0.295</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>1000</EnergyPoints>
 		<RechargeEnergyPoints>50</RechargeEnergyPoints>
-		<HeatPoints>1250</HeatPoints>
+		<HeatPoints>1500</HeatPoints>
 		<DechargeHeatPoints>150</DechargeHeatPoints>
 	</CEngineComponent>
 	<CHullComponent>
@@ -407,6 +409,8 @@
 		<ImpactShieldMeshFX>FX/Shields/SM_Destroyer-shield</ImpactShieldMeshFX>
 		<ImpactShieldNoiseScale>75.0</ImpactShieldNoiseScale>
 		<ImpactShieldStartTime>0.15</ImpactShieldStartTime>
+		<ShredFX>FX/Shields/SM_Destroyer-emp-shred</ShredFX>
+		<ShredDuration>2.0</ShredDuration>
 	</CClientShieldComponent>
 	<CWarpComponent>
 		<WarpChargeDuration>8.0</WarpChargeDuration>
@@ -552,6 +556,7 @@
 		<Properties>
 			<WarpJamSourceOffset  X="0" Y="-0.030" Z="0" />
 			<WarpJamSourceSizeScale X="0.5" />
+			<HeatVentEffectScale X="0.8" />
 		</Properties>
 	</CAbilityComponent>
 	<CServerHardpointComponent>

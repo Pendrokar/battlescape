@@ -1,10 +1,10 @@
 <Loadout Version="0.0.0.1">
     <HardpointPresets>
         <Preset ID="0" Name="">
-            <Config Weapon="TurretFlakMK4" AutoAim="true" AutoFire="true"/>
+            <Config Weapon="LaserAMSMK3" AutoAim="true" AutoFire="true"/>
         </Preset>
         <Preset ID="1" Name="">
-            <Config Weapon="LaserAMSMK3" AutoAim="true" AutoFire="true"/>
+            <Config Weapon="TurretFlakMK4" AutoAim="true" AutoFire="true"/>
         </Preset>
         <Preset ID="2" Name="">
             <Config Weapon="TurretGunMK5" AutoAim="true" AutoFire="true"/>
@@ -24,8 +24,6 @@
         <Preset ID="7" Name="">
             <Config System="WarpJam1" AutoAim="false" AutoFire="false"/>
         </Preset>
-        <Preset ID="8" Name="">
-            <Config System="EMPField" AutoAim="false" AutoFire="false"/>
-        </Preset>
+        <Preset ID="8" Name=""/>
     </HardpointPresets>
 </Loadout>

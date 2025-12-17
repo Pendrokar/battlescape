@@ -7,10 +7,10 @@
             <Config Weapon="TurretBlasterMK6" AutoAim="true" AutoFire="true"/>
         </Preset>
         <Preset ID="2" Name="">
-            <Config Weapon="ThunderboltMK7" AutoAim="true" AutoFire="true"/>
+            <Config Weapon="HeraclesMK7" AutoAim="true" AutoFire="true"/>
         </Preset>
         <Preset ID="3" Name="">
-            <Config Weapon="HeraclesMK7" AutoAim="true" AutoFire="true"/>
+            <Config Weapon="ThunderboltMK7" AutoAim="true" AutoFire="true"/>
         </Preset>
         <Preset ID="4" Name="">
             <Config Weapon="MissileLauncherMK3" AutoAim="false" AutoFire="false"/>

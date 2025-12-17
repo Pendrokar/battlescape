@@ -1,0 +1,36 @@
+<Filter>
+	<Condition Target="Client">
+        <Object Mesh="Ships/SFC-Cruiser/Debris/SM_SFC_Cruiser_Debris_Part2_Lod1" >
+            <LOD Level="1" Mesh="Ships/SFC-Cruiser/Debris/SM_SFC_Cruiser_Debris_Part2_Lod2" />
+            <LOD Level="2" Mesh="Ships/SFC-Cruiser/Debris/SM_SFC_Cruiser_Debris_Part2_Lod3" />
+            <LOD Level="3" Mesh="Ships/SFC-Cruiser/Debris/SM_SFC_Cruiser_Debris_Part2_Lod4" />
+            <LODPower>0.2</LODPower>
+			<RejectionSize>0.005</RejectionSize>
+            <PhysicsBody Type="Mesh" >
+                <CollisionFile>$Dev/Ships/SFC-Cruiser/Debris/954355ff.insm</CollisionFile>
+				<CollisionScale>1</CollisionScale>
+                <Collisions>true</Collisions>
+                <Bounce>0.25</Bounce>
+                <Friction>0.01</Friction>
+            </PhysicsBody>
+			<Module>
+		        <Class>Indestructible</Class>
+				<Name>UI_Module_Debris</Name>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+            <PhysicsBody Type="Mesh" >
+                <CollisionFile>$Dev/Ships/SFC-Cruiser/Debris/954355ff.insm</CollisionFile>
+				<CollisionScale>1</CollisionScale>
+                <Collisions>true</Collisions>
+                <Bounce>0.25</Bounce>
+                <Friction>0.01</Friction>
+            </PhysicsBody>
+			<Module>
+		        <Class>Indestructible</Class>
+			</Module>
+		</TransformNode>
+	</Condition>
+</Filter>

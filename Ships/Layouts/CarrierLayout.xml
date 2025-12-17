@@ -2,6 +2,7 @@
 <Layout Name="default layout">
 	<DisplayName>DEFAULT</DisplayName>
 	<Actor>Carrier</Actor>
+	<CarryPoints>30</CarryPoints>
 	<Socket Name="s_mko_missile_top_left" >
 		<Size>HeavyMissilePod</Size>
 		<Category>Weapons</Category>

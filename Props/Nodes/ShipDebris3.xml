@@ -1,0 +1,33 @@
+<Filter>
+	<Condition Target="Client">
+        <Object Mesh="Ships/Debris/SM_GenericDebris3" >
+			<RejectionSize>0.005</RejectionSize>
+			<Scale X="8" Y="8" Z="8" />
+            <PhysicsBody Type="Mesh" >
+                <CollisionFile>$Dev/Ships/Debris/ed345136.insm</CollisionFile>
+				<CollisionScale>8</CollisionScale>
+                <Collisions>true</Collisions>
+                <Bounce>0.25</Bounce>
+                <Friction>0.01</Friction>
+            </PhysicsBody>
+			<Module>
+		        <Class>Indestructible</Class>
+				<Name>UI_Module_Debris</Name>
+			</Module>
+		</Object>
+	</Condition>
+	<Condition Target="Server">
+		<TransformNode >
+            <PhysicsBody Type="Mesh" >
+                <CollisionFile>$Dev/Ships/Debris/ed345136.insm</CollisionFile>
+				<CollisionScale>8</CollisionScale>
+                <Collisions>true</Collisions>
+                <Bounce>0.25</Bounce>
+                <Friction>0.01</Friction>
+            </PhysicsBody>
+			<Module>
+		        <Class>Indestructible</Class>
+			</Module>
+		</TransformNode>
+	</Condition>
+</Filter>

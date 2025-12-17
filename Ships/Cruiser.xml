@@ -1,11 +1,13 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Ship</ActorType>
+		<IsCapShip>true</IsCapShip>
 		<SpawnType>Capship</SpawnType>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>1300</ShipClassCost>
 		<BattleBudgetCost>1300</BattleBudgetCost>
-		<ShipBattleScore>15</ShipBattleScore>
+		<ShipBattleScore>11</ShipBattleScore>
+		<ShipEscortScore>16</ShipEscortScore>
 		<DisplayName>UI_ShipType_Cruiser</DisplayName>
 		<ClassAbbrev>CRU</ClassAbbrev>
 		<WorldBoxSize X="0.369420" Y="0.158525" Z="0.983128" />
@@ -446,7 +448,7 @@
     <StratValue>0</StratValue>
 	</CServerActorComponent>
 	<CServerSensorComponent>
-		<EmissionsRange>200.0</EmissionsRange>
+		<EmissionsRange>300.0</EmissionsRange>
 		<SensorPower>1.5</SensorPower>
 		<IsScannable>true</IsScannable>
 		<MaxScanRange>20000.0</MaxScanRange>
@@ -459,14 +461,9 @@
     	<PhysicsBody Type="Mesh" >
 			<CollisionFile>$Dev/Ships/SFC-Cruiser/Collision/b9e1ce8b.insm</CollisionFile>
 			<Dynamic>true</Dynamic>
-            <Mass>31280.0</Mass>
+            <Mass>32000.0</Mass>
             <Collisions>true</Collisions>
         </PhysicsBody>
-<!--     	<PhysicsBody Type="Box" >
-        	<SidesSize X="0.369420" Y="0.158525" Z="0.983128" />
-            <Mass>45000.0</Mass>
-            <Collisions>true</Collisions>
-        </PhysicsBody> -->
 		<HitMesh>
 			<CollisionFile>$Dev/Ships/SFC-Cruiser/Collision/b9e1ce8b.insm</CollisionFile>
 			<SplitCost>0.001</SplitCost>
@@ -485,11 +482,11 @@
 		<AtmoDecay>0.025</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>3.0</DriftLimiter>
-		<CapSpeed>0.288</CapSpeed>
+		<CapSpeed>0.276</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>2000</EnergyPoints>
-		<RechargeEnergyPoints>100</RechargeEnergyPoints>
+		<RechargeEnergyPoints>80</RechargeEnergyPoints>
 		<HeatPoints>4000</HeatPoints>
 		<DechargeHeatPoints>220</DechargeHeatPoints>
 	</CEngineComponent>
@@ -533,6 +530,8 @@
 		<ImpactShieldMeshFX>FX/Shields/SM_Cruiser-shield</ImpactShieldMeshFX>
 		<ImpactShieldNoiseScale>45.0</ImpactShieldNoiseScale>
 		<ImpactShieldStartTime>0.25</ImpactShieldStartTime>
+		<ShredFX>FX/Shields/SM_Cruiser-emp-shred</ShredFX>
+		<ShredDuration>2.5</ShredDuration>
 	</CClientShieldComponent>
 	<CWarpComponent>
 		<WarpChargeDuration>10.0</WarpChargeDuration>
@@ -724,6 +723,9 @@
 		</Hardpoint>
 	</CHardpointComponent>
 	<CAbilityComponent>
+		<Properties>
+			<HeatVentEffectScale X="1.0" />
+		</Properties>
 	</CAbilityComponent>
 	<CServerHardpointComponent>
 		<Loadout Name="DefaultCruiser" Proba="50" />

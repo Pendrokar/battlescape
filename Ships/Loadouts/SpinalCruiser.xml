@@ -1,6 +1,7 @@
 <Loadout Version="0.0.0.1" >
 	<Name>SpinalCruiser</Name>
 	<DisplayName>SPINAL</DisplayName>
+	<ShortDescr>UI_Ship_Cruiser_Descr</ShortDescr>
 	<Actor>Cruiser</Actor>
 	<LayoutFile>$Config/Ships/Layouts/CruiserSpinalLayout.xml</LayoutFile>
 	<IsMain>false</IsMain>

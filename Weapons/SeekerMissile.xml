@@ -1,0 +1,100 @@
+<ActorConfig>
+	<Meta>
+		<ActorType>Weapon</ActorType>
+		<ClassAbbrev>SMIS</ClassAbbrev>
+	</Meta>
+	<CClientNodeComponent>
+        <Object Mesh="Ships/Weapons/Missiles/SM_SFC_Missile1" >
+			<RejectionSize>0.002</RejectionSize>
+            <Material Override="true" />
+            <ThrusterModel ConfigFile="$Dev/config/thrusters/MissileThrusters.xml" >
+                <LightsInheritVisibility>false</LightsInheritVisibility>
+                <ParticlesInheritVisibility>true</ParticlesInheritVisibility>
+                <ActivateDistance>4.0</ActivateDistance>
+            </ThrusterModel>
+			<Scale X="1" Y="1" Z="1" />
+        </Object>
+	</CClientNodeComponent>
+	<CServerNodeComponent>
+		<TransformNode />
+	</CServerNodeComponent>
+	<CClientHullComponent>
+        <EmissiveIntensity>50000.0</EmissiveIntensity>
+		<ThrustersEmissiveScale>5.0</ThrustersEmissiveScale>
+		<DyingExplosions>0</DyingExplosions>
+		<DyingEffect>DyingExplosion</DyingEffect>
+		<DeathEffect>MissileExplosion</DeathEffect>
+		<DyingEffectScale>0.01</DyingEffectScale>
+		<DeathEffectScale>0.1</DeathEffectScale>
+		<DeathEffectRange>10.0</DeathEffectRange>
+		<ShieldImpactEffectScale>0.05</ShieldImpactEffectScale>
+		<ShowContrail>true</ShowContrail>
+		<ContrailEffectSize>0.002</ContrailEffectSize>
+		<DeathGenericEffect>MissileExplosion</DeathGenericEffect>
+		<DeathGenericEffectScale>0.1</DeathGenericEffectScale>
+	</CClientHullComponent>
+	<CClientInterpolationComponent />
+    <CClientCameraViewComponent>
+        <Camera Type="External">
+            <!-- chase camera behind ship -->
+            <ViewPosition X="0" Y="0.00067" Z="-0.00341" />
+			<ViewAngle X="-0.007" Y="0" />
+        </Camera>
+    </CClientCameraViewComponent>
+	<CClientAudioComponent>
+		<EngineIdle Target="PlasmaTravel" FadeLength="5.0" DistRangeScale="25.0" />
+		<MainThruster Target="MainThrusterSmall3" />
+	</CClientAudioComponent>
+	<CServerActorComponent>
+        <Name>SMIS</Name>
+		<NetworkSize>0.02</NetworkSize>
+	</CServerActorComponent>
+	<CServerSensorComponent>
+		<EmissionsRange>8.0</EmissionsRange>
+	</CServerSensorComponent>
+	<CActorComponent>
+    	<Indicator>LightMissile</Indicator>
+	</CActorComponent>
+	<CBodyComponent>
+		<PhysicsBody Type="Box" >
+        	<SidesSize X="0.005" Y="0.005" Z="0.005" />
+            <Offset X="0" Y="0" Z="0" />
+            <Mass>0.5</Mass>
+            <Collisions>true</Collisions>
+            <Bounce>0.0</Bounce>
+            <Friction>0.2</Friction>
+        </PhysicsBody>
+	</CBodyComponent>
+    <CPropulsionComponent>
+        <RampUpSpeed>0.0</RampUpSpeed>
+        <MinLinearThrust X="-0.20" Y="-0.20" Z="-0.25" />
+        <MaxLinearThrust X="0.20" Y="0.20" Z="0.25" />
+        <BaseRotationThrust X="0.0050" Y="0.0050" Z="0.0050" />
+        <FullRotationThrust X="0.0050" Y="0.0050" Z="0.0050" />
+        <RotationStabilizer X="1.0" Y="1.0" Z="1.0" />
+		<BaseRotationSpeed X="1.0" Y="1.0" Z="1.0" />
+		<FullRotationSpeed X="1.0" Y="1.0" Z="1.0" />
+		<RotationDampener>2.0</RotationDampener>
+		<CapSpeed>2.0</CapSpeed>
+    </CPropulsionComponent>
+	<CEngineComponent>
+		<EnergyPoints>0</EnergyPoints>
+		<RechargeRate>0</RechargeRate>
+	</CEngineComponent>
+	<CHullComponent>
+		<HitPoints>10</HitPoints>
+		<DeathDuration>0.0</DeathDuration>
+		<DyingDuration>0.0</DyingDuration>
+		<DeathCredits>5</DeathCredits>
+	    <DragCoeff>0.0</DragCoeff>
+	</CHullComponent>
+	<CServerMissileComponent>
+		<Mode>Missile</Mode>
+		<ActivationTimer>0.75</ActivationTimer>
+		<TrackingAngle>1.0</TrackingAngle>
+		<TrackingRange>20.0</TrackingRange>
+		<MinTargetMass>0.0</MinTargetMass>
+		<DetonateOnDeath>false</DetonateOnDeath>
+		<NoTargetDetonationTime>5.0</NoTargetDetonationTime>
+	</CServerMissileComponent>
+</ActorConfig>

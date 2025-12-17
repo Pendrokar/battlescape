@@ -1,6 +1,7 @@
 <Loadout Version="0.0.0.1" >
 	<Name>LowTechDestroyer</Name>
 	<DisplayName>LOW TECH</DisplayName>
+	<ShortDescr>UI_Ship_Destroyer_Descr</ShortDescr>
 	<Actor>Destroyer</Actor>
 	<LayoutFile>$Config/Ships/Layouts/DestroyerLowTechLayout.xml</LayoutFile>
 	<IsMain>false</IsMain>

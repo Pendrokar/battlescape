@@ -1,32 +1,33 @@
 <Loadout Version="0.0.0.1" >
 	<Name>DefaultCruiser</Name>
 	<DisplayName>DEFAULT</DisplayName>
+	<ShortDescr>UI_Ship_Cruiser_Descr</ShortDescr>
 	<Actor>Cruiser</Actor>
 	<LayoutFile>$Config/Ships/Layouts/CruiserLayout.xml</LayoutFile>
 	<IsMain>true</IsMain>
-	<Mount HardpointName="s_mk4_front_bot_left" Weapon="AutoTurretBlasterMK4" GroupID="0" />
-	<Mount HardpointName="s_mk4_front_bot_right" Weapon="AutoTurretBlasterMK4" GroupID="0" />
-	<Mount HardpointName="s_mk4_front_top_left" Weapon="AutoTurretBlasterMK4" GroupID="0" />
-	<Mount HardpointName="s_mk4_front_top_right" Weapon="AutoTurretBlasterMK4" GroupID="0" />
-	<Mount HardpointName="s_mk4_rear_bottom" Weapon="AutoTurretBlasterMK4" GroupID="0" />
-	<Mount HardpointName="s_mk4_rear_top" Weapon="AutoTurretBlasterMK4" GroupID="0" />
-	<Mount HardpointName="s_mk5_rear_bot_right" Weapon="TurretGunMK5" GroupID="1" />
-	<Mount HardpointName="s_mk5_rear_top_left" Weapon="TurretGunMK5" GroupID="1" />
-	<Mount HardpointName="s_mk5_rear_bot_left" Weapon="TurretBlasterMK5" GroupID="2" />
-	<Mount HardpointName="s_mk5_rear_top_right" Weapon="TurretBlasterMK5" GroupID="2" />
-	<Mount HardpointName="s_mk6_bot" Weapon="TurretGunMK6" GroupID="3" />
-	<Mount HardpointName="s_mk6_bot_left" Weapon="TurretGunMK6" GroupID="3" />
-	<Mount HardpointName="s_mk6_bot_right" Weapon="TurretGunMK6" GroupID="3" />
-	<Mount HardpointName="s_mk6_top" Weapon="TurretGunMK6" GroupID="3" />
-	<Mount HardpointName="s_mk6_top_left" Weapon="TurretGunMK6" GroupID="3" />
-	<Mount HardpointName="s_mk6_top_right" Weapon="TurretGunMK6" GroupID="3" />
-	<Mount HardpointName="s_mk7_bot_left" Weapon="TurretGunMK7" GroupID="4" />
-	<Mount HardpointName="s_mk7_bot_right" Weapon="TurretGunMK7" GroupID="4" />
-	<Mount HardpointName="s_mk7_top_left" Weapon="TurretGunMK7" GroupID="4" />
-	<Mount HardpointName="s_mk7_top_right" Weapon="TurretGunMK7" GroupID="4" />
-	<Mount HardpointName="s_mko_missile_midX_bot_left" Weapon="MissileLauncherMK3" GroupID="5" />
-	<Mount HardpointName="s_mko_missile_midX_bot_right" Weapon="MissileLauncherMK3" GroupID="5" />
-	<Mount HardpointName="s_mko_missile_midX_top_left" Weapon="MissileLauncherMK3" GroupID="5" />
-	<Mount HardpointName="s_mko_missile_midX_top_right" Weapon="MissileLauncherMK3" GroupID="5" />
-	<Mount HardpointName="s_mod_electronics1" System="FlightAssist" />
+    <Mount HardpointName="s_mk4_front_top_left" Weapon="AutoTurretGunMK4" GroupID="0"/>
+    <Mount HardpointName="s_mk4_front_bot_right" Weapon="AutoTurretGunMK4" GroupID="0"/>
+    <Mount HardpointName="s_mk4_rear_bottom" Weapon="AutoTurretGunMK4" GroupID="0"/>
+    <Mount HardpointName="s_mk4_front_bot_left" Weapon="AutoTurretBlasterMK4" GroupID="1"/>
+    <Mount HardpointName="s_mk4_front_top_right" Weapon="AutoTurretBlasterMK4" GroupID="1"/>
+    <Mount HardpointName="s_mk4_rear_top" Weapon="AutoTurretBlasterMK4" GroupID="1"/>
+    <Mount HardpointName="s_mk5_rear_bot_right" Weapon="TurretGunMK5" GroupID="2"/>
+    <Mount HardpointName="s_mk5_rear_top_left" Weapon="TurretGunMK5" GroupID="2"/>
+    <Mount HardpointName="s_mk5_rear_bot_left" Weapon="TurretBlasterMK5" GroupID="3"/>
+    <Mount HardpointName="s_mk5_rear_top_right" Weapon="TurretBlasterMK5" GroupID="3"/>
+    <Mount HardpointName="s_mk6_bot_right" Weapon="TurretGunMK6" GroupID="4"/>
+    <Mount HardpointName="s_mk6_top" Weapon="TurretGunMK6" GroupID="4"/>
+    <Mount HardpointName="s_mk6_top_left" Weapon="TurretGunMK6" GroupID="4"/>
+    <Mount HardpointName="s_mk6_top_right" Weapon="TurretBlasterMK6" GroupID="5"/>
+    <Mount HardpointName="s_mk6_bot_left" Weapon="TurretBlasterMK6" GroupID="5"/>
+    <Mount HardpointName="s_mk6_bot" Weapon="TurretBlasterMK6" GroupID="5"/>
+    <Mount HardpointName="s_mk7_bot_left" Weapon="TurretGunMK7" GroupID="6"/>
+    <Mount HardpointName="s_mk7_bot_right" Weapon="TurretGunMK7" GroupID="6"/>
+    <Mount HardpointName="s_mk7_top_left" Weapon="TurretGunMK7" GroupID="6"/>
+    <Mount HardpointName="s_mk7_top_right" Weapon="TurretGunMK7" GroupID="6"/>
+    <Mount HardpointName="s_mko_missile_midX_bot_left" Weapon="MissileLauncherMK3" GroupID="7"/>
+    <Mount HardpointName="s_mko_missile_midX_bot_right" Weapon="MissileLauncherMK3" GroupID="7"/>
+    <Mount HardpointName="s_mko_missile_midX_top_left" Weapon="MissileLauncherMK3" GroupID="7"/>
+    <Mount HardpointName="s_mko_missile_midX_top_right" Weapon="MissileLauncherMK3" GroupID="7"/>
+    <Mount HardpointName="s_mod_electronics1" System="FlightAssist" GroupID="15"/>
 </Loadout>

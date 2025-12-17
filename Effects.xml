@@ -15,27 +15,7 @@
 		<Sound>
 			<Name>ImpactGunMetal</Name>
 			<DuplicateRange>0.02</DuplicateRange>
-			<DuplicateLength>0.5</DuplicateLength>
-		</Sound>
-		<Vibrations>
-			<Amplitude>0.02</Amplitude>
-		</Vibrations>
-	</Effect>
-
-	<Effect>
-		<Name>ImpactMetalSmallSelfKinetic</Name>
-		<!-- <ParticleSystem>Particles/Impacts/Effects/P_Impact_Kinetic_vs_Metal_Small</ParticleSystem> -->
-		<ParticleSystem>ParticleEffects/Impacts/P_Impact-kinetic-vs-metal-small</ParticleSystem>
-		<Scale>0.20</Scale>
-		<LightColor X="1.0" Y="0.4" Z="0.0" />
-		<LightIntensity>100000000.0</LightIntensity>
-		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
-		<LightDuration>0.5</LightDuration>
-		<LightOffset>0.0</LightOffset>
-		<Sound>
-			<Name>ImpactGunMetal</Name>
-			<DuplicateRange>0.02</DuplicateRange>
-			<DuplicateLength>0.5</DuplicateLength>
+			<DuplicateLength>0.25</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.02</Amplitude>
@@ -55,27 +35,7 @@
 		<Sound>
 			<Name>HitEnemy</Name>
 			<DuplicateRange>0.05</DuplicateRange>
-			<DuplicateLength>1.0</DuplicateLength>
-		</Sound>
-		<Vibrations>
-			<Amplitude>0.02</Amplitude>
-		</Vibrations>
-		<Smog>4</Smog>
-	</Effect>
-
-	<Effect>
-		<Name>ImpactMetalMediumSelfKinetic</Name>
-		<!-- <ParticleSystem>Particles/Impacts/Effects/P_Impact_Kinetic_vs_Metal_Medium</ParticleSystem> -->
-		<ParticleSystem>ParticleEffects/Impacts/P_Impact-kinetic-vs-metal-medium</ParticleSystem>
-		<Scale>0.20</Scale>
-		<LightColor X="1.0" Y="0.4" Z="0.0" />
-		<LightIntensity>1000000000.0</LightIntensity>
-		<!-- <LightCutoff>120.0</LightCutoff> -->
-		<LightDuration>1.0</LightDuration>
-		<Sound>
-			<Name>HitSelfKinetic</Name>
-			<DuplicateRange>0.05</DuplicateRange>
-			<DuplicateLength>1.0</DuplicateLength>
+			<DuplicateLength>0.5</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.02</Amplitude>
@@ -96,28 +56,7 @@
 		<Sound>
 			<Name>HitEnemy</Name>
 			<DuplicateRange>0.1</DuplicateRange>
-			<DuplicateLength>2.0</DuplicateLength>
-		</Sound>
-		<Vibrations>
-			<Amplitude>0.05</Amplitude>
-		</Vibrations>
-		<Smog>8</Smog>
-	</Effect>
-
-	<Effect>
-		<Name>ImpactMetalLargeSelfKinetic</Name>
-		<!-- <ParticleSystem>Particles/Impacts/Effects/P_Impact_Kinetic_vs_Metal_Large</ParticleSystem> -->
-		<ParticleSystem>ParticleEffects/Impacts/P_Impact-kinetic-vs-metal-large</ParticleSystem>
-		<Scale>1.0</Scale>
-		<LightColor X="1.0" Y="0.4" Z="0.0" />
-		<LightOffset>0.03</LightOffset>
-		<LightIntensity>10000000000.0</LightIntensity>
-		<!-- <LightCutoff>250.0</LightCutoff> -->
-		<LightDuration>1.5</LightDuration>
-		<Sound>
-			<Name>HitSelfKinetic</Name>
-			<DuplicateRange>0.1</DuplicateRange>
-			<DuplicateLength>2.0</DuplicateLength>
+			<DuplicateLength>1.0</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.05</Amplitude>
@@ -137,26 +76,7 @@
 		<Sound>
 			<Name>ImpactGunShield</Name>
 			<DuplicateRange>0.02</DuplicateRange>
-			<DuplicateLength>0.5</DuplicateLength>
-		</Sound>
-		<Vibrations>
-			<Amplitude>0.02</Amplitude>
-		</Vibrations>
-	</Effect>
-
-	<Effect>
-		<Name>ImpactShieldSmallSelfKinetic</Name>
-		<!-- <ParticleSystem>Particles/Impacts/Effects/P_Impact_Shield</ParticleSystem> -->
-		<ParticleSystem>ParticleEffects/Impacts/P_Impact-vs-shield</ParticleSystem>
-		<Scale>0.20</Scale>
-		<LightColor X="0.2" Y="0.3" Z="1.0" />
-		<LightIntensity>100000000.0</LightIntensity>
-		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
-		<LightDuration>0.5</LightDuration>
-		<Sound>
-			<Name>ImpactGunShield</Name>
-			<DuplicateRange>0.02</DuplicateRange>
-			<DuplicateLength>0.5</DuplicateLength>
+			<DuplicateLength>0.25</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.02</Amplitude>
@@ -176,28 +96,7 @@
 		<Sound>
 			<Name>ImpactShieldBig</Name>
 			<DuplicateRange>0.1</DuplicateRange>
-			<DuplicateLength>2.0</DuplicateLength>
-		</Sound>
-		<Vibrations>
-			<Amplitude>0.05</Amplitude>
-		</Vibrations>
-		<Smog>8</Smog>
-	</Effect>
-
-	<Effect>
-		<Name>ImpactShieldLargeSelfKinetic</Name>
-		<ParticleSystem>ParticleEffects/Impacts/P_Impact-vs-shield</ParticleSystem>
-		<Scale>1.0</Scale>
-		<LightColor X="0.2" Y="0.3" Z="1.0" />
-		<!-- <LightIntensity>1000000000.0</LightIntensity> -->
-		<LightIntensity>10000000000.0</LightIntensity>
-		<!-- <LightCutoff>250.0</LightCutoff> -->
-		<!-- <LightDuration>0.5</LightDuration> -->
-		<LightDuration>0.75</LightDuration>
-		<Sound>
-			<Name>ImpactShieldBig</Name>
-			<DuplicateRange>0.1</DuplicateRange>
-			<DuplicateLength>2.0</DuplicateLength>
+			<DuplicateLength>1.0</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.05</Amplitude>
@@ -216,7 +115,7 @@
 		<Sound>
 			<Name>ImpactGunGround</Name>
 			<DuplicateRange>0.02</DuplicateRange>
-			<DuplicateLength>0.5</DuplicateLength>
+			<DuplicateLength>0.25</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.02</Amplitude>
@@ -234,7 +133,7 @@
 		<Sound>
 			<Name>ImpactGunMetal</Name>
 			<DuplicateRange>0.02</DuplicateRange>
-			<DuplicateLength>0.5</DuplicateLength>
+			<DuplicateLength>0.25</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.02</Amplitude>
@@ -252,7 +151,7 @@
 		<Sound>
 			<Name>ImpactSpinalCanonBase</Name>
 			<DuplicateRange>0.1</DuplicateRange>
-			<DuplicateLength>2.0</DuplicateLength>
+			<DuplicateLength>1.0</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.5</Amplitude>
@@ -271,7 +170,7 @@
 		<Sound>
 			<Name>ImpactSpinalCanonGround</Name>
 			<DuplicateRange>0.1</DuplicateRange>
-			<DuplicateLength>2.0</DuplicateLength>
+			<DuplicateLength>1.0</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.5</Amplitude>
@@ -290,7 +189,7 @@
 		<Sound>
 			<Name>ImpactSpinalCanonSpace</Name>
 			<DuplicateRange>0.1</DuplicateRange>
-			<DuplicateLength>2.0</DuplicateLength>
+			<DuplicateLength>1.0</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.5</Amplitude>
@@ -312,26 +211,7 @@
 		<Sound>
 			<Name>ImpactBlasterMetal</Name>
 			<DuplicateRange>0.02</DuplicateRange>
-			<DuplicateLength>0.5</DuplicateLength>
-		</Sound>
-		<Vibrations>
-			<Amplitude>0.02</Amplitude>
-		</Vibrations>
-	</Effect>
-
-	<Effect>
-		<Name>ImpactMetalSmallSelfEnergy</Name>
-		<!-- <ParticleSystem>Particles/Weapons/IBSProto/Effects/100_Explosion_Burst_small</ParticleSystem> -->
-		<ParticleSystem>ParticleEffects/Impacts/P_Impact-burst-small</ParticleSystem>
-		<Scale>0.20</Scale>
-		<LightColor X="1.0" Y="0.3" Z="0.2" />
-		<LightIntensity>100000000.0</LightIntensity>
-		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
-		<LightDuration>0.5</LightDuration>
-		<Sound>
-			<Name>ImpactBlasterMetal</Name>
-			<DuplicateRange>0.02</DuplicateRange>
-			<DuplicateLength>0.5</DuplicateLength>
+			<DuplicateLength>0.25</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.02</Amplitude>
@@ -350,27 +230,7 @@
 		<Sound>
 			<Name>HitEnemy</Name>
 			<DuplicateRange>0.1</DuplicateRange>
-			<DuplicateLength>2.0</DuplicateLength>
-		</Sound>
-		<Vibrations>
-			<Amplitude>0.05</Amplitude>
-		</Vibrations>
-		<Smog>8</Smog>
-	</Effect>
-
-	<Effect>
-		<Name>ImpactMetalLargeSelfEnergy</Name>
-		<!-- <ParticleSystem>Particles/Weapons/IBSProto/Effects/100_Explosion_Burst_small</ParticleSystem> -->
-		<ParticleSystem>ParticleEffects/Impacts/P_Impact-burst-small</ParticleSystem>
-		<Scale>1.0</Scale>
-		<LightColor X="1.0" Y="0.3" Z="0.2" />
-		<LightIntensity>1000000000.0</LightIntensity>
-		<LightCutoff>120.0</LightCutoff>
-		<LightDuration>0.5</LightDuration>
-		<Sound>
-			<Name>HitSelfKinetic</Name>
-			<DuplicateRange>0.1</DuplicateRange>
-			<DuplicateLength>2.0</DuplicateLength>
+			<DuplicateLength>1.0</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.05</Amplitude>
@@ -390,26 +250,7 @@
 		<Sound>
 			<Name>ImpactBlasterShield</Name>
 			<DuplicateRange>0.02</DuplicateRange>
-			<DuplicateLength>0.5</DuplicateLength>
-		</Sound>
-		<Vibrations>
-			<Amplitude>0.02</Amplitude>
-		</Vibrations>
-	</Effect>
-
-	<Effect>
-		<Name>ImpactShieldSmallSelfEnergy</Name>
-		<!-- <ParticleSystem>Particles/Impacts/Effects/P_Impact_Shield</ParticleSystem> -->
-		<ParticleSystem>ParticleEffects/Impacts/P_Impact-vs-shield</ParticleSystem>
-		<Scale>0.20</Scale>
-		<LightColor X="0.0" Y="0.4" Z="1.0" />
-		<LightIntensity>100000000.0</LightIntensity>
-		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
-		<LightDuration>0.5</LightDuration>
-		<Sound>
-			<Name>ImpactBlasterShield</Name>
-			<DuplicateRange>0.02</DuplicateRange>
-			<DuplicateLength>0.5</DuplicateLength>
+			<DuplicateLength>0.25</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.02</Amplitude>
@@ -428,27 +269,7 @@
 		<Sound>
 			<Name>ImpactShieldBig</Name>
 			<DuplicateRange>0.1</DuplicateRange>
-			<DuplicateLength>2.0</DuplicateLength>
-		</Sound>
-		<Vibrations>
-			<Amplitude>0.05</Amplitude>
-		</Vibrations>
-		<Smog>8</Smog>
-	</Effect>
-
-	<Effect>
-		<Name>ImpactShieldLargeSelfEnergy</Name>
-		<!-- <ParticleSystem>Particles/Impacts/Effects/P_Impact_Shield</ParticleSystem> -->
-		<ParticleSystem>ParticleEffects/Impacts/P_Impact-vs-shield</ParticleSystem>
-		<Scale>1.0</Scale>
-		<LightColor X="0.0" Y="0.4" Z="1.0" />
-		<LightIntensity>1000000000.0</LightIntensity>
-		<LightCutoff>120.0</LightCutoff>
-		<LightDuration>0.5</LightDuration>
-		<Sound>
-			<Name>ImpactShieldBig</Name>
-			<DuplicateRange>0.1</DuplicateRange>
-			<DuplicateLength>2.0</DuplicateLength>
+			<DuplicateLength>1.0</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.05</Amplitude>
@@ -468,7 +289,7 @@
 		<Sound>
 			<Name>ImpactBlasterGround</Name>
 			<DuplicateRange>0.02</DuplicateRange>
-			<DuplicateLength>0.5</DuplicateLength>
+			<DuplicateLength>0.25</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.02</Amplitude>
@@ -1112,6 +933,7 @@
 		<Sound>
 			<Name>ChaffLaunch</Name>
 			<DuplicateRange>0.01</DuplicateRange>
+			<DuplicateLength>0.25</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.02</Amplitude>
@@ -1147,6 +969,20 @@
 			<Name>ChaffTravel</Name>
 			<DuplicateRange>0.01</DuplicateRange>
 		</Sound>
+	</Effect>
+
+	<Effect>
+		<Name>HeatVent</Name>
+		<ParticleSystem>ParticleEffects/Smokes/P_HeatVent</ParticleSystem>
+		<Scale>0.5</Scale>
+		<Sound>
+			<Name>Venting</Name>
+			<DuplicateRange>0.01</DuplicateRange>
+			<DuplicateLength>0.25</DuplicateLength>
+		</Sound>
+		<Vibrations>
+			<Amplitude>0.02</Amplitude>
+		</Vibrations>
 	</Effect>
 
 	<Effect>
@@ -1195,6 +1031,7 @@
 		<Sound>
 			<Name>HitEnemy</Name>
 			<DuplicateRange>0.001</DuplicateRange>
+			<DuplicateLength>0.25</DuplicateLength>
 		</Sound>
 		<Vibrations>
 			<Amplitude>0.02</Amplitude>
@@ -1213,6 +1050,7 @@
 		<Sound>
 			<Name>ElectricityFizzle</Name>
 			<DuplicateRange>1000000.0</DuplicateRange>
+			<DuplicateLength>0.25</DuplicateLength>
 			<MaxDupedCount>1</MaxDupedCount>
 		</Sound>
 	</Effect>

@@ -1,17 +1,18 @@
 <Loadout Version="0.0.0.1" >
 	<Name>DefaultDestroyer</Name>
 	<DisplayName>DEFAULT</DisplayName>
+	<ShortDescr>UI_Ship_Destroyer_Descr</ShortDescr>
 	<Actor>Destroyer</Actor>
 	<LayoutFile>$Config/Ships/Layouts/DestroyerLayout.xml</LayoutFile>
 	<IsMain>true</IsMain>
-	<Mount HardpointName="s_mk4_bot_left_center" Weapon="LaserAMSMK3" GroupID="1" />
-	<Mount HardpointName="s_mk4_bot_left_forward" Weapon="TurretFlakMK4" GroupID="0" />
-	<Mount HardpointName="s_mk4_bot_right_center" Weapon="LaserAMSMK3" GroupID="1" />
-	<Mount HardpointName="s_mk4_bot_right_forward" Weapon="TurretFlakMK4" GroupID="0" />
-	<Mount HardpointName="s_mk4_top_left_center" Weapon="TurretFlakMK4" GroupID="0" />
-	<Mount HardpointName="s_mk4_top_left_forward" Weapon="LaserAMSMK3" GroupID="1" />
-	<Mount HardpointName="s_mk4_top_right_center" Weapon="TurretFlakMK4" GroupID="0" />
-	<Mount HardpointName="s_mk4_top_right_forward" Weapon="LaserAMSMK3" GroupID="1" />
+	<Mount HardpointName="s_mk4_bot_left_center" Weapon="LaserAMSMK3" GroupID="0" />
+	<Mount HardpointName="s_mk4_bot_left_forward" Weapon="TurretFlakMK4" GroupID="1" />
+	<Mount HardpointName="s_mk4_bot_right_center" Weapon="LaserAMSMK3" GroupID="0" />
+	<Mount HardpointName="s_mk4_bot_right_forward" Weapon="TurretFlakMK4" GroupID="1" />
+	<Mount HardpointName="s_mk4_top_left_center" Weapon="TurretFlakMK4" GroupID="1" />
+	<Mount HardpointName="s_mk4_top_left_forward" Weapon="LaserAMSMK3" GroupID="0" />
+	<Mount HardpointName="s_mk4_top_right_center" Weapon="TurretFlakMK4" GroupID="1" />
+	<Mount HardpointName="s_mk4_top_right_forward" Weapon="LaserAMSMK3" GroupID="0" />
 	<Mount HardpointName="s_mk5_bot_left" Weapon="TurretGunMK5" GroupID="2" />
 	<Mount HardpointName="s_mk5_bot_right" Weapon="TurretBlasterMK5" GroupID="3" />
 	<Mount HardpointName="s_mk5_center_top" Weapon="TurretGunMK5" GroupID="2" />

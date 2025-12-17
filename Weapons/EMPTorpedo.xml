@@ -99,6 +99,8 @@
 		<TrackingRange>100.0</TrackingRange>
 		<MinTargetMass>1000.0</MinTargetMass>
 		<DetonateOnDeath>false</DetonateOnDeath>
+		<ExplodeOnContact>true</ExplodeOnContact>
 		<NoTargetDetonationTime>10.0</NoTargetDetonationTime>
+		<DamageDelay>0.15</DamageDelay>
 	</CServerMissileComponent>
 </ActorConfig>

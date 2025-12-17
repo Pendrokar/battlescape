@@ -6,7 +6,7 @@
 	<HitPoints>0.9</HitPoints>
 	<ArmorPoints>-1.0</ArmorPoints>
 	<ShieldPoints>0.9</ShieldPoints>
-	<HeatPoints>1.12</HeatPoints>
+	<HeatPoints>1.1</HeatPoints>
 	<RechargeEnergyPoints>1.4</RechargeEnergyPoints>
 	<Socket Name="s_mod_storage2" >
 		<Size>Mk4</Size>

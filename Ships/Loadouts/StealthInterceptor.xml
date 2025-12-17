@@ -1,6 +1,7 @@
 <Loadout Version="0.0.0.1">
     <Name>StealthInterceptor</Name>
     <DisplayName>STEALTH</DisplayName>
+	<ShortDescr>UI_Ship_Interceptor_Descr</ShortDescr>
     <Actor>Interceptor</Actor>
 	<LayoutFile>$Config/Ships/Layouts/InterceptorLayout.xml</LayoutFile>
     <IsMain>false</IsMain>

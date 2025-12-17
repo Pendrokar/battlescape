@@ -1,6 +1,7 @@
 <Loadout Version="0.0.0.1" >
 	<Name>EMPBomber</Name>
-	<DisplayName>E-BOMBER</DisplayName>
+	<DisplayName>EMP</DisplayName>
+	<ShortDescr>UI_Ship_Bomber_Descr</ShortDescr>
 	<Actor>Bomber</Actor>
 	<LayoutFile>$Config/Ships/Layouts/BomberLayout.xml</LayoutFile>
 	<IsMain>false</IsMain>

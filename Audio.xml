@@ -9,6 +9,7 @@
 	<Asset>$Dev/Sounds/Hits.bank</Asset>
 	<Asset>$Dev/Sounds/Interface.bank</Asset>
 	<Asset>$Dev/Sounds/Weapons.bank</Asset>
+	<Asset>$Dev/Sounds/Abilities.bank</Asset>
 	<Asset>$Dev/Sounds/Voice.bank</Asset>
 
 <!-- 	<Asset>$Dev/Sounds/Mod/Mod.bank</Asset>
@@ -156,6 +157,26 @@
 		<Name>HardpointUnmount</Name>
 		<Path>event:/Interface/HardpointUnmount</Path>
 		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>HardpointMountFast</Name>
+		<Path>event:/Interface/Loadouts/HardpointMountFast</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>HardpointMountMedium</Name>
+		<Path>event:/Interface/Loadouts/HardpointMountMedium</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>HardpointMountSlow</Name>
+		<Path>event:/Interface/Loadouts/HardpointMountSlow</Path>
+		<Volume>1.0</Volume>
+	</SoundEffect2D>
+	<SoundEffect2D>
+		<Name>HardpointUnmountMedium</Name>
+		<Path>event:/Interface/Loadouts/HardpointUnmountMedium</Path>
+		<Volume>0.35</Volume>
 	</SoundEffect2D>
 	<SoundEffect2D>
 		<Name>SquadTarget</Name>
@@ -707,11 +728,26 @@
 		<VolumeRange X="0" Y="1" />
 		<DistRange X="0.25" Y="5.0" />
 	</SoundEffect3D>
+
+	<!-- Abilities sounds -->
 	<SoundEffect3D>
 		<Name>ShieldRecharge</Name>
 		<Path>event:/General/ShieldRecharge</Path>
 		<VolumeRange X="0" Y="1" />
 		<DistRange X="0.02" Y="3.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Venting</Name>
+		<Path>event:/Abilities/Venting</Path>
+		<VolumeRange X="0" Y="1" />
+		<DistRange X="0.25" Y="5.0" />
+	</SoundEffect3D>
+	<SoundEffect3D>
+		<Name>Stealth</Name>
+		<Path>event:/Abilities/Stealth</Path>
+		<VolumeRange X="0" Y="0.25" />
+		<DistRange X="0.1" Y="2.5" />
+		<Looping>true</Looping>
 	</SoundEffect3D>
 
 	<!-- Weapons sounds -->
@@ -1058,55 +1094,55 @@
 		<Name>ImpactGunGround</Name>
 		<Path>event:/Hits/ImpactGunGround</Path>
 		<VolumeRange X="0" Y="0.5" />
-		<DistRange X="0.01" Y="1.5" />
+		<DistRange X="0.02" Y="1.5" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ImpactGunMetal</Name>
 		<Path>event:/Hits/ImpactGunMetal</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.01" Y="1.5" />
+		<DistRange X="0.02" Y="1.5" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ImpactGunShield</Name>
 		<Path>event:/Hits/ImpactGunShield</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.01" Y="1.5" />
+		<DistRange X="0.02" Y="1.5" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ImpactBlasterGround</Name>
 		<Path>event:/Hits/ImpactBlasterGround</Path>
 		<VolumeRange X="0" Y="0.5" />
-		<DistRange X="0.01" Y="1.5" />
+		<DistRange X="0.02" Y="1.5" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ImpactBlasterMetal</Name>
 		<Path>event:/Hits/ImpactBlasterMetal</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.01" Y="1.5" />
+		<DistRange X="0.02" Y="1.5" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ImpactBlasterShield</Name>
 		<Path>event:/Hits/ImpactBlasterShield</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.01" Y="1.5" />
+		<DistRange X="0.02" Y="1.5" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ImpactShieldSmall</Name>
 		<Path>event:/Hits/ImpactShieldSmall</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.01" Y="1.5" />
+		<DistRange X="0.02" Y="1.5" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ImpactShieldMedium</Name>
 		<Path>event:/Hits/ImpactShieldMedium</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.02" Y="4.0" />
+		<DistRange X="0.04" Y="4.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ImpactShieldBig</Name>
 		<Path>event:/Hits/ImpactShieldBig</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.05" Y="8.0" />
+		<DistRange X="0.08" Y="8.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>CollisionShrapnel</Name>
@@ -1118,7 +1154,7 @@
 		<Name>ImpactRepair</Name>
 		<Path>event:/Hits/ImpactRepair</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.01" Y="1.5" />
+		<DistRange X="0.02" Y="1.5" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>Welding</Name>
@@ -1151,19 +1187,19 @@
 		<Name>ImpactKineticMetal1</Name>
 		<Path>event:/Hits/ImpactKineticMetal1</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.01" Y="1.5" />
+		<DistRange X="0.02" Y="1.5" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ImpactKineticMetal2</Name>
 		<Path>event:/Hits/ImpactKineticMetal2</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.02" Y="4.0" />
+		<DistRange X="0.04" Y="4.0" />
 	</SoundEffect3D>
 	<SoundEffect3D>
 		<Name>ImpactKineticMetal3</Name>
 		<Path>event:/Hits/ImpactKineticMetal3</Path>
 		<VolumeRange X="0" Y="1.0" />
-		<DistRange X="0.05" Y="10.0" />
+		<DistRange X="0.08" Y="10.0" />
 	</SoundEffect3D>
 
 	<!-- Misc sounds -->

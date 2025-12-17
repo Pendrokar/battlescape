@@ -206,7 +206,7 @@
 		<Type>GimbalSingle</Type>
 		<Class>MK1;MK2</Class>
 		<Credits>0</Credits>
-		<Mass>0.25</Mass>
+		<Mass>0.4</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/ForwardFacing/SM_Mk1_Single_SideAttached_Blaster_LOD0" >
 	            <LOD Level="1" Mesh="Ships/Weapons/ForwardFacing/SM_Mk1_Single_SideAttached_Blaster_LOD1" />
@@ -501,7 +501,7 @@
 		<Class>MK1;MK2</Class>
 		<Credits>250</Credits>
 		<Rank>4</Rank>
-		<Mass>0.5</Mass>
+		<Mass>0.7</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/ForwardFacing/SM_Mk1_Single_SideAttached_PlasmaCutter_LOD0" >
 	            <LOD Level="1" Mesh="Ships/Weapons/ForwardFacing/SM_Mk1_Single_SideAttached_PlasmaCutter_LOD1" />
@@ -694,27 +694,21 @@
 		<Impact>
 			<Metal>
                 <Effect>ImpactMetalMediumKinetic</Effect>
-				<EffectSelf>ImpactMetalMediumSelfKinetic</EffectSelf>
 				<Offset>0.005</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>0.5</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>2.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldSmallKinetic</Effect>
-				<EffectSelf>ImpactShieldSmallSelfKinetic</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>0.5</Scale>
-				<ScaleSelf>0.5</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.005</SmokeDamageScale>
 		</Impact>
@@ -817,24 +811,18 @@
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalSmallEnergy</Effect>
-				<EffectSelf>ImpactMetalSmallSelfEnergy</EffectSelf>
 				<Offset>0.004</Offset>
 				<Scale>1.5</Scale>
-				<ScaleSelf>1.5</ScaleSelf>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldSmallEnergy</Effect>
-				<EffectSelf>ImpactShieldSmallSelfEnergy</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>1.75</Scale>
-				<ScaleSelf>1.75</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallEnergy</Effect>
-				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>0.5</Scale>
-				<ScaleSelf>0.5</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.005</SmokeDamageScale>
 		</Impact>
@@ -946,27 +934,21 @@
 		<Impact>
 			<Metal>
                 <Effect>ImpactMetalMediumKinetic</Effect>
-				<EffectSelf>ImpactMetalMediumSelfKinetic</EffectSelf>
 				<Offset>0.005</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>0.5</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>2.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldSmallKinetic</Effect>
-				<EffectSelf>ImpactShieldSmallSelfKinetic</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>0.5</Scale>
-				<ScaleSelf>0.5</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.005</SmokeDamageScale>
 		</Impact>
@@ -1073,24 +1055,18 @@
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalSmallEnergy</Effect>
-				<EffectSelf>ImpactMetalSmallSelfEnergy</EffectSelf>
 				<Offset>0.004</Offset>
 				<Scale>1.5</Scale>
-				<ScaleSelf>1.5</ScaleSelf>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldSmallEnergy</Effect>
-				<EffectSelf>ImpactShieldSmallSelfEnergy</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>1.75</Scale>
-				<ScaleSelf>1.75</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallEnergy</Effect>
-				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>0.5</Scale>
-				<ScaleSelf>0.5</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.005</SmokeDamageScale>
 		</Impact>
@@ -1107,7 +1083,7 @@
 		<Actor Class="Cruiser" />
 		<Actor Class="Carrier" />
 		<Credits>0</Credits>
-		<Mass>25.0</Mass>
+		<Mass>100.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/Mk5_Dual/SM_Mk5_Dual_Base_LOD0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk5_Dual/SM_Mk5_Dual_Base_LOD1" />
@@ -1201,27 +1177,21 @@
 		<Impact>
 			<Metal>
                 <Effect>ImpactMetalMediumKinetic</Effect>
-				<EffectSelf>ImpactMetalMediumSelfKinetic</EffectSelf>
 				<Offset>0.01</Offset>
 				<Scale>2.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>4.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldLargeKinetic</Effect>
-				<EffectSelf>ImpactShieldLargeSelfKinetic</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>1.5</Scale>
-				<ScaleSelf>1.5</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.01</SmokeDamageScale>
 		</Impact>
@@ -1238,7 +1208,7 @@
 		<Actor Class="Cruiser" />
 		<Actor Class="Carrier" />
 		<Credits>0</Credits>
-		<Mass>15.0</Mass>
+		<Mass>75.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/Mk5_Dual/SM_Mk5_Dual_Base_LOD0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk5_Dual/SM_Mk5_Dual_Base_LOD1" />
@@ -1327,24 +1297,18 @@
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalLargeEnergy</Effect>
-				<EffectSelf>ImpactMetalLargeSelfEnergy</EffectSelf>
 				<Offset>0.025</Offset>
 				<Scale>0.75</Scale>
-				<ScaleSelf>0.75</ScaleSelf>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldLargeEnergy</Effect>
-				<EffectSelf>ImpactShieldLargeSelfEnergy</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallEnergy</Effect>
-				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.01</SmokeDamageScale>
 		</Impact>
@@ -1360,7 +1324,7 @@
 		<Actor Class="Cruiser" />
 		<Actor Class="Carrier" />
 		<Credits>0</Credits>
-		<Mass>500.0</Mass>
+		<Mass>400.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/Mk6_Dual/SM_Mk6_Dual_Base_LOD0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk6_Dual/SM_Mk6_Dual_Base_LOD1" />
@@ -1446,32 +1410,26 @@
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
 			<LifeTime>6.3</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.9</Speed> <!-- Initial speed the shot gets fired at -->
-			<Heat>40.0</Heat>
+			<Heat>25.0</Heat>
 		</Shot>
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalLargeKinetic</Effect>
-				<EffectSelf>ImpactMetalLargeSelfKinetic</EffectSelf>
 				<Offset>0.005</Offset>
 				<Scale>0.5</Scale>
-				<ScaleSelf>0.5</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>4.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldLargeKinetic</Effect>
-				<EffectSelf>ImpactShieldLargeSelfKinetic</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>1.5</Scale>
-				<ScaleSelf>1.5</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>2.0</Scale>
-				<ScaleSelf>2.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.02</SmokeDamageScale>
 		</Impact>
@@ -1487,7 +1445,7 @@
 		<Actor Class="Cruiser" />
 		<Actor Class="Carrier" />
 		<Credits>0</Credits>
-		<Mass>300.0</Mass>
+		<Mass>350.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/Mk6_Dual/SM_Mk6_Dual_Base_LOD0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk6_Dual/SM_Mk6_Dual_Base_LOD1" />
@@ -1576,24 +1534,18 @@
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalLargeEnergy</Effect>
-				<EffectSelf>ImpactMetalLargeSelfEnergy</EffectSelf>
 				<Offset>0.025</Offset>
 				<Scale>0.75</Scale>
-				<ScaleSelf>0.75</ScaleSelf>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldLargeEnergy</Effect>
-				<EffectSelf>ImpactShieldLargeSelfEnergy</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallEnergy</Effect>
-				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.02</SmokeDamageScale>
 		</Impact>
@@ -1609,7 +1561,7 @@
 		<Actor Class="Cruiser" />
 		<Actor Class="Carrier" />
 		<Credits>0</Credits>
-		<Mass>2000.0</Mass>
+		<Mass>1250.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/Mk7_Trio/SM_Mk7_Trio_Base_LOD0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk7_Trio/SM_Mk7_Trio_Base_LOD1" />
@@ -1696,32 +1648,26 @@
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
 			<LifeTime>7.28</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>2.2</Speed> <!-- Initial speed the shot gets fired at -->
-			<Heat>100.0</Heat>
+			<Heat>60.0</Heat>
 		</Shot>
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalLargeKinetic</Effect>
-				<EffectSelf>ImpactMetalLargeSelfKinetic</EffectSelf>
 				<Offset>0.01</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>8.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldLargeKinetic</Effect>
-				<EffectSelf>ImpactShieldLargeSelfKinetic</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>2.0</Scale>
-				<ScaleSelf>2.0</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>4.0</Scale>
-				<ScaleSelf>4.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.04</SmokeDamageScale>
 		</Impact>
@@ -1737,7 +1683,7 @@
 		<Actor Class="Interceptor" />
 		<Actor Class="Bomber" />
 		<Actor Class="Corvette" />
-		<Mass>1.0</Mass>
+		<Mass>0.75</Mass>
 		<Mesh>
 			<HitBox>
 				<Min X="-0.002" Y="-0.002" Z="-0.002" />
@@ -1787,7 +1733,7 @@
 		<Shot>
 			<Type>Actor</Type>
 			<Name>LightMissile</Name>
-			<KineticDamage>150.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<KineticDamage>125.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldHullSpread</DamageType> <!-- Type of damage -->
 			<SplashRadius>0.15</SplashRadius>
 			<LifeTime>30.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
@@ -1809,7 +1755,7 @@
 		<Actor Class="Interceptor" />
 		<Actor Class="Bomber" />
 		<Actor Class="Corvette" />
-		<Mass>2.0</Mass>
+		<Mass>1.0</Mass>
 		<Mesh>
 			<HitBox>
 				<Min X="-0.002" Y="-0.002" Z="-0.002" />
@@ -2039,27 +1985,21 @@
 		<Impact>
 			<Metal>
                 <Effect>ImpactMetalMediumKinetic</Effect>
-				<EffectSelf>ImpactMetalMediumSelfKinetic</EffectSelf>
 				<Offset>0.005</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>0.5</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>2.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldSmallKinetic</Effect>
-				<EffectSelf>ImpactShieldSmallSelfKinetic</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>0.5</Scale>
-				<ScaleSelf>0.5</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.005</SmokeDamageScale>
 		</Impact>
@@ -2162,24 +2102,18 @@
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalSmallEnergy</Effect>
-				<EffectSelf>ImpactMetalSmallSelfEnergy</EffectSelf>
 				<Offset>0.004</Offset>
 				<Scale>1.5</Scale>
-				<ScaleSelf>1.5</ScaleSelf>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldSmallEnergy</Effect>
-				<EffectSelf>ImpactShieldSmallSelfEnergy</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>1.75</Scale>
-				<ScaleSelf>1.75</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallEnergy</Effect>
-				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>0.5</Scale>
-				<ScaleSelf>0.5</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.005</SmokeDamageScale>
 		</Impact>
@@ -2285,27 +2219,21 @@
 		<Impact>
 			<Metal>
                 <Effect>ImpactMetalMediumKinetic</Effect>
-				<EffectSelf>ImpactMetalMediumSelfKinetic</EffectSelf>
 				<Offset>0.01</Offset>
 				<Scale>2.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>4.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldLargeKinetic</Effect>
-				<EffectSelf>ImpactShieldLargeSelfKinetic</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>1.5</Scale>
-				<ScaleSelf>1.5</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.01</SmokeDamageScale>
 		</Impact>
@@ -2407,24 +2335,18 @@
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalLargeEnergy</Effect>
-				<EffectSelf>ImpactMetalLargeSelfEnergy</EffectSelf>
 				<Offset>0.025</Offset>
 				<Scale>0.75</Scale>
-				<ScaleSelf>0.75</ScaleSelf>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldLargeEnergy</Effect>
-				<EffectSelf>ImpactShieldLargeSelfEnergy</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallEnergy</Effect>
-				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.01</SmokeDamageScale>
 		</Impact>
@@ -2528,27 +2450,21 @@
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalLargeKinetic</Effect>
-				<EffectSelf>ImpactMetalLargeSelfKinetic</EffectSelf>
 				<Offset>0.005</Offset>
 				<Scale>0.5</Scale>
-				<ScaleSelf>0.5</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>4.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldLargeKinetic</Effect>
-				<EffectSelf>ImpactShieldLargeSelfKinetic</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>1.5</Scale>
-				<ScaleSelf>1.5</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>2.0</Scale>
-				<ScaleSelf>2.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.02</SmokeDamageScale>
 		</Impact>
@@ -2560,7 +2476,7 @@
 		<Type>AttachBaseBarrel</Type>
 		<Class>MK7</Class>
 		<Credits>-1</Credits>
-		<Mass>2000.0</Mass>
+		<Mass>1250.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/Mk7_Trio/SM_Mk7_Trio_Base_LOD0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk7_Trio/SM_Mk7_Trio_Base_LOD1" />
@@ -2653,27 +2569,21 @@
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalLargeKinetic</Effect>
-				<EffectSelf>ImpactMetalLargeSelfKinetic</EffectSelf>
 				<Offset>0.01</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>8.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldLargeKinetic</Effect>
-				<EffectSelf>ImpactShieldLargeSelfKinetic</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>2.0</Scale>
-				<ScaleSelf>2.0</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>4.0</Scale>
-				<ScaleSelf>4.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.04</SmokeDamageScale>
 		</Impact>
@@ -2757,17 +2667,13 @@
 		<Impact>
 			<Metal>
                 <Effect>ImpactMetalSmallKinetic</Effect>
-				<EffectSelf>ImpactMetalSmallSelfKinetic</EffectSelf>
 				<Offset>0.0010</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldSmallKinetic</Effect>
-				<EffectSelf>ImpactShieldSmallSelfKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
 			<SmokeDamageScale>0.002</SmokeDamageScale>
 		</Impact>
@@ -2779,7 +2685,7 @@
 		<LongDescr>UI_Weapon_MissileLauncherMK3_LongDescr</LongDescr>
 		<Type>StaticSingle</Type>
 		<Class>HeavyMissilePod</Class>
-		<Credits>500</Credits>
+		<Credits>750</Credits>
 		<Rank>6</Rank>
 		<Actor Class="Corvette" />
 		<Mass>25.0</Mass>
@@ -2838,7 +2744,7 @@
 		<Shot>
 			<Type>Actor</Type>
 			<Name>HeavyMissile</Name>
-			<KineticDamage>500.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<KineticDamage>750.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldHullSpread</DamageType> <!-- Type of damage -->
 			<SplashRadius>0.2</SplashRadius>
 			<LifeTime>40.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
@@ -2848,17 +2754,13 @@
 		<Impact>
 			<Metal>
                 <Effect>ImpactMetalSmallKinetic</Effect>
-				<EffectSelf>ImpactMetalSmallSelfKinetic</EffectSelf>
 				<Offset>0.0010</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldSmallKinetic</Effect>
-				<EffectSelf>ImpactShieldSmallSelfKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
 			<SmokeDamageScale>0.002</SmokeDamageScale>
 		</Impact>
@@ -2969,7 +2871,7 @@
 			<SplashRadius>0.1</SplashRadius>
 			<LifeTime>3.34</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.4</Speed> <!-- Initial speed the shot gets fired at -->
-			<Heat>8.0</Heat>
+			<Heat>6.0</Heat>
 			<Detonates>true</Detonates>
 			<DetonationRange X="1.0" Y="1000.0" />
 			<DirectHitDamageRatio>0.5</DirectHitDamageRatio> <!-- Hit damage ratio for direct hits (aka. less explosive) -->
@@ -2987,10 +2889,8 @@
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>2.0</Scale>
-				<ScaleSelf>2.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.01</SmokeDamageScale>
 		</Impact>
@@ -3218,30 +3118,25 @@
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
 			<LifeTime>2.67</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>3.0</Speed> <!-- Initial speed the shot gets fired at -->
-			<Heat>4.0</Heat>
+			<Heat>2.0</Heat>
 		</Shot>
 		<Impact>
 			<Metal>
                 <Effect>ImpactMetalRailgun</Effect>
-				<EffectSelf>ImpactMetalRailgun</EffectSelf>
 				<Offset>0.0005</Offset>
 				<Scale>0.25</Scale>
-				<ScaleSelf>0.05</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalRailgun</BounceEffect>
 				<BounceEffectScale>0.25</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldSmallKinetic</Effect>
-				<EffectSelf>ImpactShieldSmallSelfKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>0.25</Scale>
-				<ScaleSelf>0.25</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.002</SmokeDamageScale>
 		</Impact>
@@ -3445,7 +3340,7 @@
 		<Class>MK5</Class>
 		<Credits>0</Credits>
 		<Actor Class="Hauler" />
-		<Mass>40.0</Mass>
+		<Mass>200.0</Mass>
 		<Mesh>
 			<Base Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD1" />
@@ -3562,7 +3457,7 @@
 		<Class>MK5</Class>
 		<Credits>0</Credits>
 		<Actor Class="Hauler" />
-		<Mass>60.0</Mass>
+		<Mass>250.0</Mass>
 		<Mesh>
 			<Base Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD1" />
@@ -3765,27 +3660,21 @@
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalLargeKinetic</Effect>
-				<EffectSelf>ImpactMetalLargeSelfKinetic</EffectSelf>
 				<Offset>0.02</Offset>
 				<Scale>2.0</Scale>
-				<ScaleSelf>2.0</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>16.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldLargeKinetic</Effect>
-				<EffectSelf>ImpactShieldLargeSelfKinetic</EffectSelf>
 				<Offset>0.005</Offset>
 				<Scale>4.0</Scale>
-				<ScaleSelf>4.0</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.002</Offset>
 				<Scale>8.0</Scale>
-				<ScaleSelf>8.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.08</SmokeDamageScale>
 		</Impact>
@@ -3886,27 +3775,21 @@
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalLargeKinetic</Effect>
-				<EffectSelf>ImpactMetalLargeSelfKinetic</EffectSelf>
 				<Offset>0.02</Offset>
 				<Scale>2.0</Scale>
-				<ScaleSelf>2.0</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>16.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldLargeKinetic</Effect>
-				<EffectSelf>ImpactShieldLargeSelfKinetic</EffectSelf>
 				<Offset>0.005</Offset>
 				<Scale>4.0</Scale>
-				<ScaleSelf>4.0</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.002</Offset>
 				<Scale>8.0</Scale>
-				<ScaleSelf>8.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.08</SmokeDamageScale>
 		</Impact>
@@ -3921,7 +3804,7 @@
 		<Actor Class="Cruiser" />
 		<Credits>1500</Credits>
 		<Rank>8</Rank>
-		<Mass>3000.0</Mass>
+		<Mass>1750.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/Mk7_Forward_Facing_Canon/SM_Mk7_Fwd_Canon_Base_LOD0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk7_Forward_Facing_Canon/SM_Mk7_Fwd_Canon_Base_LOD1" />
@@ -3986,7 +3869,7 @@
 		</Muzzle>
 		<Ammo>
 			<Type>HeavyAmmo</Type>
-			<Cost>8</Cost>
+			<Cost>16</Cost>
 			<Max>4000</Max>
 		</Ammo>
 		<Shot>
@@ -4007,27 +3890,21 @@
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalLargeKinetic</Effect>
-				<EffectSelf>ImpactMetalLargeSelfKinetic</EffectSelf>
 				<Offset>0.01</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>8.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldLargeKinetic</Effect>
-				<EffectSelf>ImpactShieldLargeSelfKinetic</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>2.0</Scale>
-				<ScaleSelf>2.0</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>4.0</Scale>
-				<ScaleSelf>4.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.04</SmokeDamageScale>
 		</Impact>
@@ -4042,7 +3919,7 @@
 		<Actor Class="Cruiser" />
 		<Credits>1800</Credits>
 		<Rank>9</Rank>
-		<Mass>2700.0</Mass>
+		<Mass>1500.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/Mk7_Forward_Facing_Blaster/SM_Mk7_Fwd_Blaster_Base_LOD0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk7_Forward_Facing_Blaster/SM_Mk7_Fwd_Blaster_Base_LOD1" />
@@ -4126,24 +4003,18 @@
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalLargeEnergy</Effect>
-				<EffectSelf>ImpactMetalLargeSelfEnergy</EffectSelf>
 				<Offset>0.04</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldLargeEnergy</Effect>
-				<EffectSelf>ImpactShieldLargeSelfEnergy</EffectSelf>
 				<Offset>0.004</Offset>
 				<Scale>1.5</Scale>
-				<ScaleSelf>1.5</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallEnergy</Effect>
-				<EffectSelf>ImpactDirtSmallEnergy</EffectSelf>
 				<Offset>0.002</Offset>
 				<Scale>1.5</Scale>
-				<ScaleSelf>1.5</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.03</SmokeDamageScale>
 		</Impact>
@@ -4254,32 +4125,26 @@
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
 			<LifeTime>2.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.6</Speed> <!-- Initial speed the shot gets fired at -->
-			<Heat>3.0</Heat>
+			<Heat>5.0</Heat>
 		</Shot>
 		<Impact>
 			<Metal>
                 <Effect>ImpactMetalMediumKinetic</Effect>
-				<EffectSelf>ImpactMetalMediumSelfKinetic</EffectSelf>
 				<Offset>0.005</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>0.5</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>2.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldSmallKinetic</Effect>
-				<EffectSelf>ImpactShieldSmallSelfKinetic</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>0.5</Scale>
-				<ScaleSelf>0.5</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.005</SmokeDamageScale>
 		</Impact>
@@ -4291,9 +4156,9 @@
 		<LongDescr>UI_Weapon_SpinalCruiserMKS_LongDescr</LongDescr>
 		<Type>StaticSingle</Type>
 		<Class>MKS</Class>
-		<Credits>5000</Credits>
+		<Credits>3500</Credits>
 		<Rank>12</Rank>
-		<Mass>8000.0</Mass>
+		<Mass>5000.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/MkS_Cruiser-spinal-weapon/sm_cruiser-spinal-mount" >
 			</Attach>
@@ -4387,34 +4252,26 @@
 		<Impact>
 			<Metal>
 				<Effect>ImpactMetalMassiveKinetic</Effect>
-				<EffectSelf>ImpactMetalMassiveKinetic</EffectSelf>
 				<Offset>0.02</Offset>
 				<Scale>3.0</Scale>
-				<ScaleSelf>3.0</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>16.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldBaseMassiveKinetic</Effect>
-				<EffectSelf>ImpactShieldBaseMassiveKinetic</EffectSelf>
 				<Offset>0.005</Offset>
 				<Scale>4.0</Scale>
-				<ScaleSelf>4.0</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactGroundMassiveKinetic</Effect>
-				<EffectSelf>ImpactGroundMassiveKinetic</EffectSelf>
 				<Offset>0.002</Offset>
 				<Scale>8.0</Scale>
-				<ScaleSelf>8.0</ScaleSelf>
 			</Surface>
 			<SphericalShield>
 				<Effect>ImpactShieldBaseMassiveKinetic</Effect>
-				<EffectSelf>ImpactShieldBaseMassiveKinetic</EffectSelf>
 				<Offset>0.005</Offset>
 				<Scale>8.0</Scale>
-				<ScaleSelf>8.0</ScaleSelf>
 			</SphericalShield>
 			<SmokeDamageScale>0.08</SmokeDamageScale>
 		</Impact>
@@ -4603,7 +4460,7 @@
 		<Shot>
 			<Type>Actor</Type>
 			<Name>LightMissile</Name>
-			<KineticDamage>150.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<KineticDamage>125.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldHullSpread</DamageType> <!-- Type of damage -->
 			<SplashRadius>0.15</SplashRadius>
 			<LifeTime>30.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
@@ -4695,7 +4552,7 @@
 		<Class>LightMissilePod</Class>
 		<Credits>0</Credits>
 		<Actor Class="Hauler" />
-		<Mass>100.0</Mass>
+		<Mass>300.0</Mass>
 		<Mesh>
 			<HitBox>
 				<Min X="-0.002" Y="-0.002" Z="-0.002" />
@@ -4763,7 +4620,7 @@
 		<Class>LightMissilePod</Class>
 		<Credits>0</Credits>
 		<Actor Class="Hauler" />
-		<Mass>100.0</Mass>
+		<Mass>400.0</Mass>
 		<Mesh>
 			<HitBox>
 				<Min X="-0.002" Y="-0.002" Z="-0.002" />
@@ -4835,7 +4692,7 @@
 		<Actor Class="Carrier" />
 		<Credits>750</Credits>
 		<Rank>5</Rank>
-		<Mass>35.0</Mass>
+		<Mass>125.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/Mk5_Trio/SM_Mk5_Trio_Base_Lod0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk5_Trio/SM_Mk5_Trio_Base_Lod1" />
@@ -4924,32 +4781,26 @@
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
 			<LifeTime>4.17</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.2</Speed> <!-- Initial speed the shot gets fired at -->
-			<Heat>12.0</Heat>
+			<Heat>10.0</Heat>
 		</Shot>
 		<Impact>
 			<Metal>
                 <Effect>ImpactMetalMediumKinetic</Effect>
-				<EffectSelf>ImpactMetalMediumSelfKinetic</EffectSelf>
 				<Offset>0.01</Offset>
 				<Scale>2.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 				<Bounce>0.0</Bounce>
                 <BounceEffect>ImpactMetalSparkles</BounceEffect>
 				<BounceEffectScale>4.0</BounceEffectScale>
 			</Metal>
 			<Shield>
 				<Effect>ImpactShieldLargeKinetic</Effect>
-				<EffectSelf>ImpactShieldLargeSelfKinetic</EffectSelf>
 				<Offset>0.0025</Offset>
 				<Scale>1.5</Scale>
-				<ScaleSelf>1.5</ScaleSelf>
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>1.0</Scale>
-				<ScaleSelf>1.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.01</SmokeDamageScale>
 		</Impact>
@@ -4966,7 +4817,7 @@
 		<Actor Class="Carrier" />
 		<Credits>900</Credits>
 		<Rank>6</Rank>
-		<Mass>750.0</Mass>
+		<Mass>500.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD0">
 	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD1" />
@@ -5076,10 +4927,8 @@
 			</Shield>
 			<Surface>
 				<Effect>ImpactDirtSmallKinetic</Effect>
-				<EffectSelf>ImpactDirtSmallKinetic</EffectSelf>
 				<Offset>0.001</Offset>
 				<Scale>2.0</Scale>
-				<ScaleSelf>2.0</ScaleSelf>
 			</Surface>
 			<SmokeDamageScale>0.01</SmokeDamageScale>
 		</Impact>
@@ -5096,7 +4945,7 @@
 		<Actor Class="Interceptor" />
 		<Actor Class="Bomber" />
 		<Actor Class="Corvette" />
-		<Mass>3.0</Mass>
+		<Mass>2.0</Mass>
 		<Mesh>
 			<HitBox>
 				<Min X="-0.002" Y="-0.002" Z="-0.002" />
@@ -5169,7 +5018,7 @@
 		<Actor Class="Interceptor" />
 		<Actor Class="Bomber" />
 		<Actor Class="Corvette" />
-		<Mass>3.0</Mass>
+		<Mass>2.0</Mass>
 		<Mesh>
 			<HitBox>
 				<Min X="-0.002" Y="-0.002" Z="-0.002" />
@@ -5237,7 +5086,7 @@
 		<LongDescr>UI_Weapon_SeekerMissilePod_LongDescr</LongDescr>
 		<Type>StaticSingle</Type>
 		<Class>LightMissilePod</Class>
-		<Credits>1000</Credits>
+		<Credits>800</Credits>
 		<Rank>5</Rank>
 		<Actor Class="Interceptor" />
 		<Actor Class="Bomber" />
@@ -5248,7 +5097,7 @@
 				<Max X="0.001" Y="0.001" Z="0.001" />
 			</HitBox>
 		</Mesh>
-		<HitPoints>20</HitPoints>
+		<HitPoints>30</HitPoints>
 		<Sockets>
 		</Sockets>
 		<GunOffset X="0" Y="0" Z="0" />
@@ -5291,7 +5140,7 @@
 		<Shot>
 			<Type>Actor</Type>
 			<Name>SeekerMissile</Name>
-			<KineticDamage>40.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<KineticDamage>30.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldHullSpread</DamageType> <!-- Type of damage -->
 			<LifeTime>20.0</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>1.0</Speed> <!-- Initial speed the shot gets fired at -->

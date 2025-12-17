@@ -1,6 +1,7 @@
 <Loadout Version="0.0.0.1" >
 	<Name>DefaultHauler</Name>
 	<DisplayName>DEFAULT</DisplayName>
+	<ShortDescr>UI_Ship_Hauler_Descr</ShortDescr>
 	<Actor>Hauler</Actor>
 	<LayoutFile>$Config/Ships/Layouts/HaulerLayout.xml</LayoutFile>
 	<IsMain>true</IsMain>

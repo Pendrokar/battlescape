@@ -1,11 +1,13 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Ship</ActorType>
+		<IsCapShip>false</IsCapShip>
 		<SpawnType>Fighter</SpawnType>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>250</ShipClassCost>
 		<BattleBudgetCost>250</BattleBudgetCost>
-		<ShipBattleScore>2</ShipBattleScore>
+		<ShipBattleScore>3</ShipBattleScore>
+		<ShipEscortScore>2</ShipEscortScore>
 		<DisplayName>UI_ShipType_Bomber</DisplayName>
 		<ClassAbbrev>BMB</ClassAbbrev>
        	<WorldBoxSize X="0.019316" Y="0.009618" Z="0.025341" />
@@ -599,7 +601,7 @@
         <PhysicsBody Type="Box" >
         	<SidesSize X="0.019316" Y="0.009618" Z="0.025341" />
             <Offset X="0" Y="0" Z="0" />
-            <Mass>30.0</Mass>
+            <Mass>32.0</Mass>
             <Collisions>true</Collisions>
             <Bounce>0.0</Bounce>
             <Friction>0.2</Friction>
@@ -622,7 +624,7 @@
 		<AtmoDecay>0.002</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>0.0</DriftLimiter>
-		<CapSpeed>0.469</CapSpeed>
+		<CapSpeed>0.471</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>200</EnergyPoints>
@@ -664,6 +666,8 @@
 		<InterferenceScale>0.25</InterferenceScale>
 	</CShieldComponent>
 	<CClientShieldComponent>
+		<ShredFX>FX/Shields/SM_Bomber-emp-shred</ShredFX>
+		<ShredDuration>1.0</ShredDuration>
 	</CClientShieldComponent>
 	<CWarpComponent>
 		<WarpChargeDuration>5.0</WarpChargeDuration>

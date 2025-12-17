@@ -1,11 +1,13 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Ship</ActorType>
+		<IsCapShip>false</IsCapShip>
 		<SpawnType>Fighter</SpawnType>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>150</ShipClassCost>
 		<BattleBudgetCost>150</BattleBudgetCost>
-		<ShipBattleScore>1</ShipBattleScore>
+		<ShipBattleScore>2</ShipBattleScore>
+		<ShipEscortScore>1</ShipEscortScore>
 		<DisplayName>UI_ShipType_Interceptor</DisplayName>
 		<ClassAbbrev>INT</ClassAbbrev>
         <WorldBoxSize X="0.0121250944" Y="0.00453546643" Z="0.0152096823" />
@@ -543,7 +545,7 @@
 		<AtmoDecay>0.001</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>0.0</DriftLimiter>
-		<CapSpeed>0.541</CapSpeed>
+		<CapSpeed>0.533</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>175</EnergyPoints>
@@ -587,6 +589,8 @@
 	</CShieldComponent>
 	<CClientShieldComponent>
 		<ActiveShieldMeshFX>FX/Shields/SM_SFC_Fighter_shieldbubble</ActiveShieldMeshFX>
+		<ShredFX>FX/Shields/SM_Fighter-emp-shred</ShredFX>
+		<ShredDuration>0.75</ShredDuration>
 	</CClientShieldComponent>
 	<CWarpComponent>
 		<WarpChargeDuration>4.0</WarpChargeDuration>

@@ -1,10 +1,13 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Ship</ActorType>
+		<IsCapShip>true</IsCapShip>
 		<SpawnType>Hauler</SpawnType>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>600</ShipClassCost>
+		<BattleBudgetCost>600</BattleBudgetCost>
 		<ShipBattleScore>5</ShipBattleScore>
+		<ShipEscortScore>4</ShipEscortScore>
 		<DisplayName>UI_ShipType_Hauler</DisplayName>
 		<ClassAbbrev>SUP</ClassAbbrev>
 		<WorldBoxSize X="0.131799996" Y="0.0591151193" Z="0.478196621" />
@@ -1442,15 +1445,9 @@
     	<PhysicsBody Type="Mesh" >
 			<CollisionFile>$Dev/Ships/SFC-Hauler/Collision/bcb07b14.insm</CollisionFile>
 			<Dynamic>true</Dynamic>
-            <Mass>7908.0</Mass>
+            <Mass>7000.0</Mass>
             <Collisions>true</Collisions>
         </PhysicsBody>
-<!-- 		<PhysicsBody Type="Box" >
-        	<SidesSize X="0.131799996" Y="0.0591151193" Z="0.478196621" />
-            <Offset X="0.0006" Y="0" Z="0" />
-            <Mass>7908.0</Mass>
-            <Collisions>true</Collisions>
-    	</PhysicsBody> -->
 		<HitMesh>
 			<CollisionFile>$Dev/Ships/SFC-Hauler/Collision/bcb07b14.insm</CollisionFile>
 			<SplitCost>0.0005</SplitCost>
@@ -1469,7 +1466,7 @@
 		<AtmoDecay>0.007</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>1.5</DriftLimiter>
-		<CapSpeed>0.250</CapSpeed>
+		<CapSpeed>0.331</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>800</EnergyPoints>
@@ -1516,6 +1513,8 @@
 		<ImpactShieldMeshFX>FX/Shields/SM_Hauler-shield</ImpactShieldMeshFX>
 		<ImpactShieldNoiseScale>100.0</ImpactShieldNoiseScale>
 		<ImpactShieldStartTime>0.10</ImpactShieldStartTime>
+		<ShredFX>FX/Shields/SM_Hauler-emp-shred</ShredFX>
+		<ShredDuration>1.5</ShredDuration>
 	</CClientShieldComponent>
 	<CWarpComponent>
 		<WarpChargeDuration>8.0</WarpChargeDuration>

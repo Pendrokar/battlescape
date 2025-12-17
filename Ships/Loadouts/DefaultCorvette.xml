@@ -1,6 +1,7 @@
 <Loadout Version="0.0.0.1" >
 	<Name>DefaultCorvette</Name>
 	<DisplayName>DEFAULT</DisplayName>
+	<ShortDescr>UI_Ship_Corvette_Descr</ShortDescr>
 	<Actor>Corvette</Actor>
 	<LayoutFile>$Config/Ships/Layouts/CorvetteLayout.xml</LayoutFile>
 	<IsMain>true</IsMain>

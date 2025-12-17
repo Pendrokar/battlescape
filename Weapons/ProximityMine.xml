@@ -101,5 +101,7 @@
 		<MinTargetMass>999.0</MinTargetMass>
 		<MinStackRange>10.0</MinStackRange>
 		<DetonateOnDeath>true</DetonateOnDeath>
+		<ExplodeOnContact>true</ExplodeOnContact>
+		<DamageDelay>1.0</DamageDelay>
 	</CServerMissileComponent>
 </ActorConfig>
