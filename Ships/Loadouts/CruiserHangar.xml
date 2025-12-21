@@ -21,7 +21,6 @@
     <Mount HardpointName="s_mk6_mid_top_left" Weapon="TurretBlasterMK6" GroupID="3"/>
     <Mount HardpointName="s_mk6_fwd_bot_left" Weapon="TurretBlasterMK6" GroupID="3"/>
     <Mount HardpointName="s_mk6_fwd_top_right" Weapon="TurretBlasterMK6" GroupID="3"/>
-    <Mount HardpointName="s_mk6_mid_bot_right" Weapon="TurretBlasterMK6" GroupID="3"/>
     <Mount HardpointName="s_mk7_top_right" Weapon="TurretGunMK7" GroupID="4"/>
     <Mount HardpointName="s_mk7_top_left" Weapon="TurretGunMK7" GroupID="4"/>
     <Mount HardpointName="s_mk7_bot_right" Weapon="TurretGunMK7" GroupID="4"/>
