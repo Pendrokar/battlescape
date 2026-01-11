@@ -1,6 +1,6 @@
 <ActorConfig>
 	<Meta>
-		<ActorType>Prop</ActorType>
+		<PreloadRelease>false</PreloadRelease><ActorType>Prop</ActorType>
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Corvette/Debris/SM_SFC_Corvette_Debris_Part2_Lod0" >

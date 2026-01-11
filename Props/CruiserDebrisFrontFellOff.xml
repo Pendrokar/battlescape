@@ -4,7 +4,7 @@
 <!-- Original file v0.8.7.0 -->
 <ActorConfig>
 	<Meta>
-		<ActorType>Prop</ActorType>
+		<PreloadRelease>false</PreloadRelease><ActorType>Prop</ActorType>
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/SFC-Cruiser/SM_Cruiser_debris_front_1_lod0" >

@@ -1,6 +1,6 @@
 <ActorConfig>
 	<Meta>
-		<ActorType>LandBase</ActorType>
+		<PreloadRelease>false</PreloadRelease><ActorType>LandBase</ActorType>
 		<MapIconName>MilitaryBase</MapIconName>
   		<MapIconSize>25</MapIconSize>
 	</Meta>

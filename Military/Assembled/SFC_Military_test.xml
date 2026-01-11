@@ -1,6 +1,6 @@
 <ActorConfig>
 	<Meta>
-		<ActorType>Base</ActorType>
+		<PreloadRelease>false</PreloadRelease><ActorType>Base</ActorType>
   		<MapIconSize>25</MapIconSize>
 	</Meta>
 	<CNodeComponent>

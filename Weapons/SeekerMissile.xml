@@ -1,6 +1,6 @@
 <ActorConfig>
 	<Meta>
-		<ActorType>Weapon</ActorType>
+		<PreloadRelease>false</PreloadRelease><ActorType>Weapon</ActorType>
 		<ClassAbbrev>SMIS</ClassAbbrev>
 	</Meta>
 	<CClientNodeComponent>

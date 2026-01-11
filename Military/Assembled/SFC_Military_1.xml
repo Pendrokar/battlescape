@@ -1,6 +1,6 @@
 <ActorConfig>
 	<Meta>
-		<ActorType>Base</ActorType>
+		<PreloadRelease>false</PreloadRelease><ActorType>Base</ActorType>
 		<MapIconName>MilitaryBase</MapIconName>
   		<MapIconSize>25</MapIconSize>
 	</Meta>

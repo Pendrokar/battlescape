@@ -1,6 +1,6 @@
 <ActorConfig>
 	<Meta>
-		<ActorType>Loot</ActorType>
+		<PreloadRelease>false</PreloadRelease><ActorType>Loot</ActorType>
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Props/ResupplyCrate/SM_ResupplyCrate_Lod0" >
