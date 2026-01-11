@@ -1,0 +1,5 @@
+<ActorsList>
+    <!-- Fastload to main menu, required actors -->
+    <ActorType ClassName="Interceptor" ConfigFile="$Dev/Config/Ships/Interceptor.xml" />
+    <ActorType ClassName="Icy" ConfigFile="$Dev/Config/Planets/Gaian.xml" />
+</ActorsList>

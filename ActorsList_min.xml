@@ -1,0 +1,57 @@
+<ActorsList>
+    <!-- Fastload to Empty Scene, dependencies -->
+    <ActorType ClassName="Interceptor" ConfigFile="$Dev/Config/Ships/Interceptor.xml" />
+    <ActorType ClassName="Bomber" ConfigFile="$Dev/Config/Ships/Bomber.xml" />
+    <ActorType ClassName="Corvette" ConfigFile="$Dev/Config/Ships/Corvette.xml" />
+    <ActorType ClassName="Destroyer" ConfigFile="$Dev/Config/Ships/Destroyer.xml" />
+    <ActorType ClassName="Cruiser" ConfigFile="$Dev/Config/Ships/Cruiser.xml" />
+    <ActorType ClassName="Carrier" ConfigFile="$Dev/Config/Ships/Carrier.xml" />
+    <ActorType ClassName="Hauler" ConfigFile="$Dev/Config/Ships/Hauler.xml" />
+    <ActorType ClassName="Icy" ConfigFile="$Dev/Config/Planets/Icy.xml" />
+
+    <ActorType ClassName="LightMissile" ConfigFile="$Dev/Config/Weapons/LightMissile.xml" />
+    <ActorType ClassName="Torpedo" ConfigFile="$Dev/Config/Weapons/Torpedo.xml" />
+    <ActorType ClassName="ResourceCrate" ConfigFile="$Dev/Config/Props/ResourceCrate.xml" />
+    <ActorType ClassName="ProximityMine" ConfigFile="$Dev/Config/Weapons/ProximityMine.xml" />
+    <ActorType ClassName="PassiveMine" ConfigFile="$Dev/Config/Weapons/PassiveMine.xml" />
+    <ActorType ClassName="HeavyMissile" ConfigFile="$Dev/Config/Weapons/HeavyMissile.xml" />
+    <ActorType ClassName="ShipDebris1" ConfigFile="$Dev/Config/Props/ShipDebris1.xml" />
+    <ActorType ClassName="ShipDebris2" ConfigFile="$Dev/Config/Props/ShipDebris2.xml" />
+    <ActorType ClassName="ShipDebris3" ConfigFile="$Dev/Config/Props/ShipDebris3.xml" />
+    <ActorType ClassName="ShipDebris4" ConfigFile="$Dev/Config/Props/ShipDebris4.xml" />
+    <ActorType ClassName="ShipDebris5" ConfigFile="$Dev/Config/Props/ShipDebris5.xml" />
+    <ActorType ClassName="ShipDebris6" ConfigFile="$Dev/Config/Props/ShipDebris6.xml" />
+    <ActorType ClassName="ShipDebris7" ConfigFile="$Dev/Config/Props/ShipDebris7.xml" />
+    <ActorType ClassName="ShipDebris8" ConfigFile="$Dev/Config/Props/ShipDebris8.xml" />
+    <ActorType ClassName="EMPMissile" ConfigFile="$Dev/Config/Weapons/EMPMissile.xml" />
+    <ActorType ClassName="EMPTorpedo" ConfigFile="$Dev/Config/Weapons/EMPTorpedo.xml" />
+    <ActorType ClassName="InterceptorDebris1" ConfigFile="$Dev/Config/Props/InterceptorDebris1.xml" />
+    <ActorType ClassName="BomberDebris1" ConfigFile="$Dev/Config/Props/BomberDebris1.xml" />
+    <ActorType ClassName="CorvetteDebris1" ConfigFile="$Dev/Config/Props/CorvetteDebris1.xml" />
+    <ActorType ClassName="CorvetteDebris2" ConfigFile="$Dev/Config/Props/CorvetteDebris2.xml" />
+    <ActorType ClassName="CorvetteDebris3" ConfigFile="$Dev/Config/Props/CorvetteDebris3.xml" />
+    <ActorType ClassName="DestroyerDebris1" ConfigFile="$Dev/Config/Props/DestroyerDebris1.xml" />
+    <ActorType ClassName="DestroyerDebris2" ConfigFile="$Dev/Config/Props/DestroyerDebris2.xml" />
+    <ActorType ClassName="DestroyerDebris3" ConfigFile="$Dev/Config/Props/DestroyerDebris3.xml" />
+    <ActorType ClassName="DestroyerDebris4" ConfigFile="$Dev/Config/Props/DestroyerDebris4.xml" />
+    <ActorType ClassName="DestroyerDebris5" ConfigFile="$Dev/Config/Props/DestroyerDebris5.xml" />
+    <ActorType ClassName="DestroyerDebris6" ConfigFile="$Dev/Config/Props/DestroyerDebris6.xml" />
+    <ActorType ClassName="DestroyerDebris7" ConfigFile="$Dev/Config/Props/DestroyerDebris7.xml" />
+    <ActorType ClassName="DestroyerDebris8" ConfigFile="$Dev/Config/Props/DestroyerDebris8.xml" />
+    <ActorType ClassName="DestroyerDebris9" ConfigFile="$Dev/Config/Props/DestroyerDebris9.xml" />
+    <ActorType ClassName="CruiserDebris1" ConfigFile="$Dev/Config/Props/CruiserDebris1.xml" />
+    <ActorType ClassName="CruiserDebris2" ConfigFile="$Dev/Config/Props/CruiserDebris2.xml" />
+    <ActorType ClassName="CruiserDebris3" ConfigFile="$Dev/Config/Props/CruiserDebris3.xml" />
+    <ActorType ClassName="CruiserDebris4" ConfigFile="$Dev/Config/Props/CruiserDebris4.xml" />
+    <ActorType ClassName="CruiserDebris5" ConfigFile="$Dev/Config/Props/CruiserDebris5.xml" />
+    <ActorType ClassName="CruiserDebris6" ConfigFile="$Dev/Config/Props/CruiserDebris6.xml" />
+    <ActorType ClassName="CruiserDebris7" ConfigFile="$Dev/Config/Props/CruiserDebris7.xml" />
+    <ActorType ClassName="CruiserDebris8" ConfigFile="$Dev/Config/Props/CruiserDebris8.xml" />
+    <ActorType ClassName="Rocket" ConfigFile="$Dev/Config/Weapons/Rocket.xml" />
+    <ActorType ClassName="DecoyMissile" ConfigFile="$Dev/Config/Weapons/DecoyMissile.xml" />
+    <ActorType ClassName="RepairDrone" ConfigFile="$Dev/Config/Weapons/RepairDrone.xml" />
+    <ActorType ClassName="RearmDrone" ConfigFile="$Dev/Config/Weapons/RearmDrone.xml" />
+    <ActorType ClassName="Marker" ConfigFile="$Dev/Config/Props/Marker.xml" />
+    <ActorType ClassName="SeekerMissile" ConfigFile="$Dev/Config/Weapons/SeekerMissile.xml" />
+    <ActorType ClassName="BigSupplyProp" ConfigFile="$Dev/Config/Props/BigSupplyProp.xml" />
+</ActorsList>
