@@ -1,6 +1,7 @@
 <Loadout Version="0.0.0.1" >
 	<Name>HeavyInterceptor</Name>
 	<DisplayName>HEAVY</DisplayName>
+	<ShortDescr>UI_Ship_Interceptor_Descr</ShortDescr>
 	<Actor>Interceptor</Actor>
 	<LayoutFile>$Config/Ships/Layouts/InterceptorHeavyLayout.xml</LayoutFile>
 	<IsMain>false</IsMain>

@@ -1,6 +1,7 @@
 <Loadout Version="0.0.0.1" >
 	<Name>LightBomber</Name>
 	<DisplayName>LIGHT</DisplayName>
+	<ShortDescr>UI_Ship_Bomber_Descr</ShortDescr>
 	<Actor>Bomber</Actor>
 	<LayoutFile>$Config/Ships/Layouts/BomberLightLayout.xml</LayoutFile>
 	<IsMain>false</IsMain>

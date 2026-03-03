@@ -1,6 +1,7 @@
 <Loadout Version="0.0.0.1">
     <Name>HeavyCorvette</Name>
     <DisplayName>TANK</DisplayName>
+	<ShortDescr>UI_Ship_Corvette_Descr</ShortDescr>
     <Actor>Corvette</Actor>
 	<LayoutFile>$Config/Ships/Layouts/CorvetteHeavyLayout.xml</LayoutFile>
     <IsMain>false</IsMain>

@@ -1,6 +1,7 @@
 <Loadout Version="0.0.0.1">
     <Name>RailgunDestroyer</Name>
     <DisplayName>RAILGUNS x6</DisplayName>
+	<ShortDescr>UI_Ship_Destroyer_Descr</ShortDescr>
     <Actor>Destroyer</Actor>
 	<LayoutFile>$Config/Ships/Layouts/DestroyerLayout.xml</LayoutFile>
     <IsMain>false</IsMain>

@@ -10,9 +10,12 @@
             <Config Weapon="TurretGunMK5" AutoAim="true" AutoFire="true"/>
         </Preset>
         <Preset ID="3" Name="">
-            <Config Weapon="TurretGunMK6" AutoAim="true" AutoFire="true"/>
+            <Config Weapon="TurretBlasterMK5" AutoAim="true" AutoFire="true"/>
         </Preset>
         <Preset ID="4" Name="">
+            <Config Weapon="TurretGunMK6" AutoAim="true" AutoFire="true"/>
+        </Preset>
+        <Preset ID="5" Name="">
             <Config Weapon="MissileLauncherMK3" AutoAim="false" AutoFire="false"/>
         </Preset>
     </HardpointPresets>

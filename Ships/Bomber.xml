@@ -1,11 +1,13 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Ship</ActorType>
+		<IsCapShip>false</IsCapShip>
 		<SpawnType>Fighter</SpawnType>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>250</ShipClassCost>
 		<BattleBudgetCost>250</BattleBudgetCost>
-		<ShipBattleScore>2</ShipBattleScore>
+		<ShipBattleScore>3</ShipBattleScore>
+		<ShipEscortScore>2</ShipEscortScore>
 		<DisplayName>UI_ShipType_Bomber</DisplayName>
 		<ClassAbbrev>BMB</ClassAbbrev>
        	<WorldBoxSize X="0.019316" Y="0.009618" Z="0.025341" />
@@ -196,6 +198,9 @@
 			<PaintColor1 X="0.54" Y="0.74" Z="1.0" W="1.0" />
 			<PaintColor2 X="1.0" Y="0.97" Z="0.52" W="1.0" />
 		</Skin>
+		<ReentryMesh>FX/ReEntry/SM_Bomber_re-entry</ReentryMesh>
+		<ReentryFrictionScale>0.05</ReentryFrictionScale>
+		<ReentryTailSize>0.06</ReentryTailSize>
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
@@ -596,7 +601,7 @@
         <PhysicsBody Type="Box" >
         	<SidesSize X="0.019316" Y="0.009618" Z="0.025341" />
             <Offset X="0" Y="0" Z="0" />
-            <Mass>30.0</Mass>
+            <Mass>32.0</Mass>
             <Collisions>true</Collisions>
             <Bounce>0.0</Bounce>
             <Friction>0.2</Friction>
@@ -619,7 +624,7 @@
 		<AtmoDecay>0.002</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>0.0</DriftLimiter>
-		<CapSpeed>0.469</CapSpeed>
+		<CapSpeed>0.471</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>200</EnergyPoints>
@@ -643,22 +648,27 @@
 		<DeathCredits>80</DeathCredits>
 		<GriefCredits>25</GriefCredits>
 		<DeathXP>50</DeathXP>
-		<Drag>0.5</Drag>
+		<DragCoeffs X="0.007" Y="0.7" />
+		<DragAreas X="0.4" Y="0.3" Z="1" />
 		<ArmorPoints>1</ArmorPoints>
 		<DefaultSkins>
 			<Skin TeamID="0">BomberHavoc</Skin>
 			<Skin TeamID="1">BomberScoria</Skin>
 			<Skin TeamID="2">BomberHavoc</Skin>
 		</DefaultSkins>
+		<FrictionDamage>40</FrictionDamage>
 	</CHullComponent>
 	<CShieldComponent>
 		<ShieldPoints>500</ShieldPoints>
 		<RechargeShieldPoints>3</RechargeShieldPoints>
 		<RechargeDelay>2.0</RechargeDelay>
 		<RechargeDamageRatio>0.2</RechargeDamageRatio>
+		<RepairRatioThreshold>0.1</RepairRatioThreshold>
 		<InterferenceScale>0.25</InterferenceScale>
 	</CShieldComponent>
 	<CClientShieldComponent>
+		<ShredFX>FX/Shields/SM_Bomber-emp-shred</ShredFX>
+		<ShredDuration>1.0</ShredDuration>
 	</CClientShieldComponent>
 	<CWarpComponent>
 		<WarpChargeDuration>5.0</WarpChargeDuration>
@@ -781,8 +791,11 @@
 	<CAbilityComponent>
 	</CAbilityComponent>
 	<CServerHardpointComponent>
-		<Loadout Name="DefaultBomber" Proba="80" />
+		<Loadout Name="DefaultBomber" Proba="30" />
 		<Loadout Name="LightBomber" Proba="20" />
+		<Loadout Name="KineticBomber" Proba="20" />
+		<Loadout Name="EMPBomber" Proba="20" />
+		<Loadout Name="DecoyBomber" Proba="10" />
 		<Ammo>
 			<Type>Chaff</Type>
 			<Amount>8</Amount>

@@ -1,6 +1,7 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Weapon</ActorType>
+		<ClassAbbrev>MINE</ClassAbbrev>
 	</Meta>
 	<CClientNodeComponent>
         <Object Mesh="Ships/Weapons/Mines/SpikyMines/SM_SpikyMine_Lod0" >
@@ -77,10 +78,11 @@
 		<RechargeRate>0</RechargeRate>
 	</CEngineComponent>
 	<CHullComponent>
-		<HitPoints>400</HitPoints>
+		<HitPoints>300</HitPoints>
 		<DyingDuration>0.0</DyingDuration>
 		<DeathDuration>1.5</DeathDuration>
 		<DeathCredits>10</DeathCredits>
+	    <DragCoeff>0.0</DragCoeff>
 	</CHullComponent>
 	<CServerMissileComponent>
 		<Mode>PassiveMine</Mode>
@@ -92,5 +94,7 @@
 		<MinTargetMass>999.0</MinTargetMass>
 		<MinStackRange>10.0</MinStackRange>
 		<DetonateOnDeath>true</DetonateOnDeath>
+		<ExplodeOnContact>true</ExplodeOnContact>
+		<DamageDelay>1.0</DamageDelay>
 	</CServerMissileComponent>
 </ActorConfig>

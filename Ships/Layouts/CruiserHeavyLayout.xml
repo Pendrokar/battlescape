@@ -2,9 +2,10 @@
 <Layout Name="default layout">
 	<DisplayName>HEAVY</DisplayName>
 	<Actor>Cruiser</Actor>
-	<Mass>1.1</Mass>
-	<HitPoints>0.9</HitPoints>
-	<ArmorPoints>-1.0</ArmorPoints>
+	<Mass>1.05</Mass>
+	<HitPoints>1.1</HitPoints>
+	<ShieldPoints>0.9</ShieldPoints>
+	<ArmorPoints>1.0</ArmorPoints>
 	<HeatPoints>1.15</HeatPoints>
 	<EnergyPoints>1.1</EnergyPoints>
 	<Socket Name="s_mko_missile_midX_bot_left" >

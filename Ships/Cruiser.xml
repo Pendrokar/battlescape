@@ -1,11 +1,13 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Ship</ActorType>
+		<IsCapShip>true</IsCapShip>
 		<SpawnType>Capship</SpawnType>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>1300</ShipClassCost>
 		<BattleBudgetCost>1300</BattleBudgetCost>
-		<ShipBattleScore>15</ShipBattleScore>
+		<ShipBattleScore>11</ShipBattleScore>
+		<ShipEscortScore>16</ShipEscortScore>
 		<DisplayName>UI_ShipType_Cruiser</DisplayName>
 		<ClassAbbrev>CRU</ClassAbbrev>
 		<WorldBoxSize X="0.369420" Y="0.158525" Z="0.983128" />
@@ -403,6 +405,9 @@
 			<PaintColor1 X="0.20" Y="0.48" Z="0.26" W="1.0" />
 			<PaintColor2 X="0.42" Y="0.8" Z="0.94" W="1.0" />
 		</Skin>
+		<ReentryMesh>FX/ReEntry/SM_Cruiser-re-entry</ReentryMesh>
+		<ReentryFrictionScale>0.001</ReentryFrictionScale>
+		<ReentryTailSize>0.30</ReentryTailSize>
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
@@ -443,7 +448,7 @@
     <StratValue>0</StratValue>
 	</CServerActorComponent>
 	<CServerSensorComponent>
-		<EmissionsRange>200.0</EmissionsRange>
+		<EmissionsRange>300.0</EmissionsRange>
 		<SensorPower>1.5</SensorPower>
 		<IsScannable>true</IsScannable>
 		<MaxScanRange>20000.0</MaxScanRange>
@@ -456,14 +461,9 @@
     	<PhysicsBody Type="Mesh" >
 			<CollisionFile>$Dev/Ships/SFC-Cruiser/Collision/b9e1ce8b.insm</CollisionFile>
 			<Dynamic>true</Dynamic>
-            <Mass>31280.0</Mass>
+            <Mass>32000.0</Mass>
             <Collisions>true</Collisions>
         </PhysicsBody>
-<!--     	<PhysicsBody Type="Box" >
-        	<SidesSize X="0.369420" Y="0.158525" Z="0.983128" />
-            <Mass>45000.0</Mass>
-            <Collisions>true</Collisions>
-        </PhysicsBody> -->
 		<HitMesh>
 			<CollisionFile>$Dev/Ships/SFC-Cruiser/Collision/b9e1ce8b.insm</CollisionFile>
 			<SplitCost>0.001</SplitCost>
@@ -482,11 +482,11 @@
 		<AtmoDecay>0.025</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>3.0</DriftLimiter>
-		<CapSpeed>0.288</CapSpeed>
+		<CapSpeed>0.276</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>2000</EnergyPoints>
-		<RechargeEnergyPoints>100</RechargeEnergyPoints>
+		<RechargeEnergyPoints>80</RechargeEnergyPoints>
 		<HeatPoints>4000</HeatPoints>
 		<DechargeHeatPoints>220</DechargeHeatPoints>
 	</CEngineComponent>
@@ -511,23 +511,28 @@
 		<DeathCredits>600</DeathCredits>
 		<GriefCredits>120</GriefCredits>
 		<DeathXP>250</DeathXP>
-		<Drag>0.00005</Drag>
+		<DragCoeffs X="0.00008" Y="0.025" />
+		<DragAreas X="0.2" Y="0.15" Z="1" />
 		<ArmorPoints>6</ArmorPoints>
 		<DefaultSkins>
 			<Skin TeamID="0">CruiserHavoc</Skin>
 			<Skin TeamID="1">CruiserScoria</Skin>
 			<Skin TeamID="2">CruiserBlueCamo</Skin>
 		</DefaultSkins>
+		<FrictionDamage>350</FrictionDamage>
 	</CHullComponent>
 	<CShieldComponent>
 		<ShieldPoints>50000</ShieldPoints>
 		<RechargeShieldPoints>100</RechargeShieldPoints>
+		<RepairRatioThreshold>0.1</RepairRatioThreshold>
 		<InterferenceScale>1.0</InterferenceScale>
 	</CShieldComponent>
 	<CClientShieldComponent>
 		<ImpactShieldMeshFX>FX/Shields/SM_Cruiser-shield</ImpactShieldMeshFX>
 		<ImpactShieldNoiseScale>45.0</ImpactShieldNoiseScale>
 		<ImpactShieldStartTime>0.25</ImpactShieldStartTime>
+		<ShredFX>FX/Shields/SM_Cruiser-emp-shred</ShredFX>
+		<ShredDuration>2.5</ShredDuration>
 	</CClientShieldComponent>
 	<CWarpComponent>
 		<WarpChargeDuration>10.0</WarpChargeDuration>
@@ -719,6 +724,9 @@
 		</Hardpoint>
 	</CHardpointComponent>
 	<CAbilityComponent>
+		<Properties>
+			<HeatVentEffectScale X="1.0" />
+		</Properties>
 	</CAbilityComponent>
 	<CServerHardpointComponent>
 		<Loadout Name="DefaultCruiser" Proba="50" />

@@ -1,11 +1,13 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Ship</ActorType>
+		<IsCapShip>true</IsCapShip>
 		<SpawnType>Carrier</SpawnType>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>1800</ShipClassCost>
 		<BattleBudgetCost>4500</BattleBudgetCost>
-		<ShipBattleScore>20</ShipBattleScore>
+		<ShipBattleScore>13</ShipBattleScore>
+		<ShipEscortScore>24</ShipEscortScore>
 		<DisplayName>UI_ShipType_Carrier</DisplayName>
 		<ClassAbbrev>CAR</ClassAbbrev>
 		<WorldBoxSize X="1.14701" Y="0.375646" Z="2.216075" />
@@ -13,13 +15,13 @@
 		<IndicatorCornerClassID>3</IndicatorCornerClassID>
 	</Meta>
 	<CClientNodeComponent>
-        <Object Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod0" >
-            <LOD Level="1" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod1" />
-            <LOD Level="2" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod2" />
-            <LOD Level="3" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod3" />
-            <LOD Level="4" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod4" />
-            <LOD Level="5" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod5" />
-            <LOD Level="6" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod6" />
+        <Object Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_LT_Lod0" >
+            <LOD Level="1" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_LT_Lod1" />
+            <LOD Level="2" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_LT_Lod2" />
+            <LOD Level="3" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_LT_Lod3" />
+            <LOD Level="4" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_LT_Lod4" />
+            <LOD Level="5" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_LT_Lod5" />
+            <LOD Level="6" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_LT_Lod6" />
             <LODPower>0.30</LODPower>
 			<RejectionSize>0.005</RejectionSize>
             <Material Override="true" />
@@ -787,6 +789,9 @@
 			<PaintColor1 X="1.0" Y="0.9" Z="0.10" W="1.0" />
 			<PaintColor2 X="0.54" Y="0.74" Z="1.0" W="1.0" />
 		</Skin>
+		<ReentryMesh>FX/ReEntry/SM_Carrier-re-entry</ReentryMesh>
+		<ReentryFrictionScale>0.0005</ReentryFrictionScale>
+		<ReentryTailSize>0.50</ReentryTailSize>
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
@@ -827,7 +832,7 @@
     <StratValue>0</StratValue>
 	</CServerActorComponent>
 	<CServerSensorComponent>
-		<EmissionsRange>400.0</EmissionsRange>
+		<EmissionsRange>500.0</EmissionsRange>
 		<SensorPower>2.0</SensorPower>
 		<IsScannable>true</IsScannable>
 		<MaxScanRange>100000.0</MaxScanRange>
@@ -840,7 +845,7 @@
     	<PhysicsBody Type="Mesh" >
 			<CollisionFile>$Dev/Ships/SFC-Carrier/Collision/a8b477c3.insm</CollisionFile>
 			<Dynamic>true</Dynamic>
-            <Mass>78000.0</Mass>
+            <Mass>82000.0</Mass>
             <Collisions>true</Collisions>
         </PhysicsBody>
 <!--     	<PhysicsBody Type="Box" >
@@ -849,9 +854,6 @@
             <Mass>100000.0</Mass>
             <Collisions>true</Collisions>
         </PhysicsBody> -->
-<!-- 		<CollisionBody>
-			<CollisionFile>$Dev/Ships/SFC-Carrier/Collision/79bf60f0.insm</CollisionFile>
-		</CollisionBody> -->
 		<HitMesh>
 			<CollisionFile>$Dev/Ships/SFC-Carrier/Collision/79bf60f0.insm</CollisionFile>
 			<SplitCost>0.05</SplitCost>
@@ -870,13 +872,13 @@
 		<AtmoDecay>0.04</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>5.0</DriftLimiter>
-		<CapSpeed>0.220</CapSpeed>
+		<CapSpeed>0.248</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
-		<EnergyPoints>3000</EnergyPoints>
-		<RechargeEnergyPoints>150</RechargeEnergyPoints>
-		<HeatPoints>3000</HeatPoints>
-		<DechargeHeatPoints>150</DechargeHeatPoints>
+		<EnergyPoints>2500</EnergyPoints>
+		<RechargeEnergyPoints>75</RechargeEnergyPoints>
+		<HeatPoints>2500</HeatPoints>
+		<DechargeHeatPoints>180</DechargeHeatPoints>
 	</CEngineComponent>
 	<CHullComponent>
 		<HitPoints>60000</HitPoints>
@@ -884,27 +886,29 @@
 		<DeathTiming>0.0</DeathTiming>
 		<KillCamTiming>4.0</KillCamTiming>
 		<DeathDebrisTiming>6.0</DeathDebrisTiming>
-		<DeathDebrisCount>20</DeathDebrisCount>
+		<DeathDebrisCount>0</DeathDebrisCount>
 		<DeathDebrisScale>20</DeathDebrisScale>
-		<DeathDebris>ShipDebris1</DeathDebris>
-		<DeathDebris>ShipDebris2</DeathDebris>
-		<DeathDebris>ShipDebris3</DeathDebris>
-		<DeathDebris>ShipDebris4</DeathDebris>
-		<DeathDebris>ShipDebris5</DeathDebris>
-		<DeathDebris>ShipDebris6</DeathDebris>
-		<DeathDebris>ShipDebris7</DeathDebris>
-		<DeathDebris>ShipDebris8</DeathDebris>
+		<MainDeathDebrisCount>1</MainDeathDebrisCount>
+		<MainDeathDebrisSpeedScale>1.0</MainDeathDebrisSpeedScale>
+		<MainDeathDebrisRotScale>1.0</MainDeathDebrisRotScale>
+		<MainDeathDebris X="-237.629" Z="564.192" Y="0">CarrierDebris1</MainDeathDebris>
+		<MainDeathDebris X="233.725" Z="611.778" Y="0">CarrierDebris2</MainDeathDebris>
+		<MainDeathDebris X="377.62" Z="-106.947" Y="0">CarrierDebris3</MainDeathDebris>
+		<MainDeathDebris X="152.511" Z="-345.418" Y="0">CarrierDebris4</MainDeathDebris>
+		<MainDeathDebris X="-222.091" Z="-166.001" Y="0">CarrierDebris5</MainDeathDebris>
 		<SalvageDebrisCount>4</SalvageDebrisCount>
 		<DeathCredits>500</DeathCredits>
 		<GriefCredits>150</GriefCredits>
 		<DeathXP>500</DeathXP>
-		<Drag>0.00003</Drag>
+		<DragCoeffs X="0.00005" Y="0.015" /> <!-- .x = linear friction .y = angular friction -->
+		<DragAreas X="0.5" Y="0.2" Z="1" />
 		<ArmorPoints>4</ArmorPoints>
 		<DefaultSkins>
 			<Skin TeamID="0">CarrierHavoc</Skin>
 			<Skin TeamID="1">CarrierScoria</Skin>
 			<Skin TeamID="2">CarrierHavoc</Skin>
 		</DefaultSkins>
+		<FrictionDamage>500</FrictionDamage>
 	</CHullComponent>
 	<CShieldComponent>
 		<Type>Shape</Type>
@@ -922,6 +926,8 @@
 		<ImpactShieldMeshFX>FX/Shields/SM_Carrier-shield</ImpactShieldMeshFX>
 		<ImpactShieldNoiseScale>35.0</ImpactShieldNoiseScale>
 		<ImpactShieldStartTime>0.4</ImpactShieldStartTime>
+		<ShredFX>FX/Shields/SM_Carrier-emp-shred</ShredFX>
+		<ShredDuration>3.0</ShredDuration>
 	</CClientShieldComponent>
 	<CWarpComponent>
 		<WarpChargeDuration>12.0</WarpChargeDuration>
@@ -1106,6 +1112,9 @@
 		</Hardpoint>
 	</CHardpointComponent>
 	<CAbilityComponent>
+		<Properties>
+			<HeatVentEffectScale X="3.0" />
+		</Properties>
 	</CAbilityComponent>
 	<CServerHardpointComponent>
 		<Loadout Name="DefaultCarrier" Proba="50" />
@@ -1115,7 +1124,8 @@
 		<DamageModel>Global</DamageModel>
 	</CServerModulesComponent>
 	<CCarrierComponent>
-		<CarryPoints>30</CarryPoints>
+		<DeploySpeed>0.4</DeploySpeed>
+		<CanDeployPlayers>true</CanDeployPlayers>
 	</CCarrierComponent>
 	<CServerMissionComponent>
 		<BountyReward>250</BountyReward>

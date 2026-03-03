@@ -1,10 +1,13 @@
 <ActorConfig>
 	<Meta>
 		<ActorType>Ship</ActorType>
+		<IsCapShip>true</IsCapShip>
 		<SpawnType>Hauler</SpawnType>
 		<IsPlayerSpawnable>true</IsPlayerSpawnable>
 		<ShipClassCost>600</ShipClassCost>
+		<BattleBudgetCost>600</BattleBudgetCost>
 		<ShipBattleScore>5</ShipBattleScore>
+		<ShipEscortScore>4</ShipEscortScore>
 		<DisplayName>UI_ShipType_Hauler</DisplayName>
 		<ClassAbbrev>SUP</ClassAbbrev>
 		<WorldBoxSize X="0.131799996" Y="0.0591151193" Z="0.478196621" />
@@ -1385,6 +1388,9 @@
 			<PaintColor1 X="1.0" Y="0.9" Z="0.10" W="1.0" />
 			<PaintColor2 X="0.54" Y="0.74" Z="1.0" W="1.0" />
 		</Skin>
+		<ReentryMesh>FX/ReEntry/SM_Hauler-re-entry</ReentryMesh>
+		<ReentryFrictionScale>0.005</ReentryFrictionScale>
+		<ReentryTailSize>0.15</ReentryTailSize>
 	</CClientHullComponent>
 	<CClientInterpolationComponent />
     <CClientCameraViewComponent>
@@ -1439,15 +1445,9 @@
     	<PhysicsBody Type="Mesh" >
 			<CollisionFile>$Dev/Ships/SFC-Hauler/Collision/bcb07b14.insm</CollisionFile>
 			<Dynamic>true</Dynamic>
-            <Mass>7908.0</Mass>
+            <Mass>7000.0</Mass>
             <Collisions>true</Collisions>
         </PhysicsBody>
-<!-- 		<PhysicsBody Type="Box" >
-        	<SidesSize X="0.131799996" Y="0.0591151193" Z="0.478196621" />
-            <Offset X="0.0006" Y="0" Z="0" />
-            <Mass>7908.0</Mass>
-            <Collisions>true</Collisions>
-    	</PhysicsBody> -->
 		<HitMesh>
 			<CollisionFile>$Dev/Ships/SFC-Hauler/Collision/bcb07b14.insm</CollisionFile>
 			<SplitCost>0.0005</SplitCost>
@@ -1466,7 +1466,7 @@
 		<AtmoDecay>0.007</AtmoDecay>
 		<RotWarpLimiter>0.5</RotWarpLimiter>
 		<DriftLimiter>1.5</DriftLimiter>
-		<CapSpeed>0.250</CapSpeed>
+		<CapSpeed>0.331</CapSpeed>
     </CPropulsionComponent>
 	<CEngineComponent>
 		<EnergyPoints>800</EnergyPoints>
@@ -1493,24 +1493,29 @@
 		<DeathCredits>0</DeathCredits>
 		<GriefCredits>80</GriefCredits>
 		<DeathXP>200</DeathXP>
-		<Drag>0.0004</Drag>
+		<DragCoeffs X="0.0003" Y="0.06" />
+		<DragAreas X="0.1" Y="0.05" Z="1" />
 		<ArmorPoints>2</ArmorPoints>
 		<DefaultSkins>
 			<Skin TeamID="0">HaulerHavoc</Skin>
 			<Skin TeamID="1">HaulerScoria</Skin>
 			<Skin TeamID="2">HaulerHavoc</Skin>
 		</DefaultSkins>
+		<FrictionDamage>100</FrictionDamage>
 	</CHullComponent>
 	<CShieldComponent>
-		<ShieldPoints>14000</ShieldPoints>
-		<RechargeShieldPoints>75</RechargeShieldPoints>
+		<ShieldPoints>12000</ShieldPoints>
+		<RechargeShieldPoints>50</RechargeShieldPoints>
 		<RechargeDamageRatio>0.35</RechargeDamageRatio>
+		<RepairRatioThreshold>0.1</RepairRatioThreshold>
 		<InterferenceScale>0.4</InterferenceScale>
 	</CShieldComponent>
 	<CClientShieldComponent>
 		<ImpactShieldMeshFX>FX/Shields/SM_Hauler-shield</ImpactShieldMeshFX>
 		<ImpactShieldNoiseScale>100.0</ImpactShieldNoiseScale>
 		<ImpactShieldStartTime>0.10</ImpactShieldStartTime>
+		<ShredFX>FX/Shields/SM_Hauler-emp-shred</ShredFX>
+		<ShredDuration>1.5</ShredDuration>
 	</CClientShieldComponent>
 	<CWarpComponent>
 		<WarpChargeDuration>8.0</WarpChargeDuration>
