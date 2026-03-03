@@ -222,7 +222,7 @@
 		</Sockets>
 		<Scale>1.0</Scale>
 		<FireRate>4.0</FireRate> <!-- Fire rate in number of shots per second -->
-		<SynchroMode>Sync</SynchroMode>
+		<SynchroMode>Stagger</SynchroMode>
 		<TurnSpeed X="15" Y="15" />
 		<PitchRange X="-0.5" Y="0.5" />
 		<YawRange X="-0.5" Y="0.5" />
@@ -415,7 +415,7 @@
 		</Sockets>
 		<Scale>1.0</Scale>
 		<FireRate>3.0</FireRate> <!-- Fire rate in number of shots per second -->
-		<SynchroMode>Sync</SynchroMode>
+		<SynchroMode>Stagger</SynchroMode>
 		<BurstCount>1</BurstCount>
 		<BurstCooldown>0</BurstCooldown>
 		<BurstFire>false</BurstFire>
@@ -2973,6 +2973,7 @@
 		<Ammo>
 			<Type>Energy</Type>
 			<Cost>16</Cost>
+			<MinEnergyRatio>0.1</MinEnergyRatio>
 		</Ammo>
 		<Shot>
 			<Type>Laser</Type>
@@ -3290,6 +3291,7 @@
 			<Type>ResourcePoints</Type>
 			<Cost>1</Cost>
 			<Energy>20</Energy>
+			<MinEnergyRatio>0.1</MinEnergyRatio>
 		</Ammo>
 		<Shot>
 			<Type>Laser</Type>
@@ -3407,6 +3409,8 @@
 			<Type>ResourcePoints</Type>
 			<Cost>2</Cost>
 			<Energy>40</Energy>
+			<MinEnergyRatio>0.1</MinEnergyRatio>
+			<MinEnergyRatioAI>0.5</MinEnergyRatioAI>
 		</Ammo>
 		<Shot>
 			<Type>Laser</Type>
@@ -3422,7 +3426,7 @@
 			<WeaponDamageScale>3.0</WeaponDamageScale>
 			<LifeTime>0.30</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>10.0</Speed> <!-- Initial speed the shot gets fired at -->
-			<Range>3.0</Range>
+			<Range>4.0</Range>
 			<LimitRangeToTarget>true</LimitRangeToTarget>
 		</Shot>
 		<Impact>
@@ -3524,6 +3528,8 @@
 			<Type>ResourcePoints</Type>
 			<Cost>2</Cost>
 			<Energy>40</Energy>
+			<MinEnergyRatio>0.1</MinEnergyRatio>
+			<MinEnergyRatioAI>0.5</MinEnergyRatioAI>
 		</Ammo>
 		<Shot>
 			<Type>Laser</Type>
@@ -3538,7 +3544,7 @@
 			<DamageRate>0.25</DamageRate>
 			<LifeTime>0.30</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>10.0</Speed> <!-- Initial speed the shot gets fired at -->
-			<Range>3.0</Range>
+			<Range>4.0</Range>
 			<LimitRangeToTarget>true</LimitRangeToTarget>
 		</Shot>
 		<Impact>
@@ -4570,7 +4576,7 @@
 		<TurnSpeed X="0" Y="0" />
 		<PitchRange X="0" Y="0" />
 		<YawRange X="0" Y="0" />
-		<FireCone X="0.6" Y="0.6" />
+		<FireCone X="1.57" Y="1.57" />
 		<AimType>Fixed</AimType>
 		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
@@ -4580,7 +4586,7 @@
 		<MinLockDistance>2.0</MinLockDistance>
 		<MaxLockDistance>25.0</MaxLockDistance>
 		<LockDistanceAI>10.0</LockDistanceAI>
-		<TargetSizeRange X="0.0" Y="0.25" />
+		<TargetSizeRange X="0.25" Y="10.0" />
 		<TargetTrackRange X="0.0" Y="25.0" />
 		<Icon>MissileLauncher</Icon>
 		<HUDIcon>SI_PlusBig</HUDIcon>
@@ -4638,7 +4644,7 @@
 		<TurnSpeed X="0" Y="0" />
 		<PitchRange X="0" Y="0" />
 		<YawRange X="0" Y="0" />
-		<FireCone X="0.6" Y="0.6" />
+		<FireCone X="1.57" Y="1.57" />
 		<AimType>Fixed</AimType>
 		<AimMode>ManualAimAndFire</AimMode>
 		<AutoAimDefault>false</AutoAimDefault>
@@ -4648,7 +4654,7 @@
 		<MinLockDistance>2.0</MinLockDistance>
 		<MaxLockDistance>25.0</MaxLockDistance>
 		<LockDistanceAI>10.0</LockDistanceAI>
-		<TargetSizeRange X="0.0" Y="0.25" />
+		<TargetSizeRange X="0.25" Y="10.0" />
 		<TargetTrackRange X="0.0" Y="25.0" />
 		<Icon>MissileLauncher</Icon>
 		<HUDIcon>SI_PlusBig</HUDIcon>

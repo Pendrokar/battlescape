@@ -1247,6 +1247,7 @@
 		<RechargeShieldPoints>10</RechargeShieldPoints>
 		<RechargeDelay>1.5</RechargeDelay>
 		<RechargeDamageRatio>0.3</RechargeDamageRatio>
+		<RepairRatioThreshold>0.1</RepairRatioThreshold>
 		<InterferenceScale>0.3</InterferenceScale>
 	</CShieldComponent>
 	<CClientShieldComponent>

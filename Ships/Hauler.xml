@@ -1504,9 +1504,10 @@
 		<FrictionDamage>100</FrictionDamage>
 	</CHullComponent>
 	<CShieldComponent>
-		<ShieldPoints>14000</ShieldPoints>
-		<RechargeShieldPoints>75</RechargeShieldPoints>
+		<ShieldPoints>12000</ShieldPoints>
+		<RechargeShieldPoints>50</RechargeShieldPoints>
 		<RechargeDamageRatio>0.35</RechargeDamageRatio>
+		<RepairRatioThreshold>0.1</RepairRatioThreshold>
 		<InterferenceScale>0.4</InterferenceScale>
 	</CShieldComponent>
 	<CClientShieldComponent>

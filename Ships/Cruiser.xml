@@ -524,6 +524,7 @@
 	<CShieldComponent>
 		<ShieldPoints>50000</ShieldPoints>
 		<RechargeShieldPoints>100</RechargeShieldPoints>
+		<RepairRatioThreshold>0.1</RepairRatioThreshold>
 		<InterferenceScale>1.0</InterferenceScale>
 	</CShieldComponent>
 	<CClientShieldComponent>

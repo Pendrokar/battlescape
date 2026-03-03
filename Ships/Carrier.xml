@@ -15,13 +15,13 @@
 		<IndicatorCornerClassID>3</IndicatorCornerClassID>
 	</Meta>
 	<CClientNodeComponent>
-        <Object Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod0" >
-            <LOD Level="1" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod1" />
-            <LOD Level="2" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod2" />
-            <LOD Level="3" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod3" />
-            <LOD Level="4" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod4" />
-            <LOD Level="5" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod5" />
-            <LOD Level="6" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_Lod6" />
+        <Object Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_LT_Lod0" >
+            <LOD Level="1" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_LT_Lod1" />
+            <LOD Level="2" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_LT_Lod2" />
+            <LOD Level="3" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_LT_Lod3" />
+            <LOD Level="4" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_LT_Lod4" />
+            <LOD Level="5" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_LT_Lod5" />
+            <LOD Level="6" Mesh="Ships/SFC-Carrier/SM_SFC_Carrier_LT_Lod6" />
             <LODPower>0.30</LODPower>
 			<RejectionSize>0.005</RejectionSize>
             <Material Override="true" />
@@ -886,16 +886,16 @@
 		<DeathTiming>0.0</DeathTiming>
 		<KillCamTiming>4.0</KillCamTiming>
 		<DeathDebrisTiming>6.0</DeathDebrisTiming>
-		<DeathDebrisCount>20</DeathDebrisCount>
+		<DeathDebrisCount>0</DeathDebrisCount>
 		<DeathDebrisScale>20</DeathDebrisScale>
-		<DeathDebris>ShipDebris1</DeathDebris>
-		<DeathDebris>ShipDebris2</DeathDebris>
-		<DeathDebris>ShipDebris3</DeathDebris>
-		<DeathDebris>ShipDebris4</DeathDebris>
-		<DeathDebris>ShipDebris5</DeathDebris>
-		<DeathDebris>ShipDebris6</DeathDebris>
-		<DeathDebris>ShipDebris7</DeathDebris>
-		<DeathDebris>ShipDebris8</DeathDebris>
+		<MainDeathDebrisCount>1</MainDeathDebrisCount>
+		<MainDeathDebrisSpeedScale>1.0</MainDeathDebrisSpeedScale>
+		<MainDeathDebrisRotScale>1.0</MainDeathDebrisRotScale>
+		<MainDeathDebris X="-237.629" Z="564.192" Y="0">CarrierDebris1</MainDeathDebris>
+		<MainDeathDebris X="233.725" Z="611.778" Y="0">CarrierDebris2</MainDeathDebris>
+		<MainDeathDebris X="377.62" Z="-106.947" Y="0">CarrierDebris3</MainDeathDebris>
+		<MainDeathDebris X="152.511" Z="-345.418" Y="0">CarrierDebris4</MainDeathDebris>
+		<MainDeathDebris X="-222.091" Z="-166.001" Y="0">CarrierDebris5</MainDeathDebris>
 		<SalvageDebrisCount>4</SalvageDebrisCount>
 		<DeathCredits>500</DeathCredits>
 		<GriefCredits>150</GriefCredits>
