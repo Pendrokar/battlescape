@@ -3055,9 +3055,10 @@
 		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
 		<AutoAimDefault>true</AutoAimDefault>
 		<TargetSizeRange X="0.0" Y="0.05" />
-		<TargetType Type="Torpedo" Priority="1.0" />
 		<TargetType Type="HeavyMissile" Priority="4.0" />
-		<TargetType Type="LightMissile" Priority="5.0" />
+		<TargetType Type="EMPMissile" Priority="5.0" />
+		<TargetType Type="Torpedo" Priority="6.0" />
+		<TargetType Type="LightMissile" Priority="7.0" />
 		<TargetType Type="Mine" Priority="0.5" />
 		<TrackNoFireClasses>Bomber</TrackNoFireClasses>
 		<TargetTrackRange X="0.75" Y="25.0" />
@@ -4720,7 +4721,7 @@
 		<FireMode>FirstOnStart</FireMode>
 		<FireRate>1.0</FireRate> <!-- Fire rate in number of shots per second -->
 		<BurstCount>2</BurstCount>
-		<BurstCooldown>3.0</BurstCooldown>
+		<BurstCooldown>4.0</BurstCooldown>
 		<BurstFire>true</BurstFire>
 		<SynchroMode>Random</SynchroMode>
 		<TurnSpeed X="50" Y="50" />
@@ -4734,21 +4735,22 @@
 		<AutoAimDefault>true</AutoAimDefault>
 		<LockType>Target</LockType>
 		<LockTime>0.5</LockTime>
-		<LockCone X="0.15" Y="0.15" />
-		<MinLockDistance>1.0</MinLockDistance>
+		<LockCone X="0.35" Y="0.35" />
+		<!-- <MinLockDistance>1.0</MinLockDistance>
 		<MaxLockDistance>25.0</MaxLockDistance>
-		<LockDistanceAI>6.0</LockDistanceAI>
+		<LockDistanceAI>6.0</LockDistanceAI> -->
 		<TargetSizeRange X="0.0" Y="0.25" />
 		<TargetType Type="Mine" Priority="0.5" />
 		<TargetType Type="Torpedo" Priority="1.0" />
-		<TargetType Type="EMPMissile" Priority="3.0" />
-		<TargetType Type="HeavyMissile" Priority="4.0" />
+		<TargetType Type="HeavyMissile" Priority="3.0" />
+		<TargetType Type="EMPMissile" Priority="4.0" />
 		<TargetType Type="Drone" Priority="5.0" />
 		<TrackNoFireClasses>Bomber</TrackNoFireClasses>
 		<TargetTrackRange X="1.0" Y="25.0" />
 		<TargetMaxStack>1</TargetMaxStack>
 		<Icon>MissileLauncher</Icon>
-		<HUDIcon>SI_PlusBig</HUDIcon>
+		<HUDIcon>SI_AntiMissileLaser</HUDIcon>
+		<!-- <HUDIcon>SI_PlusBig</HUDIcon> -->
 		<ShowReticle>false</ShowReticle>
 		<ShowAimDir>false</ShowAimDir>
 		<LeadReticle>false</LeadReticle>
