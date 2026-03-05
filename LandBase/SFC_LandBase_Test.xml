@@ -192,7 +192,7 @@
 			<Target Name="SFC_Military_GunTower1" Socket="s_turret" Weapon="DefenseSeekerBattery" ProbaRangeMin="0.25" ProbaRangeMax="0.5"/>
 			<Target Name="SFC_Military_GunTower1" Socket="s_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.5" ProbaRangeMax="0.75"/>
 			<Target Name="SFC_Military_GunTower1" Socket="s_turret" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.75" ProbaRangeMax="1.0"/>
-			<Target Name="SFC_Military_GunTower1" Socket="s_turret2" Weapon="DefenseSeekerBattery" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
+			<Target Name="SFC_Military_GunTower1" Socket="s_turret2" Weapon="DefenseLaserAMSMK3" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
 
 			<Target Name="SFC_Military_GunTower2" Socket="s_turret" Weapon="DefenseTurretGunMK6" ProbaRangeMin="0.0" ProbaRangeMax="0.25"/>
 			<Target Name="SFC_Military_GunTower2" Socket="s_turret" Weapon="DefenseTurretBlasterMK5" ProbaRangeMin="0.25" ProbaRangeMax="0.5"/>
