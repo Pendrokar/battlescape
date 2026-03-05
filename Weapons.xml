@@ -4717,7 +4717,7 @@
 			<Base>$Dev/Ships/Weapons/SamLauncher/483dc8a7.insm</Base>
 			<Barrel>$Dev/Ships/Weapons/SamLauncher/ca00c59e.insm</Barrel>
 		</Sockets>
-		<Scale>10.0</Scale>
+		<Scale>8.0</Scale>
 		<FireMode>FirstOnStart</FireMode>
 		<FireRate>1.0</FireRate> <!-- Fire rate in number of shots per second -->
 		<BurstCount>2</BurstCount>
