@@ -2057,6 +2057,13 @@
 		<TargetType Type="SmallShip" Priority="1.0" />
 		<TargetType Type="MediumShip" Priority="2.0" />
 		<TargetType Type="LargeShip" Priority="4.0" />
+		<TargetType Type="Mine" Priority="5.0" />
+		<TargetType Type="Torpedo" Priority="6.0" />
+		<TargetType Type="HeavyMissile" Priority="7.0" />
+		<TargetType Type="Drone" Priority="8.0" />
+		<TargetType Type="EMPMissile" Priority="9.0" />
+		<TargetType Type="LightMissile" Priority="9.0" />
+		<TargetType Type="Missile" Priority="9.0" />
 		<LeadAimAcceleration>1.0</LeadAimAcceleration>
 		<Icon>TurretMK4Blaster</Icon>
 		<HUDIcon>SI_Chevron</HUDIcon>
@@ -2173,6 +2180,12 @@
 		<TargetType Type="MediumShip" Priority="1.0" />
 		<TargetType Type="LargeShip" Priority="2.0" />
 		<TargetType Type="Mine" Priority="4.0" />
+		<TargetType Type="Torpedo" Priority="6.0" />
+		<TargetType Type="HeavyMissile" Priority="7.0" />
+		<TargetType Type="Drone" Priority="8.0" />
+		<TargetType Type="EMPMissile" Priority="9.0" />
+		<TargetType Type="LightMissile" Priority="9.0" />
+		<TargetType Type="Missile" Priority="9.0" />
 		<LeadAimAcceleration>1.0</LeadAimAcceleration>
 		<Icon>TurretMK5Gun</Icon>
 		<HUDIcon>SI_Chevron</HUDIcon>
@@ -2291,6 +2304,13 @@
 		<TargetType Type="SmallShip" Priority="4.0" />
 		<TargetType Type="MediumShip" Priority="1.0" />
 		<TargetType Type="LargeShip" Priority="2.0" />
+		<TargetType Type="Mine" Priority="4.0" />
+		<TargetType Type="Torpedo" Priority="6.0" />
+		<TargetType Type="HeavyMissile" Priority="7.0" />
+		<TargetType Type="Drone" Priority="8.0" />
+		<TargetType Type="EMPMissile" Priority="9.0" />
+		<TargetType Type="LightMissile" Priority="9.0" />
+		<TargetType Type="Missile" Priority="9.0" />
 		<LeadAimAcceleration>1.0</LeadAimAcceleration>
 		<Icon>TurretMK5Blaster</Icon>
 		<HUDIcon>SI_Chevron</HUDIcon>
@@ -2828,6 +2848,133 @@
 		<TargetType Type="Torpedo" Priority="0.5" />
 		<TargetType Type="HeavyMissile" Priority="1.0" />
 		<TargetType Type="Mine" Priority="0.5" />
+		<TargetType Type="Drone" Priority="4.0" />
+		<TargetTrackRange X="0.0" Y="8.0" />
+		<LeadAimAcceleration>1.0</LeadAimAcceleration>
+		<Icon>TurretMK4Flak</Icon>
+		<HUDIcon>SI_Chevron</HUDIcon>
+		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
+		<LeadReticle>true</LeadReticle>
+		<Sound>
+			<Name>Mg48</Name>
+			<DuplicateRange>0.02</DuplicateRange>
+			<DuplicateLength>0.1</DuplicateLength>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.0</RotatingPitch>
+		</Sound>
+        <Muzzle>
+			<Effect>ParticleEffects/Weapons/Kinetic/P_WavyStreakMuzzleFlash</Effect>
+			<Scale>0.75</Scale>
+			<Offset>0.0</Offset>
+			<LightColor X="1.0" Y="0.5" Z="0.15" />
+			<LightCutoff>120.0</LightCutoff>
+			<LightDuration>0.25</LightDuration>
+			<RecoilOffset>0.0005</RecoilOffset>
+		</Muzzle>
+		<Ammo>
+			<Type>MediumAmmo</Type>
+			<Cost>2</Cost>
+			<Max>1500</Max>
+		</Ammo>
+		<Shot>
+			<Type>Projectile</Type>
+			<Name>ParticleEffects/Weapons/Kinetic/P_3dProjectile-flak-ball</Name>
+			<Scale X="0.02" Y="0.02" Z="0.04" />
+			<Offset>0.05</Offset>
+			<LightQuality>4</LightQuality>
+			<LightColor X="1" Y="0.4" Z="0.1" />
+			<LightCutoff>75.0</LightCutoff>
+			<KineticDamage>12.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<EnergyDamage>6.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
+			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
+			<SplashRadius>0.1</SplashRadius>
+			<LifeTime>3.34</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>1.4</Speed> <!-- Initial speed the shot gets fired at -->
+			<Heat>6.0</Heat>
+			<Detonates>true</Detonates>
+			<DetonationRange X="1.0" Y="1000.0" />
+			<DirectHitDamageRatio>0.5</DirectHitDamageRatio> <!-- Hit damage ratio for direct hits (aka. less explosive) -->
+		</Shot>
+		<Impact>
+			<Metal>
+                <Effect>FlakExplosion</Effect>
+				<Offset>0.05</Offset>
+				<Scale>2.0</Scale>
+			</Metal>
+			<Shield>
+				<Effect>FlakExplosion</Effect>
+				<Offset>0.0025</Offset>
+				<Scale>2.0</Scale>
+			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<Offset>0.001</Offset>
+				<Scale>2.0</Scale>
+			</Surface>
+			<SmokeDamageScale>0.01</SmokeDamageScale>
+		</Impact>
+	</Weapon>
+
+	<Weapon>
+		<ID>DefenseTurretFlakMK4</ID>
+		<Name>UI_Weapon_TurretFlakMK4_Name</Name>
+		<LongDescr>UI_Weapon_TurretFlakMK4_LongDescr</LongDescr>
+		<Type>AttachBaseBarrel</Type>
+		<Class>MK4</Class>
+		<Credits>0</Credits>
+		<Mass>30.0</Mass>
+		<Mesh>
+			<Attach Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD3" />
+			</Attach>
+			<Base Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD3" />
+			</Base>
+			<Barrel Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Flak_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Flak_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Flak_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Flak_LOD3" />
+			</Barrel>
+			<HitBox>
+				<Min X="-0.010" Y="-0.010" Z="-0.010" />
+				<Max X="0.010" Y="0.010" Z="0.010" />
+			</HitBox>
+		</Mesh>
+		<HitPoints>300</HitPoints>
+		<Sockets>
+			<Attach>$Dev/Ships/Weapons/Mk4_Single/7f1ce4fe.insm</Attach>
+			<Base>$Dev/Ships/Weapons/Mk4_Single/95324bac.insm</Base>
+			<Barrel>$Dev/Ships/Weapons/Mk4_Single/ccb89926.insm</Barrel>
+		</Sockets>
+		<Scale>1.0</Scale>
+		<FireRate>2.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<BurstCount>10</BurstCount>
+		<BurstCooldown>3.0</BurstCooldown>
+		<BurstFire>false</BurstFire>
+		<SynchroMode>Random</SynchroMode>
+		<TurnSpeed X="60" Y="60" />
+		<PitchRange X="-90" Y="4" />
+		<YawRange X="-180" Y="180" />
+		<FireCone X="0.1" Y="0.1" />
+		<AimType>Turret</AimType>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
+		<AutoAimDefault>true</AutoAimDefault>
+		<Spread>0.025</Spread> <!-- Spread angle of projectiles, in radians -->
+		<IgnoreDamageType>true</IgnoreDamageType>
+		<TargetSizeRange X="0.0" Y="0.25" />
+		<TargetType Type="SmallShip" Priority="1.0" />
+		<TargetType Type="MediumShip" Priority="2.0" />
+		<TargetType Type="LargeShip" Priority="4.0" />
+		<TargetType Type="Torpedo" Priority="0.5" />
+		<TargetType Type="HeavyMissile" Priority="1.0" />
+		<TargetType Type="Mine" Priority="0.5" />
+		<TargetType Type="EMPMissile" Priority="3.0" />
+		<TargetType Type="LightMissile" Priority="3.0" />
 		<TargetType Type="Drone" Priority="4.0" />
 		<TargetTrackRange X="0.0" Y="8.0" />
 		<LeadAimAcceleration>1.0</LeadAimAcceleration>
@@ -5199,6 +5346,132 @@
 			<Type>MediumAmmo</Type>
 			<Cost>1</Cost>
 			<Max>2500</Max>
+		</Ammo>
+		<Shot>
+			<Type>Projectile</Type>
+			<Name>ParticleEffects/Weapons/Kinetic/P_3dProjectile-flak-ball</Name>
+			<Scale X="0.02" Y="0.02" Z="0.04" />
+			<Offset>0.05</Offset>
+			<LightQuality>4</LightQuality>
+			<LightColor X="1" Y="0.4" Z="0.1" />
+			<LightCutoff>75.0</LightCutoff>
+			<KineticDamage>22.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
+			<EnergyDamage>10.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
+			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
+			<SplashRadius>0.2</SplashRadius>
+			<LifeTime>3.34</LifeTime> <!-- Duration in seconds until shots fade out and die -->
+			<Speed>1.5</Speed> <!-- Initial speed the shot gets fired at -->
+			<Heat>3.0</Heat>
+			<Detonates>true</Detonates>
+			<DetonationRange X="1.0" Y="1000.0" />
+			<DirectHitDamageRatio>1.0</DirectHitDamageRatio> <!-- Hit damage ratio for direct hits (aka. less explosive) -->
+		</Shot>
+		<Impact>
+			<Metal>
+                <Effect>FlakExplosion</Effect>
+				<Offset>0.05</Offset>
+				<Scale>2.0</Scale>
+			</Metal>
+			<Shield>
+				<Effect>FlakExplosion</Effect>
+				<Offset>0.0025</Offset>
+				<Scale>2.0</Scale>
+			</Shield>
+			<Surface>
+				<Effect>ImpactDirtSmallKinetic</Effect>
+				<Offset>0.001</Offset>
+				<Scale>2.0</Scale>
+			</Surface>
+			<SmokeDamageScale>0.01</SmokeDamageScale>
+		</Impact>
+	</Weapon>
+
+	<Weapon>
+		<ID>DefenseTurretFlakMK6</ID>
+		<Name>UI_Weapon_TurretFlakMK6_Name</Name>
+		<LongDescr>UI_Weapon_TurretFlakMK6_LongDescr</LongDescr>
+		<Type>AttachBaseBarrel</Type>
+		<Class>MK6</Class>
+		<Credits>900</Credits>
+		<Rank>6</Rank>
+		<Mass>500.0</Mass>
+		<Mesh>
+			<Attach Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD3" />
+			</Attach>
+			<Base Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Body_LOD3" />
+			</Base>
+			<Barrel Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Flak_LOD0">
+	            <LOD Level="1" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Flak_LOD1" />
+	            <LOD Level="2" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Flak_LOD2" />
+	            <LOD Level="3" Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Gun_Flak_LOD3" />
+			</Barrel>
+			<HitBox>
+				<Min X="-0.04" Y="-0.04" Z="-0.04" />
+				<Max X="0.04" Y="0.04" Z="0.04" />
+			</HitBox>
+		</Mesh>
+		<HitPoints>1000</HitPoints>
+		<Sockets>
+			<Attach>$Dev/Ships/Weapons/Mk4_Single/7f1ce4fe.insm</Attach>
+			<Base>$Dev/Ships/Weapons/Mk4_Single/95324bac.insm</Base>
+			<Barrel>$Dev/Ships/Weapons/Mk4_Single/ccb89926.insm</Barrel>
+		</Sockets>
+		<Scale>4.0</Scale>
+		<FireRate>100.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<BurstCount>20</BurstCount>
+		<BurstCooldown>5.0</BurstCooldown>
+		<BurstFire>false</BurstFire>
+		<SynchroMode>Random</SynchroMode>
+		<TurnSpeed X="25" Y="25" />
+		<PitchRange X="-90" Y="4" />
+		<YawRange X="-180" Y="180" />
+		<FireCone X="0.1" Y="0.1" />
+		<AimType>Turret</AimType>
+		<AimMode>ManualAimAndFireOrAutoAimAndFire</AimMode>
+		<AutoAimDefault>true</AutoAimDefault>
+		<Spread>0.1</Spread> <!-- Spread angle of projectiles, in radians -->
+		<IgnoreDamageType>true</IgnoreDamageType>
+		<TargetSizeRange X="0.0" Y="100.0" />
+		<TargetType Type="MediumShip" Priority="1.0" />
+		<TargetType Type="SmallShip" Priority="2.0" />
+		<TargetType Type="LargeShip" Priority="4.0" />
+		<TargetType Type="Torpedo" Priority="2.5" />
+		<TargetType Type="HeavyMissile" Priority="5.0" />
+		<TargetType Type="Mine" Priority="1.0" />
+		<TargetType Type="Missile" Priority="6.0" />
+		<TargetTrackRange X="0.0" Y="8.0" />
+		<LeadAimAcceleration>1.0</LeadAimAcceleration>
+		<Icon>TurretMK4Flak</Icon>
+		<HUDIcon>SI_Chevron</HUDIcon>
+		<ShowReticle>true</ShowReticle>
+		<ShowAimDir>true</ShowAimDir>
+		<LeadReticle>true</LeadReticle>
+		<Sound>
+			<Name>Mg48</Name>
+			<DuplicateRange>0.05</DuplicateRange>
+			<DuplicateLength>0.2</DuplicateLength>
+			<RotatingName>RotatingTurret</RotatingName>
+			<RotatingPitch>1.0</RotatingPitch>
+		</Sound>
+        <Muzzle>
+			<Effect>ParticleEffects/Weapons/Kinetic/P_WavyStreakMuzzleFlash</Effect>
+			<Scale>4.0</Scale>
+			<Offset>0.0</Offset>
+			<LightColor X="1.0" Y="0.5" Z="0.15" />
+			<LightCutoff>120.0</LightCutoff>
+			<LightDuration>0.25</LightDuration>
+			<RecoilOffset>0.0005</RecoilOffset>
+		</Muzzle>
+		<Ammo>
+			<Type>MediumAmmo</Type>
+			<Cost>1</Cost>
+			<Max>12500</Max>
 		</Ammo>
 		<Shot>
 			<Type>Projectile</Type>
