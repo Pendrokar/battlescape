@@ -3208,7 +3208,7 @@
 		<TargetType Type="LightMissile" Priority="7.0" />
 		<TargetType Type="Mine" Priority="0.5" />
 		<TrackNoFireClasses>Bomber</TrackNoFireClasses>
-		<TargetTrackRange X="0.75" Y="25.0" />
+		<TargetTrackRange X="0.75" Y="19.0" />
 		<LeadAimAcceleration>1.0</LeadAimAcceleration>
 		<IgnoreDamageType>true</IgnoreDamageType>
 		<Icon>AMSLaser</Icon>
@@ -3252,7 +3252,7 @@
 			<DamageRate>0.25</DamageRate>
 			<LifeTime>0.30</LifeTime> <!-- Duration in seconds until shots fade out and die -->
 			<Speed>8.0</Speed> <!-- Initial speed the shot gets fired at -->
-			<Range>22.0</Range>
+			<Range>17.0</Range>
 			<Heat>20.0</Heat>
 			<LimitRangeToTarget>true</LimitRangeToTarget>
 		</Shot>
@@ -4832,6 +4832,7 @@
 		</Impact>
 	</Weapon>
 
+	<!-- TODO: Add Smart Missile ship system to weapon -->
 	<Weapon>
 		<ID>DefenseSeekerBattery</ID>
 		<Name>UI_Weapon_SSMBattery_Name</Name>
