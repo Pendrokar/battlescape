@@ -1241,20 +1241,20 @@
 		<Weapons>
 			<Target Name="SFC_Station_DefenseTower_A" Socket="s_top_turret" Weapon="DefenseTurretGunMK7" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
 			<Target Name="SFC_Station_DefenseTower_A" Socket="s_left_turret" Weapon="DefenseTurretGunMK5" ProbaRangeMin="0.0" ProbaRangeMax="0.6"/>
-			<Target Name="SFC_Station_DefenseTower_A" Socket="s_left_turret" Weapon="LaserAMSMK3" ProbaRangeMin="0.6" ProbaRangeMax="1.0"/>
+			<Target Name="SFC_Station_DefenseTower_A" Socket="s_left_turret" Weapon="DefenseLaserAMSMK3" ProbaRangeMin="0.6" ProbaRangeMax="1.0"/>
 			<Target Name="SFC_Station_DefenseTower_A" Socket="s_right_turret" Weapon="DefenseTurretBlasterMK5" ProbaRangeMin="0.0" ProbaRangeMax="0.6"/>
-			<Target Name="SFC_Station_DefenseTower_A" Socket="s_right_turret" Weapon="LaserAMSMK3" ProbaRangeMin="0.6" ProbaRangeMax="1.0"/>
+			<Target Name="SFC_Station_DefenseTower_A" Socket="s_right_turret" Weapon="DefenseLaserAMSMK3" ProbaRangeMin="0.6" ProbaRangeMax="1.0"/>
 
 			<Target Name="SFC_Station_DefenseTower_B" Socket="s_left_turret" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="0.7" />
 			<Target Name="SFC_Station_DefenseTower_B" Socket="s_right_turret" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.0" ProbaRangeMax="0.7" />
-			<Target Name="SFC_Station_DefenseTower_B" Socket="s_left_turret" Weapon="LaserAMSMK3" ProbaRangeMin="0.7" ProbaRangeMax="1.0" />
-			<Target Name="SFC_Station_DefenseTower_B" Socket="s_right_turret" Weapon="LaserAMSMK3" ProbaRangeMin="0.7" ProbaRangeMax="1.0" />
+			<Target Name="SFC_Station_DefenseTower_B" Socket="s_left_turret" Weapon="DefenseLaserAMSMK3" ProbaRangeMin="0.7" ProbaRangeMax="1.0" />
+			<Target Name="SFC_Station_DefenseTower_B" Socket="s_right_turret" Weapon="DefenseLaserAMSMK3" ProbaRangeMin="0.7" ProbaRangeMax="1.0" />
 
 			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret_orbital" Weapon="SpaceCanonMK9" ProbaRangeMin="0.0" ProbaRangeMax="1.0"/>
 			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret1" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="0.75"/>
 			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret2" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.0" ProbaRangeMax="0.75"/>
-			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret1" Weapon="LaserAMSMK3" ProbaRangeMin="0.75" ProbaRangeMax="1.0"/>
-			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret2" Weapon="LaserAMSMK3" ProbaRangeMin="0.75" ProbaRangeMax="1.0"/>
+			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret1" Weapon="DefenseLaserAMSMK3" ProbaRangeMin="0.75" ProbaRangeMax="1.0"/>
+			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret2" Weapon="DefenseSeekerBattery" ProbaRangeMin="0.75" ProbaRangeMax="1.0"/>
 			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret3" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="0.5"/>
 			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret3" Weapon="DefenseTurretBlasterMK4" ProbaRangeMin="0.5" ProbaRangeMax="1.0"/>
 			<Target Name="SFC_Station_DefenseStation_B" Socket="s_turret4" Weapon="DefenseTurretGunMK4" ProbaRangeMin="0.0" ProbaRangeMax="0.5"/>
