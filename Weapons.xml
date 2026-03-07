@@ -2974,7 +2974,7 @@
 		<TargetSizeRange X="0.0" Y="0.25" />
 		<TargetType Type="SmallShip" Priority="1.0" />
 		<TargetType Type="MediumShip" Priority="2.0" />
-		<TargetType Type="LargeShip" Priority="4.0" />
+		<TargetType Type="LargeShip" Priority="10.0" />
 		<TargetType Type="Torpedo" Priority="0.5" />
 		<TargetType Type="HeavyMissile" Priority="1.0" />
 		<TargetType Type="Mine" Priority="0.5" />
@@ -5446,7 +5446,7 @@
 		<TargetSizeRange X="0.0" Y="100.0" />
 		<TargetType Type="MediumShip" Priority="1.0" />
 		<TargetType Type="SmallShip" Priority="2.0" />
-		<TargetType Type="LargeShip" Priority="4.0" />
+		<TargetType Type="LargeShip" Priority="10.0" />
 		<TargetType Type="Torpedo" Priority="2.5" />
 		<TargetType Type="HeavyMissile" Priority="5.0" />
 		<TargetType Type="Mine" Priority="1.0" />
