@@ -4753,8 +4753,7 @@
 		<LongDescr>UI_Weapon_SSMBattery_LongDescr</LongDescr>
 		<Type>AttachBaseBarrel</Type>
 		<Class>LightMissilePod</Class>
-		<Credits>1250</Credits>
-		<Rank>7</Rank>
+		<Credits>-1</Credits>
 		<Mass>20.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/SamLauncher/SM_SamLauncher_Base_Lod0">
@@ -4844,8 +4843,7 @@
 		<LongDescr>UI_Weapon_SSMBattery_LongDescr</LongDescr>
 		<Type>AttachBaseBarrel</Type>
 		<Class>LightMissilePod</Class>
-		<Credits>1250</Credits>
-		<Rank>7</Rank>
+		<Credits>-1</Credits>
 		<Mass>20.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/SamLauncher/SM_SamLauncher_Base_Lod0">
@@ -5398,8 +5396,7 @@
 		<LongDescr>UI_Weapon_TurretFlakMK6_LongDescr</LongDescr>
 		<Type>AttachBaseBarrel</Type>
 		<Class>MK6</Class>
-		<Credits>900</Credits>
-		<Rank>6</Rank>
+		<Credits>-1</Credits>
 		<Mass>500.0</Mass>
 		<Mesh>
 			<Attach Mesh="Ships/Weapons/Mk4_Single/SM_Mk4_Single_Base_LOD0">
