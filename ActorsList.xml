@@ -103,6 +103,9 @@
     <ActorType ClassName="CarrierDebris3" ConfigFile="$Dev/Config/Props/CarrierDebris3.xml" />
     <ActorType ClassName="CarrierDebris4" ConfigFile="$Dev/Config/Props/CarrierDebris4.xml" />
     <ActorType ClassName="CarrierDebris5" ConfigFile="$Dev/Config/Props/CarrierDebris5.xml" />
+    <ActorType ClassName="HaulerDebris1" ConfigFile="$Dev/Config/Props/HaulerDebris1.xml" />
+    <ActorType ClassName="HaulerDebris2" ConfigFile="$Dev/Config/Props/HaulerDebris2.xml" />
+    <ActorType ClassName="HaulerDebris3" ConfigFile="$Dev/Config/Props/HaulerDebris3.xml" />
 
 <!--     <ActorType ClassName="Skybear" ConfigFile="$Dev/Config/Ships/Skybear.xml" />
     <ActorType ClassName="Hades" ConfigFile="$Dev/Config/Ships/Hades.xml" />
