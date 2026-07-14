@@ -2016,6 +2016,9 @@
 	</CActorComponent>
 	<CClientActorComponent>
 	</CClientActorComponent>
+	<CHullComponent>
+		<HitPoints>100000000</HitPoints>
+	</CHullComponent>
 	<CBodyComponent>
 		<PhysicsBody Type="Static" >
             <Collisions>true</Collisions>

@@ -2,6 +2,7 @@
 <Layout Name="default layout">
 	<DisplayName>DEFAULT</DisplayName>
 	<Actor>Destroyer</Actor>
+	<IsMain>true</IsMain>
 	<Socket Name="s_mod_reactor2" >
 		<Size>Mk4</Size>
 		<Category>Reactor</Category>

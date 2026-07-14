@@ -2,6 +2,7 @@
 <Layout Name="default layout">
 	<DisplayName>DEFAULT</DisplayName>
 	<Actor>Corvette</Actor>
+	<IsMain>true</IsMain>
 	<Socket Name="s_mod_propulsion" >
 		<Size>Mk3</Size>
 		<Category>Propulsion</Category>

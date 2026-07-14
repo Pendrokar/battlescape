@@ -443,7 +443,8 @@
 	<SoundEffect3D>
 		<Name>SideThrusterSmall</Name>
 		<Path>event:/General/SideThrusterSmall</Path>
-		<VolumeRange X="0" Y="0.2" />
+		<Pitch>0.75</Pitch>
+		<VolumeRange X="0" Y="0.15" />
 		<DistRange X="0.05" Y="10.0" />
 		<Looping>true</Looping>
 	</SoundEffect3D>

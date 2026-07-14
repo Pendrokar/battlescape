@@ -2,6 +2,7 @@
 <Layout Name="default layout">
 	<DisplayName>DEFAULT</DisplayName>
 	<Actor>Interceptor</Actor>
+	<IsMain>true</IsMain>
 	<Socket Name="s_missile_right" >
 		<Size>LightMissilePod</Size>
 		<Category>Weapons</Category>

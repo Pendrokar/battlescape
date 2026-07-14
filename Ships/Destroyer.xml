@@ -253,18 +253,7 @@
 
 		<ContrailEffectSize>0.15</ContrailEffectSize>
 		<DamageEffectSize>0.12</DamageEffectSize>
-		<Skin>
-			<Name>DestroyerScoria</Name>
-			<ColorMap>Ships/SFC-Destroyer/Skins/T_Destroyer_Scoria</ColorMap>
-			<PaintColor1 X="0.6" Y="0.18" Z="0.132" W="1.0" />
-			<PaintColor2 X="1.0" Y="1.0" Z="1.0" W="1.0" />
-		</Skin>
-		<Skin>
-			<Name>DestroyerHavoc</Name>
-			<ColorMap>Ships/SFC-Destroyer/Skins/T_Destroyer_Havoc</ColorMap>
-			<PaintColor1 X="1.0" Y="0.9" Z="0.10" W="1.0" />
-			<PaintColor2 X="0.54" Y="0.74" Z="1.0" W="1.0" />
-		</Skin>
+
 		<ReentryMesh>FX/ReEntry/SM_Destroyer-re-entry</ReentryMesh>
 		<ReentryFrictionScale>0.003</ReentryFrictionScale>
 		<ReentryTailSize>0.20</ReentryTailSize>
@@ -393,6 +382,20 @@
 		<DragCoeffs X="0.0001" Y="0.02" />
 		<DragAreas X="0.7" Y="0.1" Z="1" />
 		<ArmorPoints>3</ArmorPoints>
+
+		<Skin>
+			<Name>DestroyerScoria</Name>
+			<ColorMap>Ships/SFC-Destroyer/Skins/T_Destroyer_Scoria</ColorMap>
+			<PaintColor1 X="0.6" Y="0.18" Z="0.132" W="1.0" />
+			<PaintColor2 X="1.0" Y="1.0" Z="1.0" W="1.0" />
+		</Skin>
+		<Skin>
+			<Name>DestroyerHavoc</Name>
+			<ColorMap>Ships/SFC-Destroyer/Skins/T_Destroyer_Havoc</ColorMap>
+			<PaintColor1 X="1.0" Y="0.9" Z="0.10" W="1.0" />
+			<PaintColor2 X="0.54" Y="0.74" Z="1.0" W="1.0" />
+		</Skin>
+
 		<DefaultSkins>
 			<Skin TeamID="0">DestroyerHavoc</Skin>
 			<Skin TeamID="1">DestroyerScoria</Skin>

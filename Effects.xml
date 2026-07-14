@@ -11,7 +11,7 @@
 		<LightIntensity>100000000.0</LightIntensity>
 		<LightCutoff>60.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 		<LightDuration>0.5</LightDuration>
-		<LightOffset>0.0</LightOffset>
+		<LightOffset X="0" Y="0.0" Z="0" />
 		<Sound>
 			<Name>ImpactGunMetal</Name>
 			<DuplicateRange>0.02</DuplicateRange>
@@ -38,9 +38,9 @@
 			<DuplicateLength>0.5</DuplicateLength>
 		</Sound>
 		<Vibrations>
-			<Amplitude>0.02</Amplitude>
+			<Amplitude>0.03</Amplitude>
 		</Vibrations>
-		<Smog>4</Smog>
+		<Smog>2</Smog>
 	</Effect>
 
 	<Effect>
@@ -49,7 +49,7 @@
 		<ParticleSystem>ParticleEffects/Impacts/P_Impact-kinetic-vs-metal-large</ParticleSystem>
 		<Scale>1.0</Scale>
 		<LightColor X="1.0" Y="0.4" Z="0.0" />
-		<LightOffset>0.03</LightOffset>
+		<LightOffset X="0" Y="0.03" Z="0" />
 		<LightIntensity>10000000000.0</LightIntensity>
 		<!-- <LightCutoff>250.0</LightCutoff> -->
 		<LightDuration>1.5</LightDuration>
@@ -61,7 +61,7 @@
 		<Vibrations>
 			<Amplitude>0.05</Amplitude>
 		</Vibrations>
-		<Smog>8</Smog>
+		<Smog>4</Smog>
 	</Effect>
 
 	<Effect>
@@ -101,7 +101,7 @@
 		<Vibrations>
 			<Amplitude>0.05</Amplitude>
 		</Vibrations>
-		<Smog>8</Smog>
+		<Smog>4</Smog>
 	</Effect>
 
 	<Effect>
@@ -156,7 +156,7 @@
 		<Vibrations>
 			<Amplitude>0.5</Amplitude>
 		</Vibrations>
-		<Smog>14</Smog>
+		<Smog>10</Smog>
 	</Effect>
 
 	<Effect>
@@ -175,7 +175,7 @@
 		<Vibrations>
 			<Amplitude>0.5</Amplitude>
 		</Vibrations>
-		<Smog>14</Smog>
+		<Smog>10</Smog>
 	</Effect>
 
 	<Effect>
@@ -194,7 +194,7 @@
 		<Vibrations>
 			<Amplitude>0.5</Amplitude>
 		</Vibrations>
-		<Smog>14</Smog>
+		<Smog>10</Smog>
 	</Effect>
 
 	<!-- Energy impacts -->
@@ -235,7 +235,7 @@
 		<Vibrations>
 			<Amplitude>0.05</Amplitude>
 		</Vibrations>
-		<Smog>8</Smog>
+		<Smog>4</Smog>
 	</Effect>
 
 	<Effect>
@@ -274,7 +274,7 @@
 		<Vibrations>
 			<Amplitude>0.05</Amplitude>
 		</Vibrations>
-		<Smog>8</Smog>
+		<Smog>4</Smog>
 	</Effect>
 
 	<Effect>
@@ -352,7 +352,7 @@
 			<Size>0.25</Size>
 			<Duration>0.6</Duration>
 		</Vibrations>
-		<Smog>4</Smog>
+		<Smog>3</Smog>
 	</Effect>
 
 	<Effect>
@@ -376,7 +376,7 @@
 			<Size>0.2</Size>
 			<Duration>0.5</Duration>
 		</Vibrations>
-		<Smog>8</Smog>
+		<Smog>5</Smog>
 	</Effect>
 
 	<Effect>
@@ -399,7 +399,7 @@
 			<Size>0.2</Size>
 			<Duration>1.0</Duration>
 		</Vibrations>
-		<Smog>10</Smog>
+		<Smog>6</Smog>
 	</Effect>
 
 	<Effect>
@@ -423,7 +423,7 @@
 			<Size>0.2</Size>
 			<Duration>0.5</Duration>
 		</Vibrations>
-		<Smog>12</Smog>
+		<Smog>8</Smog>
 	</Effect>
 
 	<Effect>
@@ -446,7 +446,7 @@
 			<Size>0.2</Size>
 			<Duration>0.5</Duration>
 		</Vibrations>
-		<Smog>14</Smog>
+		<Smog>8</Smog>
 	</Effect>
 
 	<Effect>
@@ -469,7 +469,7 @@
 			<Size>0.2</Size>
 			<Duration>0.5</Duration>
 		</Vibrations>
-		<Smog>12</Smog>
+		<Smog>7</Smog>
 	</Effect>
 
 	<Effect>
@@ -492,7 +492,7 @@
 			<Size>0.2</Size>
 			<Duration>0.5</Duration>
 		</Vibrations>
-		<Smog>16</Smog>
+		<Smog>10</Smog>
 	</Effect>
 
 	<Effect>
@@ -515,7 +515,7 @@
 			<Size>0.2</Size>
 			<Duration>0.5</Duration>
 		</Vibrations>
-		<Smog>10</Smog>
+		<Smog>5</Smog>
 	</Effect>
 
 	<Effect>
@@ -523,7 +523,7 @@
 		<!-- <ParticleSystem>Particles/Shockwaves/P_CapShipShockwaveBlueOptimized</ParticleSystem> -->
 		<ParticleSystem>ParticleEffects/Shockwaves/P_CapShipShockwaveBlueOptimized1</ParticleSystem>
 		<Scale>1.0</Scale>
-		<LightColor X="0.1" Y="0.3" Z="1.0" />
+		<LightColor X="0.05" Y="0.3" Z="1.0" />
 		<LightIntensity>50000000000.0</LightIntensity>
 		<LightMLQ>8192.0</LightMLQ>
 		<LightDuration>8.0</LightDuration>
@@ -540,7 +540,7 @@
 			<Rough>0.7</Rough>
 			<Duration>0.7</Duration>
 		</Vibrations>
-		<Smog>12</Smog>
+		<Smog>9</Smog>
 	</Effect>
 
 	<Effect>
@@ -560,7 +560,7 @@
 			<Size>0.15</Size>
 			<Duration>0.75</Duration>
 		</Vibrations>
-		<Smog>8</Smog>
+		<Smog>3</Smog>
 	</Effect>
 
 	<Effect>
@@ -580,7 +580,7 @@
 			<Size>0.15</Size>
 			<Duration>0.75</Duration>
 		</Vibrations>
-		<Smog>8</Smog>
+		<Smog>4</Smog>
 	</Effect>
 
 	<Effect>
@@ -623,7 +623,7 @@
 			<Size>0.03</Size>
 			<Duration>0.7</Duration>
 		</Vibrations>
-		<Smog>12</Smog>
+		<Smog>6</Smog>
 	</Effect>
 
 	<Effect>
@@ -632,7 +632,7 @@
 		<ParticleSystem>ParticleEffects/Weapons/Torpedo/P_Explosion_Torpedo1_Impact</ParticleSystem>
 		<Scale>1.0</Scale>
 		<LightColor X="0.3" Y="0.05" Z="1.0" />
-		<LightIntensity>200000000000.0</LightIntensity>
+		<LightIntensity>400000000000.0</LightIntensity>
 		<LightMLQ>8192.0</LightMLQ>
 		<LightDuration>2.5</LightDuration>
 		<Sound>
@@ -646,7 +646,7 @@
 			<Size>0.03</Size>
 			<Duration>0.7</Duration>
 		</Vibrations>
-		<Smog>12</Smog>
+		<Smog>6</Smog>
 	</Effect>
 
 	<Effect>
@@ -654,7 +654,7 @@
 		<!-- <ParticleSystem>Particles/Explosions/Effects/P_Explosion_Mine3</ParticleSystem> -->
 		<ParticleSystem>ParticleEffects/Explosions/P_Explosion-mine</ParticleSystem>
 		<Scale>1.0</Scale>
-		<LightColor X="1.0" Y="0.3" Z="0.2" />
+		<LightColor X="1.0" Y="0.3" Z="0.05" />
 		<LightIntensity>400000000000.0</LightIntensity>
 		<LightMLQ>8192.0</LightMLQ>
 		<LightDuration>6.0</LightDuration>
@@ -671,7 +671,7 @@
 			<Rough>0.7</Rough>
 			<Duration>0.7</Duration>
 		</Vibrations>
-		<Smog>14</Smog>
+		<Smog>8</Smog>
 	</Effect>
 
 	<Effect>
@@ -691,9 +691,9 @@
 			<Gain>0.5</Gain>
 		</Sound>
 		<Vibrations>
-			<Amplitude>0.2</Amplitude>
-			<Size>0.2</Size>
-			<Duration>1.0</Duration>
+			<Amplitude>0.05</Amplitude>
+			<Size>0.15</Size>
+			<Duration>0.5</Duration>
 		</Vibrations>
 	</Effect>
 
@@ -713,7 +713,7 @@
 			<DistRangeScale>2.0</DistRangeScale>
 		</Sound>
 		<Vibrations>
-			<Amplitude>0.25</Amplitude>
+			<Amplitude>0.1</Amplitude>
 			<Size>0.2</Size>
 			<Duration>0.5</Duration>
 		</Vibrations>
@@ -725,7 +725,7 @@
 		<ParticleSystem>ParticleEffects/Abilities/WarpJam/P_Warp-interference-bubble2</ParticleSystem>
 		<Scale>0.35</Scale>
 		<LightColor X="0.2" Y="0.6" Z="1.0" />
-		<LightIntensity>5000000000000.0</LightIntensity>
+		<LightIntensity>3000000000000.0</LightIntensity>
 		<LightMLQ>8192.0</LightMLQ>
 		<LightDuration>2.5</LightDuration>
 		<Sound>
@@ -768,7 +768,7 @@
 		<LightIntensity>10000000000.0</LightIntensity>
 		<LightCutoff>150.0</LightCutoff>
 		<LightDuration>4.5</LightDuration>
-		<LightOffset>0.03</LightOffset>
+		<LightOffset X="0" Y="0.03" Z="0" />
 		<Sound>
 			<Name>FarExplosion</Name>
 			<PostFixRandomCount>-1</PostFixRandomCount>
@@ -790,7 +790,7 @@
 		<LightIntensity>10000000000.0</LightIntensity>
 		<LightCutoff>150.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 		<LightDuration>7.0</LightDuration>
-		<LightOffset>0.03</LightOffset>
+		<LightOffset X="0" Y="0.03" Z="0" />
 		<Sound>
 			<Name>FarExplosion</Name>
 			<PostFixRandomCount>-1</PostFixRandomCount>
@@ -813,7 +813,7 @@
 		<LightIntensity>20000000000.0</LightIntensity>
 		<LightCutoff>200.0</LightCutoff> <!-- want to affect interceptor cockpit interior a bit -->
 		<LightDuration>8.0</LightDuration>
-		<LightOffset>0.03</LightOffset>
+		<LightOffset X="0" Y="0.03" Z="0" />
 		<Sound>
 			<Name>FarExplosion</Name>
 			<PostFixRandomCount>-1</PostFixRandomCount>
@@ -833,11 +833,12 @@
 		<ParticleSystem>ParticleEffects/Weapons/SpinalWeapon/P_Cruiser-spinal-weapon-charge_10s</ParticleSystem>
 		<Scale>1.0</Scale>
 		<LightColor X="1.0" Y="0.2" Z="0.0" />
-		<LightIntensity>20000000000.0</LightIntensity>
+		<LightIntensity>800000000000.0</LightIntensity>
 		<LightMLQ>8192.0</LightMLQ>
-		<LightDuration>10.0</LightDuration>
+		<LightDuration>25.0</LightDuration>
+		<LightOffset X="0" Y="0" Z="0.25" />
 		<Vibrations>
-			<Amplitude>0.2</Amplitude>
+			<Amplitude>0.015</Amplitude>
 			<Size>0.2</Size>
 			<Duration>1.0</Duration>
 		</Vibrations>

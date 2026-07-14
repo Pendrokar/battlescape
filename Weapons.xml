@@ -257,7 +257,7 @@
 		<Shot>
 			<Type>Projectile</Type>
 			<Name>ParticleEffects/Weapons/Blasters/P_3dProjectile-small-blaster-smooth</Name>
-			<Scale X="0.01" Y="0.01" Z="0.006" />
+			<Scale X="0.006" Y="0.006" Z="0.006" />
 			<Offset>0.010</Offset>
 			<LightQuality>4</LightQuality>
 			<LightColor X="0.2" Y="0.6" Z="1.0" />
@@ -455,7 +455,7 @@
 		<Shot>
 			<Type>Projectile</Type>
 			<Name>ParticleEffects/Weapons/Railguns/P_3dProjectile-railgun</Name>
-			<Scale X="0.02" Y="0.02" Z="0.02" />
+			<Scale X="0.015" Y="0.015" Z="0.015" />
 			<Offset>0.02</Offset>
 			<LightQuality>4</LightQuality>
 			<LightColor X="0.5" Y="0.2" Z="1.0" />
@@ -516,10 +516,10 @@
 			<Attach>$Dev/Ships/Weapons/ForwardFacing/4ca462a8.insm</Attach>
 		</Sockets>
 		<Scale>1.0</Scale>
-		<FireRate>7.0</FireRate> <!-- Fire rate in number of shots per second -->
+		<FireRate>6.0</FireRate> <!-- Fire rate in number of shots per second -->
 		<SynchroMode>Sync</SynchroMode>
-		<BurstCount>5</BurstCount>
-		<BurstCooldown>0.75</BurstCooldown>
+		<BurstCount>6</BurstCount>
+		<BurstCooldown>0.5</BurstCooldown>
 		<BurstFire>false</BurstFire>
 		<TurnSpeed X="45" Y="45" />
 		<PitchRange X="-15" Y="15" />
@@ -555,7 +555,7 @@
 		<Shot>
 			<Type>Projectile</Type>
 			<Name>ParticleEffects/Weapons/Blasters/P_3dProjectile-lightning-blast</Name>
-			<Scale X="0.010" Y="0.010" Z="0.010" />
+			<Scale X="0.01" Y="0.01" Z="0.015" />
 			<Offset>0.006</Offset>
 			<LightQuality>4</LightQuality>
 			<LightColor X="0.2" Y="0.6" Z="1.0" />
@@ -564,7 +564,7 @@
 			<EnergyDamage>25.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldOrHull</DamageType> <!-- Type of damage -->
 			<LifeTime>3.57</LifeTime> <!-- Duration in seconds until shots fade out and die -->
-			<Speed>1.4</Speed> <!-- Initial speed the shot gets fired at -->
+			<Speed>1.1</Speed> <!-- Initial speed the shot gets fired at -->
 		</Shot>
 		<Impact>
 			<Metal>
@@ -1836,7 +1836,7 @@
 		<GunOffset X="0" Y="0" Z="0" />
 		<Scale>1.0</Scale>
 		<FireMode>FirstOnStart</FireMode>
-		<FireRate>0.1</FireRate> <!-- Fire rate in number of shots per second -->
+		<FireRate>0.05</FireRate> <!-- Fire rate in number of shots per second -->
 		<SynchroMode>Random</SynchroMode>
 		<TurnSpeed X="0" Y="0" />
 		<PitchRange X="0" Y="0" />
@@ -4211,7 +4211,7 @@
 			<Duration>13.0</Duration>
 			<Effect>SpinalCruiserCharge</Effect>
 			<PropulsionDampDelay>3.0</PropulsionDampDelay>
-			<PropulsionDamp>0.10</PropulsionDamp>
+			<PropulsionDamp>0.25</PropulsionDamp>
 			<NetPrecision>true</NetPrecision>
 			<Sound>
 				<Name>SpinalCanonCharge</Name>
@@ -4233,6 +4233,11 @@
 			<LightIntensity>1024000000000.0</LightIntensity>
 			<LightDuration>1.0</LightDuration>
 			<RecoilOffset>0.1</RecoilOffset>
+			<Vibrations>
+				<Amplitude>0.07</Amplitude>
+				<Size>3.0</Size>
+				<Duration>2.5</Duration>
+			</Vibrations>
 		</Muzzle>
 		<Ammo>
 			<Type>HeavyAmmo</Type>
@@ -4246,8 +4251,8 @@
 			<Scale X="0.12" Y="0.12" Z="0.24" />
 			<Offset>0.24</Offset>
 			<LightQuality>2</LightQuality>
-			<LightColor X="1" Y="0.6" Z="0.1" />
-			<LightCutoff>3500.0</LightCutoff>
+			<LightColor X="1" Y="0.4" Z="0.06" />
+			<LightCutoff>10000.0</LightCutoff>
 			<KineticDamage>25000.0</KineticDamage> <!-- Amount of damage each shot makes on hit -->
 			<EnergyDamage>25000.0</EnergyDamage> <!-- Amount of damage each shot makes on hit -->
 			<DamageType>ShieldHullSpread</DamageType> <!-- Type of damage -->

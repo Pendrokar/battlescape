@@ -2,4 +2,5 @@
 <Layout Name="default layout">
 	<DisplayName>DEFAULT</DisplayName>
 	<Actor>Drone</Actor>
+	<IsMain>true</IsMain>
 </Layout>

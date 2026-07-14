@@ -31,6 +31,7 @@
                 <ActivateDistance>2.5</ActivateDistance>
             </ThrusterModel>
             <Socket Name="s_front_light" >
+				<Offset X="0" Y="0" Z="0.0005" />
                 <Light Type="Spotlight" >
                     <Outercone>90</Outercone>
                     <Innercone>70</Innercone>
@@ -186,18 +187,7 @@
 
 		<ContrailEffectSize>0.06</ContrailEffectSize>
 		<DamageEffectSize>0.025</DamageEffectSize>
-		<Skin>
-			<Name>BomberScoria</Name>
-			<ColorMap>Ships/SFC-Bomber/Skins/T_Skin_Scoria_Dirty</ColorMap>
-			<PaintColor1 X="0.6" Y="0.18" Z="0.132" W="1.0" />
-			<PaintColor2 X="1.0" Y="1.0" Z="1.0" W="1.0" />
-		</Skin>
-		<Skin>
-			<Name>BomberHavoc</Name>
-			<ColorMap>Ships/SFC-Bomber/Skins/T_Skin_Havoc_Dirty</ColorMap>
-			<PaintColor1 X="0.54" Y="0.74" Z="1.0" W="1.0" />
-			<PaintColor2 X="1.0" Y="0.97" Z="0.52" W="1.0" />
-		</Skin>
+
 		<ReentryMesh>FX/ReEntry/SM_Bomber_re-entry</ReentryMesh>
 		<ReentryFrictionScale>0.05</ReentryFrictionScale>
 		<ReentryTailSize>0.06</ReentryTailSize>
@@ -273,7 +263,7 @@
 				<position x="0.00026600022101774812" y="0.010723999701440334" z="0.0014120000414550304" Type="3dsMax"/>
 				<Range>0.1</Range>
 			</Light>
-		
+
 			<Light Type="PointLight" >
 				<Color X="0.0" Y="1.0" Z="0.0" />
 				<Lumens>16000.0</Lumens>
@@ -599,7 +589,7 @@
 	</CActorComponent>
 	<CBodyComponent>
         <PhysicsBody Type="Box" >
-        	<SidesSize X="0.019316" Y="0.009618" Z="0.025341" />
+        	<SidesSize X="0.019316" Y="0.009618" Z="0.026341" />
             <Offset X="0" Y="0" Z="0" />
             <Mass>32.0</Mass>
             <Collisions>true</Collisions>
@@ -651,6 +641,20 @@
 		<DragCoeffs X="0.007" Y="0.7" />
 		<DragAreas X="0.4" Y="0.3" Z="1" />
 		<ArmorPoints>1</ArmorPoints>
+
+		<Skin>
+			<Name>BomberScoria</Name>
+			<ColorMap>Ships/SFC-Bomber/Skins/T_Skin_Scoria_Dirty</ColorMap>
+			<PaintColor1 X="0.6" Y="0.18" Z="0.132" W="1.0" />
+			<PaintColor2 X="1.0" Y="1.0" Z="1.0" W="1.0" />
+		</Skin>
+		<Skin>
+			<Name>BomberHavoc</Name>
+			<ColorMap>Ships/SFC-Bomber/Skins/T_Skin_Havoc_Dirty</ColorMap>
+			<PaintColor1 X="0.54" Y="0.74" Z="1.0" W="1.0" />
+			<PaintColor2 X="1.0" Y="0.97" Z="0.52" W="1.0" />
+		</Skin>
+
 		<DefaultSkins>
 			<Skin TeamID="0">BomberHavoc</Skin>
 			<Skin TeamID="1">BomberScoria</Skin>
@@ -696,6 +700,10 @@
 	</CClientWarpComponent>
 	<CFrontLightComponent>
 		<Socket>s_front_light</Socket>
+		<MinPitch>-0.707</MinPitch>
+		<MaxPitch>0.707</MaxPitch>
+		<MinYaw>-0.707</MinYaw>
+		<MaxYaw>0.707</MaxYaw>
 	</CFrontLightComponent>
 	<CTurboBoostComponent>
 		<!-- Thrust multiplier = 1 + TurboThrustRate + TurboInitialBoost * TimeDecay -->

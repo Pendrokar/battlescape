@@ -2,6 +2,7 @@
 <Layout Name="default layout">
 	<DisplayName>DEFAULT</DisplayName>
 	<Actor>Hauler</Actor>
+	<IsMain>true</IsMain>
 	<Socket Name="s_mk4_rear_top_center" >
 		<Size>Mk4</Size>
 		<Category>Weapons</Category>

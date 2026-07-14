@@ -2,6 +2,7 @@
 <Layout Name="default layout">
 	<DisplayName>DEFAULT</DisplayName>
 	<Actor>Bomber</Actor>
+	<IsMain>true</IsMain>
 	<Socket Name="s_gun_torpedo" >
 		<Size>TorpedoPod</Size>
 		<Category>Weapons</Category>
